@@ -1,0 +1,58 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Barrero-Gil et~al.(2010)Barrero-Gil, Alonso, and
+  Sanz-Andres}]{Barrero-Gil2010a}
+Barrero-Gil, A., Alonso, G., Sanz-Andres, A., Jul. 2010. {Energy harvesting
+  from transverse galloping}. Journal of Sound and Vibration 329~(14),
+  2873--2883.
+
+\bibitem[{Barrero-Gil et~al.(2009)Barrero-Gil, Sanz-Andr\'{e}s, and
+  Roura}]{Barrero-Gil2009}
+Barrero-Gil, A., Sanz-Andr\'{e}s, A., Roura, M., Oct. 2009. {Transverse
+  galloping at low Reynolds numbers}. Journal of Fluids and Structures 25~(7),
+  1236--1242.
+
+\bibitem[{{Den Hartog}(1956)}]{DenHartog1956}
+{Den Hartog}, J.~P., 1956. {Mechanical Vibrations}. Dover Books on Engineering.
+  Dover Publications.
+
+\bibitem[{Glauert(1919)}]{Glauert1919}
+Glauert, H., 1919. {The rotation of an aerofoil about a fixed axis}. Tech.
+  rep., Advisory Committee on Aeronautics R and M 595. HMSO, London.
+
+\bibitem[{Joly et~al.(2012)Joly, Etienne, and Pelletier}]{Joly2012}
+Joly, A., Etienne, S., Pelletier, D., Jan. 2012. {Galloping of square cylinders
+  in cross-flow at low Reynolds numbers}. Journal of Fluids and Structures 28,
+  232--243.
+
+\bibitem[{Luo et~al.(2003)Luo, Chew, and Ng}]{Luo2003}
+Luo, S., Chew, Y., Ng, Y., Aug. 2003. {Hysteresis phenomenon in the galloping
+  oscillation of a square cylinder}. Journal of Fluids and Structures 18~(1),
+  103--118.
+
+\bibitem[{Ng et~al.(2005)Ng, Luo, and Chew}]{Ng2005}
+Ng, Y., Luo, S., Chew, Y., Jan. 2005. {On using high-order polynomial curve
+  fits in the quasi-steady theory for square-cylinder galloping}. Journal of
+  Fluids and Structures 20~(1), 141--146.
+
+\bibitem[{Pa\"{\i}doussis et~al.(2010)Pa\"{\i}doussis, Price, and
+  de~Langre}]{Paidoussis2010}
+Pa\"{\i}doussis, M., Price, S., de~Langre, E., 2010. {Fluid-Structure
+  Interactions : Cross-Flow-Induced Instabilities}. Cambridge University Press.
+
+\bibitem[{Parkinson and Smith(1964)}]{Parkinson1964}
+Parkinson, G.~V., Smith, J.~D., 1964. {The square prism as an aeroelastic
+  non-linear oscillator}. The Quarterly Journal of Mechanics and Applied
+  Mathematics 17~(2), 225--239.
+
+\bibitem[{Vio et~al.(2007)Vio, Dimitriadis, and Cooper}]{Vio2007}
+Vio, G., Dimitriadis, G., Cooper, J., Oct. 2007. {Bifurcation analysis and
+  limit cycle oscillation amplitude prediction methods applied to the
+  aeroelastic galloping problem}. Journal of Fluids and Structures 23~(7),
+  983--1011.
+
+\end{thebibliography}

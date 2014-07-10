@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.6.18)  9 JUL 2014 23:44
-=======
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.6.18)  3 JUL 2014 13:09
->>>>>>> 39670eff6687fb6001a4826ddf560007c1f9ba0e
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.6.18)  10 JUL 2014 16:07
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -258,49 +254,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] (./article.tex
-
-Package natbib Warning: Citation `Paidoussis2010' on page 2 undefined on input 
-line 6.
-
-
-Package natbib Warning: Citation `Glauert1919' on page 2 undefined on input lin
-e 6.
-
-
-Package natbib Warning: Citation `DenHartog1956' on page 2 undefined on input l
-ine 6.
-
-
-Package natbib Warning: Citation `Parkinson1964' on page 2 undefined on input l
-ine 6.
-
-
-Package natbib Warning: Citation `Joly2012' on page 2 undefined on input line 8
-.
-
-
-Package natbib Warning: Citation `Parkinson1964' on page 2 undefined on input l
-ine 8.
-
-
-Package natbib Warning: Citation `Barrero-Gil2010a' on page 2 undefined on inpu
-t line 8.
-
 [2]
-
-Package natbib Warning: Citation `Joly2012' on page 3 undefined on input line 1
-1.
-
-
-Package natbib Warning: Citation `Parkinson1964' on page 3 undefined on input l
-ine 11.
-
-
-<<<<<<< HEAD
 Overfull \hbox (224.51294pt too wide) in paragraph at lines 18--58
-=======
-Overfull \hbox (224.51294pt too wide) in paragraph at lines 17--57
->>>>>>> 39670eff6687fb6001a4826ddf560007c1f9ba0e
 [][][] 
  []
 
@@ -310,73 +265,14 @@ Overfull \vbox (18.26488pt too high) has occurred while \output is active []
 
 [4] (../figure/sketch-1.tex
 File: ../FnP/gnuplot/setup-1.eps Graphic file (type eps)
- <../FnP/gnuplot/setup-1.eps>)
-
-Package natbib Warning: Citation `Parkinson1964' on page 5 undefined on input l
-ine 81.
-
-
-Package natbib Warning: Citation `Barrero-Gil2009' on page 5 undefined on input
- line 81.
-
-
-Package natbib Warning: Citation `Ng2005' on page 5 undefined on input line 81.
-
-
-
-Package natbib Warning: Citation `Joly2012' on page 5 undefined on input line 9
-<<<<<<< HEAD
-2.
-
-[5] (../figure/cy_vs_theta.tex
-=======
-1.
-
-[5]
-! Extra }, or forgotten $.
-l.97 ...)^5{+}a_7\left(\frac{\dot{y}}{U}\right)^7}
-                                                  .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
+ <../FnP/gnuplot/setup-1.eps>) [5]
 (../figure/cy_vs_theta.tex
->>>>>>> 39670eff6687fb6001a4826ddf560007c1f9ba0e
 File: ../FnP/gnuplot/lift_curve_200.eps Graphic file (type eps)
  <../FnP/gnuplot/lift_curve_200.eps>
 File: ../FnP/gnuplot/lift_curve_park.eps Graphic file (type eps)
 
-<../FnP/gnuplot/lift_curve_park.eps>
-
-Package natbib Warning: Citation `Parkinson1964' on page 6 undefined on input l
-ine 19.
-
-
-Package natbib Warning: Citation `Parkinson1964' on page 6 undefined on input l
-ine 19.
-
-) (../figure/coefficient-table.tex) [6] [7] [8]
-
-Package natbib Warning: Citation `Parkinson1964' on page 9 undefined on input l
-<<<<<<< HEAD
-ine 182.
-
-
-Package natbib Warning: Citation `Luo2003' on page 9 undefined on input line 18
-8.
-
-
-Package natbib Warning: Citation `Luo2003' on page 9 undefined on input line 18
-8.
-
-[9] (../figure/uncollapsed_data.tex
-=======
-ine 181.
-
-(../figure/uncollapsed_data.tex
->>>>>>> 39670eff6687fb6001a4826ddf560007c1f9ba0e
+<../FnP/gnuplot/lift_curve_park.eps>) (../figure/coefficient-table.tex)
+[6] [7] [8] [9] (../figure/uncollapsed_data.tex
 File: ../FnP/gnuplot/displacement_amp_re_parkinson_1.eps Graphic file (type eps
 )
 
@@ -387,7 +283,6 @@ File: ../FnP/gnuplot/velocity_amp_re_parkinson.eps Graphic file (type eps)
 File: ../FnP/gnuplot/mean_power_re_parkinson.eps Graphic file (type eps)
 
 <../FnP/gnuplot/mean_power_re_parkinson.eps>
-<<<<<<< HEAD
 File: ../FnP/gnuplot/displacement_amp_re200.eps Graphic file (type eps)
 
 <../FnP/gnuplot/displacement_amp_re200.eps>
@@ -395,29 +290,9 @@ File: ../FnP/gnuplot/velocity_amp_re200.eps Graphic file (type eps)
 
 <../FnP/gnuplot/velocity_amp_re200.eps>
 File: ../FnP/gnuplot/mean_power_re_200.eps Graphic file (type eps)
- <../FnP/gnuplot/mean_power_re_200.eps>
-=======
-File: ../FnP/gnuplot/displacement_amp_re165.eps Graphic file (type eps)
-
-<../FnP/gnuplot/displacement_amp_re165.eps>
-File: ../FnP/gnuplot/velocity_amp_re165.eps Graphic file (type eps)
-
-<../FnP/gnuplot/velocity_amp_re165.eps>
-File: ../FnP/gnuplot/mean_power_re_165.eps Graphic file (type eps)
- <../FnP/gnuplot/mean_power_re_165.eps>
->>>>>>> 39670eff6687fb6001a4826ddf560007c1f9ba0e
-
-Package natbib Warning: Citation `Parkinson1964' on page 10 undefined on input 
-line 40.
-
-
-Package natbib Warning: Citation `Parkinson1964' on page 10 undefined on input 
-line 40.
-
-) (../figure/collapsed_data.tex
+ <../FnP/gnuplot/mean_power_re_200.eps>) (../figure/collapsed_data.tex
 File: ../FnP/gnuplot/displacement_amp_collapsed_parkinson.eps Graphic file (typ
 e eps)
-<<<<<<< HEAD
 
 <../FnP/gnuplot/displacement_amp_collapsed_parkinson.eps>
 File: ../FnP/gnuplot/velocity_amp_collapsed_parkinson.eps Graphic file (type ep
@@ -437,68 +312,12 @@ File: ../FnP/gnuplot/mean_power_collapsed_re_200.eps Graphic file (type eps)
 File: ../FnP/gnuplot/displacement_amp_collpased_re200.eps Graphic file (type ep
 s)
 
-<../FnP/gnuplot/displacement_amp_collpased_re200.eps>
-
-Package natbib Warning: Citation `Parkinson1964' on page 10 undefined on input 
-line 35.
-=======
-
-<../FnP/gnuplot/displacement_amp_collapsed_parkinson.eps>
-File: ../FnP/gnuplot/velocity_amp_collapsed_parkinson.eps Graphic file (type ep
-s)
-
-<../FnP/gnuplot/velocity_amp_collapsed_parkinson.eps>
-File: ../FnP/gnuplot/velocity_amp_collapsed_re165.eps Graphic file (type eps)
-
-<../FnP/gnuplot/velocity_amp_collapsed_re165.eps>
-File: ../FnP/gnuplot/mean_power_collapsed_parkinson.eps Graphic file (type eps)
-
-
-<../FnP/gnuplot/mean_power_collapsed_parkinson.eps>
-File: ../FnP/gnuplot/mean_power_collapsed_re_165.eps Graphic file (type eps)
-
-<../FnP/gnuplot/mean_power_collapsed_re_165.eps>
-File: ../FnP/gnuplot/displacement_amp_collpased_re165.eps Graphic file (type ep
-s)
-
-<../FnP/gnuplot/displacement_amp_collpased_re165.eps>
-
-Package natbib Warning: Citation `Parkinson1964' on page 9 undefined on input l
-ine 35.
->>>>>>> 39670eff6687fb6001a4826ddf560007c1f9ba0e
-
-
-Package natbib Warning: Citation `Parkinson1964' on page 10 undefined on input 
-line 35.
-
-)
-
-<<<<<<< HEAD
-Package natbib Warning: Citation `Parkinson1964' on page 10 undefined on input 
-line 198.
-
-
-Package natbib Warning: Citation `Barrero-Gil2010a' on page 10 undefined on inp
-ut line 198.
-
-
-Package natbib Warning: Citation `Vio2007' on page 10 undefined on input line 1
-98.
-
-
-Package natbib Warning: Citation `Parkinson1964' on page 10 undefined on input 
-line 205.
-
-[10] [11] [12] [13]
-
-Package natbib Warning: Citation `Joly2012' on page 14 undefined on input line 
-238.
-
+<../FnP/gnuplot/displacement_amp_collpased_re200.eps>) [10] [11] [12] [13]
 
 LaTeX Warning: Reference `fig:spectrum_pi1_10' on page 14 undefined on input li
-ne 238.
+ne 250.
 
-(../figure/qss_fsi.tex
+[14] (../figure/qss_fsi.tex
 File: ../FnP/gnuplot/fqss_fsi_displace.eps Graphic file (type eps)
  <../FnP/gnuplot/fqss_fsi_displace.eps>
 File: ../FnP/gnuplot/qss_fsi_velocity.eps Graphic file (type eps)
@@ -534,82 +353,21 @@ File: ../FnP/gnuplot/f_y_history_08.eps Graphic file (type eps)
  <../FnP/gnuplot/f_y_history_08.eps>
 File: ../FnP/gnuplot/theta_time_history_08.eps Graphic file (type eps)
 
-<../FnP/gnuplot/theta_time_history_08.eps>)) [14] [15] [16]
-(./elsarticle-template-harv.bbl)
+<../FnP/gnuplot/theta_time_history_08.eps>)) [15] [16]
+(./elsarticle-template-harv.bbl) [17
 
-Package natbib Warning: There were undefined citations.
-=======
-Package natbib Warning: Citation `Barrero-Gil2010a' on page 9 undefined on inpu
-t line 195.
-
-[9] [10] [11]
-
-Package natbib Warning: Citation `Joly2012' on page 12 undefined on input line 
-206.
-
-(../figure/spectrum_pi_1_10.tex
-File: ../FnP/gnuplot/spectrum_pi1_10_pi2_0.eps Graphic file (type eps)
- <../FnP/gnuplot/spectrum_pi1_10_pi2_0.eps>
-File: ../FnP/gnuplot/spectrum_pi1_10_pi2_0_3.eps Graphic file (type eps)
-
-<../FnP/gnuplot/spectrum_pi1_10_pi2_0_3.eps>
-File: ../FnP/gnuplot/spectrum_pi1_10_pi2_0_54.eps Graphic file (type eps)
-
-<../FnP/gnuplot/spectrum_pi1_10_pi2_0_54.eps>
-File: ../FnP/gnuplot/spectrum_pi1_10_pi2_0_7.eps Graphic file (type eps)
-
-<../FnP/gnuplot/spectrum_pi1_10_pi2_0_7.eps>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 23--24
-[][][] 
- []
-
-) (../figure/power_data.tex
-File: ../FnP/gnuplot/mean_power_re_parkinson.eps Graphic file (type eps)
- <../FnP/gnuplot/mean_power_re_parkinson.eps>
-File: ../FnP/gnuplot/mean_power_re_165.eps Graphic file (type eps)
-
-<../FnP/gnuplot/mean_power_re_165.eps>
-File: ../FnP/gnuplot/mean_power_collapsed_parkinson.eps Graphic file (type eps)
-
-
-<../FnP/gnuplot/mean_power_collapsed_parkinson.eps>
-File: ../FnP/gnuplot/mean_power_collapsed_re_165.eps Graphic file (type eps)
-
-<../FnP/gnuplot/mean_power_collapsed_re_165.eps>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 23--24
-[][][] 
- []
->>>>>>> 39670eff6687fb6001a4826ddf560007c1f9ba0e
-
-(./elsarticle-template-harv.aux)
+] (./elsarticle-template-harv.aux)
 
 LaTeX Warning: There were undefined references.
 
-<<<<<<< HEAD
  ) 
 Here is how much of TeX's memory you used:
- 2798 strings out of 495029
- 37131 string characters out of 6181523
+ 2820 strings out of 495029
+ 37579 string characters out of 6181523
  93282 words of memory out of 5000000
- 5902 multiletter control sequences out of 15000+600000
-=======
-(./elsarticle-template-harv.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
-Here is how much of TeX's memory you used:
- 2779 strings out of 495029
- 36669 string characters out of 6181523
- 93282 words of memory out of 5000000
- 5891 multiletter control sequences out of 15000+600000
->>>>>>> 39670eff6687fb6001a4826ddf560007c1f9ba0e
- 15734 words of font info for 60 fonts, out of 8000000 for 9000
+ 5925 multiletter control sequences out of 15000+600000
+ 15426 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  42i,10n,34p,1342b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-<<<<<<< HEAD
-Output written on elsarticle-template-harv.dvi (16 pages, 50768 bytes).
-=======
-Output written on elsarticle-template-harv.dvi (14 pages, 41568 bytes).
->>>>>>> 39670eff6687fb6001a4826ddf560007c1f9ba0e
+Output written on elsarticle-template-harv.dvi (17 pages, 55536 bytes).
