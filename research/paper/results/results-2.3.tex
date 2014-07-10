@@ -1,0 +1,149 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Stationary data}
+
+The characteristic lift force data for a stationary body ($C_y$) as a function of incident angle $\theta$ obtained using flow simulations are shown in figure \ref{cy ploynomial}(a). They agree well with the low \reynoldsnumber\ data presented in \citet{Joly2012}.
+
+However, there are several differences that can be observed when the low \reynoldsnumber\ data are compared with the $7^{th}$ order polynomial curve at $\reynoldsnumber=22300$ shown in figure \ref{cy ploynomial}(b). The peak value of $C_y$ is  significantly lower at $\reynoldsnumber=165$ ($C_y=0.05$ at $4^\circ$) in comparison with $\reynoldsnumber=22300$ ($C_y=0.57$ at $13^\circ$) . The inflection point present around $8^\circ$ for $\reynoldsnumber=22300$ is not observed at $\reynoldsnumber=165$. This agrees with the findings of \cite{Luo2003}. 
+
+It was concluded by \cite{Luo2003} that hysteresis in the system response occurs due to the inflection point in the $C_y$ curve. Therefore hysteresis is not expected at $\reynoldsnumber=165$.
+
+The range of incident flow angles where $C_y$ remains positive is narrow at $\reynoldsnumber=165$ ($0^\circ <\theta \leq$ $6^\circ$) compared to $\reynoldsnumber=22300$ ($0^\circ <\theta \leq 15^\circ$). This feature is what sustains galloping. Power is only transferred from the fluid to the supporting structure within this range of incident angles because fluid forces are acting in the direction of travel of the oscillating body, as demonstrated by equation \ref{power_alt}. Incident angles beyond this range actually suppress the galloping and power goes in the opposite direction, i.e; from body to fluid. Therefore due to the overall smaller $C_y$ and narrow range of angles where $C_y$ is positive for $\reynoldsnumber=165$ compared to $\reynoldsnumber=22300$, it is expected that power output at $\reynoldsnumber=165$ is significantly lower than at $\reynoldsnumber=22300$. 
+
+\input{../figure/uncollapsed_data}
+
+\subsection{Displacement, velocity and power output as a function of reduced velocity}
+
+ The quasi-steady analysis data reveal that the displacement amplitude grows with increasing $U^*$. This is shown for both the high and low \reynoldsnumber\ cases in figures \ref{fig:uncollapsed_data} (a) and (b). The onset of galloping is delayed with increasing damping ratio $\zeta$ for both high and low Reynolds numbers. This echos the findings of previous studies by \cite{Parkinson1964} and \cite{Barrero-Gil2010a}. Hysteresis could be observed for the case with a higher Reynolds number. Different solutions could be obtained by manipulating the initial conditions (initial displacement) of the system. The upper branch was obtained by giving an initial displacement which was higher than the expected amplitude while the lower branch was obtained by providing a lower initial displacement than the expected amplitude. Although theory shows a possible third state, it is an unstable branch and as such it could not be achieved numerically. This was also observed by \cite{Vio2007}.
+
+\subsubsection*{Power vs $U^*$}
+ 
+ The mean power grows, peaks and then slightly reduces as the reduced velocity $U^*$ is increased. This is shown in figure \ref{fig:uncollapsed_data}(e) and (f) for each value of $\zeta$. The value of  \ustar\ at which the peak power occurs increases with $\zeta$. However, the magnitude of the peaks remain constant for all the values of $\zeta$. \citet{Barrero-Gil2010a} also observed a similar behaviour. The higher Reynolds number case clearly shows hysteresis in the power data. The range of hysteresis increases with increasing $\zeta$.
+
+Unlike VIV, which is a resonant-type phenomenon, the quasi-steady system describing galloping has no strongly preferred frequency. Although the onset of galloping and the value of \ustar\ where peak power occurs varies with the damping ratio $\zeta$, the power extracted remains almost constant for values of \ustar\ beyond that where the peak power occurs. 
+
+The efficiency of the system can be defined as the ratio of the time average power output to $P_{in}=\rho U^3D/2$, the kinetic energy in the fluid approaching the body. A similar definition was given in \citet{Barrero-Gil2010a}). The current results show that the system has a peak efficiency of $0.26\%$  for $\reynoldsnumber=165$ and $6.7\%$ for $\reynoldsnumber=22300$. The peak efficiency reported in \citet{Barrero-Gil2010a} for $\reynoldsnumber=22300$ is approximately $5\%$ less than the current result. This difference is due to \cite{Barrero-Gil2010a} using a $3^{rd}$ order polynomial as the interpolating polynomial which under predicts the forcing at values of $\theta$ where the maximum force occurs as compared to the $7^{th}$ order polynomial used in this study.   
+ 
+\subsection{Galloping response and governing parameters}
+ 
+ % Now the oscillator equation Eq.\eqref{final_equation_motion} is considered from a power perspective. The shedding forces can be neglected because the net effect is negligible as system oscillates at natural frequency which is far from shedding frequency, for the cases that exhibit galloping. It is obvious that the forcing term on LHS of the equation is only dependent on transverse velocity($\dot{y}$) which is essentially the input power of the system. On the RHS, the mechanical damping or system damping is the only term that takes out power at any instant. This could be expressed as the product of the damping force and the velocity ($P_d$). The inertia and the stiffness terms governs the frequency of the system but the forces associated with those terms are conservative forces (i.e there is zero net energy in or out of the system when averaged over a period). Therefore the system is governed by the transverse velocity rather than the natural frequency.
+ 
+The data presented in figure \ref{fig:uncollapsed_data} show that, regardless of the damping ratio $\zeta$, the trend of the response with $U^*$ is similar, suggesting the data can be collapsed by a suitable choice of parameters. These parameters can be found by considering the natural time scales of the equations of motion presented in equation \ref{final_equation_motion}, and by suitably non-dimensionalizing these equations.
+
+The natural time scales of the system can be found by solving for the eigenvalues of the linearized equation of motion, namely
+\begin{equation}
+\label{eqn:eom_linear}
+(m+m_a)\ddot{y}{+}c\dot{y}{+}ky{=}\frac{1}{2}\rho U^2 \mathcal{A} a_1\left(\frac{\dot{y}}{U}\right),
+\end{equation}
+which is simply the equation of motion presented in equation \ref{final_equation_motion} with the polynomial series for the lift force truncated at the linear term, and the forcing term representing vortex shedding removed.
+
+Combining the $\dot{y}$ terms and solving for eigenvalues gives
+\begin{equation}
+  \label{eqn:eigs}
+  \lambda_{1,2}= -\frac{1}{2}\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{(m+m_a)}\pm\frac{1}{2}\sqrt{\left[\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{(m+m_a)}\right]^2-4\frac{k}{(m+m_a)}}.
+\end{equation}
+
+If it is assumed that the spring is relatively weak, $k\rightarrow 0$, a single non-zero eigenvalue remains. This eigenvalue is
+\begin{equation}
+  \label{eqn:eigs_nospring}
+  \lambda=-\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{(m+m_a)}.
+\end{equation}
+
+Further, if it is assumed that the mechanical damping is significantly weaker than the aerodynamic forces on the body, $c\rightarrow 0$ and
+\begin{equation}
+  \label{eqn:eigs_nospring_nodamp}
+  \lambda=\frac{\frac{1}{2}\rho U\mathcal{A}a_1}{(m+m_a)}.
+\end{equation}
+
+For reasonably heavy bodies, the impact of the added mass can also be neglected, to arrive at a definition of $\lambda$ as
+\begin{equation}
+  \label{eqn:eigs_nospring_nodamp}
+  \lambda=\frac{\frac{1}{2}\rho U\mathcal{A}a_1}{m}.
+\end{equation}
+
+In this form, $\lambda$ represents the inverse time scale of the motion of the body due to the negative damping effect of the long-time aerodynamic forces. In fact, the terms can be regrouped and $\lambda$ written as
+\begin{equation}
+  \label{eqn:timescale}
+  \lambda = \frac{a_1}{m^*}\frac{U}{D}
+\end{equation}
+
+Written this way, the important parameters that dictate this inverse time scale are clear. The rate of change in the aerodynamic force with respect to angle of attack when the body is at the equilibrium position, $\partial C_y/\partial \alpha$, is represented by $a_1$. The mass ratio is represented by $m^*$. The inverse advective time scale of the incoming flow is represented by the ratio $U/D$. Increasing $a_1$ would mean the force on the body would increase more rapidly with small changes in the angle of attack, $\theta$, or transverse velocity. Equation \ref{eqn:timescale} shows that such a change will increase the inverse time scale, or analogously decrease the response time of the body. Increasing the mass of the body, thereby increasing $m^*$, has the opposite effect. The inverse time scale is decreased, or as might be expected, a heavier body will take longer to respond.
+
+This timescale can then be used to non-dimensionalize the equation of motion, and to find the relevant dimensionless groups of the problem. If the non-dimensional time, $\tau$, is defined such that $\tau=t(a_1/m^*)(U/D)$, the equation of motion presented in equation \ref{final_equation_motion} can be non-dimensionalized as
+\begin{equation}
+  \label{eqn:eom_nondim}
+  \ddot{Y} + \frac{m^{*2}}{a_1^2}\frac{kD^2}{mU^2}Y = \left(\frac{1}{2} - \frac{m^*}{a_1}\frac{cD}{mU}\right)\dot{Y} + H.O.T.,
+\end{equation}
+
+where $H.O.T.$ respresents the higher order terms in $\dot{Y}$. The coefficients can be regrouped into combinations of non-dimensional groups, and rewritten as
+\begin{equation}
+  \label{eqn:eom_nondim_regroup}
+  \ddot{Y} + \frac{4\pi^{2}m^{*2}}{U^{*2}a_1^2}Y = \left(\frac{1}{2} - \frac{c^*m^*}{a_1}\right)\dot{Y} + H.O.T,
+\end{equation}
+
+where $c^*=cD/mU$ is a non-dimensional damping parameter.
+
+Equation \ref{eqn:eom_nondim_regroup} shows there are four non-dimensional parameters that play a role in setting the response of the system. These are the stiffness (represented by the reduced velocity $U^*$), the damping $c^*$, the mass ratio $m^*$, and the geometry, represented by the rate of change in the aerodynamic force with respect to angle of attack when the body is at the equilibrium position, $a_1$. The grouping of these parameters into two groups in equation \ref{eqn:eom_nondim_regroup} which arise by non-dimensionalising using the natural time scale of the galloping system, suggests there are two groups that dictate the response: $\Gamma_1 = 4\pi^2m^{*2}/U^{*2}a_1^2$ and $\Gamma_2 = c^*m^*/a_1$. For a given geometry and Reynolds number, $\Gamma_1$ can be thought of as a combined mass-stiffness, whereas $\Gamma_2$ can be thought of a a combined mass-damping parameter. As it is assumed that during galloping the stiffnes plays only a minor role, $\Gamma_2$ seems a likely parameter to collapse the data presented in figure \ref{fig:uncollapsed_data}. In fact, in the classic paper on galloping from \citet{Parkinson1964}, galloping data from wind tunnel tests is presented in terms of a parameter that can be shown to be the same as $\Gamma_2$.
+
+All of the quantities that make up $\Gamma_1$ and $\Gamma_2$ can, in theory, be known before an experiment is conducted. However, the quantity $a_1$ is a relatively difficult one to determine, requiring static body experiments or simulations. Here, the geometry is unchanged and results are only being compared at the same \reynoldsnumber. Hence, suitable parameters can be formed by multiplying $\Gamma_1$ and $\Gamma_2$ by $a_1^2$ and $a_1$ respectively, to arrive at a mass-stiffness parameter $\massstiff =  4\pi^2m^{*2}/U^{*2}$, and a mass-damping parameter defined as $\massdamp = c^*m^*$.
+
+Figure \ref{fig:collapsed_data} presents the same data as shown in figure \ref{fig:uncollapsed_data}, but in terms of the parameter \massdamp. The collapse, especially of the velocity amplitude and power output data, is excellent. This result shows that it is possible to obtain a similar power output at different values of \ustar\ or $\zeta$ when the mass-damping constant, \massdamp, is kept fixed. An example of this is shown in figure \ref{fig:time_hostory_velocity_same_power}, where the time history of two cases with clearly different $U^*$ and $\zeta$ values, but the same value of $\massdamp=0.3$, are plotted. The figure clearly shows that the common power output is a result of similar velocity amplitudes between cases if one were to disregard the high frequencies due to shedding. 
+
+\input{../figure/collapsed_data}
+ 
+\input{../figure/velocity_compare}
+
+Power can be expressed as the product of force and velocity. Therefore the instantaneous power from the fluid to the body can be expressed as $P_t=F_y\dot{y}$. Similarly the dissipated power due to the mechanical damping can be expressed as $P_d=(c\dot{y})\dot{y}$. The time average of these two quantities, described in equations \ref{power} and \ref{power_alt} should be equal due to energy conservation, provided that the mechanical friction losses are neglected. The mean power vs $U^*$ provides a detailed explanation for the variation of the output power when the reduced velocity is increased. The key regions consists of region 1 where the $P_{mean}$ increases with \ustar, region 2 where $P_{mean}$ becomes maximum and region 3 where $P_{mean}$ decreases with \ustar. Time histories of $P_t $ and $P_d$ at each of these key regions are presented in figure \ref{fig:power_time_histories}.
+
+The non-dimensional damping, $c^*$, can be shown to be inversely proportional to $U^*$. Hence the damping parameter, and the mas-damping \massdamp, reduces when moving from region 1 to 3. Figure \ref{fig:lift_curves}(a) shows that $C_y$ and therefore instantaneous force rises until $4^\circ$ where it peaks and then falls, and at around $6^\circ$ becomes negative. The maximum amount of power that can be transferred occurs when $\dot{y}$ is such that $\theta$ is near the peak region. At the region where the instantaneous force becomes negative it will be opposing the velocity $\dot{y}$. Data at $\zeta=0.1$, $m^*=40$ and $\reynoldsnumber=165$ are shown in figure \ref{fig:power_time_histories} and are analysed as an example.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{../FnP/sketch_1}
+\caption{ Three key regions taken into account to analyse the time histories of power in a typical mean power vs. $U^*$ curve at $Re=165$. In region 1, high damping suppresses oscillation, hence the power output is low. In region 2, the damping is close to the optimum for power transfer. In region 3, the low damping means little energy is extracted from the fluid.}
+\label{fig:regions_1}
+\end{figure}
+
+
+
+At region 1 where $U^*=90$, $\massdamp=0.56$ the damping constant is high and a clear sinusoidal signal is observed for both $P_d$ and $P_t$ in figure \ref{fig:power_time_histories}(a). Figures \ref{fig:power_time_histories}(d) and  \ref{fig:power_time_histories}(g) show that equivalent incident angle $\theta$ (which for small values, is proportional to the transverse velocity of the body) is in phase with $F_y$.  The velocity amplitude in this case is small and $\theta$ is within the range where the hydrodynamic force increases with the incident angle (i.e. $0<\theta \leq 4^\circ$ as shown in figure \ref{fig:lift_curves}(a)). According to equation \ref{power_alt}, these conditions are suitable for high power output. However in this case, the power output is limited by the high damping which limits the amplitude of the oscillation.
+ 
+At region 3 ($U^*= 400$, $\massdamp=0.13$) the damping is low in comparison with region 1 and 2. While this may lead to larger oscillations, damping is required to dissipate power according to equation \ref{power}. Therefore, the low damping in this region leads to a low mean power output. Fig.\ref{fig:power_time_histories} (c) shows that $P_t$ becomes negative over some portion of the cycle. This is caused by the high velocity amplitude leading to the equivalent incident angle $\theta$ to exceed the range where $C_y$ is positive (i.e. $0<\theta<6^\circ$ as shown in figure\ref{cy ploynomial}(a)). In this portion of the cycle the hydrodynamic force actually opposes the direction of travel and power is transferred from the structure to the fluid during those times. From an energy perspective, the mechanical damping is not sufficient to removerthe energy transferred from the fluid to the structure during other times of the cycle because $\Gamma_2$ is substantially low. Therefore this excess energy is transferred back to the fluid as depicted by the negative region of $P_d$ in Fig.\ref{fig:power_time_histories}(c). 
+ 
+At region 2 ($U^*=165$, $\massdamp=0.3$), a balance is found between high and low values of damping. $P_t$ is not a pure sinusoidal signal, however the signal remains periodic. From the time history graph of $P_t$, two `peaks' are present in a single half cycle as shown if figure \ref{fig:power_time_histories}(b). In this case, the velocity amplitude actually exceeds the equivalent incident angle where the hydrodynamic forces peaks (i.e. $\theta=4^\circ$ in \ref{cy ploynomial} (a)). The dips in $P_d$ between the two peaks approximately correspond to the time where the transverse velocity is higher than 0.07 and $F_y$ is decreasing with increasing transverse velocity. The mean power output is at its maximum. This is due to the fact that this region is the best compromise between region 1 and 3. The damping is high enough to obtain a high power output while not too high to allow the induced angle of attack to enter the region where the forcing opposes the direction of travel. 
+
+  
+\input{../figure/time_histories}
+
+
+\subsection{Effect of $m^*$}
+
+ \input{../figure/m_star_collapsed}
+ \input{../figure/mstar_parkinson}
+
+The mean power at different $m^*$ is presented as a function of the mass-damping parameter \massdamp\ in figure \ref{fig:m_star_collapsed}(a) for the low \reynoldsnumber\ case. For $m^*>30$, the power output is essentially independent of $m^*$, while at $m^* \leq 30$, the power output reduces with reducing $m^*$ across the parameter range. However, when the sinusoidal forcing function in equation \ref{equationofmotion}, which caters for the vortex shedding, is disregarded, the reduction in power is not observed as shown in figure \ref{fig:m_star_collapsed}(b). The suppression of galloping response at low $m^*$ and low \reynoldsnumber\ due to the presence of vortex shedding has previously been observed by \cite{Joly2012}. This is a non-linear interaction between the forcing that drives the galloping excitation and the forcing as a result of vortex shedding. The forcing associated with vortex  shedding is significantly larger and at a higher frequency than the forcing that drives galloping. Systems with low $m^*$ do not have enough inertia to fully sustain the galloping excitation over the longer period.
+
+At $\reynoldsnumber=22300$ power output increases with decreasing $m^*$ for cases with $m^*<50$. The overall mean power tend to increase as the $m^*$ was decreased when $U^*$ was kept constant (Fig\ref{fig:mstarcollapsed_parkinson} (a)). The same effect was observed when $U^*$ was increased keeping $m^*$ constant (\ref{fig:mstarcollapsed_parkinson} (b)). It should be noted that the influence of $U^*$ was observed only for low mass ratios. This is perhaps not surprising, as the definition of $\massstiff$ shows that this mass-stiffness parameter goes quickly to zero as $U^*$ grows, but that it will be of comparable order to the mass-damping \massdamp\ when $U^*$ approaches unity. Therefore, the influence of this second parameter \massstiff\ cannot be ignored for cases where $U^*$ is low.
+
+The velocity time traces of example cases of both scenarios presented in figure \ref{time_hostory_mstar_mass} and \ref{time_history_mstar_ustar} show that essentially the same phenomenon occurs in both cases whereby the velocity signal tends to shift from a sinusoidal signal towards a square wave. The corresponding displacement signal tends to become more like a triangular wave. When the inertia of the system reduces, the body can accelerate faster thus attaining higher velocities more rapidly and spend a higher proportion of the period at a high velocity. Higher velocities are favourable because they result in higher hydrodynamic forcing and power output from mechanical damping. However, the velocity is limited by the characteristics of the hydrodynamic forcing which reaches a maximum and then decreases past an incident angle of of $13.21^{\circ}$ which corresponds to a transverse velocity of $\dot{y}/U=0.235$. It is estimated that the efficiency limit i.e ($\ustar \rightarrow \infty$, $m^* \rightarrow 0$ and $\massdamp=1.22$) will approach $13.5\%$ which corresponds to a square wave velocity signal with a velocity amplitude that results in maximum  hydrodynamic forcing.
+
+\input{../figure/time_history_msar_mass}
+
+\input{../figure/time_history_msar_ustar}
+
+\input{../figure/qss_fsi}
+
+\subsection{Comparison with FSI simulations}
+As the results to this point are based on solving equations which come from the quasistatic assumption, it is natural to query how these results compare to the real flow. Here, results are presented of full fluid-structure direct numerical simulations (FSI) at $\reynoldsnumber=165$ and compared to the results obtained from the quasistatic model (QSS) at the same \reynoldsnumber.
+
+Qualitatively, the two compare very well. Similar trends were captured for both displacement and velocity amplitudes between QSS and FSI simulations as shown in figures \ref{fig:FSI_QSS_compare}(a) and \ref{fig:FSI_QSS_compare}(b). However, there is a reasonably large quantitative discrepancy (average of $30\%$) between QSS and FSI data, with the QSS model overpredicting the response of the body. Therefore the predicted power output is reduced in the FSI data, as shown in figure \ref{fig:FSI_QSS_compare}(c). However, the FSI data does produce the main rise and fall of mean power when $U^*$ was increased.
+
+The exact reason behind this discrepancy is unclear. A possible explanation is that galloping is reasonably weak at $\reynoldsnumber=165$.  It was reported by \cite{Barrero-Gil2009} that galloping only starts to occur ar Re $\geq 159$. It may be that simulations conducted so close to the threshold for the onset of galloping are very sensitive to errors due to blockage or under-resolution, both of which can change the effective \reynoldsnumber\ of the flow. Small changes in effective \reynoldsnumber\ can have a significant impact of the fluid damping, and therefore on the amplitude and transverse velocity of the body. As power is a function of $(\dot{y})^2$ the error between QSS and FSI power is compounded.
+
+\section{Conclusion}
+\label{sec:conc}
+
+In this paper, the power transfer of a square body under aero elastic galloping is analysed by solving the quasi-steady state model equations through numerical integration. At higher $m^*$ ($m^*>30$ at lower \reynoldsnumber\ and $m^*> 50$ at high \reynoldsnumber) the power output of the system is not dependent on \ustar or natural frequency of the system, but controlled by the non-dimensionalised mass-damping constant \massdamp . By analysing key regions of the power vs \ustar curve is concluded that in order to obtain an optimum power output, the mass-damping constant $\Gamma_2$ should be high, but not so excessive that it hinders the galloping from reaching induced angles of attack where the forcing is significant. The effect of mass ratio was also observed. The peak efficiency was found to be $0.26\%$ for $\reynoldsnumber=165$ and $6.7\%$ for $\reynoldsnumber=22300$  when $\Gamma_2=0.314$ and $\Gamma_2=1.04$ respectively. In the low \reynoldsnumber\ case, the mean power tends to decrease at $m^*<30$ which appears to be due to the influence of vortex shedding. At $\reynoldsnumber=22300$ the opposite is observed where the mean power tends to increase with decreasing mass ratio, as well as the mean power increasing with increasing $U^*$ at low mass ratios. For this higher \reynoldsnumber\ case, When the mass ratio decreases, due to the lower inertia the velocity time trace tend to move from a sinusoidal signal towards a square signal where it sustains high velocities for longer periods of time which leads to a higher mean power output. The limit to peak efficiency was found out to be $13.5\%$ and occurs when $m^*\rightarrow 0$ and $\ustar \rightarrow \infty$ and $\massdamp=1.22$ by analysing the data trend by lowering the $m^*$.
+
+ % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %

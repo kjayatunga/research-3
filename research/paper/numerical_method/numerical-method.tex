@@ -1,0 +1,15 @@
+\section{Numerical method}
+A spectral element approach was used to solve the incompressible Naiver-Stokes equations.These equations were solved using an accelerated frame of reference. A three-step time splitting scheme together with high-order Lagrangian polynomials were used to obtain the solution.The details of the method could be found in \cite{Thompson2006,Thompson1996a}. This code was incorporated in \cite{Leontini2011,Leontini2007a}  where it was employed in a fluid-structure interaction problems. 
+
+The computational domain consists of 690 quadrilateral macro elements(refer figure) where majority of the elements were concentrated near the square section.A freestream condition was given to the inlet, top and bottom boundaries and the normal velocity gradient was set to zero at the outlet..A convergence study was performed by changing the order of the polynomial ($p$-refinement) at U*=40 
+
+\subsection{Calculating power}
+
+A somewhat simple method was used to obtained the power output where it was assumed that the majority of the power was absorbed by the damper.Thus the mean power was obtained using equation \eqref{power_int} and the peak-to-peak mean power was obtained. 
+\begin{equation}
+\label{power_int}
+P_{extracted}=\frac{1}{T}\int_0^T(c\dot{y})\dot{y}dt
+\end{equation}
+
+$\dot{y}$ is the time derivative of the transverse displacement, $c$ is the damping coefficient and $T$ is time.
+

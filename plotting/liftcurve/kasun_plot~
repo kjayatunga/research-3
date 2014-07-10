@@ -1,0 +1,26 @@
+reset
+unset key
+set term postscript enhanced portrait monochrome size 12cm,6cm "Times-roman" 12
+set output "lift_curve_200.eps"
+#set label 'x 10^{-3}' at graph -0.01, graph 1.08
+#set format y "%.1t"
+set xtics nomirror
+set ytics nomirror
+set xtics (0,4,8,12,16)
+#set xtics format " " 
+set ytics (-0.25,-0.125,0,0.125,0.25)
+plot [][-0.25:0.25] "200line" u 1:2 w l lt 1 lw 2, "200points" u 1:2 w p pt 7 
+
+############################################################################################################reset
+reset
+unset key
+set term postscript enhanced portrait monochrome size 12cm,6cm "Times-roman" 12
+set output "lift_curve_park.eps"
+#set label 'x 10^{-3}' at graph -0.01, graph 1.08
+#set format y "%.1t"
+set xtics nomirror
+set ytics nomirror
+set xtics (0,4,8,12,16)
+#set xtics format " " 
+set ytics (-0.6,-0.3,0,0.3,0.6 )
+plot [][-0.6:0.6] "park" u 1:2 w l lt 1 lw 2
