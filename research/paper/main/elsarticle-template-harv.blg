@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: elsarticle-template-harv.aux
 The style file: elsarticle-harv.bst
 Database file #1: ../BibteX/Paper.bib
-You've used 10 entries,
+You've used 16 entries,
             2821 wiz_defined-function locations,
-            706 strings with 6276 characters,
-and the built_in function-call counts, 4854 in all, are:
-= -- 509
-> -- 228
-< -- 3
-+ -- 85
-- -- 75
-* -- 435
-:= -- 876
-add.period$ -- 31
-call.type$ -- 10
-change.case$ -- 74
-chr.to.int$ -- 10
-cite$ -- 10
-duplicate$ -- 175
-empty$ -- 338
-format.name$ -- 103
-if$ -- 970
+            751 strings with 7387 characters,
+and the built_in function-call counts, 8007 in all, are:
+= -- 835
+> -- 398
+< -- 4
++ -- 148
+- -- 132
+* -- 734
+:= -- 1443
+add.period$ -- 49
+call.type$ -- 16
+change.case$ -- 123
+chr.to.int$ -- 16
+cite$ -- 16
+duplicate$ -- 283
+empty$ -- 542
+format.name$ -- 180
+if$ -- 1598
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 11
-newline$ -- 37
-num.names$ -- 40
-pop$ -- 69
+missing$ -- 17
+newline$ -- 55
+num.names$ -- 64
+pop$ -- 112
 preamble$ -- 1
-purify$ -- 65
+purify$ -- 108
 quote$ -- 0
-skip$ -- 128
+skip$ -- 203
 stack$ -- 0
-substring$ -- 300
-swap$ -- 25
+substring$ -- 495
+swap$ -- 42
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
+type$ -- 138
 warning$ -- 0
-while$ -- 44
+while$ -- 71
 width$ -- 0
-write$ -- 116
+write$ -- 182

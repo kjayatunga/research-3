@@ -122,8 +122,14 @@ where $F_y$ is the transverse (lift) force.
 
  \input{../figure/coefficient-table}
  
- \subsection{Validation}
- \label{ubsec:validation}
+ \subsection{Parameters used} 
+  
+ For the low \reynoldsnumber\ tests, $\reynoldsnumber=200$ was maintained.  Stationary $C_y$ data were obtained at different angles of attack ranging from $0^\circ$ to $16^\circ$. The average power was obtained by using equation \ref{power}, and the averaging was done over no less than 20 galloping periods. Predictions of power output at $\reynoldsnumber=22300$ were obtained using the coefficients for curve fitting $C_y$ (Table (\ref{table:cy-coefficients})) from \citet{Parkinson1964}, in order to provide a comparison between high and low Reynolds numbers. The mass ratio $m^*$ was kept at 1163 for $\reynoldsnumber=22300$ (Similar to \citet{Parkinson1964}) and $m^*=20$ for \reynoldsnumber=200. These parameters were used throughout this study unless otherwise specified. 
+ 
+ The stationary data and the fluid-structure interaction (FSI) data were obtained using a high-order spectral element routine to simulate the two-dimensional laminar flow.  Simulations involving fluid structure interaction (FSI) were used to provide additional validation of the QSS model. The inlet was placed $20D$ while the outlet situated $60D$ away from the centroid of the body. The side boundaries were placed $20D$ away from the centroid of the body where $D$ was kept as unity throughout this study. The Navier--Stokes equations were solved in an accelerated frame of reference attached to the moving body along with the body equation of motion given in equation \ref{equationofmotion}. A three-step time splitting scheme together with high-order Lagrangian polynomials were used to obtain the solution. The details of the method can be found in \citet{Thompson2006,Thompson1996a}. This code has been very well validated in a variety of fluid-structure interaction problems \citep{Leontini2007a,Griffith2011,Leontini2011,Leontini2013}.
+  
+ The computational domain consists of 751 quadrilateral macro elements where the majority of the elements were concentrated near the square section. A freestream condition was given to the inlet, top and bottom boundaries and the normal velocity gradient was set to zero at the outlet. A convergence study was performed by changing the order of the polynomial ($p$-refinement) at $U^*=40$ and $\reynoldsnumber=200$. A $9^{th}$ order polynomial together with a time step of $\Delta tU/D=0.001$ was sufficient to ensure an accuracy of $2\%$ with regards to amplitude of oscillation.
+ 
  
  
  % % % % % % % % % % % % % Time scales % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
@@ -193,22 +199,19 @@ where $F_y$ is the transverse (lift) force.
 
  \input{../figure/uncollapsed_data}
   \input{../figure/collapsed_data}
-<<<<<<< HEAD
+  
   
     
    The quasi-steady analysis data reveal that the displacement amplitude grows with increasing $U^*$. This is shown for both the high and low \reynoldsnumber\ cases in figures \ref{fig:uncollapsed_data} (a) and (b). The onset of galloping is delayed with increasing damping ratio $\zeta$ for both high and low Reynolds numbers. This echos the findings of previous studies by \cite{Parkinson1964} and \cite{Barrero-Gil2010a}. Hysteresis could be observed for the case with a higher Reynolds number. Different solutions could be obtained by manipulating the initial conditions (initial displacement) of the system. The upper branch was obtained by giving an initial displacement which was higher than the expected amplitude while the lower branch was obtained by providing a lower initial displacement than the expected amplitude. Although theory shows a possible third state, it is an unstable branch and as such it could not be achieved numerically. This was also observed by \cite{Vio2007}.
   
-  The data presented in figure \ref{fig:uncollapsed_data} show that, regardless of the damping ratio $\zeta$, the trend of the response with $U^*$ is similar, suggesting the data can be collapsed by a suitable choice of parameters. These parameters can be found by considering the natural time scales which was mentioned earlier. Figure \ref{fig:collapsed_data} presents the same data as shown in figure \ref{fig:uncollapsed_data}, but in terms of the parameter \massdamp. The collapse, especially of the velocity amplitude and power output data, is excellent. This result shows that it is possible to obtain a similar power output at different values of \ustar\ or $\zeta$ when the mass-damping constant, \massdamp, is kept fixed.
-  
+  The data presented in figure \ref{fig:uncollapsed_data} show that, regardless of the damping ratio $\zeta$, the trend of the response with $U^*$ is similar, suggesting the data can be collapsed by a suitable choice of parameters. These parameters can be found by considering the natural time scales which was mentioned earlier. Figure \ref{fig:collapsed_data} presents the same data as shown in figure \ref{fig:uncollapsed_data}, but in terms of the parameter \massdamp. The collapse, especially of the velocity amplitude and power output data, is excellent. This result shows that it is possible to obtain a similar power output at different values of \ustar\ or $\zeta$ when the mass-damping constant where \massdamp, is kept fixed.
   
   
   
   Figure \ref{fig:lift_curves} shows the plots of the interpolation polynomials as a function of $\theta$. For high \reynoldsnumber the polynomial incorporated by \cite{Parkinson1964} was used. For low \reynoldsnumber two polynomials were used to obtain a better fit to the data. One to fit data from $\theta=0^0 \rightarrow 7^0$ and the other $\theta > 7^0$ 
   
 
-=======
- 
->>>>>>> 39670eff6687fb6001a4826ddf560007c1f9ba0e
+
  \subsection{Displacement, velocity and power}
  
  Power can be expressed as the product of force and velocity. Therefore the instantaneous power from the fluid to the body can be expressed as $P_t=F_y\dot{y}$. Similarly the dissipated power due to the mechanical damping can be expressed as $P_d=(c\dot{y})\dot{y}$. The time average of these two quantities, described in equations \ref{power} and \ref{power_alt} should be equal due to energy conservation, provided that the mechanical friction losses are neglected. The mean power vs $\massdamp$ provides a detailed explanation for the variation of the output power when \massdamp is increased. The key regions consists of region 1 where the $P_{mean}$ increases with \massdamp, region 2 where $P_{mean}$ becomes maximum and region 3 where $P_{mean}$ decreases with \massdamp. Time histories of $P_t $ and $P_d$ at each of these key regions are presented in figure \ref{fig:power_time_histories}.
@@ -216,42 +219,31 @@ where $F_y$ is the transverse (lift) force.
  Figure \ref{fig:lift_curves}(a) shows that $C_y$ and therefore instantaneous force rises until $4^\circ$ where it peaks and then falls, and at around $6^\circ$ becomes negative. The maximum amount of power that can be transferred occurs when $\dot{y}$ is such that $\theta$ is near the peak region. At the region where the instantaneous force becomes negative it will be opposing the velocity $\dot{y}$. Data at $\massstiff=10$, $m^*=20$ and $\reynoldsnumber=200$ are shown in figure \ref{fig:power_time_histories} and are analysed as an example.
  
  % % % % % % % % % % % done 
- 
+  
+  \input{../figure/time_histories}
+  
   At region 1 ($\massdamp=0.3$) the damping is low in comparison with region 1 and 2. While this may lead to larger oscillations, damping is required to dissipate power according to equation \ref{power}. Therefore, the low damping in this region leads to a low mean power output. Fig.\ref{fig:power_time_histories} (a) shows that $P_t$ becomes negative over some portion of the cycle. This is caused by the high velocity amplitude leading to the equivalent incident angle $\theta$ to exceed the range where $C_y$ is positive (i.e. $0<\theta<6^\circ$ as shown in figure\ref{cy ploynomial}(a)). In this portion of the cycle the hydrodynamic force actually opposes the direction of travel and power is transferred from the structure to the fluid during those times. From an energy perspective, the mechanical damping is not sufficient to remover the energy transferred from the fluid to the structure during other times of the cycle because $\Gamma_2$ is substantially low. Therefore this excess energy is transferred back to the fluid as depicted by the negative region of $P_d$ in Fig.\ref{fig:power_time_histories}(a).
  
  
-<<<<<<< HEAD
+
  At region 2 where $\massdamp=0.8$ the damping constant is high and a clear sinusoidal signal is observed for both $P_d$ and $P_t$ in figure \ref{fig:power_time_histories}(c). Figures \ref{fig:power_time_histories}(f) and  \ref{fig:power_time_histories}(i) show that equivalent incident angle $\theta$ (which for small values, is proportional to the transverse velocity of the body) is in phase with $F_y$.  The velocity amplitude in this case is small and $\theta$ is within the range where the hydrodynamic force increases with the incident angle (i.e. $0<\theta \leq 5^\circ$ as shown in figure \ref{fig:lift_curves}(a)). According to equation \ref{power_alt}, these conditions are suitable for high power output. However in this case, the power output is limited by the high damping which limits the amplitude of the oscillation.
   
  
   
- At region 2 ( $\massdamp=0.54$), a balance is found between high and low values of damping. $P_t$ is not a pure sinusoidal signal, however the signal remains periodic. From the time history graph of $P_t$, two `peaks' are present in a single half cycle as shown if figure \ref{fig:power_time_histories}(b). In this case, the velocity amplitude actually exceeds the equivalent incident angle where the hydrodynamic forces peaks (i.e. $\theta=5^\circ$ in \ref{cy ploynomial} (a)). The dips in $P_d$ between the two peaks approximately correspond to the time where the transverse velocity is higher than 0.09 and $F_y$ is decreasing with increasing transverse velocity. The mean power output is at its maximum. This is due to the fact that this region is the best compromise between region 1 and 3. The damping is high enough to obtain a high power output while not too high to allow the induced angle of attack to enter the region where the forcing opposes the direction of travel. 
+ At region 3 ( $\massdamp=0.54$), a balance is found between high and low values of damping. $P_t$ is not a pure sinusoidal signal, however the signal remains periodic. From the time history graph of $P_t$, two `peaks' are present in a single half cycle as shown if figure \ref{fig:power_time_histories}(b). In this case, the velocity amplitude actually exceeds the equivalent incident angle where the hydrodynamic forces peaks (i.e. $\theta=5^\circ$ in \ref{cy ploynomial} (a)). The dips in $P_d$ between the two peaks approximately correspond to the time where the transverse velocity is higher than 0.09 and $F_y$ is decreasing with increasing transverse velocity. The mean power output is at its maximum. This is due to the fact that this region is the best compromise between region 1 and 3. The damping is high enough to obtain a high power output while not too high to allow the induced angle of attack to enter the region where the forcing opposes the direction of travel. 
  
  
 
  
-\subsection{limitations of the quasi-steady hypothesis at low Reynolds numbers}
-
-\subsection{Comparison between QSS and DNS results}
-=======
-
 \subsection{limitation of the quasi-steady hypothesis at low Reynolds numbers}
+
+\input{../figure/qss_fsi}
 
 The QSS hypothesis assumes that the only force driving the system is the instantaneous lift generated by the induced velocity. However, vortex shedding is also present in this system. Therefore, an essential assumption when this model is used is that the effect of vortex shedding is minimal. Hence, the model has been always used at high \reynoldsnumber and high mass ratios. The present study is focused on quantifying the limiting parameters of the QSS model at low Reynolds numbers by providing a comparison with DNS results. 
 
->>>>>>> 39670eff6687fb6001a4826ddf560007c1f9ba0e
+\citet{Joly2012} showed that the displacement data obtained using the QSS assumption and DNS agree well at low Reynolds numbers, with the modification implemented to the oscillator equation which accounts for the vortex shedding. These data were obtained at zero damping levels. Since the current study was focused on the power transfer,  analysing he behaviour of the velocity as the damping is increased was of interest. The comparison between the QSS and the DNS results (figure \ref{fig:qss_fsi}) revealed that
+the discrepancy of the power data  increases significantly as \massdamp \ is increased for a given \massstiff. However, it could be also be observed that the discrepancy on power is reduced when the mass ratio is increased.
 
-
-
-
-
-
-
-\cite{Joly2012} showed that the displacement data obtained using the QSS assumption and DNS agree well at low Reynolds numbers, with the modification implemented to the oscillator equation which accounts for the vortex shedding. These data were obtained at zero damping levels. Since the current study was focused on the power transfer, more focus was put on analysing he behaviour od the velocity as the damping is increased. The comparison between the QSS and the DNS results revealed that the discrepancy of the power data  increases significantly as \massdamp \ is increased. From figure \ref{fig:spectrum_pi1_10} (powers spectrum analysis done on the DNS results) it is evident that the relative strength of the galloping signal decreases as the \massdamp \ is increased from $ 0 \rightarrow 0.7$. Therefore the influence of the vortex shedding becomes more significant and the interactions between galloping and shedding become more complex as the damping is increased. 
-
- 
- \input{../figure/qss_fsi}
- \input{../figure/time_histories}
 
 
  

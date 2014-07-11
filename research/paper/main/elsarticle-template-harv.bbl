@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{16}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -24,10 +24,33 @@ Barrero-Gil, A., Sanz-Andr\'{e}s, A., Roura, M., Oct. 2009. {Transverse
 Glauert, H., 1919. {The rotation of an aerofoil about a fixed axis}. Tech.
   rep., Advisory Committee on Aeronautics R and M 595. HMSO, London.
 
+\bibitem[{Griffith et~al.(2011)Griffith, Leontini, Thompson, and
+  Hourigan}]{Griffith2011}
+Griffith, M.~D., Leontini, J.~S., Thompson, M.~C., Hourigan, K., 2011. Vortex
+  shedding and three-dimensional behaviour of flow past a cylinder confined in
+  a channel. Journal of Fluids and Structures 27~(5-6), 855--860.
+
 \bibitem[{Joly et~al.(2012)Joly, Etienne, and Pelletier}]{Joly2012}
 Joly, A., Etienne, S., Pelletier, D., Jan. 2012. {Galloping of square cylinders
   in cross-flow at low Reynolds numbers}. Journal of Fluids and Structures 28,
   232--243.
+
+\bibitem[{Leontini et~al.(2011)Leontini, {Lo Jacono}, and
+  Thompson}]{Leontini2011}
+Leontini, J.~S., {Lo Jacono}, D., Thompson, M.~C., Nov. 2011. {A numerical
+  study of an inline oscillating cylinder in a free stream}. Journal of Fluid
+  Mechanics 688, 551--568.
+
+\bibitem[{Leontini and Thompson(2013)}]{Leontini2013}
+Leontini, J.~S., Thompson, M.~C., 2013. Vortex-induced vibrations of a diamond
+  cross-section: Sensitivity to corner sharpness. Journal of Fluids and
+  Structures 39, 371--390.
+
+\bibitem[{Leontini et~al.(2007)Leontini, Thompson, and
+  Hourigan}]{Leontini2007a}
+Leontini, J.~S., Thompson, M.~C., Hourigan, K., Apr. 2007. {Three-dimensional
+  transition in the wake of a transversely oscillating cylinder}. Journal of
+  Fluid Mechanics 577, 79.
 
 \bibitem[{Luo et~al.(2003)Luo, Chew, and Ng}]{Luo2003}
 Luo, S., Chew, Y., Ng, Y., Aug. 2003. {Hysteresis phenomenon in the galloping
@@ -48,6 +71,18 @@ Pa\"{\i}doussis, M., Price, S., de~Langre, E., 2010. {Fluid-Structure
 Parkinson, G.~V., Smith, J.~D., 1964. {The square prism as an aeroelastic
   non-linear oscillator}. The Quarterly Journal of Mechanics and Applied
   Mathematics 17~(2), 225--239.
+
+\bibitem[{Thompson et~al.(1996)Thompson, Hourigan, and
+  Sheridan}]{Thompson1996a}
+Thompson, M., Hourigan, K., Sheridan, J., Feb. 1996. {Three-dimensional
+  instabilities in the wake of a circular cylinder}. Experimental Thermal and
+  Fluid Science 12~(2), 190--196.
+
+\bibitem[{Thompson et~al.(2006)Thompson, Hourigan, Cheung, and
+  Leweke}]{Thompson2006}
+Thompson, M.~C., Hourigan, K., Cheung, A., Leweke, T., Nov. 2006.
+  {Hydrodynamics of a particle impact on a wall}. Applied Mathematical
+  Modelling 30~(11), 1356--1369.
 
 \bibitem[{Vio et~al.(2007)Vio, Dimitriadis, and Cooper}]{Vio2007}
 Vio, G., Dimitriadis, G., Cooper, J., Oct. 2007. {Bifurcation analysis and
