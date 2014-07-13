@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.6.18)  10 JUL 2014 17:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.6.18)  13 JUL 2014 14:53
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -250,11 +250,11 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 138.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+) (./article.tex
+[1
 
 
-] (./article.tex
-[2]
+] [2]
 Overfull \hbox (224.51294pt too wide) in paragraph at lines 18--58
 [][][] 
  []
@@ -272,7 +272,7 @@ File: ../FnP/gnuplot/lift_curve_200.eps Graphic file (type eps)
 File: ../FnP/gnuplot/lift_curve_park.eps Graphic file (type eps)
 
 <../FnP/gnuplot/lift_curve_park.eps>) (../figure/coefficient-table.tex)
-[6] [7] [8] [9] [10] (../figure/uncollapsed_data.tex
+[6] [7] [8] (../figure/uncollapsed_data.tex
 File: ../FnP/gnuplot/displacement_amp_re_parkinson_1.eps Graphic file (type eps
 )
 
@@ -290,7 +290,8 @@ File: ../FnP/gnuplot/velocity_amp_re200.eps Graphic file (type eps)
 
 <../FnP/gnuplot/velocity_amp_re200.eps>
 File: ../FnP/gnuplot/mean_power_re_200.eps Graphic file (type eps)
- <../FnP/gnuplot/mean_power_re_200.eps>) (../figure/collapsed_data.tex
+ <../FnP/gnuplot/mean_power_re_200.eps>) [9] [10] [11] (../figure/collapsed_dat
+a.tex
 File: ../FnP/gnuplot/displacement_amp_collapsed_parkinson.eps Graphic file (typ
 e eps)
 
@@ -312,7 +313,7 @@ File: ../FnP/gnuplot/mean_power_collapsed_re_200.eps Graphic file (type eps)
 File: ../FnP/gnuplot/displacement_amp_collpased_re200.eps Graphic file (type ep
 s)
 
-<../FnP/gnuplot/displacement_amp_collpased_re200.eps>) [11] [12] [13]
+<../FnP/gnuplot/displacement_amp_collpased_re200.eps>) [12] [13]
 (../figure/time_histories.tex
 File: ../FnP/gnuplot/power_time_history_015.eps Graphic file (type eps)
  <../FnP/gnuplot/power_time_history_015.eps>
@@ -337,7 +338,7 @@ File: ../FnP/gnuplot/f_y_history_08.eps Graphic file (type eps)
  <../FnP/gnuplot/f_y_history_08.eps>
 File: ../FnP/gnuplot/theta_time_history_08.eps Graphic file (type eps)
 
-<../FnP/gnuplot/theta_time_history_08.eps>) [14] (../figure/qss_fsi.tex
+<../FnP/gnuplot/theta_time_history_08.eps>) [14] [15] (../figure/qss_fsi.tex
 File: ../FnP/gnuplot/fqss_fsi_displace.eps Graphic file (type eps)
 
 <../FnP/gnuplot/fqss_fsi_displace.eps>
@@ -350,14 +351,10 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 23--25
 [][][] 
  []
 
-) [15]) [16] (./elsarticle-template-harv.bbl [17
+) [16]) [17] (./elsarticle-template-harv.bbl [18
 
-]) [18]
-(./elsarticle-template-harv.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+]) [19]
+(./elsarticle-template-harv.aux) ) 
 Here is how much of TeX's memory you used:
  2836 strings out of 495029
  37906 string characters out of 6181523
@@ -365,6 +362,6 @@ Here is how much of TeX's memory you used:
  5941 multiletter control sequences out of 15000+600000
  15426 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,10n,34p,1342b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,34p,1693b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on elsarticle-template-harv.dvi (18 pages, 60184 bytes).
+Output written on elsarticle-template-harv.dvi (19 pages, 60076 bytes).
