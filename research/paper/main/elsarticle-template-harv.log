@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.6.18)  13 JUL 2014 14:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.6.18)  13 JUL 2014 16:10
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -356,12 +356,12 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 23--25
 ]) [19]
 (./elsarticle-template-harv.aux) ) 
 Here is how much of TeX's memory you used:
- 2836 strings out of 495029
- 37906 string characters out of 6181523
+ 2837 strings out of 495029
+ 37916 string characters out of 6181523
  93282 words of memory out of 5000000
- 5941 multiletter control sequences out of 15000+600000
+ 5942 multiletter control sequences out of 15000+600000
  15426 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  42i,10n,34p,1693b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on elsarticle-template-harv.dvi (19 pages, 60076 bytes).
+Output written on elsarticle-template-harv.dvi (19 pages, 61144 bytes).
