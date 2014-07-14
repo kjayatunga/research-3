@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.6.18)  14 JUL 2014 18:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.6.18)  14 JUL 2014 23:40
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -255,7 +255,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] [2]
-Overfull \hbox (224.51294pt too wide) in paragraph at lines 18--58
+Overfull \hbox (224.51294pt too wide) in paragraph at lines 17--57
 [][][] 
  []
 
@@ -351,9 +351,9 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 23--25
 [][][] 
  []
 
-) [16]) [17] (./elsarticle-template-harv.bbl [18
+) [16] [17]) [18] (./elsarticle-template-harv.bbl [19
 
-]) [19]
+]) [20]
 (./elsarticle-template-harv.aux) ) 
 Here is how much of TeX's memory you used:
  2837 strings out of 495029
@@ -364,4 +364,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  42i,10n,34p,1690b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on elsarticle-template-harv.dvi (19 pages, 62272 bytes).
+Output written on elsarticle-template-harv.dvi (20 pages, 62376 bytes).
