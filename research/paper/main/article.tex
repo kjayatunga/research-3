@@ -214,7 +214,11 @@ where $F_y$ is the transverse (lift) force.
 
  \subsection{Displacement, velocity and power}
  
- Power can be expressed as the product of force and velocity. Therefore the instantaneous power from the fluid to the body can be expressed as $P_t=F_y\dot{y}$. Similarly the dissipated power due to the mechanical damping can be expressed as $P_d=(c\dot{y})\dot{y}$. The time average of these two quantities, described in equations \ref{power} and \ref{power_alt} should be equal due to energy conservation, provided that the mechanical friction losses are neglected. The mean power vs $\massdamp$ provides a detailed explanation for the variation of the output power when \massdamp is increased. The key regions consists of region 1 where the $P_{mean}$ increases with \massdamp, region 2 where $P_{mean}$ becomes maximum and region 3 where $P_{mean}$ decreases with \massdamp. Time histories of $P_t $ and $P_d$ at each of these key regions are presented in figure \ref{fig:power_time_histories}.
+
+    \input{../figure/power_curve_sketch}
+
+ 
+ Power can be expressed as the product of force and velocity. Therefore the instantaneous power from the fluid to the body can be expressed as $P_t=F_y\dot{y}$. Similarly the dissipated power due to the mechanical damping can be expressed as $P_d=(c\dot{y})\dot{y}$. The time average of these two quantities, described in equations \ref{power} and \ref{power_alt} should be equal due to energy conservation, provided that the mechanical friction losses are neglected. The mean power vs $\massdamp$ (Figure \ref) provides a detailed explanation for the variation of the output power when \massdamp is increased. The key regions consists of region 1 where the $P_{mean}$ increases with \massdamp, region 2 where $P_{mean}$ becomes maximum and region 3 where $P_{mean}$ decreases with \massdamp. Time histories of $P_t $ and $P_d$ at each of these key regions are presented in figure \ref{fig:power_time_histories}.
  
  Figure \ref{fig:lift_curves}(a) shows that $C_y$ and therefore instantaneous force rises until $4^\circ$ where it peaks and then falls, and at around $6^\circ$ becomes negative. The maximum amount of power that can be transferred occurs when $\dot{y}$ is such that $\theta$ is near the peak region. At the region where the instantaneous force becomes negative it will be opposing the velocity $\dot{y}$. Data at $\massstiff=10$, $m^*=20$ and $\reynoldsnumber=200$ are shown in figure \ref{fig:power_time_histories} and are analysed as an example.
  

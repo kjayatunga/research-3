@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.6.18)  14 JUL 2014 23:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.6.18)  16 JUL 2014 00:27
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -229,24 +229,24 @@ File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 (./elsarticle-template-harv.aux)
 \openout1 = `elsarticle-template-harv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Try loading font information for U+msa on input line 138.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Try loading font information for U+msa on input line 139.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 138.
+LaTeX Font Info:    Try loading font information for U+msb on input line 139.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -314,7 +314,13 @@ File: ../FnP/gnuplot/displacement_amp_collpased_re200.eps Graphic file (type ep
 s)
 
 <../FnP/gnuplot/displacement_amp_collpased_re200.eps>) [12] [13]
-(../figure/time_histories.tex
+(../figure/power_curve_sketch.tex
+File: ../FnP/gnuplot/sketch_1.eps Graphic file (type eps)
+ <../FnP/gnuplot/sketch_1.eps>)
+
+LaTeX Warning: Reference `)' on page 14 undefined on input line 221.
+
+[14] (../figure/time_histories.tex
 File: ../FnP/gnuplot/power_time_history_015.eps Graphic file (type eps)
  <../FnP/gnuplot/power_time_history_015.eps>
 File: ../FnP/gnuplot/f_y_history_015.eps Graphic file (type eps)
@@ -338,7 +344,7 @@ File: ../FnP/gnuplot/f_y_history_08.eps Graphic file (type eps)
  <../FnP/gnuplot/f_y_history_08.eps>
 File: ../FnP/gnuplot/theta_time_history_08.eps Graphic file (type eps)
 
-<../FnP/gnuplot/theta_time_history_08.eps>) [14] [15] (../figure/qss_fsi.tex
+<../FnP/gnuplot/theta_time_history_08.eps>) [15] (../figure/qss_fsi.tex
 File: ../FnP/gnuplot/fqss_fsi_displace.eps Graphic file (type eps)
 
 <../FnP/gnuplot/fqss_fsi_displace.eps>
@@ -347,21 +353,25 @@ File: ../FnP/gnuplot/qss_fsi_velocity.eps Graphic file (type eps)
 File: ../FnP/gnuplot/qss_fsi_power.eps Graphic file (type eps)
 
 <../FnP/gnuplot/qss_fsi_power.eps>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 23--25
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 23--24
 [][][] 
  []
 
 ) [16] [17]) [18] (./elsarticle-template-harv.bbl [19
 
 ]) [20]
-(./elsarticle-template-harv.aux) ) 
+(./elsarticle-template-harv.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2837 strings out of 495029
- 37916 string characters out of 6181523
+ 2845 strings out of 495029
+ 38060 string characters out of 6181523
  93282 words of memory out of 5000000
- 5942 multiletter control sequences out of 15000+600000
+ 5946 multiletter control sequences out of 15000+600000
  15426 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  42i,10n,34p,1690b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on elsarticle-template-harv.dvi (20 pages, 62376 bytes).
+Output written on elsarticle-template-harv.dvi (20 pages, 63276 bytes).
