@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.6.18)  17 JUL 2014 15:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.6.18)  18 JUL 2014 15:58
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -272,29 +272,19 @@ File: ../FnP/gnuplot/lift_curve_200.eps Graphic file (type eps)
 File: ../FnP/gnuplot/lift_curve_park.eps Graphic file (type eps)
 
 <../FnP/gnuplot/lift_curve_park.eps>) (../figure/coefficient-table.tex)
-[6] [7] [8] (../figure/uncollapsed_data.tex
-File: ../FnP/gnuplot/displacement_amp_re_parkinson_1.eps Graphic file (type eps
-)
+[6] [7] [8] [9]
 
-<../FnP/gnuplot/displacement_amp_re_parkinson_1.eps>
-File: ../FnP/gnuplot/velocity_amp_re_parkinson.eps Graphic file (type eps)
+LaTeX Warning: Reference `fig:uncollapsed_data' on page 10 undefined on input l
+ine 196.
 
-<../FnP/gnuplot/velocity_amp_re_parkinson.eps>
-File: ../FnP/gnuplot/mean_power_re_parkinson.eps Graphic file (type eps)
-
-<../FnP/gnuplot/mean_power_re_parkinson.eps>
-File: ../FnP/gnuplot/displacement_amp_re200.eps Graphic file (type eps)
-
-<../FnP/gnuplot/displacement_amp_re200.eps>
-File: ../FnP/gnuplot/velocity_amp_re200.eps Graphic file (type eps)
-
-<../FnP/gnuplot/velocity_amp_re200.eps>
+[10] (../figure/compare_data.tex
 File: ../FnP/gnuplot/mean_power_re_200.eps Graphic file (type eps)
- <../FnP/gnuplot/mean_power_re_200.eps>) [9] [10] [11] (../figure/collapsed_dat
-a.tex
+ <../FnP/gnuplot/mean_power_re_200.eps>
+File: ../FnP/gnuplot/mean_power_collapsed_re_200.eps Graphic file (type eps)
+
+<../FnP/gnuplot/mean_power_collapsed_re_200.eps>) (../figure/collapsed_data.tex
 File: ../FnP/gnuplot/displacement_amp_collapsed_parkinson.eps Graphic file (typ
 e eps)
-
 <../FnP/gnuplot/displacement_amp_collapsed_parkinson.eps>
 File: ../FnP/gnuplot/velocity_amp_collapsed_parkinson.eps Graphic file (type ep
 s)
@@ -313,14 +303,14 @@ File: ../FnP/gnuplot/mean_power_collapsed_re_200.eps Graphic file (type eps)
 File: ../FnP/gnuplot/displacement_amp_collpased_re200.eps Graphic file (type ep
 s)
 
-<../FnP/gnuplot/displacement_amp_collpased_re200.eps>) [12] [13]
+<../FnP/gnuplot/displacement_amp_collpased_re200.eps>) [11] [12]
 (../figure/power_curve_sketch.tex
 File: ../FnP/gnuplot/sketch_1.eps Graphic file (type eps)
  <../FnP/gnuplot/sketch_1.eps>)
 
-LaTeX Warning: Reference `)' on page 14 undefined on input line 221.
+LaTeX Warning: Reference `)' on page 13 undefined on input line 223.
 
-[14] (../figure/time_histories.tex
+[13] (../figure/time_histories.tex
 File: ../FnP/gnuplot/power_time_history_015.eps Graphic file (type eps)
  <../FnP/gnuplot/power_time_history_015.eps>
 File: ../FnP/gnuplot/f_y_history_015.eps Graphic file (type eps)
@@ -344,7 +334,7 @@ File: ../FnP/gnuplot/f_y_history_08.eps Graphic file (type eps)
  <../FnP/gnuplot/f_y_history_08.eps>
 File: ../FnP/gnuplot/theta_time_history_08.eps Graphic file (type eps)
 
-<../FnP/gnuplot/theta_time_history_08.eps>) [15] (../figure/qss_fsi.tex
+<../FnP/gnuplot/theta_time_history_08.eps>) [14] (../figure/qss_fsi.tex
 File: ../FnP/gnuplot/fqss_fsi_displace.eps Graphic file (type eps)
 
 <../FnP/gnuplot/fqss_fsi_displace.eps>
@@ -357,21 +347,21 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 23--24
 [][][] 
  []
 
-) [16] [17] (../figure/error-table.tex) [18]) [19]
-(./elsarticle-template-harv.bbl [20
+) [15] [16] (../figure/error-table.tex) [17]) [18]
+(./elsarticle-template-harv.bbl [19
 
-]) [21] (./elsarticle-template-harv.aux)
+]) [20] (./elsarticle-template-harv.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2851 strings out of 495029
- 38165 string characters out of 6181523
+ 2842 strings out of 495029
+ 37818 string characters out of 6181523
  93282 words of memory out of 5000000
- 5949 multiletter control sequences out of 15000+600000
+ 5945 multiletter control sequences out of 15000+600000
  15426 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,10n,34p,1690b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,34p,1342b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on elsarticle-template-harv.dvi (21 pages, 65840 bytes).
+Output written on elsarticle-template-harv.dvi (20 pages, 63192 bytes).
