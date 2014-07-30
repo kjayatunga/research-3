@@ -1,0 +1,26 @@
+reset
+unset key
+unset ylabel 
+set term postscript enhanced portrait monochrome size 12cm,6cm "Times-roman" 12
+set output "mean_power_re_200.eps"
+set label 'x 10^{-3}' at graph -0.01, graph 1.05
+set xtics nomirror
+set ytics nomirror
+set xtics (0.2,0.4,0.6,0.8)
+set ytics ("0.8" 0.0008,"1.6" 0.0016,"2.4" 0.0024,"3.2" 0.0032,"4.0" 0.0040)
+plot [0:1][0:0.004] "100" u 2:6 w p pt 2
+
+
+#######################################
+reset
+unset key
+unset ylabel 
+set term postscript enhanced portrait monochrome size 12cm,6cm "Times-roman" 12
+set output "mean_power_collapsed_parkinson.eps"
+set label 'x 10^{-2}' at graph -0.01, graph 1.05
+unset ylabel
+set xtics nomirror
+set ytics nomirror
+set xtics (0.4,0.8,1.2,1.6)
+set ytics ("1.0" 0.01,"2.0" 0.02,"3.0" 0.03,"4.0" 0.04)
+plot [0.4:1.6][0:0.04] "park" u 2:6 w p pt 2 

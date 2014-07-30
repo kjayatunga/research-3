@@ -6,7 +6,7 @@ set xtics nomirror
 set ytics nomirror
 set xtics (0,0.2,0.4,0.6,0.8)
 set ytics (0.3,0.6,0.9,1.2)
-plot [0:0.9][0:1.2] "qss" u 2:7 w l lt 0 lw 2,"pi1_60" u 1:2 w p pt 7,"pi1_250" u 1:2 w p pt 8, "fsi40" u 1:2 w p pt 3
+plot [0:0.9][0:1.2] "qss" u 2:7 w l lt 0 lw 2,"pi1_60" u 1:2 w p pt 7,"pi1_250" u 1:2 w p pt 8, "pi1_10" u 1:2 w p pt 3,"pi1_1000" u 1:2 w p pt 13
 
 ###############################################
 ## Compare Qss FSI
@@ -19,7 +19,7 @@ set xtics nomirror
 set ytics nomirror
 set xtics (0,0.2,0.4,0.6,0.8)
 set ytics ("0.5" 0.05,"1.0" 0.1, "1.5" 0.15,"2.0" 0.2)
-plot [0:0.9][0:0.2] "qss" u 2:8 w l lt 0 lw 2,"pi1_60" u 1:3 w p pt 7,"pi1_250" u 1:3 w p pt 8,"fsi40" u 1:3 w p pt 3
+plot [0:0.9][0:0.2] "qss" u 2:8 w l lt 0 lw 2,"pi1_60" u 1:3 w p pt 7,"pi1_250" u 1:3 w p pt 8,"pi1_10" u 1:3 w p pt 3,"pi1_1000" u 1:3 w p pt 13
 ################################################################################################
 ## Compare Qss FSI
 reset
@@ -31,5 +31,5 @@ set xtics nomirror
 set ytics nomirror
 set xtics (0,0.2,0.4,0.6,0.8)
 set ytics ("0.8" 0.0008,"1.6" 0.0016,"2.4" 0.0024,"3.2" 0.0032)
-plot [0:0.9][0.0008:0.0032] "qss" u 2:6 w l lt 0 lw 2,"pi1_60" u 1:4 w p pt 7,"pi1_250" u 1:4 w p pt 8,"fsi40" u 1:4 w p pt 3
+plot [0:0.9][0.0008:0.0032] "qss" u 2:6 w l lt 0 lw 2,"pi1_60" u 1:4 w p pt 7,"pi1_250" u 1:4 w p pt 8,"pi1_10" u 1:4 w p pt 3,"pi1_1000" u 1:4 w p pt 13
 

@@ -7,9 +7,11 @@ set output "displacement_high_pi_1.eps"
 set xtics nomirror
 set ytics nomirror
 set xtics (0.2,0.4,0.6,0.8)
-set xtics format " " 
-set ytics ("1.0" 1,"2.0" 2,"3.0" 3)
+set xtics format " " set ytics ("1.0" 1,"2.0" 2,"3.0" 3)
 plot [0:1][0:3] "10" u 2:7 w p pt 2, "100"   u 2:7 w p pt 13, "500"  u 2:7 w p pt 1,"1000"  u 2:7 w p pt 8
+
+
+
 
 
 
