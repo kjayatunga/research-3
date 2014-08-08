@@ -1,13 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.6.18)  30 JUL 2014 23:24
+This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=latex 2014.5.26)  8 AUG 2014 14:11
 entering extended mode
  restricted \write18 enabled.
- Source specials enabled.
  %&-line parsing enabled.
-**elsarticle-template-harv.tex
-(./elsarticle-template-harv.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 2 languages loaded.
-(./elsarticle.cls
+**\nonstopmode\nofiles\PassOptionsToPackage{active,tightpage,auctex}{preview}\A
+tBeginDocument{\ifx\ifPreview\undefined\RequirePackage[displaymath,floats,graph
+ics,textmath,sections,footnotes]{preview}[2004/11/05]\fi} \input elsarticle-tem
+plate-harv.tex
+(./elsarticle-template-harv.tex (./elsarticle.cls
 Document Class: elsarticle 2009/09/17, 1.20b: Elsevier Ltd
 \@bls=\dimen102
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -87,14 +86,26 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
 LaTeX Info: Redefining \cite on input line 694.
+
+
+! LaTeX Error: \makeindex undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.795 \renewcommand\makeindex
+                             {\NAT@makeindex
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 \c@NAT@ctr=\count93
 )
 \splwrite=\write3
 \openout3 = `elsarticle-template-harv.spl'.
 
 \appnamewidth=\dimen109
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -227,8 +238,6 @@ Package color Info: Driver file: dvips.def on input line 130.
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 (./elsarticle-template-harv.aux)
-\openout1 = `elsarticle-template-harv.aux'.
-
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
 LaTeX Font Info:    ... okay on input line 105.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
@@ -241,8 +250,36 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
 LaTeX Font Info:    ... okay on input line 105.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
 LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Try loading font information for U+msa on input line 141.
 
+(/usr/share/texlive/texmf-dist/tex/latex/preview/preview.sty
+Package: preview 2010/02/14 11.87 (AUCTeX/preview-latex)
+
+(/usr/share/texlive/texmf-dist/tex/latex/preview/prtightpage.def
+\PreviewBorder=\dimen119
+)
+(/usr/share/texlive/texmf-dist/tex/latex/preview/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count106
+\hfuzz=\dimen120
+(/usr/share/texlive/texmf-dist/tex/latex/preview/prauctex.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/preview/prfootnotes.def)
+\pr@snippet=\count107
+\pr@box=\box32
+\pr@output=\toks23
+
+Preview: Fontsize 12pt
+)
+! Preview: Snippet 1 started.
+<-><->
+      
+l.141 ...wer transfer is analysed for both high ($
+                                                  \reynoldsnumber=22300$) an...
+
+Not a real error.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 141.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -250,10 +287,42 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 141.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./plots.tex
-(../figure/compare_data.tex
+)
+Preview: Tightpage -32891 -32891 32891 32891
+! Preview: Snippet 1 ended.(537395+0x3910411).
+<-><->
+      
+l.141 ...ed for both high ($\reynoldsnumber=22300$
+                                                  ) and low ($\reynoldsnumbe...
+
+Not a real error.
+
+[1]
+! Preview: Snippet 2 started.
+<-><->
+      
+l.141 ...high ($\reynoldsnumber=22300$) and low ($
+                                                  \reynoldsnumber=200$) Reyn...
+
+Not a real error.
+
+! Preview: Snippet 2 ended.(537395+0x3140371).
+<-><->
+      
+l.141 ...er=22300$) and low ($\reynoldsnumber=200$
+                                                  ) Reynolds numbers cases.
+Not a real error.
+
+[2] (./plots.tex (../figure/compare_data.tex
+! Preview: Snippet 3 started.
+<-><->
+      
+l.1 \begin{figure}
+                  
+Not a real error.
+
 File: ../FnP/gnuplot/displacement_amp_re200.eps Graphic file (type eps)
- <../FnP/gnuplot/displacement_amp_re200.eps>
+<../FnP/gnuplot/displacement_amp_re200.eps>
 File: ../FnP/gnuplot/velocity_amp_re200.eps Graphic file (type eps)
 
 <../FnP/gnuplot/velocity_amp_re200.eps>
@@ -269,74 +338,140 @@ File: ../FnP/gnuplot/displacement_amp_collpased_re200.eps Graphic file (type ep
 s)
 
 <../FnP/gnuplot/displacement_amp_collpased_re200.eps>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 34--35
-[][][] 
- []
+! Preview: Snippet 3 ended.(27154321+0x25559040).
+<-><->
+      
+l.37 \end{figure}
+                 
+Not a real error.
 
-) (../figure/high_pi_1.tex
+[3
+
+
+]) (../figure/high_pi_1.tex
+! Preview: Snippet 4 started.
+<-><->
+      
+l.1 \begin{figure}
+                  
+Not a real error.
+
 File: ../FnP/gnuplot/displacement_high_pi_1.eps Graphic file (type eps)
- <../FnP/gnuplot/displacement_high_pi_1.eps>
+<../FnP/gnuplot/displacement_high_pi_1.eps>
 File: ../FnP/gnuplot/velocity_high_pi_1.eps Graphic file (type eps)
 
 <../FnP/gnuplot/velocity_high_pi_1.eps>
 File: ../FnP/gnuplot/mean_power_high_pi_1.eps Graphic file (type eps)
 
 <../FnP/gnuplot/mean_power_high_pi_1.eps>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 25--26
-[][][] 
- []
+! Preview: Snippet 4 ended.(32302850+0x25559040).
+<-><->
+      
+l.28 \end{figure}
+                 
+Not a real error.
 
-) (../figure/low_pi_1.tex
+[4
+
+
+]) (../figure/low_pi_1.tex
+! Preview: Snippet 5 started.
+<-><->
+      
+l.1 \begin{figure}
+                  
+Not a real error.
+
 File: ../FnP/gnuplot/displacement_low_pi_1.eps Graphic file (type eps)
- <../FnP/gnuplot/displacement_low_pi_1.eps>
+<../FnP/gnuplot/displacement_low_pi_1.eps>
 File: ../FnP/gnuplot/velocity_low_pi_1.eps Graphic file (type eps)
 
 <../FnP/gnuplot/velocity_low_pi_1.eps>
 File: ../FnP/gnuplot/mean_power_low_pi_1.eps Graphic file (type eps)
 
 <../FnP/gnuplot/mean_power_low_pi_1.eps>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 24--25
-[][][] 
- []
+! Preview: Snippet 5 ended.(31516418+0x25559040).
+<-><->
+      
+l.27 \end{figure}
+                 
+Not a real error.
 
-) (../figure/collapsed_data.tex
+[5
+
+
+]) (../figure/collapsed_data.tex
+! Preview: Snippet 6 started.
+<-><->
+      
+l.1 \begin{figure}
+                  
+Not a real error.
+
 File: ../FnP/gnuplot/mean_power_collapsed_parkinson.eps Graphic file (type eps)
-
 
 <../FnP/gnuplot/mean_power_collapsed_parkinson.eps>
 File: ../FnP/gnuplot/mean_power_optimum_re_200.eps Graphic file (type eps)
 
 <../FnP/gnuplot/mean_power_optimum_re_200.eps>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 29--30
-[][][] 
- []
+! Preview: Snippet 6 ended.(9459835+0x25559040).
+<-><->
+      
+l.32 \end{figure}
+                 
+Not a real error.
 
-) (../figure/qss_fsi.tex
+[6
+
+
+]) (../figure/qss_fsi.tex
+! Preview: Snippet 7 started.
+<-><->
+      
+l.1 \begin{figure}
+                  
+Not a real error.
+
 File: ../FnP/gnuplot/fqss_fsi_displace.eps Graphic file (type eps)
- <../FnP/gnuplot/fqss_fsi_displace.eps>
+<../FnP/gnuplot/fqss_fsi_displace.eps>
 File: ../FnP/gnuplot/qss_fsi_velocity.eps Graphic file (type eps)
-
-<../FnP/gnuplot/qss_fsi_velocity.eps>
+ <../FnP/gnuplot/qss_fsi_velocity.eps>
 File: ../FnP/gnuplot/qss_fsi_power.eps Graphic file (type eps)
- <../FnP/gnuplot/qss_fsi_power.eps>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 23--24
-[][][] 
- []
 
-)) [1
+<../FnP/gnuplot/qss_fsi_power.eps>
+! Preview: Snippet 7 ended.(33089282+0x25559040).
+<-><->
+      
+l.26 \end{figure}
+                 
+Not a real error.
+
+[7
 
 
-] [2] [3] [4] [5] [6] (./elsarticle-template-harv.bbl [7
+])) (./elsarticle-template-harv.bbl
+! Preview: Snippet 8 started.
+<-><->
+      
+l.1 \begin{thebibliography}{16}
+                               
+Not a real error.
 
-]) [8]
-(./elsarticle-template-harv.aux) ) 
+! Preview: Snippet 8 ended.(546132+0x25559040).
+<-><->
+      
+l.1 \begin{thebibliography}{16}
+                               
+Not a real error.
+
+[8]) ) 
 Here is how much of TeX's memory you used:
- 2782 strings out of 495029
- 36606 string characters out of 6181523
- 93282 words of memory out of 5000000
- 5902 multiletter control sequences out of 15000+600000
- 12633 words of font info for 48 fonts, out of 8000000 for 9000
+ 2938 strings out of 495035
+ 38806 string characters out of 6181703
+ 93236 words of memory out of 5000000
+ 6045 multiletter control sequences out of 15000+600000
+ 12286 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,9n,34p,917b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,34p,1133b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on elsarticle-template-harv.dvi (8 pages, 14456 bytes).
+Output written on elsarticle-template-harv.dvi (8 pages, 7896 bytes).
