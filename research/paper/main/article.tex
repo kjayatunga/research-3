@@ -199,22 +199,24 @@ where $F_y$ is the transverse (lift) force.
  
  % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
  
-   \input{../figure/compare_data}
+%   \input{../figure/collapsed_dta}
   
-   Figure \ref{fig:compare_data} shows the comparison of mean power data presented using different variables. Sub-figure (a) shows data obtained using classical VIV parameters $\ustar$ and $\zeta$. The data follows the same trends with \cite{Barrero-Gil2010a}. The same data is collapsed in sub-figure (b) using \massdamp as the independent variable. The collapse is excellent. 
+   Figure \ref{fig:collapsed_data} shows the comparison of mean power data presented using different independent variables. Sub-figure (a) and (c) shows the displacement and velocity amplitudes respectively and the (e) shows the mean power as a function of the classic VIV parameter, \ustar. (b), (d) and (f) shows the same data presented as a function of \massdamp which was derived earlier, at $\reynoldsnumber=200$. The data presented using the classical VIV parameters follows the same trends as \cite{Barrero-Gil2010a}. However, the data presented using the linearlized parameter shows an excellent collapse for both velocity amplitude and mean power. Therefore, it could be deduced that the mean power  of the system is not dependent on frequency.
+   
 
- \input{../figure/collapsed_data}
+ \input{../figure/compare_data}
     
+ Figure \ref{fig:compare_data} \hilight{have to write something about the optimum power}
+   
          
-     The quasi-steady analysis data reveal that the displacement amplitude grows with decreasing \massdamp \ . This is shown for both the high and low \reynoldsnumber\ cases in figures \ref{fig:collapsed_data} (a) and (b). Hysteresis could be observed for the case with a higher Reynolds number. Different solutions could be obtained by manipulating the initial conditions (initial displacement) of the system. The upper branch was obtained by giving an initial displacement which was higher than the expected amplitude while the lower branch was obtained by providing a lower initial displacement than the expected amplitude. Although theory shows a possible third state, it is an unstable branch and as such it could not be achieved numerically. This was also observed by \cite{Vio2007}. 
-  
-  
+     Hysteresis could be observed for the case with a higher Reynolds number. Different solutions could be obtained by manipulating the initial conditions (initial displacement) of the system. The upper branch was obtained by giving an initial displacement which was higher than the expected amplitude while the lower branch was obtained by providing a lower initial displacement than the expected amplitude. Although theory shows a possible third state, it is an unstable branch and as such it could not be achieved numerically. This was also observed by \cite{Vio2007}. 
 
 
-  
 
 
  \subsection{Displacement, velocity and power}
+ 
+ The combined ass-stiffness parameter could be manipulated 
  
 
     \input{../figure/power_curve_sketch}
@@ -237,6 +239,14 @@ where $F_y$ is the transverse (lift) force.
  
   
  At region 3 ( $\massdamp=0.54$), a balance is found between high and low values of damping. $P_t$ is not a pure sinusoidal signal, however the signal remains periodic. From the time history graph of $P_t$, two `peaks' are present in a single half cycle as shown if figure \ref{fig:power_time_histories}(b). In this case, the velocity amplitude actually exceeds the equivalent incident angle where the hydrodynamic forces peaks (i.e. $\theta=5^\circ$ in \ref{cy ploynomial} (a)). The dips in $P_d$ between the two peaks approximately correspond to the time where the transverse velocity is higher than 0.09 and $F_y$ is decreasing with increasing transverse velocity. The mean power output is at its maximum. This is due to the fact that this region is the best compromise between region 1 and 3. The damping is high enough to obtain a high power output while not too high to allow the induced angle of attack to enter the region where the forcing opposes the direction of travel. 
+ 
+ \subsection{Influence of \massstiff}
+ 
+ 
+ \input{../figure/high_pi_1}
+ \input{../figure/low_pi1_plot2}
+ \input{../figure/low_pi_1}
+ 
  
  
  

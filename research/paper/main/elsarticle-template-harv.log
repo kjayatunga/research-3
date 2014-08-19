@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.8.13)  15 AUG 2014 12:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.8.13)  19 AUG 2014 16:33
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -226,11 +226,7 @@ Package color Info: Driver file: dvips.def on input line 137.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
 ))
-(./elsarticle-template-harv.aux
-
-LaTeX Warning: Label `fig:compare_data' multiply defined.
-
-)
+(./elsarticle-template-harv.aux)
 \openout1 = `elsarticle-template-harv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
@@ -246,14 +242,46 @@ LaTeX Font Info:    ... okay on input line 105.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
 LaTeX Font Info:    ... okay on input line 105.
 LaTeX Font Info:    Try loading font information for U+msa on input line 141.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 141.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./plots.tex
+) (./article.tex
+[1
+
+
+] [2]
+Overfull \hbox (224.51294pt too wide) in paragraph at lines 17--57
+[][][] 
+ []
+
+[3]
+Overfull \vbox (18.26488pt too high) has occurred while \output is active []
+
+
+[4] (../figure/sketch-1.tex
+File: ../FnP/gnuplot/setup-1.eps Graphic file (type eps)
+ <../FnP/gnuplot/setup-1.eps>) [5]
+(../figure/cy_vs_theta.tex
+File: ../FnP/gnuplot/lift_curve_200.eps Graphic file (type eps)
+ <../FnP/gnuplot/lift_curve_200.eps>
+File: ../FnP/gnuplot/lift_curve_park.eps Graphic file (type eps)
+
+<../FnP/gnuplot/lift_curve_park.eps>) (../figure/coefficient-table.tex)
+[6] [7] [8] [9]
+
+LaTeX Warning: Reference `fig:uncollapsed_data' on page 10 undefined on input l
+ine 196.
+
+[10]
+
+LaTeX Warning: Reference `fig:collapsed_data' on page 11 undefined on input lin
+e 204.
+
 (../figure/compare_data.tex
 File: ../FnP/gnuplot/displacement_amp_re200.eps Graphic file (type eps)
  <../FnP/gnuplot/displacement_amp_re200.eps>
@@ -289,6 +317,20 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 26--27
 [][][] 
  []
 
+) (../figure/low_pi1_plot2.tex
+File: ../FnP/gnuplot/displacement_low_pi_1_plot2.eps Graphic file (type eps)
+
+<../FnP/gnuplot/displacement_low_pi_1_plot2.eps>
+File: ../FnP/gnuplot/velocity_low_pi_1_plot2.eps Graphic file (type eps)
+
+<../FnP/gnuplot/velocity_low_pi_1_plot2.eps>
+File: ../FnP/gnuplot/mean_power_low_pi_plot2.eps Graphic file (type eps)
+
+<../FnP/gnuplot/mean_power_low_pi_plot2.eps>
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 24--25
+[][][] 
+ []
+
 ) (../figure/low_pi_1.tex
 File: ../FnP/gnuplot/displacement_low_pi_1.eps Graphic file (type eps)
  <../FnP/gnuplot/displacement_low_pi_1.eps>
@@ -302,73 +344,65 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 24--25
 [][][] 
  []
 
-) (../figure/collapsed_data.tex
-File: ../FnP/gnuplot/mean_power_collapsed_parkinson.eps Graphic file (type eps)
+) (../figure/power_curve_sketch.tex
+File: ../FnP/gnuplot/sketch_1.eps Graphic file (type eps)
+ <../FnP/gnuplot/sketch_1.eps>)
 
+LaTeX Warning: Reference `)' on page 11 undefined on input line 232.
 
-<../FnP/gnuplot/mean_power_collapsed_parkinson.eps>
-File: ../FnP/gnuplot/mean_power_optimum_re_200.eps Graphic file (type eps)
+[11] [12] [13] [14] [15] (../figure/time_histories.tex
+File: ../FnP/gnuplot/power_time_history_015.eps Graphic file (type eps)
 
-<../FnP/gnuplot/mean_power_optimum_re_200.eps>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 30--31
-[][][] 
- []
+<../FnP/gnuplot/power_time_history_015.eps>
+File: ../FnP/gnuplot/f_y_history_015.eps Graphic file (type eps)
 
-) (../figure/qss_fsi.tex
+<../FnP/gnuplot/f_y_history_015.eps>
+File: ../FnP/gnuplot/theta_time_history_015.eps Graphic file (type eps)
+
+<../FnP/gnuplot/theta_time_history_015.eps>
+File: ../FnP/gnuplot/power_time_history_54.eps Graphic file (type eps)
+
+<../FnP/gnuplot/power_time_history_54.eps>
+File: ../FnP/gnuplot/f_y_history_54.eps Graphic file (type eps)
+ <../FnP/gnuplot/f_y_history_54.eps>
+File: ../FnP/gnuplot/theta_time_history_54.eps Graphic file (type eps)
+
+<../FnP/gnuplot/theta_time_history_54.eps>
+File: ../FnP/gnuplot/power_time_history_08.eps Graphic file (type eps)
+
+<../FnP/gnuplot/power_time_history_08.eps>
+File: ../FnP/gnuplot/f_y_history_08.eps Graphic file (type eps)
+ <../FnP/gnuplot/f_y_history_08.eps>
+File: ../FnP/gnuplot/theta_time_history_08.eps Graphic file (type eps)
+
+<../FnP/gnuplot/theta_time_history_08.eps>) [16] [17] (../figure/qss_fsi.tex
 File: ../FnP/gnuplot/fqss_fsi_displace.eps Graphic file (type eps)
- <../FnP/gnuplot/fqss_fsi_displace.eps>
-File: ../FnP/gnuplot/qss_fsi_velocity.eps Graphic file (type eps)
 
-<../FnP/gnuplot/qss_fsi_velocity.eps>
+<../FnP/gnuplot/fqss_fsi_displace.eps>
+File: ../FnP/gnuplot/qss_fsi_velocity.eps Graphic file (type eps)
+ <../FnP/gnuplot/qss_fsi_velocity.eps>
 File: ../FnP/gnuplot/qss_fsi_power.eps Graphic file (type eps)
- <../FnP/gnuplot/qss_fsi_power.eps>
+
+<../FnP/gnuplot/qss_fsi_power.eps>
 Overfull \hbox (14.63324pt too wide) in paragraph at lines 23--24
 [][][] 
  []
 
-) (../figure/spectum.tex
-File: ../FnP/gnuplot/spec_20.eps Graphic file (type eps)
- <../FnP/gnuplot/spec_20.eps>
-File: ../FnP/gnuplot/spec_50.eps Graphic file (type eps)
+) [18] [19] (../figure/error-table.tex)) [20] [21]
+(./elsarticle-template-harv.bbl [22
 
-<../FnP/gnuplot/spec_50.eps>
-File: ../FnP/gnuplot/spec_100.eps Graphic file (type eps)
- <../FnP/gnuplot/spec_100.eps>
-File: ../FnP/gnuplot/spec_200.eps Graphic file (type eps)
+]) [23] (./elsarticle-template-harv.aux)
 
-<../FnP/gnuplot/spec_200.eps>
-File: ../FnP/gnuplot/spec_20_sig.eps Graphic file (type eps)
- <../FnP/gnuplot/spec_20_sig.eps>
-File: ../FnP/gnuplot/spec_50_sig.eps Graphic file (type eps)
-
-<../FnP/gnuplot/spec_50_sig.eps>
-File: ../FnP/gnuplot/spec_100_sig.eps Graphic file (type eps)
- <../FnP/gnuplot/spec_100_sig.eps>
-File: ../FnP/gnuplot/spec_200_sig.eps Graphic file (type eps)
-
-<../FnP/gnuplot/spec_200_sig.eps>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 39--40
-[][][] 
- []
-
-)) [1
-
-
-] [2] [3] [4] [5] [6] [7] (./elsarticle-template-harv.bbl [8
-
-]) [9]
-(./elsarticle-template-harv.aux)
-
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2804 strings out of 493118
- 37417 string characters out of 6135459
- 101170 words of memory out of 5000000
- 6166 multiletter control sequences out of 15000+600000
- 12633 words of font info for 48 fonts, out of 8000000 for 9000
+ 2870 strings out of 493118
+ 38845 string characters out of 6135459
+ 102170 words of memory out of 5000000
+ 6212 multiletter control sequences out of 15000+600000
+ 15426 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,34p,917b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,34p,1342b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on elsarticle-template-harv.dvi (9 pages, 17172 bytes).
+Output written on elsarticle-template-harv.dvi (23 pages, 66852 bytes).
