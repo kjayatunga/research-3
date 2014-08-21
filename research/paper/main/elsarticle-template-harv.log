@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.8.13)  19 AUG 2014 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.8.13)  20 AUG 2014 12:33
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -304,9 +304,41 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 34--35
 [][][] 
  []
 
-) (../figure/high_pi_1.tex
+) (../figure/power_curve_sketch.tex
+File: ../FnP/gnuplot/sketch_1.eps Graphic file (type eps)
+ <../FnP/gnuplot/sketch_1.eps>)
+
+LaTeX Warning: Reference `)' on page 11 undefined on input line 225.
+
+[11] [12] (../figure/time_histories.tex
+File: ../FnP/gnuplot/power_time_history_015.eps Graphic file (type eps)
+
+<../FnP/gnuplot/power_time_history_015.eps>
+File: ../FnP/gnuplot/f_y_history_015.eps Graphic file (type eps)
+
+<../FnP/gnuplot/f_y_history_015.eps>
+File: ../FnP/gnuplot/theta_time_history_015.eps Graphic file (type eps)
+
+<../FnP/gnuplot/theta_time_history_015.eps>
+File: ../FnP/gnuplot/power_time_history_54.eps Graphic file (type eps)
+
+<../FnP/gnuplot/power_time_history_54.eps>
+File: ../FnP/gnuplot/f_y_history_54.eps Graphic file (type eps)
+ <../FnP/gnuplot/f_y_history_54.eps>
+File: ../FnP/gnuplot/theta_time_history_54.eps Graphic file (type eps)
+
+<../FnP/gnuplot/theta_time_history_54.eps>
+File: ../FnP/gnuplot/power_time_history_08.eps Graphic file (type eps)
+
+<../FnP/gnuplot/power_time_history_08.eps>
+File: ../FnP/gnuplot/f_y_history_08.eps Graphic file (type eps)
+ <../FnP/gnuplot/f_y_history_08.eps>
+File: ../FnP/gnuplot/theta_time_history_08.eps Graphic file (type eps)
+
+<../FnP/gnuplot/theta_time_history_08.eps>) [13] [14] (../figure/high_pi_1.tex
 File: ../FnP/gnuplot/displacement_high_pi_1.eps Graphic file (type eps)
- <../FnP/gnuplot/displacement_high_pi_1.eps>
+
+<../FnP/gnuplot/displacement_high_pi_1.eps>
 File: ../FnP/gnuplot/velocity_high_pi_1.eps Graphic file (type eps)
 
 <../FnP/gnuplot/velocity_high_pi_1.eps>
@@ -344,38 +376,7 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 24--25
 [][][] 
  []
 
-) (../figure/power_curve_sketch.tex
-File: ../FnP/gnuplot/sketch_1.eps Graphic file (type eps)
- <../FnP/gnuplot/sketch_1.eps>)
-
-LaTeX Warning: Reference `)' on page 11 undefined on input line 232.
-
-[11] [12] [13] [14] [15] (../figure/time_histories.tex
-File: ../FnP/gnuplot/power_time_history_015.eps Graphic file (type eps)
-
-<../FnP/gnuplot/power_time_history_015.eps>
-File: ../FnP/gnuplot/f_y_history_015.eps Graphic file (type eps)
-
-<../FnP/gnuplot/f_y_history_015.eps>
-File: ../FnP/gnuplot/theta_time_history_015.eps Graphic file (type eps)
-
-<../FnP/gnuplot/theta_time_history_015.eps>
-File: ../FnP/gnuplot/power_time_history_54.eps Graphic file (type eps)
-
-<../FnP/gnuplot/power_time_history_54.eps>
-File: ../FnP/gnuplot/f_y_history_54.eps Graphic file (type eps)
- <../FnP/gnuplot/f_y_history_54.eps>
-File: ../FnP/gnuplot/theta_time_history_54.eps Graphic file (type eps)
-
-<../FnP/gnuplot/theta_time_history_54.eps>
-File: ../FnP/gnuplot/power_time_history_08.eps Graphic file (type eps)
-
-<../FnP/gnuplot/power_time_history_08.eps>
-File: ../FnP/gnuplot/f_y_history_08.eps Graphic file (type eps)
- <../FnP/gnuplot/f_y_history_08.eps>
-File: ../FnP/gnuplot/theta_time_history_08.eps Graphic file (type eps)
-
-<../FnP/gnuplot/theta_time_history_08.eps>) [16] [17] (../figure/qss_fsi.tex
+) [15] [16] [17] [18] (../figure/qss_fsi.tex
 File: ../FnP/gnuplot/fqss_fsi_displace.eps Graphic file (type eps)
 
 <../FnP/gnuplot/fqss_fsi_displace.eps>
@@ -388,21 +389,46 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 23--24
 [][][] 
  []
 
-) [18] [19] (../figure/error-table.tex)) [20] [21]
-(./elsarticle-template-harv.bbl [22
+) (../figure/spectrum.tex
+File: ../FnP/gnuplot/spec_20.eps Graphic file (type eps)
+ <../FnP/gnuplot/spec_20.eps>
+File: ../FnP/gnuplot/spec_50.eps Graphic file (type eps)
 
-]) [23] (./elsarticle-template-harv.aux)
+<../FnP/gnuplot/spec_50.eps>
+File: ../FnP/gnuplot/spec_100.eps Graphic file (type eps)
+ <../FnP/gnuplot/spec_100.eps>
+File: ../FnP/gnuplot/spec_200.eps Graphic file (type eps)
+
+<../FnP/gnuplot/spec_200.eps>
+File: ../FnP/gnuplot/spec_20_sig.eps Graphic file (type eps)
+ <../FnP/gnuplot/spec_20_sig.eps>
+File: ../FnP/gnuplot/spec_50_sig.eps Graphic file (type eps)
+
+<../FnP/gnuplot/spec_50_sig.eps>
+File: ../FnP/gnuplot/spec_100_sig.eps Graphic file (type eps)
+ <../FnP/gnuplot/spec_100_sig.eps>
+File: ../FnP/gnuplot/spec_200_sig.eps Graphic file (type eps)
+
+<../FnP/gnuplot/spec_200_sig.eps>
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 39--40
+[][][] 
+ []
+
+) [19] [20] [21]) [22] (./elsarticle-template-harv.bbl [23
+
+]) [24]
+(./elsarticle-template-harv.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2870 strings out of 493118
- 38845 string characters out of 6135459
- 102170 words of memory out of 5000000
- 6212 multiletter control sequences out of 15000+600000
+ 2885 strings out of 493118
+ 39150 string characters out of 6135459
+ 98170 words of memory out of 5000000
+ 6219 multiletter control sequences out of 15000+600000
  15426 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,34p,1342b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,34p,1342b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on elsarticle-template-harv.dvi (23 pages, 66852 bytes).
+Output written on elsarticle-template-harv.dvi (24 pages, 69208 bytes).
