@@ -46,7 +46,7 @@ $Re$ & Reynolds number  \\
 $U^*=U/fD$ & reduced velocity  \\
 $Y=y/D$ & non-dimensional transverse displacement \\
 $\dot{Y}=m^*\dot{y}/a_1U$ & non-dimensional transverse velocity \\
-$\ddot{Y}=m^{*2}D/a_1^2U^2$ & non-dimensional transverse acceleration \\
+$\ddot{Y}=m^{*2}D\ddot{y}/a_1^2U^2$ & non-dimensional transverse acceleration \\
 $\Gamma_1 = 4\pi^2m^{*2}/U^{*2}a_1^2$ & First dimensionless group arising from linearised, non-dimensionalised equation of motion\\
 $\Gamma_2 = c^*m^*/a_1$ & Second dimensionless group arising from linearised, non-dimensionalised equation of motion\\
 $\zeta= c/2 m \omega_n$ & damping ratio \\
@@ -136,8 +136,8 @@ where $F_y$ is the transverse (lift) force.
  \section{Results}
   \label{sec:results}
   
-     Figure \ref{fig:lift_curves} shows the plots of the interpolation polynomials as a function of $\theta$. For high \reynoldsnumber \ the polynomial incorporated by \cite{Parkinson1964} was used. For low \reynoldsnumber \ two polynomials were used to obtain a better fit to the data. One to fit data from $\theta=0^0 \rightarrow 7^0$ and the other $\theta > 7^0$ 
-   there are several differences that can be observed when the low \reynoldsnumber\ data are compared with the $7^{th}$ order polynomial curve at $\reynoldsnumber=22300$ shown in figure \ref{cy ploynomial}(b). The peak value of $C_y$ is  significantly lower at $\reynoldsnumber=200$ ($C_y=0.12$ at $5^\circ$) in comparison with $\reynoldsnumber=22300$ ($C_y=0.57$ at $13^\circ$) . The inflection point present around $8^\circ$ for $\reynoldsnumber=22300$ is not observed at $\reynoldsnumber=200$. This agrees with the findings of \cite{Luo2003}.  It was concluded by \cite{Luo2003} that hysteresis in the system response occurs due to the inflection point in the $C_y$ curve. Therefore hysteresis is not expected at $\reynoldsnumber=200$.
+     Figure \ref{fig:lift_curves} shows the plots of the interpolation polynomials as a function of $\theta$. For high \reynoldsnumber \ the polynomial incorporated by \cite{Parkinson1964} was used. For low \reynoldsnumber \ two polynomials were used to obtain a better fit to the data. One to fit data from $\theta=0^0 \rightarrow 7^0$ and the other $\theta > 7^0$. 
+   There are several differences that can be observed between high and low Reynolds number data. The peak value of $C_y$ is  significantly lower at $\reynoldsnumber=200$ ($C_y=0.12$ at $5^\circ$) compared to $\reynoldsnumber=22300$ ($C_y=0.57$ at $13^\circ$) . The inflection point present around $8^\circ$ for $\reynoldsnumber=22300$ is not present at $\reynoldsnumber=200$. This agrees with the findings of \cite{Luo2003}.  It was concluded by \cite{Luo2003} that hysteresis in the system response occurs due to the inflection point in the $C_y$ curve. Therefore hysteresis is not expected at $\reynoldsnumber=200$.
   
    
   The range of incident flow angles where $C_y$ remains positive is narrow at $\reynoldsnumber=200$ ($0^\circ <\theta \leq$ $7^\circ$) compared to $\reynoldsnumber=22300$ ($0^\circ <\theta \leq 15^\circ$). This feature is what sustains galloping. Power is only transferred from the fluid to the supporting structure within this range of incident angles because fluid forces are acting in the direction of travel of the oscillating body, as demonstrated by equation \ref{power_alt}. Incident angles beyond this range actually suppress the galloping and power goes in the opposite direction, i.e; from body to fluid. Therefore due to the overall smaller $C_y$ and narrow range of angles where $C_y$ is positive for $\reynoldsnumber=200$ compared to $\reynoldsnumber=22300$, it is expected that the transferred power at $\reynoldsnumber=200$ is significantly lower than at $\reynoldsnumber=22300$.
@@ -201,7 +201,7 @@ where $F_y$ is the transverse (lift) force.
  
 %   \input{../figure/collapsed_dta}
   
-   Figure \ref{fig:collapsed_data} shows the comparison of mean power data presented using different independent variables. Sub-figure (a) and (c) shows the displacement and velocity amplitudes respectively and the (e) shows the mean power as a function of the classic VIV parameter, \ustar. (b), (d) and (f) shows the same data presented as a function of \massdamp which was derived earlier, at $\reynoldsnumber=200$. The data presented using the classical VIV parameters follows the same trends as \cite{Barrero-Gil2010a}. However, the data presented using the linearlized parameter shows an excellent collapse for both velocity amplitude and mean power. Therefore, it could be deduced that the mean power  of the system is not dependent on frequency.
+   Figure \ref{fig:collapsed_data} shows the comparison of mean power data at $\reynoldsnumber=200$ presented using different independent variables. Sub-figure (a) and (c) shows the displacement and velocity amplitudes respectively and (e) shows the mean power as a function of the classic VIV parameter, \ustar. (b), (d) and (f) shows the same data as a function of \massdamp \ which was derived previously. The data presented using the classical VIV parameters follows the same trends as \cite{Barrero-Gil2010a}. However, the data presented using the linearlized parameter shows an excellent collapse for both velocity amplitude and mean power. Therefore, it could be deduced that the mean power  of the system is not dependent on frequency.
    
 
  \input{../figure/compare_data}
@@ -215,8 +215,7 @@ where $F_y$ is the transverse (lift) force.
 
 
  \subsection{Displacement, velocity and power}
- 
- The combined ass-stiffness parameter could be manipulated 
+
  
 
     \input{../figure/power_curve_sketch}
@@ -247,7 +246,7 @@ where $F_y$ is the transverse (lift) force.
  \input{../figure/low_pi1_plot2}
  \input{../figure/low_pi_1}
  
-We discuss the influence of the combined mass stiffness parameter on power in this section, using the QSS data obtained. We define $\massstiff \geq 10$ as high \massstiff \ and the rest as low \massstiff. From figure \ref{fig:high_pi_1} it could be seen that the collapse of the mean power and velocity amplitude are excellent, regardless of the combination of \ustar \ and \ \mstar \ being used. As \massstiff \ reduces at low \massstiff (Fig:\ref{fig:low_pi_1}), the power increases. However, figure \ref{fig:low_pi_1_plot2} shows that the mean power does not change if \massstiff \ is kept constant and \mstar \ is varied. This particular region could not be captured in the DNS results as the vortex shedding is much stronger and overcomes the galloping signal indicating that the QSS hypothesis deviates from the actual behaviour of the system at low \massstiff.
+We discuss the influence of the combined mass stiffness parameter on power in this section, using the QSS data obtained. We define $\massstiff \geq 10$ as high \massstiff \ and the rest as low \massstiff. From figure \ref{fig:high_pi_1} it could be seen that the collapse of the mean power and velocity amplitude are excellent, regardless of the combination of \ustar \ and \ \mstar \ being used. As \massstiff \ reduces, at low \massstiff (Fig:\ref{fig:low_pi_1}), the power increases. However, figure \ref{fig:low_pi_1_plot2} shows that the mean power does not change if \massstiff \ is kept constant and \mstar \ is varied. This particular region could not be captured in the DNS results as the vortex shedding is much stronger and overcomes the galloping signal indicating that the QSS hypothesis deviates from the actual behaviour of the system at low \massstiff.
  
  
 \subsection{limitation of the quasi-steady hypothesis at low Reynolds numbers}
