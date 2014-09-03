@@ -2,7 +2,7 @@
 unset key
 set term postscript enhanced portrait monochrome size 12cm,6cm "Times-roman" 12
 set output "mean_power_re_200.eps"
-set label 'x 10^{-3}' at graph -0.01, graph 1.05
+set label '{/Symbol \264} 10^{-3}' at graph 0.0, graph 1.05
 #set format y "%.1t"
 unset ylabel 
 set xtics nomirror
@@ -17,7 +17,7 @@ unset key
 unset ylabel 
 set term postscript enhanced portrait monochrome size 12cm,6cm "Times-roman" 12
 set output "mean_power_collapsed_re_200.eps"
-set label 'x 10^{-3}' at graph -0.01, graph 1.05
+set label '{/Symbol \264} 10^{-3}' at graph 0.0, graph 1.05
 set xtics nomirror
 set ytics nomirror
 set xtics (0.2,0.4,0.6,0.8)

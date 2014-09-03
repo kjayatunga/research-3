@@ -14,7 +14,7 @@ unset key
 unset ylabel
 set term postscript enhanced portrait monochrome size 12cm,6cm "Times-roman" 12
 set output "velocity_amp_re200.eps"
-set label 'x 10^{-1}' at graph -0.01, graph 1.05
+set label '{/Symbol \264} 10^{-1}' at graph -0.01, graph 1.05
 set xtics nomirror
 set ytics nomirror
 set xtics format " " 
@@ -40,7 +40,7 @@ unset key
 unset ylabel
 set term postscript enhanced portrait monochrome size 12cm,6cm "Times-roman" 12
 set output "velocity_amp_collapsed_re200.eps"
-set label 'x 10^{-1}' at graph -0.01, graph 1.05
+set label '{/Symbol \264} 10^{-1}' at graph -0.01, graph 1.05
 set xtics nomirror
 set ytics nomirror
 set xtics (0.2,0.4,0.6,0.8)

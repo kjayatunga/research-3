@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0
 %%Title: fqss_fsi_displace.eps
-%%Creator: gnuplot 4.4 patchlevel 3
-%%CreationDate: Wed Aug 20 12:22:36 2014
+%%Creator: gnuplot 4.6 patchlevel 5
+%%CreationDate: Wed Sep  3 16:16:15 2014
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 390 220
 %%Orientation: Portrait
@@ -22,10 +22,12 @@ gnudict begin
 /Level1 false def
 /Rounded false def
 /ClipToBoundingBox false def
+/SuppressPDFMark false def
 /TransparentPatterns false def
 /gnulinewidth 5.000 def
 /userlinewidth gnulinewidth def
 /Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
 %
 /vshift -46 def
 /dl1 {
@@ -40,22 +42,6 @@ gnudict begin
 /vpt_ 31.5 def
 /hpt hpt_ def
 /vpt vpt_ def
-Level1 {} {
-/SDict 10 dict def
-systemdict /pdfmark known not {
-  userdict /pdfmark systemdict /cleartomark get put
-} if
-SDict begin [
-  /Title (fqss_fsi_displace.eps)
-  /Subject (gnuplot plot)
-  /Creator (gnuplot 4.4 patchlevel 3)
-  /Author (hgjay)
-%  /Producer (gnuplot)
-%  /Keywords ()
-  /CreationDate (Wed Aug 20 12:22:36 2014)
-  /DOCINFO pdfmark
-end
-} ifelse
 /doclip {
   ClipToBoundingBox {
     newpath 50 50 moveto 390 50 lineto 390 220 lineto 50 220 lineto closepath
@@ -63,7 +49,7 @@ end
   } if
 } def
 %
-% Gnuplot Prolog Version 4.4 (August 2010)
+% Gnuplot Prolog Version 4.6 (September 2012)
 %
 %/SuppressPDFMark true def
 %
@@ -330,7 +316,8 @@ end
 /PatternFill {gsave /PFa [ 9 2 roll ] def
   PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
   PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
-  gsave 1 setgray fill grestore clip
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
   currentlinewidth 0.5 mul setlinewidth
   /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
   0 0 M PFa 5 get rotate PFs -2 div dup translate
@@ -463,6 +450,23 @@ currentdict end definefont pop
   Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
 /XYsave    { [( ) 1 2 true false 3 ()] } bind def
 /XYrestore { [( ) 1 2 true false 4 ()] } bind def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (fqss_fsi_displace.eps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 4.6 patchlevel 5)
+  /Author (kassa)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Wed Sep  3 16:16:15 2014)
+  /DOCINFO pdfmark
+end
+} ifelse
 end
 %%EndProlog
 %%Page: 1 1
@@ -474,6 +478,7 @@ doclip
 0 setgray
 newpath
 (Times-roman) findfont 140 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {gsave BackgroundColor C clippath fill grestore} if
 1.000 UL
 LTb
 546 593 M
@@ -512,7 +517,7 @@ LTb
 0 63 V
 stroke
 546 140 M
-[ [(Times-roman) 140.0 0.0 true true 0 ( 0)]
+[ [(Times-roman) 140.0 0.0 true true 0 ( )]
 ] -46.7 MCshow
 1.000 UL
 LTb
@@ -520,7 +525,7 @@ LTb
 0 63 V
 stroke
 1124 140 M
-[ [(Times-roman) 140.0 0.0 true true 0 ( 0.2)]
+[ [(Times-roman) 140.0 0.0 true true 0 ( )]
 ] -46.7 MCshow
 1.000 UL
 LTb
@@ -528,7 +533,7 @@ LTb
 0 63 V
 stroke
 1702 140 M
-[ [(Times-roman) 140.0 0.0 true true 0 ( 0.4)]
+[ [(Times-roman) 140.0 0.0 true true 0 ( )]
 ] -46.7 MCshow
 1.000 UL
 LTb
@@ -536,7 +541,7 @@ LTb
 0 63 V
 stroke
 2281 140 M
-[ [(Times-roman) 140.0 0.0 true true 0 ( 0.6)]
+[ [(Times-roman) 140.0 0.0 true true 0 ( )]
 ] -46.7 MCshow
 1.000 UL
 LTb
@@ -544,7 +549,7 @@ LTb
 0 63 V
 stroke
 2859 140 M
-[ [(Times-roman) 140.0 0.0 true true 0 ( 0.8)]
+[ [(Times-roman) 140.0 0.0 true true 0 ( )]
 ] -46.7 MCshow
 1.000 UL
 LTb
@@ -563,6 +568,7 @@ LTb
 2.000 UL
 LTa
 /Times-roman findfont 140 scalefont setfont
+/vshift -46 def
 951 1229 M
 58 -15 V
 57 -15 V
@@ -648,6 +654,8 @@ LT3
 1.000 UL
 LT4
 /Times-roman findfont 140 scalefont setfont
+980 1311 DiaF
+1413 1167 DiaF
 1702 1083 DiaF
 1905 1028 DiaF
 2107 969 DiaF

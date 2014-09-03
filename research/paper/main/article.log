@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.8.13)  27 AUG 2014 12:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.8.13)  27 AUG 2014 12:31
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -17401,8 +17401,8 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.204 ...s the same data as a function of \massdam
-                                                  , for various \massstuff b...
+l.204 ... the same data as a function of \massdamp
+                                                  , for various \massstiff b...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -17421,7 +17421,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.204 ...ction of \massdam, for various \massstuff
+l.204 ...tion of \massdamp, for various \massstiff
                                                    both of which were recent...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have

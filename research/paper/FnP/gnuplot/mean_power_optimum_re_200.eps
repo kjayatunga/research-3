@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0
 %%Title: mean_power_optimum_re_200.eps
-%%Creator: gnuplot 4.4 patchlevel 3
-%%CreationDate: Wed Aug 13 14:49:31 2014
+%%Creator: gnuplot 4.6 patchlevel 5
+%%CreationDate: Wed Sep  3 12:14:30 2014
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 390 220
 %%Orientation: Portrait
@@ -22,10 +22,12 @@ gnudict begin
 /Level1 false def
 /Rounded false def
 /ClipToBoundingBox false def
+/SuppressPDFMark false def
 /TransparentPatterns false def
 /gnulinewidth 5.000 def
 /userlinewidth gnulinewidth def
 /Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
 %
 /vshift -46 def
 /dl1 {
@@ -40,22 +42,6 @@ gnudict begin
 /vpt_ 31.5 def
 /hpt hpt_ def
 /vpt vpt_ def
-Level1 {} {
-/SDict 10 dict def
-systemdict /pdfmark known not {
-  userdict /pdfmark systemdict /cleartomark get put
-} if
-SDict begin [
-  /Title (mean_power_optimum_re_200.eps)
-  /Subject (gnuplot plot)
-  /Creator (gnuplot 4.4 patchlevel 3)
-  /Author (hgjay)
-%  /Producer (gnuplot)
-%  /Keywords ()
-  /CreationDate (Wed Aug 13 14:49:31 2014)
-  /DOCINFO pdfmark
-end
-} ifelse
 /doclip {
   ClipToBoundingBox {
     newpath 50 50 moveto 390 50 lineto 390 220 lineto 50 220 lineto closepath
@@ -63,7 +49,7 @@ end
   } if
 } def
 %
-% Gnuplot Prolog Version 4.4 (August 2010)
+% Gnuplot Prolog Version 4.6 (September 2012)
 %
 %/SuppressPDFMark true def
 %
@@ -330,7 +316,8 @@ end
 /PatternFill {gsave /PFa [ 9 2 roll ] def
   PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
   PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
-  gsave 1 setgray fill grestore clip
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
   currentlinewidth 0.5 mul setlinewidth
   /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
   0 0 M PFa 5 get rotate PFs -2 div dup translate
@@ -463,6 +450,23 @@ currentdict end definefont pop
   Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
 /XYsave    { [( ) 1 2 true false 3 ()] } bind def
 /XYrestore { [( ) 1 2 true false 4 ()] } bind def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (mean_power_optimum_re_200.eps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 4.6 patchlevel 5)
+  /Author (kassa)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Wed Sep  3 12:14:30 2014)
+  /DOCINFO pdfmark
+end
+} ifelse
 end
 %%EndProlog
 %%Page: 1 1
@@ -474,6 +478,7 @@ doclip
 0 setgray
 newpath
 (Times-roman) findfont 140 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {gsave BackgroundColor C clippath fill grestore} if
 1.000 UL
 LTb
 462 530 M
@@ -557,8 +562,9 @@ LTb
 -2686 0 V
 Z stroke
 1.000 UP
-435 1631 M
-[ [(Times-roman) 140.0 0.0 true true 0 (x 10)]
+462 1619 M
+[ [(Symbol) 140.0 0.0 true true 0 (\264)]
+[(Times-roman) 140.0 0.0 true true 0 ( 10)]
 [(Times-roman) 112.0 70.0 true true 0 (-3)]
 ] -60.7 MLshow
 1.000 UL
@@ -568,6 +574,7 @@ LTb
 1.000 UL
 LT0
 /Times-roman findfont 140 scalefont setfont
+/vshift -46 def
 838 728 Crs
 892 776 Crs
 945 820 Crs
@@ -619,5 +626,5 @@ grestore
 end
 showpage
 %%Trailer
-%%DocumentFonts: Times-roman
+%%DocumentFonts: Symbol Times-roman
 %%Pages: 1

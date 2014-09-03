@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.8.13)  27 AUG 2014 12:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.8.13)  3 SEP 2014 16:16
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -250,56 +250,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 141.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./article.tex
-[1
-
-
-] [2]
-Overfull \hbox (224.51294pt too wide) in paragraph at lines 17--57
-[][][] 
- []
-
-[3]
-Overfull \vbox (18.26488pt too high) has occurred while \output is active []
-
-
-[4] (../figure/sketch-1.tex
-File: ../FnP/gnuplot/setup-1.eps Graphic file (type eps)
- <../FnP/gnuplot/setup-1.eps>) [5]
-(../figure/cy_vs_theta.tex
-File: ../FnP/gnuplot/lift_curve_200.eps Graphic file (type eps)
- <../FnP/gnuplot/lift_curve_200.eps>
-File: ../FnP/gnuplot/lift_curve_park.eps Graphic file (type eps)
-
-<../FnP/gnuplot/lift_curve_park.eps>) (../figure/coefficient-table.tex)
-[6] [7] [8] [9]
-
-LaTeX Warning: Reference `fig:uncollapsed_data' on page 10 undefined on input l
-ine 196.
-
-[10]
-
-LaTeX Warning: Reference `fig:collapsed_data' on page 11 undefined on input lin
-e 204.
-
-! Undefined control sequence.
-l.204 ...s the same data as a function of \massdam
-                                                  , for various \massstuff b...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.204 ...ction of \massdam, for various \massstuff
-                                                   both of which were recent...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+) (./plots.tex
 (../figure/compare_data.tex
 File: ../FnP/gnuplot/displacement_amp_re200.eps Graphic file (type eps)
  <../FnP/gnuplot/displacement_amp_re200.eps>
@@ -318,43 +269,17 @@ File: ../FnP/gnuplot/displacement_amp_collpased_re200.eps Graphic file (type ep
 s)
 
 <../FnP/gnuplot/displacement_amp_collpased_re200.eps>
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 34.
+
+
 Overfull \hbox (14.63324pt too wide) in paragraph at lines 34--35
 [][][] 
  []
 
-)
-
-LaTeX Warning: Reference `)' on page 11 undefined on input line 224.
-
-[11] [12] (../figure/time_histories.tex
-File: ../FnP/gnuplot/power_time_history_015.eps Graphic file (type eps)
-
-<../FnP/gnuplot/power_time_history_015.eps>
-File: ../FnP/gnuplot/f_y_history_015.eps Graphic file (type eps)
-
-<../FnP/gnuplot/f_y_history_015.eps>
-File: ../FnP/gnuplot/theta_time_history_015.eps Graphic file (type eps)
-
-<../FnP/gnuplot/theta_time_history_015.eps>
-File: ../FnP/gnuplot/power_time_history_54.eps Graphic file (type eps)
-
-<../FnP/gnuplot/power_time_history_54.eps>
-File: ../FnP/gnuplot/f_y_history_54.eps Graphic file (type eps)
- <../FnP/gnuplot/f_y_history_54.eps>
-File: ../FnP/gnuplot/theta_time_history_54.eps Graphic file (type eps)
-
-<../FnP/gnuplot/theta_time_history_54.eps>
-File: ../FnP/gnuplot/power_time_history_08.eps Graphic file (type eps)
-
-<../FnP/gnuplot/power_time_history_08.eps>
-File: ../FnP/gnuplot/f_y_history_08.eps Graphic file (type eps)
- <../FnP/gnuplot/f_y_history_08.eps>
-File: ../FnP/gnuplot/theta_time_history_08.eps Graphic file (type eps)
-
-<../FnP/gnuplot/theta_time_history_08.eps>) [13] [14] (../figure/high_pi_1.tex
+) (../figure/high_pi_1.tex
 File: ../FnP/gnuplot/displacement_high_pi_1.eps Graphic file (type eps)
-
-<../FnP/gnuplot/displacement_high_pi_1.eps>
+ <../FnP/gnuplot/displacement_high_pi_1.eps>
 File: ../FnP/gnuplot/velocity_high_pi_1.eps Graphic file (type eps)
 
 <../FnP/gnuplot/velocity_high_pi_1.eps>
@@ -392,6 +317,18 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 24--25
 [][][] 
  []
 
+) (../figure/collapsed_data.tex
+File: ../FnP/gnuplot/mean_power_collapsed_parkinson.eps Graphic file (type eps)
+
+
+<../FnP/gnuplot/mean_power_collapsed_parkinson.eps>
+File: ../FnP/gnuplot/mean_power_optimum_re_200.eps Graphic file (type eps)
+
+<../FnP/gnuplot/mean_power_optimum_re_200.eps>
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 30--31
+[][][] 
+ []
+
 ) (../figure/qss_fsi.tex
 File: ../FnP/gnuplot/fqss_fsi_displace.eps Graphic file (type eps)
  <../FnP/gnuplot/fqss_fsi_displace.eps>
@@ -400,282 +337,62 @@ File: ../FnP/gnuplot/qss_fsi_velocity.eps Graphic file (type eps)
 <../FnP/gnuplot/qss_fsi_velocity.eps>
 File: ../FnP/gnuplot/qss_fsi_power.eps Graphic file (type eps)
  <../FnP/gnuplot/qss_fsi_power.eps>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 23--24
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 26--27
 [][][] 
  []
 
-) [15] [16] [17] [18] [19] (../figure/spectrum.tex
-
-LaTeX Warning: File `../FnP/gnuplot/spec_20.eps' not found on input line 39.
-
-
-! LaTeX Error: File `../FnP/gnuplot/spec_20.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in ../FnP/gnuplot/spec_20.eps (
-no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+) (../figure/spectrum.tex
 File: ../FnP/gnuplot/spec_20.eps Graphic file (type eps)
-<../FnP/gnuplot/spec_20.eps>
-
-LaTeX Warning: File `../FnP/gnuplot/spec_50.eps' not found on input line 39.
-
-
-! LaTeX Error: File `../FnP/gnuplot/spec_50.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in ../FnP/gnuplot/spec_50.eps (
-no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ <../FnP/gnuplot/spec_20.eps>
 File: ../FnP/gnuplot/spec_50.eps Graphic file (type eps)
+
 <../FnP/gnuplot/spec_50.eps>
-
-LaTeX Warning: File `../FnP/gnuplot/spec_100.eps' not found on input line 39.
-
-
-! LaTeX Error: File `../FnP/gnuplot/spec_100.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in ../FnP/gnuplot/spec_100.eps 
-(no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 File: ../FnP/gnuplot/spec_100.eps Graphic file (type eps)
-<../FnP/gnuplot/spec_100.eps>
-
-LaTeX Warning: File `../FnP/gnuplot/spec_200.eps' not found on input line 39.
-
-
-! LaTeX Error: File `../FnP/gnuplot/spec_200.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in ../FnP/gnuplot/spec_200.eps 
-(no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ <../FnP/gnuplot/spec_100.eps>
 File: ../FnP/gnuplot/spec_200.eps Graphic file (type eps)
+
 <../FnP/gnuplot/spec_200.eps>
-
-LaTeX Warning: File `../FnP/gnuplot/spec_20_sig.eps' not found on input line 39
-.
-
-
-! LaTeX Error: File `../FnP/gnuplot/spec_20_sig.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in ../FnP/gnuplot/spec_20_sig.e
-ps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 File: ../FnP/gnuplot/spec_20_sig.eps Graphic file (type eps)
-<../FnP/gnuplot/spec_20_sig.eps>
-
-LaTeX Warning: File `../FnP/gnuplot/spec_50_sig.eps' not found on input line 39
-.
-
-
-! LaTeX Error: File `../FnP/gnuplot/spec_50_sig.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in ../FnP/gnuplot/spec_50_sig.e
-ps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ <../FnP/gnuplot/spec_20_sig.eps>
 File: ../FnP/gnuplot/spec_50_sig.eps Graphic file (type eps)
+
 <../FnP/gnuplot/spec_50_sig.eps>
-
-LaTeX Warning: File `../FnP/gnuplot/spec_100_sig.eps' not found on input line 3
-9.
-
-
-! LaTeX Error: File `../FnP/gnuplot/spec_100_sig.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in ../FnP/gnuplot/spec_100_sig.
-eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 File: ../FnP/gnuplot/spec_100_sig.eps Graphic file (type eps)
-<../FnP/gnuplot/spec_100_sig.eps>
-
-LaTeX Warning: File `../FnP/gnuplot/spec_200_sig.eps' not found on input line 3
-9.
-
-
-! LaTeX Error: File `../FnP/gnuplot/spec_200_sig.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in ../FnP/gnuplot/spec_200_sig.
-eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ <../FnP/gnuplot/spec_100_sig.eps>
 File: ../FnP/gnuplot/spec_200_sig.eps Graphic file (type eps)
+
 <../FnP/gnuplot/spec_200_sig.eps>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 39--40
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 40--41
 [][][] 
  []
 
-)
+) (../figure/error-table.tex
 
-LaTeX Warning: Reference `fig:spectrum' on page 20 undefined on input line 272.
+LaTeX Warning: Reference `eqn:error_calculation' on page 1 undefined on input l
+ine 20.
 
 
-) [20] [21] (./elsarticle-template-harv.bbl [22
+LaTeX Warning: Reference `eqn:error_calculation' on page 1 undefined on input l
+ine 20.
 
-]) [23]
-(./elsarticle-template-harv.aux)
+)) [1
+
+
+] [2] [3] [4] [5] [6] [7] [8] (./elsarticle-template-harv.bbl [9
+
+])
+[10] (./elsarticle-template-harv.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 2879 strings out of 493118
- 39021 string characters out of 6135459
- 99170 words of memory out of 5000000
- 6217 multiletter control sequences out of 15000+600000
- 15426 words of font info for 59 fonts, out of 8000000 for 9000
+ 2823 strings out of 493118
+ 37860 string characters out of 6135459
+ 105516 words of memory out of 5000000
+ 6175 multiletter control sequences out of 15000+600000
+ 12941 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,34p,1541b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,9n,34p,1106b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on elsarticle-template-harv.dvi (23 pages, 68808 bytes).
+Output written on elsarticle-template-harv.dvi (10 pages, 19996 bytes).
