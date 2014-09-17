@@ -88,7 +88,8 @@ C_y(\theta)=a_1\left(\frac{\dot{y}}{U}\right)+a_3\left(\frac{\dot{y}}{U}\right)^
 %\ddot{y}+c^*\dot{y}+k^*y=\frac{1}{2}\rho U^2A
 %\end{equation}
 
- It is expected that vortex shedding will be well correlated along the span and provide significant forcing at low \reynoldsnumber. \citet{Joly2012} introduced  an additional sinusoidal forcing function to the hydrodynamic forcing to model this. This enables the model to provide accurate predictions even at low mass ratios where galloping excitation is suppressed or not present. This study intends to identify the parameter space where the QSS model predicts well and therefore the additional sinusoidal forcing function is disregarded.  
+ It is expected that vortex shedding will be well correlated along the span and provide significant forcing at low \reynoldsnumber. \citet{Joly2012} introduced  an additional sinusoidal forcing function to the hydrodynamic forcing to model this. This enables the model to provide accurate predictions even at low mass ratios where galloping excitation is suppressed or not present. This study intends to identify the parameter space where the QSS model predicts well and therefore the additional sinusoidal forcing function is disregarded. 
+ \KJ{Kenny's openion is that we need to justify this by saying fixed amplitude and fixed frequency does not accurately predict shedding forces (I need some references for this. Do you have any since you have been doing VIV research for a square cross section). What we have to say that what the sinusoidal function joly used does not apply to a universal case. i.e. No single value can accurately model the shedding forces across a brorad range of parameters with damping.} 
  
  
  
@@ -245,7 +246,11 @@ where $F_y$ is the transverse (lift) force.
  \input{../figure/low_pi1_plot2}
  \input{../figure/low_pi_1}
  
-  From figure \ref{fig:high_pi_1} it could be seen that the collapse of the mean power and velocity amplitude are excellent, regardless of the combination of \ustar \ and \ \mstar \ being used. Thus $\massstiff \geq 10$  is defined high \massstiff \ and the rest as low \massstiff. As \massstiff \ reduces, at low \massstiff (Fig:\ref{fig:low_pi_1}), the power increases. However, figure \ref{fig:low_pi_1} shows that the mean power does not change if \massstiff \ is kept constant and \mstar \ is varied. This particular region could not be captured in the DNS results as the vortex shedding is much stronger and overcomes the galloping signal indicating that the QSS hypothesis deviates from the actual behaviour of the system at low \massstiff.
+  From figure \ref{fig:high_pi_1} it could be seen that the collapse of the mean power and velocity amplitude are excellent, regardless of the combination of \ustar \ and \ \mstar \ being used. Thus $\massstiff \geq 10$  is defined high \massstiff \ and the rest as low \massstiff. As \massstiff \ reduces, at low \massstiff (Fig:\ref{fig:low_pi_1}), the power increases. However, figure \ref{fig:low_pi_1} shows that the mean power does not change if \massstiff \ is kept constant and \mstar \ is varied. The reason behind this is as \massstiff reduces, the response of the system moves towards a square signal from a sinusoidal signal. This is due to the fact that in this region the forcing is dominated by the higher order terms in the forcing function (Eq:\ref{cy ploynomial}).  The formulation of \massstiff \ and \massdamp \ does not include the non-linear terms of Eq: \ref{eqn:eom_linear}. However,  \mstar is not eliminated in scaling the higher-order terms. It was mention earlier that the non-linear terms influences the low \massstiff and therefore the influence of \mstar at low \massstiff was investigated.  Figure \ref{fig:low_pi_1_plot2} shows that at the low mass \massstiff region the mean power does not change for a given \massstiff even the \mstar is changed. 
+  
+  However, particular region (low \massstiff) could not be captured in the DNS results as the vortex shedding is much stronger and overcomes the galloping signal indicating that the QSS hypothesis deviates from the actual behaviour of the system at low \massstiff.
+  
+  
  
  
 \subsection{limitation of the quasi-steady hypothesis at low Reynolds numbers}
