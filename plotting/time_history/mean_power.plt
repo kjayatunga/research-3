@@ -34,7 +34,7 @@ set output "theta_time_history_015.eps"
 set xtics nomirror
 set ytics nomirror
 set xtics (2600,2620,2640,2660)
-set ytics ("-10.0"-10,"-5.0" -5,0,"5.0" 5,"10" 10.0 )
+set ytics ("-10.0"-10,"-5.0" -5,0,"5.0" 5,"10.0" 10 )
 plot [2590:2650][-10:10] "015" u 1:5 w l lt 0 lw 2, "015" u 1:5 w l lt 1 lw 1 
 ###########################################################################################################################
 reset
@@ -71,8 +71,8 @@ set output "theta_time_history_54.eps"
 set xtics nomirror
 set ytics nomirror
 set xtics (2600,2620,2640,2660)
-set ytics ("-3.0"-3,"-6.0"-6,0,"3.0"3,"6.0"6 )
-plot [][-6:6] "054" u 1:5 w l lt 0 lw 2, "054" u 1:5 w l lt 1 lw 1 
+set ytics ("-10.0"-10,"-5.0" -5,0,"5.0" 5,"10.0" 10 )
+plot [][-10:10] "054" u 1:5 w l lt 0 lw 2, "054" u 1:5 w l lt 1 lw 1 
 
 #########################################################################################################################################################
 reset
@@ -111,8 +111,8 @@ set output "theta_time_history_08.eps"
 set xtics nomirror
 set ytics nomirror
 set xtics (2600,2620,2640,2660)
-set ytics ("-3.0"-3,"-6.0"-6,0,"3.0"3,"6.0"6 )
-plot [][-6:6] "08" u 1:5 w l lt 0 lw 2, "08" u 1:5 w l lt 1 lw 1  
+set ytics ("-10.0"-10,"-5.0" -5,0,"5.0" 5,"10.0" 10 )
+plot [][-10:10] "08" u 1:5 w l lt 0 lw 2, "08" u 1:5 w l lt 1 lw 1  
 
 
 
