@@ -20,6 +20,8 @@ $A$ & displacement amplitude\\
 $c$ & damping constant \\
 $D$ & characteristic length (side length) of the cross section of the body \\
 $f=\sqrt{k/m}/2\pi$ & natural frequency of the system \\
+$f_g$ & frequency of galloping \\
+$f_s$ & frequency of vortex shedding \\
 $F_y$ & instantaneous force normal to the flow \\ 
 $F_0$& amplitude of the oscillatory force due to vortex shedding \\
 $k$ & spring constant \\
@@ -205,7 +207,7 @@ where $F_y$ is the transverse (lift) force.
    Figure \ref{fig:collapsed_data} shows the comparison of mean power data at $\reynoldsnumber=200$ presented using different independent variables. Sub-figure (a) and (c) shows the displacement and velocity amplitudes respectively and (e) shows the mean power as a function of the classic VIV parameter, \ustar for various $\zeta$. (b), (d) and (f) shows the same data as a function of \massdamp, for various \massstiff both of which were recently derived. The data presented using the classical VIV parameters follows the same trends as \cite{Barrero-Gil2010a}. However, the data presented using the linearlized parameter shows an excellent collapse for both velocity amplitude and mean power. Therefore, it could be deduced that the mean power  of the system is only dependent on \massdamp \ and not on \massstiff. This implies that the natural frequency of the system which is used to scale \ustar, $\zeta$ and \massstiff does not influence the system in these cases.
    
 
- \input{../figure/compare_data}
+ \input{../figure/collapsed_data}
     
  Figure \ref{fig:compare_data} \hilight{have to write something about the optimum power}
    
@@ -276,7 +278,8 @@ the discrepancy of the power data  increases significantly as \massdamp \ is inc
 
 The reason behind this phenomenon could be explained by analysing the power spectrum of the velocity signal of the system. Figure \ref{fig:spectrum} shows the power spectrum of the velocity signals at $\massstiff=0.8$ and $\massdamp= 10, 60, 250$ and $1000$. The data shows that the  magnitude of the second peak at $\frac{fd}{U}=0.156$ which represents the vortex shedding signal reduces as the mass ratio is increased. Hence, it could be concluded that the influence of vortex shedding is more prominent at low mass ratio therefore results in larger deviations from quasi-steady state results. This strengthens \cite{Joly2012} conclusions. However, the significant of this study with that of \cite{Joly2012} is that we have provided a comparison of QSS and DNS data as damping is increased. 
 
-
+\input{../figure/max_power}
+\input{../figure/error}
 
 
 
