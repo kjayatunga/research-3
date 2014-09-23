@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.8.13)  21 SEP 2014 22:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.8.13)  23 SEP 2014 16:25
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -888,10 +888,32 @@ and I'll forget about whatever was undefined.
 Missing character: There is no ( in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+<argument> \small 
+                  $f_g$
+l.39       \put(0.65,-0.01){\small$f_g$}
+                                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \small 
+                  $f_s$
+l.40       \put(0.881,-0.01){\small$f_s$}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -902,7 +924,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -913,7 +935,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -922,14 +944,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (31.63896pt too wide) detected at line 44
+Overfull \hbox (31.63896pt too wide) detected at line 47
 $[]\OT1/cmr/m/n/10 00\OML/cmm/m/it/10 :eps[][]$
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -940,7 +962,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -951,7 +973,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -960,14 +982,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (26.63895pt too wide) detected at line 44
+Overfull \hbox (26.63895pt too wide) detected at line 47
 $[]\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :eps[]$
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -978,7 +1000,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -989,7 +1011,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -998,14 +1020,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (26.63895pt too wide) detected at line 44
+Overfull \hbox (26.63895pt too wide) detected at line 47
 $[]\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :eps[]$
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1016,7 +1038,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1027,7 +1049,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1038,7 +1060,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1049,7 +1071,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1058,14 +1080,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (44.48688pt too wide) detected at line 44
+Overfull \hbox (44.48688pt too wide) detected at line 47
 $[]\OT1/cmr/m/n/10 00[]\OML/cmm/m/it/10 ig:eps[]$
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1076,7 +1098,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1087,7 +1109,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1096,14 +1118,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (39.48686pt too wide) detected at line 44
+Overfull \hbox (39.48686pt too wide) detected at line 47
 $[]\OT1/cmr/m/n/10 0[]\OML/cmm/m/it/10 ig:eps[]$
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1114,7 +1136,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1125,7 +1147,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1134,14 +1156,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (80.48685pt too wide) detected at line 44
+Overfull \hbox (80.48685pt too wide) detected at line 47
 $[]\OT1/cmr/m/n/10 0[]\OML/cmm/m/it/10 ig:eps[]$
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1152,7 +1174,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44   \end{picture}
+l.47   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1161,7 +1183,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) detected at line 44
+Underfull \hbox (badness 10000) detected at line 47
  []
  []
 
@@ -1172,7 +1194,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46   \caption
+l.49   \caption
                {Velocity signal (right) and the corresponding power spectrum...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1185,7 +1207,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46   \caption{V
+l.49   \caption{V
                  elocity signal (right) and the corresponding power spectrum...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1275,7 +1297,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.46 ... of the DNS data at 3 different \massstiff
+l.49 ... of the DNS data at 3 different \massstiff
                                                    \ at $\massdamp=0.8$. (a)...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1288,7 +1310,7 @@ Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
 <recently read> \massdamp 
                           
-l.46 ... at 3 different \massstiff \ at $\massdamp
+l.49 ... at 3 different \massstiff \ at $\massdamp
                                                   =0.8$. (a) and (b) $\masss...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1309,7 +1331,7 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <recently read> \massstiff 
                            
-l.46 ...t $\massdamp=0.8$. (a) and (b) $\massstiff
+l.49 ...t $\massdamp=0.8$. (a) and (b) $\massstiff
                                                   =10$, (c) and (d) $\massst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1330,7 +1352,7 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <recently read> \massstiff 
                            
-l.46 ...) $\massstiff=10$, (c) and (d) $\massstiff
+l.49 ...) $\massstiff=10$, (c) and (d) $\massstiff
                                                   =60$, (e) and (f) $\massst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1351,7 +1373,7 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <recently read> \massstiff 
                            
-l.46 ...) $\massstiff=60$, (e) and (f) $\massstiff
+l.49 ...) $\massstiff=60$, (e) and (f) $\massstiff
                                                   =250$, (g) and (h) $\masss...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1372,7 +1394,7 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <recently read> \massstiff 
                            
-l.46 ... $\massstiff=250$, (g) and (h) $\massstiff
+l.49 ... $\massstiff=250$, (g) and (h) $\massstiff
                                                   =1000$. \ustar \ is kept a...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1382,7 +1404,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.46 ...50$, (g) and (h) $\massstiff=1000$. \ustar
+l.49 ...50$, (g) and (h) $\massstiff=1000$. \ustar
                                                    \ is kept at 40 therefore...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1433,7 +1455,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.46 ...e the mass ratio increases as \ \massstiff
+l.49 ...e the mass ratio increases as \ \massstiff
                                                    \ increases. It is eviden...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1541,7 +1563,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \end{figure}
+l.51 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
