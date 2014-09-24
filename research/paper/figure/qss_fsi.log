@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.8.13)  20 SEP 2014 23:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.8.13)  24 SEP 2014 13:54
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -309,6 +309,48 @@ l.10
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Undefined control sequence.
+<argument> \small 
+                  (a)
+l.16     \put(0.15,1.41){\small(a)}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+<argument> \small 
+                  (b)
+l.17      \put(0.15,1.05){\small(b)}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+<argument> \small 
+                  (c)
+l.18      \put(0.15,0.69){\small(c)}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <recently read> \massdamp 
                           
@@ -806,7 +848,7 @@ Missing character: There is no t in font nullfont!
 <recently read> \massstiff 
                            
 l.27 ...mstar=201.3$). The QSS data at $\massstiff
-                                                  =10$ \ ($+$)}
+                                                  =10$ \ (\protect\dashedrul...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -814,6 +856,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no ( in font nullfont!
+! Undefined control sequence.
+l.27 ... at $\massstiff=10$ \ (\protect\dashedrule
+                                                  ) }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no ) in font nullfont!
 
 ! LaTeX Error: \begin{document} ended by \end{figure}.
@@ -928,11 +979,6 @@ Overfull \hbox (10.00003pt too wide) in paragraph at lines 27--30
 \OT1/cmr/m/n/10 10$
  []
 
-
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 27--30
-\OT1/cmr/m/n/10 +$
- []
-
 )
 ! Emergency stop.
 <*> qss_fsi.tex
@@ -941,11 +987,11 @@ Overfull \hbox (7.7778pt too wide) in paragraph at lines 27--30
 
  
 Here is how much of TeX's memory you used:
- 13 strings out of 493118
- 207 string characters out of 6135459
+ 14 strings out of 493118
+ 212 string characters out of 6135459
  52906 words of memory out of 5000000
- 3576 multiletter control sequences out of 15000+600000
+ 3577 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 20i,10n,15p,498b,99s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 20i,10n,15p,515b,99s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.

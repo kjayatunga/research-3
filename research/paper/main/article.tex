@@ -204,12 +204,13 @@ where $F_y$ is the transverse (lift) force.
  
 %   \input{../figure/collapsed_dta}
   
-   Figure \ref{fig:collapsed_data} shows the comparison of mean power data at $\reynoldsnumber=200$ presented using different independent variables. Sub-figure (a) and (c) shows the displacement and velocity amplitudes respectively and (e) shows the mean power as a function of the classic VIV parameter, \ustar for various $\zeta$. (b), (d) and (f) shows the same data as a function of \massdamp, for various \massstiff both of which were recently derived. The data presented using the classical VIV parameters follows the same trends as \cite{Barrero-Gil2010a}. However, the data presented using the linearlized parameter shows an excellent collapse for both velocity amplitude and mean power. Therefore, it could be deduced that the mean power  of the system is only dependent on \massdamp \ and not on \massstiff. This implies that the natural frequency of the system which is used to scale \ustar, $\zeta$ and \massstiff does not influence the system in these cases.
+   Figure \ref{fig:collapsed_data} shows the comparison of mean power data at $\reynoldsnumber=200$ presented using different independent variables. Sub-figure (a) and (c) shows the displacement and velocity amplitudes respectively and (e) shows the mean power as a function of the classic VIV parameter, \ustar for various $\zeta$. (b), (d) and (f) shows the same data as a function of \massdamp, for various \massstiff both of which were recently formulated. The data presented using the classical VIV parameters follows the same trends as \cite{Barrero-Gil2010a}. However, the data presented using the dimensionless group formulated using the natural time scales of the system shows an excellent collapse for both velocity amplitude and mean power. Therefore, it could be deduced that the mean power  of the system is only dependent on \KJ{is it possible to say that the power is not depemdet on \massstiff ?}\massdamp \ and not on \massstiff. This implies that the natural frequency of the system which is used to scale \ustar, $\zeta$ and \massstiff does not influence the system in these cases.
    
 
  \input{../figure/collapsed_data}
     
- Figure \ref{fig:compare_data} \hilight{have to write something about the optimum power}
+ Figure \ref{fig:compare_data} 
+ \KJ{Have to write something about power for both high and low reynolds number not exactly sure what to write}
    
          
      Hysteresis could be observed for the case with a higher Reynolds number. Different solutions could be obtained by manipulating the initial conditions (initial displacement) of the system. The upper branch was obtained by giving an initial displacement which was higher than the expected amplitude while the lower branch was obtained by providing a lower initial displacement than the expected amplitude. Although theory shows a possible third state, it is an unstable branch and as such it could not be achieved numerically. This was also observed by \cite{Vio2007}. 
@@ -218,9 +219,6 @@ where $F_y$ is the transverse (lift) force.
 
 
  \subsection{Displacement, velocity and power}
-
- 
-
  
 
  
@@ -248,9 +246,9 @@ where $F_y$ is the transverse (lift) force.
 
  \input{../figure/low_pi_1}
  
-  From figure \ref{fig:high_pi_1} it could be seen that the collapse of the mean power and velocity amplitude are excellent, regardless of the combination of \ustar \ and \ \mstar \ being used. Thus $\massstiff \geq 10$  is defined high \massstiff \ and the rest as low \massstiff. As \massstiff \ reduces, at low \massstiff (Fig:\ref{fig:low_pi_1}), the power increases. However, figure \ref{fig:low_pi_1} shows that the mean power does not change if \massstiff \ is kept constant and \mstar \ is varied. The reason behind this is as \massstiff reduces, the response of the system moves towards a square signal from a sinusoidal signal. This is due to the fact that in this region the forcing is dominated by the higher order terms in the forcing function (Eq:\ref{cy ploynomial}).  The formulation of \massstiff \ and \massdamp \ does not include the non-linear terms of Eq: \ref{eqn:eom_linear}. However,  \mstar is not eliminated in scaling the higher-order terms. It was mention earlier that the non-linear terms influences the low \massstiff and therefore the influence of \mstar at low \massstiff was investigated.  Figure \ref{fig:low_pi_1_plot2} shows that at the low mass \massstiff region the mean power does not change for a given \massstiff even the \mstar is changed. 
+  From figure \ref{fig:high_pi_1} it could be seen that the collapse of the mean power and velocity amplitude are excellent, regardless of the combination of \ustar \ and \ \mstar \ being used. Thus $\massstiff \geq 10$  is defined high \massstiff \ and the rest as low \massstiff. As \massstiff \ reduces, at low \massstiff (Fig:\ref{fig:low_pi_1}), the power increases. However, figure \ref{fig:low_pi_1} shows that the mean power does not change if \massstiff \ is kept constant and \mstar \ is varied. The reason behind this is as \massstiff reduces, the response of the system moves towards a square signal from a sinusoidal signal. This is due to the fact that in this region the forcing is dominated by the higher order terms in the forcing function (Eq:\ref{cy ploynomial}).  The formulation of \massstiff \ and \massdamp \ does not include the non-linear terms of Eq: \ref{eqn:eom_linear}. However,  \mstar is not eliminated in scaling the higher-order terms. It was mention earlier that the non-linear terms influences the low \massstiff . Therefore the influence of \mstar at low \massstiff was investigated.  Figure \ref{fig:low_pi_1_plot2} shows that at the low mass \massstiff region the mean power does not change for a given \massstiff even the \mstar is changed. 
   
-  However, particular region (low \massstiff) could not be captured in the DNS results as the vortex shedding is much stronger and overcomes the galloping signal indicating that the QSS hypothesis deviates from the actual behaviour of the system at low \massstiff.
+  However, this particular region (low \massstiff) could not be captured in the DNS results as the vortex shedding is much stronger and overcomes the galloping signal indicating that the QSS hypothesis deviates from the actual behaviour of the system at low \massstiff.
   
   
  
@@ -260,14 +258,13 @@ where $F_y$ is the transverse (lift) force.
 \input{../figure/qss_fsi}
 \input{../figure/max_power}
 \input{../figure/error}
-The QSS hypothesis assumes that the only force driving the system is the instantaneous lift generated by the induced velocity. However, vortex shedding is also present in this system. Therefore, an essential assumption when this model is used is that the effect of vortex shedding is minimal. Hence, the model has been always used at high \reynoldsnumber \ and  at high mass ratios. The present study is focused on identifying the limiting parameters of the QSS model at low Reynolds numbers by providing a comparison with DNS results. 
+The QSS hypothesis assumes that the only force driving the system is the instantaneous lift generated by the induced velocity. However, vortex shedding is also present in this system. Therefore, an essential assumption when this model is used, is that the effect of vortex shedding is minimal. Hence, the model has been always used at high \reynoldsnumber \ and  at high mass ratios. The present study is focused on identifying the limiting parameters of the QSS model at low Reynolds numbers by providing a comparison with DNS results. 
 
-% \begin{equation}
-%   \label{eqn:error_calculation} 
-% \% \ error=\left|{\frac{QSS \ data - DNS \ data}{DNS \ data}}\right| \times 100 
-% \end{equation}
+ \begin{equation}   \label{eqn:error_calculation} 
+ \% \ error=\left|{\frac{QSS \ data - DNS \ data}{DNS \ data}}\right| \times 100 
+ \end{equation}
 
-\citet{Joly2012} showed that the displacement data obtained using the QSS assumption and DNS agree well at low Reynolds numbers, with the modification implemented to the oscillator equation which accounts for the vortex shedding. These data were obtained at zero damping levels. However, the current study was focused on the power transfer of the system from the fluid to the body. Therefore analysing the behaviour of the system with increasing damping is of interest.
+\citet{Joly2012} showed that the displacement data obtained using the QSS assumption and DNS agree well at low Reynolds numbers, with the modification implemented to the oscillator equation which accounts for the vortex shedding. These data were obtained at zero damping levels. However, the current study was focused on the behaviour and the power transfer of the system. Therefore analysing the behaviour of the system with increasing damping is of interest.
 
 The comparison between QSS and the DNS results (Fig:\ref{fig:qss_fsi}) revealed that
 the discrepancy of the power data  increases significantly as \massdamp \ is increased for a given \massstiff. However, it could also be observed that the discrepancy on power is reduced when the \massstiff \ is increased. 
@@ -277,22 +274,22 @@ the discrepancy of the power data  increases significantly as \massdamp \ is inc
 \end{center}
 \input{../figure/spectrum}
 
-The reason behind this phenomenon could be explained by analysing the power spectrum of the velocity signal of the system. Figure \ref{fig:spectrum} shows the power spectrum of the velocity signals at $\massstiff=0.8$ and $\massdamp= 10, 60, 250$ and $1000$. The data shows that the  magnitude of the second peak at $\frac{fd}{U}=0.156$ which represents the vortex shedding signal reduces as the mass ratio is increased. Hence, it could be concluded that the influence of vortex shedding is more prominent at low mass ratio therefore results in larger deviations from quasi-steady state results. This strengthens \cite{Joly2012} conclusions. However, the significant of this study with that of \cite{Joly2012} is that we have provided a comparison of QSS and DNS data as damping is increased. 
+The reason behind this phenomenon could be explained by analysing the power spectrum of the velocity signal of the system. Figure \ref{fig:spectrum} shows the power spectrum of the velocity signals at $\massstiff=0.8$ and $\massdamp= 10, 60, 250$ and $1000$. The data shows that the  magnitude of the second peak at $\frac{fd}{U}=0.156$ which represents the vortex shedding signal reduces as the mass ratio is increased. Hence, it could be concluded that the influence of vortex shedding is more prominent at low mass ratio therefore results in larger deviations from quasi-steady state results. This strengthens \cite{Joly2012} conclusions. However, the significant of this study with that of \cite{Joly2012} is that we have provided a comparison of QSS and DNS data as damping is increased. \KJ{I need some points to talk about figure 8 }. 
+
+The error between the predicted maximum power between QSS and DNS (Fig:\ref{fig:error}) shows that it scales similar to a $\frac{1}{\massstiff}$ function. As previously explained, this is due to the influence of vortex shedding.  
 
 
 
-
-
-
-
- 
- 
  
  
  
  \section{Conclusion}
   \label{sec:conc}
-  In this paper the power transfer of a square body under fluid-elastic galloping is analysed by solving the quasi-steady state oscillator model equation using numerical  integration. Data obtained were presented using the classical VIV parameters i.e. $\zeta$ and \ustar and the new parameter (combined mass-damping) \massdamp \ which was obtained using the natural time scales of the system by linearising the QSS oscillator equation. The data presented using the new parameters showed a excellent collapse for power and velocity amplitude strengthening the argument that the power transfer is not dependent on the frequency the system.   
+  In this paper the power transfer of a square body under fluid-elastic galloping is analysed by solving the quasi-steady state oscillator model equation using numerical  integration. The QSS model provides equations where dimensionless groups could be formulated using the relevant time scales. A good collapse for predicted output of power could be obtained using these dimensionless groups in comparison with the classical VIV parameters i.e. $\zeta$ and \ustar. The collapsed data using the dimensionless groups strengthens the argument that the velocity amplitude and the power transfer of the system does not depend on the natural frequency of the system. 
+  
+  In comparison with the Direct numerical simulation data, it could be concluded that the QSS model provides a good estimate of the power output of the system when \massdamp \ is relatively high and predicted value of \massdamp \ at maximum power is quite good. The error in predicted maximum power between the QSS and the DNS data scales as an inverse function of \massdamp 
+  
+  
  
  
  
