@@ -13,6 +13,7 @@ set xtics format " "
 set logscale y
 set ytics (0.001, 0.01, 0.1, 1)
 set format y "10^{%L}”
+set ytics offset 1.5,0
 unset mytics
 plot [0:0.2][0.0001:1] "spec_20" u 1:2 w l
 
@@ -37,7 +38,7 @@ set ytics (0.001, 0.01, 0.1, 1)
 
 set format y "10^{%L}”
 unset mytics
-
+set ytics offset 1.5,0
 plot [0:0.2][0.0001:1] "spec_50" u 1:2 w l
 ######################################################
 reset
@@ -61,6 +62,7 @@ set logscale y
 set logscale y
 set ytics (0.001, 0.01, 0.1, 1)
 set format y "10^{%L}”
+set ytics offset 1.5,0
 unset mytics
 plot [0:0.2][0.0001:1] "spec_100" u 1:2 w l
 ######################################################
@@ -81,5 +83,6 @@ set xtics (0,0.04,0.08,0.12,0.16,0.2)
 set logscale y
 set ytics (0.001, 0.01, 0.1, 1)
 set format y "10^{%L}”
+set ytics offset 1.5,0
 unset mytics
 plot [0:0.2][0.0001:1] "spec_200" u 1:2 w l

@@ -25,6 +25,7 @@ $f_g$ & frequency of galloping \\
 $f_s$ & frequency of vortex shedding \\
 $F_y$ & instantaneous force normal to the flow \\ 
 $F_0$& amplitude of the oscillatory force due to vortex shedding \\
+$\mathcal{F}$&  Fourier transform of velocity \\
 $k$ & spring constant \\
 $m$ & mass of the body \\
 $m_a$ & added mass \\
@@ -50,8 +51,10 @@ $U^*=U/fD$ & reduced velocity  \\
 $Y=y/D$ & non-dimensional transverse displacement \\
 $\dot{Y}=m^*\dot{y}/a_1U$ & non-dimensional transverse velocity \\
 $\ddot{Y}=m^{*2}D\ddot{y}/a_1^2U^2$ & non-dimensional transverse acceleration \\
-$\Gamma_1 = 4\pi^2m^{*2}/U^{*2}a_1^2$ & First dimensionless group arising from linearised, non-dimensionalised equation of motion\\
-$\Gamma_2 = c^*m^*/a_1$ & Second dimensionless group arising from linearised, non-dimensionalised equation of motion\\
+$\Gamma_1 = 4\pi^2m^{*2}/U^{*2}a_1^2$ & First dimensionless group arising from linearised,\\ 
+& non-dimensionalised equation of motion\\
+$\Gamma_2 = c^*m^*/a_1$ & Second dimensionless group arising from linearised,\\
+& non-dimensionalised equation of motion \\
 $\zeta= c/2 m \omega_n$ & damping ratio \\
 $\theta= \tan^{-1}{(\dot{y}/U)}$ & instantaneous angle of incidence (angle of attack)\\
 $\massstiff =  4\pi^2m^{*2}/U^{*2}$ & Combined mass-stiffness parameter\\
@@ -275,7 +278,7 @@ In an effort to quantify the performance of the QSS model, the percentage betwee
  \% \ error=\left|{\frac{P_{m(QSS)} - P_{m(DNS)}}{P_{m(DNS)}}}\right| \times 100.
  \end{equation}
 
-The results of this calculation are plotted in figure \ref{fig:error}, along with a power-law best fit \JL{Kasun put the formula for the power law fit here.}. The figure clearly shows that as \massstiff increases, the error between the QSS and DNS models quickly decreases. However, at low values of \massstiff, the discrepancy between the two can be quite large, around $30\%$.
+The results of this calculation are plotted in figure \ref{fig:error}, along with a power-law best fit $138.697x^{-0.6}$ The figure clearly shows that as \massstiff increases, the error between the QSS and DNS models quickly decreases. However, at low values of \massstiff, the discrepancy between the two can be quite large, around $30\%$.
 
 \input{../figure/error}
 
@@ -298,6 +301,8 @@ Similar to the discrepancy between the QSS and DNS mean extracted power shown in
 In this paper the power transfer of a square body under fluid-elastic galloping is analysed by solving the quasi-steady state oscillator model equation using numerical  integration. The QSS model provides equations where dimensionless groups could be formulated using the relevant time scales. A good collapse for predicted output of power could be obtained using these dimensionless groups in comparison with the classical VIV parameters i.e. $\zeta$ and \ustar. The collapsed data using the dimensionless groups strengthens the argument that the velocity amplitude and the power transfer of the system does not depend on the natural frequency of the system. 
   
 In comparison with the direct numerical simulation data, it could be concluded that the QSS model provides a good estimate of the power output of the system when \massstiff\ is relatively high. However at low values of \massstiff, the prediction is not close due to the fact that the QSS model does not account for the impact of vortex shedding which is shown to increase in influence as \massstiff\ is decreased. However, the QSS model does provide a good prediction of the value of \massdamp\ at which maximum power is produced. The error in predicted maximum power between the QSS and the DNS data scales as an inverse function of \massdamp, similar to the scaling of the influence of the vortex shedding on the body velocity.
+  
+  
   
   
  
