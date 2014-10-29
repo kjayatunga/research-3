@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.8.13)  23 OCT 2014 12:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.27)  27 OCT 2014 20:26
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **compare_data.tex
 (./compare_data.tex
 LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+Babel <3.9k> and hyphenation patterns for 21 languages loaded.
 
 ! LaTeX Error: Environment figure undefined.
 
@@ -632,17 +632,6 @@ and I'll forget about whatever was undefined.
                      
 l.19       \put(0.78,0.00){\massdamp}
                                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> $\displaystyle \small 
-                                 \frac {P_{m}}{\rho \mathcal {A}U^3 }$
-l.24 ...\small\frac{P_{m}}{\rho \mathcal{A}U^3 }$}
-                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1421,11 +1410,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 13 strings out of 493118
- 223 string characters out of 6135459
- 53906 words of memory out of 5000000
- 3576 multiletter control sequences out of 15000+600000
+ 13 strings out of 494523
+ 223 string characters out of 6167230
+ 47235 words of memory out of 5000000
+ 3373 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 20i,15n,15p,635b,119s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 319 hyphenation exceptions out of 8191
+ 20i,14n,15p,635b,116s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.

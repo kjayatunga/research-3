@@ -8,7 +8,7 @@ set label 'x 10^{-2}' at graph -0.01, graph 1.08
 set xtics nomirror
 set ytics nomirror
 set xtics (2600,2620,2640,2660)
-#set xtics format " " 
+set xtics format " " 
 set ytics ("-0.25" -0.0025,"0" 0,"0.25" 0.0025,"0.5" 0.005 )
 plot [2590:2650][-0.0025:0.005] "015" u 1:2 w l lt 0 lw 2, "015" u 1:3 w l lt 1 lw 1 
 
@@ -21,7 +21,7 @@ set label 'x 10^{-2}' at graph -0.01, graph 1.08
 set xtics nomirror
 set ytics nomirror
 set xtics (2600,2620,2640,2660)
-#set xtics format " " 
+set xtics format " " 
 set ytics ("-6.0" -6e-2,"-3.0" -3e-2, "0" 0,"3.0" 3e-2,"6.0" 6.0e-2)
 plot [2590:2650][-0.06:0.06] "015" u 1:4 w l lt 0 lw 2, "015" u 1:4 w l lt 1 lw 1 
 reset
