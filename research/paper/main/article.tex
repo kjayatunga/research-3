@@ -4,7 +4,7 @@ Transverse fluid-elastic galloping is one phenomenon in the broader class of phe
 
 According to \citet{Paidoussis2010}, \citet{Glauert1919} provided a criterion for the onset of galloping by considering the auto-rotation of an aerofoil.  \citet{DenHartog1956} provided a theoretical explanation for galloping for iced electric transmission lines. A weakly non-linear theoretical aeroelastic model to predict the response of galloping was developed by \citet{Parkinson1964} based on a quasi-steady state (QSS) hypothesis. This hypothesis simply claims that only the time-mean lift on the body (averaged over a time much longer than any vortex shedding period) contributes to the dynamics. Lift forces measured experimentally on a static square prism at different angles of attack were used as an input for the theoretical model. This relatively simple model achieved a remarkably good agreement with galloping experiments conducted in a wind tunnel, where the vortex shedding frequency was much higher than the eventual body oscillation frequency, due to the body being relatively heavy.
 
-However, the QSS model equation, when solved analytically assuming a sinusoidal solution, is not as accurate for cases where the body is relatively light, such as occurs in hydrodynamic applications. \citet{Joly2012} observed that finite element simulations show a sudden change in amplitude below a critical value of the mass ratio \mstar. The QSS model derived in \citet{Parkinson1964} was altered to account for the vortex shedding and solved numerically to predict the reduced displacement amplitude at low mass ratios to the point where galloping is no longer present. While a reasonable agreement could be found, the model still required a parameter to be tuned to find the best match. 
+However, the QSS model equation, when solved analytically assuming a sinusoidal solution, is not as accurate for cases where the body is relatively light, such as occurs in fluid-dynamic applications. \citet{Joly2012} observed that finite element simulations show a sudden change in amplitude below a critical value of the mass ratio \mstar. The QSS model derived in \citet{Parkinson1964} was altered to account for the vortex shedding and solved numerically to predict the reduced displacement amplitude at low mass ratios to the point where galloping is no longer present. While a reasonable agreement could be found, the model still required a parameter to be tuned to find the best match. 
 
 Most of the literature on galloping using the QSS model has been focused on predicting the displacement amplitude \citep{Parkinson1964,Joly2012,Luo2003}. However, it is quite important to analyse the behaviour of the velocity when studying the power transfer from the fluid to the body. This is because instantaneous power from the fluid flow to the system is the product of the fluid dynamic force and the velocity of the system while instantaneous power out of the systm is the product of the damping and the velocity of the system. The fluid dynamic force is also modelled to be only dependent on the velocity of the system. This study also focuses on how well the QSS model perform at high damping at low Reynolds numbers. 
 
@@ -16,47 +16,47 @@ The structure of the paper is as follows. Section \ref{sec:theory} presents the 
 %\textbf{Nomenclature}
 
 \begin{longtable}{p{0.3\textwidth}p{0.7\textwidth}}
-$a_1,a_3,a_5,a_7$ & coefficients of the polynomial to determine $C_y$ \\ 
-$A$ & displacement amplitude\\
-$c$ & damping constant \\
-$D$ & characteristic length (side length) of the cross section of the body \\
-$f=\sqrt{k/m}/2\pi$ & natural frequency of the system \\
-$f_g$ & frequency of galloping \\
-$f_s$ & frequency of vortex shedding \\
-$F_y$ & instantaneous force normal to the flow \\ 
-$F_0$& amplitude of the oscillatory force due to vortex shedding \\
+$a_1,a_3,a_5,a_7$ & Coefficients of the polynomial to determine $C_y$ \\ 
+$A$ & Displacement amplitude\\
+$c$ & Damping constant \\
+$D$ & Characteristic length (side length) of the cross section of the body \\
+$f=\sqrt{k/m}/2\pi$ & Natural frequency of the system \\
+$f_g$ & Frequency of galloping \\
+$f_s$ & Frequency of vortex shedding \\
+$F_y$ & Instantaneous force normal to the flow \\ 
+$F_0$& Amplitude of the oscillatory force due to vortex shedding \\
 $\mathcal{F}$&  Fourier transform of velocity \\
-$k$ & spring constant \\
-$m$ & mass of the body \\
-$m_a$ & added mass \\
-$P_d$ & power dissipated due to mechanical damping  \\
+$k$ & Spring constant \\
+$m$ & Mass of the body \\
+$m_a$ & Added mass \\
+$P_d$ & Power dissipated due to mechanical damping  \\
 $P_{in}=\rho U^3D/2$ & Energy flux of the approaching flow \\
-$P_{m}$ & mean power \\
-$P_t$   & power transferred to the body by the fluid \\
-$t$ & time \\
-$U$ & freestream velocity \\
+$P_{m}$ & Mean power \\
+$P_t$   & Power transferred to the body by the fluid \\
+$t$ & Time \\
+$U$ & Freestream velocity \\
 $U_i$ & Induced velocity \\
-$y,\dot{y},\ddot{y}$ & transverse displacement, velocity and acceleration of the body \\
-$\mathcal{A}=DL$ & frontal area of the body\\ 
+$y,\dot{y},\ddot{y}$ & Transverse displacement, velocity and acceleration of the body \\
+$\mathcal{A}=DL$ & Frontal area of the body\\ 
 $\lambda$ & Inverse time scale of a galloping dominated flow \\
 $\lambda_{1,2}$ & Eigenvalues of linearized equation of motion \\
-$\rho$ & fluid density  \\
-$\omega_n= 2 \pi f$ & natural angular frequency of the system  \\
-$\omega_s$ & vortex shedding angular frequency \\
-$\cstar=cD/mU$ & non-dimensionalised damping factor \\
-$C_y=F_y/0.5\rho U^2DL$ & normal (lift) force coefficient \\
-$\mstar=m/\rho D^2L$ & mass ratio \\
+$\rho$ & Fluid density  \\
+$\omega_n= 2 \pi f$ & Natural angular frequency of the system  \\
+$\omega_s$ & Vortex shedding angular frequency \\
+$\cstar=cD/mU$ & Non-dimensionalised damping factor \\
+$C_y=F_y/0.5\rho U^2DL$ & Normal (lift) force coefficient \\
+$\mstar=m/\rho D^2L$ & Mass ratio \\
 $Re$ & Reynolds number  \\
-$U^*=U/fD$ & reduced velocity  \\
-$Y=y/D$ & non-dimensional transverse displacement \\
-$\dot{Y}=m^*\dot{y}/a_1U$ & non-dimensional transverse velocity \\
-$\ddot{Y}=m^{*2}D\ddot{y}/a_1^2U^2$ & non-dimensional transverse acceleration \\
+$U^*=U/fD$ & Reduced velocity  \\
+$Y=y/D$ & Non-dimensional transverse displacement \\
+$\dot{Y}=m^*\dot{y}/a_1U$ & Non-dimensional transverse velocity \\
+$\ddot{Y}=m^{*2}D\ddot{y}/a_1^2U^2$ & Non-dimensional transverse acceleration \\
 $\Gamma_1 = 4\pi^2m^{*2}/U^{*2}a_1^2$ & First dimensionless group arising from linearised,\\ 
-& non-dimensionalised equation of motion\\
+& Non-dimensionalised equation of motion\\
 $\Gamma_2 = c^*m^*/a_1$ & Second dimensionless group arising from linearised,\\
-& non-dimensionalised equation of motion \\
-$\zeta= c/2 m \omega_n$ & damping ratio \\
-$\theta= \tan^{-1}{(\dot{y}/U)}$ & instantaneous angle of incidence (angle of attack)\\
+& Non-dimensionalised equation of motion \\
+$\zeta= c/2 m \omega_n$ & Damping ratio \\
+$\theta= \tan^{-1}{(\dot{y}/U)}$ & Instantaneous angle of incidence (angle of attack)\\
 $\massstiff =  4\pi^2m^{*2}/U^{*2}$ & Combined mass-stiffness parameter\\
 $\massdamp = c^*m^*$ & Combined mass-damping parameter\\
 \end{longtable}  
@@ -96,7 +96,7 @@ C_y(\theta)=a_1\left(\frac{\dot{y}}{U}\right)+a_3\left(\frac{\dot{y}}{U}\right)^
 %\ddot{y}+c^*\dot{y}+k^*y=\frac{1}{2}\rho U^2A
 %\end{equation}
 
- It is expected that vortex shedding will be well correlated along the span and provide significant forcing at low \reynoldsnumber. \citet{Joly2012} introduced  an additional sinusoidal forcing function to the hydrodynamic forcing to model this. This enables the model to provide accurate predictions even at low mass ratios where galloping excitation is suppressed or not present. However, the strength of this additional forcing needs to be tuned in an \emph{ad hoc} manner, and it is not clear how this forcing should vary with the other system parameters. Therefore, a focus of this study is to identify the parameter space where unmodified QSS model predicts power transfer accurately, and to quantify the the error in the regions where it does not predict accurately. Therefore the additional sinusoidal forcing function is disregarded. Substituting the definition of the lift coefficient provided in equation (\ref{cy ploynomial}) into the equation of motion of equation (\ref{lift equation}) gives 
+ It is expected that vortex shedding will be well correlated along the span and provide significant forcing at low \reynoldsnumber. \citet{Joly2012} introduced  an additional sinusoidal forcing function to the fluid-dynamic forcing to model this. This enables the model to provide accurate predictions even at low mass ratios where galloping excitation is suppressed or not present. However, the strength of this additional forcing needs to be tuned in an \emph{ad hoc} manner, and it is not clear how this forcing should vary with the other system parameters. Therefore, a focus of this study is to identify the parameter space where unmodified QSS model predicts power transfer accurately, and to quantify the the error in the regions where it does not predict accurately. Therefore the additional sinusoidal forcing function is disregarded. Substituting the definition of the lift coefficient provided in equation (\ref{cy ploynomial}) into the equation of motion of equation (\ref{lift equation}) gives 
  
 \begin{equation}
 \label{final_equation_motion}
@@ -127,7 +127,7 @@ The second shows that power will be high for situations where the transverse for
  
 \subsection{Parameters used} 
   
-For the low \reynoldsnumber\ tests, a value of $\reynoldsnumber=200$ was used. Stationary $C_y$ data were obtained at different angles of attack ranging from $0^\circ$ to $16^\circ$. The average power was obtained by using equation \ref{power}, and the averaging was done over no less than 20 galloping periods. For the high \reynoldsnumber\ tests, predictions of power output at $\reynoldsnumber=22300$ were obtained using the coefficients for the $C_y$  curve from \citet{Parkinson1964} (Table (\ref{table:cy-coefficients})), in order to provide a comparison between high and low Reynolds numbers. The mass ratio $m^*$ was kept at 1163 for $\reynoldsnumber=22300$ (Similar to \citet{Parkinson1964}) and $m^*=20$ for \reynoldsnumber=200. These parameters were used throughout this study unless otherwise specified. 
+For the low \reynoldsnumber\ tests, a value of $\reynoldsnumber=200$ was used. Stationary $C_y$ data were obtained at different angles of attack ranging from $0^\circ$ to $12^\circ$. The average power was obtained by using equation \ref{power}, and the averaging was done over no less than 20 galloping periods. For the high \reynoldsnumber\ tests, predictions of power output at $\reynoldsnumber=22300$ were obtained using the coefficients for the $C_y$  curve from \citet{Parkinson1964} (Table (\ref{table:cy-coefficients})), in order to provide a comparison between high and low Reynolds numbers. The mass ratio $m^*$ was kept at 1163 for $\reynoldsnumber=22300$ (Similar to \citet{Parkinson1964}) and $m^*=20$ for \reynoldsnumber=200. These parameters were used throughout this study unless otherwise specified. 
  
 The stationary data for the low \reynoldsnumber\ case and the DNS simulations of the fluid-structure interaction (FSI) problem were obtained using a high-order spectral element code to simulate the two-dimensional laminar flow. For all cases, a rectangular domain was employed where the inlet was placed $20D$ from the centre of the body, while the outlet was situated $60D$ away from the centre of the body. The lateral boundaries were placed $20D$ away from the centre of the body. The Navier--Stokes equations were solved in an accelerated frame of reference attached to the moving body, along with the body equation of motion given in equation \ref{equationofmotion}. A three-step time splitting scheme was used for the time integration. A time-dependent Dirichlet boundary condition was employed for the velocity on the inlet and lateral boundaries where $u=U$ and $v=-\dot{y}$ are the velocities in the $x$ and $y$ directions, respectively. A no-slip condition was enforced on the surface of the body. A Neumann condition, where the velocity gradient in the $x$ direction was set to zero, was enforced on the outlet. A Neumann condition for the pressure, where the normal gradient was calculated from the Navier--Stokes equations, was employed on the inlet, lateral and body surface \citep{gresho1987}, while a Dirichlet condition for the pressure ($p=0$ was enforced at the outlet. The details of the method can be found in \citet{Thompson2006,Thompson1996a}, and a description of the spectral element method in general can be found in \citet{karniadakis2005}. This code has been very well validated in a variety of fluid-structure interaction problems similar to that studied in this paper \citep{Leontini2007a,Griffith2011,Leontini2011,Leontini2013}.
   
@@ -169,20 +169,20 @@ If it is assumed that the spring is relatively weak, $k\rightarrow 0$, a single 
    \lambda=-\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{m}.
  \end{equation}
  
-Further, if it is assumed that the mechanical damping is significantly weaker than the aerodynamic forces on the body, $c\rightarrow 0$ and
+Further, if it is assumed that the mechanical damping is significantly weaker than the fluid-dynamic forces on the body, $c\rightarrow 0$ and
  \begin{equation}
    \label{eqn:eigs_nospring_nodamp}
    \lambda=\frac{\frac{1}{2}\rho U\mathcal{A}a_1}{m}.
  \end{equation}
  
 
- In this form, $\lambda$ represents the inverse time scale of the motion of the body due to the effect of the long-time aerodynamic forces. In fact, the terms can be regrouped and $\lambda$ written as
+ In this form, $\lambda$ represents the inverse time scale of the motion of the body due to the effect of the long-time fluid-dynamic forces. In fact, the terms can be regrouped and $\lambda$ written as
  \begin{equation}
    \label{eqn:timescale}
    \lambda = \frac{a_1}{m^*}\frac{U}{D}
  \end{equation}
  
- Written this way, the important parameters that dictate this inverse time scale are clear. The rate of change in the aerodynamic force with respect to angle of attack when the body is at the equilibrium position, $\partial C_y/\partial \alpha$, is represented by $a_1$. The mass ratio is represented by $m^*$. The inverse advective time scale of the incoming flow is represented by the ratio $U/D$. Increasing $a_1$ would mean the force on the body would increase more rapidly with small changes in the angle of attack, $\theta$, or transverse velocity. Equation \ref{eqn:timescale} shows that such a change will increase the inverse time scale, or analogously decrease the response time of the body. Increasing the mass of the body, thereby increasing $m^*$, has the opposite effect. The inverse time scale is decreased, or as might be expected, a heavier body will respond more slowly.
+ Written this way, the important parameters that dictate this inverse time scale are clear. The rate of change in the fluid-dynamic force with respect to angle of attack when the body is at the equilibrium position, $\partial C_y/\partial \alpha$, is represented by $a_1$. The mass ratio is represented by $m^*$. The inverse advective time scale of the incoming flow is represented by the ratio $U/D$. Increasing $a_1$ would mean the force on the body would increase more rapidly with small changes in the angle of attack, $\theta$, or transverse velocity. Equation \ref{eqn:timescale} shows that such a change will increase the inverse time scale, or analogously decrease the response time of the body. Increasing the mass of the body, thereby increasing $m^*$, has the opposite effect. The inverse time scale is decreased, or as might be expected, a heavier body will respond more slowly.
  
 This timescale can then be used to non-dimensionalize the equation of motion, and to find the relevant dimensionless groups of the problem. If the non-dimensional time, $\tau$, is defined such that $\tau=t(a_1/m^*)(U/D)$, the equation of motion presented in equation \ref{final_equation_motion} can be non-dimensionalized as
  \begin{equation}
@@ -213,7 +213,7 @@ Figure \ref{fig:compare_data} shows the comparison of mean power data at $\reyno
     
 \subsection{Comparison of power between high and low \reynoldsnumber\ data}   
 \label{sec:low_vs_high_re}
-The marked success of the collapse using \massdamp\ for the $\reynoldsnumber = 200$ case, particularly of the mean power, could also be replicated for the higher \reynoldsnumber\ case at $\reynoldsnumber = 22300$. Figure \ref{fig:collapsed_data} presents the mean power for both the high and low \reynoldsnumber\ cases for selected values of \massstiff. It is shown that the data collapse in both cases, demonstrating the validity of using \massdamp\ as an independent variable. \JL{Kasun: do you have data at different \massstiff\ for the high \reynoldsnumber\ case? You should include it here to show that the data collapses using \massdamp}
+The marked success of the collapse using \massdamp\ for the $\reynoldsnumber = 200$ case, particularly of the mean power, could also be replicated for the higher \reynoldsnumber\ case at $\reynoldsnumber = 22300$. Figure \ref{fig:collapsed_data} presents the mean power for both the high and low \reynoldsnumber\ cases for selected values of \massstiff. It is shown that the data collapse in both cases, demonstrating the validity of using \massdamp\ as an independent variable.
 
 \input{../figure/collapsed_data}
          
@@ -242,9 +242,9 @@ The instantaneous power from the fluid to the body can be expressed as $P_t=F_y\
 
 At region 1 ($\massdamp=0.3$) the damping is low in comparison with region 2 and 3. While this may lead to larger oscillations, damping is required to dissipate and therefore extract power according to equation \ref{power}. Therefore, the low damping in this region leads to a low mean power output. Fig.\ref{fig:power_time_histories} (a) shows that $P_d$ (the power dissipated by damping) becomes negative over some portion of the cycle. This is caused by the high velocity amplitude leading to the equivalent incident angle $\theta$ to exceed the range where $C_y$ is positive (i.e. $0<\theta<6^\circ$ as shown in figure\ref{cy ploynomial}(a)). In this portion of the cycle the fluid-dynamic force actually opposes the direction of travel and power is transferred from the structure to the fluid during those times. From an energy perspective, the mechanical damping is not sufficient to remove the energy transferred from the fluid to the structure through work during other times of the cycle because $\massdamp$ \ is substantially low. Therefore this excess energy is transferred back to the fluid as depicted by the negative region of $P_d$.
  
-At region 3 where $\massdamp=0.8$ the damping constant is high and a clear sinusoidal signal is observed for both $P_d$ and $P_t$ in figure \ref{fig:power_time_histories}(c). Figures \ref{fig:power_time_histories}(f) and  \ref{fig:power_time_histories}(i) show that equivalent incident angle $\theta$ (which for small values, is proportional to the transverse velocity of the body) is in phase with $F_y$.  The velocity amplitude in this case is small and $\theta$ is within the range where the hydrodynamic force increases with the incident angle (i.e. $0<\theta \leq 5^\circ$ as shown in figure \ref{fig:lift_curves}(a)). According to equation \ref{power_alt}, these conditions are suitable for high power output. However in this case, the high damping limits the velocity amplitude and results in relatively low fluid dynamic forces.
+At region 3 where $\massdamp=0.8$ the damping constant is high and a clear sinusoidal signal is observed for both $P_d$ and $P_t$ in figure \ref{fig:power_time_histories}(c). Figures \ref{fig:power_time_histories}(f) and  \ref{fig:power_time_histories}(i) show that equivalent incident angle $\theta$ (which for small values, is proportional to the transverse velocity of the body) is in phase with $F_y$.  The velocity amplitude in this case is small and $\theta$ is within the range where the fluid-dynamic force increases with the incident angle (i.e. $0<\theta \leq 5^\circ$ as shown in figure \ref{fig:lift_curves}(a)). According to equation \ref{power_alt}, these conditions are suitable for high power output. However in this case, the high damping limits the velocity amplitude and results in relatively low fluid dynamic forces.
   
-At region 2 ( $\massdamp=0.54$), a balance is found between high and low values of damping. $P_d$ is not a pure sinusoidal signal, however the signal remains periodic. From the time history graph of $P_d$, two `peaks' are present in a single half cycle as shown in figure \ref{fig:power_time_histories}(b). In this case, the velocity amplitude actually exceeds the equivalent incident angle where the hydrodynamic forces peaks (i.e. $\theta=5^\circ$ in \ref{cy ploynomial} (a)). The dips in $P_d$ between the two peaks approximately correspond to the time where the transverse velocity is higher than 0.09 and $F_y$ is decreasing with increasing transverse velocity. The mean power output is at its maximum. This is due to the fact that this region is the best compromise between region 1 and 3. The damping is high enough to obtain a high power output while not so high that the motion is completely suppressed.
+At region 2 ( $\massdamp=0.54$), a balance is found between high and low values of damping. $P_d$ is not a pure sinusoidal signal, however the signal remains periodic. From the time history graph of $P_d$, two `peaks' are present in a single half cycle as shown in figure \ref{fig:power_time_histories}(b). In this case, the velocity amplitude actually exceeds the equivalent incident angle where the fluid-dynamic forces peaks (i.e. $\theta=5^\circ$ in \ref{cy ploynomial} (a)). The dips in $P_d$ between the two peaks approximately correspond to the time where the transverse velocity is higher than 0.09 and $F_y$ is decreasing with increasing transverse velocity. The mean power output is at its maximum. This is due to the fact that this region is the best compromise between region 1 and 3. The damping is high enough to obtain a high power output while not so high that the motion is completely suppressed.
 
 \subsection{Dependence on the mass ratio \mstar}
 \label{sec:mstar}
@@ -293,6 +293,8 @@ This influence is explicitly shown here. Figure \ref{fig:spec_pow} plots the rel
 \input{../figure/spec_pow}
 
 Similar to the discrepancy between the QSS and DNS mean extracted power shown in figure \ref{fig:error}, the relative strength of the vortex shedding is seen to be large at small values of \massstiff, and quickly decreases as \massstiff\ is increased. This correlation strongly indicates this discrepancy is due to the influence of the vortex shedding, even though the vortex shedding and galloping frequencies remain separated by around the same amount for all values of \massstiff\ presented in figure \ref{fig:spectrum}. The data presented in figure \ref{fig:spec_pow} also give some indication of the strength of any vortex shedding correction term that might be added to the QSS model in an effort to decrease the discrepancy between it and the DNS simulations.
+
+\input{../figure/flow_vis}
 
 
  
