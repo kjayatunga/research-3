@@ -15,7 +15,7 @@ The structure of the paper is as follows. Section \ref{sec:theory} presents the 
 \section*{Nomenclature}
 %\textbf{Nomenclature}
 
-\begin{tabular}{ll}
+\begin{longtable}{p{0.3\textwidth}p{0.7\textwidth}}
 $a_1,a_3,a_5,a_7$ & coefficients of the polynomial to determine $C_y$ \\ 
 $A$ & displacement amplitude\\
 $c$ & damping constant \\
@@ -59,7 +59,7 @@ $\zeta= c/2 m \omega_n$ & damping ratio \\
 $\theta= \tan^{-1}{(\dot{y}/U)}$ & instantaneous angle of incidence (angle of attack)\\
 $\massstiff =  4\pi^2m^{*2}/U^{*2}$ & Combined mass-stiffness parameter\\
 $\massdamp = c^*m^*$ & Combined mass-damping parameter\\
-\end{tabular}  
+\end{longtable}  
 
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
@@ -137,7 +137,7 @@ The computational domain consists of 751 quadrilateral macro elements where the 
 \label{sec:results}
   
 \subsection{Static body results}
-Figure \ref{fig:lift_curves} shows the plots $C_y$ as a function of $\theta$, as well as the interpolation polynomials. For high \reynoldsnumber\ the polynomial incorporated by \cite{Parkinson1964} was used. For low \reynoldsnumber\ two polynomials were used to obtain a better fit to the data. The first was fitted to the data $\theta=0^{\circ} \rightarrow 7^{\circ}$ and the second was fitted to the data $\theta > 7^{\circ}$. The coefficients of these polynomial fits are shown in table \ref{table:cy-coefficients}.
+Figure \ref{fig:lift_curves} shows the plots $C_y$ as a function of $\theta$, as well as the interpolation polynomials. For high \reynoldsnumber\ the polynomial incorporated by \cite{Parkinson1964} was used. For low \reynoldsnumber\ a $7^{th}$ order polynomial was fitted using nonlinear least-squares regression. The coefficients of these polynomial fits are shown in table \ref{table:cy-coefficients}.
 
 \input{../figure/cy_vs_theta}
 
@@ -211,7 +211,7 @@ Figure \ref{fig:compare_data} shows the comparison of mean power data at $\reyno
 
 \input{../figure/compare_data}
     
-\subsection{Comparison of power between high and low \reynoldsnumber data}   
+\subsection{Comparison of power between high and low \reynoldsnumber\ data}   
 \label{sec:low_vs_high_re}
 The marked success of the collapse using \massdamp\ for the $\reynoldsnumber = 200$ case, particularly of the mean power, could also be replicated for the higher \reynoldsnumber\ case at $\reynoldsnumber = 22300$. Figure \ref{fig:collapsed_data} presents the mean power for both the high and low \reynoldsnumber\ cases for selected values of \massstiff. It is shown that the data collapse in both cases, demonstrating the validity of using \massdamp\ as an independent variable. \JL{Kasun: do you have data at different \massstiff\ for the high \reynoldsnumber\ case? You should include it here to show that the data collapses using \massdamp}
 
@@ -269,16 +269,16 @@ Figure \ref{fig:max_power}(a) clearly shows the dependence of the mean extracted
 
 \input{../figure/max_power}
 
-Figure \ref{fig:max_power}(a) also shows that \massstiff\ is important to higher values than predicted by the QSS model. For the QSS model, the mean extracted power was essentially independent of \massstiff\ for $\massstiff>10$; however, the mean extracted power from the DNS data shows a significant dependence on \massstiff\ for $\massstiff<250$.
+Figure \ref{fig:max_power}(a) also shows that \massstiff\ is important to higher values than predicted by the QSS model. For the QSS model, the mean extracted power was essentially independent of \massstiff\ for $\massstiff>10$, as shown by the open symbols on the figure. However, the mean extracted power from the DNS data shows a significant dependence on \massstiff\ for $\massstiff<250$. Even so, the power extracted during the DNS simulations converges to the value predicted by the QSS model as \massstiff\ increases.
 
-Figure \ref{fig:max_power}(b) shows the value of \massdamp\ at which the turning point, and therefore the maximum power output, occurs. It is shown that while the power extracted is a reasonably strong function of \massstiff, the value of \massdamp\ at which this maximum power occurs is relatively unaffected. 
+Figure \ref{fig:max_power}(b) shows the value of \massdamp\ at which the turning point, and therefore the maximum power output, occurs. The dashed line shows the value extracted from the QSS model. It is shown that while the power extracted is a reasonably strong function of \massstiff, the value of \massdamp\ at which this maximum power occurs is relatively unaffected, and this value is quite well predicted by the QSS model. 
 
-In an effort to quantify the performance of the QSS model, the percentage between the QSS and DNS extracted power data as a function of \massstiff\ was calculated using the equation
+In an effort to further quantify the performance of the QSS model, the percentage between the QSS and DNS extracted power data as a function of \massstiff\ was calculated using the equation
  \begin{equation}   \label{eqn:error_calculation} 
  \% \ error=\left|{\frac{P_{m(QSS)} - P_{m(DNS)}}{P_{m(DNS)}}}\right| \times 100.
  \end{equation}
 
-The results of this calculation are plotted in figure \ref{fig:error}, along with a power-law best fit $138.697x^{-0.6}$ The figure clearly shows that as \massstiff increases, the error between the QSS and DNS models quickly decreases. However, at low values of \massstiff, the discrepancy between the two can be quite large, around $30\%$.
+The results of this calculation are plotted in figure \ref{fig:error}, along with a power-law best fit $138.697x^{-0.6}$. The figure clearly shows that as \massstiff increases, the error between the QSS and DNS models quickly decreases. However, at low values of \massstiff, the discrepancy between the two can be quite large, around $30\%$.
 
 \input{../figure/error}
 
