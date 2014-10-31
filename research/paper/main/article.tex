@@ -271,14 +271,14 @@ Figure \ref{fig:max_power}(a) clearly shows the dependence of the mean extracted
 
 Figure \ref{fig:max_power}(a) also shows that \massstiff\ is important to higher values than predicted by the QSS model. For the QSS model, the mean extracted power was essentially independent of \massstiff\ for $\massstiff>10$, as shown by the open symbols on the figure. However, the mean extracted power from the DNS data shows a significant dependence on \massstiff\ for $\massstiff<250$. Even so, the power extracted during the DNS simulations converges to the value predicted by the QSS model as \massstiff\ increases.
 
-Figure \ref{fig:max_power}(b) shows the value of \massdamp\ at which the turning point, and therefore the maximum power output, occurs. The dashed line shows the value extracted from the QSS model. It is shown that while the power extracted is a reasonably strong function of \massstiff, the value of \massdamp\ at which this maximum power occurs is relatively unaffected, and this value is quite well predicted by the QSS model. 
+Figure \ref{fig:max_power}(b) shows the value of \massdamp\ at which the turning point, and therefore the maximum power output, occurs. The open symbols show the value predicted by the QSS model, the closed symbols show the value predicted by the DNS. The two are not the same, with a value around $0.41$ predicted by the DNS (shown with a dashed line) and a value above $0.5$ predicted by the QSS model. However, both models show that while the power extracted is a reasonably strong function of \massstiff, the value of \massdamp\ at which this maximum power occurs is relatively unaffected.
 
 In an effort to further quantify the performance of the QSS model, the percentage between the QSS and DNS extracted power data as a function of \massstiff\ was calculated using the equation
  \begin{equation}   \label{eqn:error_calculation} 
  \% \ error=\left|{\frac{P_{m(QSS)} - P_{m(DNS)}}{P_{m(DNS)}}}\right| \times 100.
  \end{equation}
 
-The results of this calculation are plotted in figure \ref{fig:error}, along with a power-law best fit $138.697x^{-0.6}$. The figure clearly shows that as \massstiff increases, the error between the QSS and DNS models quickly decreases. However, at low values of \massstiff, the discrepancy between the two can be quite large, around $30\%$.
+The results of this calculation are plotted in figure \ref{fig:error}, along with a power-law best fit $138.697\massstiff^{-0.6}$. The figure clearly shows that as \massstiff increases, the error between the QSS and DNS models quickly decreases. However, at low values of \massstiff, the discrepancy between the two can be quite large, around $30\%$.
 
 \input{../figure/error}
 
@@ -292,9 +292,11 @@ This influence is explicitly shown here. Figure \ref{fig:spec_pow} plots the rel
 
 \input{../figure/spec_pow}
 
-Similar to the discrepancy between the QSS and DNS mean extracted power shown in figure \ref{fig:error}, the relative strength of the vortex shedding is seen to be large at small values of \massstiff, and quickly decreases as \massstiff\ is increased. This correlation strongly indicates this discrepancy is due to the influence of the vortex shedding, even though the vortex shedding and galloping frequencies remain separated by around the same amount for all values of \massstiff\ presented in figure \ref{fig:spectrum}. The data presented in figure \ref{fig:spec_pow} also give some indication of the strength of any vortex shedding correction term that might be added to the QSS model in an effort to decrease the discrepancy between it and the DNS simulations.
+Similar to the discrepancy between the QSS and DNS mean extracted power shown in figure \ref{fig:error}, the relative strength of the vortex shedding is seen to be large at small values of \massstiff, and quickly decreases as \massstiff\ is increased. The figure shows that the relative power of the vortex shedding frequency to the galloping frequency is $0.977\massstiff^{-0.52}$.
 
-\input{../figure/flow_vis}
+The difference between the power predicted by the QSS and DNS models scales with $\massstiff^{-0.6}$; the relative power at the vortex shedding frequency scales with $\massstiff^{-0.52}$. These scalings are quite similar, and both are close to $1/\sqrt{\massstiff}$. While not unequivocal, this correlation strongly indicates this discrepancy is due to the influence of the vortex shedding, even though the vortex shedding and galloping frequencies remain separated by around the same amount for all values of \massstiff\ presented in figure \ref{fig:spectrum}. The data presented in figure \ref{fig:spec_pow} also give some indication of the strength of any vortex shedding correction term that might be added to the QSS model in an effort to decrease the discrepancy between it and the DNS simulations.
+
+%\input{../figure/flow_vis}
 
 
  
@@ -302,7 +304,7 @@ Similar to the discrepancy between the QSS and DNS mean extracted power shown in
 \label{sec:conc}
 In this paper the power transfer of a square body under fluid-elastic galloping is analysed by solving the quasi-steady state oscillator model equation using numerical  integration. The QSS model provides equations where dimensionless groups could be formulated using the relevant time scales. A good collapse for predicted output of power could be obtained using these dimensionless groups in comparison with the classical VIV parameters i.e. $\zeta$ and \ustar. The collapsed data using the dimensionless groups strengthens the argument that the velocity amplitude and the power transfer of the system does not depend on the natural frequency of the system. 
   
-In comparison with the direct numerical simulation data, it could be concluded that the QSS model provides a good estimate of the power output of the system when \massstiff\ is relatively high. However at low values of \massstiff, the prediction is not close due to the fact that the QSS model does not account for the impact of vortex shedding which is shown to increase in influence as \massstiff\ is decreased. However, the QSS model does provide a good prediction of the value of \massdamp\ at which maximum power is produced. The error in predicted maximum power between the QSS and the DNS data scales as an inverse function of \massdamp, similar to the scaling of the influence of the vortex shedding on the body velocity.
+In comparison with the direct numerical simulation data, it could be concluded that the QSS model provides a good estimate of the power output of the system when \massstiff\ is relatively high. However at low values of \massstiff, the prediction is not close due to the fact that the QSS model does not account for the impact of vortex shedding which is shown to increase in influence as \massstiff\ is decreased. However, the QSS model does provide a reasonable prediction of the value of \massdamp\ at which maximum power is produced. Both the error in predicted maximum power between the QSS and the DNS models, and the relative power of the vortex shedding, scale similarly to $1/\sqrt{\massdamp}$.
   
   
   
