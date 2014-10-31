@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  31 OCT 2014 12:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  31 OCT 2014 12:33
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -540,7 +540,11 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@cols=\count131
 \TX@ftn=\toks37
 )
-(./elsarticle-template-harv.aux)
+(./elsarticle-template-harv.aux
+
+LaTeX Warning: Label `fig:qss_fsi' multiply defined.
+
+)
 \openout1 = `elsarticle-template-harv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
@@ -696,17 +700,31 @@ File: ../FnP/gnuplot/spec_200.eps Graphic file (type eps)
  <../FnP/gnuplot/spec_200.eps>) [21]
 (../figure/spec_pow.tex
 File: ../FnP/gnuplot/spec_pow.eps Graphic file (type eps)
- <../FnP/gnuplot/spec_pow.eps>) [22] [23]) [24] [25]
-(./elsarticle-template-harv.bbl [26
+ <../FnP/gnuplot/spec_pow.eps>) [22] [23]
+(../figure/flow_vis.tex
+File: ../FnP/gnuplot/10.eps Graphic file (type eps)
+ <../FnP/gnuplot/10.eps>
+File: ../FnP/gnuplot/60.eps Graphic file (type eps)
+ <../FnP/gnuplot/60.eps>
+File: ../FnP/gnuplot/250.eps Graphic file (type eps)
 
-] [27]) [28] (./elsarticle-template-harv.aux) ) 
+<../FnP/gnuplot/250.eps>
+File: ../FnP/gnuplot/1000.eps Graphic file (type eps)
+ <../FnP/gnuplot/1000.eps>)) [24] [25] [26]
+(./elsarticle-template-harv.bbl [27
+
+] [28]) [29] (./elsarticle-template-harv.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 12646 strings out of 493118
- 246630 string characters out of 6135458
- 295406 words of memory out of 5000000
- 15769 multiletter control sequences out of 15000+600000
+ 12657 strings out of 493118
+ 246796 string characters out of 6135458
+ 295446 words of memory out of 5000000
+ 15773 multiletter control sequences out of 15000+600000
  15426 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,9n,54p,1958b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on elsarticle-template-harv.dvi (28 pages, 96684 bytes).
+Output written on elsarticle-template-harv.dvi (29 pages, 97596 bytes).
