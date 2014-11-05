@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  31 OCT 2014 13:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  3 NOV 2014 20:53
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -628,15 +628,15 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 30--31
 [][][] 
  []
 
-) (../figure/high_pi_1.tex
+) [13] [14] (../figure/high_pi_1.tex
 File: ../FnP/gnuplot/mean_power_high_pi_1.eps Graphic file (type eps)
  <../FnP/gnuplot/mean_power_high_pi_1.eps>
 File: ../FnP/gnuplot/mean_power_low_pi_plot2.eps Graphic file (type eps)
 
-<../FnP/gnuplot/mean_power_low_pi_plot2.eps>) [13] [14] [15]
-(../figure/time_histories.tex
+<../FnP/gnuplot/mean_power_low_pi_plot2.eps>) (../figure/time_histories.tex
 File: ../FnP/gnuplot/power_time_history_015.eps Graphic file (type eps)
- <../FnP/gnuplot/power_time_history_015.eps>
+
+<../FnP/gnuplot/power_time_history_015.eps>
 File: ../FnP/gnuplot/f_y_history_015.eps Graphic file (type eps)
 
 <../FnP/gnuplot/f_y_history_015.eps>
@@ -658,26 +658,27 @@ File: ../FnP/gnuplot/f_y_history_08.eps Graphic file (type eps)
  <../FnP/gnuplot/f_y_history_08.eps>
 File: ../FnP/gnuplot/theta_time_history_08.eps Graphic file (type eps)
 
-<../FnP/gnuplot/theta_time_history_08.eps>) [16] [17] (../figure/low_pi_1.tex
+<../FnP/gnuplot/theta_time_history_08.eps>) [15] [16] [17]
+(../figure/low_pi_1.tex
 File: ../FnP/gnuplot/mean_power_low_pi_1.eps Graphic file (type eps)
-
-<../FnP/gnuplot/mean_power_low_pi_1.eps>) [18] (../figure/qss_fsi.tex
+ <../FnP/gnuplot/mean_power_low_pi_1.eps>) [18] [19]
+(../figure/qss_fsi.tex
 File: ../FnP/gnuplot/fqss_fsi_displace.eps Graphic file (type eps)
-
-<../FnP/gnuplot/fqss_fsi_displace.eps>
+ <../FnP/gnuplot/fqss_fsi_displace.eps>
 File: ../FnP/gnuplot/qss_fsi_velocity.eps Graphic file (type eps)
- <../FnP/gnuplot/qss_fsi_velocity.eps>
+
+<../FnP/gnuplot/qss_fsi_velocity.eps>
 File: ../FnP/gnuplot/qss_fsi_power.eps Graphic file (type eps)
-
-<../FnP/gnuplot/qss_fsi_power.eps>) (../figure/max_power.tex
+ <../FnP/gnuplot/qss_fsi_power.eps>)
+(../figure/max_power.tex
 File: ../FnP/gnuplot/p_max.eps Graphic file (type eps)
-
-<../FnP/gnuplot/p_max.eps>
+ <../FnP/gnuplot/p_max.eps>
 File: ../FnP/gnuplot/p_2_p_max.eps Graphic file (type eps)
- <../FnP/gnuplot/p_2_p_max.eps>) [19] [20]
-(../figure/error.tex
+
+<../FnP/gnuplot/p_2_p_max.eps>) (../figure/error.tex
 File: ../FnP/gnuplot/error.eps Graphic file (type eps)
- <../FnP/gnuplot/error.eps>) (../figure/spectrum.tex
+
+<../FnP/gnuplot/error.eps>) [20] [21] [22] (../figure/spectrum.tex
 File: ../FnP/gnuplot/spec_20_sig.eps Graphic file (type eps)
 
 <../FnP/gnuplot/spec_20_sig.eps>
@@ -697,23 +698,28 @@ File: ../FnP/gnuplot/spec_100.eps Graphic file (type eps)
 
 <../FnP/gnuplot/spec_100.eps>
 File: ../FnP/gnuplot/spec_200.eps Graphic file (type eps)
- <../FnP/gnuplot/spec_200.eps>) [21]
+ <../FnP/gnuplot/spec_200.eps>)
 (../figure/spec_pow.tex
 File: ../FnP/gnuplot/spec_pow.eps Graphic file (type eps)
- <../FnP/gnuplot/spec_pow.eps>) [22] [23]
-(../figure/flow_vis.tex
+ <../FnP/gnuplot/spec_pow.eps>) (../figure/flow_vis.tex
 File: ../FnP/gnuplot/10.eps Graphic file (type eps)
- <../FnP/gnuplot/10.eps>
+
+<../FnP/gnuplot/10.eps>
 File: ../FnP/gnuplot/60.eps Graphic file (type eps)
  <../FnP/gnuplot/60.eps>
 File: ../FnP/gnuplot/250.eps Graphic file (type eps)
-
-<../FnP/gnuplot/250.eps>
+ <../FnP/gnuplot/250.eps>
 File: ../FnP/gnuplot/1000.eps Graphic file (type eps)
- <../FnP/gnuplot/1000.eps>)) [24] [25] [26]
-(./elsarticle-template-harv.bbl [27
 
-] [28]) [29] (./elsarticle-template-harv.aux)
+<../FnP/gnuplot/1000.eps>)
+Overfull \hbox (2472.9004pt too wide) in paragraph at lines 304--305
+[][]  
+ []
+
+[23] [24]) [25] [26] (./elsarticle-template-harv.bbl [27
+
+] [28]) [29]
+(./elsarticle-template-harv.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -725,6 +731,6 @@ Here is how much of TeX's memory you used:
  15773 multiletter control sequences out of 15000+600000
  15426 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,9n,54p,1958b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,10n,54p,1958b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on elsarticle-template-harv.dvi (29 pages, 97596 bytes).
+Output written on elsarticle-template-harv.dvi (29 pages, 97624 bytes).

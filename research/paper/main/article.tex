@@ -214,7 +214,7 @@ Figure \ref{fig:compare_data} shows the comparison of mean power data at $\reyno
 \subsection{Comparison of power between high and low \reynoldsnumber\ data}   
 \label{sec:low_vs_high_re}
 The marked success of the collapse using \massdamp\ for the $\reynoldsnumber = 200$ case, particularly of the mean power, could also be replicated for the higher \reynoldsnumber\ case at $\reynoldsnumber = 22300$. Figure \ref{fig:collapsed_data} presents the mean power for both the high and low \reynoldsnumber\ cases for selected values of \massstiff. It is shown that the data collapse in both cases, demonstrating the validity of using \massdamp\ as an independent variable.
-
+\vspace{30mm}
 \input{../figure/collapsed_data}
          
 Hysteresis could be observed for the $\reynoldsnumber = 22300$ case. The different solutions could be obtained by manipulating the initial conditions (initial displacement) of the system. The upper branch was obtained by giving an initial displacement which was higher than the expected amplitude while the lower branch was obtained by providing a lower initial displacement than the expected amplitude. Although theory shows a possible third state, it is an unstable branch and as such it could not be achieved numerically. This was also observed by \cite{Vio2007}. 
@@ -241,7 +241,8 @@ The instantaneous power from the fluid to the body can be expressed as $P_t=F_y\
  % % % % % % % % % % % don  
 
 At region 1 ($\massdamp=0.3$) the damping is low in comparison with region 2 and 3. While this may lead to larger oscillations, damping is required to dissipate and therefore extract power according to equation \ref{power}. Therefore, the low damping in this region leads to a low mean power output. Fig.\ref{fig:power_time_histories} (a) shows that $P_d$ (the power dissipated by damping) becomes negative over some portion of the cycle. This is caused by the high velocity amplitude leading to the equivalent incident angle $\theta$ to exceed the range where $C_y$ is positive (i.e. $0<\theta<6^\circ$ as shown in figure\ref{cy ploynomial}(a)). In this portion of the cycle the fluid-dynamic force actually opposes the direction of travel and power is transferred from the structure to the fluid during those times. From an energy perspective, the mechanical damping is not sufficient to remove the energy transferred from the fluid to the structure through work during other times of the cycle because $\massdamp$ \ is substantially low. Therefore this excess energy is transferred back to the fluid as depicted by the negative region of $P_d$.
- 
+
+\vspace{1mm} 
 At region 3 where $\massdamp=0.8$ the damping constant is high and a clear sinusoidal signal is observed for both $P_d$ and $P_t$ in figure \ref{fig:power_time_histories}(c). Figures \ref{fig:power_time_histories}(f) and  \ref{fig:power_time_histories}(i) show that equivalent incident angle $\theta$ (which for small values, is proportional to the transverse velocity of the body) is in phase with $F_y$.  The velocity amplitude in this case is small and $\theta$ is within the range where the fluid-dynamic force increases with the incident angle (i.e. $0<\theta \leq 5^\circ$ as shown in figure \ref{fig:lift_curves}(a)). According to equation \ref{power_alt}, these conditions are suitable for high power output. However in this case, the high damping limits the velocity amplitude and results in relatively low fluid dynamic forces.
   
 At region 2 ( $\massdamp=0.54$), a balance is found between high and low values of damping. $P_d$ is not a pure sinusoidal signal, however the signal remains periodic. From the time history graph of $P_d$, two `peaks' are present in a single half cycle as shown in figure \ref{fig:power_time_histories}(b). In this case, the velocity amplitude actually exceeds the equivalent incident angle where the fluid-dynamic forces peaks (i.e. $\theta=5^\circ$ in \ref{cy ploynomial} (a)). The dips in $P_d$ between the two peaks approximately correspond to the time where the transverse velocity is higher than 0.09 and $F_y$ is decreasing with increasing transverse velocity. The mean power output is at its maximum. This is due to the fact that this region is the best compromise between region 1 and 3. The damping is high enough to obtain a high power output while not so high that the motion is completely suppressed.
@@ -292,13 +293,15 @@ This influence is explicitly shown here. Figure \ref{fig:spec_pow} plots the rel
 
 \input{../figure/spec_pow}
 
+
+
 Similar to the discrepancy between the QSS and DNS mean extracted power shown in figure \ref{fig:error}, the relative strength of the vortex shedding is seen to be large at small values of \massstiff, and quickly decreases as \massstiff\ is increased. The figure shows that the relative power of the vortex shedding frequency to the galloping frequency is $0.977\massstiff^{-0.52}$.
 
 The difference between the power predicted by the QSS and DNS models scales with $\massstiff^{-0.6}$; the relative power at the vortex shedding frequency scales with $\massstiff^{-0.52}$. These scalings are quite similar, and both are close to $1/\sqrt{\massstiff}$. While not unequivocal, this correlation strongly indicates this discrepancy is due to the influence of the vortex shedding, even though the vortex shedding and galloping frequencies remain separated by around the same amount for all values of \massstiff\ presented in figure \ref{fig:spectrum}. The data presented in figure \ref{fig:spec_pow} also give some indication of the strength of any vortex shedding correction term that might be added to the QSS model in an effort to decrease the discrepancy between it and the DNS simulations.
 
 \input{../figure/flow_vis}
 
-
+\hspace{100cm}
  
 \section{Conclusion}
 \label{sec:conc}
