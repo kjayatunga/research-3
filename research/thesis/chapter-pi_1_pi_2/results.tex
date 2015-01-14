@@ -1,0 +1,52 @@
+\chapter{Governing parameters of  fluid-elastic galloping}
+\label{chap:goven_para}
+
+\section{Introduction}
+
+This chapter contains the formulation of non dimensional governing parameters namely, the combined mass-stiffness \massstiff \ and the combined mass-damping \massdamp \ and the results and discussion demonstrating the influence of them. These parameters are formulated by obtaining the relevant time-scales of the system followed by non-dimesnionlising the governing QSS oscillator equation.  
+
+A comparison of Quasi-steady state data presented using the classical VIV parameters and the newly formulated \massstiff \ and \massdamp is presented and it is concluded that \massdamp provides a better collapse for velocity amplitude and mean power compared the classical reduced velocity (\ustar) particularly because unlike \ustar, \massdamp \ does not include a frequency component in it. This is followed by the presentation of QSS data and discussion on the influence of \massstiff \ and \massdamp \ on power, which concludes that the power transfer is a primary function of \massdamp \ and a weak function of \massstiff.
+
+Following this, a comparison of the QSS data with Direct Numerical Simulations (DNS) is presented. This reveals that the power transfer of the DNS data is strongly influenced by both \massstiff \ and \massdamp. Further analysis reveals that there is a good agreement between QSS and DNS for velocity and power at substantially high \massstiff\. As \massstiff \ decreases, the deviation (between QSS simulations and DNS) increases. Power spectral analysis of the DNS data shows a significant response at the vortex shedding at low \massstiff. The relative strength was found out to be an inverse function of \massstiff, which provides a clear explanation for the deviation between QSS simulations and DNS data at low \massstiff. This is primarily due to the influence of vortex shedding where this effect is not accounted in the QSS model.
+
+
+\section{Formulation of the non-dimensionalised parameters \massstiff \ and \massdamp }
+
+The natural time scales of the system could be obtained by linearising the quasi-steady equation of motion. (Eq:\KJ{equation of motion}) and finding the eigenvalues. The non-linear terms of the forcing function are truncated and the equation of motion could be expressed as, 
+
+\begin{equation}
+\label{eqn:eom_linear}
+m\ddot{y}{+}c\dot{y}{+}ky{=}\frac{1}{2}\rho U^2 \mathcal{A} a_1\left(\frac{\dot{y}}{U}\right),
+\end{equation}
+
+After combining the $\dot{y}$ terms and solving for eigenvalues the following solutions for the eigenvalues could be obtained. 
+
+ \begin{equation}
+ \label{eqn:eigs}
+ \lambda_{1,2}= -\frac{1}{2}\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{m}\pm\frac{1}{2}\sqrt{\left[\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{(m)}\right]^2-4\frac{k}{m}}.
+ \end{equation} 
+ 
+ Galloping essentially occurs at low frequencies therefore it can be assumed that the spring is relevantly weak and therefore, $k \rightarrow 0$. Hence a single non-zero eigenvalue remains which is, 
+  
+  \begin{equation}
+  \label{eqn:eigs_nospring}
+  \lambda=-\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{m}.
+  \end{equation}
+  
+  Further, if it is assumed that the mechanical damping is weaker than the fluid dynamic forces on the body the non zero eigenvalue could be further simplified to,
+  
+ \begin{equation}
+ \label{eqn:eigs_nospring_nodamp}
+ \lambda=\frac{\frac{1}{2}\rho U\mathcal{A}a_1}{m}.
+ \end{equation}  
+
+In this representation $\lambda$ represents the inverse time scale of the motion of the body due to the effect of long-time fluid dynamic forces (or forced due ot the induced velocity). This term could also be re-written and $\lambda$ could be expressed as 
+
+\begin{equation}
+\label{eqn:timescale}
+\lambda = \frac{a_1}{m^*}\frac{U}{D}
+\end{equation}
+
+This form clearly shows the significant parameters that influences the inverse time scale.  
+
+
