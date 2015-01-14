@@ -7,15 +7,14 @@ A level-1 auxiliary file: acknowledgements.aux
 A level-1 auxiliary file: publications.aux
 A level-1 auxiliary file: thesis-nomenclature.aux
 I couldn't open style file jfm.bst
----line 15 of file thesis-main.aux
+---line 21 of file thesis-main.aux
  : \bibstyle{jfm
  :              }
 I'm skipping whatever remains of this command
-I found no \citation commands---while reading file thesis-main.aux
 I found no style file---while reading file thesis-main.aux
-You've used 0 entries,
+You've used 1 entry,
             0 wiz_defined-function locations,
-            90 strings with 595 characters,
+            92 strings with 621 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0
@@ -54,4 +53,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 0
-(There were 3 error messages)
+(There were 2 error messages)
