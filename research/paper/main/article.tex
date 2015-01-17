@@ -96,7 +96,7 @@ C_y(\theta)=a_1\left(\frac{\dot{y}}{U}\right)+a_3\left(\frac{\dot{y}}{U}\right)^
 %\ddot{y}+c^*\dot{y}+k^*y=\frac{1}{2}\rho U^2A
 %\end{equation}
 
- It is expected that vortex shedding will be well correlated along the span and provide significant forcing at low \reynoldsnumber. \citet{Joly2012} introduced  an additional sinusoidal forcing function to the fluid-dynamic forcing to model this. This enables the model to provide accurate predictions even at low mass ratios where galloping excitation is suppressed or not present. However, the strength of this additional forcing needs to be tuned in an \emph{ad hoc} manner, and it is not clear how this forcing should vary with the other system parameters. Therefore, a focus of this study is to identify the parameter space where unmodified QSS model predicts power transfer accurately, and to quantify the the error in the regions where it does not predict accurately. Therefore the additional sinusoidal forcing function is disregarded. Substituting the definition of the lift coefficient provided in equation (\ref{cy ploynomial}) into the equation of motion of equation (\ref{lift equation}) gives 
+ It is expected that vortex shedding will be well correlated along the span and provide significant forcing at low \reynoldsnumber. \citet{Joly2012} introduced  an additional sinusoidal forcing function to the fluid-dynamic forcing to model this. This enables the model to provide accurate predictions even at low mass ratios where galloping excitation is suppressed or not present. However, the strength of this additional forcing needs to be tuned in an \emph{ad hoc} manner, and it is not clear how this forcing should vary with the other system parameters. Therefore, a focus of this study is to identify the parameter space where unmodified QSS model predicts power transfer accurately, and to quantify the error in the regions where it does not predict accurately. Therefore the additional sinusoidal forcing function is disregarded. Substituting the definition of the lift coefficient provided in equation (\ref{cy ploynomial}) into the equation of motion of equation (\ref{lift equation}) gives 
  
 \begin{equation}
 \label{final_equation_motion}
@@ -160,7 +160,7 @@ The range of incident flow angles where $C_y$ remains positive is narrow at $\re
 Combining the $\dot{y}$ terms and solving for eigenvalues gives
  \begin{equation}
    \label{eqn:eigs}
-   \lambda_{1,2}= -\frac{1}{2}\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{m}\pm\frac{1}{2}\sqrt{\left[\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{(m)}\right]^2-4\frac{k}{m}}.
+   \lambda_{1,2}= -\frac{1}{2}\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{m}\pm\frac{1}{2}\sqrt{\left[\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{m}\right]^2-4\frac{k}{m}}.
  \end{equation}
  
 If it is assumed that the spring is relatively weak, $k\rightarrow 0$, a single non-zero eigenvalue remains. This eigenvalue is
@@ -197,7 +197,7 @@ The coefficients can be regrouped into combinations of non-dimensional groups, a
  \end{equation}
 where $U^{*}$ is the reduced velocity typically used as an independent variable in vortex-induced vibration studies and $c^*=cD/mU$ is a non-dimensional damping parameter.
  
-Equation \ref{eqn:eom_nondim_regroup} shows there are five non-dimensional parameters that play a role in setting the response of the system. These are the stiffness (represented by the reduced velocity $U^*$), the damping $c^*$, the mass ratio $m^*$, and the geometry and \reynoldsnumber, represented by the coefficients of the polynomial fit to the $C_y$ curve, $a_n$. The grouping of these parameters into two groups in equation \ref{eqn:eom_nondim_regroup} which arise by non-dimensionalising using the natural time scale of the galloping system, suggests there are two groups that dictate the response: $\Gamma_1 = 4\pi^2m^{*2}/U^{*2}a_1^2$ and $\Gamma_2 = c^*m^*/a_1$. For a given geometry and Reynolds number, $\Gamma_1$ can be thought of as a combined mass-stiffness, whereas $\Gamma_2$ can be thought of a a combined mass-damping parameter. As it is assumed that during galloping the stiffness plays only a minor role, $\Gamma_2$ seems a likely parameter to collapse the data. In fact, in the classic paper on galloping from \cite{Parkinson1964}, galloping data from wind tunnel tests is presented in terms of a parameter that can be shown to be the same as $\Gamma_2$.
+Equation \ref{eqn:eom_nondim_regroup} shows there are five non-dimensional parameters that play a role in setting the response of the system. These are the stiffness (represented by the reduced velocity $U^*$), the damping $c^*$, the mass ratio $m^*$, and the geometry and \reynoldsnumber, represented by the coefficients of the polynomial fit to the $C_y$ curve, $a_n$. The grouping of these parameters into two groups in equation \ref{eqn:eom_nondim_regroup} which arise by non-dimensionalising using the natural time scale of the galloping system, suggests there are two groups that dictate the response: $\Gamma_1 = 4\pi^2m^{*2}/U^{*2}a_1^2$ and $\Gamma_2 = c^*m^*/a_1$. For a given geometry and Reynolds number, $\Gamma_1$ can be thought of as a combined mass-stiffness, whereas $\Gamma_2$ can be thought of a combined mass-damping parameter. As it is assumed that during galloping the stiffness plays only a minor role, $\Gamma_2$ seems a likely parameter to collapse the data. In fact, in the classic paper on galloping from \cite{Parkinson1964}, galloping data from wind tunnel tests is presented in terms of a parameter that can be shown to be the same as $\Gamma_2$.
  
  All of the quantities that make up $\Gamma_1$ and $\Gamma_2$ can, in theory, be known before an experiment is conducted. However, the quantity $a_1$ is a relatively difficult one to determine, requiring static body experiments or simulations. Here, the geometry is unchanged and results are only being compared at the same \reynoldsnumber. Hence, suitable parameters can be formed by multiplying $\Gamma_1$ and $\Gamma_2$ by $a_1^2$ and $a_1$ respectively, to arrive at a mass-stiffness parameter $\massstiff =  4\pi^2m^{*2}/U^{*2}$, and a mass-damping parameter defined as $\massdamp = c^*m^*$.
  
@@ -217,7 +217,8 @@ The marked success of the collapse using \massdamp\ for the $\reynoldsnumber = 2
 
 \input{../figure/collapsed_data}
          
-Hysteresis could be observed for the $\reynoldsnumber = 22300$ case. The different solutions could be obtained by manipulating the initial conditions (initial displacement) of the system. The upper branch was obtained by giving an initial displacement which was higher than the expected amplitude while the lower branch was obtained by providing a lower initial displacement than the expected amplitude. Although theory shows a possible third state, it is an unstable branch and as such it could not be achieved numerically. This was also observed by \cite{Vio2007}. 
+Hysteresis could be observed for the $\reynoldsnumber = 22300$ case. The different solutions could be obtained by manipulating the initial conditions (initial displacement) of the system. The upper branch was obtained by giving an initial displacement which was higher than the expected amplitude while the lower branch was obtained by providing a lower initial displacement than the expected amplitude. Although theory shows a possible third state, it is an unstable branch. \rwthr{This branch could be achieved using continious numerical method. However, in this study a time integration method was used and therefore this unstable state could not be achieved.} This was also observed by \cite{Vio2007}. 
+
 
 \subsection{Dependence on mass-stiffness, \massstiff}
 \label{sec:massstiff}
@@ -279,7 +280,7 @@ In an effort to further quantify the performance of the QSS model, the percentag
  \% \ error=\left|{\frac{P_{m(QSS)} - P_{m(DNS)}}{P_{m(DNS)}}}\right| \times 100.
  \end{equation}
 
-The results of this calculation are plotted in figure \ref{fig:error}, along with a power-law best fit $138.697\massstiff^{-0.6}$. The figure clearly shows that as \massstiff increases, the error between the QSS and DNS models quickly decreases. However, at low values of \massstiff, the discrepancy between the two can be quite large, around $30\%$.
+The results of this calculation are plotted in figure \ref{fig:error}, along with a power-law best fit $138.697\massstiff^{-0.6}$. The figure clearly shows that as \massstiff \ increases, the error between the QSS and DNS models quickly decreases. However, at low values of \massstiff, the discrepancy between the two can be quite large, around $30\%$.
 
 \input{../figure/error}
 
@@ -301,7 +302,7 @@ The difference between the power predicted by the QSS and DNS models scales with
 
 \input{../figure/flow_vis}
 
-Further information can be gained by observing the flow field. Flow field data at values of \massdamp\ close to where maximum power is produced at different \massstiff\ are presented in figure \ref{fig:flow_vis}. The figure shows a clear wavelength of the wake as the \massstiff \ is increased. Qualitatively, this can be interpreted as showing that at high \massstiff, the vortex shedding is simply superimposed over the path of motion of the cylinder. It shows a decrease in amplitude at low \massstiff, which may be due to the higher levels of non-linear interaction between the vortex shedding and galloping.
+Further information can be gained by observing the flow field. Flow field data at values of \massdamp\ close to where maximum power is produced at different \massstiff\ are presented in figure \ref{fig:flow_vis}. The figure shows a clear wavelength of the wake as \massstiff \ is increased. Qualitatively, this can be interpreted as showing that at high \massstiff, the vortex shedding is simply superimposed over the path of motion of the cylinder. It shows a decrease in amplitude at low \massstiff, which may be due to the higher levels of non-linear interaction between the vortex shedding and galloping.
  
 \section{Conclusion}
 \label{sec:conc}
