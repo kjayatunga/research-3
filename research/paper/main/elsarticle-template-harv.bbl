@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{23}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -116,6 +116,11 @@ Thompson, M., Hourigan, K., Sheridan, J., Feb. 1996. {Three-dimensional
 Thompson, M.~C., Hourigan, K., Cheung, A., Leweke, T., Nov. 2006.
   {Hydrodynamics of a particle impact on a wall}. Applied Mathematical
   Modelling 30~(11), 1356--1369.
+
+\bibitem[{Vicente-Ludlam and Barrero-Gil(2014)}]{vicente-Ludlam2014}
+Vicente-Ludlam, D., Barrero-Gil, A., V.~A., 2014. Optimal electromagnetic
+  energy extraction from transverse galloping. Journal of Fluids and Structures
+  51, 281--291.
 
 \bibitem[{Vio et~al.(2007)Vio, Dimitriadis, and Cooper}]{Vio2007}
 Vio, G., Dimitriadis, G., Cooper, J., Oct. 2007. {Bifurcation analysis and

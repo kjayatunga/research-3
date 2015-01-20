@@ -2,45 +2,60 @@ This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: elsarticle-template-harv.aux
 The style file: elsarticle-harv.bst
-Database file #1: ../BibteX/Paper.bib
-You've used 22 entries,
+Database file #1: ../BibteX/Paper.bib.bib
+Too many commas in name 2 of "Vicente-Ludlam,D. and Barrero-Gil, A.,Velazquez, A." for entry vicente-Ludlam2014
+while executing---line 1438 of file elsarticle-harv.bst
+Too many commas in name 2 of "Vicente-Ludlam,D. and Barrero-Gil, A.,Velazquez, A." for entry vicente-Ludlam2014
+while executing---line 1438 of file elsarticle-harv.bst
+Too many commas in name 2 of "Vicente-Ludlam,D. and Barrero-Gil, A.,Velazquez, A." for entry vicente-Ludlam2014
+while executing---line 1438 of file elsarticle-harv.bst
+Too many commas in name 2 of "Vicente-Ludlam,D. and Barrero-Gil, A.,Velazquez, A." for entry vicente-Ludlam2014
+while executing---line 1527 of file elsarticle-harv.bst
+Too many commas in name 2 of "Vicente-Ludlam,D. and Barrero-Gil, A.,Velazquez, A." for entry vicente-Ludlam2014
+while executing---line 1527 of file elsarticle-harv.bst
+Too many commas in name 2 of "Vicente-Ludlam,D. and Barrero-Gil, A.,Velazquez, A." for entry vicente-Ludlam2014
+while executing---line 1527 of file elsarticle-harv.bst
+Too many commas in name 2 of "Vicente-Ludlam,D. and Barrero-Gil, A.,Velazquez, A." for entry vicente-Ludlam2014
+while executing---line 1527 of file elsarticle-harv.bst
+You've used 23 entries,
             2821 wiz_defined-function locations,
-            789 strings with 8595 characters,
-and the built_in function-call counts, 11135 in all, are:
-= -- 1166
-> -- 546
-< -- 10
-+ -- 202
-- -- 180
-* -- 1016
-:= -- 1987
-add.period$ -- 67
-call.type$ -- 22
-change.case$ -- 170
-chr.to.int$ -- 28
-cite$ -- 22
-duplicate$ -- 395
-empty$ -- 756
-format.name$ -- 254
-if$ -- 2237
+            796 strings with 8766 characters,
+and the built_in function-call counts, 11612 in all, are:
+= -- 1218
+> -- 565
+< -- 11
++ -- 209
+- -- 186
+* -- 1056
+:= -- 2071
+add.period$ -- 70
+call.type$ -- 23
+change.case$ -- 177
+chr.to.int$ -- 29
+cite$ -- 23
+duplicate$ -- 413
+empty$ -- 790
+format.name$ -- 265
+if$ -- 2336
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 24
-newline$ -- 73
-num.names$ -- 88
-pop$ -- 159
+missing$ -- 25
+newline$ -- 76
+num.names$ -- 92
+pop$ -- 165
 preamble$ -- 1
-purify$ -- 148
+purify$ -- 154
 quote$ -- 0
-skip$ -- 289
+skip$ -- 303
 stack$ -- 0
-substring$ -- 696
-swap$ -- 62
+substring$ -- 728
+swap$ -- 65
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 189
+type$ -- 198
 warning$ -- 0
-while$ -- 98
+while$ -- 102
 width$ -- 0
-write$ -- 248
+write$ -- 259
+(There were 7 error messages)
