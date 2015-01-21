@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{25}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -63,6 +63,10 @@ Lee, J., Bernitsas, M., Nov. 2011. {High-damping, high-Reynolds VIV tests for
   energy harnessing using the VIVACE converter}. Ocean Engineering 38~(16),
   1697--1712.
 
+\bibitem[{Leonard and Roshko(2001)}]{leonard2001}
+Leonard, A., Roshko, A., 2001. Aspects of flow-induced vibrations. Journal of
+  Fluids and Structures 15, 415--425.
+
 \bibitem[{Leontini et~al.(2011)Leontini, {Lo Jacono}, and
   Thompson}]{Leontini2011}
 Leontini, J.~S., {Lo Jacono}, D., Thompson, M.~C., Nov. 2011. {A numerical
@@ -105,6 +109,11 @@ Raghavan, K., Bernitsas, M., Apr. 2011. {Experimental investigation of Reynolds
   number effect on vortex induced vibration of rigid circular cylinder on
   elastic supports}. Ocean Engineering 38~(5-6), 719--731.
 
+\bibitem[{Shiels et~al.(2001)Shiels, Leonard, and Roshko}]{shiels2001}
+Shiels, D., Leonard, A., Roshko, A., 2001. Flow-induced vibration of a circular
+  cylinder at limiting structural parameters. Journal of Fluids and Structures
+  15, 3--21.
+
 \bibitem[{Thompson et~al.(1996)Thompson, Hourigan, and
   Sheridan}]{Thompson1996a}
 Thompson, M., Hourigan, K., Sheridan, J., Feb. 1996. {Three-dimensional
@@ -117,10 +126,11 @@ Thompson, M.~C., Hourigan, K., Cheung, A., Leweke, T., Nov. 2006.
   {Hydrodynamics of a particle impact on a wall}. Applied Mathematical
   Modelling 30~(11), 1356--1369.
 
-\bibitem[{Vicente-Ludlam and Barrero-Gil(2014)}]{vicente-Ludlam2014}
-Vicente-Ludlam, D., Barrero-Gil, A., V.~A., 2014. Optimal electromagnetic
-  energy extraction from transverse galloping. Journal of Fluids and Structures
-  51, 281--291.
+\bibitem[{Vicente-Ludlam et~al.(2014)Vicente-Ludlam, Barrero-Gil, and
+  Velazquez}]{vicente-Ludlam2014}
+Vicente-Ludlam, D., Barrero-Gil, A., Velazquez, A., 2014. Optimal
+  electromagnetic energy extraction from transverse galloping. Journal of
+  Fluids and Structures 51, 281--291.
 
 \bibitem[{Vio et~al.(2007)Vio, Dimitriadis, and Cooper}]{Vio2007}
 Vio, G., Dimitriadis, G., Cooper, J., Oct. 2007. {Bifurcation analysis and
