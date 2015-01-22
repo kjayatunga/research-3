@@ -1,0 +1,101 @@
+\documentclass[]{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xcolor}
+
+\newcommand{\Rey}{\ensuremath{Re}}
+\newcommand{\ord}[1]{\ensuremath{\mathcal{O}(#1)}}
+\newcommand{\degree}{\ensuremath{^{\circ}}}
+
+\makeatletter
+\newcommand{\rmnum}[1]{\romannumeral #1}
+\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
+\newcommand{\modeone}{mode \Rmnum{1}}
+\newcommand{\modetwo}{mode \Rmnum{2}}
+\newcommand{\modethree}{mode \Rmnum{3}}
+\newcommand{\modefour}{mode \Rmnum{4}}
+\newcommand{\modefive}{mode \Rmnum{5}}
+\newcommand{\modesix}{mode \Rmnum{6}}
+\newcommand{\modeseven}{mode \Rmnum{7}}
+
+\setlength{\textwidth}{180mm}
+\setlength{\oddsidemargin}{-10mm}
+
+\begin{document}
+
+\section*{Responses to comments from reviewer 1}
+
+We begin by thanking the reviewer for taking the time and effort
+required to read and assess this manuscript. The changes we have made, along with explanations and
+responses to the reviewer's comments, are outlined below. Any changes to the text related to the reviewer's comments are highlighted in
+\textcolor{green}{green}.
+
+\begin{itemize}
+\item \emph{p.2	suppresses,	modern word, such as occurs in fluid-dynamic applications}
+
+change to "suppress"
+
+\item \emph{p.3	systm,	performa	t high,	…at	low	Re,	Reare}
+
+“systm” changed to system , “Reare” changed to “Re are tested”  
+
+\item \emph{p.5	eq.1,(m),interpolating polynomials}
+
+"(m)" changed to m, "polynomials" changed to polynomial
+
+\item \emph{p.6	ad hoc…In fact forcing is obtained from	averaged lift force	in Joly et al. ?, the the}
+
+Thank you for your comment. We agree that the forcing is obtained from averaged lift force in Joly et al. However, it is stated in Joly et al  page 239 quoted 
+
+``The characteristic angular frequency $\omega_{s}94$ is obtained from fixed cylinder simulations that provided closure coefficients of the QS model. To fit with FSI simulations, we take $F_0=0.66$ for the characteristic force. Note that we measured a lower value for its fixed simulation counterpart ($F_0=0.3$). This may reveal a more complex interaction with vortex shedding, which we would not deal with in this paper."
+
+Therefore the value used as mean force $F_0= 0.66$ was arbitrary and not the optimum value and therefore can be considered as “ad hoc”.
+
+So, the value eventually used by Joly in the model is not that measured during fixed body simulations, but rather a value chosen to optimize the match between the data and the model. This value is therefore not derived in any systematic way, and as such is chosen “ad hoc”.
+
+“the the ” corrected to “the”
+
+
+\item \emph{p.7	is	a	proportional}
+
+``is a proportional” changed to ``is proportional”
+
+\item \emph{p.10	Eq.	8	(m)}
+
+changed to ``m"
+
+\item \emph{p.12 a a}
+
+ changed to ``a”
+
+
+\item \emph{why	unstable	branches	could	not	be	achieved	numerically	?	The	reviewer	thinks	
+	it	is	possible	depending	on	how	you	perturb/perform	computations	?}
+
+Technically it is possible to achieve the unstable branch using continuous methods. As this paper we used a time integration method this branch could not be achieved. Please refer the highlighted part under reviewer 3 in the manuscript for the amendments.
+
+The reviewer is correct, it is technically possible to achieve unstable states numerically. The classic realisation of this is solving for steady states of a system using algorithms such as a Newton-Raphson method coupled with a continuation method to “follow” an unstable branch. The continuation method is required as the control parameter (in this case $\Pi_{2}$) cannot simply be incremented, but must be increased or decreased depending on the direction of the branch.
+
+The situation here is more complex, in that the solutions are not steady states, but at their most simplest limit cycles (periodic solutions). Constructing a continuation method to follow periodic solutions is quite complicated. Considering the relatively minor improvement that the method would provide, we feel that the effort required is not justified.
+
+
+\item \emph{p.	20 Fig.	8	caption	simulations	at.	…}
+
+ ``." Removed 
+
+\item \emph{p.22	$\Pi_{1}$ increases}
+
+space added between the two words
+
+
+\item \emph{p.24	as	the	PI1	is…}
+
+removed ``the" 
+
+
+\end{itemize}
+
+\end{document}
