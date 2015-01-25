@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  25 JAN 2015 19:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  25 JAN 2015 19:40
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -695,7 +695,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-(../chapter-pi_1_pi_2/results.tex
+(./chapter-pi_1_pi_2/results.tex
 Chapter 1.
 [1
 
@@ -740,28 +740,52 @@ ine 84.
 Package natbib Warning: Citation `Lee2011b' on page 4 undefined on input line 8
 4.
 
-[4]
+[4] (./chapter-pi_1_pi_2/figure/compare_data.tex
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200.eps Graphic file (
+type eps)
 
-! LaTeX Error: File `./chapter-pi_1_pi_2/figure/compare_data.tex' not found.
+<./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/velocity_amp_re200.eps Graphic file (type
+ eps)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+<./chapter-pi_1_pi_2/FnP/gnuplot/velocity_amp_re200.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_re_200.eps Graphic file (type 
+eps)
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.86 ...t{./chapter-pi_1_pi_2/figure/compare_data}
-                                                  ^^M
-*** (cannot \read from terminal in nonstop modes)
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_re_200.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/velocity_amp_collapsed_re200.eps Graphic 
+file (type eps)
 
- 
+<./chapter-pi_1_pi_2/FnP/gnuplot/velocity_amp_collapsed_re200.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_re_200.eps Graphic f
+ile (type eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_re_200.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_collpased_re200.eps Grap
+hic file (type eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_collpased_re200.eps>
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 24.
+
+)) [5] [6] [7
+
+] [8
+
+
+] (./thesis-main.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+(./thesis-main.aux (./originality.aux) (./abstract.aux) (./acknowledgements.aux
+) (./publications.aux) (./thesis-nomenclature.aux)) ) 
 Here is how much of TeX's memory you used:
- 13089 strings out of 493118
- 252215 string characters out of 6135458
+ 13122 strings out of 493118
+ 253124 string characters out of 6135458
  297361 words of memory out of 5000000
- 16240 multiletter control sequences out of 15000+600000
+ 16248 multiletter control sequences out of 15000+600000
  16491 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,54p,1274b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on thesis-main.dvi (18 pages, 25092 bytes).
+ 55i,12n,54p,1273b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on thesis-main.dvi (22 pages, 28416 bytes).

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  25 JAN 2015 19:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  25 JAN 2015 19:28
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -22,8 +22,8 @@ or  <return>  to continue without it.
 
 ! Undefined control sequence.
 <argument> \includegraphics 
-                            [width=0.5\unitlength ]{./chapter-pi_1_pi_2/FnP/...
-l.7 ..._2/FnP/gnuplot/displacement_amp_re200.eps}}
+                            [width=0.5\unitlength ]{../FnP/gnuplot/displacem...
+l.7 ...../FnP/gnuplot/displacement_amp_re200.eps}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -44,7 +44,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.7 ..._2/FnP/gnuplot/displacement_amp_re200.eps}}
+l.7 ...../FnP/gnuplot/displacement_amp_re200.eps}}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -53,7 +53,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.7 ..._2/FnP/gnuplot/displacement_amp_re200.eps}}
+l.7 ...../FnP/gnuplot/displacement_amp_re200.eps}}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -64,21 +64,36 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no . in font nullfont!
 Missing character: There is no / in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no p in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.7 ..._2/FnP/gnuplot/displacement_amp_re200.eps}}
+l.7 ...../FnP/gnuplot/displacement_amp_re200.eps}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -87,17 +102,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 7.
-! Double subscript.
-<argument> ...dth=0.5\unitlength ]{./chapter-pi_1_
-                                                  pi_2/FnP/gnuplot/displacem...
-l.7 ..._2/FnP/gnuplot/displacement_amp_re200.eps}}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
-
 ! Extra }, or forgotten $.
 <argument> .../gnuplot/displacement_amp_re200.eps}
                                                   
-l.7 ..._2/FnP/gnuplot/displacement_amp_re200.eps}}
+l.7 ...../FnP/gnuplot/displacement_amp_re200.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -108,7 +116,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \put ... \hb@xt@ \z@ {\kern #1\unitlength #3\hss }
                                                   \ignorespaces 
-l.7 ..._2/FnP/gnuplot/displacement_amp_re200.eps}}
+l.7 ...../FnP/gnuplot/displacement_amp_re200.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -118,8 +126,8 @@ deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
 <argument> \includegraphics 
-                            [width=0.5\unitlength ]{./chapter-pi_1_pi_2/FnP/...
-l.8 ...1_pi_2/FnP/gnuplot/velocity_amp_re200.eps}}
+                            [width=0.5\unitlength ]{../FnP/gnuplot/velocity_...
+l.8 ...th]{../FnP/gnuplot/velocity_amp_re200.eps}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -140,7 +148,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.8 ...1_pi_2/FnP/gnuplot/velocity_amp_re200.eps}}
+l.8 ...th]{../FnP/gnuplot/velocity_amp_re200.eps}}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -149,7 +157,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.8 ...1_pi_2/FnP/gnuplot/velocity_amp_re200.eps}}
+l.8 ...th]{../FnP/gnuplot/velocity_amp_re200.eps}}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -160,36 +168,40 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no . in font nullfont!
 Missing character: There is no / in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
 Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.8 ...1_pi_2/FnP/gnuplot/velocity_amp_re200.eps}}
+l.8 ...th]{../FnP/gnuplot/velocity_amp_re200.eps}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-! Double subscript.
-<argument> ...dth=0.5\unitlength ]{./chapter-pi_1_
-                                                  pi_2/FnP/gnuplot/velocity_...
-l.8 ...1_pi_2/FnP/gnuplot/velocity_amp_re200.eps}}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Extra }, or forgotten $.
 <argument> .../FnP/gnuplot/velocity_amp_re200.eps}
                                                   
-l.8 ...1_pi_2/FnP/gnuplot/velocity_amp_re200.eps}}
+l.8 ...th]{../FnP/gnuplot/velocity_amp_re200.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -200,7 +212,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \put ... \hb@xt@ \z@ {\kern #1\unitlength #3\hss }
                                                   \ignorespaces 
-l.8 ...1_pi_2/FnP/gnuplot/velocity_amp_re200.eps}}
+l.8 ...th]{../FnP/gnuplot/velocity_amp_re200.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -210,8 +222,8 @@ deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
 <argument> \includegraphics 
-                            [width=0.5\unitlength ]{./chapter-pi_1_pi_2/FnP/...
-l.9 ..._1_pi_2/FnP/gnuplot/mean_power_re_200.eps}}
+                            [width=0.5\unitlength ]{../FnP/gnuplot/mean_powe...
+l.9 ...gth]{../FnP/gnuplot/mean_power_re_200.eps}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -232,7 +244,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.9 ..._1_pi_2/FnP/gnuplot/mean_power_re_200.eps}}
+l.9 ...gth]{../FnP/gnuplot/mean_power_re_200.eps}}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -241,7 +253,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.9 ..._1_pi_2/FnP/gnuplot/mean_power_re_200.eps}}
+l.9 ...gth]{../FnP/gnuplot/mean_power_re_200.eps}}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -252,36 +264,36 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no . in font nullfont!
 Missing character: There is no / in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.9 ..._1_pi_2/FnP/gnuplot/mean_power_re_200.eps}}
+l.9 ...gth]{../FnP/gnuplot/mean_power_re_200.eps}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Double subscript.
-<argument> ...dth=0.5\unitlength ]{./chapter-pi_1_
-                                                  pi_2/FnP/gnuplot/mean_powe...
-l.9 ..._1_pi_2/FnP/gnuplot/mean_power_re_200.eps}}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
-
 ! Extra }, or forgotten $.
-<argument> ...2/FnP/gnuplot/mean_power_re_200.eps}
+<argument> ..../FnP/gnuplot/mean_power_re_200.eps}
                                                   
-l.9 ..._1_pi_2/FnP/gnuplot/mean_power_re_200.eps}}
+l.9 ...gth]{../FnP/gnuplot/mean_power_re_200.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -292,7 +304,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \put ... \hb@xt@ \z@ {\kern #1\unitlength #3\hss }
                                                   \ignorespaces 
-l.9 ..._1_pi_2/FnP/gnuplot/mean_power_re_200.eps}}
+l.9 ...gth]{../FnP/gnuplot/mean_power_re_200.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -300,9 +312,17 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.10 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 ! Undefined control sequence.
 <argument> \includegraphics 
-                            [width=0.5\unitlength ]{./chapter-pi_1_pi_2/FnP/...
+                            [width=0.5\unitlength ]{../FnP/gnuplot/velocity_...
 l.11 ...gnuplot/velocity_amp_collapsed_re200.eps}}
                                                   
 The control sequence at the end of the top line
@@ -344,17 +364,28 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no . in font nullfont!
 Missing character: There is no / in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
 Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -362,13 +393,6 @@ l.11 ...gnuplot/velocity_amp_collapsed_re200.eps}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-! Double subscript.
-<argument> ...dth=0.5\unitlength ]{./chapter-pi_1_
-                                                  pi_2/FnP/gnuplot/velocity_...
-l.11 ...gnuplot/velocity_amp_collapsed_re200.eps}}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Extra }, or forgotten $.
 <argument> ...ot/velocity_amp_collapsed_re200.eps}
@@ -394,7 +418,99 @@ deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
 <argument> \includegraphics 
-                            [width=0.5\unitlength ]{./chapter-pi_1_pi_2/FnP/...
+                            [width=0.5\unitlength ]{../FnP/gnuplot/mean_powe...
+l.12 .../gnuplot/mean_power_collapsed_re_200.eps}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.12 .../gnuplot/mean_power_collapsed_re_200.eps}}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.12 .../gnuplot/mean_power_collapsed_re_200.eps}}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.12 .../gnuplot/mean_power_collapsed_re_200.eps}}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...lot/mean_power_collapsed_re_200.eps}
+                                                  
+l.12 .../gnuplot/mean_power_collapsed_re_200.eps}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\put ... \hb@xt@ \z@ {\kern #1\unitlength #3\hss }
+                                                  \ignorespaces 
+l.12 .../gnuplot/mean_power_collapsed_re_200.eps}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> \includegraphics 
+                            [width=0.5\unitlength ]{../FnP/gnuplot/displacem...
 l.13 ...lot/displacement_amp_collpased_re200.eps}}
                                                   
 The control sequence at the end of the top line
@@ -436,17 +552,32 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no . in font nullfont!
 Missing character: There is no / in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no p in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -454,13 +585,6 @@ l.13 ...lot/displacement_amp_collpased_re200.eps}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-! Double subscript.
-<argument> ...dth=0.5\unitlength ]{./chapter-pi_1_
-                                                  pi_2/FnP/gnuplot/displacem...
-l.13 ...lot/displacement_amp_collpased_re200.eps}}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Extra }, or forgotten $.
 <argument> ...isplacement_amp_collpased_re200.eps}
@@ -487,7 +611,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.17 
+l.14 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -643,9 +767,9 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (220.85161pt too wide) detected at line 33
-$[][]\OML/cmm/m/it/10 i[]=FnP=gnuplot=velocity[]mp[]ollapsed[]e\OT1/cmr/m/n/10 
-200\OML/cmm/m/it/10 :eps[][]$
+Overfull \hbox (106.93704pt too wide) detected at line 33
+$[]\OML/cmm/m/it/10 ower[]ollapsed[]e[]\OT1/cmr/m/n/10 00\OML/cmm/m/it/10 :eps[
+][]$
  []
 
 ! Missing $ inserted.
@@ -682,9 +806,68 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (178.15442pt too wide) detected at line 33
-$[][]\OML/cmm/m/it/10 i[]=FnP=gnuplot=mean[]ower[]e[]\OT1/cmr/m/n/10 00\OML/cmm
-/m/it/10 :eps[]$
+Overfull \hbox (100.03429pt too wide) detected at line 33
+$[]\OML/cmm/m/it/10 mp[]ollapsed[]e\OT1/cmr/m/n/10 200\OML/cmm/m/it/10 :eps[]$
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.33   \end{picture}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.33   \end{picture}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.33   \end{picture}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.33   \end{picture}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.33   \end{picture}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (59.8864pt too wide) detected at line 33
+$[]\OML/cmm/m/it/10 mp[]e\OT1/cmr/m/n/10 200\OML/cmm/m/it/10 :eps[]$
  []
 
 ! Missing $ inserted.
@@ -721,48 +904,8 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (180.70372pt too wide) detected at line 33
-$[][]\OML/cmm/m/it/10 i[]=FnP=gnuplot=velocity[]mp[]e\OT1/cmr/m/n/10 200\OML/cm
-m/m/it/10 :eps[]$
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.33   \end{picture}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.33   \end{picture}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.33   \end{picture}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (492.1459pt too wide) detected at line 33
-$[][]\OML/cmm/m/it/10 i[]=FnP=gnuplot=displacement[]mp[]e\OT1/cmr/m/n/10 200\OM
-L/cmm/m/it/10 :eps[]$
+Overfull \hbox (346.63638pt too wide) detected at line 33
+$[]\OML/cmm/m/it/10 mp[]e\OT1/cmr/m/n/10 200\OML/cmm/m/it/10 :eps[]$
  []
 
 ! Missing } inserted.
@@ -1298,5 +1441,5 @@ Here is how much of TeX's memory you used:
  3576 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 20i,14n,15p,650b,112s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 20i,15n,15p,650b,119s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.

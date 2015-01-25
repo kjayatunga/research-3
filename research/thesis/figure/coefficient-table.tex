@@ -1,0 +1,23 @@
+\begin{table}[ht]
+
+\begin{center}
+\setlength{\unitlength}{\textwidth}
+
+\begin{tabular}{c c c c c} % centered columns (4 columns)
+\hline\hline %inserts double horizontal lines
+\\[0.2ex]
+Case & $a_1$ & $a_3$ & $a_5$ & $a_7$ \\ [0.8ex] % inserts table 
+%heading
+\hline 
+\\[0.8ex]% inserts single horizontal line
+$\reynoldsnumber = 200$ & 2.32 & 197.8 & 4301.7 & 30311.9 \\[0.8ex]% inserting body of the table
+$\reynoldsnumber = 22300$ & 2.69 & 168 & 1670 & 59900 \\ [1ex] % [1ex] adds vertical space
+\hline %inserts single line
+\end{tabular}
+
+\caption{Coefficient values used in the 7th order interpolation polynomial for high ($Re=22300$) and low ($Re=200$) Reynolds numbers. These data are used as input data to calculate the right-hand side of Eq. \ref{final_equation_motion} throughout this study.}
+ 
+\label{table:cy-coefficients} % is used to refer this table in the text
+\end{center}
+\end{table}
+
