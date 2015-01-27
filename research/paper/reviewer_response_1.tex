@@ -38,35 +38,28 @@ responses to the reviewer's comments, are outlined below. Any changes to the tex
 	groups proportional to $a_3$, $a_5$ and $a_7$. These are not even
 	mentioned in the text. I invite the authors to comment on this aspect.}
 
-In fact, it is mentioned in the manuscript (in the first paragraph on p12) that the geometry, represented by the coefficients $a_n$, plays a role. However, we have modified the text to make this more explicit.
+The reviewer is right, of course the geometry (represented by the $a_n$ coefficients) play a vital role. We had attempted to point this out in the manuscript (in the first paragraph on p12). However, we have modified the text to make this more explicit.
 
 \item \emph{It seems from Figs. 3(a)-(b) that $A/D$ scales better with \ustar than with \massdamp, at difference with $V/U$ (Please note that $V/D$ has been corrected to $V/U$) and $P_m/\rho \mathcal{A}U^3$. I invite the author to comment on this aspect. In particular, have they an explanation for this behavior?}
 
-We don't know why. It is possible it will scale with \massstiff \ and \massdamp. 
-At this stage we don't have a satisfactory explanation.  The timescale analysis shows that the system is a function of both \massstiff \ and \massdamp, so it is possible that the amplitude relies on both of these, not just \massdamp. Further investigation is required to completely understand this. 
+At this stage we don't have a satisfactory explanation, and can only speculate.  The timescale analysis shows that the system is a function of both \massstiff \ and \massdamp, so it is possible that the amplitude relies on both of these, not just \massdamp. Further investigation is required to completely understand this. However, it is clear that the power is essentially governed by \massdamp, and this is the main point of the manuscript as it is focused on energy transfer.
 
 \item \emph{ Half of page 19: I think that comparison between 8(c) and 5(a) (and not 5(b) as it is written now in the text) show that \massstiff has more influence on $P_m$ in the DNS than in the QSS model. Moreover, Fig. 5(b) shows a different qualitative behaviour of $P_m$ as \massstiff \ is varied, as commented in the manuscript. Please clarify this part of text.}
 
-We thank the reviewer for pointing this out the amendments could be seen highlighted under reviewer 1 in the manuscript.
-
-Here, we are comparing power data at high \massstiff \ region ($\massstiff> 10$). Comparing figure 5(a) and 5(b) it could be 
-observed from the QSS results, that  \massstiff \ influences the mean power as \massstiff \ decreases, where the mean power increases as \massstiff \ decreases. However, DNS results shows otherwise. The mean power increases as \massstiff \ increases. An amendment was added to clarify this. Kindly refer to page 20.     
+The reviewer is again correct, \massstiff\ has more influence in the DNS model, particularly as \massstiff\ reduces. Here, we are comparing power data at high \massstiff \ region ($\massstiff> 10$). Comparing figure 5(a) and 5(b) it could be 
+observed from the QSS results, that  \massstiff \ influences the mean power as \massstiff \ decreases, where the mean power increases as \massstiff \ decreases. However, DNS results shows otherwise. The mean power increases as \massstiff \ increases. We have attempted to rewrite the relevant sections to make these points clearer. Kindly refer to page 20.     
 
 \item \emph{ Fig.9: I wonder if scaling can even improve if Π1 is obtained using $f_v$
 instead of the frequency $f$ for the normalization, where for $f_v$ I indicate
 the natural frequency of the system when the effect of added-mass is taken into account. Thus,if I am correct,using $\Pi_{1b}= \massstiff \left(1+ \frac{\alpha}{\mstar}\right)$ , where $\alpha$ is proportional to the added-mass coefficient. This could be a way (I am really not sure it will work) to take into account added-mass effects in the non-dimensional groups. Anyway, since it is not clear if this suggestion will lead to anything, I suggest the authors to add a dedicated discussion or to at least to mention the role that added-mass can have on the system, especially at low values of \mstar.}
 
-If \massstiff \ \massdamp \ are expressed in dimensional parameters where $m_{f}$ is  the mass of the displaced fluid and $f_n$ is the natural frequency , 
+If \massstiff\ and \massdamp\ are expressed in terms of dimensional parameters where $m_{f}$ is  the mass of the displaced fluid and $f_n$ is the natural frequency, 
 
-
-
-\begin{equation*} 
-\begin{split}
+\begin{align*}
 \massdamp & = \cstar \mstar \\
- & = \frac{cD}{mU} \frac{m}{m_{f}}
-\end{split}
-\end{equation*}
-
+ & = \frac{cD}{mU} \frac{m}{m_{f}}\\
+&= \frac{cD}{m_{f}U}\\
+\end{align*}
 
 \begin{equation*} 
 \begin{split}
@@ -78,25 +71,18 @@ If \massstiff \ \massdamp \ are expressed in dimensional parameters where $m_{f}
 
 Therefore, 
 
-\begin{equation*}
-\begin{split}
-	 & = \frac{4 {\pi}^2 {\left(\frac{m}{m_f}\right)}^2}{{\left(\frac{U}{{f_n} D}\right)}^2} \\
-	 & = \frac{4 {\pi}^2 {\left(\frac{m}{m_f}\right)}^2}{{\frac{U^2}{{\frac{1}{4{\pi}^2}\frac{k}{m}} D^2}}} \\
-     & = \frac{4{\pi}^2 m^2 k D}{4 {\pi}^2 U^2 m \ m _f^2} \\
-     & = \frac{m k d}{U^2 {m_f}^2} 
-\end{split}
-\end{equation*}
+\begin{align*}
+	 \massstiff &= \frac{4 {\pi}^2 {\left(\frac{m}{m_f}\right)}^2}{{\left(\frac{U}{{f_n} D}\right)}^2} \\
+	 & = \frac{4 {\pi}^2 {\left(\frac{m}{m_f}\right)}^2}{{\frac{U^2}{{(1/4{\pi}^2)(k/m)} D^2}}} \\
+     & = \frac{4{\pi}^2 m^2 k D^2}{4 {\pi}^2 U^2 m \ m _f^2} \\
+     & = \frac{m k D^2}{U^2 {m_f}^2} .
+\end{align*}
 
-from the expressions of \massstiff \ and \massdamp \ in dimensional terms it is possible to see that \massdamp \ does not have an effect of added mass. \massstiff on the other hand, is dependent on the mass of the system. However, if the added mass is considered and the total mass is taken into account ($m+m_a$), we could see that the curve in figure 9 will only shift to the right and it does not provide a significant good agreement with the data. 
+From the expressions of \massstiff \ and \massdamp \ in dimensional terms it is possible to see that \massdamp \ is not affected by the added mass. Including an added mass will essentially increase the mass $m$ of the sytem; as $m$ does not appear in the definition of \massdamp, the added mass will have no effect. On the other hand \massstiff is dependent on the mass of the system. If the added mass is considered and the total mass is taken into account ($m+m_a$), the ``corrected'' value of \massstiff\ will be higher than the original value. This means that we could see that the curve in figure 9 will shift slightly to the right, which does not appear to provide a significantly better agreement with the data. 
  
 \item \emph{ I think that the discussion of Fig. 13 is too concise and not completely satisfactory and clear. I invite the authors to revise this part of the manuscript.}
 
-We thank the reviewer for the feedback. The flow visualization part was used in order to further clarify the argument that the influence of vortex shedding becomes more as \massstiff decreases. Amendments were added and can be found highlighted as reviewer 1. In essence we have tried to tie the observations from the flow visualisation back to the measurements hinting at the increased influence of vortex shedding shown in figure 12, and the discrepancy between the QSS and DNS models at low \massstiff shown in figure 10. We hope that this extension improves the clarity of the manuscript
-
-
-
-
-
+We thank the reviewer for the feedback. The flow visualization part was used in order to further clarify the argument that the influence of vortex shedding becomes more as \massstiff decreases. Amendments were added and can be found highlighted as reviewer 1. In essence we have tried to tie the observations from the flow visualisation back to the measurements hinting at the increased influence of vortex shedding shown in figure 12, and the discrepancy between the QSS and DNS models at low \massstiff shown in figure 10. We hope that this extension improves the clarity of the manuscript.
 
 \end{itemize}
 

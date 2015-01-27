@@ -31,51 +31,66 @@
 We begin by thanking the reviewer for taking the time and effort
 required to read and assess this manuscript. The changes we have made, along with explanations and
 responses to the reviewer's comments, are outlined below. Any changes to the text related to the reviewer's comments are highlighted in
-\textcolor{green}{green} Please note that typological errors pointed out were correct but was not highlighted.
+\textcolor{green}{green} Please note that typological errors pointed out were corrected but not highlighted.
 
 \begin{itemize}
 \item \emph{p.2	suppresses,	modern word, such as occurs in fluid-dynamic applications}
 
-change to ``suppress", ``word" changed to ``world" ```such as occurs in fluid-dynamic applications" phrase changed to ``which is the setup in some fluid-dynamic applications"
+We thank the reviewer for the thorough reading required to make such suggestions. We have made the following changes to address these errors:
+\begin{itemize}
+\item ``suppresses'' changed to ``suppress''
+\item ``word'' changed to ``world''
+\item ``such as occurs in fluid-dynamic applications'' phrase changed to ``which is the setup in some fluid-dynamic applications''
+\end{itemize}
 
 \item \emph{p.3	systm,	performa	t high,	…at	low	Re,	Reare}
 
-“systm” changed to system , “Reare” changed to “Re are tested”  
+\begin{itemize}
+\item ``systm'' changed to ``system''
+\item ``Reare'' changed to ``Re are tested''
+\end{itemize}
 
 \item \emph{p.5	eq.1,(m),interpolating polynomials}
 
-"(m)" changed to m, "polynomials" changed to polynomial
+\begin{itemize}
+\item ``(m)'' changed to ``m''
+\item ``polynomials'' changed to polynomial
+\end{itemize}
 
 \item \emph{p.6	ad hoc…In fact forcing is obtained from	averaged lift force	in Joly et al. ?, the the}
 
-Thank you for your comment. We agree that the forcing is obtained from averaged lift force in Joly et al. However, it is stated in Joly et al  page 239 quoted 
+The reviewer is right in stating that Joly et al deduce the magnitude of a forcing term from the averaged lift force from static cylinder simulations. However, it is stated in Joly et al  page 239 quoted (our emphasis)
 
-``The characteristic angular frequency $\omega_{s}94$ is obtained from fixed cylinder simulations that provided closure coefficients of the QS model. To fit with FSI simulations, we take $F_0=0.66$ for the characteristic force. Note that we measured a lower value for its fixed simulation counterpart ($F_0=0.3$). This may reveal a more complex interaction with vortex shedding, which we would not deal with in this paper."
+``The characteristic angular frequency $\omega_{s}94$ is obtained from fixed cylinder simulations that provided closure coefficients of the QS model. To fit with FSI simulations, we take $F_0=0.66$ for the characteristic force. Note that we \emph{measured a lower value for its fixed simulation counterpart ($F_0=0.3$)}. This may reveal a more complex interaction with vortex shedding, which we would not deal with in this paper."
 
-Therefore the value used as mean force $F_0= 0.66$ was arbitrary and not the optimum value and therefore can be considered as “ad hoc”.
+Therefore the value used as mean force $F_0= 0.66$ was chosen to provide the best match to the data, rather than from any theoretical consideration, and therefore can be considered as “ad hoc”.
 
-So, the value eventually used by Joly in the model is not that measured during fixed body simulations, but rather a value chosen to optimize the match between the data and the model. This value is therefore not derived in any systematic way, and as such is chosen “ad hoc”.
-
-“the the ” corrected to “the”
+\begin{itemize}
+\item ``the the'' corrected to ``the''
+\end{itemize}
 
 
 \item \emph{p.7	is	a	proportional}
 
-``is a proportional” changed to ``is proportional”
+\begin{itemize}
+\item ``is a proportional'' changed to ``is proportional''
+\end{itemize}
 
 \item \emph{p.10	Eq.	8	(m)}
 
-changed to ``m"
+\begin{itemize}
+\item changed to ``m''
+\end{itemize}
 
 \item \emph{p.12 a a}
 
- changed to ``a”
+\begin{itemize}
+\item changed to ``a''
+\end{itemize}
 
 
 \item \emph{why	unstable	branches	could	not	be	achieved	numerically	?	The	reviewer	thinks	
 	it	is	possible	depending	on	how	you	perturb/perform	computations	?}
-
-Technically it is possible to achieve the unstable branch using continuous methods. As this paper we used a time integration method this branch could not be achieved. Please refer the highlighted part under reviewer 3 in the manuscript for the amendments.
 
 The reviewer is correct, it is technically possible to achieve unstable states numerically. The classic realisation of this is solving for steady states of a system using algorithms such as a Newton-Raphson method coupled with a continuation method to “follow” an unstable branch. The continuation method is required as the control parameter (in this case $\Pi_{2}$) cannot simply be incremented, but must be increased or decreased depending on the direction of the branch.
 
@@ -84,16 +99,21 @@ The situation here is more complex, in that the solutions are not steady states,
 
 \item \emph{p.	20 Fig.	8	caption	simulations	at.	…}
 
- ``." Removed 
+\begin{itemize}
+\item ``.'' Removed 
+\end{itemize}
 
 \item \emph{p.22	$\Pi_{1}$ increases}
 
-space added between the two words
-
+\begin{itemize}
+\item space added between the two words
+\end{itemize}
 
 \item \emph{p.24	as	the	PI1	is…}
 
-removed ``the" 
+\begin{itemize}
+\item removed ``the''
+\end{itemize}
 
 
 \end{itemize}
