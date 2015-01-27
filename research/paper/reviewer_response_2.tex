@@ -1,0 +1,79 @@
+\documentclass[]{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xcolor}
+
+\newcommand{\Rey}{\ensuremath{Re}}
+\newcommand{\ord}[1]{\ensuremath{\mathcal{O}(#1)}}
+\newcommand{\degree}{\ensuremath{^{\circ}}}
+
+\makeatletter
+\newcommand{\rmnum}[1]{\romannumeral #1}
+\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
+
+\newcommand{\ustar}{\ensuremath{U^{*}}}
+\newcommand{\mstar}{\ensuremath{m^{*}}}
+\newcommand{\cstar}{\ensuremath{c^{*}}}
+\newcommand{\reynoldsnumber}{\ensuremath{Re}}
+\newcommand{\massstiff}{\ensuremath{\Pi_1}}
+\newcommand{\massdamp}{\ensuremath{\Pi_2}}
+
+\setlength{\textwidth}{180mm}
+\setlength{\oddsidemargin}{-10mm}
+
+\begin{document}
+
+\section*{Responses to comments from reviewer 2}
+
+We begin by thanking the reviewer for taking the time and effort
+required to read and assess this manuscript. The changes we have made, along with explanations and
+responses to the reviewer's comments, are outlined below. Any changes to the text related to the reviewer's comments are highlighted in
+\textcolor{red}{red}.
+
+\begin{itemize}
+	\item \emph{ A key question is about the role of the stiffness (\massstiff parameter). In the last section (Conclusion) one may read "The collapsed data using the dimensionless groups strengthens the argument that the velocity amplitude and the power transfer of the system does not depend on the natural frequency of the system". Results from Figure 5 seem to disagree. On the other hand, hydroelastic experiments with square prism from Bouclin and Parkinson carried out in the decade of 70  clearly show that for low m* there is a complex relationship between normalized amplitude and frequency of oscillations (and hence with energy transfer) with the reduced velocity. Basically, for low m* the quasi-steady model fails by a large amount because the added mass fluid force is significant and there is a large departure of the frequency of oscillation with respect to the natural frequency of oscillations. In addition, for the square section, for low m* the oscillations quite non-sinusoidal}
+	
+	We agree with reviewer. It could be seen that the statement ``velocity amplitude and the power transfer of the system does not depend on the natural frequency of the system " is valid over a large range of natural frequencies tested here. However, as the reviewer has clearly pointed out, this statement is not valid as \massstiff \ or \mstar decreases to a significant level as shown in figure 5. Therefore the conclusion section has been amended to address this part. Please kindly refer to the amendments done in the conclusion section highlighted under reviewer 3.     
+	
+	
+	\item \emph{It would be of interest to rewrite Eq. 13 with parameters \massstiff \ and \massdamp because if I am not wrong the resultant equation is dependent also on m* (as recognized in the abstract) as well as coefficients a1, a3, a5, a7. Please discuss with more detail the main results of the study in section 4 (Conclusion) because I have some doubts about the lack of doubt of some findings.}
+	
+	Equation 13 has been re-written in terms of \massstiff \ and \massdamp \ please refer to the amendment under reviewer 2 highlighted in the manuscript.
+
+To make the appearance of \massstiff and \massdamp \ explicit, we have included and new equation 14. This clearly shows the dimensionless groups that the reviewer correctly identifies – \massstiff, \massdamp, \mstar and the coefficients $a_n$.
+
+\item \emph{t seems from figure 3e and figure 4 that maximum efficiency (dimensionless mean power) is achieved at two times the velocity at which galloping starts. This is a result found by Barrero-Gil et a. (2010) and Vicente-Ludlam et al (Optimal electromagnetic energy extraction from transverse galloping, 2014) that should be pointed out.}
+
+\item \emph{Coefficients $a_3$  and $a_5$ in Table 2 has to be $<0$.}
+
+ We thank the reviewer for pointing this out. Equation 3 and 4 {+} signs were changed to {-} therefore all the coefficients of the lift polynomial are positive.
+ 
+\item \emph{Caption of Figure 3. I think that "dimensionless mean power" should be written instead of "mean power" as well as dimensionless (or normalized) amplitude. What means V/D?}
+
+“Mean power” changed to “ Dimensionless mean power” in figure captions and in the nomenclature. 
+
+We thank the reviewer for pointing out parameter $V/D$. It was corrected to $V/U$ which is the dimensionless velocity amplitude.
+
+
+\item \emph{The introduction of parameters \massstiff \ and \massdamp \ is of interest. To my knowledge they are introduced for the first time for the quasi-steady analysis of flow-induced oscillations of a square section. However this normalization takes into account the convective flow time (D/U) as a characteristic time. This was suggested previously by SHIELS, LEONARD \& ROSHKO (Flow-induced vibration of a circular cylinder at limiting
+	structural parameters, 2001) and  LEONARD \& ROSHKO (Aspects of Flow-induced vibrations, 2001) for Vortex-induced Vibrations of circular cylinders. Please comment.}
+
+We thank the reviewers for pointing this out. The work of LEONARD \& ROSHKO 2001 and SHIELS, LEONARD \& ROSHKO 2001 were referenced in the amendments. We also would like to note that the time scale we used  convective flow time scaled with the mass ratio which lead to non dimensionalise the quasi-steady equation.  
+
+
+
+\item \emph{ Please comment if quasi-steady conditions (U* very large) are fulfilled in the presented results (for all presented conditions).}
+
+The reduced velocity used is $\ustar \geq 40$. This has been added in section 2.3. 
+
+
+
+
+
+
+\end{itemize}
+
+\end{document}
