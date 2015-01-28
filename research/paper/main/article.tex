@@ -96,7 +96,7 @@ C_y(\theta)=a_1\left(\frac{\dot{y}}{U}\right)-a_3\left(\frac{\dot{y}}{U}\right)^
 %\ddot{y}+c^*\dot{y}+k^*y=\frac{1}{2}\rho U^2A
 %\end{equation}
 
- It is expected that vortex shedding will be well correlated along the span and provide significant forcing at low \reynoldsnumber. \citet{Joly2012} introduced  an additional sinusoidal forcing function to the fluid-dynamic forcing to model this. This enables the model to provide accurate predictions even at low mass ratios where galloping excitation is suppressed or not present. However, the strength of this additional forcing needs to be tuned in an \emph{ad hoc} manner, and it is not clear how this forcing should vary with the other system parameters. Therefore, a focus of this study is to identify the parameter space where unmodified QSS model predicts power transfer accurately, and to quantify the error in the regions where it does not predict accurately. Therefore the additional sinusoidal forcing function is disregarded. Substituting the definition of the lift coefficient provided in equation (\ref{cy ploynomial}) into the equation of motion of equation (\ref{lift equation}) gives 
+ It is expected that vortex shedding will be well correlated along the span and provide significant forcing at low \reynoldsnumber. \citet{Joly2012} introduced  an additional sinusoidal forcing function to the fluid-dynamic forcing to model this. This enables the model to provide accurate predictions even at low mass ratios where galloping excitation is suppressed or not present. However, the strength of this additional forcing needs to be tuned in an \emph{ad hoc} manner, and it is not clear how this forcing should vary with the other system parameters. Therefore, a focus of this study is to identify the parameter space where the unmodified QSS model predicts power transfer accurately, and to quantify the error in the regions where it does not predict accurately. Therefore the additional sinusoidal forcing function is disregarded. Substituting the definition of the lift coefficient provided in equation (\ref{cy ploynomial}) into the equation of motion of equation (\ref{lift equation}) gives 
  
 \begin{equation}
 \label{final_equation_motion}
@@ -184,7 +184,7 @@ Further, if it is assumed that the mechanical damping is significantly weaker th
  
  Written this way, the important parameters that dictate this inverse time scale are clear. The rate of change in the fluid-dynamic force with respect to angle of attack when the body is at the equilibrium position, $\partial C_y/\partial \alpha$, is represented by $a_1$. The mass ratio is represented by $m^*$. The inverse advective time scale of the incoming flow is represented by the ratio $U/D$. Increasing $a_1$ would mean the force on the body would increase more rapidly with small changes in the angle of attack, $\theta$, or transverse velocity. Equation \ref{eqn:timescale} shows that such a change will increase the inverse time scale, or analogously decrease the response time of the body. Increasing the mass of the body, thereby increasing $m^*$, has the opposite effect. The inverse time scale is decreased, or as might be expected, a heavier body will respond more slowly.
  
-This timescale can then be used to non-dimensionalize the equation of motion, and to find the relevant dimensionless groups of the problem.\rwtwo{It was suggested by \citet{shiels2001,leonard2001} to use $D/U$ as a characteristic time for flow-induced vibration problem. Here, this advective time is scaled by the mass ratio \mstar and hence, if the non-dimensional time, $\tau$, is defined such that $\tau=t(a_1/m^*)(U/D)$, the equation of motion presented in equation \ref{final_equation_motion} can be non-dimensionalized as}
+This timescale can then be used to non-dimensionalize the equation of motion, and to find the relevant dimensionless groups of the problem.\rwtwo{It was suggested by \citet{shiels2001,leonard2001} to use $D/U$ as a characteristic time for flow-induced vibration problems. Here, this advective time is scaled by the mass ratio \mstar and hence, if the non-dimensional time, $\tau$, is defined such that $\tau=t(a_1/m^*)(U/D)$, the equation of motion presented in equation \ref{final_equation_motion} can be non-dimensionalized as}
  \begin{equation}
    \label{eqn:eom_nondim}
    \ddot{Y} + \frac{m^{*2}}{a_1^2}\frac{kD^2}{mU^2}Y = \left(\frac{1}{2} - \frac{m^*}{a_1}\frac{cD}{mU}\right)\dot{Y} - \frac{a_1a_3}{m^{*2}}\dot{Y}^3 + \frac{a_1^3a_5}{m^{*4}}\dot{Y}^5 - \frac{a_1^5a_7}{m^{*6}}\dot{Y}^7.
@@ -197,15 +197,15 @@ The coefficients can be regrouped into combinations of non-dimensional groups, a
  \end{equation}
 where $U^{*}$ is the reduced velocity typically used as an independent variable in vortex-induced vibration studies and $c^*=cD/mU$ is a non-dimensional damping parameter.
  
-Equation \ref{eqn:eom_nondim_regroup} shows there are five non-dimensional parameters that play a role in setting the response of the system. These are the stiffness (represented by the reduced velocity $U^*$), the damping $c^*$, the mass ratio $m^*$, and the geometry and \reynoldsnumber, represented by the coefficients of the polynomial fit to the $C_y$ curve, $a_n$. The grouping of these parameters into two groups in equation \ref{eqn:eom_nondim_regroup} which arise by non-dimensionalising using the natural time scale of the galloping system, suggests there are two groups \rwone{besides geometry (reprensted by $a_n$) and the \reynoldsnumber } that dictate the response: $\Gamma_1 = 4\pi^2m^{*2}/U^{*2}a_1^2$ and $\Gamma_2 = c^*m^*/a_1$. For a given geometry and Reynolds number, $\Gamma_1$ can be thought of as a combined mass-stiffness, whereas $\Gamma_2$ can be thought of a combined mass-damping parameter. As it is assumed that during galloping the stiffness plays only a minor role, $\Gamma_2$ seems a likely parameter to collapse the data. In fact, in the classic paper on galloping from \cite{Parkinson1964}, galloping data from wind tunnel tests is presented in terms of a parameter that can be shown to be the same as $\Gamma_2$.
+Equation \ref{eqn:eom_nondim_regroup} shows there are five non-dimensional parameters that play a role in setting the response of the system. These are the stiffness (represented by the reduced velocity $U^*$), the damping $c^*$, the mass ratio $m^*$, and the geometry and \reynoldsnumber, represented by the coefficients of the polynomial fit to the $C_y$ curve, $a_n$. The grouping of these parameters into two groups in equation \ref{eqn:eom_nondim_regroup} which arise by non-dimensionalising using the natural time scale of the galloping system, suggests there are two groups \rwone{besides geometry (reprensted by $a_n$) and \reynoldsnumber} that dictate the response: $\Gamma_1 = 4\pi^2m^{*2}/U^{*2}a_1^2$ and $\Gamma_2 = c^*m^*/a_1$. For a given geometry and Reynolds number, $\Gamma_1$ can be thought of as a combined mass-stiffness, whereas $\Gamma_2$ can be thought of a combined mass-damping parameter. As it is assumed that during galloping the stiffness plays only a minor role, $\Gamma_2$ seems a likely parameter to collapse the data. In fact, in the classic paper on galloping from \cite{Parkinson1964}, galloping data from wind tunnel tests is presented in terms of a parameter that can be shown to be the same as $\Gamma_2$.
  
  All of the quantities that make up $\Gamma_1$ and $\Gamma_2$ can, in theory, be known before an experiment is conducted. However, the quantity $a_1$ is a relatively difficult one to determine, requiring static body experiments or simulations. Here, the geometry is unchanged and results are only being compared at the same \reynoldsnumber. Hence, suitable parameters can be formed by multiplying $\Gamma_1$ and $\Gamma_2$ by $a_1^2$ and $a_1$ respectively, to arrive at a mass-stiffness parameter $\massstiff =  4\pi^2m^{*2}/U^{*2}$, and a mass-damping parameter defined as $\massdamp = c^*m^*$.
  
- \rwtwo{Equation \ref{eqn:eom_nondim_regroup} can be re written in terms of \massstiff \ and \massdamp.}
+ \rwtwo{Equation \ref{eqn:eom_nondim_regroup} can be re-written explicitly in terms of \massstiff \ and \massdamp to give}
  
   \begin{equation}
   \label{eqn:eom_nondim_regroup_pi_1_pi_2}
-  \ddot{Y} + \massstiff Y = \massdamp \dot{Y} - \frac{a_1a_3}{m^{*2}}\dot{Y}^3 + \frac{a_1^3a_5}{m^{*4}}\dot{Y}^5 - \frac{a_1^5a_7}{m^{*6}}\dot{Y}^7,
+  \ddot{Y} + \massstiff Y = \massdamp \dot{Y} - \frac{a_1a_3}{m^{*2}}\dot{Y}^3 + \frac{a_1^3a_5}{m^{*4}}\dot{Y}^5 - \frac{a_1^5a_7}{m^{*6}}\dot{Y}^7.
   \end{equation} 
   
 
@@ -217,7 +217,7 @@ Equation \ref{eqn:eom_nondim_regroup} shows there are five non-dimensional param
 
 Another fluid-structure interaction phenomenon, vortex-induced vibration (VIV), has also been investigated as a candidate for the power extraction from flows. The work from \citet{Bernitsas2008a-concept, Bernitsas2009, Raghavan2010a, Lee2011b} and others from the same group at the University of Michigan have made significant progress with this problem. Therefore it may seem, at least initially, reasonable to present data from the fluid-elastic problem in the same parameters as typically used in VIV studies.
   
-Figure \ref{fig:compare_data} shows the comparison of mean power data at $\reynoldsnumber=200$ presented using different independent variables. Subfigures (a), (c) and (e) show the displacement amplitude, velocity amplitude and the mean power as a function of the classic VIV parameter, \ustar \ for various damping ratios $\zeta$. Subfigures (b), (d) and (f) shows the same data as a function of \massdamp, for various, reasonably high values of \massstiff, as defined above in section \ref{sec:newvar}. The data presented using the classical VIV parameters follows the same trends as \cite{Barrero-Gil2010a}. \rwtwo{Another observation which can be seen in \citet{Barrero-Gil2010a, vicente-Ludlam2014} and here, is that the maximum dimensionless power is achieved at two times the velocity which the galloping starts.} However, the data presented using the dimensionless group formulated using the natural time scales of the system shows an excellent collapse for both velocity amplitude and mean power, showing that the power is essentially dictated by \massdamp. This implies that unlike VIV which is a type of resonant phenomenon, the natural frequency of the system which is used to scale \ustar, $\zeta$ and \massstiff\ does not have a large influence on the system behaviour in these cases.
+Figure \ref{fig:compare_data} shows the comparison of mean power data at $\reynoldsnumber=200$ presented using different independent variables. Subfigures (a), (c) and (e) show the displacement amplitude, velocity amplitude and the mean power as a function of the classic VIV parameter, \ustar \ for various damping ratios $\zeta$. Subfigures (b), (d) and (f) shows the same data as a function of \massdamp, for various, reasonably high values of \massstiff, as defined above in section \ref{sec:newvar}. The data presented using the classical VIV parameters follows the same trends as \cite{Barrero-Gil2010a}. \rwtwo{\citet{Barrero-Gil2010a} and \citet{vicente-Ludlam2014} observed that the maximum dimensionless power is achieved at two times the velocity at which the galloping starts. A similar conclusion can be drawn from the data presented here in figures \ref{fig:compare_data}.} However, the data presented using the dimensionless group formulated using the natural time scales of the system shows an excellent collapse for both velocity amplitude and mean power, showing that the power is essentially dictated by \massdamp. This implies that unlike VIV which is a type of resonant phenomenon, the natural frequency of the system which is used to scale \ustar, $\zeta$ and \massstiff\ does not have a large influence on the system behaviour in these cases.
 
 \input{../figure/compare_data}
     
@@ -227,13 +227,12 @@ The marked success of the collapse using \massdamp\ for the $\reynoldsnumber = 2
 
 \input{../figure/collapsed_data}
          
-Hysteresis could be observed for the $\reynoldsnumber = 22300$ case. The different solutions could be obtained by manipulating the initial conditions (initial displacement) of the system. The upper branch was obtained by giving an initial displacement which was higher than the expected amplitude while the lower branch was obtained by providing a lower initial displacement than the expected amplitude. Although theory shows a possible third state, it is an unstable branch. \rwthr{This branch could be achieved using continious numerical method. However, in this study a time integration method was used and therefore this unstable state could not be achieved.} This was also observed by \cite{Vio2007}. 
-
+Hysteresis could be observed for the $\reynoldsnumber = 22300$ case. The different solutions could be obtained by manipulating the initial conditions (initial displacement) of the system. The upper branch was obtained by giving an initial displacement which was higher than the expected amplitude while the lower branch was obtained by providing a lower initial displacement than the expected amplitude. Although theory shows a possible third state, it is an unstable branch \rwthr{which could not be achieved with a time integration method such as that employed in this study.} This was also observed by \cite{Vio2007}. 
 
 \subsection{Dependence on mass-stiffness, \massstiff}
 \label{sec:massstiff}
 
-The results of sections \ref{sec:new_vs_viv} and \ref{sec:low_vs_high_re} show that the mean extracted power is essentially a function of a single variable, the combined mass-damping \massdamp. However, the timescale analysis of section \ref{sec:newvar} showed that a second variable, the combined mass-stiffness \massstiff\ should also play a role. Here, the impact of this variable is investigated further. Overall, the system behaviour can be separated into two wide regimes; that for ``high'' \massstiff\ and that for ``low'' \massstiff. These two regimes are further investigated and explained in this following section.
+The results of sections \ref{sec:new_vs_viv} and \ref{sec:low_vs_high_re} show that the mean extracted power is essentially a function of a single variable, the combined mass-damping \massdamp. However, the timescale analysis of section \ref{sec:newvar} showed that a second variable, the combined mass-stiffness \massstiff\ should also play a role. \rwtwo{Previous studies (see, for example \citet{bouclin:77}) have also indicated a complex interaction between the amplitude and natural frequency, particularly for high natural frequencies (or equivalently, low values of \massstiff).} Here, the impact of \massstiff\ is investigated further. Overall, the system behaviour can be separated into two wide regimes; that for ``high'' \massstiff\ and that for ``low'' \massstiff. These two regimes are further investigated and explained in this following section.
 
 Figure \ref{fig:high_pi_1} shows the mean power as a function of \massdamp\ for a range of values of \massstiff. Two subfigures are shown; subfigure (a) shows data for $\massstiff \geq 10$, while (b) shows data for $\massstiff \leq 10$. In figure \ref{fig:high_pi_1}(a), the collapse of the mean power is excellent, showing that for $\massstiff \geq 10$, the mean power is independent of \massstiff.
 
@@ -273,7 +272,7 @@ The QSS model assumes that the only force driving the system is the instantaneou
 
 \citet{Joly2012} showed that the displacement data obtained using the QSS assumption and DNS agree well at low Reynolds numbers, with the modification implemented to the oscillator equation which accounts for the vortex shedding. These data were obtained at zero damping levels. However, the current study is focused on the behaviour and the power transfer of the system. Therefore analysing the behaviour of the system with increasing damping is of interest.
 
-The comparison between QSS and the DNS results is presented in figure \ref{fig:qss_fsi}. The maximum displacement, velocity and mean extracted power are presented as a function of \massdamp. A range of values of \massstiff\ are compared to the QSS model data for $\massstiff = 10$. Figures \ref{fig:qss_fsi}(a) and \ref{fig:qss_fsi}(b) show little variation with \massstiff, and the comparison between the QSS model and the DNS simulations is quite good. However, the mean extracted power shown in figure \ref{fig:qss_fsi}(c) reveals that the mean power is influenced by both \massstiff\ and \massdamp. This is particularly clear for low values of \massstiff, where the discrepancy between the QSS model predictions of power and the DNS simulations is the largest. \rwone{Comparing figure \ref{fig:qss_fsi}(c) with figure \ref{fig:high_pi_1}(a) shows that \massstiff has much more influence on the power extracted than predicted by the QSS model for high \massstiff \ values. In fact, the QSS model predicts that the mean extracted power should increase with decreasing \massstiff  when \massstiff moves to the low \massstiff \ region (figure \ref{fig:high_pi_1}(b)) , whereas the DNS simulations show that the mean extracted power decreases with decreasing \massstiff.}
+The comparison between QSS and the DNS results is presented in figure \ref{fig:qss_fsi}. The maximum displacement, velocity and mean extracted power are presented as a function of \massdamp. A range of values of \massstiff\ are compared to the QSS model data for $\massstiff = 10$. Figures \ref{fig:qss_fsi}(a) and \ref{fig:qss_fsi}(b) show little variation with \massstiff, and the comparison between the QSS model and the DNS simulations is quite good. However, the mean extracted power shown in figure \ref{fig:qss_fsi}(c) reveals that the mean power is influenced by both \massstiff\ and \massdamp. This is particularly clear for low values of \massstiff, where the discrepancy between the QSS model predictions of power and the DNS simulations is the largest. \rwone{Comparing figure \ref{fig:qss_fsi}(c) with figure \ref{fig:high_pi_1}(a) shows that \massstiff\ has much more influence on the power extracted than predicted by the QSS model for low \massstiff \ values. In fact, the QSS model predicts that the mean extracted power should increase with decreasing \massstiff\ when \massstiff\ moves to the low \massstiff\ region (figure \ref{fig:high_pi_1}(b)), whereas the DNS simulations show that the mean extracted power decreases with decreasing \massstiff.}
 
 \input{../figure/qss_fsi}
 
@@ -312,49 +311,12 @@ The difference between the power predicted by the QSS and DNS models scales with
 
 \input{../figure/flow_vis}
 
-Further information can be gained by observing the flow field. Flow field data at values of \massdamp\ close to where maximum power is produced at different \massstiff\ are presented in figure \ref{fig:flow_vis}. The figure shows a clear wavelength of the wake as \massstiff \ is increased. Qualitatively, this can be interpreted as showing that at high \massstiff, the vortex shedding is simply superimposed over the path of motion of the cylinder. It shows a decrease in amplitude at low \massstiff, which may be due to the higher levels of non-linear interaction between the vortex shedding and galloping.\rwone{ Such an argument is conistant with data of figure \ref{fig:spec_pow} which shows the significance of vortex shedding as \massstiff decreases. Taken together, this also goes some way to explaining the discrepancy between the output power predicted by the QSS and DNS models at low \massstiff, highlighted in figure \ref{fig:error}.}
+Further information can be gained by observing the flow field. Flow field data at values of \massdamp\ close to where maximum power is produced at different \massstiff\ are presented in figure \ref{fig:flow_vis}. The figure shows a clear wavelength of the wake as \massstiff \ is increased. Qualitatively, this can be interpreted as showing that at high \massstiff, the vortex shedding is simply superimposed over the path of motion of the cylinder. It shows a decrease in amplitude at low \massstiff, which may be due to the higher levels of non-linear interaction between the vortex shedding and galloping.\rwone{ Such an argument is conistant with the data of figure \ref{fig:spec_pow} that show the increasing significance of vortex shedding as \massstiff\ decreases. Taken together, this also goes some way to explaining the discrepancy between the output power predicted by the QSS and DNS models at low \massstiff, highlighted in figure \ref{fig:error}.}
  
 \section{Conclusions}
 \label{sec:conc}
 In this paper the power transfer of a square body under fluid-elastic galloping is analysed by solving the quasi-steady state oscillator model equation using numerical  integration. The QSS model provides equations where dimensionless groups could be formulated using the relevant time scales. A good collapse for predicted output of power could be obtained using these dimensionless groups in comparison with the classical VIV parameters i.e. $\zeta$ and \ustar. The collapsed data using the dimensionless groups strengthens the argument that the velocity amplitude and the power transfer of the system does not depend on the natural frequency of the system \rwtwo{over a large range of natural frequencies}.
 
-\rwtwo{Even though \mstar is an independent parameter as shown in equation \ref{eqn:eom_nondim_regroup_pi_1_pi_2}, Our results show that the system is essentially a function of \massstiff and \massdamp only.  This seems to be explained by inspection of  equation \ref{eqn:eom_nondim_regroup_pi_1_pi_2}, which shows that \mstar only has an impact on the forcing terms which are non-linear in relation to the body velocity. For these terms to be appreciable, the velocity of the body (and therefore the induced angle of attack) needs to be very high, which appears not to be the case for the range of parameters tested here.} 
+\rwtwo{Even though \mstar is an independent parameter as shown in equation \ref{eqn:eom_nondim_regroup_pi_1_pi_2}, our results show that the system is essentially a function of \massstiff\ and \massdamp\ only.  This seems to be explained by inspection of  equation \ref{eqn:eom_nondim_regroup_pi_1_pi_2}, which shows that \mstar only has an impact on the forcing terms which are non-linear in relation to the body velocity. For these terms to be appreciable, the velocity of the body (and therefore the induced angle of attack) needs to be very high, which appears not to be the case for the range of parameters tested here.} 
   
-In comparison with the direct numerical simulation data, it could be concluded that the QSS model provides a good estimate of the power output of the system when \massstiff\ is relatively high. However at low values of \massstiff, the prediction is not close due to the fact that the QSS model does not account for the impact of vortex shedding which is shown to increase in influence as \massstiff\ is decreased. However, the QSS model does provide a reasonable prediction of the value of \massdamp\ at which maximum power is produced. Both the error in predicted maximum power between the QSS and the DNS models, and the relative power of the vortex shedding, scale similarly to $1/\sqrt{\massstiff}$.
-
-
-  
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
-
-
-
-
-
-
+In comparison with the direct numerical simulation data, it could be concluded that the QSS model provides a good estimate of the power output of the system when \massstiff\ is relatively high. However at low values of \massstiff, the prediction is not close due to the fact that the QSS model does not account for the impact of vortex shedding which is shown to increase in influence as \massstiff\ is decreased. However, the QSS model does provide a reasonable prediction of the value of \massdamp\ at which maximum power is produced. Both the error in predicted maximum power between the QSS and the DNS models, and the relative power of the vortex shedding, \rwtwo {have been quantified} and scale similarly to $1/\sqrt{\massstiff}$.
