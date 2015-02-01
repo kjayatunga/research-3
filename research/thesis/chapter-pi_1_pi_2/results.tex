@@ -76,14 +76,26 @@ All of the quantities that formulate $\Gamma_1$ and $\Gamma_2$ except $a_1$ in t
   
 From equation \ref{eqn:eom_nondim_regroup_pi_1_pi_2}, it is clear that the governing parameters of the non dimensionlised equation are \massstiff \ \massdamp and \mstar. However, form closer inspection it is possible to see that \mstar has an impact on the non-linear terms of the forcing function. The velocity pf the and hence the induced angle of attack needs to be very high in order for the non-linear terms to be applicable. 
 
-\section{Quasi-stedady state results}
+\section{Quasi-stedady state results} 
 
-\subsection{Comparison of classical VIV parameters with \massstiff \ and \massdamp.}
+\subsection{Classical VIV parameters vs. \massstiff \ and \massdamp.}
 
 
-Vortex-induced vibrations being another form fluid-structure interaction which occurs in a slender structure, has been investigated as candidate for power extraction from external flows. Significant progress regarding the problem have been made by \cite{Bernitsas2008a-concept,Bernitsas2009,Raghavan2010a,Lee2011b} and other colleagues in VIVCACE group in the University of Michigan. Hence, it may seem that it is reasonable to present data in a fluid-elastic problem using the same parameters in a VIV problem.
+Vortex-induced vibrations being another form fluid-structure interaction which occurs in a slender structure, has been investigated as candidate for power extraction from external flows. Significant progress on this problem have been made by \cite{Bernitsas2008a-concept,Bernitsas2009,Raghavan2010a,Lee2011b} and other colleagues in VIVCACE group in the University of Michigan. Hence, it may seem that it is reasonable to present the data in a fluid-elastic problem using the same parameters in a VIV problem.
 
 \input{./chapter-pi_1_pi_2/figure/compare_data}
+
+QSS data presented in figure \ref{fig:compare_data} at $\reynoldsnumber=200$, shows a comparison between classical VIV and the newly formulated parameters presented as independent variables. The displacement amplitude, velocity amplitude and the mean power is presented in sub-figures (a), (c) and (e), as functions of the classical VIV parameter \ustar for different $\zeta$. The same data as functions of \massdamp, are presented in sub-figures (b), (d) and (f), for various, reasonably high values of \massstiff \KJ{put the parameters used section}. Sub-figure (e) shows a similar trend to \cite{Barrero-Gil2010a}. The Value of the peak power remains constant. However, the power curve shifts to the right as $\zeta$ is increased. Here, in figure \ref{fig:compare_data} the maximum dimensionless power is achieved at two times the velocity at which the galloping starts, which is similar to the observations made by \citet{Barrero-Gil2010a,vicente-Ludlam2014}. An excellent collapse for velocity amplitude and mean power could be observed on the data, presented using the dimensionless group \massdamp, formulated using the natural time scales of the system. This implies that essentially velocity amplitude and the mean power is dictated by \massdamp which furthermore, implies that the natural frequency of the system which is used to scale \ustar, $\zeta$ and \massstiff does not have a significant influence on the behaviour of the system, unlike VIV, which is a resonant phenomenon.  
+ 
+
+\subsection{High and low \reynoldsnumber \ data}
+
+\input{./chapter-pi_1_pi_2/figure/collapsed_data}
+
+The successful collapse of data, mean power in particular using \massdamp for low Reynolds number ($\reynoldsnumber=200$), could be replicated at high Reynolds numbers. An example case is presented in figure \ref{fig:compare_data} at $\reynoldsnumber=22300$ for selected vales of \massstiff. The successful collapse of mean power data at high Reynolds numbers shows that suitability of using \massdamp \ as an independent variable across a large range of Reynolds numbers. 
+
+Hysteresis is evident in the high Reynolds number case ($\reynoldsnumber=22300$). Manipulating the initial condition (initial displacement) lead to obtaining different solutions for the same \massdamp \ value. The upper and lower branch were obtained by giving an initial displacement which was higher than the expected amplitude and providing a lower initial displacement respectively. Even though in theory, there is a possibility of a third state, this unstable branch could not be achieved with a time integration method (also observed by \citep{Vio2007}) such as the one employed in this study.    
+
 
 
 
