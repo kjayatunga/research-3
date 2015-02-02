@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{8}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -44,5 +44,11 @@ Raghavan, K., Bernitsas, M., Apr. 2011. {Experimental investigation of Reynolds
 Vicente-Ludlam, D., Barrero-Gil, A., Velazquez, A., 2014. Optimal
   electromagnetic energy extraction from transverse galloping. Journal of
   Fluids and Structures 51, 281--291.
+
+\bibitem[{Vio et~al.(2007)Vio, Dimitriadis, and Cooper}]{Vio2007}
+Vio, G., Dimitriadis, G., Cooper, J., Oct. 2007. {Bifurcation analysis and
+  limit cycle oscillation amplitude prediction methods applied to the
+  aeroelastic galloping problem}. Journal of Fluids and Structures 23~(7),
+  983--1011.
 
 \end{thebibliography}
