@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{9}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -23,6 +23,10 @@ Bernitsas, M.~M., Raghavan, K., Ben-Simon, Y., Garcia, E. M.~H., 2008. {VIVACE
   (Vortex Induced Vibration Aquatic Clean Energy): A new concept in generation
   of clean and renewable energy from fluid flow}. Journal of Offshore Mechanics
   and Arctic Engineering 130~(4), 041101--15.
+
+\bibitem[{Bouclin(1977)}]{bouclin:77}
+Bouclin, D.~N., 1977. Hydroelastic oscillations of square cylinders. Master's
+  thesis, University of British Columbia.
 
 \bibitem[{Lee and Bernitsas(2011)}]{Lee2011b}
 Lee, J., Bernitsas, M., Nov. 2011. {High-damping, high-Reynolds VIV tests for

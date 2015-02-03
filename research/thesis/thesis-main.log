@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.1.24)  2 FEB 2015 23:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.1.24)  3 FEB 2015 18:57
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -659,7 +659,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-Overfull \hbox (7.24092pt too wide) in paragraph at lines 59--60
+Overfull \hbox (7.24092pt too wide) in paragraph at lines 60--61
 [][]\OT1/cmr/m/n/10.95 The equa-tion could be fur-ther al-tered by re-group-ing
  the co-ef-fi-cients into non-dimenasional
  []
@@ -711,25 +711,23 @@ pe eps)
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps Graphic file 
 (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps>)) [7] [8]
-[9
-
-] [10
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps>) [7] [8])
+[9] [10
 
 
-] (./thesis-main.bbl) [11
+] (./thesis-main.bbl [11
 
 
-] (./thesis-main.aux (./originality.aux)
+]) [12] (./thesis-main.aux (./originality.aux)
 (./abstract.aux) (./acknowledgements.aux) (./publications.aux)
 (./thesis-nomenclature.aux)) ) 
 Here is how much of TeX's memory you used:
- 11657 strings out of 495029
- 209345 string characters out of 6181523
- 259586 words of memory out of 5000000
- 14535 multiletter control sequences out of 15000+600000
+ 11662 strings out of 495029
+ 209451 string characters out of 6181523
+ 259634 words of memory out of 5000000
+ 14540 multiletter control sequences out of 15000+600000
  16491 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,12n,55p,1565b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (25 pages, 38372 bytes).
+Output written on thesis-main.dvi (26 pages, 40896 bytes).

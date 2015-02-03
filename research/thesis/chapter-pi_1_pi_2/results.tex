@@ -11,6 +11,7 @@ Following this, a comparison of the QSS data with Direct Numerical Simulations (
 
 
 \section{Formulation of the non-dimensionalised parameters \massstiff \ and \massdamp }
+\label{sec: pi_1,pi_2_formulation}
 
 The natural time scales of the system could be obtained by linearising the quasi-steady equation of motion. (Eq:\KJ{equation of motion}) and finding the eigenvalues. The non-linear terms of the forcing function are truncated and the equation of motion could be expressed as, 
 
@@ -76,7 +77,7 @@ All of the quantities that formulate $\Gamma_1$ and $\Gamma_2$ except $a_1$ in t
   
 From equation \ref{eqn:eom_nondim_regroup_pi_1_pi_2}, it is clear that the governing parameters of the non dimensionlised equation are \massstiff \ \massdamp and \mstar. However, form closer inspection it is possible to see that \mstar has an impact on the non-linear terms of the forcing function. The velocity pf the and hence the induced angle of attack needs to be very high in order for the non-linear terms to be applicable. 
 
-\section{Quasi-stedady state results}
+\section{Quasi-steady state results}
 \label{sec:qss_results} 
 
 \subsection{Classical VIV parameters vs. \massstiff \ and \massdamp.}
@@ -100,10 +101,21 @@ The successful collapse of data, mean power in particular using \massdamp for lo
 Hysteresis is evident in the high Reynolds number case ($\reynoldsnumber=22300$). Manipulating the initial condition (initial displacement) lead to obtaining different solutions for the same \massdamp \ value. The upper and lower branch were obtained by giving an initial displacement which was higher than the expected amplitude and providing a lower initial displacement respectively. Even though in theory, there is a possibility of a third state, this unstable branch could not be achieved with a time integration method (also observed by \citep{Vio2007}) such as the one employed in this study.
 
 \subsection{Dependence on mass-stiffness, \massstiff}
+\label{subsec:dependence pi_1}
+
 \input{./chapter-pi_1_pi_2/figure/high_pi_1}
 
+From the results of sections \ref{subsec:compare_data} and \ref{subsec:high_Re_data} shows essentially a single variable governs the mean extracted power, which is the combined mass-damping parameter, \massdamp. The time scale analysis carried out in  section \ref{sec: pi_1,pi_2_formulation} shows that not only \massdamp \ but also \massstiff influences the system. Previous studies such as \cite{bouclin:77} have also reported a complex interaction between the displacement amplitude and the natural frequency, for high natural frequencies in particular; or in this instance equivalent to low values of \massstiff.  This section investigates the impact of \massstiff further. The overall behavior of the system is divided into two regimes, one for ``high" \massstiff \ and the other for ``low" \massstiff and analysed.
+
+The mean power as a function of \massdamp \ for a range of values of \massstiff is presented in figure \ref{fig:high_pi_1}. In the two subfigures presented, (a) shows the data for $\massstiff \geq 10$, while (b) shows data for $\massstiff \leq 10$.  The excellent collapse in figure \ref{fig:high_pi_1}(a) shows that for $\massstiff \geq 10$, the mean power is independent of \massstiff.
+
+In contrast figure \ref{fig:high_pi_1}(b) shows that for low values of $\massstiff \leq 10$, the predicted mean power increases as \massdamp \ decreases. This indicates that at this region ($\massstiff < 10$), the mean power is a weak function of \massstiff; hence, providing a distinction between high and low regimes of \massstiff. The mean extracted power is only a function of \massdamp \ where $\massstiff \geq 10$ or for high \massstiff. For low values, $\massstiff < 10$, the mean power becomes a strong function of \massdamp \ and a weak function of \massstiff.
+
+It is clear that regardless of the value of \massstiff 
 
 
+
+ 
 
 
 
