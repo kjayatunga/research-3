@@ -12,7 +12,9 @@
 \usepackage {longtable} 
 \usepackage{tabularx}
 \usepackage{natbib}
-
+\usepackage{booktabs}
+\usepackage{pdfpages}
+\usepackage{epstopdf}
 
 \newcommand{\Rey}{\ensuremath{Re}}
 \newcommand{\ord}[1]{\ensuremath{\mathcal{O}(#1)}}
@@ -99,19 +101,21 @@ The following conclusions were made in phase 1
 
 \subsection{Phase:2}
  
+ The formulation of \massstiff \ and \massdamp \ lead to investigating the impact of these variables on the frequency of the system, which was the focus of this phase. The eigenvalues of the system were expressed using \massstiff \ and \massdamp (refer equation 5 \KJ{Appendix}). While the eigenvalues remain complex or in other words the term under the square root remains negative the imaginary component could be defined as the frequency of the system. Since this frequency was obtained using the linearised QSS equation, the frequency could be identified as the linear frequency. However, for a given \massdamp \ value, there is a limit of \massstiff \ below which the eigenvalues becomes real or the square root term positive and therefore does not predict a linear frequency.   
  
  
-\subsubsection{Conclusions}
+ \subsubsection{Conclusions}
 
 \begin{itemize}
 
-\item The linear frequency of the system could be defined as the imaginary component of the eigenvalues of the linearized equation (\KJ{refer Equation 5 Appendix ...}) provided that the square root term remains complex. 
+\item The linear frequency of the system could be obtained form the imaginary component of the eigenvalue equation of the linearized QSS model, (\KJ{refer Equation 5 Appendix ...}) provided that the square root term remains complex. 
 
-\item This equation provides a good prediction of the frequency at high \massstiff. However, it deviates as \massstiff \ reduces because the non linearities start to dominate the forcing. 
+\item This equation provides a good prediction of the frequency at high \massstiff. However, it deviates as \massstiff \ reduces because the linear terms start to dominate the forcing. 
 
-\item The linearized equation fails to predict the frequency at the point where the term under the square root positive. 
+\item The linearised equation fails to predict the frequency at the point where the term under the square root positive. However, in the general QSS model a frequency is present.  
 
 \item This region could not be captured in the DNS data as the vortex shedding becomes stronger and therefore suppresses galloping. 
+
 
 \end{itemize}
 
@@ -123,10 +127,20 @@ The following conclusions were made in phase 1
 \section{Structure of the thesis}
 
 
+
 \clearpage
 \bibliographystyle{elsarticle-harv}
 \bibliography{Paper.bib}
 
+\section*{\LARGE Appendix 1}
+\label{app:manuscript}
+\addcontentsline{toc}{section}{Appendix 1}
+\includepdf[pages=1-30]{elsarticle-template-harv.pdf}
+
+
+\section*{\LARGE Appendix 2}
+\addcontentsline{toc}{section}{Appendix 2}
+\includepdf[pages=1-4]{galloping_paper.pdf}
 \end{document}
 
 
