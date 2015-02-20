@@ -15,6 +15,7 @@
 \usepackage{booktabs}
 \usepackage{pdfpages}
 \usepackage{epstopdf}
+\usepackage{enumerate}
 
 \newcommand{\Rey}{\ensuremath{Re}}
 \newcommand{\ord}[1]{\ensuremath{\mathcal{O}(#1)}}
@@ -84,7 +85,7 @@ In order to achieve the aim of this study, The three main areas of interest were
  
 The focus of this phase was to understand the underpinning parameters of galloping and formulate the appropriate variables to describe the power transfer from fluid to the bodyq. Two non-dimensionalised parameters namely, the combined mass-stiffness (\massstiff) and the combined-mass damping (\massdamp) were formulated using the natural time-scales of the system. The combined mass-damping parameter provided an excellent collapse of mean power and velocity amplitude. This was far better collapse in comparison to the classical Vortex Induced Vibration (VIV) parameters \ustar \ and $\zeta$. The collapse was better than the  More information of the formulation of these parameters and the power and velocity data could be found in \KJ{put the appendix}.    
 
-\subsubsection{Conclusions}
+\subsubsection*{Conclusions}
 
 The following conclusions were made in phase 1 
 
@@ -103,7 +104,7 @@ The following conclusions were made in phase 1
  
  The formulation of \massstiff \ and \massdamp \ lead to investigating the impact of these variables on the frequency of the system. The eigenvalues of the system were expressed using \massstiff \ and \massdamp (refer equation 5 \KJ{Appendix}). While the eigenvalues remain complex, (the term under the square root remains negative) the imaginary component could be defined as the frequency of the system. Since this frequency was obtained using the linearised QSS equation, it could be identified as the linear predicted frequency. However, for a given \massdamp \ value, there is a limit of \massstiff \ below which the eigenvalues becomes real or the square root term positive. Therefore a linear predicted frequency does not exist. The QSS model produces a signal and therefore a frequency in this region.     
  
- \subsubsection{Conclusions}
+ \subsubsection*{Conclusions}
 
 \begin{itemize}
 
@@ -121,20 +122,63 @@ The following conclusions were made in phase 1
 
 \subsection{Phase:3}
 
+This phase was focused on analysing the fluid dynamics involved in galloping and how it can be manipulated to get an optimum power output. With existing literature it was clear that the induced lift on a galloping body, will increase until it reaches the shear layer re-attachment. Therefore, it was hypothesised that the cross section could be further optimised to get a higher power output by delaying the shear layer reattachment. This was done by tapering away the afterbody of the square cross section. 
 
-
-
-
-
-\subsubsection{Conclusions}
-
-\item
-
-\item
+The data of this phase is currently being processed and is expected to be presented during the pre-submission seminar. 
 
 
 \section{Structure of the thesis}
 
+\begin{enumerate}
+	
+	\item Preliminary remarks 
+	\item A review of literature
+		\begin{enumerate}[i]
+		\item Introduction
+		\item Flow induced vibrations 
+		\item Flow induced vibrations and energy harvesting
+		\item Fluid-elastic galloping
+		\item Induced lift and the influence of the shear layers 
+	\end{enumerate}
+	\item Methodology and validation
+	\begin{enumerate}[i]
+		\item Introduction
+		\item Governing equations and quasi-steady state model 
+		\item Numerical methods and boundary conditions 
+		\item The governing equations for the DNS method: Naiver-Stokes and continuity
+		\item Convergence and validation studies 
+		\item Summary
+	\end{enumerate}	
+	\item Governing parameters of  fluid-elastic galloping
+	\begin{enumerate}[i]
+		\item Introduction 
+		\item Static body results 
+		\item Formulation of the non-dimensionalised parameters \massstiff \ and \massdamp 
+		\item Comparison of \massstiff \ and \massdamp \ with classical VIV parameters
+		\item Comparison of power between high and low \reynoldsnumber\ data
+		\item Dependence on the mass ratio \mstar
+		\item Summary 
+	\end{enumerate}	
+	\item Frequency response of the system
+	\begin{enumerate}[i]
+		\item Introduction 
+		\item Prediction of linear frequency 
+		\item QSS and DNS frequency data 
+		\item Comparison of linear frequency data with QSS and DNS data
+		\item Summary 
+	\end{enumerate}		
+	\item Optimisation of the cross sectional shape 
+	\begin{enumerate}[i]
+		\item Introduction 
+		\item Stationary data 
+		\item Mean power data 
+		\item Time average data 
+		\item Flow characteristics. 
+		\item FSI validation
+		\item Summary 
+	\end{enumerate}
+	
+\end{enumerate}
 
 
 \clearpage
