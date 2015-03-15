@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=latex 2014.5.26)  28 JAN 2015 09:50
+This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=latex 2014.5.26)  16 MAR 2015 09:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -679,12 +679,12 @@ File: ../FnP/gnuplot/1000.eps Graphic file (type eps)
 
 ] [29]) [30] (./elsarticle-template-harv.aux) ) 
 Here is how much of TeX's memory you used:
- 11173 strings out of 495035
- 204173 string characters out of 6181703
- 257507 words of memory out of 5000000
- 14050 multiletter control sequences out of 15000+600000
+ 11176 strings out of 495035
+ 204239 string characters out of 6181703
+ 257526 words of memory out of 5000000
+ 14053 multiletter control sequences out of 15000+600000
  15426 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,9n,55p,1965b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on elsarticle-template-harv.dvi (30 pages, 99392 bytes).
+Output written on elsarticle-template-harv.dvi (30 pages, 99432 bytes).
