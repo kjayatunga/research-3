@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  13 APR 2015 03:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  14 APR 2015 17:55
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -645,15 +645,12 @@ File: ./FnP/lift_curve_025.eps Graphic file (type eps)
 
 <./FnP/lift_curve_025.eps>
 File: ./FnP/lift_curve_tri.eps Graphic file (type eps)
- <./FnP/lift_curve_tri.eps>
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 26.
-
-) [6
+ <./FnP/lift_curve_tri.eps>) [6
 
 ] [7] [8
 
-] [9] (./main.bbl) [10
+] [9]
+(./main.bbl) [10
 
 
 ]
@@ -682,10 +679,10 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  13099 strings out of 493118
  254308 string characters out of 6135458
- 297797 words of memory out of 5000000
+ 297798 words of memory out of 5000000
  16263 multiletter control sequences out of 15000+600000
  13961 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,9n,54p,911b,302s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (47 pages, 35984 bytes).
+Output written on main.dvi (47 pages, 35932 bytes).
