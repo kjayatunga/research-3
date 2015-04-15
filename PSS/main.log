@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  14 APR 2015 17:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  15 APR 2015 23:14
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -628,11 +628,9 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 ] [5
 
-]
-
-LaTeX Warning: Reference `fig:hybrid_section' on page 6 undefined on input line
- 131.
-
+] (./figures/sketch-1.tex
+File: ./FnP/hybrid_section.eps Graphic file (type eps)
+ <./FnP/hybrid_section.eps>)
 (./figures/lift_curves.tex
 File: ./FnP/lift_curve_sq.eps Graphic file (type eps)
  <./FnP/lift_curve_sq.eps>
@@ -645,12 +643,15 @@ File: ./FnP/lift_curve_025.eps Graphic file (type eps)
 
 <./FnP/lift_curve_025.eps>
 File: ./FnP/lift_curve_tri.eps Graphic file (type eps)
- <./FnP/lift_curve_tri.eps>) [6
+ <./FnP/lift_curve_tri.eps>)
+(./figures/power_curves.tex
+File: ./FnP/mean_power_hyb.eps Graphic file (type eps)
+ <./FnP/mean_power_hyb.eps>) [6
 
-] [7] [8
+] [7] [8] [9
 
-] [9]
-(./main.bbl) [10
+]
+[10] (./main.bbl) [11
 
 
 ]
@@ -659,30 +660,26 @@ Package pdfpages Warning: I cannot determine the number of pages of the
 (pdfpages)                included document, while being in DVI mode. You
 (pdfpages)                can use the option `lastpage' to give me a hint.
 
-[11
+[12
 
-] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25]
-[26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40]
-[41]
+] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26]
+[27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41]
+[42]
 
 Package pdfpages Warning: I cannot determine the number of pages of the
 (pdfpages)                included document, while being in DVI mode. You
 (pdfpages)                can use the option `lastpage' to give me a hint.
 
-[42
+[43
 
-] [43] [44] [45] [46] (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] [44] [45] [46] [47] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 13099 strings out of 493118
- 254308 string characters out of 6135458
- 297798 words of memory out of 5000000
- 16263 multiletter control sequences out of 15000+600000
+ 13110 strings out of 493118
+ 254526 string characters out of 6135458
+ 297814 words of memory out of 5000000
+ 16266 multiletter control sequences out of 15000+600000
  13961 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,9n,54p,911b,302s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (47 pages, 35932 bytes).
+Output written on main.dvi (48 pages, 37936 bytes).
