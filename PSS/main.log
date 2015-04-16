@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  15 APR 2015 23:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  16 APR 2015 22:52
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -578,7 +578,11 @@ Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks36
 )
-(./main.aux)
+(./main.aux
+
+LaTeX Warning: Label `fig:power_curves' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -646,7 +650,10 @@ File: ./FnP/lift_curve_tri.eps Graphic file (type eps)
  <./FnP/lift_curve_tri.eps>)
 (./figures/power_curves.tex
 File: ./FnP/mean_power_hyb.eps Graphic file (type eps)
- <./FnP/mean_power_hyb.eps>) [6
+ <./FnP/mean_power_hyb.eps>)
+(./figures/surf_pres_tri.tex
+File: ./FnP/surf_pres_tri_10.eps Graphic file (type eps)
+ <./FnP/surf_pres_tri_10.eps>) [6
 
 ] [7] [8] [9
 
@@ -672,14 +679,18 @@ Package pdfpages Warning: I cannot determine the number of pages of the
 
 [43
 
-] [44] [45] [46] [47] (./main.aux) ) 
+] [44] [45] [46] [47] (./main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 13110 strings out of 493118
- 254526 string characters out of 6135458
- 297814 words of memory out of 5000000
- 16266 multiletter control sequences out of 15000+600000
+ 13115 strings out of 493118
+ 254639 string characters out of 6135458
+ 298853 words of memory out of 5000000
+ 16267 multiletter control sequences out of 15000+600000
  13961 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,9n,54p,911b,302s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (48 pages, 37936 bytes).
+Output written on main.dvi (48 pages, 38788 bytes).
