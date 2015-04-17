@@ -4,6 +4,7 @@
 \contentsline {subsection}{\numberline {3.1}Phase:1}{4}
 \contentsline {subsection}{\numberline {3.2}Phase:2}{5}
 \contentsline {subsection}{\numberline {3.3}Phase:3}{6}
-\contentsline {section}{\numberline {4}Structure of the thesis}{9}
-\contentsline {section}{Appendix 1}{12}
-\contentsline {section}{Appendix 2}{43}
+\contentsline {section}{\numberline {4}Publications}{10}
+\contentsline {section}{\numberline {5}Structure of the thesis}{11}
+\contentsline {section}{Appendix 1}{14}
+\contentsline {section}{Appendix 2}{45}
