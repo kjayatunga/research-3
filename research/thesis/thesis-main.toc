@@ -1,5 +1,5 @@
 \contentsline {chapter}{\numberline {1}A review of the literature}{1}
 \contentsline {section}{\numberline {1.1}Flow induced vibrations}{1}
 \contentsline {section}{\numberline {1.2}Fluid-elastic galloping}{1}
-\contentsline {subsection}{\numberline {1.2.1}Cause of galloping}{1}
-\contentsline {subsection}{\numberline {1.2.2}Qusasi-state theory}{1}
+\contentsline {subsection}{\numberline {1.2.1}Excitation of galloping}{1}
+\contentsline {subsection}{\numberline {1.2.2}Qusasi-state theory}{2}
