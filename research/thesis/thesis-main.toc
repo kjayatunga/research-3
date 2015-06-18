@@ -2,5 +2,5 @@
 \contentsline {section}{\numberline {1.1}Flow induced vibrations}{1}
 \contentsline {section}{\numberline {1.2}Fluid-elastic galloping}{1}
 \contentsline {subsection}{\numberline {1.2.1}Excitation of galloping}{1}
-\contentsline {subsection}{\numberline {1.2.2}Qusasi-state theory}{2}
+\contentsline {subsection}{\numberline {1.2.2}Quasi-steady state theory}{2}
 \contentsline {subsection}{\numberline {1.2.3}Induced force and the shear layers}{5}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{9}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -28,6 +28,11 @@ Glauert, H., 1919. {The rotation of an aerofoil about a fixed axis}. Tech.
 Joly, A., Etienne, S., Pelletier, D., Jan. 2012. {Galloping of square cylinders
   in cross-flow at low Reynolds numbers}. Journal of Fluids and Structures 28,
   232--243.
+
+\bibitem[{Luo et~al.(2003)Luo, Chew, and Ng}]{Luo2003}
+Luo, S., Chew, Y., Ng, Y., Aug. 2003. {Hysteresis phenomenon in the galloping
+  oscillation of a square cylinder}. Journal of Fluids and Structures 18~(1),
+  103--118.
 
 \bibitem[{Ng et~al.(2005)Ng, Luo, and Chew}]{Ng2005}
 Ng, Y., Luo, S., Chew, Y., Jan. 2005. {On using high-order polynomial curve
