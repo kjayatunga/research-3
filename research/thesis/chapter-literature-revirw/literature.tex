@@ -1,14 +1,17 @@
 \chapter{A review of the literature}
 
 \section{Flow induced vibrations}
+\label{sec:flow induced vibrations}
 
 
 \section{Fluid-elastic galloping}
+\label{fluid-elastic galloping}
 
 Fluid-elastic galloping is one of the most commonly observable flow-induced vibration on a slender body. Since this phenomenon is most common in civil structure, such as buildings and iced-transmission lines, the term ``aeroelastic galloping" is commonly used as the body is immersed in air. However, this mechanism can occur on a slender body immersed in any Newtonian fluid, provided that the conditions to sustain the galloping mechanism are satisfied. This work is based on a general Newtonian flow,thus the term `` fluid-elastic galloping" is used throughout this thesis.
    
 
 \subsection{Excitation of galloping}
+\label{exci-galloping}
 
 When a bluff body moves along the transverse direction of the fluid flow, it generates a force along the transverse direction. This force, also known as the induced lift is a resultant of the velocity of the fluid and the motion of the body. When this body is attached to an oscillating system (i.e. a simple spring, mass and damper system), the induced lift becomes the periodic forcing of the system. Galloping is sustained  if the induced lift is in phase with the motion of the body. This could be explained further by using a square cross section as an example.
 
@@ -18,6 +21,7 @@ When a bluff body moves along the transverse direction of the fluid flow, it gen
  
 
 \subsection{Qusasi-state theory}
+\label{QSS theory}
 
 
 According \cite{Paidoussis2010},the initial studies by \cite{Glauert1919} provided a criterion for galloping by considering the auto-rotation of a stalled aerofoil. As this phenomenon commonly occur in iced transmission lines, \cite{DenHartog1956} has provided a theoretical explanation for iced electric transmission lines. 
@@ -34,9 +38,55 @@ The oscillator equation was solved using the Krylov and Bogoliubov method. Detai
 
 \input{./chapter-literature-revirw/figures/parkinson_data}
 
+\subsubsection*{Quasi-steady state oscillator model}
+
+The equation of motion of transversely oscillating body is given by 
+\begin{equation}
+\label{equationofmotion}
+m\ddot{y}+c\dot{y}+ky=F_y,
+\end{equation}
+where the forcing term $F_y$ is given by
+\begin{equation}
+\label{lift equation}
+F_y=\frac{1}{2}\rho U^2\mathcal{A}C_y.
+\end{equation}
+
+As explained previously, when quasi-steady assumption is used the stationary $C_y$ data (which consists of both lift and drag data)  of the body could be could be used as inputs to the oscillator equation.\citet{Parkinson1964} used a $7^th$ order odd interpolating polynomial to determine $C_y$. The order of the polynomial can be chosen arbitrarily depending on the study. For example \citet{Barrero-Gil2009,Barrero-Gil2010a} have used a $3_{rd}$ order polynomial in order to simplify the analytical model. However, \citet{Ng2005} pointed out that a $7_{th}$ order polynomial is sufficient as it does not provide a significantly better result.    
+
+\begin{equation}
+\label{cy ploynomial}
+C_y(\theta)=a_1\left(\frac{\dot{y}}{U}\right)-a_3\left(\frac{\dot{y}}{U}\right)^3+a_5\left(\frac{\dot{y}}{U}\right)^5-a_7\left(\frac{\dot{y}}{U}\right)^7.
+\end{equation}
+
+Therefore by substituting the forcing function to the oscillator equation (Eq:\ref{equationofmotion}) the Quasi-steady state (QSS) model could be obtained (Eq:\ref{final_equation_motion}). 
+
+\begin{equation}
+\label{final_equation_motion}
+m\ddot{y}{+}c\dot{y}{+}ky{=}\frac{1}{2}\rho U^2 \mathcal {A} \Bigg(a_1\left(\frac{\dot{y}}{U}\right){-}a_3\left(\frac{\dot{y}}{U}\right)^3{+}a_5\left(\frac{\dot{y}}{U}\right)^5{-}a_7\left(\frac{\dot{y}}{U}\right)^7 \Bigg).
+\end{equation}
+
+As the current study is focused on the low \reynoldsnumber region, it is a known fact that the vortex shedding will be correlated well and therefore provide a significant forcing in the low Reynolds number region. \citet{Joly2012} introduced and additional sinusoidal forcing function to the model in order to integrate the forcing by vortex shedding. By the addition of this forcing \citet{Joly2012} managed to obtain accurate predictions of the displacement amplitude even at low mass ratios, where the galloping is suppressed or not present. Yet, the strength or the amplitude of this sinusoidal forcing has to be tuned in an \emph{ad hoc} manner, and it was not clear the relationship between this forcing with the other system parameters. Thus in the current study this forcing was not used.
+
+
+
+
+
+
 \subsection{Induced force and the shear layers}
 
 It is important to have an understanding on how the induced lift is generated in a fluid dynamics point of view. Since the quasi-steady model has already been validated and re-validated by many studies, the flow-field data of static body simulations of a square cross section, at different angle of attack is used as an example. 
+
+% % % % % % % % % % % % % % %Put the shear layer explanation here % % % % % % % % % % % % %
+
+
+
+
+
+
+
+
+
+
 
 
 

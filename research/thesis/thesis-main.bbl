@@ -1,8 +1,20 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{8}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Barrero-Gil et~al.(2010)Barrero-Gil, Alonso, and
+  Sanz-Andres}]{Barrero-Gil2010a}
+Barrero-Gil, A., Alonso, G., Sanz-Andres, A., Jul. 2010. {Energy harvesting
+  from transverse galloping}. Journal of Sound and Vibration 329~(14),
+  2873--2883.
+
+\bibitem[{Barrero-Gil et~al.(2009)Barrero-Gil, Sanz-Andr\'{e}s, and
+  Roura}]{Barrero-Gil2009}
+Barrero-Gil, A., Sanz-Andr\'{e}s, A., Roura, M., Oct. 2009. {Transverse
+  galloping at low Reynolds numbers}. Journal of Fluids and Structures 25~(7),
+  1236--1242.
 
 \bibitem[{{Den Hartog}(1956)}]{DenHartog1956}
 {Den Hartog}, J.~P., 1956. {Mechanical Vibrations}. Dover Books on Engineering.
@@ -11,6 +23,16 @@
 \bibitem[{Glauert(1919)}]{Glauert1919}
 Glauert, H., 1919. {The rotation of an aerofoil about a fixed axis}. Tech.
   rep., Advisory Committee on Aeronautics R and M 595. HMSO, London.
+
+\bibitem[{Joly et~al.(2012)Joly, Etienne, and Pelletier}]{Joly2012}
+Joly, A., Etienne, S., Pelletier, D., Jan. 2012. {Galloping of square cylinders
+  in cross-flow at low Reynolds numbers}. Journal of Fluids and Structures 28,
+  232--243.
+
+\bibitem[{Ng et~al.(2005)Ng, Luo, and Chew}]{Ng2005}
+Ng, Y., Luo, S., Chew, Y., Jan. 2005. {On using high-order polynomial curve
+  fits in the quasi-steady theory for square-cylinder galloping}. Journal of
+  Fluids and Structures 20~(1), 141--146.
 
 \bibitem[{Pa\"{\i}doussis et~al.(2010)Pa\"{\i}doussis, Price, and
   de~Langre}]{Paidoussis2010}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  15 JUN 2015 14:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  18 JUN 2015 11:26
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -644,13 +644,13 @@ File: ./chapter-literature-revirw/fnp/setup-1.eps Graphic file (type eps)
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -662,9 +662,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./chapter-literature-revirw/fnp/parkinson_data.eps Graphic file (type eps
 )
 
-<./chapter-literature-revirw/fnp/parkinson_data.eps>)) [3] [4] [5
-
-] [6
+<./chapter-literature-revirw/fnp/parkinson_data.eps>) [3] [4]) [5] [6
 
 
 ]
@@ -673,12 +671,12 @@ File: ./chapter-literature-revirw/fnp/parkinson_data.eps Graphic file (type eps
 
 ] (./thesis-main.aux) ) 
 Here is how much of TeX's memory you used:
- 13102 strings out of 493118
- 252677 string characters out of 6135458
- 291495 words of memory out of 5000000
- 16250 multiletter control sequences out of 15000+600000
- 15543 words of font info for 59 fonts, out of 8000000 for 9000
+ 13125 strings out of 493118
+ 253093 string characters out of 6135458
+ 295830 words of memory out of 5000000
+ 16272 multiletter control sequences out of 15000+600000
+ 15889 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,54p,782b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,11n,54p,885b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (13 pages, 18508 bytes).
+Output written on thesis-main.dvi (13 pages, 24540 bytes).
