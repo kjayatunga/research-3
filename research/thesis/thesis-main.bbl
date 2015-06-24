@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{16}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -16,6 +16,24 @@ Barrero-Gil, A., Sanz-Andr\'{e}s, A., Roura, M., Oct. 2009. {Transverse
   galloping at low Reynolds numbers}. Journal of Fluids and Structures 25~(7),
   1236--1242.
 
+\bibitem[{Bernitsas et~al.(2009)Bernitsas, Ben-Simon, Raghavan, and
+  Garcia}]{Bernitsas2009}
+Bernitsas, M.~M., Ben-Simon, Y., Raghavan, K., Garcia, E. M.~H., 2009. {The
+  VIVACE Converter: Model Tests at High Damping and Reynolds Number Around
+  10[sup 5]}. Journal of Offshore Mechanics and Arctic Engineering 131~(1),
+  011102.
+
+\bibitem[{Bernitsas et~al.(2008)Bernitsas, Raghavan, Ben-Simon, and
+  Garcia}]{Bernitsas2008a-concept}
+Bernitsas, M.~M., Raghavan, K., Ben-Simon, Y., Garcia, E. M.~H., 2008. {VIVACE
+  (Vortex Induced Vibration Aquatic Clean Energy): A new concept in generation
+  of clean and renewable energy from fluid flow}. Journal of Offshore Mechanics
+  and Arctic Engineering 130~(4), 041101--15.
+
+\bibitem[{Bouclin(1977)}]{bouclin:77}
+Bouclin, D.~N., 1977. Hydroelastic oscillations of square cylinders. Master's
+  thesis, University of British Columbia.
+
 \bibitem[{{Den Hartog}(1956)}]{DenHartog1956}
 {Den Hartog}, J.~P., 1956. {Mechanical Vibrations}. Dover Books on Engineering.
   Dover Publications.
@@ -28,6 +46,11 @@ Glauert, H., 1919. {The rotation of an aerofoil about a fixed axis}. Tech.
 Joly, A., Etienne, S., Pelletier, D., Jan. 2012. {Galloping of square cylinders
   in cross-flow at low Reynolds numbers}. Journal of Fluids and Structures 28,
   232--243.
+
+\bibitem[{Lee and Bernitsas(2011)}]{Lee2011b}
+Lee, J., Bernitsas, M., Nov. 2011. {High-damping, high-Reynolds VIV tests for
+  energy harnessing using the VIVACE converter}. Ocean Engineering 38~(16),
+  1697--1712.
 
 \bibitem[{Luo et~al.(2003)Luo, Chew, and Ng}]{Luo2003}
 Luo, S., Chew, Y., Ng, Y., Aug. 2003. {Hysteresis phenomenon in the galloping
@@ -48,5 +71,22 @@ Pa\"{\i}doussis, M., Price, S., de~Langre, E., 2010. {Fluid-Structure
 Parkinson, G.~V., Smith, J.~D., 1964. {The square prism as an aeroelastic
   non-linear oscillator}. The Quarterly Journal of Mechanics and Applied
   Mathematics 17~(2), 225--239.
+
+\bibitem[{Raghavan and Bernitsas(2011)}]{Raghavan2010a}
+Raghavan, K., Bernitsas, M., Apr. 2011. {Experimental investigation of Reynolds
+  number effect on vortex induced vibration of rigid circular cylinder on
+  elastic supports}. Ocean Engineering 38~(5-6), 719--731.
+
+\bibitem[{Vicente-Ludlam et~al.(2014)Vicente-Ludlam, Barrero-Gil, and
+  Velazquez}]{vicente-Ludlam2014}
+Vicente-Ludlam, D., Barrero-Gil, A., Velazquez, A., 2014. Optimal
+  electromagnetic energy extraction from transverse galloping. Journal of
+  Fluids and Structures 51, 281--291.
+
+\bibitem[{Vio et~al.(2007)Vio, Dimitriadis, and Cooper}]{Vio2007}
+Vio, G., Dimitriadis, G., Cooper, J., Oct. 2007. {Bifurcation analysis and
+  limit cycle oscillation amplitude prediction methods applied to the
+  aeroelastic galloping problem}. Journal of Fluids and Structures 23~(7),
+  983--1011.
 
 \end{thebibliography}

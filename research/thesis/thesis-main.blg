@@ -6,45 +6,45 @@ opyright is an illegal style-file command---line 1 of file elsarticle-harv.bst
  : opyright
  :          2007, 2008, 2009 Elsevier Ltd
 Database file #1: ./Paper.bib.bib
-You've used 9 entries,
+You've used 16 entries,
             2821 wiz_defined-function locations,
-            699 strings with 6048 characters,
-and the built_in function-call counts, 4315 in all, are:
-= -- 452
-> -- 201
-< -- 3
-+ -- 75
-- -- 66
-* -- 382
-:= -- 781
-add.period$ -- 28
-call.type$ -- 9
-change.case$ -- 66
-chr.to.int$ -- 9
-cite$ -- 9
-duplicate$ -- 157
-empty$ -- 302
-format.name$ -- 91
-if$ -- 863
+            747 strings with 7419 characters,
+and the built_in function-call counts, 7831 in all, are:
+= -- 822
+> -- 373
+< -- 6
++ -- 139
+- -- 123
+* -- 705
+:= -- 1412
+add.period$ -- 49
+call.type$ -- 16
+change.case$ -- 120
+chr.to.int$ -- 16
+cite$ -- 16
+duplicate$ -- 280
+empty$ -- 538
+format.name$ -- 171
+if$ -- 1565
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 10
-newline$ -- 34
-num.names$ -- 36
-pop$ -- 62
+missing$ -- 16
+newline$ -- 55
+num.names$ -- 64
+pop$ -- 108
 preamble$ -- 1
-purify$ -- 58
+purify$ -- 105
 quote$ -- 0
-skip$ -- 116
+skip$ -- 207
 stack$ -- 0
-substring$ -- 261
-swap$ -- 22
+substring$ -- 492
+swap$ -- 40
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 75
+type$ -- 138
 warning$ -- 0
-while$ -- 39
+while$ -- 70
 width$ -- 0
-write$ -- 105
+write$ -- 182
 (There was 1 error message)
