@@ -5,3 +5,4 @@
 \contentsline {subsection}{\numberline {1.2.2}Quasi-steady state theory}{2}
 \contentsline {subsection}{\numberline {1.2.3}Induced force and the shear layers}{5}
 \contentsline {subsection}{\numberline {1.2.4}Frequency response}{7}
+\contentsline {subsection}{\numberline {1.2.5}Fluid mechanics governing the galloping response}{7}
