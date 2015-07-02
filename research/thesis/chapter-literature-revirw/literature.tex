@@ -11,7 +11,7 @@ Fluid-elastic galloping is one of the most commonly observable flow-induced vibr
    
 
 \subsection{Excitation of galloping}
-\label{exci-galloping}
+\label{sec:exci-galloping}
 
 \citet{Paidoussis2010} describes galloping as a ``velocity dependent and damping controlled" phenomenon. Therefore, in order for a body to gallop, an initial excitation has to be given to that body. While this excitation is mainly caused by the force crated from vortex shedding, other fluid instabilities may contribute to this initial excitation.  When a bluff body moves along the transverse direction of the fluid flow, it generates a force along the transverse direction. This force, also known as the induced lift is a resultant of the velocity of the fluid and the motion of the body. When this body is attached to an oscillating system (i.e. a simple spring, mass and damper system), the induced lift becomes the periodic forcing of the system. Galloping is sustained  if the induced lift is in phase with the motion of the body. This could be explained further by using a square cross section as an example.
 
@@ -21,7 +21,7 @@ Fluid-elastic galloping is one of the most commonly observable flow-induced vibr
  
 
 \subsection{Quasi-steady state theory}
-\label{QSS theory}
+\label{sec:QSS theory}
 
 
 According \cite{Paidoussis2010},the initial studies by \cite{Glauert1919} provided a criterion for galloping by considering the auto-rotation of a stalled aerofoil. As this phenomenon commonly occur in iced transmission lines, \cite{DenHartog1956} has provided a theoretical explanation for iced electric transmission lines. 
@@ -78,17 +78,49 @@ Hysteresis could be observed in the in the amplitude data of \cite{Parkinson1964
 
 
 \subsection{Induced force and the shear layers}
+\label{subsec:c_y and shear layers}
 
-It is important to have an understanding on how the induced lift is generated in a fluid dynamics point of view. Since the quasi-steady model has already been validated and re-validated by many studies, the flow-field data of static body simulations could be used to analyse the underpinning fluid dynamic mechanisms governing galloping.
-
-The governing mechanism of galloping is the behaviour of the shear layers on the top and bottom of the body. A common example is a square cross section which has been used widely in studies on galloping. In this square cross section (figure \ref{fig:shear_layers}) the flow separate from the leading edges of the body and create two shear layers on the top and bottom sides of the the body. Figure \ref{fig:shear_layers} shows the stream functions of time averaged (over a vortex shedding cycle) flow fields of a stationary cross sections. The angle of incidence increases clockwise from $2^{\circ}-6^{\circ}$. As $\theta$ is increased, the bottom shear comes closer to the wall of the body compared to the top shear layer (Figure \ref{fig:shear_layers} (a)). The shear layer nearer to the body crates higher suction compared to the shear layer at the opposite side. This pressure imbalance between the top and bottom sides of the body creates a downward force (i.e. the negative lift). As the angle is increased, the bottom shear layer becomes more closer and therefore the pressure difference becomes grater leading to a higher $C_{y}$. The negative lift force becomes maximum when the shear layer near to the wall reattaches at the trailing edge (figure \ref{fig:shear_layers} (b)). As $\theta$ is further increased, the bubble in the bottom shear layer shrinks in size resulting the reduction of the pressure imbalance of the top and bottom surface leading to the reduction in $C_{y}$. \hilight{put the cY curve as crodd reference}
+It is important to have an understanding on how the induced lift is generated in a fluid dynamics point of view. The quasi-steady model has already been validated and re-validated by many studies, therefore the flow-field data of static body simulations could be used to analyse the underpinning fluid dynamic mechanisms governing galloping.
 
 \input{./chapter-literature-revirw/figures/shear_layers}
 
+The governing mechanism of galloping is the behaviour of the shear layers created at the leading edge due to flow separation  on the top and bottom of the body. A common example is a square cross section which has been used widely in studies on galloping. In this square cross section (figure \ref{fig:shear_layers}) the flow separate from the leading edges of the body and create two shear layers on the top and bottom sides of the the body. Figure \ref{fig:shear_layers} shows the stream functions of time averaged (over a vortex shedding cycle) flow fields of stationary cross sections. The angle of incidence increases clockwise from $2^{\circ}-6^{\circ}$. As $\theta$ is increased, the bottom shear comes closer to the wall of the body compared to the top shear layer (Figure \ref{fig:shear_layers} (a)). The shear layer nearer to the body crates higher suction compared to the shear layer at the opposite side. This pressure imbalance between the top and bottom sides of the body creates a downward force (i.e. the negative lift). As the angle is increased, the bottom shear layer becomes more closer and therefore the pressure difference becomes grater leading to a higher $C_{y}$. The negative lift force becomes maximum when the shear layer near to the wall reattaches at the trailing edge (figure \ref{fig:shear_layers} (b)). As $\theta$ is further increased, the bubble in the bottom shear layer shrinks in size resulting the reduction of the pressure imbalance of the top and bottom surface leading to the reduction in $C_{y}$. \hilight{put the cY curve as crodd reference}. As the body is connected to an oscillatory system (discussed in section \ref{sec:exci-galloping}), this shear layer behaviour also harmonize with the cyclic behaviour of the system providing the driving force to the system so that the motion of galloping is sustained.
+
+
+
+\subsection{Frequency response}
+ 
+ It is clear that the cyclic motion of the shear layer harmonize with the mechanical system. Therefore, the frequency response should be then, the natural frequency of the system $\omega_{n}$ which much is different from VIV mechanism, where the primary frequency comes from the periodic forcing of the vortex shedding. Hence, in the QSS model the natural frequency of the system could be identified as the frequency of oscillations. However, it should be  noted that this is valid on the regimes where the conditions discussed in section \ref{sec:QSS theory} are satisfied. 
+ 
+ On the other hand, the forcing function in the QSS model equation \ref{final_equation_motion}, is a non linear function. As the mass ratio is quite high, the non-linearities of the forcing does not make much effect to the frequency response. However, as the mass ratio goes down theoretically the non linearities of the forcing should affect the frequency response of the system.   
+ 
+ The experimental studies carried by \citet{bouclin:77} concluded at high reduced velocities with large inertia, the motion of the cylinder controls the frequency of the system rather than the vortex shedding. The structural damping has no effect provided that it is small. He also concluded that as the inertia and the reduced velocity gets lower, there is some interaction between vortex shedding and galloping. And at this region the frequency is mainly governed by the vortex shedding. 
+ 
+ 
+ \subsection{Fluid mechanics governing the galloping response}
+ 
+ As discussed in subsection \ref{subsec:c_y and shear layers} the driving force of a galloping system is the asymmetrical placement of the shear layers at either sides of the body. In consequence, it is clear that a significant afterbody is needed for the shear layer interaction to sustain galloping. Manipulating the shape of the afterbody and thereby, manipulating the shear layer interactions with the body gives the ability to control the galloping response. Thus. due to this reason work has been carried out on the response of galloping of different cross sectional shapes. 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
 
-\subsection{Frequency response}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
 
 
 

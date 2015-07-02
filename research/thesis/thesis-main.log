@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  24 JUN 2015 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  2 JUL 2015 09:54
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -662,7 +662,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 File: ./chapter-literature-revirw/fnp/parkinson_data.eps Graphic file (type eps
 )
 
-<./chapter-literature-revirw/fnp/parkinson_data.eps>) [3] [4] [5]
+<./chapter-literature-revirw/fnp/parkinson_data.eps>) [3] [4]
 (./chapter-literature-revirw/figures/shear_layers.tex
 File: ./chapter-literature-revirw/fnp/square-2.eps Graphic file (type eps)
 
@@ -677,9 +677,11 @@ Overfull \hbox (14.09998pt too wide) in paragraph at lines 18--19
 [][][] 
  []
 
-)) [6] [7
+) [5]
+Underfull \vbox (badness 6927) has occurred while \output is active []
 
-] [8
+ [6])
+[7] [8
 
 
 ] (./thesis-main.bbl [9
@@ -687,12 +689,12 @@ Overfull \hbox (14.09998pt too wide) in paragraph at lines 18--19
 
 ]) [10] (./thesis-main.aux) ) 
 Here is how much of TeX's memory you used:
- 13177 strings out of 493118
- 254256 string characters out of 6135458
- 295471 words of memory out of 5000000
- 16317 multiletter control sequences out of 15000+600000
+ 13160 strings out of 493118
+ 253923 string characters out of 6135458
+ 296289 words of memory out of 5000000
+ 16300 multiletter control sequences out of 15000+600000
  15889 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,54p,1619b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,54p,1941b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (16 pages, 34912 bytes).
+Output written on thesis-main.dvi (16 pages, 35020 bytes).
