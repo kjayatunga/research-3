@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{21}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -16,6 +16,16 @@ Barrero-Gil, A., Sanz-Andr\'{e}s, A., Roura, M., Oct. 2009. {Transverse
   galloping at low Reynolds numbers}. Journal of Fluids and Structures 25~(7),
   1236--1242.
 
+\bibitem[{Bearman et~al.(1987)Bearman, Gartshore, Maull, and
+  Parkinson}]{Bearman1987}
+Bearman, P.~W., Gartshore, I.~S., Maull, D.~J., Parkinson, G.~V., 1987.
+  Experiments on f low-induced vibration of a square-section cylinder. Journal
+  of Fluids and Structures 1, 19--34.
+
+\bibitem[{Blevins(1990)}]{Blevins1990}
+Blevins, R.~D., 1990. {Flow-Induced Vibration}, 2nd Edition. New York: Van
+  Nostrand Reinhold.
+
 \bibitem[{Bouclin(1977)}]{bouclin:77}
 Bouclin, D.~N., 1977. Hydroelastic oscillations of square cylinders. Master's
   thesis, University of British Columbia.
@@ -23,6 +33,11 @@ Bouclin, D.~N., 1977. Hydroelastic oscillations of square cylinders. Master's
 \bibitem[{{Den Hartog}(1956)}]{DenHartog1956}
 {Den Hartog}, J.~P., 1956. {Mechanical Vibrations}. Dover Books on Engineering.
   Dover Publications.
+
+\bibitem[{Deniz(1997)}]{Deniz1997}
+Deniz, S. amd~Staubli, T., 1997. Oscillating rectangular and octagonal
+  profiles: Interaction of leading-and trailing-edge vortex formation. Journal
+  of fluids and structures 11, 3--31.
 
 \bibitem[{Glauert(1919)}]{Glauert1919}
 Glauert, H., 1919. {The rotation of an aerofoil about a fixed axis}. Tech.
@@ -38,6 +53,19 @@ Luo, S., Chew, Y., Ng, Y., Aug. 2003. {Hysteresis phenomenon in the galloping
   oscillation of a square cylinder}. Journal of Fluids and Structures 18~(1),
   103--118.
 
+\bibitem[{Nakamura and Mizota(1975)}]{Nakamura1975a}
+Nakamura, Y., Mizota, T., 1975. Unsteady lifts and wakes of oscillating
+  rectangular prisms. ASCE Journal of the Engineering Mechanics Division 101,
+  855--871.
+
+\bibitem[{Nakamura and Tomonari(1977)}]{Nakamura1977}
+Nakamura, Y., Tomonari, Y., 1977. Galloping of rectangular prisms in a smooth
+  and in a turbulent flow. Journal of Sound and Vibration 52, 233--241.
+
+\bibitem[{Naudascher and Wang(1993)}]{Naudascher1993}
+Naudascher, E., Wang, Y., 1993. Flow induced vibrations of prismatic bodies and
+  grids of prisms. Journal of fluids and structures 7, 341--373.
+
 \bibitem[{Ng et~al.(2005)Ng, Luo, and Chew}]{Ng2005}
 Ng, Y., Luo, S., Chew, Y., Jan. 2005. {On using high-order polynomial curve
   fits in the quasi-steady theory for square-cylinder galloping}. Journal of
@@ -48,9 +76,33 @@ Ng, Y., Luo, S., Chew, Y., Jan. 2005. {On using high-order polynomial curve
 Pa\"{\i}doussis, M., Price, S., de~Langre, E., 2010. {Fluid-Structure
   Interactions : Cross-Flow-Induced Instabilities}. Cambridge University Press.
 
+\bibitem[{Parkinson(1989)}]{Parkinson1989}
+Parkinson, G., 1989. Phenomena and modelling of flow-induced vibrations of
+  bluff bodies. Progress in Aerospace Sciences 26, 169--224.
+
+\bibitem[{Parkinson and Brooks(1961)}]{Parkinson1961}
+Parkinson, G., Brooks, N. P.~H., 1961. On the aeroelastic instability of bluff
+  cylinders. Journal of Applied Mechanics 28, 252--258.
+
+\bibitem[{Parkinson(1974)}]{Parkinson1974}
+Parkinson, G.~V., 1974. { Mathematical models of flow-induced vibrations of
+  bluff bodies. In Flow-Induced Structural Vibrations}, e. naudascher Edition.
+  Berlin: SpringerVerlag.
+
 \bibitem[{Parkinson and Smith(1964)}]{Parkinson1964}
 Parkinson, G.~V., Smith, J.~D., 1964. {The square prism as an aeroelastic
   non-linear oscillator}. The Quarterly Journal of Mechanics and Applied
   Mathematics 17~(2), 225--239.
+
+\bibitem[{Ruscheweyh et~al.(1996)Ruscheweyh, Hortmanns, and
+  Schnakenberg}]{Ruscheweyh1996}
+Ruscheweyh, H., Hortmanns, M., Schnakenberg, C., 1996. Vortex-excited
+  vibrations and galloping of slender elements. Journal of wind engineering and
+  industrial aerodynamics 65, 347--352.
+
+\bibitem[{Weaver and Veljkovic(2005)}]{Weaver2005}
+Weaver, D.~S., Veljkovic, I., 2005. Vortex shedding and galloping of open
+  semi-circular and parabolic cylinders in cross-flow. Journal of fluids and
+  structures 21, 65--74.
 
 \end{thebibliography}

@@ -6,50 +6,45 @@ opyright is an illegal style-file command---line 1 of file elsarticle-harv.bst
  : opyright
  :          2007, 2008, 2009 Elsevier Ltd
 Database file #1: ./Paper.bib.bib
-I was expecting a `,' or a `}'---line 420 of file ./Paper.bib.bib
- :  
- :  publisher = {New York: Van Nostrand Reinhold},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You've used 10 entries,
+You've used 21 entries,
             2821 wiz_defined-function locations,
-            704 strings with 6151 characters,
-and the built_in function-call counts, 4633 in all, are:
-= -- 487
-> -- 211
-< -- 4
-+ -- 79
-- -- 69
-* -- 400
-:= -- 846
-add.period$ -- 31
-call.type$ -- 10
-change.case$ -- 72
-chr.to.int$ -- 10
-cite$ -- 10
-duplicate$ -- 172
-empty$ -- 325
-format.name$ -- 95
-if$ -- 926
+            780 strings with 7877 characters,
+and the built_in function-call counts, 9634 in all, are:
+= -- 1022
+> -- 411
+< -- 16
++ -- 153
+- -- 132
+* -- 788
+:= -- 1746
+add.period$ -- 64
+call.type$ -- 21
+change.case$ -- 150
+chr.to.int$ -- 30
+cite$ -- 21
+duplicate$ -- 369
+empty$ -- 694
+format.name$ -- 193
+if$ -- 1974
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 10
-newline$ -- 37
-num.names$ -- 40
-pop$ -- 66
+missing$ -- 23
+newline$ -- 70
+num.names$ -- 84
+pop$ -- 136
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 128
 quote$ -- 0
-skip$ -- 130
+skip$ -- 290
 stack$ -- 0
-substring$ -- 272
-swap$ -- 23
+substring$ -- 566
+swap$ -- 50
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
+type$ -- 177
 warning$ -- 0
-while$ -- 42
+while$ -- 86
 width$ -- 0
-write$ -- 116
-(There were 2 error messages)
+write$ -- 237
+(There was 1 error message)
