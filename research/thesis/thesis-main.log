@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  5 JUL 2015 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  6 JUL 2015 11:51
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -590,18 +590,18 @@ Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 )) (./thesis-main.aux)
 \openout1 = `thesis-main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
  ABD: EveryShipout initializing macros [1
 
 ] [2
@@ -702,12 +702,12 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
  [12]) [13] (./thesis-main.aux) ) 
 Here is how much of TeX's memory you used:
- 13206 strings out of 493118
- 254938 string characters out of 6135458
- 296923 words of memory out of 5000000
- 16342 multiletter control sequences out of 15000+600000
+ 13207 strings out of 493118
+ 254940 string characters out of 6135458
+ 296957 words of memory out of 5000000
+ 16343 multiletter control sequences out of 15000+600000
  15889 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,54p,1941b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (19 pages, 44840 bytes).
+Output written on thesis-main.dvi (19 pages, 44948 bytes).
