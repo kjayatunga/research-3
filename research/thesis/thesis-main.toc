@@ -7,3 +7,6 @@
 \contentsline {subsection}{\numberline {1.2.4}Frequency response}{7}
 \contentsline {subsection}{\numberline {1.2.5}Fluid mechanics governing the galloping response}{7}
 \contentsline {subsection}{\numberline {1.2.6}Galloping as a mechanism of energy harvesting}{8}
+\contentsline {chapter}{\numberline {2}Methodology and validation}{11}
+\contentsline {section}{\numberline {2.1}Introduction}{11}
+\contentsline {section}{\numberline {2.2}Quasi-steady model}{11}
