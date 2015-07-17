@@ -10,3 +10,5 @@
 \contentsline {chapter}{\numberline {2}Methodology and validation}{11}
 \contentsline {section}{\numberline {2.1}Introduction}{11}
 \contentsline {section}{\numberline {2.2}Quasi-steady model}{11}
+\contentsline {section}{\numberline {2.3}Calculation of average power}{12}
+\contentsline {section}{\numberline {2.4}Discretisation of the QSS model and solving method}{13}
