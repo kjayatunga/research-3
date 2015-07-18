@@ -6,45 +6,57 @@ opyright is an illegal style-file command---line 1 of file elsarticle-harv.bst
  : opyright
  :          2007, 2008, 2009 Elsevier Ltd
 Database file #1: ./Paper.bib.bib
-You've used 29 entries,
+Repeated entry---line 519 of file ./Paper.bib.bib
+ : @article{Vio2007
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 528 of file ./Paper.bib.bib
+ : @article{sheard2009
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 537 of file ./Paper.bib.bib
+ : @article{tong2008
+ :                  ,
+I'm skipping whatever remains of this entry
+You've used 33 entries,
             2821 wiz_defined-function locations,
-            830 strings with 9639 characters,
-and the built_in function-call counts, 13891 in all, are:
-= -- 1458
-> -- 643
+            853 strings with 10321 characters,
+and the built_in function-call counts, 16015 in all, are:
+= -- 1676
+> -- 759
 < -- 17
-+ -- 241
-- -- 210
-* -- 1190
-:= -- 2511
-add.period$ -- 88
-call.type$ -- 29
-change.case$ -- 216
-chr.to.int$ -- 38
-cite$ -- 29
-duplicate$ -- 513
-empty$ -- 971
-format.name$ -- 297
-if$ -- 2823
++ -- 286
+- -- 249
+* -- 1393
+:= -- 2893
+add.period$ -- 100
+call.type$ -- 33
+change.case$ -- 249
+chr.to.int$ -- 42
+cite$ -- 33
+duplicate$ -- 585
+empty$ -- 1108
+format.name$ -- 348
+if$ -- 3244
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 31
-newline$ -- 94
-num.names$ -- 116
-pop$ -- 194
+missing$ -- 35
+newline$ -- 106
+num.names$ -- 132
+pop$ -- 223
 preamble$ -- 1
-purify$ -- 186
+purify$ -- 215
 quote$ -- 0
-skip$ -- 393
+skip$ -- 442
 stack$ -- 0
-substring$ -- 836
-swap$ -- 69
+substring$ -- 971
+swap$ -- 80
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 249
+type$ -- 285
 warning$ -- 0
-while$ -- 121
+while$ -- 139
 width$ -- 0
-write$ -- 325
-(There was 1 error message)
+write$ -- 369
+(There were 4 error messages)
