@@ -1,4 +1,4 @@
-\begin{thebibliography}{41}
+\begin{thebibliography}{43}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -95,6 +95,10 @@ Joly, A., Etienne, S., Pelletier, D., Jan. 2012. {Galloping of square cylinders
 \bibitem[{Karniadakis and Sherwin(2005)}]{karniadakis2005}
 Karniadakis, G.~E., Sherwin, S., 2005. Spectral/hp element methods for
   computational fluid dynamics, ii Edition. Oxford University.
+
+\bibitem[{Kreyszig(2010)}]{kreyszig2010}
+Kreyszig, E., 2010. Advanced Engineering Mathematics, 10th Edition. John Wiley
+  \& Sons.
 
 \bibitem[{Lee et~al.(2011)Lee, Xiros, and Bernitsas}]{Lee2011a}
 Lee, J., Xiros, N., Bernitsas, M., Apr. 2011. {Virtual damper–spring system
@@ -209,6 +213,10 @@ Thompson, M.~C., Hourigan, K., Cheung, A., Leweke, T., Nov. 2006.
 Tong, X., Luo, S., Khoo, B., Oct. 2008. {Transition phenomena in the wake of an
   inclined square cylinder}. Journal of Fluids and Structures 24~(7),
   994--1005.
+
+\bibitem[{Tu et~al.(2008)Tu, Yeoh, and Liu}]{tu2007}
+Tu, J., Yeoh, G., Liu, C., 2008. Computational Fluid Dynamics: A Practical
+  Approach, 1st Edition. Butterworth-Heinemann.
 
 \bibitem[{Vio et~al.(2007)Vio, Dimitriadis, and Cooper}]{Vio2007}
 Vio, G., Dimitriadis, G., Cooper, J., Oct. 2007. {Bifurcation analysis and

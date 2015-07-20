@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  20 JUL 2015 13:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  21 JUL 2015 01:39
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -715,12 +715,12 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
  [18] [19]) [20] (./thesis-main.aux) ) 
 Here is how much of TeX's memory you used:
- 13250 strings out of 493118
- 255791 string characters out of 6135458
- 297703 words of memory out of 5000000
- 16382 multiletter control sequences out of 15000+600000
+ 13256 strings out of 493118
+ 255893 string characters out of 6135458
+ 297776 words of memory out of 5000000
+ 16388 multiletter control sequences out of 15000+600000
  15889 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,54p,1941b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,54p,1941b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (26 pages, 66572 bytes).
+Output written on thesis-main.dvi (26 pages, 67568 bytes).

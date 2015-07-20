@@ -51,24 +51,34 @@ On the other hand, equation \ref{power_alt} shows that a higher power is attaine
 
 \subsubsection{Direct numerical simulations (DNS)}
 
-Direct numerical simulations were employed to obtain the stationary data to be used as inputs to the QSS model and to obtain  fluid-structure interaction (FSI) data to be compared with the QSS model at low Reynolds numbers. A high-order in-house build spectral element code used to simulate two-dimensional laminar flows was used to obtain the DNS data.   
+Direct numerical simulations were employed to obtain the stationary data to be used as inputs to the QSS model and to obtain  fluid-structure interaction (FSI) data to be compared with the QSS model at low Reynolds numbers. A high-order in-house build spectral element which simulates two-dimensional laminar flows was used to obtain the DNS data.   
 
 
 \subsubsection{Boundary conditions}
 
-The boundary conditions, regardless of the mesh  were common for all the simulations performed. A no-slip condition was applied to the cross section wall. This condition implied that the velocity is zero at the surface of the cross section.  
+The boundary conditions, regardless of the mesh  were common for all the simulations performed. A no-slip condition was applied to the cross section wall. This condition implied that the velocity is zero at the surface of the cross section. For stationary simulations a Dirichlet boundary condition and for FSI cases a time-dependent Dirichlet boundary condition was employed for the velocity on the inlet and lateral boundaries. A Dirichlet boundary condition should have a specified value for the variables \citep{kreyszig2010} in this case velocity. The time-dependent Dirichlet condition has to be implemented for the FSI cases to account for the accelerated reference frame attached to the cross section. Thus, the inlet boundary was set to $u=U$ and $v=-\dot{y}$ for FSI cases and $v=0$ for stationary cases, where $u,v$ are the velocities in the $x$ and $y$ directions, respectively.
+
+A Neumann condition for the pressure (where the gradient of a property is specified \citet{tu2007}), where the normal gradient was calculated from the Navier--Stokes equations, was employed on the inlet, lateral and body surface \citep{gresho1987}, while a Dirichlet condition for the pressure ($p=0$ was enforced at the outlet. The details of the method can be found in \citet{Thompson2006,Thompson1996a}
+
+ Although the physical validity of the outlet boundary condition is not quite true, this does not turn out to be a significant problem provided that the Reynolds numbers are low and the domain is sufficiently far away from the body.
+
+
+\subsubsection{Spectral element method}
+ 
+ To obtain DNS results an in-house build code was used. This code essentially solves the Naiver-Stokes equations in an accelerated reference frame. A three-step time-splitting scheme also known as a fractional step method was used for temporal discretisation. A predictor-corrector method was used for the FSI data where an elastically mounted body was involved. A description of the spectral element method in general can be found in \citet{karniadakis2005}. This code has been very well validated in a variety of fluid-structure interaction problems similar to that studied in the current study \citep{Leontini2007a,Griffith2011,Leontini2011,Leontini2013}. Therefore, a validation studies for the code, the method and the algorithms are not discussed in this thesis. 
+ 
+\subsection{Convergence and validation studies}
+
+\subsubsection{Domain size}
+
+ For all cases, a rectangular domain was employed where the inlet was placed $20D$ from the centre of the body, while the outlet was situated $60D$ away from the centre of the body. The lateral boundaries were placed $20D$ away from the centre of the body.
 
 
 
 
-% %
- %a description of the spectral element method in general can be found in \citet{karniadakis2005}. This code has been very well validated in a variety of fluid-structure interaction problems similar to that studied in this paper \citep{Leontini2007a,Griffith2011,Leontini2011,Leontini2013}.
-% %
 
 
 
-
- For all cases, a rectangular domain was employed where the inlet was placed $20D$ from the centre of the body, while the outlet was situated $60D$ away from the centre of the body. The lateral boundaries were placed $20D$ away from the centre of the body. The Navier--Stokes equations were solved in an accelerated frame of reference attached to the moving body, along with the body equation of motion given in equation \ref{equationofmotion}. A three-step time splitting scheme was used for the time integration. A time-dependent Dirichlet boundary condition was employed for the velocity on the inlet and lateral boundaries where $u=U$ and $v=-\dot{y}$ are the velocities in the $x$ and $y$ directions, respectively. A no-slip condition was enforced on the surface of the body. A Neumann condition, where the velocity gradient in the $x$ direction was set to zero, was enforced on the outlet. A Neumann condition for the pressure, where the normal gradient was calculated from the Navier--Stokes equations, was employed on the inlet, lateral and body surface \citep{gresho1987}, while a Dirichlet condition for the pressure ($p=0$ was enforced at the outlet. The details of the method can be found in \citet{Thompson2006,Thompson1996a}, and a description of the spectral element method in general can be found in \citet{karniadakis2005}. This code has been very well validated in a variety of fluid-structure interaction problems similar to that studied in this paper \citep{Leontini2007a,Griffith2011,Leontini2011,Leontini2013}.
 
 %The computational domain consists of 751 quadrilateral macro elements where the majority of the elements were concentrated near the square section. A freestream condition was given to the inlet, top and bottom boundaries and the normal velocity gradient was set to zero at the outlet. A convergence study was performed by changing the order of the polynomial ($p$-refinement) at $U^*=40$ and $\reynoldsnumber=200$. A $9^{th}$ order polynomial together with a time step of $\Delta tU/D=0.001$ was sufficient to ensure an accuracy of $2\%$ with regards to amplitude of oscillation.
 

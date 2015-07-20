@@ -15,3 +15,4 @@
 \contentsline {section}{\numberline {2.3}Calculation of average power}{13}
 \contentsline {subsubsection}{Direct numerical simulations (DNS)}{14}
 \contentsline {subsubsection}{Boundary conditions}{14}
+\contentsline {subsubsection}{Solving method}{15}
