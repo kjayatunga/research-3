@@ -15,4 +15,6 @@
 \contentsline {section}{\numberline {2.3}Calculation of average power}{13}
 \contentsline {subsubsection}{Direct numerical simulations (DNS)}{14}
 \contentsline {subsubsection}{Boundary conditions}{14}
-\contentsline {subsubsection}{Solving method}{15}
+\contentsline {subsubsection}{Spectral element method}{15}
+\contentsline {subsection}{\numberline {2.3.1}Convergence and validation studies}{15}
+\contentsline {subsubsection}{Domain size}{15}

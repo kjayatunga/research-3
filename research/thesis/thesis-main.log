@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  21 JUL 2015 01:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  22 JUL 2015 14:09
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -703,24 +703,47 @@ Overfull \hbox (869.55186pt too wide) in paragraph at lines 7--8
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-[13] [14]) [15] [16
+[13] [14] (./chapter-methodology/figures/square-mesh.tex
+File: ./chapter-methodology/fnp/square-mesh.eps Graphic file (type eps)
+
+<./chapter-methodology/fnp/square-mesh.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chapter-methodology/figures/zoom-mesh.tex
+File: ./chapter-methodology/fnp/mesh.eps Graphic file (type eps)
+
+<./chapter-methodology/fnp/mesh.eps>
+File: ./chapter-methodology/fnp/hyb0.75-mesh.eps Graphic file (type eps)
+
+<./chapter-methodology/fnp/hyb0.75-mesh.eps>
+File: ./chapter-methodology/fnp/hyb0.5-mesh.eps Graphic file (type eps)
+
+<./chapter-methodology/fnp/hyb0.5-mesh.eps>
+File: ./chapter-methodology/fnp/hyb0.25-mesh.eps Graphic file (type eps)
+
+<./chapter-methodology/fnp/hyb0.25-mesh.eps>
+File: ./chapter-methodology/fnp/triangle-mesh.eps Graphic file (type eps)
+
+<./chapter-methodology/fnp/triangle-mesh.eps>)) [15] [16] [17] [18
 
 
-] (./thesis-main.bbl [17
+]
+(./thesis-main.bbl [19
 
 
 ]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [18] [19]) [20] (./thesis-main.aux) ) 
+ [20] [21]) [22] (./thesis-main.aux) ) 
 Here is how much of TeX's memory you used:
- 13256 strings out of 493118
- 255893 string characters out of 6135458
- 297776 words of memory out of 5000000
- 16388 multiletter control sequences out of 15000+600000
+ 13280 strings out of 493118
+ 256558 string characters out of 6135458
+ 297811 words of memory out of 5000000
+ 16399 multiletter control sequences out of 15000+600000
  15889 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,54p,1941b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (26 pages, 67568 bytes).
+Output written on thesis-main.dvi (28 pages, 71920 bytes).
