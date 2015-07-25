@@ -18,45 +18,45 @@ Repeated entry---line 537 of file ./Paper.bib.bib
  : @article{tong2008
  :                  ,
 I'm skipping whatever remains of this entry
-You've used 43 entries,
+You've used 45 entries,
             2821 wiz_defined-function locations,
-            912 strings with 11899 characters,
-and the built_in function-call counts, 21104 in all, are:
-= -- 2199
-> -- 1011
-< -- 28
-+ -- 377
-- -- 330
-* -- 1834
-:= -- 3790
-add.period$ -- 130
-call.type$ -- 43
-change.case$ -- 329
-chr.to.int$ -- 73
-cite$ -- 43
-duplicate$ -- 779
-empty$ -- 1455
-format.name$ -- 463
-if$ -- 4290
+            925 strings with 12215 characters,
+and the built_in function-call counts, 22129 in all, are:
+= -- 2309
+> -- 1057
+< -- 29
++ -- 394
+- -- 345
+* -- 1928
+:= -- 3970
+add.period$ -- 136
+call.type$ -- 45
+change.case$ -- 344
+chr.to.int$ -- 75
+cite$ -- 45
+duplicate$ -- 815
+empty$ -- 1526
+format.name$ -- 486
+if$ -- 4498
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 48
-newline$ -- 136
-num.names$ -- 172
-pop$ -- 307
+missing$ -- 50
+newline$ -- 142
+num.names$ -- 180
+pop$ -- 320
 preamble$ -- 1
-purify$ -- 282
+purify$ -- 295
 quote$ -- 0
-skip$ -- 588
+skip$ -- 614
 stack$ -- 0
-substring$ -- 1250
-swap$ -- 117
+substring$ -- 1324
+swap$ -- 123
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 366
+type$ -- 384
 warning$ -- 0
-while$ -- 182
+while$ -- 191
 width$ -- 0
-write$ -- 479
+write$ -- 501
 (There were 4 error messages)

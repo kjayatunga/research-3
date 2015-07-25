@@ -18,3 +18,12 @@
 \contentsline {subsubsection}{Spectral element method}{15}
 \contentsline {subsection}{\numberline {2.3.1}Convergence and validation studies}{15}
 \contentsline {subsubsection}{Domain size}{15}
+\contentsline {subsubsection}{Convergence}{15}
+\contentsline {chapter}{\numberline {3}Governing parameters of fluid-elastic galloping}{18}
+\contentsline {section}{\numberline {3.1}Introduction}{18}
+\contentsline {section}{\numberline {3.2}Formulation of the non-dimensionalised parameters \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}}{19}
+\contentsline {section}{\numberline {3.3}Quasi-steady state results}{21}
+\contentsline {subsection}{\numberline {3.3.1}Classical VIV parameters vs. \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}.}{21}
+\contentsline {subsection}{\numberline {3.3.2}High and low \ensuremath {Re}\ data}{22}
+\contentsline {subsection}{\numberline {3.3.3}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{24}
+\contentsline {subsection}{\numberline {3.3.4}Dependence on the mass ratio \ensuremath {m^{*}}}{28}

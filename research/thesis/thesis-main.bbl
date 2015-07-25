@@ -1,4 +1,4 @@
-\begin{thebibliography}{43}
+\begin{thebibliography}{45}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -99,6 +99,11 @@ Karniadakis, G.~E., Sherwin, S., 2005. Spectral/hp element methods for
 \bibitem[{Kreyszig(2010)}]{kreyszig2010}
 Kreyszig, E., 2010. Advanced Engineering Mathematics, 10th Edition. John Wiley
   \& Sons.
+
+\bibitem[{Lee and Bernitsas(2011)}]{Lee2011b}
+Lee, J., Bernitsas, M., Nov. 2011. {High-damping, high-Reynolds VIV tests for
+  energy harnessing using the VIVACE converter}. Ocean Engineering 38~(16),
+  1697--1712.
 
 \bibitem[{Lee et~al.(2011)Lee, Xiros, and Bernitsas}]{Lee2011a}
 Lee, J., Xiros, N., Bernitsas, M., Apr. 2011. {Virtual damper–spring system
@@ -217,6 +222,12 @@ Tong, X., Luo, S., Khoo, B., Oct. 2008. {Transition phenomena in the wake of an
 \bibitem[{Tu et~al.(2008)Tu, Yeoh, and Liu}]{tu2007}
 Tu, J., Yeoh, G., Liu, C., 2008. Computational Fluid Dynamics: A Practical
   Approach, 1st Edition. Butterworth-Heinemann.
+
+\bibitem[{Vicente-Ludlam et~al.(2014)Vicente-Ludlam, Barrero-Gil, and
+  Velazquez}]{vicente-Ludlam2014}
+Vicente-Ludlam, D., Barrero-Gil, A., Velazquez, A., 2014. Optimal
+  electromagnetic energy extraction from transverse galloping. Journal of
+  Fluids and Structures 51, 281--291.
 
 \bibitem[{Vio et~al.(2007)Vio, Dimitriadis, and Cooper}]{Vio2007}
 Vio, G., Dimitriadis, G., Cooper, J., Oct. 2007. {Bifurcation analysis and

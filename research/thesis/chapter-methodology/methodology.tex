@@ -31,14 +31,14 @@ The ideal potential amount of harvested power output could be represented as the
 
 
 \begin{equation}
-\label{power}
+\label{eqn:power}
 P_{m}=\frac{1}{T}\int_{0}^{T}(c\dot{y})\dot{y} dt,
 \end{equation}
 where $T$ is the period of integration and $c$ is the mechanical damping constant. 
 
 The work done on the body by the fluid is equal to this quantity, defined as
 \begin{equation}
-\label{power_alt}
+\label{eqn:power_alt}
 P_{m}=\frac{1}{T}\int_{0}^{T}F_y\dot{y} dt,
 \end{equation}
 where $F_y$ is the transverse (lift) force.
@@ -71,18 +71,24 @@ A Neumann condition for the pressure (where the gradient of a property is specif
 
 \subsubsection{Domain size}
 
- For all cases, a rectangular domain was employed where the inlet was placed $20D$ from the centre of the body, while the outlet was situated $60D$ away from the centre of the body. The lateral boundaries were placed $20D$ away from the centre of the body.
+ For all cases, a rectangular domain was employed where the inlet was placed $20D$ from the centre of the body, while the outlet was situated $60D$ away from the centre of the body. The lateral boundaries were placed $20D$ away from the centre of the body. The macro element arrangement of the general domain is shown figure \ref{fig:square-mesh} while the element arrangement near the cross sections are presented in figure \ref{fig:zoom-mesh}. 
  
  \input{./chapter-methodology/figures/square-mesh}
+ 
+ 
  \input{./chapter-methodology/figures/zoom-mesh}
 
+\subsubsection{Convergence}
+
+A series of simulations were carried out in order to ensure the results were grid independent. This was dong by by keeping the layout of the macro element the same and varying the order of the interpolation polynomial (\emph{p-refinement}). The displacement amplitudes were compared against various polynomial orders. The time step was also altered to meet the Courant condition. The summary of the results are presented \hilight{The results table}.
 
 
 
 
 
 
-%The computational domain consists of 751 quadrilateral macro elements where the majority of the elements were concentrated near the square section. A freestream condition was given to the inlet, top and bottom boundaries and the normal velocity gradient was set to zero at the outlet. A convergence study was performed by changing the order of the polynomial ($p$-refinement) at $U^*=40$ and $\reynoldsnumber=200$. A $9^{th}$ order polynomial together with a time step of $\Delta tU/D=0.001$ was sufficient to ensure an accuracy of $2\%$ with regards to amplitude of oscillation.
+
+
 
 
 
