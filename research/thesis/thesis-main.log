@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  26 JUL 2015 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  27 JUL 2015 15:13
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -877,10 +877,13 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/p_max.eps Graphic file (type eps)
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max.eps Graphic file (type eps)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max.eps>)
-(./chapter-pi_1_pi_2/figure/error.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+[31] (./chapter-pi_1_pi_2/figure/error.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/error.eps Graphic file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/error.eps>) [30] [31] [32]
+<./chapter-pi_1_pi_2/FnP/gnuplot/error.eps>)
 (./chapter-pi_1_pi_2/figure/spectrum.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_20_sig.eps Graphic file (type eps)
 
@@ -905,11 +908,11 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_100.eps Graphic file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/spec_100.eps>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_200.eps Graphic file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/spec_200.eps>)
+<./chapter-pi_1_pi_2/FnP/gnuplot/spec_200.eps>) [32]
 (./chapter-pi_1_pi_2/figure/spec_pow.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps Graphic file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps>)
+<./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps>) [33] [34]
 (./chapter-pi_1_pi_2/figure/flow_vis.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/10.eps Graphic file (type eps)
 
@@ -923,12 +926,13 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/250.eps Graphic file (type eps)
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps Graphic file (type eps)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps>)
-Underfull \vbox (badness 1062) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
-[34]) [35] [36] [37
+ [35]
+Overfull \vbox (17.8587pt too high) has occurred while \output is active []
 
-] [38
+
+[36]) [37] [38
 
 
 ] (./thesis-main.bbl [39
@@ -938,19 +942,18 @@ Underfull \vbox (badness 1062) has occurred while \output is active []
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [40] [41] [42]) [43]
-(./thesis-main.aux)
+ [40] [41] [42]) [43] (./thesis-main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13436 strings out of 493118
- 261112 string characters out of 6135458
- 300249 words of memory out of 5000000
- 16480 multiletter control sequences out of 15000+600000
+ 13437 strings out of 493118
+ 261135 string characters out of 6135458
+ 298260 words of memory out of 5000000
+ 16481 multiletter control sequences out of 15000+600000
  17136 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1941b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (51 pages, 137224 bytes).
+Output written on thesis-main.dvi (51 pages, 141784 bytes).

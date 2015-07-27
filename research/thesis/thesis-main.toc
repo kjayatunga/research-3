@@ -28,3 +28,4 @@
 \contentsline {subsection}{\numberline {3.3.3}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{24}
 \contentsline {subsection}{\numberline {3.3.4}Dependence on the mass ratio \ensuremath {m^{*}}}{28}
 \contentsline {subsection}{\numberline {3.3.5}Comparison with DNS data}{28}
+\contentsline {section}{\numberline {3.4}Summary of the governing parameters of fluid-elastic galloping}{36}
