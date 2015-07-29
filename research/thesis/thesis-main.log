@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  27 JUL 2015 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  30 JUL 2015 00:31
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -932,28 +932,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (17.8587pt too high) has occurred while \output is active []
 
 
-[36]) [37] [38
+[36]) (./chapter-frequnecy-response/results.tex [37]
+Chapter 4.
+[38
+
+] [39]) [40] [41
+
+] [42
 
 
-] (./thesis-main.bbl [39
+] (./thesis-main.bbl [43
 
 
 ]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [40] [41] [42]) [43] (./thesis-main.aux)
+ [44] [45] [46]) [47]
+(./thesis-main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13437 strings out of 493118
- 261135 string characters out of 6135458
- 298260 words of memory out of 5000000
- 16481 multiletter control sequences out of 15000+600000
+ 13442 strings out of 493118
+ 261283 string characters out of 6135458
+ 298280 words of memory out of 5000000
+ 16483 multiletter control sequences out of 15000+600000
  17136 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1941b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (51 pages, 141784 bytes).
+Output written on thesis-main.dvi (55 pages, 152344 bytes).

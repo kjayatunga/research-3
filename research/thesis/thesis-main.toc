@@ -29,3 +29,7 @@
 \contentsline {subsection}{\numberline {3.3.4}Dependence on the mass ratio \ensuremath {m^{*}}}{28}
 \contentsline {subsection}{\numberline {3.3.5}Comparison with DNS data}{28}
 \contentsline {section}{\numberline {3.4}Summary of the governing parameters of fluid-elastic galloping}{36}
+\contentsline {chapter}{\numberline {4}Frequency response of the system}{38}
+\contentsline {section}{\numberline {4.1}Introduction}{38}
+\contentsline {section}{\numberline {4.2}Linear frequency of the system}{38}
+\contentsline {section}{\numberline {4.3}Finding the terminal velocity of the body when no frequency is predicted by equation 8}{39}
