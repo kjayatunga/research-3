@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  30 JUL 2015 00:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  7 AUG 2015 21:28
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -587,7 +587,11 @@ Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 
 Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 
-)) (./thesis-main.aux)
+)) (./thesis-main.aux
+
+LaTeX Warning: Label `fig:surf_pres' multiply defined.
+
+)
 \openout1 = `thesis-main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -610,8 +614,7 @@ LaTeX Font Info:    ... okay on input line 88.
 ] [3
 
 
-]
-[4
+] [4
 
 
 ] (./thesis-main.toc
@@ -839,10 +842,6 @@ ype eps)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps>)
 
-LaTeX Warning: Reference `fig:lift_curves' on page 26 undefined on input line 1
-23.
-
-
 LaTeX Warning: Reference `power_alt' on page 26 undefined on input line 123.
 
 
@@ -936,31 +935,75 @@ Overfull \vbox (17.8587pt too high) has occurred while \output is active []
 Chapter 4.
 [38
 
-] [39]) [40] [41
+] [39]) (./chapter-cross-sections/results.tex [40]
+Chapter 5.
+(./chapter-cross-sections/figures/lift_curves.tex
+File: ./chapter-cross-sections/fnp/lift_curve_sq.eps Graphic file (type eps)
 
-] [42
+<./chapter-cross-sections/fnp/lift_curve_sq.eps>
+File: ./chapter-cross-sections/fnp/lift_curve_075.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/lift_curve_075.eps>
+File: ./chapter-cross-sections/fnp/lift_curve_05.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/lift_curve_05.eps>
+File: ./chapter-cross-sections/fnp/lift_curve_025.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/lift_curve_025.eps>
+File: ./chapter-cross-sections/fnp/lift_curve_tri.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/lift_curve_tri.eps>)
+(./chapter-cross-sections/figures/surf-pres.tex
+File: ./chapter-cross-sections/fnp/surf-pres-tri-4.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/surf-pres-tri-4.eps>
+File: ./chapter-cross-sections/fnp/surf-pres-tri-16.eps Graphic file (type eps)
 
 
-] (./thesis-main.bbl [43
+<./chapter-cross-sections/fnp/surf-pres-tri-16.eps>
+File: ./chapter-cross-sections/fnp/surf-pres-tri-21.eps Graphic file (type eps)
+
+
+<./chapter-cross-sections/fnp/surf-pres-tri-21.eps>)
+(./chapter-cross-sections/figures/vel-profile.tex
+File: ./chapter-cross-sections/fnp/vel_prof-tri-4.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/vel_prof-tri-4.eps>
+File: ./chapter-cross-sections/fnp/vel_prof-tri-16.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/vel_prof-tri-16.eps>
+File: ./chapter-cross-sections/fnp/vel_prof-tri-21.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/vel_prof-tri-21.eps>)) [41
+
+] [42] [43] [44]
+[45
+
+] [46
+
+
+] (./thesis-main.bbl [47
 
 
 ]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [44] [45] [46]) [47]
-(./thesis-main.aux)
+ [48] [49] [50]) [51] (./thesis-main.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 13442 strings out of 493118
- 261283 string characters out of 6135458
- 298280 words of memory out of 5000000
- 16483 multiletter control sequences out of 15000+600000
+ 13479 strings out of 493118
+ 262497 string characters out of 6135458
+ 298343 words of memory out of 5000000
+ 16495 multiletter control sequences out of 15000+600000
  17136 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1941b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (55 pages, 152344 bytes).
+Output written on thesis-main.dvi (59 pages, 156104 bytes).
