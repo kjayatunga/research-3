@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  7 AUG 2015 21:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  10 AUG 2015 01:18
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -591,6 +591,9 @@ Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 
 LaTeX Warning: Label `fig:surf_pres' multiply defined.
 
+
+LaTeX Warning: Label `fig:power_curves' multiply defined.
+
 )
 \openout1 = `thesis-main.aux'.
 
@@ -937,6 +940,10 @@ Chapter 4.
 
 ] [39]) (./chapter-cross-sections/results.tex [40]
 Chapter 5.
+(./chapter-cross-sections/figures/sketch-1.tex
+File: ./chapter-cross-sections/fnp/hybrid_section.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/hybrid_section.eps>)
 (./chapter-cross-sections/figures/lift_curves.tex
 File: ./chapter-cross-sections/fnp/lift_curve_sq.eps Graphic file (type eps)
 
@@ -953,6 +960,10 @@ File: ./chapter-cross-sections/fnp/lift_curve_025.eps Graphic file (type eps)
 File: ./chapter-cross-sections/fnp/lift_curve_tri.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/lift_curve_tri.eps>)
+(./chapter-cross-sections/figures/power_curves.tex
+File: ./chapter-cross-sections/fnp/mean_power_hyb.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/mean_power_hyb.eps>)
 (./chapter-cross-sections/figures/surf-pres.tex
 File: ./chapter-cross-sections/fnp/surf-pres-tri-4.eps Graphic file (type eps)
 
@@ -974,22 +985,27 @@ File: ./chapter-cross-sections/fnp/vel_prof-tri-16.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/vel_prof-tri-16.eps>
 File: ./chapter-cross-sections/fnp/vel_prof-tri-21.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/vel_prof-tri-21.eps>)) [41
+<./chapter-cross-sections/fnp/vel_prof-tri-21.eps>)
+(./chapter-cross-sections/figures/fsi_time_sketch.tex
+File: ./chapter-cross-sections/fnp/fsi_flow_sketch.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/fsi_flow_sketch.eps>)) [41
 
 ] [42] [43] [44]
-[45
+[45] [46] [47
 
-] [46
+] [48
 
 
-] (./thesis-main.bbl [47
+] (./thesis-main.bbl [49
 
 
 ]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [48] [49] [50]) [51] (./thesis-main.aux)
+ [50] [51] [52]) [53]
+(./thesis-main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -998,12 +1014,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13479 strings out of 493118
- 262497 string characters out of 6135458
- 298343 words of memory out of 5000000
- 16495 multiletter control sequences out of 15000+600000
+ 13495 strings out of 493118
+ 263051 string characters out of 6135458
+ 298364 words of memory out of 5000000
+ 16500 multiletter control sequences out of 15000+600000
  17136 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1941b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (59 pages, 156104 bytes).
+Output written on thesis-main.dvi (61 pages, 158252 bytes).

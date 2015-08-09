@@ -20,6 +20,8 @@ set output "f_y_history_015.eps"
 set label 'x 10^{-2}' at graph -0.01, graph 1.08
 set xtics nomirror
 set ytics nomirror
+set xtics notice
+
 set xtics (2600,2620,2640,2660)
 set xtics format " " 
 set ytics ("-6.0" -6e-2,"-3.0" -3e-2, "0" 0,"3.0" 3e-2,"6.0" 6.0e-2)
