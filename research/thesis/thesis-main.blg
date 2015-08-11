@@ -2,61 +2,50 @@ This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis-main.aux
 The style file: elsarticle-harv.bst
+I found no \citation commands---while reading file thesis-main.aux
 opyright is an illegal style-file command---line 1 of file elsarticle-harv.bst
  : opyright
  :          2007, 2008, 2009 Elsevier Ltd
 Database file #1: ./Paper.bib.bib
-Repeated entry---line 519 of file ./Paper.bib.bib
- : @article{Vio2007
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 528 of file ./Paper.bib.bib
- : @article{sheard2009
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 537 of file ./Paper.bib.bib
- : @article{tong2008
- :                  ,
-I'm skipping whatever remains of this entry
-You've used 45 entries,
+You've used 0 entries,
             2821 wiz_defined-function locations,
-            925 strings with 12215 characters,
-and the built_in function-call counts, 22129 in all, are:
-= -- 2309
-> -- 1057
-< -- 29
-+ -- 394
-- -- 345
-* -- 1928
-:= -- 3970
-add.period$ -- 136
-call.type$ -- 45
-change.case$ -- 344
-chr.to.int$ -- 75
-cite$ -- 45
-duplicate$ -- 815
-empty$ -- 1526
-format.name$ -- 486
-if$ -- 4498
+            631 strings with 4614 characters,
+and the built_in function-call counts, 29 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 8
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 50
-newline$ -- 142
-num.names$ -- 180
-pop$ -- 320
+missing$ -- 0
+newline$ -- 7
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 295
+purify$ -- 0
 quote$ -- 0
-skip$ -- 614
+skip$ -- 1
 stack$ -- 0
-substring$ -- 1324
-swap$ -- 123
+substring$ -- 0
+swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 384
+type$ -- 0
 warning$ -- 0
-while$ -- 191
+while$ -- 0
 width$ -- 0
-write$ -- 501
-(There were 4 error messages)
+write$ -- 6
+(There were 2 error messages)
