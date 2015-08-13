@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  11 AUG 2015 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  12 AUG 2015 21:18
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -617,33 +617,90 @@ LaTeX Font Info:    ... okay on input line 88.
 ] [4
 
 
-] (./thesis-main.toc)
+] (./thesis-main.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write5
 \openout5 = `thesis-main.toc'.
 
-
-[5
+ [5
 
 
 ] [6
 
 
-] (./chapter-cross-sections/results.tex
+]
+(./chapter-literature-revirw/literature.tex
 Chapter 1.
-(./chapter-cross-sections/figures/sketch-1.tex
+[1
+
+
+] (./chapter-literature-revirw/figures/sketch-1.tex
+File: ./chapter-literature-revirw/fnp/setup-1.eps Graphic file (type eps)
+
+<./chapter-literature-revirw/fnp/setup-1.eps>)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 33.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
+
+(./chapter-literature-revirw/figures/parkinson_data.tex
+File: ./chapter-literature-revirw/fnp/parkinson_data.eps Graphic file (type eps
+)
+
+<./chapter-literature-revirw/fnp/parkinson_data.eps>) [3] [4]
+(./chapter-literature-revirw/figures/shear_layers.tex
+File: ./chapter-literature-revirw/fnp/square-2.eps Graphic file (type eps)
+
+<./chapter-literature-revirw/fnp/square-2.eps>
+File: ./chapter-literature-revirw/fnp/square-4.eps Graphic file (type eps)
+
+<./chapter-literature-revirw/fnp/square-4.eps>
+File: .//chapter-literature-revirw/fnp/square-6.eps Graphic file (type eps)
+
+<.//chapter-literature-revirw/fnp/square-6.eps>
+Overfull \hbox (14.09998pt too wide) in paragraph at lines 18--19
+[][][] 
+ []
+
+) [5]
+Underfull \vbox (badness 6927) has occurred while \output is active []
+
+ [6]
+[7] (./chapter-literature-revirw/figures/per_diff_cross_sec.tex
+File: ./chapter-literature-revirw/fnp/per_cross_sec.eps Graphic file (type eps)
+
+
+<./chapter-literature-revirw/fnp/per_cross_sec.eps>
+Overfull \hbox (14.09998pt too wide) in paragraph at lines 15--16
+[][][] 
+ []
+
+) [8] [9]) (./chapter-cross-sections/results.tex [10]
+Chapter 2.
+[11
+
+] (./chapter-cross-sections/figures/sketch-1.tex
 File: ./chapter-cross-sections/fnp/hybrid_section.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/hybrid_section.eps>
-LaTeX Font Info:    Try loading font information for U+msa on input line 10.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 10.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+<./chapter-cross-sections/fnp/hybrid_section.eps>)
 (./chapter-cross-sections/figures/lift_curves.tex
 File: ./chapter-cross-sections/fnp/lift_curve_sq.eps Graphic file (type eps)
 
@@ -716,38 +773,38 @@ Overfull \hbox (14.09998pt too wide) in paragraph at lines 35--36
 
 LaTeX Warning: Float too large for page by 1.33621pt on input line 38.
 
-)) [1
+)) [12] [13]
 
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Package Fancyhdr Warning: \headheight is too small (13.59999pt): 
  Make it at least 25.16252pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3] [4] [5] [6] [7] [8
+[14] [15] [16] [17] [18] [19
+
+] [20
 
 
-] (./thesis-main.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 7.
-
-) [9
+] (./thesis-main.bbl [21
 
 
-] (./thesis-main.aux)
+]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ [22]) [23]
+(./thesis-main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13112 strings out of 493118
- 253612 string characters out of 6135458
- 295453 words of memory out of 5000000
- 16233 multiletter control sequences out of 15000+600000
- 11992 words of font info for 44 fonts, out of 8000000 for 9000
+ 13281 strings out of 493118
+ 257240 string characters out of 6135458
+ 297082 words of memory out of 5000000
+ 16372 multiletter control sequences out of 15000+600000
+ 15889 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,54p,665b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,54p,1941b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (15 pages, 16652 bytes).
+Output written on thesis-main.dvi (29 pages, 58872 bytes).

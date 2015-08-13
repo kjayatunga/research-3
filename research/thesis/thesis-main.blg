@@ -2,50 +2,49 @@ This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis-main.aux
 The style file: elsarticle-harv.bst
-I found no \citation commands---while reading file thesis-main.aux
 opyright is an illegal style-file command---line 1 of file elsarticle-harv.bst
  : opyright
  :          2007, 2008, 2009 Elsevier Ltd
 Database file #1: ./Paper.bib.bib
-You've used 0 entries,
+You've used 29 entries,
             2821 wiz_defined-function locations,
-            631 strings with 4614 characters,
-and the built_in function-call counts, 29 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 8
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+            830 strings with 9639 characters,
+and the built_in function-call counts, 13891 in all, are:
+= -- 1458
+> -- 643
+< -- 17
++ -- 241
+- -- 210
+* -- 1190
+:= -- 2511
+add.period$ -- 88
+call.type$ -- 29
+change.case$ -- 216
+chr.to.int$ -- 38
+cite$ -- 29
+duplicate$ -- 513
+empty$ -- 971
+format.name$ -- 297
+if$ -- 2823
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 7
-num.names$ -- 0
-pop$ -- 0
+missing$ -- 31
+newline$ -- 94
+num.names$ -- 116
+pop$ -- 194
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 186
 quote$ -- 0
-skip$ -- 1
+skip$ -- 393
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 836
+swap$ -- 69
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 249
 warning$ -- 0
-while$ -- 0
+while$ -- 121
 width$ -- 0
-write$ -- 6
-(There were 2 error messages)
+write$ -- 325
+(There was 1 error message)

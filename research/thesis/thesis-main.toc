@@ -1,2 +1,12 @@
-\contentsline {chapter}{\numberline {1}Influence of fluid dynamics of the system on the extracted power}{1}
-\contentsline {section}{\numberline {1.1}Introduction}{1}
+\contentsline {chapter}{\numberline {1}A review of the literature}{1}
+\contentsline {section}{\numberline {1.1}Flow induced vibrations}{1}
+\contentsline {section}{\numberline {1.2}Fluid-elastic galloping}{1}
+\contentsline {subsection}{\numberline {1.2.1}Excitation of galloping}{1}
+\contentsline {subsection}{\numberline {1.2.2}Quasi-steady state theory}{2}
+\contentsline {subsection}{\numberline {1.2.3}Induced force and the shear layers}{5}
+\contentsline {subsection}{\numberline {1.2.4}Frequency response}{7}
+\contentsline {subsection}{\numberline {1.2.5}Fluid mechanics governing the galloping response}{7}
+\contentsline {subsection}{\numberline {1.2.6}Galloping as a mechanism of energy harvesting}{8}
+\contentsline {chapter}{\numberline {2}Influence of fluid dynamics of the system on the extracted power}{11}
+\contentsline {section}{\numberline {2.1}Introduction}{11}
+\contentsline {section}{\numberline {2.2}Influence of the shear layer}{12}
