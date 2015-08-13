@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{45}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -76,15 +76,56 @@ Deniz, S. amd~Staubli, T., 1997. Oscillating rectangular and octagonal
 Glauert, H., 1919. {The rotation of an aerofoil about a fixed axis}. Tech.
   rep., Advisory Committee on Aeronautics R and M 595. HMSO, London.
 
+\bibitem[{Gresho and Sani(1987)}]{gresho1987}
+Gresho, P.~M., Sani, R.~L., 1987. On pressure boundary conditions for the
+  incompressible {N}avier--{S}tokes equations. International journal for
+  numerical methods in fluids 7, 1111--1145.
+
+\bibitem[{Griffith et~al.(2011)Griffith, Leontini, Thompson, and
+  Hourigan}]{Griffith2011}
+Griffith, M.~D., Leontini, J.~S., Thompson, M.~C., Hourigan, K., 2011. Vortex
+  shedding and three-dimensional behaviour of flow past a cylinder confined in
+  a channel. Journal of Fluids and Structures 27~(5-6), 855--860.
+
 \bibitem[{Joly et~al.(2012)Joly, Etienne, and Pelletier}]{Joly2012}
 Joly, A., Etienne, S., Pelletier, D., Jan. 2012. {Galloping of square cylinders
   in cross-flow at low Reynolds numbers}. Journal of Fluids and Structures 28,
   232--243.
 
+\bibitem[{Karniadakis and Sherwin(2005)}]{karniadakis2005}
+Karniadakis, G.~E., Sherwin, S., 2005. Spectral/hp element methods for
+  computational fluid dynamics, ii Edition. Oxford University.
+
+\bibitem[{Kreyszig(2010)}]{kreyszig2010}
+Kreyszig, E., 2010. Advanced Engineering Mathematics, 10th Edition. John Wiley
+  \& Sons.
+
+\bibitem[{Lee and Bernitsas(2011)}]{Lee2011b}
+Lee, J., Bernitsas, M., Nov. 2011. {High-damping, high-Reynolds VIV tests for
+  energy harnessing using the VIVACE converter}. Ocean Engineering 38~(16),
+  1697--1712.
+
 \bibitem[{Lee et~al.(2011)Lee, Xiros, and Bernitsas}]{Lee2011a}
 Lee, J., Xiros, N., Bernitsas, M., Apr. 2011. {Virtual damper–spring system
   for VIV experiments and hydrokinetic energy conversion}. Ocean Engineering
   38~(5-6), 732--747.
+
+\bibitem[{Leontini et~al.(2011)Leontini, {Lo Jacono}, and
+  Thompson}]{Leontini2011}
+Leontini, J.~S., {Lo Jacono}, D., Thompson, M.~C., Nov. 2011. {A numerical
+  study of an inline oscillating cylinder in a free stream}. Journal of Fluid
+  Mechanics 688, 551--568.
+
+\bibitem[{Leontini and Thompson(2013)}]{Leontini2013}
+Leontini, J.~S., Thompson, M.~C., 2013. Vortex-induced vibrations of a diamond
+  cross-section: Sensitivity to corner sharpness. Journal of Fluids and
+  Structures 39, 371--390.
+
+\bibitem[{Leontini et~al.(2007)Leontini, Thompson, and
+  Hourigan}]{Leontini2007a}
+Leontini, J.~S., Thompson, M.~C., Hourigan, K., Apr. 2007. {Three-dimensional
+  transition in the wake of a transversely oscillating cylinder}. Journal of
+  Fluid Mechanics 577, 79.
 
 \bibitem[{Luo et~al.(2003)Luo, Chew, and Ng}]{Luo2003}
 Luo, S., Chew, Y., Ng, Y., Aug. 2003. {Hysteresis phenomenon in the galloping
@@ -144,11 +185,55 @@ Raghavan, K., Bernitsas, M.~M., Maroulis, D.~E., 2009. {Effect of Bottom
   {10^5} $}}. Journal of Offshore Mechanics and Arctic Engineering 131~(3),
   031102.
 
+\bibitem[{Robertson et~al.(2003)Robertson, Li, Sherwin, and
+  Bearman}]{Robertson2003}
+Robertson, I., Li, L., Sherwin, S.~J., Bearman, P.~W., 2003. A numerical study
+  of rotational and transverse galloping rectangular bodies. Journal of Fluids
+  and Structures 17, 681 -- 699.
+
 \bibitem[{Ruscheweyh et~al.(1996)Ruscheweyh, Hortmanns, and
   Schnakenberg}]{Ruscheweyh1996}
 Ruscheweyh, H., Hortmanns, M., Schnakenberg, C., 1996. Vortex-excited
   vibrations and galloping of slender elements. Journal of Wind Egineering and
   Industrial Aerodynamics 65, 347--352.
+
+\bibitem[{Sheard et~al.(2009)Sheard, Fitxgerald, and Ryan}]{sheard2009}
+Sheard, G.~J., Fitxgerald, M.~J., Ryan, K., Jun. 2009. {Cylinders with square
+  cross-section: wake instabilities with incidence angle variation}. Journal of
+  Fluid Mechanics 630, 43.
+
+\bibitem[{Thompson et~al.(1996)Thompson, Hourigan, and
+  Sheridan}]{Thompson1996a}
+Thompson, M., Hourigan, K., Sheridan, J., Feb. 1996. {Three-dimensional
+  instabilities in the wake of a circular cylinder}. Experimental Thermal and
+  Fluid Science 12~(2), 190--196.
+
+\bibitem[{Thompson et~al.(2006)Thompson, Hourigan, Cheung, and
+  Leweke}]{Thompson2006}
+Thompson, M.~C., Hourigan, K., Cheung, A., Leweke, T., Nov. 2006.
+  {Hydrodynamics of a particle impact on a wall}. Applied Mathematical
+  Modelling 30~(11), 1356--1369.
+
+\bibitem[{Tong et~al.(2008)Tong, Luo, and Khoo}]{tong2008}
+Tong, X., Luo, S., Khoo, B., Oct. 2008. {Transition phenomena in the wake of an
+  inclined square cylinder}. Journal of Fluids and Structures 24~(7),
+  994--1005.
+
+\bibitem[{Tu et~al.(2008)Tu, Yeoh, and Liu}]{tu2007}
+Tu, J., Yeoh, G., Liu, C., 2008. Computational Fluid Dynamics: A Practical
+  Approach, 1st Edition. Butterworth-Heinemann.
+
+\bibitem[{Vicente-Ludlam et~al.(2014)Vicente-Ludlam, Barrero-Gil, and
+  Velazquez}]{vicente-Ludlam2014}
+Vicente-Ludlam, D., Barrero-Gil, A., Velazquez, A., 2014. Optimal
+  electromagnetic energy extraction from transverse galloping. Journal of
+  Fluids and Structures 51, 281--291.
+
+\bibitem[{Vio et~al.(2007)Vio, Dimitriadis, and Cooper}]{Vio2007}
+Vio, G., Dimitriadis, G., Cooper, J., Oct. 2007. {Bifurcation analysis and
+  limit cycle oscillation amplitude prediction methods applied to the
+  aeroelastic galloping problem}. Journal of Fluids and Structures 23~(7),
+  983--1011.
 
 \bibitem[{Weaver and Veljkovic(2005)}]{Weaver2005}
 Weaver, D.~S., Veljkovic, I., 2005. Vortex shedding and galloping of open
