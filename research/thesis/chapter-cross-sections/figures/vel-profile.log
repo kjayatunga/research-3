@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  11 AUG 2015 11:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  15 AUG 2015 20:42
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -353,8 +353,8 @@ you left one out. Proceed, with fingers crossed.
 ! Undefined control sequence.
 <argument> \small 
                   (a)
-l.17     \put(0.2,1.41){\small(a)}
-                                  
+l.17     \put(0.21,1.41){\small(a)}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -367,7 +367,7 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <argument> \small 
                   (b)
-l.18      \put(0.15,1.05){\small(b)}
+l.18      \put(0.21,1.05){\small(b)}
                                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -381,7 +381,7 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <argument> \small 
                   (c)
-l.19      \put(0.15,0.69){\small(c)}
+l.19      \put(0.21,0.69){\small(c)}
                                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -392,17 +392,32 @@ and I'll forget about whatever was undefined.
 Missing character: There is no ( in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no ) in font nullfont!
-! Undefined control sequence.
-<recently read> \massdamp 
-                          
-l.23 \put(0.466,0.35){$\massdamp$}
-                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+Missing character: There is no D in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -804,13 +819,8 @@ Overfull \hbox (14.59726pt too wide) in paragraph at lines 28--31
  []
 
 
-Overfull \hbox (16.98955pt too wide) in paragraph at lines 28--31
-\OML/cmm/m/it/10  \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (9.59724pt too wide) in paragraph at lines 28--31
-\OT1/cmr/m/n/10 4[]$
+Overfull \hbox (21.58678pt too wide) in paragraph at lines 28--31
+\OML/cmm/m/it/10  \OT1/cmr/m/n/10 =[]$
  []
 
 )
@@ -821,11 +831,11 @@ Overfull \hbox (9.59724pt too wide) in paragraph at lines 28--31
 
  
 Here is how much of TeX's memory you used:
- 12 strings out of 493118
- 214 string characters out of 6135458
+ 11 strings out of 493118
+ 206 string characters out of 6135458
  52906 words of memory out of 5000000
- 3575 multiletter control sequences out of 15000+600000
+ 3574 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 20i,10n,15p,363b,99s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 20i,8n,15p,362b,99s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.

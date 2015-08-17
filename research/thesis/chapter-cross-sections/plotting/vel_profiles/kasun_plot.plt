@@ -13,7 +13,7 @@ set ytics nomirror
 #set xtics (0,0.2,0.4,0.6,0.8,"1.0" 1)
 set ytics (0.3,0.6,0.9,1.2,1.5)
 set xtics format " " 
-plot [][0.6:1.5] "tri-4-lvp" u 3:6 w p pt 2, "tri-4-uvp"   u 3:6 w p pt 3
+plot [][0.6:1.5] "tri-4-lvp" u 3:6 w l lt 1, "tri-4-uvp"   u 3:6 w l lt 0
 
 
 ##############################
@@ -30,7 +30,7 @@ set ytics nomirror
 #set xtics (0,0.2,0.4,0.6,0.8,"1.0" 1)
 set ytics (0.3,0.6,0.9,1.2,1.5)
 set xtics format " " 
-plot [][0.6:1.5] "tri-16-lvp" u 3:6 w p pt 2, "tri-16-uvp"   u 3:6 w p pt 3
+plot [][0.6:1.5] "tri-16-lvp" u 3:6 w l lt 1 lw 1, "tri-16-uvp"   u 3:6 w l lt 0 lw 2
 
 
 ##########################
@@ -46,7 +46,7 @@ set ytics nomirror
 #set xtics (0,0.2,0.4,0.6,0.8,"1.0" 1)
 set ytics (0.3,0.6,0.9,1.2,1.5)
 #set xtics format " " 
-plot [][0.6:1.5] "tri-21-lvp" u 3:6 w p pt 2, "tri-21-uvp"   u 3:6 w p pt 3
+plot [][0.6:1.5] "tri-21-lvp" u 3:6 w l lt 1 lw 1, "tri-21-uvp"   u 3:6 w l lt 0 lw 2
 
 ##########################
 reset
@@ -60,7 +60,7 @@ set xtics nomirror
 set ytics nomirror
 set xtics (0,0.2,0.4,0.6,0.8,"1.0" 1)
 set ytics (0.3,0.6,0.9,1.2,1.5)
-plot [][0.6:1.5] "tri-26-lvp" u 3:6 w p pt 2, "tri-26-uvp"   u 3:6 w p pt 3
+plot [][0.6:1.5] "tri-26-lvp" u 3:6 w l lt 1 lw 1, "tri-26-uvp"   u 3:6 w l lt 0 lw 2
 
 
 

@@ -6,7 +6,7 @@ unset key
 #unset ylabel 
 set term postscript enhanced portrait monochrome size 12cm,6cm "Times-roman" 12
 set output "surf-pres-tri-4.eps"
-set pointsize 0.6
+set pointsize 1
 #set label '{/Symbol \264}   10^{-3}' at graph 0.0, graph 1.07
 set xtics nomirror
 set ytics nomirror
@@ -23,7 +23,7 @@ unset key
 #unset ylabel 
 set term postscript enhanced portrait monochrome size 12cm,6cm "Times-roman" 12
 set output "surf-pres-tri-16.eps"
-set pointsize 0.6
+set pointsize 1
 #set label '{/Symbol \264}   10^{-3}' at graph 0.0, graph 1.07
 set xtics nomirror
 set ytics nomirror
@@ -40,7 +40,7 @@ unset key
 #unset ylabel 
 set term postscript enhanced portrait monochrome size 12cm,6cm "Times-roman" 12
 set output "surf-pres-tri-21.eps"
-set pointsize 0.6
+set pointsize 1
 #set label '{/Symbol \264}   10^{-3}' at graph 0.0, graph 1.07
 set xtics nomirror
 set ytics nomirror

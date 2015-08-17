@@ -5,10 +5,24 @@
 
 This chapter contains the formulation of non dimensional governing parameters namely, the combined mass-stiffness \massstiff \ and the combined mass-damping \massdamp \ and the results and discussion demonstrating the influence of them. These parameters are formulated by obtaining the relevant time-scales of the system followed by non-dimesnionlising the governing QSS oscillator equation.  
 
-A comparison of Quasi-steady state data presented using the classical VIV parameters and the newly formulated \massstiff \ and \massdamp is presented and it is concluded that \massdamp provides a better collapse for velocity amplitude and mean power compared the classical reduced velocity (\ustar) particularly because unlike \ustar, \massdamp \ does not include a frequency component in it. This is followed by the presentation of QSS data and discussion on the influence of \massstiff \ and \massdamp \ on power, which concludes that the power transfer is a primary function of \massdamp \ and a weak function of \massstiff.
+First, the static body results are presented and discussed. Then, a comparison of Quasi-steady state data presented using the classical VIV parameters and the newly formulated \massstiff \ and \massdamp is presented and it is concluded that \massdamp provides a better collapse for velocity amplitude and mean power compared the classical reduced velocity (\ustar) particularly because unlike \ustar, \massdamp \ does not include a frequency component in it. This is followed by the presentation of QSS data and discussion on the influence of \massstiff \ and \massdamp \ on power, which concludes that the power transfer is a primary function of \massdamp \ and a weak function of \massstiff.
 
 Following this, a comparison of the QSS data with Direct Numerical Simulations (DNS) is presented. This reveals that the power transfer of the DNS data is strongly influenced by both \massstiff \ and \massdamp. Further analysis reveals that there is a good agreement between QSS and DNS for velocity and power at substantially high \massstiff\. As \massstiff \ decreases, the deviation (between QSS simulations and DNS) increases. Power spectral analysis of the DNS data shows a significant response at the vortex shedding at low \massstiff. The relative strength was found out to be an inverse function of \massstiff, which provides a clear explanation for the deviation between QSS simulations and DNS data at low \massstiff. This is primarily due to the influence of vortex shedding where this effect is not accounted in the QSS model.
 
+
+\subsection{Static body results}
+
+
+
+Figure \ref{fig:lift_curves} shows the plots $C_y$ as a function of $\theta$, as well as the interpolation polynomials. For high \reynoldsnumber\ the polynomial incorporated by \cite{Parkinson1964} was used. For low \reynoldsnumber\ a $7^{th}$ order polynomial was fitted using nonlinear least-squares regression. The coefficients of these polynomial fits are shown in table \ref{table:cy-coefficients}.
+
+\input{./chapter-pi_1_pi_2/figure/cy_vs_theta.tex}
+
+\input{./chapter-pi_1_pi_2/figure/coefficient-table}
+
+There are several differences that can be observed between high and low Reynolds number data. The peak value of $C_y$ is  significantly lower at $\reynoldsnumber=200$ ($C_y=0.12$ at $5^\circ$) compared to $\reynoldsnumber=22300$ ($C_y=0.57$ at $13^\circ$) . The inflection point present around $8^\circ$ for $\reynoldsnumber=22300$ is not present at $\reynoldsnumber=200$. This agrees with the findings of \cite{Luo2003}.  It was concluded by \cite{Luo2003} that hysteresis in the system response occurs due to the inflection point in the $C_y$ curve. Therefore hysteresis is not expected at $\reynoldsnumber=200$.
+
+The range of incident flow angles where $C_y$ remains positive is narrow at $\reynoldsnumber=200$ ($0^\circ <\theta \leq$ $7^\circ$) compared to $\reynoldsnumber=22300$ ($0^\circ <\theta \leq 15^\circ$). This feature is what sustains galloping. Power is only transferred from the fluid to the supporting structure within this range of incident angles because fluid forces are acting in the direction of travel of, or in phase with, the oscillating body as demonstrated by equation \ref{power_alt}. Incident angles beyond this range actually suppress the galloping and power is transferred in the opposite direction, i.e; from body to fluid. Therefore due to the overall smaller $C_y$ and narrow range of angles where $C_y$ is positive for $\reynoldsnumber=200$ compared to $\reynoldsnumber=22300$, it is expected that the transferred power at $\reynoldsnumber=200$ is significantly lower than at $\reynoldsnumber=22300$.
 
 \section{Formulation of the non-dimensionalised parameters \massstiff \ and \massdamp }
 \label{sec: pi_1,pi_2_formulation}
