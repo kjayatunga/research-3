@@ -49,9 +49,129 @@ On the other hand, equation \ref{power_alt} shows that a higher power is attaine
 
 
 
-\subsubsection{Direct numerical simulations (DNS)}
+\section{Direct numerical simulations (DNS)}
 
-Direct numerical simulations were employed to obtain the stationary data to be used as inputs to the QSS model and to obtain  fluid-structure interaction (FSI) data to be compared with the QSS model at low Reynolds numbers. A high-order in-house build spectral element which simulates two-dimensional laminar flows was used to obtain the DNS data.   
+Direct numerical simulations were employed to obtain the stationary data to be used as inputs to the QSS model and to obtain  fluid-structure interaction (FSI) data to be compared with the QSS model at low Reynolds numbers. A high-order in-house build spectral element which simulates two-dimensional laminar flows was used to obtain the DNS data.
+
+\subsection{Governing equations}
+ 
+ Assumptions have to be made in any numerical simulation. In this study, the following key assumptions were made to carry out the direct numerical simulations. 
+ 
+ To formulate the differential equations to an infinitesimally small fluid section, the fluid was assumed to be continuum. This assumption is valid for all macro flows. However, it the validity of this assumptions as the fluid dynamics involved reduces to micro and nano scale as the lengths scales involved approaches length scales of the molecules.
+ 
+ Next, To avoid the consideration of acoustic wave propagation it was assumed that the density of the fluid is constant hence, the fluid is incompressible. This particular assumption is valid for Mach numbers (ratio of the speed of sound to the speed of fluid flow ) less than 0.3. In order to disregard the density gradients the fluid was assumed to be isothermal. 
+ 
+ Finally, the fluid was assumed to be an Newtonian fluid, which means that the shear stress is directly proportional to the strain rate. 
+ 
+ These assumptions are quite standard and further information could be found in \citet{White99}.        
+
+The Naiver-Stokes equations are the equations which describes a Newtonian, incompressible contentious fluid.
+  \begin{equation} \centering
+  \label{eq:nsdim}
+  \pderiv{\vecu}{t} + (\vecu\cdot\nabla)\vecu\ = -\frac{\grad{\pres}}{\density} + \frac{\dynvis}{\density}(\gradsq{\vecu})~,
+  \end{equation}
+  and continuity,
+  \begin{equation} \centering
+  \divergence{\vecu} = 0~.
+  \end{equation}
+  
+  The velocity vector filed is represented by \vecu, time variable by $t$, the pressure field by \pres \ fluid density by \density \ and the dynamic or kinematic viscosity by \dynvis. In the Naiver-stokes equation (\ref{eq:nsdim}) the left hand side represents the inertial forces and the right hand side represents the pressure forces. The net mass flux into the fluid element is specified to be zero by the continuity equation. 
+  
+  These equations are generalised by non-dimensionalisation. In the case of bluff body wake flows, the equations are non-dimensionalised by using the characteristic length of the body i.e the frontal projected hight \diam, and the free-stream velocity \Ufree. 
+  
+  The equations are modified  to  be solved in an accelerated reference frame in this particular study where the frame of reference is attached to the cylinder. Therefore, an extra term is added to the Naiver-stokes equations which the acceleration of the cylinder. Thus, the equations could be written as, 
+  
+  \begin{equation} \centering
+  \label{eq:nsfinal}
+  \pderiv{\vecV}{\tau} = -\grad{\Pres} + \frac{1}{\Rey}(\gradsq{\vecV}) - (\vecV\cdot\nabla)\vecV + \accframe ~,
+  \end{equation}
+  \begin{equation}
+  \label{eq:continuity}
+  \divergence{\vecV} = 0~.
+  \end{equation}
+  
+   $\vecV = \vecu/U$, $\tau = tU/D$, $\Pres = \pres/(\density
+  U^{2})$, $\Rey = \density UD/(\dynvis)$, $\Vcyl = \vcyl/U$, and 
+  $\vcyl$ being the velocity of the cylinder. \accframe, represents acceleration term.  
+  
+  The Naiver-Stokes equations are coupled by with the oscillator differential equation 
+  
+  \begin{equation} \centering
+  \label{eq:cyl_eom}
+  \frac{\ddot{y}_{cyl}}{D} + 2\damping\sqrt{\kstar}\frac{\dot{y}_{cyl}}{D} + \kstar\frac{\ycyl}{D} = \frac{\pi}{2}\frac{\clift}{\mstar} ~,
+  \end{equation}
+
+  
+  
+  
+    \damping \ is the damping ratio,  $\kstar=kD^{2}/m\Ufree^{2}$ and
+    $\clift = \liftf/(0.5\density U^{2}D)$. The lift
+    coefficient per unit length of the body is \clift, the transverse displacement of the cylinder is given by \ycyl,  the characteristic length scale of the body is $D$, $k$ is the spring constant and the mass per unit length of the body is represented by $m$. The general form of this linear oscillator equation could be found in books such as  \citet{Naudascher:94}. The final form of the coefficients were constructed by non-dimensionalising the general from of the oscillator equation. 
+    
+    
+ \subsection{Discretisation}
+ 
+ \subsubsection{Temporal discretisation:Time-splitting}
+ 
+ The problem was discretised in order to solve equations \ref{eq:nsfinal}, \ref{eq:continuity} and \ref{eq:cyl_eom} in both space and time. A three-step time splitting method was used for the temporal discretisation. This scheme also known as the fractional step method, was used to separately integrate the terms in the right hand side of the Naiver-Stokes equation. The overall integration of one time-step is split into three substeps. An approximate solution of the Naiver-Stokes equation is gained by this scheme. 
+ 
+ The cylinder acceleration is integrated through the whole time step in order to obtain a initial approximation of the intermediate velocity filed. This velocity filed is used as the stating condition. The pressure is integrated using this starting condition.  A secondary intermediate velocity filed is obtained as a result of the pressure integration substep. This secondary velocity filed is then used as the starting condition for the integration of the diffusion of term which results in the final velocity filed. 
+ 
+ The three semi-discretised substep equations are as follows:
+ 
+\begin{equation} \centering
+\label{eq:substep1}
+\Vint - \Vn - \Delta\Vcyl = -\int_{\tau}^{\tau+\Delta\tau}(\vecV\cdot\nabla)\vecV \mathrm{d}\tau
+\end{equation}
+\begin{equation} \centering
+\label{eq:substep2}
+\Vintint - \Vint = -\int_{\tau}^{\tau+\Delta\tau}\nabla\Pres \mathrm{d}\tau
+\end{equation}
+\begin{equation} \centering
+\label{eq:substep3}
+\Vnext-\Vintint = \frac{1}{\Rey}\int_{\tau}^{\tau+\Delta\tau}\gradsq{\vecV} \mathrm{d}\tau,
+\end{equation} 
+ 
+The current time step is represented by $n$ and the intermediate velocity fields at the end the convection and pressure substeps are $\Vint$ and $\Vintint$ respectively. The change in the body over a time step is given by $\Delta\Vcyl =
+\int_{\tau}^{\tau+\Delta\tau}\accframe \mathrm{d}\tau$. 
+
+The addition of these three substep equations reduces to the integrated form of the Naiver-Stokes equation in equation \ref{eq:nsfinal}. 
+
+\subsection{Integration of the substep equations}
+\label{subsec:sol}
+ 
+ The integration methods of the pressure, convection and diffusion substeps are presented in this subsection. 
+ 
+ \subsubsection{The convection substep}
+ \label{subsub:convec}
+ 
+As the system has a free oscillation, a coupling between the oscillation equation (equation \ref{eq:cyl_eom}) and the Naiver-Stokes equations had to be employed. As a result, the cylinder dynamics had to be solved at each time-step.
+
+An iterative predictor-corrector scheme was scheme was employed to obtain the solution of the coupled equations. The initial step being the ``predictor" step was obtaining approximations for all the quantities involved in  the integration. A quadratic extrapolation was used to obtain an initial estimate of $\Delta\Vcyl$ from  three previous time step values of $\Vcyl$. Therefore, a non-dynamical approximation could be obtained.  
+ 
+ 
+\begin{equation} \centering
+\label{eq:vcyl_start}
+\Vcyl^{(n+1)\dag} = 3\Vcyl^{(n)} - 3\Vcyl^{(n-1)} + \Vcyl^{(n-2)} ~,
+\end{equation}
+
+
+The dagger ($\dag$) represents that the value is an initial approximation eg. $\Vcyl^{(n+1)\dag}$. Thus, $\Delta\Vcyl^{\dag}$ was obtained by a simple subtraction of the value at the current time step. 
+
+
+
+
+
+ 
+
+
+
+
+% % % % %
+\subsubsection{Spectral element method}
+
+To obtain DNS results an in-house build code was used. This code essentially solves the Naiver-Stokes equations in an accelerated reference frame. A three-step time-splitting scheme also known as a fractional step method was used for temporal discretisation. A predictor-corrector method was used for the FSI data where an elastically mounted body was involved. A description of the spectral element method in general can be found in \citet{karniadakis2005}. This code has been very well validated in a variety of fluid-structure interaction problems similar to that studied in the current study \citep{Leontini2007a,Griffith2011,Leontini2011,Leontini2013}. Therefore, a validation studies for the code, the method and the algorithms are not discussed in this thesis. 
+   
 
 
 \subsubsection{Boundary conditions}
@@ -63,9 +183,6 @@ A Neumann condition for the pressure (where the gradient of a property is specif
  Although the physical validity of the outlet boundary condition is not quite true, this does not turn out to be a significant problem provided that the Reynolds numbers are low and the domain is sufficiently far away from the body.
 
 
-\subsubsection{Spectral element method}
- 
- To obtain DNS results an in-house build code was used. This code essentially solves the Naiver-Stokes equations in an accelerated reference frame. A three-step time-splitting scheme also known as a fractional step method was used for temporal discretisation. A predictor-corrector method was used for the FSI data where an elastically mounted body was involved. A description of the spectral element method in general can be found in \citet{karniadakis2005}. This code has been very well validated in a variety of fluid-structure interaction problems similar to that studied in the current study \citep{Leontini2007a,Griffith2011,Leontini2011,Leontini2013}. Therefore, a validation studies for the code, the method and the algorithms are not discussed in this thesis. 
  
 \subsection{Convergence and validation studies}
 
