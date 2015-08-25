@@ -158,10 +158,94 @@ An iterative predictor-corrector scheme was scheme was employed to obtain the so
 
 The dagger ($\dag$) represents that the value is an initial approximation eg. $\Vcyl^{(n+1)\dag}$. Thus, $\Delta\Vcyl^{\dag}$ was obtained by a simple subtraction of the value at the current time step. 
 
+The approximated position of the cylinder at the next time step could be obtained by carrying out an integration of the cylinder velocity over the time step. A third-order Adams-Moulton method was used to perform the integration. Therefore, the final equation describing the position of the body is given by, 
+
+\begin{equation} \centering
+	\label{eq:ycyl_start}
+	\frac{\ycyl^{(n+1)\dag} - \ycyl^{(n)}}{\Delta\tau} = \frac{1}{12}(5\Vcyl^{(n+1)\dag} + 8\Vcyl^{(n)} -  
+\end{equation}
+
+The transverse displacement of the cylinder is denoted by \ycyl, and the dagger denotes the initial approximation.
+
+An offset is present between the cylinder velocity and cylinder position. The velocity of the cylinder is in advance by half a time-step of the position of the cylinder which is $\Vcyl^{(n+1)}$ is half a time step is in advance of $\ycyl^{(n+1)}$. However, both the cylinder positions and the velocities are located at the same discrete times.
+
+In order to obtain an approximation for \Vint, a solution was obtained for equation \ref{eq:substep1} using the previous approximated quantities.
+
+By using a third-order Adams-Bashforth scheme and incorporating the approximation of equation \ref{eq:vcyl_start} for  $\Delta\Vcyl^{\dag}$ the first approximation for $\Vint$ was obtained using the equation,
+ 
+\begin{equation} \centering
+\label{eq:vint_first}
+\frac{\Vint - \Vn - \Delta\Vcyl^{\dag}}{\Delta\tau} = \frac{1}{12}(23\mathbf{N}(\vecV)^{(n)} - 16\mathbf{N}(\vecV)^{(n-1)} + 5\mathbf{N}(\vecV)^{(n-2)}) ~.
+\end{equation}
+
+The explicit integration method was only used for the first approximation and for the subsequent iterations semi-implicit method was used for $\Vint$.
+
+This step was followed by solving the remaining substep equations in order to obtain an approximation for  $\vecV^{(n+1)\dag}$, and then the ``predictor'' portion of the predictor-corrector method was completed.
+
+The cylinder velocity approximation $\Vcyl^{\dag}$, was updated commencing the ``corrector'' cycle of the predictor-corrector method. This was carried out using a third-order integration scheme. 
+
+ \begin{equation} \centering
+ \label{eq:vcyl_correct}
+ \frac{\Vcyl^{(n+1)\dag} - \Vcyl^{(n)}}{\Delta\tau} = \frac{1}{24}(25\ddot{y}_{cyl}^{(n+1)} - 2\ddot{y}_{cyl}^{(n)} + \ddot{y}_{cyl}^{(n-1)}) ~.
+ \end{equation}
+ 
+ $\Delta\Vcyl^{\dag}$ was updated using the recalculated value of $\Vcyl^{(n+1)\dag}$. The velocity was integrated over a time step in order to obtain the position of the cylinder. For the first correction cycle a third order Adams-Moulton method was used which completed the first iteration of the predictor-corrector method. 
+ 
+ \begin{equation} \centering
+ \label{eq:ycyl_correct}
+ \frac{y^{(n+1)\dag} - y^{(n)}}{\Delta\tau} = \frac{1}{12}(5\Vcyl^{(n+1)\dag} + 8\Vcyl^{(n)} - \Vcyl^{(n-1)}) ~,
+ \end{equation}
+ 
+ Slight modifications were employed to the subsequent iterations in order to improve numerical stability however, the iterations proceeded in a similar manner. As the approximations for  $\Delta\Vcyl^{\dag}$ and $\vecV^{(n+1)\dag}$  were available, using third-order Adams-Moulton scheme further correction steps were employed. 
+ 
+ \begin{equation} \centering
+ \label{eq:predict_general}
+ \frac{\Vint - \Vn - \Delta\Vcyl^{\dag}}{\Delta\tau} = \frac{1}{12}(5\mathbf{N}(\vecV)^{(n+1)\dag} + 8\mathbf{N}(\vecV)^{(n)} - \mathbf{N}(\vecV)^{(n-1)}) ~.
+ \end{equation}
+ 
+ The two remaining substeps were then solved to obtain a new approximation of $\vecV^{(n+1)\dag}$. 
+ 
+ The first correction step was carried out by employing \ref{eq:vcyl_correct} to obtain a second estimate for the velocity of the cylinder $\Vcyl^{(n+1)\ddag}$. A relaxation equation (equation \ref{eq:relax}) was used for the velocity of the cylinder prior to using equation \ref{eq:ycyl_correct} since the equations were quite stiff.
+ 
+ \begin{equation} \centering
+ \label{eq:relax}
+ \Vcyl^{(n+1)\prime} = \Vcyl^{(n+1)\dag} + \epsilon(\Vcyl^{(n+1)\ddag} - \Vcyl^{(n+1)\dag}) ~,
+ \end{equation}
+ 
+ $\Vcyl^{(n+1)\ddag}$ and $\Vcyl^{(n+1)\dag}$ represent the most current and previous approximations respectively. The under relaxation parameter is represented by $\epsilon$ which controls the proportion of the correction which is considered in each iteration. The final approximation at the end of the relaxation process is represented by $\Vcyl^{(n+1)\prime}$ was used in equation \ref{eq:ycyl_correct} in the completing the correction cycle and hence, the iteration.
+ 
+  A convergence error criteria was given until which the iteration was continued. The lift force of the cylinder, the velocity of the cylinder and the fluid velocity should all converge to the required convergence criteria. A series of convergence studies were carried out in order to obtain the convergence criteria \citep{Pregnalato:thesis}. The solution converged within $3-4$ iterations and the iteration count exceeded $10$ in very rare cases.  
+  
+  The procedure to obtain the solution for $\Vint$ (velocity filed at the end of the convection subsetep) in a nutshell is as follows. A predictor-corrector method was employed, where the primary predictor cycle was first employed. This was followed by obtaining an approximation for $\Delta\Vcyl$ which was calculated using equation \ref{eq:vcyl_start}. From this approximation ($\Delta\Vcyl$)  the position of the cylinder was approximated using equation \ref{eq:ycyl_start}.
+ 
+ Next, using an explicit Adams-Bashforth scheme, an approximation was obtained for $\Vint$ by solving the substep equation (equation \ref{eq:vint_first}). The predictor cycle was completed by solving the remaining substep equations to arrive at the first approximation of \Vnext.   
+ 
+ Then, the primary corrector step was initiated by calculating the forces of the body from the current approximation of \Vnext. Using these forces together with the current approximations of the velocity and the displacement of the body and the equation of motion of the body (eq:\ref{eq:cyl_eom}) an approximation for the acceleration of the cylinder at the end of the timestep was obtained. By integrating this acceleration over the timestep using equation \ref{eq:vcyl_correct} the corrected approximation of $\Delta\Vcyl$ was obtained. Using equation \ref{eq:ycyl_correct} the corrected approximation for $\ycyl^{(n+1)}$  was obtained by integrating the velocity over a timestep by using the recent value of $\Delta\Vcyl$. The primary corrector step and the primary iteration was completed once this step was completed. All the remaining iterations were carried out in a similar manner by with a under relaxation presented in equation \ref{eq:relax}. 
+ 
+ 
+\subsubsection{The pressure substep}
 
 
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
 
 

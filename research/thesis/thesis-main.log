@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  24 AUG 2015 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  25 AUG 2015 15:19
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -727,14 +727,15 @@ LaTeX Warning: Reference `power_alt' on page 14 undefined on input line 48.
 Package natbib Warning: Citation `Naudascher:94' on page 15 undefined on input 
 line 109.
 
-[15] [16] [17] (./chapter-methodology/figures/square-mesh.tex
+[15] [16] [17] [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+[20] (./chapter-methodology/figures/square-mesh.tex
 File: ./chapter-methodology/fnp/square-mesh.eps Graphic file (type eps)
 
-<./chapter-methodology/fnp/square-mesh.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chapter-methodology/figures/zoom-mesh.tex
+<./chapter-methodology/fnp/square-mesh.eps>)
+(./chapter-methodology/figures/zoom-mesh.tex
 File: ./chapter-methodology/fnp/mesh.eps Graphic file (type eps)
 
 <./chapter-methodology/fnp/mesh.eps>
@@ -749,10 +750,10 @@ File: ./chapter-methodology/fnp/hyb0.25-mesh.eps Graphic file (type eps)
 <./chapter-methodology/fnp/hyb0.25-mesh.eps>
 File: ./chapter-methodology/fnp/triangle-mesh.eps Graphic file (type eps)
 
-<./chapter-methodology/fnp/triangle-mesh.eps>))
-(./chapter-pi_1_pi_2/results.tex [18] [19] [20]
+<./chapter-methodology/fnp/triangle-mesh.eps>) [21] [22])
+(./chapter-pi_1_pi_2/results.tex [23]
 Chapter 3.
-[21
+[24
 
 ] (./chapter-pi_1_pi_2/figure/cy_vs_theta.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_200.eps Graphic file (type eps
@@ -765,22 +766,22 @@ s)
 <./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_park.eps>)
 (./chapter-pi_1_pi_2/figure/coefficient-table.tex)
 
-LaTeX Warning: Reference `power_alt' on page 22 undefined on input line 25.
+LaTeX Warning: Reference `power_alt' on page 25 undefined on input line 25.
 
-[22]
+[25] [26]
 
 Package Fancyhdr Warning: \headheight is too small (13.59999pt): 
  Make it at least 25.16252pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23] [24]
+[27]
 Overfull \hbox (7.24092pt too wide) in paragraph at lines 74--75
 [][]\OT1/cmr/m/n/10.95 The equa-tion could be fur-ther al-tered by re-group-ing
  the co-ef-fi-cients into non-dimenasional
  []
 
-[25] (./chapter-pi_1_pi_2/figure/compare_data.tex
+[28] (./chapter-pi_1_pi_2/figure/compare_data.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200.eps Graphic file (
 type eps)
 
@@ -808,7 +809,7 @@ hic file (type eps)
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 24.
 
-) [26] [27] (./chapter-pi_1_pi_2/figure/collapsed_data.tex
+) [29] [30] (./chapter-pi_1_pi_2/figure/collapsed_data.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson.eps Graphi
 c file (type eps)
 
@@ -824,8 +825,8 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps Graphic file
 <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps>)
 Underfull \vbox (badness 5622) has occurred while \output is active []
 
- [28]
-[29] (./chapter-pi_1_pi_2/figure/time_histories.tex
+ [31]
+[32] (./chapter-pi_1_pi_2/figure/time_histories.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_015.eps Graphic file (
 type eps)
 
@@ -861,19 +862,19 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_08.eps Graphic file (type eps
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps Graphic file (t
 ype eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps>) [30] [31]
+<./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps>) [33] [34]
 
-LaTeX Warning: Reference `power_alt' on page 32 undefined on input line 137.
+LaTeX Warning: Reference `power_alt' on page 35 undefined on input line 137.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
+ [35]
 (./chapter-pi_1_pi_2/figure/low_pi_1.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps Graphic file (typ
 e eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps>) [33]
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps>) [36]
 (./chapter-pi_1_pi_2/figure/qss_fsi.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/fqss_fsi_displace.eps Graphic file (type 
 eps)
@@ -896,8 +897,8 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max.eps Graphic file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max.eps>)
 Underfull \vbox (badness 2073) has occurred while \output is active []
 
- [34]
-[35] [36] (./chapter-pi_1_pi_2/figure/error.tex
+ [37]
+[38] [39] (./chapter-pi_1_pi_2/figure/error.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/error.eps Graphic file (type eps)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/error.eps>)
@@ -928,8 +929,8 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_200.eps Graphic file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/spec_200.eps>)
 Underfull \vbox (badness 1320) has occurred while \output is active []
 
- [37]
-[38] (./chapter-pi_1_pi_2/figure/spec_pow.tex
+ [40]
+[41] (./chapter-pi_1_pi_2/figure/spec_pow.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps Graphic file (type eps)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps>)
@@ -945,23 +946,23 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/250.eps Graphic file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/250.eps>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps Graphic file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps> [39])
+<./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps> [42])
 Underfull \vbox (badness 2680) has occurred while \output is active []
 
- [40]
-[41]) (./chapter-frequnecy-response/results.tex [42]
+ [43]
+[44]) (./chapter-frequnecy-response/results.tex [45]
 Chapter 4.
-[43
-
-] [44]) (./chapter-cross-sections/results.tex [45]
-Chapter 5.
 [46
+
+] [47]) (./chapter-cross-sections/results.tex [48]
+Chapter 5.
+[49
 
 ] (./chapter-cross-sections/figures/sketch-1.tex
 File: ./chapter-cross-sections/fnp/hybrid_section.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/hybrid_section.eps>)
-(./chapter-cross-sections/figures/coefficient-table.tex [47])
+(./chapter-cross-sections/figures/coefficient-table.tex [50])
 (./chapter-cross-sections/figures/lift_curves.tex
 File: ./chapter-cross-sections/fnp/lift_curve_sq.eps Graphic file (type eps)
 
@@ -1038,22 +1039,24 @@ Overfull \hbox (14.09998pt too wide) in paragraph at lines 35--36
 
 LaTeX Warning: Float too large for page by 1.33621pt on input line 38.
 
-)) [48] [49] [50] [51] [52] [53] [54] [55] [56
+)) [51] [52] [53] [54] [55] [56] [57] [58] [59
+
+] [60
 
 
-] (./thesis-main.bbl [57
+] (./thesis-main.bbl
+[61
 
 
 ]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-
-[58] [59] [60])
+ [62] [63] [64])
 
 Package natbib Warning: There were undefined citations.
 
-[61] (./thesis-main.aux)
+[65] (./thesis-main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1062,12 +1065,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13618 strings out of 493118
- 264967 string characters out of 6135458
- 302098 words of memory out of 5000000
- 16595 multiletter control sequences out of 15000+600000
+ 13627 strings out of 493118
+ 265136 string characters out of 6135458
+ 302212 words of memory out of 5000000
+ 16604 multiletter control sequences out of 15000+600000
  21123 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1941b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (69 pages, 188440 bytes).
+Output written on thesis-main.dvi (73 pages, 200824 bytes).

@@ -1,4 +1,4 @@
-\begin{thebibliography}{46}
+\begin{thebibliography}{47}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -172,6 +172,10 @@ Parkinson, G.~V., 1974. { Mathematical models of flow-induced vibrations of
 Parkinson, G.~V., Smith, J.~D., 1964. {The square prism as an aeroelastic
   non-linear oscillator}. The Quarterly Journal of Mechanics and Applied
   Mathematics 17~(2), 225--239.
+
+\bibitem[{Pregnalato(2003)}]{Pregnalato:thesis}
+Pregnalato, C., 2003. Flow-induced vibrations of a tethered sphere. Ph.D.
+  thesis, Monash University.
 
 \bibitem[{Raghavan and Bernitsas(2011)}]{Raghavan2010a}
 Raghavan, K., Bernitsas, M., Apr. 2011. {Experimental investigation of Reynolds
