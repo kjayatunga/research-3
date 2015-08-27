@@ -15,32 +15,32 @@
 \contentsline {section}{\numberline {2.3}Calculation of average power}{13}
 \contentsline {section}{\numberline {2.4}Direct numerical simulations (DNS)}{14}
 \contentsline {subsection}{\numberline {2.4.1}Governing equations}{14}
-\contentsline {subsection}{\numberline {2.4.2}Discretisation}{16}
-\contentsline {subsubsection}{Temporal discretisation:Time-splitting}{16}
-\contentsline {subsection}{\numberline {2.4.3}Integration of the substep equations}{16}
+\contentsline {subsection}{\numberline {2.4.2}Temporal discretisation:Time-splitting}{16}
+\contentsline {subsubsection}{Integration of the substep equations}{17}
 \contentsline {subsubsection}{The convection substep}{17}
 \contentsline {subsubsection}{The pressure substep}{20}
-\contentsline {subsubsection}{Spectral element method}{20}
-\contentsline {subsubsection}{Boundary conditions}{20}
-\contentsline {subsection}{\numberline {2.4.4}Convergence and validation studies}{21}
-\contentsline {subsubsection}{Domain size}{21}
-\contentsline {subsubsection}{Convergence}{21}
-\contentsline {chapter}{\numberline {3}Governing parameters of fluid-elastic galloping}{24}
-\contentsline {section}{\numberline {3.1}Introduction}{24}
-\contentsline {subsection}{\numberline {3.1.1}Static body results}{25}
-\contentsline {section}{\numberline {3.2}Formulation of the non-dimensionalised parameters \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}}{26}
-\contentsline {section}{\numberline {3.3}Quasi-steady state results}{29}
-\contentsline {subsection}{\numberline {3.3.1}Classical VIV parameters vs. \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}.}{29}
-\contentsline {subsection}{\numberline {3.3.2}High and low \ensuremath {Re}\ data}{31}
-\contentsline {subsection}{\numberline {3.3.3}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{33}
-\contentsline {subsection}{\numberline {3.3.4}Dependence on the mass ratio \ensuremath {m^{*}}}{36}
-\contentsline {subsection}{\numberline {3.3.5}Comparison with DNS data}{36}
-\contentsline {section}{\numberline {3.4}Summary of the governing parameters of fluid-elastic galloping}{44}
-\contentsline {chapter}{\numberline {4}Frequency response of the system}{46}
-\contentsline {section}{\numberline {4.1}Introduction}{46}
-\contentsline {section}{\numberline {4.2}Linear frequency of the system}{46}
-\contentsline {section}{\numberline {4.3}Finding the terminal velocity of the body when no frequency is predicted by equation 8}{47}
-\contentsline {chapter}{\numberline {5}Influence of fluid dynamics of the system on the extracted power}{49}
-\contentsline {section}{\numberline {5.1}Introduction}{49}
-\contentsline {section}{\numberline {5.2}Influence of the shear layers}{50}
-\contentsline {section}{\numberline {5.3}Static body results}{51}
+\contentsline {subsubsection}{The diffusion substep}{20}
+\contentsline {subsubsection}{Special discretisation:Spectral element method}{21}
+\contentsline {subsubsection}{Boundary conditions}{25}
+\contentsline {subsection}{\numberline {2.4.3}Convergence and validation studies}{25}
+\contentsline {subsubsection}{Domain size}{25}
+\contentsline {subsubsection}{Convergence}{26}
+\contentsline {chapter}{\numberline {3}Governing parameters of fluid-elastic galloping}{28}
+\contentsline {section}{\numberline {3.1}Introduction}{28}
+\contentsline {subsection}{\numberline {3.1.1}Static body results}{29}
+\contentsline {section}{\numberline {3.2}Formulation of the non-dimensionalised parameters \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}}{30}
+\contentsline {section}{\numberline {3.3}Quasi-steady state results}{33}
+\contentsline {subsection}{\numberline {3.3.1}Classical VIV parameters vs. \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}.}{33}
+\contentsline {subsection}{\numberline {3.3.2}High and low \ensuremath {Re}\ data}{35}
+\contentsline {subsection}{\numberline {3.3.3}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{37}
+\contentsline {subsection}{\numberline {3.3.4}Dependence on the mass ratio \ensuremath {m^{*}}}{40}
+\contentsline {subsection}{\numberline {3.3.5}Comparison with DNS data}{40}
+\contentsline {section}{\numberline {3.4}Summary of the governing parameters of fluid-elastic galloping}{48}
+\contentsline {chapter}{\numberline {4}Frequency response of the system}{50}
+\contentsline {section}{\numberline {4.1}Introduction}{50}
+\contentsline {section}{\numberline {4.2}Linear frequency of the system}{50}
+\contentsline {section}{\numberline {4.3}Finding the terminal velocity of the body when no frequency is predicted by equation 8}{51}
+\contentsline {chapter}{\numberline {5}Influence of fluid dynamics of the system on the extracted power}{53}
+\contentsline {section}{\numberline {5.1}Introduction}{53}
+\contentsline {section}{\numberline {5.2}Influence of the shear layers}{54}
+\contentsline {section}{\numberline {5.3}Static body results}{55}

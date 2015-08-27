@@ -19,45 +19,45 @@ Repeated entry---line 537 of file ./Paper.bib.bib
  :                  ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Naudascher:94"
-You've used 47 entries,
+You've used 49 entries,
             2821 wiz_defined-function locations,
-            938 strings with 12411 characters,
-and the built_in function-call counts, 22844 in all, are:
-= -- 2387
-> -- 1078
-< -- 32
-+ -- 402
-- -- 351
-* -- 1968
-:= -- 4106
-add.period$ -- 142
-call.type$ -- 47
-change.case$ -- 357
-chr.to.int$ -- 80
-cite$ -- 47
-duplicate$ -- 849
-empty$ -- 1584
-format.name$ -- 494
-if$ -- 4650
+            950 strings with 12627 characters,
+and the built_in function-call counts, 23531 in all, are:
+= -- 2456
+> -- 1098
+< -- 35
++ -- 410
+- -- 357
+* -- 2007
+:= -- 4236
+add.period$ -- 149
+call.type$ -- 49
+change.case$ -- 367
+chr.to.int$ -- 82
+cite$ -- 49
+duplicate$ -- 881
+empty$ -- 1648
+format.name$ -- 502
+if$ -- 4798
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 52
-newline$ -- 148
-num.names$ -- 188
-pop$ -- 333
+missing$ -- 56
+newline$ -- 154
+num.names$ -- 196
+pop$ -- 348
 preamble$ -- 1
-purify$ -- 305
+purify$ -- 315
 quote$ -- 0
-skip$ -- 646
+skip$ -- 675
 stack$ -- 0
-substring$ -- 1348
-swap$ -- 127
-text.length$ -- 0
+substring$ -- 1370
+swap$ -- 130
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 399
+type$ -- 411
 warning$ -- 0
-while$ -- 198
+while$ -- 204
 width$ -- 0
-write$ -- 523
+write$ -- 544
 (There were 4 error messages)
