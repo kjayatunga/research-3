@@ -362,42 +362,32 @@ Even though equation \ref{eq:inner_GLL} appears to be quite intimidating to deal
  exponential spatial convergence as the number of internal nodes per
  element is increased \citep{Thompson1996a}.
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
-
-
-
-% % % % %
-
-
-
-   
-
-
-
-
-
 
 
 \subsubsection{Boundary conditions}
 
 The boundary conditions, regardless of the mesh  were common for all the simulations performed. A no-slip condition was applied to the cross section wall. This condition implied that the velocity is zero at the surface of the cross section. For stationary simulations a Dirichlet boundary condition and for FSI cases a time-dependent Dirichlet boundary condition was employed for the velocity on the inlet and lateral boundaries. A Dirichlet boundary condition should have a specified value for the variables \citep{kreyszig2010} in this case velocity. The time-dependent Dirichlet condition has to be implemented for the FSI cases to account for the accelerated reference frame attached to the cross section. Thus, the inlet boundary was set to $u=U$ and $v=-\dot{y}$ for FSI cases and $v=0$ for stationary cases, where $u,v$ are the velocities in the $x$ and $y$ directions, respectively.
 
-A Neumann condition for the pressure (where the gradient of a property is specified \citet{tu2007}), where the normal gradient was calculated from the Navier--Stokes equations, was employed on the inlet, lateral and body surface \citep{gresho1987}, while a Dirichlet condition for the pressure ($p=0$ was enforced at the outlet. The details of the method can be found in \citet{Thompson2006,Thompson1996a}
+
+At the outlet or at the boundary downstream of the body it was assigned that the $\pderiv{\vecV}{\normal}=0$ where \normal\ denotes the unit normal vector. This assumes that the flow does not spatially while exiting the domain. This is known as a Neumann boundary condition (where the gradient of a property is specified \citet{tu2007}).
+
+
+
+% % % % % % % % % % % % %
+
+A Neumann condition for the pressure (where the gradient of a property is specified \citet{tu2007}), where the normal gradient was calculated from the Navier--Stokes equations, was employed on the outlet, lateral and body surface \citep{gresho1987}, while a Dirichlet condition for the pressure ($p=0$ was enforced at the outlet. The details of the method can be found in \citet{Thompson2006,Thompson1996a}
 
  Although the physical validity of the outlet boundary condition is not quite true, this does not turn out to be a significant problem provided that the Reynolds numbers are low and the domain is sufficiently far away from the body.
 
 
+ % % % %what exacly was used ?????????
+
+% % % % % % % % % % % % % % % %
+ 
+ 
+ 
+ 
+ 
  
 \subsection{Convergence and validation studies}
 

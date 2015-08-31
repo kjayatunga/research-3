@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  11 AUG 2015 10:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  31 AUG 2015 20:45
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -212,7 +212,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.23   \caption
-               {Surface pressure of top (\ding{117}) and bottom ($\times$) s...
+               {Surface pressure of top ($\times$) and bottom  (\ding{117})s...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -225,7 +225,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.23   \caption{S
-                 urface pressure of top (\ding{117}) and bottom ($\times$) s...
+                 urface pressure of top ($\times$) and bottom  (\ding{117})s...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -251,18 +251,6 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ( in font nullfont!
-! Undefined control sequence.
-l.23   \caption{Surface pressure of top (\ding
-                                              {117}) and bottom ($\times$) s...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 7 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -274,6 +262,18 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no ( in font nullfont!
+! Undefined control sequence.
+l.23 ...ssure of top ($\times$) and bottom  (\ding
+                                                  {117})surfaces of the stat...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 7 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no u in font nullfont!

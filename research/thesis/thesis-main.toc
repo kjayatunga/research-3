@@ -44,3 +44,7 @@
 \contentsline {section}{\numberline {5.1}Introduction}{53}
 \contentsline {section}{\numberline {5.2}Influence of the shear layers}{54}
 \contentsline {section}{\numberline {5.3}Static body results}{55}
+\contentsline {section}{\numberline {5.4}QSS results}{57}
+\contentsline {subsection}{\numberline {5.4.1}Mean power output}{57}
+\contentsline {subsection}{\numberline {5.4.2}Surface pressure}{58}
+\contentsline {subsection}{\numberline {5.4.3}Velocity profiles at the leading edges}{60}

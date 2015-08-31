@@ -21,13 +21,47 @@ The $C_y$ vs $\alpha$ curve increases reaches a maximum and reduces as the induc
 \input{./chapter-cross-sections/figures/sketch-1.tex}
 
 \section{Static body results}
-
+ \label{sec:cross-sec-Static body results}
 \input{./chapter-cross-sections/figures/coefficient-table.tex}
+
+Stationary $C_y$ results were obtained for cross sections where $\ratio=1,0.75,0.5,0.25,0$. Where $\ratio=1$ being the square and $\ratio=0$ being an isosceles  triangle. Table \ref{table:cy-coefficients-hybrid} shows the coefficients of the $7^{th}$ order interpolation polynomial for each cross section. In order to achieve a better fit, piecewise interpolation using multiple $7th$ order polynomials were incorporated for a single cross section. During the curve fitting process more importance was given to the positive portion of the $C_{y}$ curve as this portion of the data ensures that the galloping is sustained. 
+
 \input{./chapter-cross-sections/figures/lift_curves.tex}
 
+The $C_y$ vs. $\alpha$ curves in figure \ref{fig:lift_curves-hybrid} shows that the peak value of \cy\ shifts to the right as $\theta$ is increased. As $\theta$ is proportional to the transverse velocity of the body $tan{\theta}=\frac{\dot{y}}{U}$, it is clear that the maximum \cy\ occur at higher velocities as \ratio\ is decreased which was an expected outcome. Another interesting observation is that the presence of a negative portion prior to the point of maximum \cy\ in the \cy\ vs. $\theta$ curves as \ratio\ is decreased. In this region, \cy\ decreases reaches a minimum and then increases as $\theta$ is increased. The absolute value of the maximum is grater than the absolute value of the minimum. This negative portion starts to emerge at $\ratio=0.25$. However, the maximum value of \cy\ increases as \ratio\ is decreased providing an indication of a possibility of attaining a higher power output at low \ratio.
+
+Yet, it is to be noted that the presence of the negative portion of the lift curve will oppose the motion of the body where the velocity of the body and the driving force will be out of phase. This will lead to an energy transfer from the body to the fluid which is the opposite of the expectations resulting a reduction in mean power output.
+
+ \section{QSS results}
+  \label{sec:cross-sec-QSS}
+  
+ \subsection{Mean power output}
+ \label{subsec:cross-sec-qss-mean power}
+ 
 \input{./chapter-cross-sections/figures/power_curves.tex}
+ 
+Figure \ref{fig:power_curves} shows the mean power \massdamp\ vs. mean power for different cross sections namely $\ratio=1,0.75,0.5,0.25 \text{and} 0$. The shear layer reattachment is decreased as \ratio\ is decreased. The mean power increases as \ratio\ is decrease where a significant increase in the maximum power could be observed. This meets the expectations where it was hypothesised that the mean power would increase as the shear layer re-attachment is delayed. A rapid increase in mean power could be observed below $\ratio=0.5$.
+
+As $\ratio$  decreases beyond $0.25$, as the mean power reaches the maximum a sudden drop could be observed as \massdamp\ is increased (eg. $\massdamp=0.39$ for $\ratio=0.25$). One interesting fact which could be observed is that the maximum power at $\ratio=0.25$ is larger that $\ratio=0$. This is against the expected outcome as the hypothesis was that by delaying the shear layer reattachment a higher mean power output could be gained.
+
+It is clear that as discussed in section \ref{sec:cross-sec-Static body results} the negative portion of the $C_y$ curve influences this reduction in maximum power at $\ratio=0$ in comparison with $\ratio=0.25$. Comparing  the initial negative portion of the $\cy$ vs $\theta$ plot of $\ratio=0.25$ and $\ratio=0$ cross section, it is clear that the area of the initial negative region is high in $\ratio=0$ which effectively transfers large amount of energy from the body to the fluid and therefore resulting a low power output.  
+
+
+\subsection{Surface pressure}
+  \label{subsec:cross-sec-surface pressure}
+  
+
+In order to investigate further the cause of this negative region, surface pressure data of static DNS simulations were analysed of the isosceles triangle ($\ratio=0$) at $\theta4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$. Theses points lies in regions where the negative portion increases, the negative portion desecrates and where \cy becomes positive respectively.   
+  
 \input{./chapter-cross-sections/figures/surf-pres.tex}
+
+Figure \ref{fig:surf_pres} shows the surface pressure of the top and bottom surfaces of the body ($\ratio=0$) starting from  the leading edges. At $\theta=4^{\circ}$ The pressure of the bottom of the body is grater than the top. Therefore, a pressure difference is created and a force is generated in the upward direction which according to the sign convention presented in \ref{fig:induced_lift_sketch}, against the velocity of the body, hence giving a negative $\cy$. As $\theta$ (figure \ref{fig:surf_pres} (b)) is increased, at $16^{\circ}$ the gap between the surface pressure at the leading edge between the top and the bottom reduces. This effect results the increase in $\cy$ (although it is still in the negative region). As $\theta$ is further increased at $21^{\circ}$ (figure \ref{fig:surf_pres} (c)) the surface pressure on the top side becomes grater than the bottom. Therefore, the net effect of the pressure difference is a positive $\cy$ which the driving force $F_y$ is in phase with the velocity of the body. 
+
+\subsection{Velocity profiles at the leading edges}
+
+Having established that the cause of the initial negative region of the $\cy$ vs. $\theta$ plot was the pressure difference mainly at the leading edge of the top and bottom surfaces of the cross section, it was then further investigated the cause of this particular pressure difference.  
 \input{./chapter-cross-sections/figures/tri-sketch.tex}
+
 \input{./chapter-cross-sections/figures/vel-profile.tex}
 \input{./chapter-cross-sections/figures/fsi_time_sketch.tex}
 \input{./chapter-cross-sections/figures/flow_filed_025.tex}

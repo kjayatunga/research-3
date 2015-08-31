@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  27 AUG 2015 14:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  31 AUG 2015 21:50
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -594,18 +594,18 @@ LaTeX Warning: Label `fig:surf_pres' multiply defined.
 )
 \openout1 = `thesis-main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
  ABD: EveryShipout initializing macros [1
 
 ] [2
@@ -617,7 +617,13 @@ LaTeX Font Info:    ... okay on input line 150.
 ] [4
 
 
-] (./thesis-main.toc
+] [5
+
+] [6
+
+
+]
+(./thesis-main.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -627,7 +633,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [5
+) [7
 
 
 ])
@@ -641,9 +647,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6] [7
+[8] [9
 
-] [8
+] [10
 
 
 ] (./chapter-literature-revirw/literature.tex
@@ -734,11 +740,8 @@ LaTeX Warning: Command \L invalid in math mode on input line 346.
 [24] (./chapter-methodology/figures/square-mesh.tex
 File: ./chapter-methodology/fnp/square-mesh.eps Graphic file (type eps)
 
-<./chapter-methodology/fnp/square-mesh.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chapter-methodology/figures/zoom-mesh.tex
+<./chapter-methodology/fnp/square-mesh.eps> [25])
+(./chapter-methodology/figures/zoom-mesh.tex
 File: ./chapter-methodology/fnp/mesh.eps Graphic file (type eps)
 
 <./chapter-methodology/fnp/mesh.eps>
@@ -753,10 +756,7 @@ File: ./chapter-methodology/fnp/hyb0.25-mesh.eps Graphic file (type eps)
 <./chapter-methodology/fnp/hyb0.25-mesh.eps>
 File: ./chapter-methodology/fnp/triangle-mesh.eps Graphic file (type eps)
 
-<./chapter-methodology/fnp/triangle-mesh.eps>)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25])
+<./chapter-methodology/fnp/triangle-mesh.eps>))
 (./chapter-pi_1_pi_2/results.tex [26] [27]
 Chapter 3.
 [28
@@ -984,11 +984,11 @@ File: ./chapter-cross-sections/fnp/lift_curve_025.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/lift_curve_025.eps>
 File: ./chapter-cross-sections/fnp/lift_curve_tri.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/lift_curve_tri.eps>)
+<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [55] [56]
 (./chapter-cross-sections/figures/power_curves.tex
 File: ./chapter-cross-sections/fnp/mean_power_hyb.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/mean_power_hyb.eps>)
+<./chapter-cross-sections/fnp/mean_power_hyb.eps>) [57]
 (./chapter-cross-sections/figures/surf-pres.tex
 File: ./chapter-cross-sections/fnp/surf-pres-tri-4.eps Graphic file (type eps)
 
@@ -1000,7 +1000,7 @@ File: ./chapter-cross-sections/fnp/surf-pres-tri-16.eps Graphic file (type eps)
 File: ./chapter-cross-sections/fnp/surf-pres-tri-21.eps Graphic file (type eps)
 
 
-<./chapter-cross-sections/fnp/surf-pres-tri-21.eps>)
+<./chapter-cross-sections/fnp/surf-pres-tri-21.eps>) [58] [59]
 (./chapter-cross-sections/figures/tri-sketch.tex
 File: ./chapter-cross-sections/fnp/tri-sketch.eps Graphic file (type eps)
 
@@ -1045,13 +1045,10 @@ Overfull \hbox (14.09998pt too wide) in paragraph at lines 35--36
 
 LaTeX Warning: Float too large for page by 1.33621pt on input line 38.
 
-)) [55] [56] [57] [58] [59] [60] [61] [62] [63
-
-] [64
+)) [60] [61] [62] [63] [64
 
 
-] (./thesis-main.bbl
-[65
+] (./thesis-main.bbl [65
 
 
 ] [66]
@@ -1071,12 +1068,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13644 strings out of 493118
- 265398 string characters out of 6135458
- 302400 words of memory out of 5000000
- 16621 multiletter control sequences out of 15000+600000
+ 13649 strings out of 493118
+ 265522 string characters out of 6135458
+ 300458 words of memory out of 5000000
+ 16626 multiletter control sequences out of 15000+600000
  21123 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1941b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (77 pages, 218752 bytes).
+Output written on thesis-main.dvi (79 pages, 229816 bytes).

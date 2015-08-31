@@ -53,6 +53,7 @@
 \newcommand{\massstiff}{\ensuremath{\Pi_1}}
 \newcommand{\massdamp}{\ensuremath{\Pi_2}}
 \newcommand{\ratio}{\ensuremath{\frac{d}{l}}}
+\newcommand{\cy}{\ensuremath{C_{y}}}
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 
 \newcommand{\pderiv}[2]{\ensuremath{\frac{\partial#1}{\partial#2}}}
@@ -145,6 +146,13 @@
 
 \newcommand{\myclearpage}{\thispagestyle{empty}\cleartoevenpage\thispagestyle{empty}\cleartooddpage}
 \newcommand{\hilight}[1]{\colorbox{yellow}{#1}}
+% % % % % % % % % % % %
+%\newenvironment{dedication}
+%
+%{\vspace{6ex}\begin{quotation}\begin{center}\begin{em}}
+%			{\par\end{em}\end{center}\end{quotation}}
+
+
 %%%%%%%%%%%%The document%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -181,13 +189,15 @@ Date ...!!!!!!
 \myclearpage
 
 %%%%%%%%%%%%Dedications here%%%%%%%%%
-
 %\include{originality}
 %\myclearpage
 %\include{abstract}
 %\myclearpage
 %\include{acknowledgements}
-%\myclearpage
+\myclearpage
+\thispagestyle{plain}
+\par\vspace*{.35\textheight}{\centering \emph{``Dedicated to Mrs. Malin Bamunuarachchi whom without this work would not see the light of day. Thank you madam for your prayers, blessings, guidence, kind words of encourgaement and above all, believeing in me and giving me strength to get back up when I myslef have given up hope...."}\par}
+
 %\include{publications}
 %\myclearpage
 %\include{thesis-nomenclature}
