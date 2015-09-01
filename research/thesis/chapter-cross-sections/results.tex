@@ -51,7 +51,7 @@ It is clear that as discussed in section \ref{sec:cross-sec-Static body results}
   \label{subsec:cross-sec-surface pressure}
   
 
-In order to investigate further the cause of this negative region, surface pressure data of static DNS simulations were analysed of the isosceles triangle ($\ratio=0$) at $\theta4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$. Theses points lies in regions where the negative portion increases, the negative portion desecrates and where \cy becomes positive respectively.   
+In order to investigate further the cause of this negative region, surface pressure data of static DNS simulations were analysed of the isosceles triangle ($\ratio=0$) at $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$. Theses points lies in regions where the negative portion increases, the negative portion desecrates and where \cy becomes positive respectively.   
   
 \input{./chapter-cross-sections/figures/surf-pres.tex}
 
@@ -62,7 +62,19 @@ Figure \ref{fig:surf_pres} shows the surface pressure of the top and bottom surf
 Having established that the cause of the initial negative region of the $\cy$ vs. $\theta$ plot was the pressure difference mainly at the leading edge of the top and bottom surfaces of the cross section, it was then further investigated the cause of this particular pressure difference.  
 \input{./chapter-cross-sections/figures/tri-sketch.tex}
 
+A key variable which directly relates to the pressure fluid in motion is the velocity of the fluid. The fundamentals of fluid dynamics state that pressure and velocity have an inversely proportional relationship in a Newtonian fluid. This is also evident in the Bernoulli's equation. Hence, analysis of the velocity at the edges of flow separation was performed to obtain a clear understanding about the cause of the pressure differences occurred.   
+
+
+In order to obtain a clear picture of the behaviour of the velocity, velocity magnitude data were obtained along lines spreading outwards starting from the top and bottom edges of flow separation. A clear illustration of these lines are depicted in figure \ref{fig:tri-sketch} .The lengths of these lines were equal to unity (equal to the frontal projected hight of the body). Data were obtained for the same cases which the surface pressure data were obtained i.e. isosceles triangle ($\ratio=0$) at $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$.
+
 \input{./chapter-cross-sections/figures/vel-profile.tex}
+
+The velocity profiles at the chosen three incident angles are presented in \ref{fig:vel-profile}. A sudden rise of velocity magnitude could be observed at the flow separation points. The velocity magnitude at the top separation point  at $\theta= 4^{0}$ (figure \ref{fig:vel-profile} (a)) is less than the bottom separation point, leading to a lower pressure at the top edge. However, the velocity magnitude at the bottom edge becomes grater than the top edge at $\theta=16^{\circ}$. The difference between the velocity magnitude tends to broaden as $\theta$ is increased to $21^{\circ}$, while the velocity magnitude at the bottom being grater than the top (figure \ref{fig:vel-profile} (c)). This effectively creates the pressure difference created in figure \ref{fig:surf_pres} (c), which leads to a positive \cy\ and results in a forcing which is in phase with the velocity of the body.  
+
+
+\section{Fluid-structure interaction (DNS) results}
+
+\input{./chapter-cross-sections/figures/qss-fsi-error-hyb.tex}
 \input{./chapter-cross-sections/figures/fsi_time_sketch.tex}
 \input{./chapter-cross-sections/figures/flow_filed_025.tex}
 
