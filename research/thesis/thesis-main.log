@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  1 SEP 2015 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  2 SEP 2015 11:57
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -964,7 +964,7 @@ Chapter 5.
 File: ./chapter-cross-sections/fnp/hybrid_section.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/hybrid_section.eps>)
-(./chapter-cross-sections/figures/coefficient-table.tex [54])
+(./chapter-cross-sections/figures/coefficient-table.tex [54]) [55]
 (./chapter-cross-sections/figures/lift_curves.tex
 File: ./chapter-cross-sections/fnp/lift_curve_sq.eps Graphic file (type eps)
 
@@ -980,7 +980,7 @@ File: ./chapter-cross-sections/fnp/lift_curve_025.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/lift_curve_025.eps>
 File: ./chapter-cross-sections/fnp/lift_curve_tri.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [55] [56]
+<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [56]
 (./chapter-cross-sections/figures/power_curves.tex
 File: ./chapter-cross-sections/fnp/mean_power_hyb.eps Graphic file (type eps)
 
@@ -996,11 +996,11 @@ File: ./chapter-cross-sections/fnp/surf-pres-tri-16.eps Graphic file (type eps)
 File: ./chapter-cross-sections/fnp/surf-pres-tri-21.eps Graphic file (type eps)
 
 
-<./chapter-cross-sections/fnp/surf-pres-tri-21.eps>) [58] [59]
+<./chapter-cross-sections/fnp/surf-pres-tri-21.eps>)
 (./chapter-cross-sections/figures/tri-sketch.tex
 File: ./chapter-cross-sections/fnp/tri-sketch.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/tri-sketch.eps>)
+<./chapter-cross-sections/fnp/tri-sketch.eps>) [58] [59]
 (./chapter-cross-sections/figures/vel-profile.tex
 File: ./chapter-cross-sections/fnp/vel_prof-tri-4.eps Graphic file (type eps)
 
@@ -1010,7 +1010,15 @@ File: ./chapter-cross-sections/fnp/vel_prof-tri-16.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/vel_prof-tri-16.eps>
 File: ./chapter-cross-sections/fnp/vel_prof-tri-21.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/vel_prof-tri-21.eps>) [60] [61]
+<./chapter-cross-sections/fnp/vel_prof-tri-21.eps>)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+[61] (./chapter-cross-sections/figures/cross-sec-dns-power.tex
+File: ./chapter-cross-sections/fnp/qss-dns-mean-power.eps Graphic file (type ep
+s)
+
+<./chapter-cross-sections/fnp/qss-dns-mean-power.eps>)
 (./chapter-cross-sections/figures/qss-fsi-error-hyb.tex
 File: ./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps Graphic file (type eps
 )
@@ -1046,9 +1054,7 @@ Overfull \hbox (14.09998pt too wide) in paragraph at lines 35--36
 
 LaTeX Warning: Float too large for page by 1.33621pt on input line 38.
 
-)) [62] [63] [64] [65
-
-] [66
+)) [62] [63] [64] [65] [66
 
 
 ] (./thesis-main.bbl [67
@@ -1068,12 +1074,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13656 strings out of 493118
- 265753 string characters out of 6135458
- 300441 words of memory out of 5000000
- 16629 multiletter control sequences out of 15000+600000
+ 13662 strings out of 493118
+ 265972 string characters out of 6135458
+ 299453 words of memory out of 5000000
+ 16631 multiletter control sequences out of 15000+600000
  21123 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1941b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (81 pages, 234208 bytes).
+Output written on thesis-main.dvi (81 pages, 237552 bytes).

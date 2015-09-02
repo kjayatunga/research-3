@@ -47,5 +47,5 @@
 \contentsline {section}{\numberline {5.4}QSS results}{57}
 \contentsline {subsection}{\numberline {5.4.1}Mean power output}{57}
 \contentsline {subsection}{\numberline {5.4.2}Surface pressure}{58}
-\contentsline {subsection}{\numberline {5.4.3}Velocity profiles at the leading edges}{60}
+\contentsline {subsection}{\numberline {5.4.3}Velocity profiles at the leading edges}{58}
 \contentsline {section}{\numberline {5.5}Fluid-structure interaction (DNS) results}{62}

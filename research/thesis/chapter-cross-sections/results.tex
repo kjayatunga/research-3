@@ -74,7 +74,16 @@ The velocity profiles at the chosen three incident angles are presented in \ref{
 
 \section{Fluid-structure interaction (DNS) results}
 
+As discussed in section \ref{sec:chp-pi_1_pi2_dns} the main drawback of the QSS model is assuming that the only driving force of the system is $F_{y}$, which is generated from induced velocity. However, it was proved that this is not the case as vortex shedding have a significant influence with other non-linear disturbances on mean power as \massstiff\ decreases. Nevertheless, it was also concluded that a good agreement for power could be made at high \massstiff\ for the square cross section. Therefore, a comparison study between QSS and DNS mean power was carried out on the different cross section at high \massstiff\ ($=1000$). As it was evident from figure \ref{fig:power_curves} that the maximum power at $\ratio=0 < \ratio=0.25$ DNS mean power was  between $0.25\leq\ratio\leq1$. 
+
+Both  DNS and QSS mean power data figure \ref{fig:DNS-power} show that \ratio\ decreases maximum mean extracted power increases following a similar trend. Thus these results reinforce the hypothesis for this section which is obtaining higher mean power by delaying the flow re-attachment. 
+
+However, a significant error calculated using equation \ref{eqn:error_calculation} between QSS and DNS power could be observed as \ratio\ increased. The quantified errors presented in \ref{fig:error-hybrid} clearly shows the exponential increase in the $\%$ error as $\ratio \rightarrow 0.25$. 
+
+\input{./chapter-cross-sections/figures/cross-sec-dns-power.tex}
 \input{./chapter-cross-sections/figures/qss-fsi-error-hyb.tex}
+
+
 \input{./chapter-cross-sections/figures/fsi_time_sketch.tex}
 \input{./chapter-cross-sections/figures/flow_filed_025.tex}
 
