@@ -57,7 +57,7 @@ In order to investigate further the cause of this negative region, surface press
 
 Figure \ref{fig:surf_pres} shows the surface pressure of the top and bottom surfaces of the body ($\ratio=0$) starting from  the leading edges. At $\theta=4^{\circ}$ The pressure of the bottom of the body is grater than the top. Therefore, a pressure difference is created and a force is generated in the upward direction which according to the sign convention presented in \ref{fig:induced_lift_sketch}, against the velocity of the body, hence giving a negative $\cy$. As $\theta$ (figure \ref{fig:surf_pres} (b)) is increased, at $16^{\circ}$ the gap between the surface pressure at the leading edge between the top and the bottom reduces. This effect results the increase in $\cy$ (although it is still in the negative region). As $\theta$ is further increased at $21^{\circ}$ (figure \ref{fig:surf_pres} (c)) the surface pressure on the top side becomes grater than the bottom. Therefore, the net effect of the pressure difference is a positive $\cy$ which the driving force $F_y$ is in phase with the velocity of the body. 
 
-\subsection{Velocity profiles at the leading edges}
+\subsection{Velocity profiles at the points of flow separation}
 
 Having established that the cause of the initial negative region of the $\cy$ vs. $\theta$ plot was the pressure difference mainly at the leading edge of the top and bottom surfaces of the cross section, it was then further investigated the cause of this particular pressure difference.  
 \input{./chapter-cross-sections/figures/tri-sketch.tex}
@@ -73,17 +73,67 @@ The velocity profiles at the chosen three incident angles are presented in \ref{
 
 
 \section{Fluid-structure interaction (DNS) results}
+\label{sec:cross-sec-FSI-results}
 
-As discussed in section \ref{sec:chp-pi_1_pi2_dns} the main drawback of the QSS model is assuming that the only driving force of the system is $F_{y}$, which is generated from induced velocity. However, it was proved that this is not the case as vortex shedding have a significant influence with other non-linear disturbances on mean power as \massstiff\ decreases. Nevertheless, it was also concluded that a good agreement for power could be made at high \massstiff\ for the square cross section. Therefore, a comparison study between QSS and DNS mean power was carried out on the different cross section at high \massstiff\ ($=1000$). As it was evident from figure \ref{fig:power_curves} that the maximum power at $\ratio=0 < \ratio=0.25$ DNS mean power was  between $0.25\leq\ratio\leq1$. 
+\subsection{Mean power data}
+\label{subsec:cross-sec-dns-mean-power}
+
+As discussed in section \ref{sec:chp-pi_1_pi2_dns} the main drawback of the QSS model is assuming that the only driving force of the system is $F_{y}$, which is generated from induced velocity. However, it was proved that this is not the case as vortex shedding have a significant influence with other non-linear disturbances on mean power as \massstiff\ decreases. Nevertheless, it was also concluded that a good agreement for power could be made at high \massstiff\ for the square cross section. Therefore, a comparison study between QSS and DNS mean power was carried out on the different cross section at high \massstiff\ ($=1000$). As it was evident from figure \ref{fig:power_curves} that the maximum power at $\ratio=0 < \ratio=0.25$, DNS mean power data were obtained between $0.25\leq\ratio\leq1$. It should be noted that such steps had to be taken due to the prolong computational time taken to carry out the Direct numerical simulations.  
 
 Both  DNS and QSS mean power data figure \ref{fig:DNS-power} show that \ratio\ decreases maximum mean extracted power increases following a similar trend. Thus these results reinforce the hypothesis for this section which is obtaining higher mean power by delaying the flow re-attachment. 
 
-However, a significant error calculated using equation \ref{eqn:error_calculation} between QSS and DNS power could be observed as \ratio\ increased. The quantified errors presented in \ref{fig:error-hybrid} clearly shows the exponential increase in the $\%$ error as $\ratio \rightarrow 0.25$. 
+However, a significant error (calculated using equation \ref{eqn:error_calculation}) between QSS and DNS power could be observed as \ratio\ increased. The quantified errors presented in \ref{fig:error-hybrid} clearly shows the exponential increase in the $\%$ error as $\ratio \rightarrow 0.25$. The likely cause of this significant error could be due to the non-linear interactions and the presence of non-linear forcing other than the induced force $F_{y}$.
 
 \input{./chapter-cross-sections/figures/cross-sec-dns-power.tex}
 \input{./chapter-cross-sections/figures/qss-fsi-error-hyb.tex}
-
-
+ 
+\subsection{Flow-filed data}
+ 
+ In order to investigate further on the error between QSS and DNS results, flow-filed data were analysed on a selected cross section. The cross section selected to perform this task was $\ratio=0.25$ at $\massdamp=0.26$ which is the case where the maximum mean power could be obtained in DNS data. 
+ 
 \input{./chapter-cross-sections/figures/fsi_time_sketch.tex}
+
+The time averaged flow-fields were obtained at 3 selected points of the velocity signal. These points were point 1 where $\dot{y}$ is maximum, point 2 where $\dot{y}$ close to zero and further decreasing and point 3 where $\dot{y}$ is close to zero but moving towards the positive direction. A depiction of these points are presented in \ref{fig:FSI_sketch}. The averaging was carried out over a vortex-shedding cycle, where the starting and end times were defined to evenly bracket the point in consideration to attain the average flow-filed at that point. Time averaged stationary flow-flow field data of the corresponding induced angles were also obtained for comparison.
+
+
 \input{./chapter-cross-sections/figures/flow_filed_025.tex}
+
+Figure \ref{fig:flow_field_FSI} shows the time averaged stream functions for points 1,2 and 3 and the stationary time averaged flow-field data for the corresponding induced angles. Comparison between FSI and stationary data at point 1 (Figure \ref{fig:flow_field_FSI} (a) and (b)) shows a significant difference of the stream functions even at the leading edge.
+
+In contrast, at point 2 and 3 the stream functions at the leading edge of the FSI simulations are similar to that of the stationary simulations. At point 2 both the FSI (figure \ref{fig:flow_field_FSI} (b)) and stationary (figure \ref{fig:flow_field_FSI} (c)) show similar flow behaviour until separation. A single circulation bubble at the top is formed in the FSI case where a symmetrical formation of circulation bubbles could be observed in the stationary case. A similar behaviour of the stream functions could be observed between point 3 for FSI (figure \ref{fig:flow_field_FSI} (d)) and stationary (figure \ref{fig:flow_field_FSI} (e)) cases. 
+
+According to the assumptions of the QSS theory the flow-fields between the stationary and FSI cases at points 2 and 3 should be more or less identical as the induced velocities are zero therefore the induced angles are zero. However, the observations of the FSI case is significantly different. This indicates that there are significant non linear forcing is present as \ratio decreases which could be a result of the higher induced angles and therefore the higher velocities involved. 
+
+Thus, one of the key conclusions could be gained is that the QSS predictions deviates significantly for mean power predictions as \ratio\ decreases. This is due to the fact that the forcing driving the system is not solely based on the induced velocity. Be that as it may the QSS model provides a reasonable predictions for power to obtain trends similar to DNS results. Therefore, QSS model could be used as a design and research tool to obtain preliminary data and conclusions to produce efficient galloping energy extraction systems. 
+
+\subsection{Design considerations for a galloping energy extraction system through control of the fluid dynamics.}
+\label{subsec:design-considerations-cross-section}
+  
+It is clear that delaying reattachment of the flow would lead to higher energy output. However, it is to be noted that even though a higher power output could be obtained by delaying separation, a region where the power is transferred from the body to the fluid will develop as \ratio\ is decreased. This can be observed through the negative region present in the $\cy$ curves beyond $\ratio<0.25$. As this negative region develops the maximum power which could be extracted reduces. This was observed in the power curves (figure \ref{subsec:cross-sec-qss-mean power}) where the maximum power of $\ratio=0$ was less than $\ratio=0.25$.
+
+This fact leads to one important design consideration where the optimum cross section lies at the point where a balance of negative and positive regions could be obtained in the $\cy$ vs. $\theta$ curve. \citet{Barrero-Gil2010a} concluded that the first coefficient $a_1$ should satisfy  $a_1>0$ in order to obtain for good operation of an energy harvesting system. Here, it is explained more in detailed using the QSS model together with direct numerical simulations of FSI cases. 
+
+As further consideration for future research, FSI and QSS work at $0<\ratio<0.25$ could be carried out to find the optimum ratio of $\ratio$ to obtain a maximum power output. Moreover, further work could be carried out investigate on the techniques to reduce the negative portion of the $\cy$ curve by applying modifications to the cross section. One such example could be rounding the corners of the cross section.
+
+\section{Summary of Influence of fluid dynamics of the system on the extracted power} 
+\label{sec:summary-diff-cross-sec}
+
+The primary objective of the work presented in this chapter was to test the hypothesis whether higher power output could be obtained by delaying the flow reattachment. This was done by incrementally tapering off the top and bottom sides of the square cross section. A negative region in the $\cy$ vs. $\theta$ curve could be observed beyond $\ratio<0.25$. This region resulted in a power loss in a certain portion of the cycle as the driving force $F_y$ and the velocity $\dot{y}$ was out of phase.
+
+The mean power vs. \massdamp\ curves showed an increase in maximum power as $\ratio$ was decreased until $\ratio=0.25$. At $\ratio=0$ the maximum power was less than $\ratio=0.25$. Further analysis of the \cy\ curve revealed that the negative region of $\ratio=0$ is grater than $\ratio=0.25$ hence, resulting in a lower maximum power output. 
+
+Further investigations were carried out to find reasons for this negative region to exist. The surface pressure plots and the velocity magnitude profiles at the separation points revealed that this is due to the incidence angle and the cross section which resulted in changes in flow velocities at the separation points. 
+
+Comparison with between the QSS maximum power data and the FSI data showed similar trends where the maximum power increased when \ratio\ was decreased proving that the hypothesis was correct. Be that as it may the error between the QSS and FSI simulation increased drastically as \ratio\ was reduced. Further investigations carried out using time averaged flow-filed data concluded that the mean flow of FSI simulations had significant deviations with the DNS stationary simulations carried out at corresponding induced angles. This was a result of the body moving towards higher induced angles and thereby moving towards higher velocities as \ratio\ was decreased. Therefore the primary assumption of QSS which is considering $F_y$ as the driving force of the system was no longer valid as other significant non-linear forcing was present in the system. Yet, the QSS model could be used as a tool to obtain initial approximations to design galloping energy harvesting systems as QSS data produced similar trends as the FSI simulations.
+
+In order to obtain an efficient galloping one key design consideration is to obtain a cross section which has the optimum balance of the negative and positive regions of the $\cy$ vs. $\theta$ curve. Delaying the reattachment leads to higher power however as a consequence a negative region of $\cy$ emerges in \cy\ curve and therefore, transferring power from the body to the fluid. This region keeps on increasing between $0\leq\ratio\leq0.25$. Thus as a result an optimum \ratio should be obtained in order to get a balance between the negative and positive regions which leads to an efficient galloping energy harvesting system. 
+
+As for future research and development, a further design consideration could be investigating the possibility of reducing the negative region of the \cy\ curve by making alterations to the cross section such as rounding the edges of flow separation. 
+
+ 
+
+      
+
+
+
 

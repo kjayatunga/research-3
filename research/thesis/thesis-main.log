@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  2 SEP 2015 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  4 SEP 2015 11:03
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -632,20 +632,24 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [7
 
 
-])
-\tf@toc=\write5
-\openout5 = `thesis-main.toc'.
-
-
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8] [9
+[8]
+Overfull \hbox (4.81075pt too wide) in paragraph at lines 54--54
+ [][][] []\OT1/cmr/m/n/10.95 Design con-sid-er-a-tions for a gal-lop-ing en-erg
+y ex-trac-tion sys-tem through 
+ []
 
-] [10
+)
+\tf@toc=\write5
+\openout5 = `thesis-main.toc'.
+
+ [9] [10
 
 
 ] (./chapter-literature-revirw/literature.tex
@@ -1027,7 +1031,7 @@ File: ./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps Graphic file (type eps
 (./chapter-cross-sections/figures/fsi_time_sketch.tex
 File: ./chapter-cross-sections/fnp/fsi_flow_sketch.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/fsi_flow_sketch.eps>)
+<./chapter-cross-sections/fnp/fsi_flow_sketch.eps>) [62]
 (./chapter-cross-sections/figures/flow_filed_025.tex
 File: ./chapter-cross-sections/fnp/fsi-0.25-1.eps Graphic file (type eps)
 
@@ -1046,40 +1050,44 @@ File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/qss-0.25-3.eps>
 File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/qss-0.25-3.eps>
-Overfull \hbox (14.09998pt too wide) in paragraph at lines 35--36
-[][][] 
- []
+<./chapter-cross-sections/fnp/qss-0.25-3.eps>) [63]
+Underfull \vbox (badness 3460) has occurred while \output is active []
+
+ [64]
+Underfull \vbox (badness 1852) has occurred while \output is active []
+
+ [65]
+Underfull \vbox (badness 1292) has occurred while \output is active []
+
+ [66])
+[67] [68] [69
+
+] [70
 
 
-LaTeX Warning: Float too large for page by 1.33621pt on input line 38.
-
-)) [62] [63] [64] [65] [66
+] (./thesis-main.bbl [71
 
 
-] (./thesis-main.bbl [67
-
-
-] [68]
+] [72]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [69] [70])
+ [73] [74])
 
 Package natbib Warning: There were undefined citations.
 
-[71] (./thesis-main.aux)
+[75] (./thesis-main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13662 strings out of 493118
- 265972 string characters out of 6135458
- 299453 words of memory out of 5000000
- 16631 multiletter control sequences out of 15000+600000
+ 13666 strings out of 493118
+ 266104 string characters out of 6135458
+ 299501 words of memory out of 5000000
+ 16635 multiletter control sequences out of 15000+600000
  21123 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1941b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (81 pages, 237552 bytes).
+Output written on thesis-main.dvi (85 pages, 253336 bytes).
