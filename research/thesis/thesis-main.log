@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  14 SEP 2015 21:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  15 SEP 2015 22:45
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -587,11 +587,7 @@ Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 
 Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 
-)) (./thesis-main.aux
-
-LaTeX Warning: Label `fig:power_curves' multiply defined.
-
-)
+)) (./thesis-main.aux)
 \openout1 = `thesis-main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
@@ -614,7 +610,8 @@ LaTeX Font Info:    ... okay on input line 161.
 ] [3
 
 
-] [4
+]
+[4
 
 
 ] [5
@@ -622,8 +619,7 @@ LaTeX Font Info:    ... okay on input line 161.
 ] [6
 
 
-]
-(./thesis-main.toc
+] (./thesis-main.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -637,18 +633,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-Overfull \hbox (4.81075pt too wide) in paragraph at lines 53--53
- [][][] []\OT1/cmr/m/n/10.95 Design con-sid-er-a-tions for a gal-lop-ing en-erg
-y ex-trac-tion sys-tem through 
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8])
+[8]
+Overfull \hbox (4.81075pt too wide) in paragraph at lines 58--58
+ [][][] []\OT1/cmr/m/n/10.95 Design con-sid-er-a-tions for a gal-lop-ing en-erg
+y ex-trac-tion sys-tem through 
+ []
+
+)
 \tf@toc=\write5
 \openout5 = `thesis-main.toc'.
 
@@ -961,12 +958,16 @@ Underfull \vbox (badness 2680) has occurred while \output is active []
  [46]
 [47]) (./chapter-frequnecy-response/results.tex [48]
 Chapter 4.
-[49
 
-] (./chapter-frequnecy-response/figures/freq-015.tex
+Underfull \vbox (badness 1158) has occurred while \output is active []
+
+ [49
+
+]
+[50] (./chapter-frequnecy-response/figures/freq-015.tex
 File: ./chapter-frequnecy-response/fnp/freq015.eps Graphic file (type eps)
 
-<./chapter-frequnecy-response/fnp/freq015.eps>)
+<./chapter-frequnecy-response/fnp/freq015.eps>) [51]
 (./chapter-frequnecy-response/figures/flin-qss.tex
 File: ./chapter-frequnecy-response/fnp/flin-fqss.eps Graphic file (type eps)
 
@@ -975,30 +976,33 @@ File: ./chapter-frequnecy-response/fnp/flin-fqss.eps Graphic file (type eps)
 File: ./chapter-frequnecy-response/fnp/fdns-flinear.eps Graphic file (type eps)
 
 
-<./chapter-frequnecy-response/fnp/fdns-flinear.eps>)
+<./chapter-frequnecy-response/fnp/fdns-flinear.eps>) [52]
 (./chapter-frequnecy-response/figures/f-non-linear-fqss.tex
 File: ./chapter-frequnecy-response/fnp/freq_non_linear.eps Graphic file (type e
 ps)
 
-<./chapter-frequnecy-response/fnp/freq_non_linear.eps>))
-(./chapter-cross-sections/results.tex [50] [51] [52] [53] [54]
+<./chapter-frequnecy-response/fnp/freq_non_linear.eps> [53])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54])
+(./chapter-cross-sections/results.tex [55]
 Chapter 5.
 
-LaTeX Warning: Reference `chap:lit-review' on page 55 undefined on input line 5
+LaTeX Warning: Reference `chap:lit-review' on page 56 undefined on input line 5
 .
 
-[55
+[56
 
 ]
 
-LaTeX Warning: Reference `subsec:fluid_mechanics_of_galloping' on page 56 undef
+LaTeX Warning: Reference `subsec:fluid_mechanics_of_galloping' on page 57 undef
 ined on input line 16.
 
 (./chapter-cross-sections/figures/sketch-1.tex
 File: ./chapter-cross-sections/fnp/hybrid_section.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/hybrid_section.eps>)
-(./chapter-cross-sections/figures/coefficient-table.tex [56]) [57]
+(./chapter-cross-sections/figures/coefficient-table.tex [57]) [58]
 (./chapter-cross-sections/figures/lift_curves.tex
 File: ./chapter-cross-sections/fnp/lift_curve_sq.eps Graphic file (type eps)
 
@@ -1014,11 +1018,11 @@ File: ./chapter-cross-sections/fnp/lift_curve_025.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/lift_curve_025.eps>
 File: ./chapter-cross-sections/fnp/lift_curve_tri.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [58]
+<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [59]
 (./chapter-cross-sections/figures/power_curves.tex
 File: ./chapter-cross-sections/fnp/mean_power_hyb.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/mean_power_hyb.eps>) [59]
+<./chapter-cross-sections/fnp/mean_power_hyb.eps>) [60]
 (./chapter-cross-sections/figures/surf-pres.tex
 File: ./chapter-cross-sections/fnp/surf-pres-tri-4.eps Graphic file (type eps)
 
@@ -1034,7 +1038,7 @@ File: ./chapter-cross-sections/fnp/surf-pres-tri-21.eps Graphic file (type eps)
 (./chapter-cross-sections/figures/tri-sketch.tex
 File: ./chapter-cross-sections/fnp/tri-sketch.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/tri-sketch.eps>) [60] [61]
+<./chapter-cross-sections/fnp/tri-sketch.eps>) [61] [62]
 (./chapter-cross-sections/figures/vel-profile.tex
 File: ./chapter-cross-sections/fnp/vel_prof-tri-4.eps Graphic file (type eps)
 
@@ -1047,8 +1051,8 @@ File: ./chapter-cross-sections/fnp/vel_prof-tri-21.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/vel_prof-tri-21.eps>)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]
-[63] (./chapter-cross-sections/figures/cross-sec-dns-power.tex
+ [63]
+[64] (./chapter-cross-sections/figures/cross-sec-dns-power.tex
 File: ./chapter-cross-sections/fnp/qss-dns-mean-power.eps Graphic file (type ep
 s)
 
@@ -1061,7 +1065,7 @@ File: ./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps Graphic file (type eps
 (./chapter-cross-sections/figures/fsi_time_sketch.tex
 File: ./chapter-cross-sections/fnp/fsi_flow_sketch.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/fsi_flow_sketch.eps>) [64]
+<./chapter-cross-sections/fnp/fsi_flow_sketch.eps>) [65]
 (./chapter-cross-sections/figures/flow_filed_025.tex
 File: ./chapter-cross-sections/fnp/fsi-0.25-1.eps Graphic file (type eps)
 
@@ -1080,17 +1084,15 @@ File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/qss-0.25-3.eps>
 File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/qss-0.25-3.eps>) [65]
+<./chapter-cross-sections/fnp/qss-0.25-3.eps>) [66]
 Underfull \vbox (badness 3460) has occurred while \output is active []
 
- [66]
-[67]
+ [67]
+[68]
 Underfull \vbox (badness 1292) has occurred while \output is active []
 
- [68])
-[69] [70] [71
-
-] [72
+ [69])
+[70] [71] [72
 
 
 ] (./thesis-main.bbl [73
@@ -1108,17 +1110,14 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 13698 strings out of 493118
- 267053 string characters out of 6135458
- 299649 words of memory out of 5000000
- 16650 multiletter control sequences out of 15000+600000
+ 13700 strings out of 493118
+ 267079 string characters out of 6135458
+ 299621 words of memory out of 5000000
+ 16652 multiletter control sequences out of 15000+600000
  21123 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1825b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (87 pages, 253244 bytes).
+Output written on thesis-main.dvi (87 pages, 265124 bytes).
