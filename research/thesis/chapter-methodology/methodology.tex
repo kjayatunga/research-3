@@ -1,3 +1,4 @@
+
 \chapter{Methodology and validation}
 
 \section{Introduction}
@@ -301,12 +302,24 @@ This gives the integral
  
 The computational domain is represented by $\Omega$. $N_{q,s}(\compone,\comptwo)$ which are the weighting function is defined in the computational space.
 
-From equation \ref{eq:inner-prod} it is shown that each term in the equation is multiplied by the weighting function. Thus, the integral is split into components and the process could be carried out in the each of the substep equations \ref{eq:substep1}, \ref{eq:substep2} and \ref{eq:substep3}. 
+From equation \ref{eq:inner-prod} it is shown that each term in the equation is multiplied by the weighting function. Thus, the integral is split into components and the process could be carried out in the each of the substep equations \ref{eq:substep1}, \ref{eq:substep2} and \ref{eq:substep3}. For example the discretised equation for \ref{eq:vint_first} could be expressed as
 
+\setlength{\multlinegap}{0.2\textwidth}
+\begin{multline} 
+\label{eq:inner_conv_osci}
+\frac{1}{\Delta\tau}\int\int_{\Omega}N_{q,s}(\compone,\comptwo)\cdot(\Vtrial^{*} - \Vtrial^{(n)} - \Delta\Vcyl)\mathrm{d}x\mathrm{d}y = \\
+\int\int_{\Omega}N_{q,s}(\compone,\comptwo)\cdot(\frac{1}{12}(23\mathbf{N}(\Vtrial)^{(n)} - 16\mathbf{N}(\Vtrial)^{(n-1)} + 5\mathbf{N}(\Vtrial)^{(n-2)}))\mathrm{d}x\mathrm{d}y ~.
+\end{multline}
+
+ This integral could be broken into components. Hence, the first term of the of the LHS of equation \ref{eq:inner_conv_osci} could be defined as,  
+\begin{equation} \centering
+\label{eq:inner_real}
+\int\int_{\Omega}\Vtrial^{*} N_{q,s}(\compone,\comptwo)\mathrm{d}x\mathrm{d}y ~.
+\end{equation}
 
 % % % % % % % % % %
 
-The first term in equation \ref{eq:vint_first} could be used as an example to illustrate the process of obtaining the solution using the spectral element method. In order to calculate the integral of the equation (\hilight{use the appropriate equation}) over the entire computational domain, the integral is evaluated over each element separately. After that, the contributions of each element are summed together. 
+The first term in equation \ref{eq:vint_first} could be used as an example to illustrate the process of obtaining the solution using the spectral element method. In order to calculate the integral of equation \ref{eq:inner_real}  over the entire computational domain, the integral is evaluated over each element separately. After that, the contributions of each element are summed together. 
 
 All the quadrilateral elements are mapped to a square ranging between $-1,1$ in both directions where \compone\ and \comptwo\ are the orthogonal coordinates of this square. The approximation of the integral is simplified by defining the internal node points with the Gauss-Lobatto-Legendre (GLL) quadrature.
 
@@ -393,7 +406,7 @@ A Neumann condition for the pressure (where the gradient of a property is specif
 
 \subsubsection{Domain size}
 
- For all cases, a rectangular domain was employed where the inlet was placed $20D$ from the centre of the body, while the outlet was situated $60D$ away from the centre of the body. The lateral boundaries were placed $20D$ away from the centre of the body. The macro element arrangement of the general domain is shown figure \ref{fig:square-mesh} while the element arrangement near the cross sections are presented in figure \ref{fig:zoom-mesh}. 
+ For all cases, a rectangular domain was employed where the inlet was placed $20D$ from the centre of the body, while the outlet was situated $60D$ away from the centre of the body. The lateral boundaries were placed $20D$ away from the centre of the body. The macro element arrangement of the general domain is shown figure \ref{fig:square-mesh}. The macro element arrangement near the cross section was altered to cater for different cross sections. The near wall macro element configuration for the different cross sections are presented in figure \ref{fig:zoom-mesh}. 
  
  \input{./chapter-methodology/figures/square-mesh}
  
@@ -402,10 +415,13 @@ A Neumann condition for the pressure (where the gradient of a property is specif
 
 \subsubsection{Convergence}
 
-A series of simulations were carried out in order to ensure the results were grid independent. This was dong by by keeping the layout of the macro element the same and varying the order of the interpolation polynomial (\emph{p-refinement}). The displacement amplitudes were compared against various polynomial orders. The time step was also altered to meet the Courant condition. The summary of the results are presented \hilight{The results table}.
+A series of simulations were carried out in order to ensure the results were grid independent. This was dong by by keeping the layout of the macro element the same and varying the order of the interpolation polynomial (\emph{p-refinement}). The displacement amplitudes were compared against various polynomial orders. The time step was also altered to meet the Courant condition. The summary of the results are presented.
 
+\input{./chapter-methodology/figures/FSI-convergence.tex}
 
+Figure \ref{fig:FSI_convergence} shows the mean velocity (sub-figure (a)) and the galloping frequency (sub-figure (b)) at different polynomial orders. Two factors namely, the quantitative accuracy of the data and the computational time had to be considered during the decision making process to obtain the optimum spacial and temporal parameters. Even though higher order polynomials gave very accurate data, the time step has to be reduced accordingly to meet the Courant condition and therefore increasing computational time. Thus a $9^{th}$ order polynomial was incorporated with $\frac{tU}{D}=0.001$ time-step. An error less than $1\%$ could be achieved for both mean velocity amplitude and galloping frequency using this special and temporal parameters.
 
+The FSI simulations for other cross sections presented in this thesis were also carried out using these special and temporal parameters.     
 
 
 
