@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis-main.aux
 The style file: elsarticle-harv.bst
@@ -18,46 +18,45 @@ Repeated entry---line 537 of file ./Paper.bib.bib
  : @article{tong2008
  :                  ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Naudascher:94"
-You've used 51 entries,
+You've used 52 entries,
             2821 wiz_defined-function locations,
-            962 strings with 12942 characters,
-and the built_in function-call counts, 24410 in all, are:
-= -- 2546
-> -- 1143
-< -- 36
-+ -- 429
-- -- 372
-* -- 2077
-:= -- 4403
-add.period$ -- 155
-call.type$ -- 51
-change.case$ -- 382
-chr.to.int$ -- 84
-cite$ -- 51
-duplicate$ -- 914
-empty$ -- 1705
-format.name$ -- 521
-if$ -- 4972
+            965 strings with 13038 characters,
+and the built_in function-call counts, 24818 in all, are:
+= -- 2586
+> -- 1162
+< -- 37
++ -- 436
+- -- 378
+* -- 2108
+:= -- 4476
+add.period$ -- 158
+call.type$ -- 52
+change.case$ -- 388
+chr.to.int$ -- 85
+cite$ -- 52
+duplicate$ -- 932
+empty$ -- 1737
+format.name$ -- 532
+if$ -- 5057
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 57
-newline$ -- 160
-num.names$ -- 204
-pop$ -- 360
+missing$ -- 59
+newline$ -- 163
+num.names$ -- 208
+pop$ -- 371
 preamble$ -- 1
-purify$ -- 328
+purify$ -- 334
 quote$ -- 0
-skip$ -- 702
+skip$ -- 716
 stack$ -- 0
-substring$ -- 1415
-swap$ -- 133
+substring$ -- 1426
+swap$ -- 136
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 429
+type$ -- 435
 warning$ -- 0
-while$ -- 211
+while$ -- 214
 width$ -- 0
-write$ -- 566
+write$ -- 576
 (There were 4 error messages)
