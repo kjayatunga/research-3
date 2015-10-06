@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  5 OCT 2015 20:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  7 OCT 2015 00:00
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -748,11 +748,8 @@ File: ./chapter-methodology/fnp/hyb0.25-mesh.eps Graphic file (type eps)
 <./chapter-methodology/fnp/hyb0.25-mesh.eps>
 File: ./chapter-methodology/fnp/triangle-mesh.eps Graphic file (type eps)
 
-<./chapter-methodology/fnp/triangle-mesh.eps>)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28]
-[29] (./chapter-methodology/figures/FSI-convergence.tex
+<./chapter-methodology/fnp/triangle-mesh.eps>) [28] [29]
+(./chapter-methodology/figures/FSI-convergence.tex
 File: ./chapter-methodology/fnp/vel-amp-convergencexs.eps Graphic file (type ep
 s)
 
@@ -1118,10 +1115,10 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  13727 strings out of 493090
  267978 string characters out of 6134868
- 300011 words of memory out of 5000000
+ 300005 words of memory out of 5000000
  16685 multiletter control sequences out of 15000+600000
  21430 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1825b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (95 pages, 285016 bytes).
+Output written on thesis-main.dvi (95 pages, 285132 bytes).

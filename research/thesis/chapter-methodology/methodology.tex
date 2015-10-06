@@ -212,15 +212,15 @@ The cylinder velocity approximation $\Vcyl^{\dag}$, was updated commencing the `
  \Vcyl^{(n+1)\prime} = \Vcyl^{(n+1)\dag} + \epsilon(\Vcyl^{(n+1)\ddag} - \Vcyl^{(n+1)\dag}) ~,
  \end{equation}
  
- $\Vcyl^{(n+1)\ddag}$ and $\Vcyl^{(n+1)\dag}$ represent the most current and previous approximations respectively. The under relaxation parameter is represented by $\epsilon$ which controls the proportion of the correction which is considered in each iteration. The final approximation at the end of the relaxation process is represented by $\Vcyl^{(n+1)\prime}$ was used in equation \ref{eq:ycyl_correct} in the completing the correction cycle and hence, the iteration.
+ $\Vcyl^{(n+1)\ddag}$ and $\Vcyl^{(n+1)\dag}$ represent the most current and previous approximations respectively. The under relaxation parameter is represented by $\epsilon$ which controls the proportion of the correction which is considered in each iteration. The final approximation at the end of the relaxation process is represented by $\Vcyl^{(n+1)\prime}$ and was used in equation \ref{eq:ycyl_correct} for completing the correction cycle and hence, the iteration.
  
-  A convergence error criteria was given until which the iteration was continued. The lift force of the cylinder, the velocity of the cylinder and the fluid velocity should all converge to the required convergence criteria. A series of convergence studies were carried out in order to obtain the convergence criteria \citep{Pregnalato:thesis}. The solution converged within $3-4$ iterations and the iteration count exceeded $10$ in very rare cases.  
+  A convergence error criteria was specified until which the iteration was continued. The lift force of the cylinder, the velocity of the cylinder and the fluid velocity should all converge to the required convergence criteria. A series of convergence studies were carried out in order to obtain the convergence criteria \citep{Pregnalato:thesis}. The solution converged typically within $3-4$ iterations and the iteration count exceeded $10$ in very rare cases.  
   
   The procedure to obtain the solution for $\Vint$ (velocity filed at the end of the convection subsetep) in a nutshell is as follows. A predictor-corrector method was employed, where the primary predictor cycle was first employed. This was followed by obtaining an approximation for $\Delta\Vcyl$ which was calculated using equation \ref{eq:vcyl_start}. From this approximation ($\Delta\Vcyl$)  the position of the cylinder was approximated using equation \ref{eq:ycyl_start}.
  
  Next, using an explicit Adams-Bashforth scheme, an approximation was obtained for $\Vint$ by solving the substep equation (equation \ref{eq:vint_first}). The predictor cycle was completed by solving the remaining substep equations to arrive at the first approximation of \Vnext.   
  
- Then, the primary corrector step was initiated by calculating the forces of the body from the current approximation of \Vnext. Using these forces together with the current approximations of the velocity and the displacement of the body and the equation of motion of the body (eq:\ref{eq:cyl_eom}) an approximation for the acceleration of the cylinder at the end of the timestep was obtained. By integrating this acceleration over the timestep using equation \ref{eq:vcyl_correct} the corrected approximation of $\Delta\Vcyl$ was obtained. Using equation \ref{eq:ycyl_correct} the corrected approximation for $\ycyl^{(n+1)}$  was obtained by integrating the velocity over a timestep by using the recent value of $\Delta\Vcyl$. The primary corrector step and the primary iteration was completed once this step was completed. All the remaining iterations were carried out in a similar manner by with a under relaxation presented in equation \ref{eq:relax}. 
+ Then, the primary corrector step was initiated by calculating the forces of the body from the current approximation of \Vnext. Using these forces together with the current approximations of the velocity and the displacement of the body and the equation of motion of the body (eq:\ref{eq:cyl_eom}) an approximation for the acceleration of the cylinder at the end of the timestep was obtained. By integrating this acceleration over the timestep using equation \ref{eq:vcyl_correct} the corrected approximation of $\Delta\Vcyl$ was obtained. Using equation \ref{eq:ycyl_correct} the corrected approximation for $\ycyl^{(n+1)}$  was obtained by integrating the velocity over a timestep and using the recent value of $\Delta\Vcyl$. The primary corrector step and the primary iteration was completed once this step was completed. All the remaining iterations were carried out in a similar manner by with a under relaxation presented in equation \ref{eq:relax}. 
  
  
 \subsubsection{The pressure substep}
@@ -245,28 +245,28 @@ This equation could be solved at the middle of the timestep for the pressure fil
 
 \subsubsection{The diffusion substep}
 
-A numerical stability of the solution scheme has to be considered for the diffusion substep although the equation for diffusion was linear. Therefore, the Crank-Nicholson scheme or the second order Adams-Moulton scheme which is a semi-implicit scheme which is also unconditionally numerically stable. Thus this formulates the final equation (eq \ref{eq:substep3})of the time splitting scheme as,
+A numerical stability of the solution scheme has to be considered for the diffusion substep although the equation for diffusion is linear. Therefore, the Crank-Nicholson scheme or the second order Adams-Moulton scheme which is a semi-implicit scheme and unconditionally numerically stable is employed. Thus this formulates the final equation (eq \ref{eq:substep3}) of the time splitting scheme as,
 
 \begin{equation} \centering
 \label{eq:diff_num}
 \frac{\Vnext - \Vintint}{\Delta\tau} = \frac{1}{2\Rey}(\gradsq{\Vnext} + \gradsq{\vecV^{(n)}}) ~.
 \end{equation}
 
-The integration over the timestep is completed from the solution of this equation  for \Vnext, thus completing the time splitting scheme. 
+The integration over the timestep is obtained from the solution of this equation  for \Vnext, thus completing the time splitting scheme. 
 
 
-\subsubsection{Special discretisation:Spectral element method}
+\subsubsection{Spatial discretisation:Spectral element method}
  
- The spacial discretisation was done using a nodal based spectral-element method. This method is a member of the finite-element class. The computational domain is separated into a series of macro elements and then a continuous solution is obtained over each element. Mesh refinement can be done in the areas where high gradients are experienced, which is also known as $h$-refinement. It was necessary that all elements to be quadrilateral. Yet, the elements were not restricted having curved sides.
+ The spacial discretisation was done using a nodal based spectral-element method. This method is a member of the finite-element class. The computational domain is separated into a series of macro elements and then a continuous solution is obtained over each element. Mesh refinement can be done in the areas where high gradients are experienced, which is also known as $h$-refinement. It was necessary that all elements to be quadrilateral. Yet, the elements were not restricted from having curved sides.
  
- The calculation of the residual \residual initials the solution process. All the terms of the governing equations (the Naiver-Stokes equation eq \ref{eq:nsfinal}) were moved to the $LHS$. Thus, the resulting expression is, 
+ The calculation of the residual \residual\ initiate the solution process. All the terms of the governing equations (the Naiver-Stokes equation eq \ref{eq:nsfinal}) were moved to the $LHS$. Thus, the resulting expression is, 
  
  \begin{equation} \centering
  \label{eq:ns-oneside}
  \pderiv{\vecV}{\tau} + \grad{\Pres} - \frac{1}{\Rey}(\gradsq{\vecV}) + (\vecV.\nabla)\vecV - \accframe = 0 ~.
  \end{equation}
  
- A trial solution is substituted into the equation \ref{eq:ns-oneside}. The $RHS$ of the equation would be zero if the trial solution is exact solution of the equation. If the trial solution is not the exact solution but an approximation to the exact solution which is the case in general, then the $RHS$ will be non-zero and a residual will be formed. This residual could be defined by, 
+ A trial solution is substituted into equation \ref{eq:ns-oneside}. The $RHS$ of the equation would be zero if the trial solution is exact solution of the equation. If the trial solution is not the exact solution but an approximation to the exact solution which is the case in general, then the $RHS$ will be non-zero and a residual will be formed. This residual could be defined by, 
  
  \begin{equation} \centering
  \label{eq:residual}
@@ -297,7 +297,7 @@ This gives the integral
  \int\int_{\Omega}N_{k,m}(\compone,\comptwo)\cdot[\pderiv{\Vtrial}{\tau} +\grad{\Ptrial} - \frac{1}{\Rey}(\gradsq{\Vtrial}) + (\Vtrial\cdot\nabla)\Vtrial - \accframe]\mathrm{d}x\mathrm{d}y = 0 ~,
  \end{equation}
  
-The computational domain is represented by $\Omega$. $N_{q,s}(\compone,\comptwo)$ which are the weighting function is defined in the computational space.
+The computational domain is represented by $\Omega$. $N_{q,s}(\compone,\comptwo)$ which are the weighting function as defined in the computational space.
 
 From equation \ref{eq:inner-prod} it is shown that each term in the equation is multiplied by the weighting function. Thus, the integral is split into components and the process could be carried out in the each of the substep equations \ref{eq:substep1}, \ref{eq:substep2} and \ref{eq:substep3}. For example the discretised equation for \ref{eq:vint_first} could be expressed as
 
@@ -326,16 +326,16 @@ A Jacobian is introduced to perform this coordinate transformation and hence, th
 \int\int_{El}\Vint N_{q,s}(\compone,\comptwo)\jacobian(\compone, \comptwo)\mathrm{d}\compone \mathrm{d}\comptwo ~,
 \end{equation}
 
-The Jacobian is represented by \jacobian and $El$ denotes that the integration is performed over a single element. The solution of equation \ref{eq:inner_comp} $\Vtrial^{*}$, could be re-written as a summation of Lagrange polynomial components. This equation also expresses the tensor-product Lagrange polynomials representing the weighting functions in directions of \compone\ and \comptwo. Therefore, the equation could be expressed as,    
+The Jacobian is represented by \jacobian and ``$El$" denotes that the integration is performed over a single element. The solution of equation \ref{eq:inner_comp} $\Vtrial^{*}$, could be re-written as a summation of Lagrange polynomial components. This equation also expresses the tensor-product Lagrange polynomials representing the weighting functions in directions of \compone\ and \comptwo. Therefore, the equation could be expressed as,    
 
  \begin{equation} \centering
  \label{eq:inner_expand}
  \int\int_{El}\sum_{i,j}\widehat{\Vint}L_{i}(\compone)L_{j}(\comptwo)L_{q}(\compone)L_{s}(\comptwo)\jacobian(\compone, \comptwo)\mathrm{d}\compone \mathrm{d}\comptwo ~.
  \end{equation}
  
- The velocity in the nodal points are represented by $\widehat{\Vint}$, $L$ is the one-dimensional Lagrange polynomial and $i$ and $j$ represents the node locations in directions \compone\ \comptwo. 
+ The velocity in the nodal points are represented by $\widehat{\Vint}$, $L$ is the one-dimensional Lagrange polynomial and $i$ and $j$ represents the node index in directions \compone\ and \comptwo. 
 
-The GLL quadrature could be used to obtain an approximation to the integral in equation \ref{eq:inner_expand}, taking the definition of the location of the internal points in the computational domain. Thus approximation of \ref{eq:inner_expand} could be expressed as,
+The Gauss-Lobatto Legendre (GLL) quadrature could be used to obtain an approximation to the integral in equation \ref{eq:inner_expand}, taking the definition of the location of the internal points in the computational domain. Thus approximation of \ref{eq:inner_expand} could be expressed as,
 
 \begin{equation} \centering
 \label{eq:inner_GLL}
@@ -355,7 +355,7 @@ Even though equation \ref{eq:inner_GLL} appears to be quite intimidating to deal
  \end{cases} ~.
  \end{gather}
  
- The Kronecker delta is expressed by $\delta_{ia}$. This substitution leads to a significant reduction of the non-zero elements in the simulation and leads to a much simpler expression. If the convection substep (example considered here) is considered, only a single term remains based on \Vint term in the convection substep equation which is,
+ The Kronecker delta is expressed by $\delta_{ia}$. This substitution leads to a significant reduction of the non-zero elements in the simulation and leads to a much simpler expression. If the convection substep (example considered here) is considered, only a single term remains based on the \Vint\ term in the convection substep equation which is,
 
 
  \begin{equation} \centering
@@ -376,16 +376,16 @@ Even though equation \ref{eq:inner_GLL} appears to be quite intimidating to deal
 
 \subsubsection{Boundary conditions}
 
-The boundary conditions, regardless of the mesh  were common for all the simulations performed. A no-slip condition was applied to the cross section wall. This condition implied that the velocity is zero at the surface of the cross section. For stationary simulations a Dirichlet boundary condition and for FSI cases a time-dependent Dirichlet boundary condition was employed for the velocity on the inlet and lateral boundaries. A Dirichlet boundary condition should have a specified value for the variables \citep{kreyszig2010} in this case velocity. The time-dependent Dirichlet condition has to be implemented for the FSI cases to account for the accelerated reference frame attached to the cross section. Thus, the inlet boundary was set to $u=U$ and $v=-\dot{y}$ for FSI cases and $v=0$ for stationary cases, where $u,v$ are the velocities in the $x$ and $y$ directions, respectively.
+The boundary conditions, regardless of the mesh  were common for all the simulations performed. A no-slip condition was applied to the cross section wall. This condition ensures that the velocity is zero at the surface of the cross section. For stationary simulations a Dirichlet boundary condition is applied. For FSI cases a time-dependent Dirichlet boundary condition was employed for the velocity on the inlet and lateral boundaries. A Dirichlet boundary condition should have a specified value for the variables \citep{kreyszig2010} in this case velocity. The time-dependent Dirichlet condition has to be implemented for the FSI cases to account for the accelerated reference frame attached to the cross section. Thus, the inlet boundary was set to $u=U$ and $v=-\dot{y}$ for FSI cases and $v=0$ for stationary cases, where $u,v$ are the velocities in the $x$ and $y$ directions, respectively.
 
 
-At the outlet or at the boundary downstream of the body it was assigned that the $\pderiv{\vecV}{\normal}=0$ where \normal\ denotes the unit normal vector. This assumes that the flow does not spatially while exiting the domain. This is known as a Neumann boundary condition (where the gradient of a property is specified \citet{tu2007}).
+The outlet which is at the boundary downstream of the body was assigned the Neumann boundary condition (where the gradient of a property is specified \citet{tu2007}), $\pderiv{\vecV}{\normal}=0$ where \normal\ denotes the unit normal vector. This assumes that the flow does not spatially while exiting the domain.
 
 
 
 % % % % % % % % % % % % %
 
-A Neumann condition for the pressure (where the gradient of a property is specified \citet{tu2007}), where the normal gradient was calculated from the Navier--Stokes equations, was employed on the outlet, lateral and body surface \citep{gresho1987}, while a Dirichlet condition for the pressure ($p=0$ was enforced at the outlet. The details of the method can be found in \citet{Thompson2006,Thompson1996a}
+A Neumann condition for the pressure was applied at all the boundaries except the outlet. The normal gradient was calculated from the Navier--Stokes equations. A Dirichlet condition for the pressure ($p=0$ was enforced at the outlet. The details of the method can be found in \citet{Thompson2006,Thompson1996a}
 
  Although the physical validity of the outlet boundary condition is not quite true, this does not turn out to be a significant problem provided that the Reynolds numbers are low and the domain is sufficiently far away from the body.
 
@@ -412,11 +412,11 @@ A Neumann condition for the pressure (where the gradient of a property is specif
 
 \subsubsection{Convergence}
 
-A series of simulations were carried out in order to ensure the results were grid independent. This was dong by by keeping the layout of the macro element the same and varying the order of the interpolation polynomial (\emph{p-refinement}). The displacement amplitudes were compared against various polynomial orders. The time step was also altered to meet the Courant condition. The summary of the results are presented.
+A series of simulations were carried out in order to ensure the results were grid independent. This was dong by by keeping the layout of the macro element the same and varying the order of the interpolation polynomial (\emph{p-refinement}). The displacement amplitudes were compared against various polynomial orders. The time step is also reduced as the special resolution increases to satisfy the Courant condition. The summary of the results are presented in \ref{fig:FSI_convergence} .
 
 \input{./chapter-methodology/figures/FSI-convergence.tex}
 
-Figure \ref{fig:FSI_convergence} shows the mean velocity (sub-figure (a)) and the galloping frequency (sub-figure (b)) at different polynomial orders. Two factors namely, the quantitative accuracy of the data and the computational time had to be considered during the decision making process to obtain the optimum spacial and temporal parameters. Even though higher order polynomials gave very accurate data, the time step has to be reduced accordingly to meet the Courant condition and therefore increasing computational time. Thus a $9^{th}$ order polynomial was incorporated with $\frac{tU}{D}=0.001$ time-step. An error less than $1\%$ could be achieved for both mean velocity amplitude and galloping frequency using this special and temporal parameters.
+Figure \ref{fig:FSI_convergence} shows the mean velocity amplitude (sub-figure (a)) and the galloping frequency (sub-figure (b)) at different polynomial orders. Two factors namely, the quantitative accuracy of the data and the computational time had to be considered during the decision making process to obtain the optimum spacial and temporal resolution. Even though higher order polynomials gave very accurate data, the time step has to be reduced accordingly to meet the Courant condition and therefore increasing computational time. Thus a $9^{th}$ order polynomial was incorporated with $\frac{tU}{D}=0.001$ time-step. A difference of less than $1\%$ could be achieved for both mean velocity amplitude  of the body and galloping frequency using this spatial and temporal parameters.
 
 The FSI simulations for other cross sections presented in this thesis were also carried out using these special and temporal parameters.     
 
