@@ -1,6 +1,8 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis-main.aux
+A level-1 auxiliary file: ./initial-stuff/publications.aux
+A level-1 auxiliary file: ./initial-stuff/nomenclature-1.aux
 The style file: elsarticle-harv.bst
 opyright is an illegal style-file command---line 1 of file elsarticle-harv.bst
  : opyright
@@ -18,45 +20,45 @@ Repeated entry---line 537 of file ./Paper.bib.bib
  : @article{tong2008
  :                  ,
 I'm skipping whatever remains of this entry
-You've used 52 entries,
+You've used 51 entries,
             2821 wiz_defined-function locations,
-            965 strings with 13038 characters,
-and the built_in function-call counts, 24818 in all, are:
-= -- 2586
-> -- 1162
-< -- 37
-+ -- 436
-- -- 378
-* -- 2108
-:= -- 4476
-add.period$ -- 158
-call.type$ -- 52
-change.case$ -- 388
-chr.to.int$ -- 85
-cite$ -- 52
-duplicate$ -- 932
-empty$ -- 1737
-format.name$ -- 532
-if$ -- 5057
+            962 strings with 12920 characters,
+and the built_in function-call counts, 24323 in all, are:
+= -- 2532
+> -- 1143
+< -- 36
++ -- 429
+- -- 372
+* -- 2066
+:= -- 4390
+add.period$ -- 155
+call.type$ -- 51
+change.case$ -- 381
+chr.to.int$ -- 84
+cite$ -- 51
+duplicate$ -- 914
+empty$ -- 1701
+format.name$ -- 521
+if$ -- 4954
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 59
-newline$ -- 163
-num.names$ -- 208
-pop$ -- 371
+missing$ -- 58
+newline$ -- 160
+num.names$ -- 204
+pop$ -- 365
 preamble$ -- 1
-purify$ -- 334
+purify$ -- 328
 quote$ -- 0
-skip$ -- 716
+skip$ -- 702
 stack$ -- 0
-substring$ -- 1426
-swap$ -- 136
+substring$ -- 1388
+swap$ -- 133
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 435
+type$ -- 426
 warning$ -- 0
-while$ -- 214
+while$ -- 210
 width$ -- 0
-write$ -- 576
+write$ -- 565
 (There were 4 error messages)

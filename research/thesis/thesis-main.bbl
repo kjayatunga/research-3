@@ -1,4 +1,4 @@
-\begin{thebibliography}{52}
+\begin{thebibliography}{51}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -83,11 +83,6 @@ Fletcher, C. A.~J., 1991. Computational techniques for fluid dynamics. Vol.~1.
 \bibitem[{Glauert(1919)}]{Glauert1919}
 Glauert, H., 1919. {The rotation of an aerofoil about a fixed axis}. Tech.
   rep., Advisory Committee on Aeronautics R and M 595. HMSO, London.
-
-\bibitem[{Gresho and Sani(1987)}]{gresho1987}
-Gresho, P.~M., Sani, R.~L., 1987. On pressure boundary conditions for the
-  incompressible {N}avier--{S}tokes equations. International journal for
-  numerical methods in fluids 7, 1111--1145.
 
 \bibitem[{Griffith et~al.(2011)Griffith, Leontini, Thompson, and
   Hourigan}]{Griffith2011}
