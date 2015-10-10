@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  10 OCT 2015 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  10 OCT 2015 18:59
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1048,7 +1048,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [53]) (./chapter-frequnecy-response/results.tex [54]
 Chapter 5.
 
-Underfull \vbox (badness 1158) has occurred while \output is active []
+Underfull \vbox (badness 7030) has occurred while \output is active []
 
  [55
 
@@ -1060,12 +1060,12 @@ File: ./chapter-frequnecy-response/fnp/freq015.eps Graphic file (type eps)
 (./chapter-frequnecy-response/figures/flin-qss.tex
 File: ./chapter-frequnecy-response/fnp/flin-fqss.eps Graphic file (type eps)
 
-<./chapter-frequnecy-response/fnp/flin-fqss.eps>)
+<./chapter-frequnecy-response/fnp/flin-fqss.eps>) [58]
 (./chapter-frequnecy-response/figures/fdns-flinear.tex
 File: ./chapter-frequnecy-response/fnp/fdns-flinear.eps Graphic file (type eps)
 
 
-<./chapter-frequnecy-response/fnp/fdns-flinear.eps>) [58]
+<./chapter-frequnecy-response/fnp/fdns-flinear.eps>)
 (./chapter-frequnecy-response/figures/f-non-linear-fqss.tex
 File: ./chapter-frequnecy-response/fnp/freq_non_linear.eps Graphic file (type e
 ps)
@@ -1144,10 +1144,7 @@ s)
 File: ./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps Graphic file (type eps
 )
 
-<./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps>)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [71]
+<./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps>) [71]
 (./chapter-cross-sections/figures/fsi_time_sketch.tex
 File: ./chapter-cross-sections/fnp/fsi_flow_sketch.eps Graphic file (type eps)
 
@@ -1170,11 +1167,8 @@ File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/qss-0.25-3.eps>
 File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/qss-0.25-3.eps>)
-Underfull \vbox (badness 2213) has occurred while \output is active []
-
- [72]
-Underfull \vbox (badness 3460) has occurred while \output is active []
+<./chapter-cross-sections/fnp/qss-0.25-3.eps>) [72]
+Underfull \vbox (badness 6758) has occurred while \output is active []
 
  [73]
 [74] [75]) (./chapter-conclusions/conclusions.tex [76] [77] [78]
@@ -1213,4 +1207,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1825b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (105 pages, 315180 bytes).
+Output written on thesis-main.dvi (105 pages, 314536 bytes).

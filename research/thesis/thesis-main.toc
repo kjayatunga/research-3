@@ -42,9 +42,9 @@
 \contentsline {section}{\numberline {5.1}Introduction}{55}
 \contentsline {section}{\numberline {5.2}Formulating the linear frequency of the system}{56}
 \contentsline {section}{\numberline {5.3}Frequency data}{57}
-\contentsline {subsection}{\numberline {5.3.1}Comparison of all types of frequencies}{57}
-\contentsline {subsection}{\numberline {5.3.2}Linear frequency region}{58}
-\contentsline {subsection}{\numberline {5.3.3}Non-linear frequency region}{59}
+\contentsline {subsection}{\numberline {5.3.1}Comparison of predicted frequencies using different approaches}{57}
+\contentsline {subsection}{\numberline {5.3.2}Region where linear frequency can be predicted}{58}
+\contentsline {subsection}{\numberline {5.3.3}Region where linear frequency could not be predicted}{59}
 \contentsline {section}{\numberline {5.4}Summary of the frequency response of the system}{61}
 \contentsline {chapter}{\numberline {6}Influence of fluid dynamics of the system on the extracted power}{62}
 \contentsline {section}{\numberline {6.1}Introduction}{62}
@@ -56,7 +56,7 @@
 \contentsline {subsection}{\numberline {6.4.3}Velocity profiles at the points of flow separation}{67}
 \contentsline {section}{\numberline {6.5}Fluid-structure interaction (DNS) results}{71}
 \contentsline {subsection}{\numberline {6.5.1}Mean power data}{71}
-\contentsline {subsection}{\numberline {6.5.2}Flow-filed data}{72}
+\contentsline {subsection}{\numberline {6.5.2}Flow-filed data}{71}
 \contentsline {subsection}{\numberline {6.5.3}Design considerations for a galloping energy extraction system through control of the fluid dynamics.}{74}
 \contentsline {section}{\numberline {6.6}Summary of Influence of fluid dynamics of the system on the extracted power}{75}
 \contentsline {chapter}{\numberline {7}Conclusions}{79}
