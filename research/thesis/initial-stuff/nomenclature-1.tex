@@ -1,0 +1,106 @@
+\chapter*{Nomenclature}
+
+\label{chapter:nomenclature}
+%\textbf{Nomenclature}
+
+\begin{longtable}{p{0.3\textwidth}p{0.7\textwidth}}
+	
+	\multicolumn{1}{l}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Description}}  \\ \hline
+	\endfirsthead
+	
+	\multicolumn{2}{l}%
+	%{{\bfseries \tablename\ \thetable{} $\leftarrow$ continued from previous page}} \\
+	{$\leftarrow$ Continued from previous page} \\
+	\multicolumn{1}{c}{\textbf{Symbol}} &
+	\multicolumn{1}{c}{\textbf{Description}} \\ \hline 
+	\endhead
+	
+	\multicolumn{2}{r}{{Continued on next page $\rightarrow$}} \\
+	\endfoot
+	
+	\endlastfoot
+	
+	
+	
+$a_1,a_3,a_5,a_7$ & Coefficients of the polynomial to determine $C_y$ \\ 
+$A$ & Displacement amplitude\\
+$c$ & Damping constant \\
+$D$ & Characteristic length (side length) of the cross section of the body \\
+$El$       &  Subscript denoting integration over a single element        \\
+$f=\sqrt{k/m}/2\pi$ & Natural frequency of the system \\
+$f_g$ & Frequency of galloping \\
+$f_s$ & Frequency of vortex shedding \\
+$F_y$ & Instantaneous force normal to the flow \\ 
+$F_0$& Amplitude of the oscillatory force due to vortex shedding \\
+$\mathcal{F}$&  Fourier transform of velocity \\
+$g$         &  Index of the data points inside each element in the \compone-direction \\
+$h$         &  Variable indicative of resolution of macro-element mesh     \\
+$i$         &  Index of the data point being considered during construction of the Lagrange polynomial in the \compone-direction                           \\ 
+\jacobian\  &  Jacobian operator for coordinate transformation             \\
+$j$         &  Data point index in computational space in \comptwo-direction \\
+$k$ & Spring constant \\
+$m$ & Mass of the body \\
+$m_a$ & Added mass \\
+$n$         &  Timestep count to the current timestep                      \\
+\normal\    &  Unit vector in the normal direction to a boundary           \\
+$P_d$ & Power dissipated due to mechanical damping  \\
+$P_{in}=\rho U^3D/2$ & Energy flux of the approaching flow \\
+$P_{m}$ & dimensionless mean power \\
+$P_t$   & Power transferred to the body by the fluid \\
+$P_s$ & surface pressure \\
+\Ptrial\    &  Trial solution for pressure                                 \\
+$q$         &  Data point index in computational space in \compone-direction \\
+\residual\  &  Residual formed when substituting trial solution into governing equations                                                                   \\  
+$s$         &  Data point index in computational space in \comptwo-direction \\
+$t$ & Time \\
+$U$ & Freestream velocity \\
+$U_i$ & Induced velocity \\
+$V_m$ & velocity magnitude of the flow \\
+\vecV\      &  Non-dimensional velocity vector, $\vecu/U$                  \\
+\Vtrial\    &  Trial solution for velocity                                 \\
+\Vint\      &  Intermediate normalised velocity vector at the end of the advection sub-step                                                                                                           \\
+\Vintint\   &  Intermediate normalised velocity vector at the end of the pressure sub-step                                                                                                            \\
+\Vcyl\      &  Transverse velocity of the cylinder, $\vcyl/U$               \\
+$\Vcyl^{(n+1)\dag}$& First approximation of \Vcyl\ at the end of the timestep during the elastically-mounted cylinder convection substep                                                               \\
+$\Vcyl^{(n+1)\ddag}$&Second approximation of \Vcyl\ at the end of the timestep during the elastically-mounted cylinder convection substep                                                              \\
+$\Vcyl^{(n+1)\prime}$& Approximation of \Vcyl\ at the end of the timestep after relaxation during the elastically-mounted cylinder convection substep        \\
+\Vn\        &  Normalised velocity vector at timestep $n$                  \\
+\Vnext\     &  Normalised velocity vector at timestep $n+1$                \\
+$\widehat{\Vint}$&  Vector of \Vint\ at the node points                    \\
+\vbase\     &  Normalised component of velocity in the $y$-direction       \\
+\vcyl\      &  Instantaneous transverse cylinder velocity \\
+$x$         &  Cartesian coordinate in the freestream flow direction, positive downstream \\                                                                       
+$y$         &  Cartesian coordinate transverse to the flow direction and span direction                                                                                                               \\
+\ycyl\      &  Transverse cylinder displacement                            \\
+$\ycyl^{(n+1)\dag}$&  A first approximation to \ycyl\ at the end of the timestep during the elastically-mounted cylinder convection substep                  \\
+$y,\dot{y},\ddot{y}$ & Transverse displacement, velocity and acceleration of the body \\
+$\Delta\Vcyl$& Change in \Vcyl\ over one timestep                          \\
+$\Delta\Vcyl^{\dag}$& First approximation of change in \Vcyl\ over one timestep during the elastically-mounted cylinder convection substep                   \\
+$\Delta\tau$&  The non-dimensional timestep                                \\
+$\epsilon$  &  Under-relaxation parameter used during the elastically-mounted cylinder convection substep \\    
+\comptwo\   &  Coordinate axis in computational space                      \\
+\compone\   &  Coordinate axis in computational space       \\    
+                                           
+$\mathcal{A}=DL$ & Frontal area of the body\\ 
+$\lambda$ & Inverse time scale of a galloping dominated flow \\
+$\lambda_{1,2}$ & Eigenvalues of linearised equation of motion \\
+$\rho$ & Fluid density  \\
+$\omega_n= 2 \pi f$ & Natural angular frequency of the system  \\
+$\omega_s$ & Vortex shedding angular frequency \\
+$\cstar=cD/mU$ & Non-dimensionalised damping factor \\
+$C_y=F_y/0.5\rho U^2DL$ & Normal (lift) force coefficient \\
+$\mstar=m/\rho D^2L$ & Mass ratio \\
+$Re$ & Reynolds number  \\
+$U^*=U/fD$ & Reduced velocity  \\
+$Y=y/D$ & Non-dimensional transverse displacement \\
+$\dot{Y}=m^*\dot{y}/a_1U$ & Non-dimensional transverse velocity \\
+$\ddot{Y}=m^{*2}D\ddot{y}/a_1^2U^2$ & Non-dimensional transverse acceleration \\
+$\Gamma_1 = 4\pi^2m^{*2}/U^{*2}a_1^2$ & First dimensionless group arising from linearised,\\ 
+& Non-dimensionalised equation of motion\\
+$\Gamma_2 = c^*m^*/a_1$ & Second dimensionless group arising from linearised,\\
+& Non-dimensionalised equation of motion \\
+$\zeta= c/2 m \omega_n$ & Damping ratio \\
+$\theta= \tan^{-1}{(\dot{y}/U)}$ & Instantaneous angle of incidence (angle of attack)\\
+$\massstiff =  4\pi^2m^{*2}/U^{*2}$ & Combined mass-stiffness parameter\\
+$\massdamp = c^*m^*$ & Combined mass-damping parameter\\
+\end{longtable} 
