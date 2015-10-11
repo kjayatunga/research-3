@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  11 OCT 2015 01:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  11 OCT 2015 15:31
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -587,8 +587,9 @@ Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 
 Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 
-)) (./thesis-main.aux (./initial-stuff/acknowledgements.aux)
-(./initial-stuff/publications.aux) (./initial-stuff/nomenclature-1.aux))
+)) (./thesis-main.aux (./initial-stuff/abstract.aux)
+(./initial-stuff/acknowledgements.aux) (./initial-stuff/publications.aux)
+(./initial-stuff/nomenclature-1.aux))
 \openout1 = `thesis-main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
@@ -603,44 +604,60 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
 LaTeX Font Info:    ... okay on input line 161.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
 LaTeX Font Info:    ... okay on input line 161.
-
-ABD: EveryShipout initializing macros [1
+ ABD: EveryShipout initializing macros
+[1
 
 ] [2
 
 
 ]
-\openout2 = `./initial-stuff/acknowledgements.aux'.
+\openout2 = `./initial-stuff/abstract.aux'.
+
+ (./initial-stuff/abstract.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 8.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 8.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3
 
 
-(./initial-stuff/acknowledgements.tex
-Underfull \hbox (badness 10000) in paragraph at lines 11--16
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--16
-
- []
-
-[3
-
-
-
-])
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] [5
+[4]) [5]
+\openout2 = `./initial-stuff/acknowledgements.aux'.
+
+ (./initial-stuff/acknowledgements.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
+
+ []
+
+[6
+
+
+
+]) [7] [8
 
 
 ]
 \openout2 = `./initial-stuff/publications.aux'.
 
- (./initial-stuff/publications.tex) [6
+ (./initial-stuff/publications.tex) [9
 
 
 ]
@@ -652,15 +669,7 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 6--9
  [] [] 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 13.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 13.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 Overfull \hbox (24.0pt too wide) in alignment at lines 9--16
  [] [] 
  []
@@ -696,7 +705,7 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 65--86
  [] [] 
  []
 
-[7
+[10
 
 
 
@@ -705,25 +714,23 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 86--106
  [] [] 
  []
 
-[8]
+[11]
 Overfull \hbox (24.0pt too wide) in alignment at lines 106--106
  [] [] 
  []
 
-[9]) [10] [11
+[12]) [13] [14
 
 
-] [12
+
+] (./thesis-main.toc [15
 
 
-] (./thesis-main.toc [13
-
-
-] [14])
+] [16])
 \tf@toc=\write5
 \openout5 = `thesis-main.toc'.
 
- [15] [16
+ [17] [18
 
 
 ]
@@ -1174,20 +1181,20 @@ Underfull \vbox (badness 1062) has occurred while \output is active []
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [86] [87] [88]) [89] (./thesis-main.aux (./initial-stuff/acknowledgements.aux)
- (./initial-stuff/publications.aux)
-(./initial-stuff/nomenclature-1.aux))
+ [86] [87] [88]) [89] (./thesis-main.aux (./initial-stuff/abstract.aux) (./init
+ial-stuff/acknowledgements.aux)
+(./initial-stuff/publications.aux) (./initial-stuff/nomenclature-1.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13749 strings out of 493090
- 268685 string characters out of 6134868
- 313215 words of memory out of 5000000
- 16686 multiletter control sequences out of 15000+600000
+ 13758 strings out of 493090
+ 268896 string characters out of 6134868
+ 313606 words of memory out of 5000000
+ 16689 multiletter control sequences out of 15000+600000
  21123 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1825b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (105 pages, 318468 bytes).
+Output written on thesis-main.dvi (107 pages, 328708 bytes).

@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis-main.aux
+A level-1 auxiliary file: ./initial-stuff/abstract.aux
 A level-1 auxiliary file: ./initial-stuff/acknowledgements.aux
 A level-1 auxiliary file: ./initial-stuff/publications.aux
 A level-1 auxiliary file: ./initial-stuff/nomenclature-1.aux
@@ -23,7 +24,7 @@ Repeated entry---line 537 of file ./Paper.bib.bib
 I'm skipping whatever remains of this entry
 You've used 51 entries,
             2821 wiz_defined-function locations,
-            963 strings with 12956 characters,
+            964 strings with 12984 characters,
 and the built_in function-call counts, 24323 in all, are:
 = -- 2532
 > -- 1143
