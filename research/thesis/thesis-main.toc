@@ -58,5 +58,5 @@
 \contentsline {subsection}{\numberline {6.5.1}Mean power data}{72}
 \contentsline {subsection}{\numberline {6.5.2}Flow-filed data}{72}
 \contentsline {section}{\numberline {6.6}Design considerations for a galloping energy extraction system through control of the fluid dynamics.}{75}
-\contentsline {section}{\numberline {6.7}Summary of Influence of fluid dynamics of the system on the extracted power}{76}
+\contentsline {section}{\numberline {6.7}Summary}{76}
 \contentsline {chapter}{\numberline {7}Conclusions}{80}
