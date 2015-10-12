@@ -45,18 +45,18 @@
 \contentsline {subsection}{\numberline {5.3.1}Comparison of predicted frequencies using different approaches}{58}
 \contentsline {subsection}{\numberline {5.3.2}Region where linear frequency can be predicted}{59}
 \contentsline {subsection}{\numberline {5.3.3}Region where linear frequency could not be predicted}{60}
-\contentsline {section}{\numberline {5.4}Summary of the frequency response of the system}{62}
-\contentsline {chapter}{\numberline {6}Influence of fluid dynamics of the system on the extracted power}{63}
-\contentsline {section}{\numberline {6.1}Introduction}{63}
-\contentsline {section}{\numberline {6.2}Influence of the shear layers}{64}
-\contentsline {section}{\numberline {6.3}Static body results}{64}
-\contentsline {section}{\numberline {6.4}QSS predictions}{67}
-\contentsline {subsection}{\numberline {6.4.1}Mean power output}{67}
-\contentsline {subsection}{\numberline {6.4.2}Surface pressure}{68}
-\contentsline {subsection}{\numberline {6.4.3}Velocity profiles at the points of flow separation}{68}
-\contentsline {section}{\numberline {6.5}Fluid-structure interaction (DNS) results}{72}
-\contentsline {subsection}{\numberline {6.5.1}Mean power data}{72}
-\contentsline {subsection}{\numberline {6.5.2}Flow-filed data}{72}
-\contentsline {section}{\numberline {6.6}Design considerations for a galloping energy extraction system through control of the fluid dynamics.}{75}
-\contentsline {section}{\numberline {6.7}Summary}{76}
-\contentsline {chapter}{\numberline {7}Conclusions}{80}
+\contentsline {section}{\numberline {5.4}Summary of the frequency response of the system}{63}
+\contentsline {chapter}{\numberline {6}Influence of fluid dynamics of the system on the extracted power}{65}
+\contentsline {section}{\numberline {6.1}Introduction}{65}
+\contentsline {section}{\numberline {6.2}Influence of the shear layers}{66}
+\contentsline {section}{\numberline {6.3}Static body results}{66}
+\contentsline {section}{\numberline {6.4}QSS predictions}{69}
+\contentsline {subsection}{\numberline {6.4.1}Mean power output}{69}
+\contentsline {subsection}{\numberline {6.4.2}Surface pressure}{70}
+\contentsline {subsection}{\numberline {6.4.3}Velocity profiles at the points of flow separation}{70}
+\contentsline {section}{\numberline {6.5}Fluid-structure interaction (DNS) results}{74}
+\contentsline {subsection}{\numberline {6.5.1}Mean power data}{74}
+\contentsline {subsection}{\numberline {6.5.2}Flow-filed data}{74}
+\contentsline {section}{\numberline {6.6}Design considerations for a galloping energy extraction system through control of the fluid dynamics.}{77}
+\contentsline {section}{\numberline {6.7}Summary}{78}
+\contentsline {chapter}{\numberline {7}Conclusions}{82}

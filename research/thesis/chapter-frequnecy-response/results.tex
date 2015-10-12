@@ -91,6 +91,14 @@ This region is categorised as the region where no linear frequency can be predic
 
 The frequency ratio $\frac{f_{QSS}}{f}$ tends to deviate as \massstiff\ reduces (Figure \ref{fig:freq_non_linear}) implying a grater influence of the non-linear terms in the forcing. This region is where the QSS model was pushed to the very extreme end where very large values of \ustar was observed ($\mstar=20$ was kept constant). 
 
+\input{./chapter-frequnecy-response/figures/velocity-signal.tex}
+
+Figure \ref{fig:velocity-signal} shows the time traces of transverse velocity and the induced angle at the two regions. subfigure (a) and (c) at $\massstiff=1000$ and subfigure (b) and (d) at $\massstiff=0.001$, at $\massdamp=0.2$. The reduced velocity is fixed at $\ustar=40$. Hence, the inertia of the system decreases as \massstiff decreases. At $\massstiff=1000$ the inertia of the body is relatively large ($\mstar=201$). Thus, grater force is needed to change the inertia of the body. This results the body oscillating majority portion of th galloping cycle in rage of $\theta$ which falls within the linear region of the \cy\ vs. $\theta$ curve (refer figure \ref{fig:lift_curves}).
+
+In contrast, at $\massstiff=0.001$, as the inertia of the body is relatively small (\mstar= 0.2), the body accelerates quickly to high velocities. Therefore, the body gain higher induced angles and sustains the majority portion of the galloping cycle at the range of induced angles which falls within the non-linear  region of the \cy\ vs. $\theta$ curve (refer figure \ref{fig:lift_curves}). 
+
+Thus, it is clear that at high \massstiff\ the significant forcing of the oscillatory system is governed by the linear terms of the interpolation polynomial and at low \massstiff\ the non-linear terms of the polynomial have a significant effect on the system. As our linear frequency model does not take the non-linear terms of the forcing into account a frequency could not be predicted at this non-linear region.  	
+
 It is to be noted that this non-linear region may be difficult to set up physically and the strong vortex shedding in two dimensional simulations have suppressed galloping in this parameter space. Be that as it may, an in-depth analysis should be carried out using some other technique to isolate the weak galloping signal to back this argument. 
 
 \section{Summary of the frequency response of the system}

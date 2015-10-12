@@ -60,7 +60,7 @@ $V_m$ & velocity magnitude of the flow \\
 \Vtrial\    &  Trial solution for velocity                                 \\
 \Vint\      &  Intermediate normalised velocity vector at the end of the advection sub-step                                                                                                           \\
 \Vintint\   &  Intermediate normalised velocity vector at the end of the pressure sub-step                                                                                                            \\
-\Vcyl\      &  Transverse velocity of the cylinder, $\vcyl/U$               \\
+\Vcyl\      &  Transverse velocity of the cylinder, $\dot{y}/U$               \\
 $\Vcyl^{(n+1)\dag}$& First approximation of \Vcyl\ at the end of the timestep during the elastically-mounted cylinder convection substep                                                               \\
 $\Vcyl^{(n+1)\ddag}$&Second approximation of \Vcyl\ at the end of the timestep during the elastically-mounted cylinder convection substep                                                              \\
 $\Vcyl^{(n+1)\prime}$& Approximation of \Vcyl\ at the end of the timestep after relaxation during the elastically-mounted cylinder convection substep        \\
@@ -73,7 +73,7 @@ $x$         &  Cartesian coordinate in the freestream flow direction, positive d
 $y$         &  Cartesian coordinate transverse to the flow direction and span direction                                                                                                               \\
 \ycyl\      &  Transverse cylinder displacement                            \\
 $\ycyl^{(n+1)\dag}$&  A first approximation to \ycyl\ at the end of the timestep during the elastically-mounted cylinder convection substep                  \\
-$y,\dot{y},\ddot{y}$ & Transverse displacement, velocity and acceleration of the body \\
+$y,\dot{y},\ddot{y}$ & Transverse displacement, velocity and acceleration of the body/cylinder\\
 $\Delta\Vcyl$& Change in \Vcyl\ over one timestep                          \\
 $\Delta\Vcyl^{\dag}$& First approximation of change in \Vcyl\ over one timestep during the elastically-mounted cylinder convection substep                   \\
 $\Delta\tau$&  The non-dimensional timestep                                \\
