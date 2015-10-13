@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  13 OCT 2015 01:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  13 OCT 2015 20:30
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -736,36 +736,26 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 106--106
  [] [] 
  []
 
-[13]) [14] [15
+[13]) [14] (./thesis-main.toc [15
 
 
-] [16
-
-
-] (./thesis-main.toc [17
-
-
-] [18])
+] [16])
 \tf@toc=\write5
 \openout5 = `thesis-main.toc'.
 
- [19] [20
 
-
-]
-(./initial-stuff/preliminary-remarks.tex
+(./initial-stuff/preliminary-remarks.tex [1]
 Chapter 1.
-[1
+[2
 
-
-] [2]) (./chapter-literature-revirw/literature.tex [3]
+] [3]) (./chapter-literature-revirw/literature.tex [4]
 Chapter 2.
-[4
+[5
 
 ] (./chapter-literature-revirw/figures/sketch-1.tex
 File: ./chapter-literature-revirw/fnp/setup-1.eps Graphic file (type eps)
 
-<./chapter-literature-revirw/fnp/setup-1.eps>) [5]
+<./chapter-literature-revirw/fnp/setup-1.eps>) [6]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
@@ -778,12 +768,12 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 File: ./chapter-literature-revirw/fnp/parkinson_data.eps Graphic file (type eps
 )
 
-<./chapter-literature-revirw/fnp/parkinson_data.eps>) [6] [7]
+<./chapter-literature-revirw/fnp/parkinson_data.eps>) [7] [8]
 (./chapter-literature-revirw/figures/luo-re-attachment.tex
 File: ./chapter-literature-revirw/fnp/luo-re-attachment.eps Graphic file (type 
 eps)
 
-<./chapter-literature-revirw/fnp/luo-re-attachment.eps>) [8] [9]
+<./chapter-literature-revirw/fnp/luo-re-attachment.eps>) [9] [10]
 (./chapter-literature-revirw/figures/shear_layers.tex
 File: ./chapter-literature-revirw/fnp/square-2.eps Graphic file (type eps)
 
@@ -793,7 +783,7 @@ File: ./chapter-literature-revirw/fnp/square-4.eps Graphic file (type eps)
 <./chapter-literature-revirw/fnp/square-4.eps>
 File: .//chapter-literature-revirw/fnp/square-6.eps Graphic file (type eps)
 
-<.//chapter-literature-revirw/fnp/square-6.eps>) [10] [11]
+<.//chapter-literature-revirw/fnp/square-6.eps>) [11] [12]
 (./chapter-literature-revirw/figures/per_diff_cross_sec.tex
 File: ./chapter-literature-revirw/fnp/per_cross_sec.eps Graphic file (type eps)
 
@@ -803,23 +793,19 @@ Overfull \hbox (14.09998pt too wide) in paragraph at lines 15--16
 [][][] 
  []
 
-) [12] [13] [14]) (./chapter-methodology/methodology.tex [15]
+) [13] [14] [15]) (./chapter-methodology/methodology.tex [16]
 Chapter 3.
-[16
+[17
 
-]
-
-LaTeX Warning: Reference `power' on page 17 undefined on input line 17.
-
-[17] [18] [19] [20] [21] [22] [23] [24] [25] [26]
+] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27]
 Underfull \vbox (badness 1418) has occurred while \output is active []
 
- [27]
-[28]
+ [28]
+[29]
 
 LaTeX Warning: Command \L invalid in math mode on input line 356.
 
-[29] [30] (./chapter-methodology/figures/square-mesh.tex
+[30] [31] (./chapter-methodology/figures/square-mesh.tex
 File: ./chapter-methodology/fnp/square-mesh.eps Graphic file (type eps)
 
 <./chapter-methodology/fnp/square-mesh.eps>)
@@ -838,7 +824,7 @@ File: ./chapter-methodology/fnp/hyb0.25-mesh.eps Graphic file (type eps)
 <./chapter-methodology/fnp/hyb0.25-mesh.eps>
 File: ./chapter-methodology/fnp/triangle-mesh.eps Graphic file (type eps)
 
-<./chapter-methodology/fnp/triangle-mesh.eps>) [31] [32]
+<./chapter-methodology/fnp/triangle-mesh.eps>) [32] [33]
 (./chapter-methodology/figures/FSI-convergence.tex
 File: ./chapter-methodology/fnp/vel-amp-convergencexs.eps Graphic file (type ep
 s)
@@ -848,9 +834,9 @@ File: ./chapter-methodology/fnp/freq-response-convergencexs.eps Graphic file (t
 ype eps)
 
 <./chapter-methodology/fnp/freq-response-convergencexs.eps>))
-(./chapter-pi_1_pi_2/results.tex [33]
+(./chapter-pi_1_pi_2/results.tex [34]
 Chapter 4.
-[34
+[35
 
 ] (./chapter-pi_1_pi_2/figure/cy_vs_theta.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_200.eps Graphic file (type eps
@@ -861,30 +847,25 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_park.eps Graphic file (type ep
 s)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_park.eps>)
-(./chapter-pi_1_pi_2/figure/coefficient-table.tex) [35]
-
-LaTeX Warning: Reference `power_alt' on page 36 undefined on input line 23.
-
-
+(./chapter-pi_1_pi_2/figure/coefficient-table.tex) [36]
 Overfull \hbox (6.4378pt too wide) in paragraph at lines 28--29
 []\OT1/cmr/m/n/10.95 Galloping is de-scribed as a ``ve-loc-ity de-pen-dent damp
 -ing con-trolled phe-nomenon" (Pa^^?^^Pdoussis
  []
 
-[36]
 
 Package Fancyhdr Warning: \headheight is too small (13.59999pt): 
  Make it at least 25.16252pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37]
+[37] [38]
 Overfull \hbox (7.24092pt too wide) in paragraph at lines 74--75
 [][]\OT1/cmr/m/n/10.95 The equa-tion could be fur-ther al-tered by re-group-ing
  the co-ef-fi-cients into non-dimenasional
  []
 
-[38] (./chapter-pi_1_pi_2/figure/compare_data.tex
+[39] (./chapter-pi_1_pi_2/figure/compare_data.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200.eps Graphic file (
 type eps)
 
@@ -912,11 +893,11 @@ hic file (type eps)
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 24.
 
-) [39] [40] (./chapter-pi_1_pi_2/figure/collapsed_data.tex
+) [40] [41] (./chapter-pi_1_pi_2/figure/collapsed_data.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson.eps Graphi
 c file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson.eps>) [41]
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson.eps>) [42]
 (./chapter-pi_1_pi_2/figure/high_pi_1.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_high_pi_1.eps Graphic file (ty
 pe eps)
@@ -925,7 +906,7 @@ pe eps)
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps Graphic file 
 (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps>) [42] [43]
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps>) [43] [44]
 (./chapter-pi_1_pi_2/figure/time_histories.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_015.eps Graphic file (
 type eps)
@@ -963,17 +944,17 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps Graphic file (t
 ype eps)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps>)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4168) has occurred while \output is active []
 
  [45]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46]
 (./chapter-pi_1_pi_2/figure/low_pi_1.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps Graphic file (typ
 e eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps>) [46]
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps>) [47]
 (./chapter-pi_1_pi_2/figure/qss_fsi.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/fqss_fsi_displace.eps Graphic file (type 
 eps)
@@ -996,11 +977,11 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max.eps Graphic file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max.eps>)
 Underfull \vbox (badness 2073) has occurred while \output is active []
 
- [47]
-[48] (./chapter-pi_1_pi_2/figure/error.tex
+ [48]
+[49] (./chapter-pi_1_pi_2/figure/error.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/error.eps Graphic file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/error.eps>) [49]
+<./chapter-pi_1_pi_2/FnP/gnuplot/error.eps>) [50]
 (./chapter-pi_1_pi_2/figure/spectrum.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_20_sig.eps Graphic file (type eps)
 
@@ -1032,8 +1013,8 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps Graphic file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps>)
 Underfull \vbox (badness 1320) has occurred while \output is active []
 
- [50]
-[51] (./chapter-pi_1_pi_2/figure/flow_vis.tex
+ [51]
+[52] (./chapter-pi_1_pi_2/figure/flow_vis.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/10.eps Graphic file (type eps)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/10.eps>
@@ -1048,26 +1029,26 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps Graphic file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps>)
 Underfull \vbox (badness 1320) has occurred while \output is active []
 
- [52]
+ [53]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53]
-[54]) (./chapter-frequnecy-response/results.tex [55]
+ [54]
+[55]) (./chapter-frequnecy-response/results.tex [56]
 Chapter 5.
 
 Underfull \vbox (badness 7030) has occurred while \output is active []
 
- [56
+ [57
 
 ]
-[57] (./chapter-frequnecy-response/figures/freq-015.tex
+[58] (./chapter-frequnecy-response/figures/freq-015.tex
 File: ./chapter-frequnecy-response/fnp/freq015.eps Graphic file (type eps)
 
-<./chapter-frequnecy-response/fnp/freq015.eps>) [58]
+<./chapter-frequnecy-response/fnp/freq015.eps>) [59]
 (./chapter-frequnecy-response/figures/flin-qss.tex
 File: ./chapter-frequnecy-response/fnp/flin-fqss.eps Graphic file (type eps)
 
-<./chapter-frequnecy-response/fnp/flin-fqss.eps>) [59]
+<./chapter-frequnecy-response/fnp/flin-fqss.eps>) [60]
 (./chapter-frequnecy-response/figures/fdns-flinear.tex
 File: ./chapter-frequnecy-response/fnp/fdns-flinear.eps Graphic file (type eps)
 
@@ -1077,7 +1058,7 @@ File: ./chapter-frequnecy-response/fnp/fdns-flinear.eps Graphic file (type eps)
 File: ./chapter-frequnecy-response/fnp/freq_non_linear.eps Graphic file (type e
 ps)
 
-<./chapter-frequnecy-response/fnp/freq_non_linear.eps> [60])
+<./chapter-frequnecy-response/fnp/freq_non_linear.eps> [61])
 (./chapter-frequnecy-response/figures/velocity-signal.tex
 File: ./chapter-frequnecy-response/fnp/vel_time_history_1000.eps Graphic file (
 type eps)
@@ -1094,10 +1075,10 @@ File: ./chapter-frequnecy-response/fnp/theta_time_history_1000.eps Graphic file
 File: ./chapter-frequnecy-response/fnp/theta_time_history_0001.eps Graphic file
  (type eps)
 
-<./chapter-frequnecy-response/fnp/theta_time_history_0001.eps>) [61] [62]
-[63]) (./chapter-cross-sections/results.tex [64]
+<./chapter-frequnecy-response/fnp/theta_time_history_0001.eps>) [62] [63]
+[64]) (./chapter-cross-sections/results.tex [65]
 Chapter 6.
-[65
+[66
 
 ] (./chapter-cross-sections/figures/sketch-1.tex
 File: ./chapter-cross-sections/fnp/hybrid_section.eps Graphic file (type eps)
@@ -1119,15 +1100,15 @@ File: ./chapter-cross-sections/fnp/lift_curve_025.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/lift_curve_025.eps>
 File: ./chapter-cross-sections/fnp/lift_curve_tri.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [66]
+<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [67]
 (./chapter-cross-sections/figures/power_curves.tex
 File: ./chapter-cross-sections/fnp/mean_power_hyb.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/mean_power_hyb.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67]
-[68]) [69] (./chapter-cross-sections/figures/surf-pres.tex
+ [68]
+[69]) [70] (./chapter-cross-sections/figures/surf-pres.tex
 File: ./chapter-cross-sections/fnp/surf-pres-tri-4.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/surf-pres-tri-4.eps>
@@ -1142,7 +1123,7 @@ File: ./chapter-cross-sections/fnp/surf-pres-tri-21.eps Graphic file (type eps)
 (./chapter-cross-sections/figures/tri-sketch.tex
 File: ./chapter-cross-sections/fnp/tri-sketch.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/tri-sketch.eps>) [70] [71]
+<./chapter-cross-sections/fnp/tri-sketch.eps>) [71] [72]
 (./chapter-cross-sections/figures/vel-profile.tex
 File: ./chapter-cross-sections/fnp/vel_prof-tri-4.eps Graphic file (type eps)
 
@@ -1153,10 +1134,19 @@ File: ./chapter-cross-sections/fnp/vel_prof-tri-16.eps Graphic file (type eps)
 File: ./chapter-cross-sections/fnp/vel_prof-tri-21.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/vel_prof-tri-21.eps>)
+(./chapter-cross-sections/figures/tri-stream-func.tex
+File: ./chapter-cross-sections/fnp/4.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/4.eps>
+File: ./chapter-cross-sections/fnp/16.eps Graphic file (type eps)
+ <./chapter-cross-sections/fnp/16.eps>
+File: ./chapter-cross-sections/fnp/21.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/21.eps>)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72]
-[73] (./chapter-cross-sections/figures/cross-sec-dns-power.tex
+ [73]
+[74] [75] (./chapter-cross-sections/figures/cross-sec-dns-power.tex
 File: ./chapter-cross-sections/fnp/qss-dns-mean-power.eps Graphic file (type ep
 s)
 
@@ -1165,7 +1155,10 @@ s)
 File: ./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps Graphic file (type eps
 )
 
-<./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps>) [74]
+<./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps>)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76]
 (./chapter-cross-sections/figures/fsi_time_sketch.tex
 File: ./chapter-cross-sections/fnp/fsi_flow_sketch.eps Graphic file (type eps)
 
@@ -1188,46 +1181,38 @@ File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/qss-0.25-3.eps>
 File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/qss-0.25-3.eps>) [75]
-Underfull \vbox (badness 6758) has occurred while \output is active []
+<./chapter-cross-sections/fnp/qss-0.25-3.eps>) [77]
+Underfull \vbox (badness 1789) has occurred while \output is active []
 
- [76]
-[77] [78]) (./chapter-conclusions/conclusions.tex [79] [80] [81]
+ [78]
+[79] [80]) (./chapter-conclusions/conclusions.tex [81] [82] [83]
 Chapter 7.
-[82
+[84
 
 ]
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
- [83]
+ [85]
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
- [84])
-[85] [86
-
-
-] (./thesis-main.bbl [87
-
+ [86])
+(./thesis-main.bbl [87] [88
 
 ]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [88] [89] [90]) [91] (./thesis-main.aux
+ [89] [90] [91]) [92] (./thesis-main.aux
 (./initial-stuff/originality.aux) (./initial-stuff/abstract.aux)
 (./initial-stuff/acknowledgements.aux) (./initial-stuff/publications.aux)
-(./initial-stuff/nomenclature-1.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(./initial-stuff/nomenclature-1.aux)) ) 
 Here is how much of TeX's memory you used:
- 13778 strings out of 493090
- 269611 string characters out of 6134868
- 314008 words of memory out of 5000000
+ 13783 strings out of 493090
+ 269842 string characters out of 6134868
+ 314021 words of memory out of 5000000
  16695 multiletter control sequences out of 15000+600000
  21123 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,54p,1877b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,54p,1887b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (111 pages, 336316 bytes).
+Output written on thesis-main.dvi (108 pages, 337976 bytes).

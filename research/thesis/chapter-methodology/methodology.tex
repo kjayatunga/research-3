@@ -10,16 +10,16 @@ This chapter is presented as follows. The equations used to model the system are
 
 \subsection{Parameters used}
 
-The findings in this study are presented in two categories i.e. high and low Reynolds numbers, so as to study the system at laminar and turbulent flow regime. One of the main objectives in this study was to capture the flow physics accurately using direct numerical simulations. Hence, major portion of the study was carried out in the laminar range where the flow is laminar and two directional. Although a majority of the study is focused on low Reynolds number regime, some results were presented using inputs from published data at high Reynolds numbers to dare the QSS model and provide a comparison between high and low Reynolds number cases. $\reynoldsnumber=200$ was defined as the ``low" Reynolds number and $\reynoldsnumber=22300$ was defined as the high Reynolds number in this study. Studies by \citet{tong2008} and \citet{sheard2009} reveals that the approximate value of 3-dimensional transition of the wake for a square cross section is $\reynoldsnumber=160$ and therefore, $\reynoldsnumber=200$ was selected to represent the low Reynolds number regime, also considering the fact that other numerical studies in the laminar regime have used this value of Reynolds number \citep{Robertson2003,Joly2012}. All of these published data have used a square cross section as the body of oscillation. Since the basic cross section used in this study is a square, the same flow regimes of the these published data were used.
+The findings in this study are presented in two categories i.e. high and low Reynolds numbers, so as to study the system at laminar and turbulent flow regimes. One of the main objectives in this study was to capture the flow physics accurately using direct numerical simulations. Hence, major portion of the study was carried out in the laminar range where the flow is laminar and two directional. Although a majority of the study is focused on low Reynolds number regime, some results were presented using inputs from published data at high Reynolds numbers to provide a comparison between high and low Reynolds number cases. $\reynoldsnumber=200$ was defined as the ``low" Reynolds number and $\reynoldsnumber=22300$ was defined as the high Reynolds number in this study. Studies by \citet{tong2008} and \citet{sheard2009} reveal that the approximate value of 3-dimensional transition of the wake for a square cross section is $\reynoldsnumber=160$ and therefore, $\reynoldsnumber=200$ was selected to represent the low Reynolds number regime, also considering the fact that other numerical studies in the laminar regime have used this value of Reynolds number \citep{Robertson2003,Joly2012}. All these published data have used a square cross section as the body of oscillation. Since the basic cross section used in this study is square, the same flow regimes of the these published data were used.
 
-In the high Reynolds number case, the chosen Reynolds number matches the pioneering study of galloping \citet{Parkinson1964}, from which the stationary aerodynamic data was obtained as imput to the QSS model. For the high \reynoldsnumber\ tests, predictions of power output at $\reynoldsnumber=22300$ were obtained using the coefficients of the $C_y$  vs. $\theta$ curve from \citet{Parkinson1964} as inputs to the QSS model. Aerodynamic data (i.e. \cy\ data) from direct numerical simulations at low Reynold number of stationary cases at different angle of attack are used as inputs to the QSS model at the low Reynolds number regime. 
+In the high Reynolds number case, the chosen Reynolds number matches the pioneering study of galloping \citet{Parkinson1964}, from which the stationary aerodynamic data was obtained as imput to the QSS model. For the high \reynoldsnumber\ tests, predictions of power output at $\reynoldsnumber=22300$ were obtained using the coefficients of the $C_y$  vs. $\theta$ curve from \citet{Parkinson1964} as inputs to the QSS model. Aerodynamic data (i.e. \cy\ data) from direct numerical simulations at low Reynold number of stationary cases at different angles of attack are used as inputs to the QSS model at the low Reynolds number regime. 
 
-Stationary $C_y$ data at different angles of attack is used as inputs to the QSS model, were obtained  for the low Reynolds number regime using direct numerical simulations. The average power was obtained by using equation \ref{power}, and the averaging was done over no less than 20 galloping periods. The mass ratio $m^*$ was kept at 1163 for $\reynoldsnumber=22300$ (Similar to \citet{Parkinson1964}). The parameters used at the low Reynolds number cases are $m^*=20$ for \reynoldsnumber=200 and $\ustar\geq 40$. These were similar to the parameters used in previous studies \citep{Robertson2003,Joly2012}. These parameters were used throughout this study unless otherwise specified.
+Stationary $C_y$ data at different angles of attack is used as inputs to the QSS model, were obtained  for the low Reynolds number regime using direct numerical simulations. The average power was obtained by using equation \ref{eqn:power}, and the averaging was done over no less than 20 galloping periods. The mass ratio $m^*$ was kept at 1163 for $\reynoldsnumber=22300$ (Similar to \citet{Parkinson1964}). The parameters used at the low Reynolds number cases are $m^*=20$ for \reynoldsnumber=200 and $\ustar\geq 40$. These were similar to the parameters used in previous studies \citep{Robertson2003,Joly2012}. These parameters were used throughout this study unless specified otherwise.
 
 \section{Quasi-steady model}
 \label{sec:QSS_model_methodology}
 
-The quasi-steady state model discussed in section \ref{sec:QSS theory} was used to obtain oscillator response data. The quasi-steady state model has proven its ability to obtain accurate galloping response data (as also discussed in section \ref{sec:QSS theory}). Therefore, a large number of cases can be modelled in small amount of computational time. The oscillator equation consist of spring, mass and damper oscillator expression with a $7^{th}$ order interpolation polynomial as the forcing function (equation \ref{final_equation_motion}), obtained from a curve fit of aerodynamic data (i.e. \cy\ as a function of the incidence angle).
+The quasi-steady state model discussed in section \ref{sec:QSS theory} was used to obtain oscillator response data. The quasi-steady state model has proven its ability to obtain accurate galloping response data (as also discussed in section \ref{sec:QSS theory}). Therefore, a large number of cases can be modelled in small amount of computational time. The oscillator equation consists of spring, mass and damper oscillator expression with a $7^{th}$ order interpolation polynomial as the forcing function (equation \ref{final_equation_motion}), obtained from a curve fit of aerodynamic data (i.e. \cy\ as a function of the incidence angle).
 
 \subsubsection{Solving the quasi-steady state equation}
 
@@ -44,7 +44,7 @@ P_{m}=\frac{1}{T}\int_{0}^{T}F_y\dot{y} dt,
 \end{equation}
 where $F_y$ is the transverse (lift) force.
 
-The two definitions of the mean power provide two vital interpretations of power transfer. Equation \ref{eqn:power} shows that the power is proportional to the mechanical damping and the magnitude of the transverse velocity. At first glance one may assume that the power could be increased by increasing damping. In a practical power extraction device, the significant component of damping would be due to the electrical generator and therefore, an increase in damping would be due to the increase of the load or in other words the electrical resistance. Yet this perception of damping is not quite accurate as very high damping would result in reducing the velocity amplitude which then, would not result in a higher energy output according to equation \ref{eqn:power}. In consequence, a balance need to be obtained where the damping is high, but not to the extent that it will adversely result by overly suppressing the motion of the body.  
+The two definitions of the mean power provide two vital interpretations of power transfer. Equation \ref{eqn:power} shows that the power is proportional to the mechanical damping and the magnitude of the transverse velocity. At first glance one may assume that the power could be increased by increasing damping. In a practical power extraction device, the significant component of damping would be due to the electrical generator and therefore, an increase in damping would be due to the increase of the load or in other words the electrical resistance. Yet this perception of damping is not quite accurate as very high damping would result in reducing the velocity amplitude which then, would not result in a higher energy output according to equation \ref{eqn:power}. In consequence, a balance needs to be obtained where the damping is high, but not to the extent that it will adversely result by overly suppressing the motion of the body.  
 
 On the other hand, equation \ref{eqn:power_alt} shows that a higher power is attained during situations where the transverse force $F_{y}$ and the transverse velocity are in phase. Hence, a simple increase in the magnitude of the force or the velocity is not satisfactory to attain a higher power transfer. A higher power output could be obtained when there is a smaller phase difference between the force and the velocity.   
 
@@ -55,7 +55,7 @@ On the other hand, equation \ref{eqn:power_alt} shows that a higher power is att
 Direct numerical simulations were employed to obtain the stationary data to be used as inputs to the QSS model and to obtain  fluid-structure interaction (FSI) predictions to be compared with the QSS model at low Reynolds numbers. A high-order in-house build spectral element which simulates two-dimensional laminar flows was used to obtain the DNS data.
 
 
-To obtain DNS results an in-house build code was used. This code essentially solves the Naiver-Stokes equations in an accelerated reference frame. A three-step time-splitting scheme also known as a fractional step method was used for temporal discretisation. A predictor-corrector method was used for the FSI data where an elastically mounted body was involved. A description of the spectral element method in general can be found in \citet{karniadakis2005}. This code has been very well validated in a variety of fluid-structure interaction problems similar to that studied in the current study \citep{Leontini2007a,Griffith2011,Leontini2011,Leontini2013}. A overview of the algorithm is presented in the following subsections which is described in detail by \citet{Leontini:thesis}. 
+To obtain DNS results an in-house build code was used. This code essentially solves the Navier-Stokes equations in an accelerated reference frame. A three-step time-splitting scheme also known as a fractional step method was used for temporal discretisation. A predictor-corrector method was used for the FSI data where an elastically mounted body was involved. A description of the spectral element method in general can be found in \citet{karniadakis2005}. This code has been very well validated in a variety of fluid-structure interaction problems similar to that studied in the current study \citep{Leontini2007a,Griffith2011,Leontini2011,Leontini2013}. An overview of the algorithm is presented in the following subsections which is described in detail by \citet{Leontini:thesis}. 
 
 \subsection{Governing equations}
  
@@ -68,7 +68,7 @@ To obtain DNS results an in-house build code was used. This code essentially sol
  
  Finally, the fluid was assumed to be an Newtonian fluid, which means that the shear stress is directly proportional to the strain rate.The assumptions used are quite standard and further information could be found in \citet{White99}.        
 
-The Naiver-Stokes equations are the equations which governs a Newtonian, incompressible contentious fluid.
+The Navier-Stokes equations are the equations which governs a Newtonian, incompressible fluid.
   \begin{equation} \centering
   \label{eq:nsdim}
   \pderiv{\vecu}{t} + (\vecu\cdot\nabla)\vecu\ = -\frac{\grad{\pres}}{\density} + \frac{\dynvis}{\density}(\gradsq{\vecu})~,
@@ -78,11 +78,11 @@ The Naiver-Stokes equations are the equations which governs a Newtonian, incompr
   \divergence{\vecu} = 0~.
   \end{equation}
   
-  The velocity vector filed is represented by \vecu, time by $t$, the pressure field by \pres \ fluid density by \density \ and the dynamic  by \dynvis. In the Naiver-Stokes equation (\ref{eq:nsdim}) the left hand side represents the inertial forces and the right hand side represents the pressure forces. The net mass flux into the fluid element is specified to be zero by the continuity equation. 
+  The velocity vector filed is represented by \vecu, time by $t$, the pressure field by \pres \ fluid density by \density \ and the dynamic  by \dynvis. In the Navier-Stokes equation (\ref{eq:nsdim}) the left hand side represents the inertial forces and the right hand side represents the pressure forces. The net mass flux into the fluid element is specified to be zero by the continuity equation. 
   
   These equations are generalised by non-dimensionalisation. In the case of bluff body wake flows, the equations are non-dimensionalised by using the characteristic length of the body i.e the frontal projected hight \diam, and the free-stream velocity \Ufree. 
   
-  For cases investigating fluid structure interactions the equations are modified  to  be solved in an accelerated reference frame. The frame of reference is attached to the cylinder. Therefore, an extra term is added to the Naiver-stokes equations which represents the acceleration of the cylinder. Thus, the equations could be written as, 
+  For cases investigating fluid structure interactions the equations are modified  to  be solved in an accelerated reference frame. The frame of reference is attached to the cylinder. Therefore, an extra term is added to the Navier-stokes equations which represents the acceleration of the cylinder. Thus, the equations could be written as, 
   
   \begin{equation} \centering
   \label{eq:nsfinal}
@@ -97,7 +97,7 @@ The Naiver-Stokes equations are the equations which governs a Newtonian, incompr
   U^{2})$, $\Rey = \density UD/(\dynvis)$, $\Vcyl = \vcyl/U$, and 
   $\vcyl$ being the velocity of the cylinder. \accframe, represents acceleration of the cylinder.  
   
-  The Naiver-Stokes equations are coupled by with the oscillator differential equation 
+  The Navier-Stokes equations are coupled with the oscillator differential equation 
   
   \begin{equation} \centering
   \label{eq:cyl_eom}
@@ -111,11 +111,11 @@ The Naiver-Stokes equations are the equations which governs a Newtonian, incompr
     
     
  
- \subsection{Temporal discretisation:Time-splitting}
+ \subsection{Temporal discretisation: Time-splitting}
  
- The problem was discretised in order to solve equations \ref{eq:nsfinal}, \ref{eq:continuity} and \ref{eq:cyl_eom} in both space and time. A three-step time splitting method was used for the temporal discretisation. This scheme also known as the fractional step method, was used to separately integrate the terms in the right hand side of the Naiver-Stokes equation \citep{karniadakis2005}. The overall integration of one time-step is split into three substeps. An approximate solution of the Naiver-Stokes equation is gained by this scheme. 
+ The problem was discretised in order to solve equations \ref{eq:nsfinal}, \ref{eq:continuity} and \ref{eq:cyl_eom} in both space and time. A three-step time splitting method was used for the temporal discretisation. This scheme also known as the fractional step method, was used to separately integrate the terms in the right hand side of the Navier-Stokes equation \citep{karniadakis2005}. The overall integration of one time-step is split into three substeps. An approximate solution of the Navier-Stokes equation is gained by this scheme. 
  
- The cylinder acceleration is integrated through the whole time step in order to obtain a initial approximation of the intermediate velocity filed. This velocity filed is used as the stating condition. The pressure is integrated using this starting condition.  A secondary intermediate velocity filed is obtained as a result of the pressure integration substep. This secondary velocity filed is then used as the starting condition for the integration of the diffusion term which results in the final velocity filed. 
+ The cylinder acceleration is integrated through the whole time step in order to obtain an initial approximation of the intermediate velocity filed. This velocity filed is used as the starting condition. The pressure is integrated using this starting condition.  A secondary intermediate velocity filed is obtained as a result of the pressure integration substep. This secondary velocity filed is then used as the starting condition for the integration of the diffusion term which results in the final velocity filed. 
  
  The three semi-discretised substep equations are as follows:
  
@@ -132,10 +132,10 @@ The Naiver-Stokes equations are the equations which governs a Newtonian, incompr
 \Vnext-\Vintint = \frac{1}{\Rey}\int_{\tau}^{\tau+\Delta\tau}\gradsq{\vecV} \mathrm{d}\tau,
 \end{equation} 
  
-The current time step is represented by $n$ and the intermediate velocity fields at the end the convection and pressure substeps are $\Vint$ and $\Vintint$ respectively. The change in the body over a time step is given by $\Delta\Vcyl =
+The current time step is represented by $n$ and the intermediate velocity fields at the end of the convection and pressure substeps are $\Vint$ and $\Vintint$ respectively. The change in the body over a time step is given by $\Delta\Vcyl =
 \int_{\tau}^{\tau+\Delta\tau}\accframe \mathrm{d}\tau$. 
 
-The addition of these three substep equations reduces to the integrated form of the Naiver-Stokes equation in equation \ref{eq:nsfinal}. 
+The addition of these three substep equations reduces to the integrated form of the Navier-Stokes equation in equation \ref{eq:nsfinal}. 
 
 \subsubsection{Integration of the substep equations}
 \label{subsec:sol}
@@ -145,7 +145,7 @@ The addition of these three substep equations reduces to the integrated form of 
  \subsubsection{The convection substep}
  \label{subsub:convec}
  
-As the system involves free oscillation, a coupling between the oscillation equation (equation \ref{eq:cyl_eom}) and the Naiver-Stokes equations had to be employed. As a result, the cylinder dynamics had to be solved at each time-step.
+As the system involves free oscillation, a coupling between the oscillation equation (equation \ref{eq:cyl_eom}) and the Navier-Stokes equations had to be employed. As a result, the cylinder dynamics had to be solved at each time-step.
 
 An iterative predictor-corrector scheme was employed to obtain the solution of the coupled equations. The initial step being the ``predictor" step was obtaining approximations for all the quantities involved in  the integration. A quadratic extrapolation was used to obtain an initial estimate of $\Delta\Vcyl$ from  three previous time step values of $\Vcyl$. Therefore, a non-dynamical approximation could be obtained.  
  
@@ -165,9 +165,9 @@ The approximated position of the cylinder at the next time step could be obtaine
 	\frac{\ycyl^{(n+1)\dag} - \ycyl^{(n)}}{\Delta\tau} = \frac{1}{12}(5\Vcyl^{(n+1)\dag} + 8\Vcyl^{(n)} -  
 \end{equation}
 
-The transverse displacement of the cylinder is denoted by \ycyl, and the.
+The transverse displacement of the cylinder is denoted by \ycyl.
 
-An offset is present between the cylinder velocity and cylinder position. The velocity of the cylinder is in advance by half a time-step of the position of the cylinder which is $\Vcyl^{(n+1)}$ is half a time step is in advance of $\ycyl^{(n+1)}$. However, both the cylinder positions and the velocities are located at the same discrete times.
+An offset is present between the cylinder velocity and cylinder position. The velocity of the cylinder is in advance by half a time-step of the position of the cylinder, i.e. $\Vcyl^{(n+1)}$ is half a time step is in advance of $\ycyl^{(n+1)}$. However, both the cylinder positions and the velocities are located at the same discrete times.
 
 In order to obtain an approximation for \Vint, a solution was obtained for equation \ref{eq:substep1} using the previous approximated quantities.
 
@@ -220,12 +220,12 @@ The cylinder velocity approximation $\Vcyl^{\dag}$, was updated commencing the `
  
  Next, using an explicit Adams-Bashforth scheme, an approximation was obtained for $\Vint$ by solving the substep equation (equation \ref{eq:vint_first}). The predictor cycle was completed by solving the remaining substep equations to arrive at the first approximation of \Vnext.   
  
- Then, the primary corrector step was initiated by calculating the forces of the body from the current approximation of \Vnext. Using these forces together with the current approximations of the velocity and the displacement of the body and the equation of motion of the body (eq:\ref{eq:cyl_eom}) an approximation for the acceleration of the cylinder at the end of the timestep was obtained. By integrating this acceleration over the timestep using equation \ref{eq:vcyl_correct} the corrected approximation of $\Delta\Vcyl$ was obtained. Using equation \ref{eq:ycyl_correct} the corrected approximation for $\ycyl^{(n+1)}$  was obtained by integrating the velocity over a timestep and using the recent value of $\Delta\Vcyl$. The primary corrector step and the primary iteration was completed once this step was completed. All the remaining iterations were carried out in a similar manner by with a under relaxation presented in equation \ref{eq:relax}. 
+ Then, the primary corrector step was initiated by calculating the forces of the body from the current approximation of \Vnext. Using these forces together with the current approximations of the velocity and the displacement of the body and the equation of motion of the body (eq:\ref{eq:cyl_eom}) an approximation for the acceleration of the cylinder at the end of the timestep was obtained. By integrating this acceleration over the timestep using equation \ref{eq:vcyl_correct} the corrected approximation of $\Delta\Vcyl$ was obtained. Using equation \ref{eq:ycyl_correct} the corrected approximation for $\ycyl^{(n+1)}$  was obtained by integrating the velocity over a timestep and using the recent value of $\Delta\Vcyl$. The primary corrector step and the primary iteration was completed once this step was completed. All the remaining iterations were carried out in a similar manner with an under relaxation presented in equation \ref{eq:relax}. 
  
  
 \subsubsection{The pressure substep}
 
-The pressure equation was solved in two parts in order to find solutions the two unknowns i.e. the pressure filed na d the velocity filed at the end of the timestep. 
+The pressure equation was solved in two parts in order to find solutions to the two unknowns i.e. the pressure filed na d the velocity filed at the end of the timestep. 
  
 The integration of the pressure substep was initiated by formulating equation \ref{eq:substep2} in terms of a second-order Adams-Moulton scheme which gives,
  
@@ -259,14 +259,14 @@ The integration over the timestep is obtained from the solution of this equation
  
  The spacial discretisation was done using a nodal based spectral-element method. This method is a member of the finite-element class. The computational domain is separated into a series of macro elements and then a continuous solution is obtained over each element. Mesh refinement can be done in the areas where high gradients are experienced, which is also known as $h$-refinement. It was necessary that all elements to be quadrilateral. Yet, the elements were not restricted from having curved sides.
  
- The calculation of the residual \residual\ initiate the solution process. All the terms of the governing equations (the Naiver-Stokes equation eq \ref{eq:nsfinal}) were moved to the $LHS$. Thus, the resulting expression is, 
+ The calculation of the residual \residual\ initiates the solution process. All the terms of the governing equations (the Navier-Stokes equation eq \ref{eq:nsfinal}) were moved to the $LHS$. Thus, the resulting expression is, 
  
  \begin{equation} \centering
  \label{eq:ns-oneside}
  \pderiv{\vecV}{\tau} + \grad{\Pres} - \frac{1}{\Rey}(\gradsq{\vecV}) + (\vecV.\nabla)\vecV - \accframe = 0 ~.
  \end{equation}
  
- A trial solution is substituted into equation \ref{eq:ns-oneside}. The $RHS$ of the equation would be zero if the trial solution is exact solution of the equation. If the trial solution is not the exact solution but an approximation to the exact solution which is the case in general, then the $RHS$ will be non-zero and a residual will be formed. This residual could be defined by, 
+ A trial solution is substituted into equation \ref{eq:ns-oneside}. The $RHS$ of the equation would be zero if the trial solution is the exact solution of the equation. If the trial solution is not the exact solution but an approximation to the exact solution which is the case in general, then the $RHS$ will be non-zero and a residual will be formed. This residual could be defined by, 
  
  \begin{equation} \centering
  \label{eq:residual}
@@ -275,7 +275,7 @@ The integration over the timestep is obtained from the solution of this equation
  
  The trial solutions for velocity and pressure fields are \Vtrial\ and \Ptrial\ respectively. The error term which is introduced through the trial function is the residual \residual. It is clear from equation \ref{eq:residual} that the definition of the residual is the governing equation substituted by the trial solution substituted to the true solution.
  
-In order to effectively distribute the error over the domain, the residual has to be weighted in order to minimise the maximum local error. To perform this task the inner product of the residual with a series of weighing functions were taken. The integral of the product of the weighting  function and the residual is the inner product of the residual which is set to zero. The method employed here is also commonly known as weighted residual methods. 
+In order to effectively distribute the error over the domain, the residual has to be weighted in order to minimise the maximum local error. To perform this task the inner product of the residual with a series of weighing functions were taken. The integral of the product of the weighting  function and the residual is the inner product of the residual which is set to zero. The method employed here is also commonly known as weighted residual method. 
 
 Tensor-product Lagrange polynomials were used for both interpolating trial functions and weighting functions in the DNS carried out in this study. The order of the polynomials $p$ could be varied from $2$ to $14$ in order to further improve grid resolution which is also known as $p$ refinement. This $p$ refinement coupled with $h$ refinement leads to a method called $h-p$ method which is used to improve accuracy \citep{karniadakis2005}. The method also could be referred as a Galerkin method as both trial and weighting functions used were from the same family of functions. \citet{Fletcher84,Fletcher91} provides further details on weighted-residual methods and Galerkin method. 
 
@@ -297,7 +297,7 @@ This gives the integral
  \int\int_{\Omega}N_{k,m}(\compone,\comptwo)\cdot[\pderiv{\Vtrial}{\tau} +\grad{\Ptrial} - \frac{1}{\Rey}(\gradsq{\Vtrial}) + (\Vtrial\cdot\nabla)\Vtrial - \accframe]\mathrm{d}x\mathrm{d}y = 0 ~,
  \end{equation}
  
-The computational domain is represented by $\Omega$. $N_{q,s}(\compone,\comptwo)$ which are the weighting function as defined in the computational space.
+The computational domain is represented by $\Omega$. $N_{q,s}(\compone,\comptwo)$ are the weighting function as defined in the computational space.
 
 From equation \ref{eq:inner-prod} it is shown that each term in the equation is multiplied by the weighting function. Thus, the integral is split into components and the process could be carried out in the each of the substep equations \ref{eq:substep1}, \ref{eq:substep2} and \ref{eq:substep3}. For example the discretised equation for \ref{eq:vint_first} could be expressed as
 
@@ -326,7 +326,7 @@ A Jacobian is introduced to perform this coordinate transformation and hence, th
 \int\int_{El}\Vint N_{q,s}(\compone,\comptwo)\jacobian(\compone, \comptwo)\mathrm{d}\compone \mathrm{d}\comptwo ~,
 \end{equation}
 
-The Jacobian is represented by \jacobian and ``$El$" denotes that the integration is performed over a single element. The solution of equation \ref{eq:inner_comp} $\Vtrial^{*}$, could be re-written as a summation of Lagrange polynomial components. This equation also expresses the tensor-product Lagrange polynomials representing the weighting functions in directions of \compone\ and \comptwo. Therefore, the equation could be expressed as,    
+The Jacobian represented by \jacobian and ``$El$" denotes that the integration is performed over a single element. The solution of equation \ref{eq:inner_comp} $\Vtrial^{*}$, could be re-written as a summation of Lagrange polynomial components. This equation also expresses the tensor-product Lagrange polynomials representing the weighting functions in directions of \compone\ and \comptwo. Therefore, the equation could be expressed as,    
 
  \begin{equation} \centering
  \label{eq:inner_expand}
@@ -342,10 +342,10 @@ The Gauss-Lobatto Legendre (GLL) quadrature could be used to obtain an approxima
 \sum_{a,b}W_{a,b}\sum_{i,j}\widehat{\Vint}_{i,j}L_{i}(\compone_{a})L_{j}(\comptwo_{b})L_{q}(\compone_{a})L_{s}(\comptwo_{b})\jacobian(\compone_{a}, \comptwo_{b}) ~.
 \end{equation}
 
-$W_{a,b}$ represents the weighting coefficient for GLL quadrature, $a$ and $b$ represents the position of the node in the direction \compone\ and \comptwo\ respectively. 
+$W_{a,b}$ represents the weighting coefficient for GLL quadrature, $a$ and $b$ represents the position of the node in the directions \compone\ and \comptwo\ respectively. 
 
 
-Even though equation \ref{eq:inner_GLL} appears to be quite intimidating to deal with, the expression could be considerably simplified because of the fact that the system is discrete and the only the values at the nodal points are considered. Incorporating Lagrange polynomials allows the substitution 
+Even though equation \ref{eq:inner_GLL} appears to be quite intimidating to deal with, the expression could be considerably simplified because of the fact that the system is discrete and the only values at the nodal points are considered. Incorporating Lagrange polynomials allows the substitution 
 
  \begin{gather}
  \label{eq:kronecker}
@@ -379,7 +379,7 @@ Even though equation \ref{eq:inner_GLL} appears to be quite intimidating to deal
 The boundary conditions, regardless of the mesh  were common for all the simulations performed. A no-slip condition was applied to the cross section wall. This condition ensures that the velocity is zero at the surface of the cross section. For stationary simulations a Dirichlet boundary condition is applied. For FSI cases a time-dependent Dirichlet boundary condition was employed for the velocity on the inlet and lateral boundaries. A Dirichlet boundary condition should have a specified value for the variables \citep{kreyszig2010} in this case velocity. The time-dependent Dirichlet condition has to be implemented for the FSI cases to account for the accelerated reference frame attached to the cross section. Thus, the inlet boundary was set to $u=U$ and $v=-\dot{y}$ for FSI cases and $v=0$ for stationary cases, where $u,v$ are the velocities in the $x$ and $y$ directions, respectively.
 
 
-The outlet which is at the boundary downstream of the body was assigned the Neumann boundary condition (where the gradient of a property is specified \citet{tu2007}), $\pderiv{\vecV}{\normal}=0$ where \normal\ denotes the unit normal vector. This assumes that the flow does not spatially while exiting the domain.
+The outlet which is at the boundary downstream of the body was assigned the Neumann boundary condition (where the gradient of a property is specified \citet{tu2007}), $\pderiv{\vecV}{\normal}=0$ where \normal\ denotes the unit normal vector. This assumes that the flow does not spatially evolve while exiting the domain.
 
 
 
@@ -412,7 +412,7 @@ A Neumann condition for the pressure was applied at all the boundaries except th
 
 \subsubsection{Convergence}
 
-A series of simulations were carried out in order to ensure the results were grid independent. This was dong by by keeping the layout of the macro element the same and varying the order of the interpolation polynomial (\emph{p-refinement}). The displacement amplitudes were compared against various polynomial orders. The time step is also reduced as the special resolution increases to satisfy the Courant condition. The summary of the results are presented in \ref{fig:FSI_convergence} .
+A series of simulations were carried out in order to ensure the results were grid independent. This was done by by keeping the layout of the macro element the same and varying the order of the interpolation polynomial (\emph{p-refinement}). The displacement amplitudes were compared against various polynomial orders. The time step is also reduced as the special resolution increases to satisfy the Courant condition. The summary of the results are presented in figure \ref{fig:FSI_convergence} .
 
 \input{./chapter-methodology/figures/FSI-convergence.tex}
 

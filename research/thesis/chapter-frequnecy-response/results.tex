@@ -6,7 +6,7 @@ The new governing parameters (\massstiff\ and \massdamp) formulated using the li
 
 The investigation into the frequency behaviour was carried out to compliment the understanding of \massstiff\ and \massdamp\ on galloping. 
 
-The outline of this chapter is as follows. An expression for the frequency is formulated based on \massstiff\ and \massdamp\ through the natural time-scales of the system. The QSS model is used to simulate the system through to  extreme cases in order to find limits where a linear approximation could no longer predict frequency. This followed by the presentation of results through plots and contour plots in \massstiff\ and \massdamp\ space. Finally the limits of the formulated equation is identified and conclusions are made on the galloping frequency. 
+The outline of this chapter is as follows. An expression for the frequency is formulated based on \massstiff\ and \massdamp\ through the natural time-scales of the system. The QSS model is used to simulate the system through to  extreme cases in order to find limits where a linear approximation could no longer predict frequency. This is followed by the presentation of results through plots and contour plots in \massstiff\ and \massdamp\ space. Finally the limits of the formulated equation is identified and conclusions are made on the galloping frequency. 
 
 
 \vspace{15mm}
@@ -49,7 +49,7 @@ Multiplying through by $m*^2$ gives
 \end{equation}
 
 
-By substituting \massstiff\ and \massdamp\ appropriately the expression of the linear frequency reduced to   
+By substituting \massstiff\ and \massdamp\ appropriately the expression of the linear frequency is reduced to   
 \begin{equation}
 \label{eqn:linear_freq_final}
 \frac{fD}{U} = \sqrt{\Pi_2^2 - \Pi_2a_1 + \frac{a_1^2}{4} - 4\Pi_1}.
@@ -63,7 +63,7 @@ The limiting factor of equation \ref{eqn:linear_freq_final} is the instance wher
 
 \subsection{Comparison of predicted frequencies using different approaches}
 
-Using different techniques, namely predictions from linearised QSS equation, QSS modelling and DNS simulations, three different galloping frequencies were predicted namely \freqlin\ \freqqss\ and \freqdns. For a give value of \massstiff\ and \massdamp\, the linear frequency \freqlin\ was found by solving equation \ref{eqn:linear_freq_final}. \freqqss\ was obtained by performing a power spectrum analysis on the time trace of the velocity of the body  obtained by numerically solving the quasi-steady sate equation. \freqdns\ was obtained using the similar technique as \freqqss\ but the velocity data was obtained through DNS simulations of fluid-structure interactions. 
+Using different techniques, namely predictions from linearised QSS equation, QSS modelling and DNS simulations, three different galloping frequencies were predicted namely \freqlin\ \freqqss\ and \freqdns. For a given values of \massstiff\ and \massdamp\, the linear frequency \freqlin\ was found by solving equation \ref{eqn:linear_freq_final}. \freqqss\ was obtained by performing a power spectrum analysis on the time trace of the velocity of the body  obtained by numerically solving the quasi-steady sate equation. \freqdns\ was obtained using a similar technique as \freqqss\ but the velocity data was obtained through DNS simulations of fluid-structure interactions. 
 
 \input{./chapter-frequnecy-response/figures/freq-015.tex}
 
@@ -73,19 +73,19 @@ Given the circumstances two regions of frequency response could be identified na
 
 \subsection{Region where linear frequency can be predicted}
 
-Figure \ref{eqn:liner_freq} shows the frequency ration between \freqlin\ and \freqqss\ at the region where $f_{lin}>0$. 
+Figure \ref{eqn:liner_freq} shows the frequency ratio between \freqlin\ and \freqqss\ at the region where $f_{lin}>0$. 
 \input{./chapter-frequnecy-response/figures/flin-qss.tex}
 
 The QSS frequency data tends to agree well between \freqlin\ and \freqqss\ for $\massstiff>10$ for almost all values of \massdamp. As \massstiff\ is further reduced the frequency ratio tends to reduce implying a further deviation between the frequencies.   
 
 \input{./chapter-frequnecy-response/figures/fdns-flinear.tex}
  
- This pattern could also be observed for the DNS data (figure \ref{fig:feq-dns}). The two frequencies \freqlin\ and \freqdns\ tend to be in good agreement in the selected space of \massstiff\ and \massdamp\. It should be specially noted that the lower boundary of \massstiff\ was limited ($\massstiff=10$) because of the fact that galloping was weak in the DNS data where $\massstiff<10$, and no galloping frequency could be obtained with the power spectrum analysis. 
+ This pattern could also be observed for the DNS data (figure \ref{fig:feq-dns}). The two frequencies \freqlin\ and \freqdns\ tend to be in good agreement in the selected space of \massstiff\ and \massdamp. It should be specially noted that the lower boundary of \massstiff\ was limited ($\massstiff=10$) because of the fact that galloping was weak in the DNS data where $\massstiff<10$, and no galloping frequency could be obtained with the power spectrum analysis. 
 
 
 \subsection{Region where linear frequency could not be predicted}
 
-This region is categorised as the region where no linear frequency can be predicted or in other words \freqlin is undefined. Even though there was no linear frequency predicted the QSS model provided a signal for velocity and displacement and therefore providing a frequency. 
+This region is categorised as the region where no linear frequency can be predicted or in other words \freqlin is undefined. Even though there was no linear frequency predicted the QSS model provided a signal for velocity and displacement and thereby providing a frequency. 
 
 \input{./chapter-frequnecy-response/figures/f-non-linear-fqss.tex}
 
@@ -93,11 +93,11 @@ The frequency ratio $\frac{f_{QSS}}{f}$ tends to deviate as \massstiff\ reduces 
 
 \input{./chapter-frequnecy-response/figures/velocity-signal.tex}
 
-Figure \ref{fig:velocity-signal} shows the time traces of transverse velocity and the induced angle at the two regions. subfigure (a) and (c) at $\massstiff=1000$ and subfigure (b) and (d) at $\massstiff=0.001$, at $\massdamp=0.2$. The reduced velocity is fixed at $\ustar=40$. Hence, the inertia of the system decreases as \massstiff decreases. At $\massstiff=1000$ the inertia of the body is relatively large ($\mstar=201$). Thus, grater force is needed to change the inertia of the body. This results the body oscillating majority portion of th galloping cycle in rage of $\theta$ which falls within the linear region of the \cy\ vs. $\theta$ curve (refer figure \ref{fig:lift_curves}).
+Figure \ref{fig:velocity-signal} shows the time traces of transverse velocity and the induced angle at the two regions. subfigure (a) and (c) at $\massstiff=1000$ and subfigure (b) and (d) at $\massstiff=0.001$, at $\massdamp=0.2$. The reduced velocity is fixed at $\ustar=40$. Hence, the inertia of the system decreases as \massstiff decreases. At $\massstiff=1000$ the inertia of the body is relatively large ($\mstar=201$). Thus, grater force is needed to change the inertia of the body. This results the body oscillating majority portion of the galloping cycle in the range of $\theta$ which falls within the linear region of the \cy\ vs. $\theta$ curve (refer figure \ref{fig:lift_curves}).
 
 In contrast, at $\massstiff=0.001$, as the inertia of the body is relatively small (\mstar= 0.2), the body accelerates quickly to high velocities. Therefore, the body gain higher induced angles and sustains the majority portion of the galloping cycle at the range of induced angles which falls within the non-linear  region of the \cy\ vs. $\theta$ curve (refer figure \ref{fig:lift_curves}). 
 
-Thus, it is clear that at high \massstiff\ the significant forcing of the oscillatory system is governed by the linear terms of the interpolation polynomial and at low \massstiff\ the non-linear terms of the polynomial have a significant effect on the system. As our linear frequency model does not take the non-linear terms of the forcing into account a frequency could not be predicted at this non-linear region.  	
+Thus, it is clear that at high \massstiff\, the significant forcing of the oscillatory system is governed by the linear terms of the interpolation polynomial and at low \massstiff\, the non-linear terms of the polynomial have a significant effect on the system. As our linear frequency model does not take the non-linear terms of the forcing into account a frequency could not be predicted at this non-linear region.  	
 
 It is to be noted that this non-linear region may be difficult to set up physically and the strong vortex shedding in two dimensional simulations have suppressed galloping in this parameter space. Be that as it may, an in-depth analysis should be carried out using some other technique to isolate the weak galloping signal to back this argument. 
 
@@ -107,9 +107,9 @@ An expression for the frequency of the system was formulated in terms of \massst
 
 QSS frequency was compared with the undamped natural frequency of the system $f$, in the region where a linear frequency was not predicted. This revealed that it was within $0.55\leq\frac{f_{QSS}}{f}\leq0.75$ in the rage of $0.06\leq\massstiff\leq0.1$ and dropped further as \massstiff\ reduces.  
 
-The mere existence of this region questionable as no DNS data could be obtained in this region due to the fact that galloping signal was weak and the techniques used to obtain the  frequency was not sensitive enough to capture these weak signals. There is scope for further study to corroborate or otherwise the QSS prediction using experiments or DNS. 
+The mere existence of this region is questionable as no DNS data could be obtained in this region due to the fact that galloping signal was weak and the techniques used to obtain the  frequency were not sensitive enough to capture these weak signals. There is scope for further study to corroborate or otherwise the QSS prediction using experiments or DNS. 
 
-Yet, The linear expression provided a excellent prediction within the boundaries where DNS data were obtained and therefore complimenting the understanding of the new formulated parameters \massstiff\ and \massdamp and concluding phase 1 of the study.
+Yet, the linear expression provided an excellent prediction within the boundaries where DNS data were obtained and therefore complimenting the understanding of the newly formulated parameters \massstiff\ and \massdamp and concluding phase 1 of the study.
 
    
 
