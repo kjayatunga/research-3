@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  13 OCT 2015 20:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  14 OCT 2015 01:01
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -706,19 +706,19 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 45--65
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 76--77
+Underfull \hbox (badness 1622) in paragraph at lines 79--80
 []|\OT1/cmr/m/n/10.95 Transverse dis-place-ment, ve-loc-ity and ac-cel-er-a-tio
 n of the
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 80--81
+Underfull \hbox (badness 5771) in paragraph at lines 83--84
 []|\OT1/cmr/m/n/10.95 Under-relaxation pa-ram-e-ter used dur-ing the elasticall
 y-
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 65--86
+Overfull \hbox (24.0pt too wide) in alignment at lines 65--85
  [] [] 
  []
 
@@ -727,12 +727,12 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 65--86
 
 
 ]
-Overfull \hbox (24.0pt too wide) in alignment at lines 86--106
+Overfull \hbox (24.0pt too wide) in alignment at lines 85--106
  [] [] 
  []
 
 [12]
-Overfull \hbox (24.0pt too wide) in alignment at lines 106--106
+Overfull \hbox (24.0pt too wide) in alignment at lines 106--109
  [] [] 
  []
 
@@ -1209,10 +1209,10 @@ Missing character: There is no “ in font cmr10!
 Here is how much of TeX's memory you used:
  13783 strings out of 493090
  269842 string characters out of 6134868
- 314021 words of memory out of 5000000
+ 313020 words of memory out of 5000000
  16695 multiletter control sequences out of 15000+600000
  21123 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1887b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (108 pages, 337976 bytes).
+Output written on thesis-main.dvi (108 pages, 338352 bytes).
