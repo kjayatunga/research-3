@@ -1,11 +1,18 @@
 \chapter{Introduction}
 
-The review of published literature reveals that fluid-elastic galloping has a potential to be used as a mechanism for energy extraction. Thus, the following questions emerged. What are the optimum parameters for energy transfer in a galloping system? How do they influence galloping?
+The review of published literature reveals that fluid-elastic galloping has a potential to be used as a mechanism for energy extraction \citep{Barrero-Gil2010a}. Thus, the following questions emerged. What are the optimum parameters for energy transfer in a galloping system? How do they influence galloping?
 
-Over the years, VIV has been the popular research problem  studied on flow induced vibrations. As a result, the parameters used to describe VIV problems (i.e \mstar, $\zeta$ and \ustar) has been incorporated to describe galloping, which could be observed throughout the current literature \citep{Barrero-Gil2009,Barrero-Gil2010a,Parkinson1964}.
+Over the years, VIV has been the popular research problem  studied on flow induced vibrations. As a result, the parameters used to describe VIV problems (i.e \mstar, $\zeta$ and \ustar) have been incorporated to describe galloping, which could be observed throughout the current literature \citep{Barrero-Gil2009,Barrero-Gil2010a,Parkinson1964}.
 
-However, data presented using this classical VIV parameters mean harvested power in particular \citep{Barrero-Gil2010a}, does not provide a good collapse.
+However, mean power data presented using this classical VIV parameters \citep{Barrero-Gil2010a}, does not provide a good collapse. A potential reason for this could be the difference in time scales of VIV and galloping.
 
-Therefore it is hypothesised that more suitable parameters which could provide a better collapse of power output data could be obtained from the relevant time scales of galloping. 
+Therefore, more relevant governing parameters for galloping could be obtained using the relevant time scales, from which, the optimum power output could be obtained. The work presented in this chapter is focused on testing this hypothesis. 
 
- 
+Since the main mathematical model used to describe galloping is the Quasi-steady state model, the fluid-dynamic characteristics of flow over a static body are presented and discussed first. Then, the natural time scales of the system are obtained using the linearised QSS model. Next, the new non-dimensional governing parameters  \massstiff\ and \massdamp, are formulated by non-dimensionalising the QSS model from these natural time scales, followed by a comparison of galloping data using the classical VIV parameters and  \massstiff\ and \massdamp. Then, the influence of \massstiff \ and \massdamp \ and the conditions for an optimum power output are discussed from QSS data. Finally, the QSS data are compared and discussed against FSI direct numerical simulations and final conclusions are presented.
+
+\clearpage
+
+\subsection{Static body results}
+
+Since, the main data acquisition tool for galloping is the QSS model, the main input for this model which is the interpolation forcing function based on the static body force coefficients data are presented here. As discussed in chapter \label{sec:QSS_model_methodology} QSS model uses an interpolation polynomial of the static body lift data as the driving force of the QSS equation. Figure \ref{fig:lift_curves} shows the plots $C_y$ as a function of $\theta$, as well as the interpolation polynomial curves. Data are acquired for high and low Reynolds numbers. For high Reynolds numbers, the static body polynomial data are obtained from \cite{Parkinson1964} while for low Reynolds numbers a $7^{th}$ order non-linear least square regression fit on static body DNS simulations were used. The coefficients of these  polynomials are presented in table \ref{table:cy-coefficients}.
+
