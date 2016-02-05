@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  30 JAN 2016 00:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  3 FEB 2016 16:18
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -745,25 +745,53 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 106--109
 
 ]
 Chapter 1.
-) (./thesis-main.bbl [2
+[2
 
-] [3
+] [3] (./chapter-pi_1_pi_2/figure/cy_vs_theta.tex
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_200.eps Graphic file (type eps
+)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_200.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_park.eps Graphic file (type ep
+s)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_park.eps>)
+(./chapter-pi_1_pi_2/figure/coefficient-table.tex
+
+LaTeX Warning: Reference `final_equation_motion' on page 4 undefined on input l
+ine 18.
+
+
+LaTeX Warning: Reference `final_equation_motion' on page 4 undefined on input l
+ine 18.
+
+)
+
+LaTeX Warning: Reference `eqn:power_alt' on page 4 undefined on input line 26.
+
+[4
+
+]) (./thesis-main.bbl [5] [6
 
 ]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [4] [5] [6]) [7] (./thesis-main.aux
+ [7] [8] [9]) [10] (./thesis-main.aux
 (./initial-stuff/originality.aux) (./initial-stuff/abstract.aux)
 (./initial-stuff/acknowledgements.aux) (./initial-stuff/publications.aux)
-(./initial-stuff/nomenclature-1.aux)) ) 
-Here is how much of TeX's memory you used:
- 13301 strings out of 493090
- 256038 string characters out of 6134868
- 311776 words of memory out of 5000000
- 16447 multiletter control sequences out of 15000+600000
- 13700 words of font info for 49 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 55i,11n,54p,914b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+(./initial-stuff/nomenclature-1.aux))
 
-Output written on thesis-main.dvi (21 pages, 53784 bytes).
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 13327 strings out of 493090
+ 256648 string characters out of 6134868
+ 311814 words of memory out of 5000000
+ 16460 multiletter control sequences out of 15000+600000
+ 15254 words of font info for 55 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,11n,54p,999b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on thesis-main.dvi (24 pages, 61376 bytes).
