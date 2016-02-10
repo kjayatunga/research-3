@@ -1,10 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis-main.aux
-A level-1 auxiliary file: ./initial-stuff/abstract.aux
-A level-1 auxiliary file: ./initial-stuff/acknowledgements.aux
-A level-1 auxiliary file: ./initial-stuff/publications.aux
-A level-1 auxiliary file: ./initial-stuff/nomenclature-1.aux
 The style file: elsarticle-harv.bst
 opyright is an illegal style-file command---line 1 of file elsarticle-harv.bst
  : opyright
@@ -14,53 +10,46 @@ Repeated entry---line 519 of file ./Paper.bib.bib
  : @article{Vio2007
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 528 of file ./Paper.bib.bib
- : @article{sheard2009
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 537 of file ./Paper.bib.bib
- : @article{tong2008
- :                  ,
-I'm skipping whatever remains of this entry
-You've used 51 entries,
+Warning--I didn't find a database entry for "williamson2004"
+You've used 13 entries,
             2821 wiz_defined-function locations,
-            964 strings with 12984 characters,
-and the built_in function-call counts, 24323 in all, are:
-= -- 2532
-> -- 1143
-< -- 36
-+ -- 429
-- -- 372
-* -- 2066
-:= -- 4390
-add.period$ -- 155
-call.type$ -- 51
-change.case$ -- 381
-chr.to.int$ -- 84
-cite$ -- 51
-duplicate$ -- 914
-empty$ -- 1701
-format.name$ -- 521
-if$ -- 4954
+            724 strings with 6899 characters,
+and the built_in function-call counts, 6626 in all, are:
+= -- 699
+> -- 318
+< -- 5
++ -- 118
+- -- 105
+* -- 612
+:= -- 1184
+add.period$ -- 39
+call.type$ -- 13
+change.case$ -- 100
+chr.to.int$ -- 13
+cite$ -- 13
+duplicate$ -- 231
+empty$ -- 446
+format.name$ -- 150
+if$ -- 1323
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 58
-newline$ -- 160
-num.names$ -- 204
-pop$ -- 365
+missing$ -- 12
+newline$ -- 46
+num.names$ -- 52
+pop$ -- 86
 preamble$ -- 1
-purify$ -- 328
+purify$ -- 87
 quote$ -- 0
-skip$ -- 702
+skip$ -- 169
 stack$ -- 0
-substring$ -- 1388
-swap$ -- 133
-text.length$ -- 1
+substring$ -- 442
+swap$ -- 35
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 426
+type$ -- 117
 warning$ -- 0
-while$ -- 210
+while$ -- 59
 width$ -- 0
-write$ -- 565
-(There were 4 error messages)
+write$ -- 149
+(There were 2 error messages)

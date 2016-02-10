@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  3 FEB 2016 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  10 FEB 2016 15:59
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -587,9 +587,7 @@ Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 
 Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 
-)) (./thesis-main.aux (./initial-stuff/originality.aux)
-(./initial-stuff/abstract.aux) (./initial-stuff/acknowledgements.aux)
-(./initial-stuff/publications.aux) (./initial-stuff/nomenclature-1.aux))
+)) (./thesis-main.aux)
 \openout1 = `thesis-main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
@@ -604,39 +602,33 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
 LaTeX Font Info:    ... okay on input line 161.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
 LaTeX Font Info:    ... okay on input line 161.
-
-ABD: EveryShipout initializing macros [1
+ ABD: EveryShipout initializing macros [1
 
 ] [2
 
 
 ]
-\openout2 = `./initial-stuff/originality.aux'.
-
- (./initial-stuff/originality.tex
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-) [3
-
-
-
-]
-\openout2 = `./initial-stuff/abstract.aux'.
-
- (./initial-stuff/abstract.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 8.
+(./thesis-main.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 8.
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [4
+))
+\tf@toc=\write5
+\openout5 = `thesis-main.toc'.
 
 
+(./chapter-pi_1_pi_2/results-2.tex [1
+
+
+]
+Chapter 1.
+[2
 
 ]
 
@@ -645,109 +637,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]) [6]
-\openout2 = `./initial-stuff/acknowledgements.aux'.
-
- (./initial-stuff/acknowledgements.tex
-Underfull \hbox (badness 10000) in paragraph at lines 11--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--16
-
- []
-
-[7
-
-
-
-]) [8] [9
-
-
-]
-\openout2 = `./initial-stuff/publications.aux'.
-
- (./initial-stuff/publications.tex) [10
-
-
-]
-\openout2 = `./initial-stuff/nomenclature-1.aux'.
-
-
-(./initial-stuff/nomenclature-1.tex
-Overfull \hbox (24.0pt too wide) in alignment at lines 6--9
- [] [] 
- []
-
-
-Overfull \hbox (24.0pt too wide) in alignment at lines 9--16
- [] [] 
- []
-
-
-Overfull \hbox (24.0pt too wide) in alignment at lines 16--19
- [] [] 
- []
-
-
-Overfull \hbox (24.0pt too wide) in alignment at lines 19--21
- [] [] 
- []
-
-
-Overfull \hbox (24.0pt too wide) in alignment at lines 21--45
- [] [] 
- []
-
-
-Overfull \hbox (24.0pt too wide) in alignment at lines 45--65
- [] [] 
- []
-
-
-Underfull \hbox (badness 1622) in paragraph at lines 79--80
-[]|\OT1/cmr/m/n/10.95 Transverse dis-place-ment, ve-loc-ity and ac-cel-er-a-tio
-n of the
- []
-
-
-Underfull \hbox (badness 5771) in paragraph at lines 83--84
-[]|\OT1/cmr/m/n/10.95 Under-relaxation pa-ram-e-ter used dur-ing the elasticall
-y-
- []
-
-
-Overfull \hbox (24.0pt too wide) in alignment at lines 65--85
- [] [] 
- []
-
-[11
-
-
-
-]
-Overfull \hbox (24.0pt too wide) in alignment at lines 85--106
- [] [] 
- []
-
-[12]
-Overfull \hbox (24.0pt too wide) in alignment at lines 106--109
- [] [] 
- []
-
-[13]) [14] (./thesis-main.toc)
-\tf@toc=\write5
-\openout5 = `thesis-main.toc'.
-
- (./chapter-pi_1_pi_2/results-2.tex [1
-
-
-]
-Chapter 1.
-[2
-
-] [3] (./chapter-pi_1_pi_2/figure/cy_vs_theta.tex
+[3] (./chapter-pi_1_pi_2/figure/cy_vs_theta.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_200.eps Graphic file (type eps
 )
 
@@ -767,31 +657,167 @@ ine 18.
 
 )
 
-LaTeX Warning: Reference `eqn:power_alt' on page 4 undefined on input line 26.
+LaTeX Warning: Reference `eqn:power_alt' on page 4 undefined on input line 27.
 
 [4
 
-]) (./thesis-main.bbl [5] [6
-
 ]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
- [7] [8] [9]) [10] (./thesis-main.aux
-(./initial-stuff/originality.aux) (./initial-stuff/abstract.aux)
-(./initial-stuff/acknowledgements.aux) (./initial-stuff/publications.aux)
-(./initial-stuff/nomenclature-1.aux))
+
+LaTeX Warning: Reference `final_equation_motion' on page 5 undefined on input l
+ine 35.
+
+
+LaTeX Warning: Reference `final_equation_motion' on page 5 undefined on input l
+ine 40.
+
+[5]
+
+Package natbib Warning: Citation `williamson2004' on page 6 undefined on input 
+line 69.
+
+
+LaTeX Warning: Reference `final_equation_motion' on page 6 undefined on input l
+ine 69.
+
+[6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+(./chapter-pi_1_pi_2/figure/compare_data.tex
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200.eps Graphic file (
+type eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/velocity_amp_re200.eps Graphic file (type
+ eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/velocity_amp_re200.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_re_200.eps Graphic file (type 
+eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_re_200.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/velocity_amp_collapsed_re200.eps Graphic 
+file (type eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/velocity_amp_collapsed_re200.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_re_200.eps Graphic f
+ile (type eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_re_200.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_collpased_re200.eps Grap
+hic file (type eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_collpased_re200.eps>
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 24.
+
+) (./chapter-pi_1_pi_2/figure/collapsed_data.tex
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson.eps Graphi
+c file (type eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson.eps>)
+Underfull \vbox (badness 6268) has occurred while \output is active []
+
+ [8]
+[9] (./chapter-pi_1_pi_2/figure/high_pi_1.tex
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_high_pi_1.eps Graphic file (ty
+pe eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_high_pi_1.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps Graphic file 
+(type eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps>) [10] [11]
+(./chapter-pi_1_pi_2/figure/time_histories.tex
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_015.eps Graphic file (
+type eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_015.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_015.eps Graphic file (type ep
+s)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_015.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_015.eps Graphic file (
+type eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_015.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_54.eps Graphic file (t
+ype eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_54.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_54.eps Graphic file (type eps
+)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_54.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_54.eps Graphic file (t
+ype eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_54.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_08.eps Graphic file (t
+ype eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_08.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_08.eps Graphic file (type eps
+)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_08.eps>
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps Graphic file (t
+ype eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps>)
+
+LaTeX Warning: Reference `eqn:power' on page 12 undefined on input line 128.
+
+
+LaTeX Warning: Reference `eqn:power_alt' on page 12 undefined on input line 128
+.
+
+
+LaTeX Warning: Reference `eqn:power' on page 12 undefined on input line 134.
+
+
+LaTeX Warning: Reference `cy ploynomial' on page 12 undefined on input line 134
+.
+
+
+Underfull \vbox (badness 4168) has occurred while \output is active []
+
+ [12]
+
+LaTeX Warning: Reference `eqn:power_alt' on page 13 undefined on input line 137
+.
+
+
+LaTeX Warning: Reference `cy ploynomial' on page 13 undefined on input line 139
+.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+(./chapter-pi_1_pi_2/figure/low_pi_1.tex
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps Graphic file (typ
+e eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps>)) (./thesis-main.bbl
+[14] [15
+
+])
+
+Package natbib Warning: There were undefined citations.
+
+[16] (./thesis-main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13327 strings out of 493090
- 256648 string characters out of 6134868
- 311814 words of memory out of 5000000
- 16460 multiletter control sequences out of 15000+600000
- 15254 words of font info for 55 fonts, out of 8000000 for 9000
+ 13232 strings out of 493090
+ 255535 string characters out of 6134868
+ 297147 words of memory out of 5000000
+ 16372 multiletter control sequences out of 15000+600000
+ 13239 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,54p,999b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,54p,1435b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (24 pages, 61376 bytes).
+Output written on thesis-main.dvi (18 pages, 54488 bytes).

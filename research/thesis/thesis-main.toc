@@ -1,2 +1,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{2}
 \contentsline {subsection}{\numberline {1.0.1}Static body results}{4}
+\contentsline {subsection}{\numberline {1.0.2}Formulation of the new dimensionless groups \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}}{5}
+\contentsline {subsection}{\numberline {1.0.3}Comparison of \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}\ with classical VIV parameters}{8}
+\contentsline {subsection}{\numberline {1.0.4}Comparison of power between high and low \ensuremath {Re}\ data}{8}
+\contentsline {subsection}{\numberline {1.0.5}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{10}
+\contentsline {subsection}{\numberline {1.0.6}Dependence on the mass ratio \ensuremath {m^{*}}}{14}

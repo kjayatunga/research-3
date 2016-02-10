@@ -2,19 +2,19 @@
 
 The review of published literature reveals that fluid-elastic galloping has a potential to be used as a mechanism for energy extraction \citep{Barrero-Gil2010a}. Thus, the following questions emerged. What are the optimum parameters for energy transfer in a galloping system? How do they influence galloping?
 
-Over the years, VIV has been the popular research problem  studied on flow induced vibrations. As a result, the parameters used to describe VIV problems (i.e \mstar, $\zeta$ and \ustar) have been incorporated to describe galloping, which could be observed throughout the current literature \citep{Barrero-Gil2009,Barrero-Gil2010a,Parkinson1964}.
+Another fluid-structure interaction phenomenon, vortex-induced vibration (VIV), has also been investigated as a candidate for the power extraction from flows. The work from \citet{Bernitsas2008a-concept, Bernitsas2009, Raghavan2010a, Lee2011b} and others from the same group at the University of Michigan have made significant progress with this problem. Therefore it may seem, at least initially, reasonable to present data from the fluid-elastic problem in the same parameters as typically used in VIV studies, which could be observed in current literature on galloping \citep{Barrero-Gil2009,Barrero-Gil2010a,Parkinson1964}.
 
-However, mean power data presented using this classical VIV parameters \citep{Barrero-Gil2010a}, does not provide a good collapse. A potential reason for this could be the difference in time scales of VIV and galloping.
 
-Therefore, more relevant governing parameters for galloping could be obtained using the relevant time scales, from which, the optimum power output could be obtained. The work presented in this chapter is focused on testing this hypothesis. 
 
-Since the main mathematical model used to describe galloping is the Quasi-steady state model, the fluid-dynamic characteristics of flow over a static body are presented and discussed first. Then, the natural time scales of the system are obtained using the linearised QSS model. Next, the new non-dimensional governing parameters  \massstiff\ and \massdamp, are formulated by non-dimensionalising the QSS model from these natural time scales, followed by a comparison of galloping data using the classical VIV parameters and  \massstiff\ and \massdamp. Then, the influence of \massstiff \ and \massdamp \ and the conditions for an optimum power output are discussed from QSS data. Finally, the QSS data are compared and discussed against FSI direct numerical simulations and final conclusions are presented.
+However, the data presented in the pioneering study on energy harvesting from galloping  \citep{Barrero-Gil2010a} presented using classical VIV parameters (i.e. \ustar, $\mstar\zeta$), shows that the mean power data does not collapse well. The reason behind this would be the difference in time-scales of VIV and galloping. Thus the work presented in this chapter is focused on testing this hypothesis and obtain the optimum conditions for mean power output. 
+
+Since the the Quasi-steady state model is the primary mathematical model used to model galloping in this study, the fluid-dynamic characteristics of flow over a static body are presented and discussed first as it is the . Then, the natural time scales of the system are obtained using the linearised QSS model. Next, the new non-dimensional governing parameters  \massstiff\ and \massdamp, are formulated by non-dimensionalising the QSS model from these natural time scales, followed by a comparison of galloping data using the classical VIV parameters and  \massstiff\ and \massdamp. Then, the influence of \massstiff \ and \massdamp \ and the conditions for an optimum power output are discussed from QSS data. Finally, the QSS data are compared and discussed against FSI direct numerical simulations and final conclusions are presented.
 
 \clearpage
 
 \subsection{Static body results}
 
-The main data acquisition tool for galloping is the QSS model. As discussed in chapter \label{sec:QSS_model_methodology}, the QSS model uses an interpolation polynomial of the static body lift data as the driving force of the QSS equation. These static body data and the polynomial data are presented here.  Figure \ref{fig:lift_curves} shows the plots of $C_y$ as a function of $\theta$, as well as the interpolation polynomial curves. Data are acquired for high and low Reynolds numbers. For high Reynolds numbers, the static body polynomial data are obtained from \cite{Parkinson1964} while for low Reynolds numbers a $7^{th}$ order non-linear least square regression fit on static body DNS simulations were used. The coefficients of these  polynomials are presented in table \ref{table:cy-coefficients}.
+The main data acquisition tool for galloping is the QSS model. As discussed in chapter \label{sec:QSS_model_methodology}, the QSS model uses an interpolation polynomial of the static body lift data as the driving force of the QSS equation. These static body data and the polynomial data are presented here.  Figure \ref{fig:lift_curves} shows the plots of time averaged $C_y$ data  as a function of $\theta$, as well as the interpolation polynomial curves. Data are acquired for high and low Reynolds numbers. For high Reynolds numbers, the static body polynomial data are obtained from \cite{Parkinson1964} while for low Reynolds numbers a $7^{th}$ order non-linear least square regression fit on static body DNS simulations were used. The coefficients of these  polynomials are presented in table \ref{table:cy-coefficients}.
 
 
 \input{./chapter-pi_1_pi_2/figure/cy_vs_theta.tex}
@@ -26,73 +26,129 @@ There are several differences that can be observed between high and low Reynolds
 The range of incident flow angles where $C_y$ remains positive is narrow at $\reynoldsnumber=200$ ($0^\circ <\theta \leq$ $7^\circ$) compared to $\reynoldsnumber=22300$ ($0^\circ <\theta \leq 15^\circ$). This positive range sustains galloping, as the power is only transferred from the fluid to the supporting structure within this range of incident angles. This is because the fluid forces are acting in the 
 direction of velocity of the body, or in phase with, the oscillating body as demonstrated by equation \ref{eqn:power_alt}. Incident angles beyond this range suppress the galloping as power is transferred in the opposite direction, i.e; from body to fluid. Thus, it is expected that the transferred power at $\reynoldsnumber=200$ to be significantly lower than at $\reynoldsnumber=22300$, because of the relative low values of $C_y$ and the narrow range of positive $C_y$ at $\reynoldsnumber=200$.
 
-\section{Formulation of the non-dimensionalised parameters \massstiff \ and \massdamp }
-\label{sec: pi_1,pi_2_formulation}
 
 
-The natural time scales of the system could be obtained by linearising the quasi-steady equation of motion, (Eq:\ref{final_equation_motion}) and finding the eigenvalues. The non-linear terms of the forcing function are truncated and the equation of motion could be expressed as, 
+\subsection{Formulation of the new dimensionless groups \massstiff \ and \massdamp}
+\label{sec:newvar}
 
+
+The natural time scales of the system can be found by solving for the eigenvalues of the linearised equation of motion (Eq:\ref{final_equation_motion}), namely
 \begin{equation}
 	\label{eqn:eom_linear}
 	m\ddot{y}{+}c\dot{y}{+}ky{=}\frac{1}{2}\rho U^2 \mathcal{A} a_1\left(\frac{\dot{y}}{U}\right),
 \end{equation}
+which is a simplified version of the equation of motion presented in equation \ref{final_equation_motion} with the polynomial series for the lift force truncated at the linear term.
 
-After combining the $\dot{y}$ terms and solving for eigenvalues the following solutions for the eigenvalues could be obtained. 
-
+Combining the $\dot{y}$ terms and solving for eigenvalues gives
 \begin{equation}
 	\label{eqn:eigs}
-	\lambda_{1,2}= -\frac{1}{2}\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{m}\pm\frac{1}{2}\sqrt{\left[\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{(m)}\right]^2-4\frac{k}{m}}.
-\end{equation} 
+	\lambda_{1,2}= -\frac{1}{2}\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{m}\pm\frac{1}{2}\sqrt{\left[\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{m}\right]^2-4\frac{k}{m}}.
+\end{equation}
 
-Galloping essentially occurs at low frequencies therefore it can be assumed that the spring is relevantly weak and therefore, $k \rightarrow 0$. Hence a single non-zero eigenvalue remains which is, 
-
+If it is assumed that the spring is relatively weak, $k\rightarrow 0$, a single non-zero eigenvalue remains. This eigenvalue is
 \begin{equation}
 	\label{eqn:eigs_nospring}
 	\lambda=-\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{m}.
 \end{equation}
 
-Further, if it is assumed that the mechanical damping is weaker than the fluid dynamic forces on the body, therefore the non zero eigenvalue could be further simplified to,
-
+Further, if it is assumed that the mechanical damping is significantly weaker than the fluid-dynamic forces on the body, $c\rightarrow 0$ and
 \begin{equation}
 	\label{eqn:eigs_nospring_nodamp}
 	\lambda=\frac{\frac{1}{2}\rho U\mathcal{A}a_1}{m}.
-\end{equation}  
+\end{equation}
 
-In this representation $\lambda$ represents the inverse time scale of the motion of the body due to the effect of long-time fluid dynamic forces (or forced due to the induced velocity). This term could also be re-written and $\lambda$ could be expressed as 
 
+In this form, $\lambda$ represents the inverse time scale of the motion of the body due to the effect of the long-time fluid-dynamic forces. In fact, the terms can be regrouped and $\lambda$ written as
 \begin{equation}
 	\label{eqn:timescale}
 	\lambda = \frac{a_1}{m^*}\frac{U}{D}
 \end{equation}
 
-This form clearly shows the significant parameters that influence the inverse time scale of the system. $\partial C_Y / \partial \alpha $, the rate of change in the fluid dynamic force on the body, with respect to the induced angle of attack, is represented by $a_1$. $\frac{U}{D}$ represents the inverse advective time scale of the incoming flow, and the mass ratio is represented by \mstar. Increasing $a_1$ would result in a rapid change of the fluid dynamic force with a small change of the induced angle $\theta$, which is proportional to transverse velocity $\dot{y}$. It can be seen in equation \ref{eqn:timescale} that an increase of $a_{1}$ would result in an increase of the inverse time scale or decrease the response time of the body. In contrast the mass ratio has the opposite effect where an increase in \mstar will lead to a decrease in $\lambda$, since a heavier body (or a body with higher inertia) would have a slower response. 
+Written this way, the important parameters that dictate this inverse time scale are clear. The rate of change in the fluid-dynamic force with respect to angle of attack when the body is at the equilibrium position, $\partial C_y/\partial \alpha$, is represented by $a_1$. The mass ratio is represented by $m^*$. The inverse advective time scale of the incoming flow is represented by the ratio $U/D$. Increasing $a_1$ would mean the force on the body would increase more rapidly with small changes in the angle of attack, $\theta$, or transverse velocity. Equation \ref{eqn:timescale} shows that such a change will increase the inverse time scale, or analogously decrease the response time of the body. Increasing the mass of the body, thereby increasing $m^*$, has the opposite effect. The inverse time scale is decreased, or as might be expected, a heavier body will respond more slowly.
 
-In order to find the relevant dimensionless groups of the problem, the time scale formulated could be used to non-dimensionalise the equation of motion. The equation of motion presented in Equation \ref{final_equation_motion} can be non-dimensionalised using the non dimensional time $\tau$, defined as $\tau=t(a_1/m^*)(U/D)$. The non-dimensional equation of motion could then be represented as, 
-
+This timescale can then be used to non-dimensionalize the equation of motion, and to find the relevant dimensionless groups of the problem. It was suggested by \citet{shiels2001,leonard2001} to use a flow-based timescale such $D/U$ for the characteristic time for flow-induced vibration problems, rather than a structural-based timescale such as the natural frequency. This point is discussed further in \citet{williamson2004}. Here, this advective time is further scaled by the mass ratio \mstar, as suggested from the eigenvalues of the linearized equation of motion. Hence, if the non-dimensional time, $\tau$, is defined such that $\tau=t(a_1/m^*)(U/D)$, the equation of motion presented in equation \ref{final_equation_motion} can be non-dimensionalized as
 \begin{equation}
 	\label{eqn:eom_nondim}
-	\ddot{Y} + \frac{m^{*2}}{a_1^2}\frac{kD^2}{mU^2}Y = \left(\frac{1}{2} - \frac{m^*}{a_1}\frac{cD}{mU}\right)\dot{Y} - \frac{a_1A_3}{m^{*2}}\dot{Y}^3 + \frac{a_1^3a_5}{m^{*4}}\dot{Y}^5 - \frac{a_1^5a_7}{m^{*6}}\dot{Y}^7.
+	\ddot{Y} + \frac{m^{*2}}{a_1^2}\frac{kD^2}{mU^2}Y = \left(\frac{1}{2} - \frac{m^*}{a_1}\frac{cD}{mU}\right)\dot{Y} - \frac{a_1a_3}{m^{*2}}\dot{Y}^3 + \frac{a_1^3a_5}{m^{*4}}\dot{Y}^5 - \frac{a_1^5a_7}{m^{*6}}\dot{Y}^7.
 \end{equation}
 
-The equation could be further altered by regrouping the coefficients into non-dimenasional groups and could be expressed as, 
-
+The coefficients can be regrouped into combinations of non-dimensional groups, and rewritten as
 \begin{equation}
 	\label{eqn:eom_nondim_regroup}
-	\ddot{Y} + \frac{4\pi^{2}m^{*2}}{U^{*2}a_1^2}Y = \left(\frac{1}{2} - \frac{c^*m^*}{a_1}\right)\dot{Y} - \frac{a_1A_3}{m^{*2}}\dot{Y}^3 + \frac{a_1^3a_5}{m^{*4}}\dot{Y}^5 - \frac{a_1^5a_7}{m^{*6}}\dot{Y}^7,
-\end{equation}  
+	\ddot{Y} + \frac{4\pi^{2}m^{*2}}{U^{*2}a_1^2}Y = \left(\frac{1}{2} - \frac{c^*m^*}{a_1}\right)\dot{Y} - \frac{a_1a_3}{m^{*2}}\dot{Y}^3 + \frac{a_1^3a_5}{m^{*4}}\dot{Y}^5 - \frac{a_1^5a_7}{m^{*6}}\dot{Y}^7,
+\end{equation}
+where $U^{*}$ is the reduced velocity typically used as an independent variable in vortex-induced vibration studies and $c^*=cD/mU$ is a non-dimensional damping parameter.
 
-\ustar is the reduced velocity which is the typical independent variable used in vortex-induced vibration studies. \cstar is the non-dimensional damping parameter which is expressed as $c^*=cD/mU$. 
+Equation \ref{eqn:eom_nondim_regroup} shows there are five non-dimensional parameters that play a role in setting the response of the system. These are the stiffness (represented by the reduced velocity $U^*$), the damping $c^*$, the mass ratio $m^*$, and the geometry and \reynoldsnumber, represented by the coefficients of the polynomial fit to the $C_y$ curve, $a_n$. The grouping of these parameters into two groups in equation \ref{eqn:eom_nondim_regroup} which arise by non-dimensionalising using the natural time scale of the galloping system, suggests there are two groups besides geometry (represented by $a_n$) and \reynoldsnumber that dictate the response: $\Gamma_1 = 4\pi^2m^{*2}/U^{*2}a_1^2$ and $\Gamma_2 = c^*m^*/a_1$. For a given geometry and Reynolds number, $\Gamma_1$ can be thought of as a combined mass-stiffness, whereas $\Gamma_2$ can be thought of a combined mass-damping parameter. It is assumed that during galloping the stiffness plays only a minor role because, galloping time periods are significantly large which implies that $k \rightarrow 0$. Therefore, $\Gamma_2$ seems a likely parameter to collapse the data. In fact, in the classic paper on galloping from \cite{Parkinson1964}, galloping data from wind tunnel tests is presented in terms of a parameter that can be shown to be the same as $\Gamma_2$.
 
-By analysing equation \ref{eqn:eom_nondim_regroup} it is clear that five dimensionless parameters play a role in setting the response of the system. These are namely the stiffness, damping, mass ratio, the geometry and the Reynolds number. The stiffness is represented by the reduced velocity \ustar, the damping by \cstar and the mass ratio by \mstar. The geometry and the Reynolds number are represented by the coefficients $a_n$, of the polynomial fit to the $C_y$ curve. Using the natural time scales of the system, grouping of these non-dimensional parameters into two groups in the non-dimensional equation of motion, suggests that there are two groups that govern the response which are: $\Gamma_1 = 4\pi^2m^{*2}/U^{*2}a_1^2$ and $\Gamma_2 = c^*m^*/a_1$. $\Gamma_1$ could be described as a combined mass-stiffness, where $\Gamma_2$ could be expressed as a combined mass-damping parameter for a given geometry and a Reynolds number. It is assumed that the stiffness plays a minor role, $\Gamma_2$ seems more likely parameter to collapse the data. The wind tunnel data in the classic paper of galloping by \citet{Parkinson1964} adopted a parameter similar to $\Gamma_2$ to collapse the data. 
+All of the quantities that make up $\Gamma_1$ and $\Gamma_2$ can, in theory, be known before an experiment is conducted. However, the quantity $a_1$ is a relatively difficult one to determine, requiring static body experiments or simulations. Here, the geometry is unchanged and results are only being compared at the same \reynoldsnumber. Hence, suitable parameters can be formed by multiplying $\Gamma_1$ and $\Gamma_2$ by $a_1^2$ and $a_1$ respectively, to arrive at a mass-stiffness parameter $\massstiff =  4\pi^2m^{*2}/U^{*2}$, and a mass-damping parameter defined as $\massdamp = c^*m^*$.
 
-All of the quantities that formulate $\Gamma_1$ and $\Gamma_2$ except $a_1$ in theory, could be obtained before an experiment. However in order to obtain the value of $a_1$, static body experiments are required making it relatively difficult to obtain. Here, the Reynolds number and the geometry remains constant and therefore multiplying $\Gamma_1$ by ${a_1}^2$ and $\Gamma_2$ by $a_1$ suitable parameters could be obtained, and formulate a mass-stiffness parameter $\massstiff =  4\pi^2m^{*2}/U^{*2}$, and a mass-damping parameter defined as $\massdamp = c^*m^*$ could be formulated. Therefore equation \ref{eqn:eom_nondim_regroup} can be written in terms of \massstiff \ and \massdamp. 
+Equation \ref{eqn:eom_nondim_regroup} can be re-written explicitly in terms of \massstiff \ and \massdamp to give
 
 \begin{equation}
 	\label{eqn:eom_nondim_regroup_pi_1_pi_2}
-	\ddot{Y} + \massstiff Y = \massdamp \dot{Y} - \frac{a_1a_3}{m^{*2}}\dot{Y}^3 + \frac{a_1^3a_5}{m^{*4}}\dot{Y}^5 - \frac{a_1^5a_7}{m^{*6}}\dot{Y}^7,
+	\ddot{Y} + \massstiff Y = \massdamp \dot{Y} - \frac{a_1a_3}{m^{*2}}\dot{Y}^3 + \frac{a_1^3a_5}{m^{*4}}\dot{Y}^5 - \frac{a_1^5a_7}{m^{*6}}\dot{Y}^7.
 \end{equation} 
 
-From equation \ref{eqn:eom_nondim_regroup_pi_1_pi_2}, it is clear that the governing parameters of the non dimensionlised equation are \massstiff \ \massdamp\ and \mstar. However, from closer inspection it is possible to see that \mstar\ has an impact on the non-linear terms of the forcing function. The velocity of the body and hence the induced angle of attack needs to be very high in order for the non-linear terms to be applicable. 
+ 
+ 
+ \subsection{Comparison of \massstiff \ and \massdamp \ with classical VIV parameters}
+ \label{sec:new_vs_viv}
+ 
+ 
+ Figure \ref{fig:compare_data} shows the comparison of mean power data at $\reynoldsnumber=200$ presented using different independent variables. Subfigures (a), (c) and (e) show the displacement amplitude, velocity amplitude and the mean power as a function of the classic VIV parameter, \ustar \ for various damping ratios $\zeta$. Subfigures (b), (d) and (f) shows the same data as a function of \massdamp, for various, reasonably high values of \massstiff, as defined above in section \ref{sec:newvar}. The data presented using the classical VIV parameters follows the same trends as \cite{Barrero-Gil2010a}. \citet{Barrero-Gil2010a} and \citet{vicente-Ludlam2014} observed that the maximum dimensionless power is achieved at two times the velocity at which the galloping starts. A similar conclusion can be drawn from the data presented here in figures \ref{fig:compare_data}. However, the data presented using the dimensionless group formulated using the natural time scales of the system shows an excellent collapse for both velocity amplitude and mean power, showing that the power is essentially dictated by \massdamp. This implies that unlike VIV which is a type of resonant phenomenon, the natural frequency of the system which is used to scale \ustar, $\zeta$ and \massstiff\ does not have a large influence on the system behaviour in these cases.
+ 
+ \input{./chapter-pi_1_pi_2/figure/compare_data}
+ 
+ \subsection{Comparison of power between high and low \reynoldsnumber\ data}   
+
+\label{sec:low_vs_high_re}
+The marked success of the collapse using \massdamp\ for the $\reynoldsnumber = 200$ case, particularly of the mean power, could also be replicated for the higher \reynoldsnumber\ case at $\reynoldsnumber = 22300$. Figure \ref{fig:collapsed_data} presents the mean power for high \reynoldsnumber\ cases for selected values of \massstiff. It is shown that the data collapse in both cases, demonstrating the validity of using \massdamp\ as an independent variable.
+
+\input{./chapter-pi_1_pi_2/figure/collapsed_data}
+
+Hysteresis could be observed for the $\reynoldsnumber = 22300$ case. The different solutions could be obtained by manipulating the initial conditions (initial displacement) of the system. The upper branch was obtained by giving an initial displacement which was higher than the expected amplitude while the lower branch was obtained by providing a lower initial displacement than the expected amplitude. Although theory shows a possible third state, it is an unstable branch which could not be achieved with a time integration method such as that employed in this study. This was also observed by \cite{Vio2007}.
+
+
+\subsection{Dependence on mass-stiffness, \massstiff}
+\label{subsec:dependence pi_1}
+
+The results of sections \ref{sec:new_vs_viv} and \ref{sec:low_vs_high_re} show that the mean extracted power is essentially a function of a single variable, the combined mass-damping \massdamp. However, the timescale analysis of section \ref{sec:newvar} showed that a second variable, the combined mass-stiffness \massstiff\ should also play a role. Previous studies (see, for example \citet{bouclin:77}) have also indicated a complex interaction between the amplitude and natural frequency, particularly for high natural frequencies (or equivalently, low values of \massstiff). Here, the impact of \massstiff\ is investigated further. Overall, the system behaviour can be separated into two wide regimes; that for ``high'' \massstiff\ and that for ``low'' \massstiff. These two regimes are further investigated and explained in this following section.
+
+Figure \ref{fig:high_pi_1} shows the mean power as a function of \massdamp\ for a range of values of \massstiff. Two subfigures are shown; subfigure (a) shows data for $\massstiff \geq 10$, while (b) shows data for $\massstiff \leq 10$. In figure \ref{fig:high_pi_1}(a), the collapse of the mean power is excellent, showing that for $\massstiff \geq 10$, the mean power is independent of \massstiff.
+
+\input{./chapter-pi_1_pi_2/figure/high_pi_1}
+
+For low values of $\massstiff \leq 10$, figure \ref{fig:high_pi_1}(b) shows that the predicted mean power increases as \massstiff\ is decreased, indicating that the mean power is a weak function of \massstiff\ at low \massstiff\ levels. This provides the distinction between high and low \massstiff\ regimes. For high values where $\massstiff \geq 10$, the mean extracted power is a function of \massdamp\ only; for low values where $\massstiff < 10$, the mean extracted power is a weak function of \massstiff.
+
+Regardless of the value of \massstiff, the variation of the mean extracted power with \massdamp\ is essentially the same. With increasing \massdamp, the mean extracted power initially increases, before reaching some maximum value and then decreasing. This relationship between power and \massdamp\ can be explained by analysing the time histories of selected cases. Data at $\massstiff=10$, $m^*=20$ and $\reynoldsnumber=200$ are shown in figure \ref{fig:power_time_histories} and are analysed as an example. Values of \massdamp\ less than (region 1), equal to (region 2), and greater than (region 3) the value where the mean extracted power is a maximum are analysed as examples.
+
+\input{./chapter-pi_1_pi_2/figure/time_histories}
+
+The instantaneous power from the fluid to the body can be expressed as $P_t=F_y\dot{y}$. Similarly the dissipated power due to the mechanical damping can be expressed as $P_d=(c\dot{y})\dot{y}$. The time average of these two quantities, described in equations \ref{eqn:power} and \ref{eqn:power_alt} must be equal due to energy conservation.
+
+% Figure \ref{fig:lift_curves}(a) shows that $C_y$ and therefore instantaneous force rises until $4^\circ$ where it peaks and then falls, and at around $6^\circ$ becomes negative. The maximum instantaneous power that can be transferred occurs when $C_t\dot{y}$ is a maximum which occurs when $\theta$ is close to the peak in the $C_y$  curve . At the region where the instantaneous force becomes negative it will be opposing the velocity $\dot{y}$. 
+
+% % % % % % % % % % % don  
+
+At region 1 ($\massdamp=0.15$) the damping is low in comparison with region 2 and 3. While this may lead to larger oscillations, damping is required to dissipate and therefore extract power according to equation \ref{eqn:power}. Therefore, the low damping in this region leads to a low mean power output. Fig.\ref{fig:power_time_histories} (a) shows that $P_d$ (the power dissipated by damping) becomes negative over some portion of the cycle. This is caused by the high velocity amplitude leading to the equivalent incident angle $\theta$ to exceed the range where $C_y$ is positive (i.e. $0<\theta<6^\circ$ as shown in figure\ref{cy ploynomial}(a)). In this portion of the cycle the fluid-dynamic force actually opposes the direction of travel and power is transferred from the structure to the fluid during those times. From an energy perspective, the mechanical damping is not sufficient to remove the energy transferred from the fluid to the structure through work during other times of the cycle because $\massdamp$ \ is substantially low. Therefore this excess energy is transferred back to the fluid as depicted by the negative region of $P_d$.
+
+\vspace{1mm} 
+At region 3 where $\massdamp=0.8$ the damping constant is high and a clear sinusoidal signal is observed for both $P_d$ and $P_t$ in figure \ref{fig:power_time_histories}(c). Figures \ref{fig:power_time_histories}(f) and  \ref{fig:power_time_histories}(i) show that equivalent incident angle $\theta$ (which for small values, is proportional to the transverse velocity of the body) is in phase with $F_y$.  The velocity amplitude in this case is small and $\theta$ is within the range where the fluid-dynamic force increases with the incident angle (i.e. $0<\theta \leq 5^\circ$ as shown in figure \ref{fig:lift_curves}(a)). According to equation \ref{eqn:power_alt}, these conditions are suitable for high power output. However in this case, the high damping limits the velocity amplitude and results in relatively low fluid dynamic forces.
+
+At region 2 ( $\massdamp=0.54$), a balance is found between high and low values of damping. $P_d$ is not a pure sinusoidal signal, however the signal remains periodic. From the time history graph of $P_d$, two `peaks' are present in a single half cycle as shown in figure \ref{fig:power_time_histories}(b). In this case, the velocity amplitude actually exceeds the equivalent incident angle where the fluid-dynamic forces peaks (i.e. $\theta=5^\circ$ in \ref{cy ploynomial} (a)). The dips in $P_d$ between the two peaks approximately correspond to the time where the transverse velocity is higher than 0.09 and $F_y$ is decreasing with increasing transverse velocity. The mean power output is at its maximum. This is due to the fact that this region is the best compromise between region 1 and 3. The damping is high enough to obtain a high power output while not so high that the motion is completely suppressed.
+
+\subsection{Dependence on the mass ratio \mstar}
+\label{sec:mstar}
+While for high values of \massstiff\ it is clear that the mean extracted power is a function of \massdamp\ only, a question arises for low values of \massstiff; is the variation in the mean extracted power purely a function of \massstiff, or is it also a function of the mass ratio \mstar? To answer this question, the model has been solved for a fixed value of \massstiff, but for varying values of \mstar. This means that \massstiff\ was varied by changing the system stiffness.
+
+Figure \ref{fig:low_pi_1} shows the mean extracted power as a function of \massdamp, for a fixed $\massstiff = 0.1$, for three different values of \mstar. From the figure it is clear that the results are independent of \mstar, and are a function of \massstiff\ and \massdamp\ only.
+
+\input{./chapter-pi_1_pi_2/figure/low_pi_1}
+
+
+
+ 
 
 
 
