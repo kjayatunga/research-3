@@ -5,3 +5,5 @@
 \contentsline {subsection}{\numberline {1.0.4}Comparison of power between high and low \ensuremath {Re}\ data}{8}
 \contentsline {subsection}{\numberline {1.0.5}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{10}
 \contentsline {subsection}{\numberline {1.0.6}Dependence on the mass ratio \ensuremath {m^{*}}}{14}
+\contentsline {subsection}{\numberline {1.0.7}Comparison with DNS data}{14}
+\contentsline {section}{\numberline {1.1}Summary of the governing parameters of fluid-elastic galloping}{22}

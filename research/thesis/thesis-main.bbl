@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{14}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -33,6 +33,11 @@ Bernitsas, M.~M., Raghavan, K., Ben-Simon, Y., Garcia, E. M.~H., 2008. {VIVACE
 \bibitem[{Bouclin(1977)}]{bouclin:77}
 Bouclin, D.~N., 1977. Hydroelastic oscillations of square cylinders. Master's
   thesis, University of British Columbia.
+
+\bibitem[{Joly et~al.(2012)Joly, Etienne, and Pelletier}]{Joly2012}
+Joly, A., Etienne, S., Pelletier, D., Jan. 2012. {Galloping of square cylinders
+  in cross-flow at low Reynolds numbers}. Journal of Fluids and Structures 28,
+  232--243.
 
 \bibitem[{Lee and Bernitsas(2011)}]{Lee2011b}
 Lee, J., Bernitsas, M., Nov. 2011. {High-damping, high-Reynolds VIV tests for

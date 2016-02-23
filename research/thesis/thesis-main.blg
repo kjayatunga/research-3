@@ -11,45 +11,45 @@ Repeated entry---line 519 of file ./Paper.bib.bib
  :                 ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "williamson2004"
-You've used 13 entries,
+You've used 14 entries,
             2821 wiz_defined-function locations,
-            724 strings with 6899 characters,
-and the built_in function-call counts, 6626 in all, are:
-= -- 699
-> -- 318
+            731 strings with 7040 characters,
+and the built_in function-call counts, 7151 in all, are:
+= -- 755
+> -- 345
 < -- 5
-+ -- 118
-- -- 105
-* -- 612
-:= -- 1184
-add.period$ -- 39
-call.type$ -- 13
-change.case$ -- 100
-chr.to.int$ -- 13
-cite$ -- 13
-duplicate$ -- 231
-empty$ -- 446
-format.name$ -- 150
-if$ -- 1323
++ -- 128
+- -- 114
+* -- 661
+:= -- 1278
+add.period$ -- 42
+call.type$ -- 14
+change.case$ -- 108
+chr.to.int$ -- 14
+cite$ -- 14
+duplicate$ -- 249
+empty$ -- 480
+format.name$ -- 162
+if$ -- 1427
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 12
-newline$ -- 46
-num.names$ -- 52
-pop$ -- 86
+missing$ -- 13
+newline$ -- 49
+num.names$ -- 56
+pop$ -- 93
 preamble$ -- 1
-purify$ -- 87
+purify$ -- 94
 quote$ -- 0
-skip$ -- 169
+skip$ -- 181
 stack$ -- 0
-substring$ -- 442
-swap$ -- 35
+substring$ -- 478
+swap$ -- 38
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 117
+type$ -- 126
 warning$ -- 0
-while$ -- 59
+while$ -- 64
 width$ -- 0
-write$ -- 149
+write$ -- 160
 (There were 2 error messages)
