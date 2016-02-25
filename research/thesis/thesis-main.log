@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  23 FEB 2016 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  25 FEB 2016 08:56
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -618,26 +618,80 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [3
+
+
+])
 \tf@toc=\write5
 \openout5 = `thesis-main.toc'.
 
 
-(./chapter-pi_1_pi_2/results-2.tex [1
-
-
-]
-Chapter 1.
-[2
-
-]
+(./chapter-methodology/methodology.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3] (./chapter-pi_1_pi_2/figure/cy_vs_theta.tex
+[1]
+Chapter 1.
+[2
+
+]
+
+LaTeX Warning: Reference `sec:QSS theory' on page 3 undefined on input line 22.
+
+
+
+LaTeX Warning: Reference `sec:QSS theory' on page 3 undefined on input line 22.
+
+
+
+LaTeX Warning: Reference `final_equation_motion' on page 3 undefined on input l
+ine 22.
+
+[3] [4] [5] [6] [7] [8] [9] [10] [11] [12]
+Underfull \vbox (badness 1418) has occurred while \output is active []
+
+ [13]
+[14]
+
+LaTeX Warning: Command \L invalid in math mode on input line 356.
+
+[15] [16] (./chapter-methodology/figures/square-mesh.tex
+File: ./chapter-methodology/fnp/square-mesh.eps Graphic file (type eps)
+
+<./chapter-methodology/fnp/square-mesh.eps>)
+(./chapter-methodology/figures/zoom-mesh.tex
+File: ./chapter-methodology/fnp/mesh.eps Graphic file (type eps)
+
+<./chapter-methodology/fnp/mesh.eps>
+File: ./chapter-methodology/fnp/hyb0.75-mesh.eps Graphic file (type eps)
+
+<./chapter-methodology/fnp/hyb0.75-mesh.eps>
+File: ./chapter-methodology/fnp/hyb0.5-mesh.eps Graphic file (type eps)
+
+<./chapter-methodology/fnp/hyb0.5-mesh.eps>
+File: ./chapter-methodology/fnp/hyb0.25-mesh.eps Graphic file (type eps)
+
+<./chapter-methodology/fnp/hyb0.25-mesh.eps>
+File: ./chapter-methodology/fnp/triangle-mesh.eps Graphic file (type eps)
+
+<./chapter-methodology/fnp/triangle-mesh.eps>) [17] [18]
+(./chapter-methodology/figures/FSI-convergence.tex
+File: ./chapter-methodology/fnp/vel-amp-convergencexs.eps Graphic file (type ep
+s)
+
+<./chapter-methodology/fnp/vel-amp-convergencexs.eps>
+File: ./chapter-methodology/fnp/freq-response-convergencexs.eps Graphic file (t
+ype eps)
+
+<./chapter-methodology/fnp/freq-response-convergencexs.eps>))
+(./chapter-pi_1_pi_2/results-2.tex [19]
+Chapter 2.
+[20
+
+] [21] (./chapter-pi_1_pi_2/figure/cy_vs_theta.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_200.eps Graphic file (type eps
 )
 
@@ -648,41 +702,37 @@ s)
 <./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_park.eps>)
 (./chapter-pi_1_pi_2/figure/coefficient-table.tex
 
-LaTeX Warning: Reference `final_equation_motion' on page 4 undefined on input l
-ine 18.
+LaTeX Warning: Reference `final_equation_motion' on page 22 undefined on input 
+line 18.
 
 
-LaTeX Warning: Reference `final_equation_motion' on page 4 undefined on input l
-ine 18.
+LaTeX Warning: Reference `final_equation_motion' on page 22 undefined on input 
+line 18.
 
-)
-
-LaTeX Warning: Reference `eqn:power_alt' on page 4 undefined on input line 27.
-
-[4
+) [22
 
 ]
 
-LaTeX Warning: Reference `final_equation_motion' on page 5 undefined on input l
-ine 35.
+LaTeX Warning: Reference `final_equation_motion' on page 23 undefined on input 
+line 35.
 
 
-LaTeX Warning: Reference `final_equation_motion' on page 5 undefined on input l
-ine 40.
+LaTeX Warning: Reference `final_equation_motion' on page 23 undefined on input 
+line 40.
 
-[5]
+[23]
 
-Package natbib Warning: Citation `williamson2004' on page 6 undefined on input 
+Package natbib Warning: Citation `williamson2004' on page 24 undefined on input
+ line 69.
+
+
+LaTeX Warning: Reference `final_equation_motion' on page 24 undefined on input 
 line 69.
 
-
-LaTeX Warning: Reference `final_equation_motion' on page 6 undefined on input l
-ine 69.
-
-[6]
+[24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
+ [25]
 (./chapter-pi_1_pi_2/figure/compare_data.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200.eps Graphic file (
 type eps)
@@ -718,8 +768,8 @@ c file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson.eps>)
 Underfull \vbox (badness 6268) has occurred while \output is active []
 
- [8]
-[9] (./chapter-pi_1_pi_2/figure/high_pi_1.tex
+ [26]
+[27] (./chapter-pi_1_pi_2/figure/high_pi_1.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_high_pi_1.eps Graphic file (ty
 pe eps)
 
@@ -727,7 +777,7 @@ pe eps)
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps Graphic file 
 (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps>) [10] [11]
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps>) [28] [29]
 (./chapter-pi_1_pi_2/figure/time_histories.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_015.eps Graphic file (
 type eps)
@@ -766,40 +816,26 @@ ype eps)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps>)
 
-LaTeX Warning: Reference `eqn:power' on page 12 undefined on input line 128.
-
-
-LaTeX Warning: Reference `eqn:power_alt' on page 12 undefined on input line 128
-.
-
-
-LaTeX Warning: Reference `eqn:power' on page 12 undefined on input line 134.
-
-
-LaTeX Warning: Reference `cy ploynomial' on page 12 undefined on input line 134
+LaTeX Warning: Reference `cy ploynomial' on page 30 undefined on input line 134
 .
 
 
 Underfull \vbox (badness 4168) has occurred while \output is active []
 
- [12]
+ [30]
 
-LaTeX Warning: Reference `eqn:power_alt' on page 13 undefined on input line 137
-.
-
-
-LaTeX Warning: Reference `cy ploynomial' on page 13 undefined on input line 139
+LaTeX Warning: Reference `cy ploynomial' on page 31 undefined on input line 139
 .
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [31]
 (./chapter-pi_1_pi_2/figure/low_pi_1.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps Graphic file (typ
 e eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps>) [14]
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps>) [32]
 (./chapter-pi_1_pi_2/figure/qss_fsi.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/fqss_fsi_displace.eps Graphic file (type 
 eps)
@@ -822,11 +858,11 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max.eps Graphic file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max.eps>)
 Underfull \vbox (badness 4913) has occurred while \output is active []
 
- [15]
-[16] (./chapter-pi_1_pi_2/figure/error.tex
+ [33]
+[34] (./chapter-pi_1_pi_2/figure/error.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/error.eps Graphic file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/error.eps>) [17]
+<./chapter-pi_1_pi_2/FnP/gnuplot/error.eps>) [35]
 (./chapter-pi_1_pi_2/figure/spectrum.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_20_sig.eps Graphic file (type eps)
 
@@ -858,7 +894,7 @@ LaTeX Warning: Float too large for page by 17.7279pt on input line 64.
 ) (./chapter-pi_1_pi_2/figure/spec_pow.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps Graphic file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps>) [18] [19]
+<./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps>) [36] [37]
 (./chapter-pi_1_pi_2/figure/flow_vis.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/10.eps Graphic file (type eps)
 
@@ -874,28 +910,28 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps Graphic file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps>)
 Underfull \vbox (badness 1320) has occurred while \output is active []
 
- [20]
+ [38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21])
-(./thesis-main.bbl [22] [23
+ [39])
+(./thesis-main.bbl [40] [41
 
-])
+] [42])
 
 Package natbib Warning: There were undefined citations.
 
-[24] (./thesis-main.aux)
+[43] (./thesis-main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13310 strings out of 493090
- 257432 string characters out of 6134868
- 298310 words of memory out of 5000000
- 16413 multiletter control sequences out of 15000+600000
- 15543 words of font info for 59 fonts, out of 8000000 for 9000
+ 13450 strings out of 493090
+ 260204 string characters out of 6134868
+ 299581 words of memory out of 5000000
+ 16523 multiletter control sequences out of 15000+600000
+ 19529 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,54p,1435b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,54p,1477b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (26 pages, 80892 bytes).
+Output written on thesis-main.dvi (46 pages, 155672 bytes).

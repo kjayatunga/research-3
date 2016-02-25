@@ -10,46 +10,54 @@ Repeated entry---line 519 of file ./Paper.bib.bib
  : @article{Vio2007
  :                 ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 528 of file ./Paper.bib.bib
+ : @article{sheard2009
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 537 of file ./Paper.bib.bib
+ : @article{tong2008
+ :                  ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "williamson2004"
-You've used 14 entries,
+You've used 32 entries,
             2821 wiz_defined-function locations,
-            731 strings with 7040 characters,
-and the built_in function-call counts, 7151 in all, are:
-= -- 755
-> -- 345
-< -- 5
-+ -- 128
-- -- 114
-* -- 661
-:= -- 1278
-add.period$ -- 42
-call.type$ -- 14
-change.case$ -- 108
-chr.to.int$ -- 14
-cite$ -- 14
-duplicate$ -- 249
-empty$ -- 480
-format.name$ -- 162
-if$ -- 1427
+            837 strings with 9572 characters,
+and the built_in function-call counts, 15462 in all, are:
+= -- 1607
+> -- 737
+< -- 23
++ -- 276
+- -- 240
+* -- 1338
+:= -- 2780
+add.period$ -- 97
+call.type$ -- 32
+change.case$ -- 241
+chr.to.int$ -- 56
+cite$ -- 32
+duplicate$ -- 578
+empty$ -- 1069
+format.name$ -- 336
+if$ -- 3132
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 13
-newline$ -- 49
-num.names$ -- 56
-pop$ -- 93
+missing$ -- 36
+newline$ -- 103
+num.names$ -- 128
+pop$ -- 236
 preamble$ -- 1
-purify$ -- 94
+purify$ -- 208
 quote$ -- 0
-skip$ -- 181
+skip$ -- 439
 stack$ -- 0
-substring$ -- 478
-swap$ -- 38
-text.length$ -- 0
+substring$ -- 885
+swap$ -- 91
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 126
+type$ -- 267
 warning$ -- 0
-while$ -- 64
+while$ -- 135
 width$ -- 0
-write$ -- 160
-(There were 2 error messages)
+write$ -- 356
+(There were 4 error messages)
