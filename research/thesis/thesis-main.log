@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  25 FEB 2016 08:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  29 FEB 2016 14:35
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -720,17 +720,19 @@ line 35.
 LaTeX Warning: Reference `final_equation_motion' on page 23 undefined on input 
 line 40.
 
+
+Package Fancyhdr Warning: \headheight is too small (13.59999pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [23]
-
-Package natbib Warning: Citation `williamson2004' on page 24 undefined on input
- line 69.
-
 
 LaTeX Warning: Reference `final_equation_motion' on page 24 undefined on input 
 line 69.
 
 [24]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5077) has occurred while \output is active []
 
  [25]
 (./chapter-pi_1_pi_2/figure/compare_data.tex
@@ -815,19 +817,9 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps Graphic file (t
 ype eps)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps>)
-
-LaTeX Warning: Reference `cy ploynomial' on page 30 undefined on input line 134
-.
-
-
 Underfull \vbox (badness 4168) has occurred while \output is active []
 
  [30]
-
-LaTeX Warning: Reference `cy ploynomial' on page 31 undefined on input line 139
-.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
@@ -856,7 +848,7 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/p_max.eps Graphic file (type eps)
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max.eps Graphic file (type eps)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max.eps>)
-Underfull \vbox (badness 4913) has occurred while \output is active []
+Underfull \vbox (badness 2073) has occurred while \output is active []
 
  [33]
 [34] (./chapter-pi_1_pi_2/figure/error.tex
@@ -916,22 +908,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [39])
 (./thesis-main.bbl [40] [41
 
-] [42])
-
-Package natbib Warning: There were undefined citations.
-
-[43] (./thesis-main.aux)
+] [42]) [43] (./thesis-main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13450 strings out of 493090
- 260204 string characters out of 6134868
- 299581 words of memory out of 5000000
- 16523 multiletter control sequences out of 15000+600000
+ 13451 strings out of 493090
+ 260239 string characters out of 6134868
+ 299625 words of memory out of 5000000
+ 16524 multiletter control sequences out of 15000+600000
  19529 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1477b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (46 pages, 155672 bytes).
+Output written on thesis-main.dvi (46 pages, 156384 bytes).

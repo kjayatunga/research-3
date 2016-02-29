@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{33}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -165,5 +165,9 @@ Vio, G., Dimitriadis, G., Cooper, J., Oct. 2007. {Bifurcation analysis and
 
 \bibitem[{White(1999)}]{White99}
 White, F., 1999. Fluid mechanics, 4th Edition. McGraw-Hill, Boston.
+
+\bibitem[{Williamson and Govardhan(2004)}]{williamson2004}
+Williamson, C.~H.~K., Govardhan, R., 2004. Vortex-induced vibrations. Annual
+  Review of Fluid Mechanics 36, 413--455.
 
 \end{thebibliography}

@@ -18,46 +18,50 @@ Repeated entry---line 537 of file ./Paper.bib.bib
  : @article{tong2008
  :                  ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "williamson2004"
-You've used 32 entries,
+Illegal end of database file---line 629 of file ./Paper.bib.bib
+ : 
+ : 
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 33 entries,
             2821 wiz_defined-function locations,
-            837 strings with 9572 characters,
-and the built_in function-call counts, 15462 in all, are:
-= -- 1607
-> -- 737
-< -- 23
-+ -- 276
-- -- 240
-* -- 1338
-:= -- 2780
-add.period$ -- 97
-call.type$ -- 32
-change.case$ -- 241
-chr.to.int$ -- 56
-cite$ -- 32
-duplicate$ -- 578
-empty$ -- 1069
-format.name$ -- 336
-if$ -- 3132
+            843 strings with 9680 characters,
+and the built_in function-call counts, 15939 in all, are:
+= -- 1659
+> -- 756
+< -- 24
++ -- 283
+- -- 246
+* -- 1378
+:= -- 2864
+add.period$ -- 100
+call.type$ -- 33
+change.case$ -- 248
+chr.to.int$ -- 57
+cite$ -- 33
+duplicate$ -- 596
+empty$ -- 1103
+format.name$ -- 347
+if$ -- 3231
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 36
-newline$ -- 103
-num.names$ -- 128
-pop$ -- 236
+missing$ -- 37
+newline$ -- 106
+num.names$ -- 132
+pop$ -- 242
 preamble$ -- 1
-purify$ -- 208
+purify$ -- 214
 quote$ -- 0
-skip$ -- 439
+skip$ -- 453
 stack$ -- 0
-substring$ -- 885
-swap$ -- 91
+substring$ -- 917
+swap$ -- 94
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 267
+type$ -- 276
 warning$ -- 0
-while$ -- 135
+while$ -- 139
 width$ -- 0
-write$ -- 356
-(There were 4 error messages)
+write$ -- 367
+(There were 5 error messages)

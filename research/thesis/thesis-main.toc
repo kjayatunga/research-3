@@ -18,7 +18,7 @@
 \contentsline {subsubsection}{Convergence}{17}
 \contentsline {chapter}{\numberline {2}Introduction}{20}
 \contentsline {subsection}{\numberline {2.0.1}Static body results}{22}
-\contentsline {subsection}{\numberline {2.0.2}Formulation of the new dimensionless groups \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}}{23}
+\contentsline {subsection}{\numberline {2.0.2}Formulation of the new dimensionless groups suitable to obtain optimum power output \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}}{23}
 \contentsline {subsection}{\numberline {2.0.3}Comparison of \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}\ with classical VIV parameters}{26}
 \contentsline {subsection}{\numberline {2.0.4}Comparison of power between high and low \ensuremath {Re}\ data}{26}
 \contentsline {subsection}{\numberline {2.0.5}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{28}
