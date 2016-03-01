@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  29 FEB 2016 14:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  1 MAR 2016 11:52
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -763,15 +763,17 @@ hic file (type eps)
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 24.
 
-) (./chapter-pi_1_pi_2/figure/collapsed_data.tex
+) (./chapter-pi_1_pi_2/figure/amp-collapsed.tex
+File: ./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200_col.eps Graphic fi
+le (type eps)
+
+<./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200_col.eps>)
+(./chapter-pi_1_pi_2/figure/collapsed_data.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson.eps Graphi
 c file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson.eps>)
-Underfull \vbox (badness 6268) has occurred while \output is active []
-
- [26]
-[27] (./chapter-pi_1_pi_2/figure/high_pi_1.tex
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson.eps>) [26]
+[27] [28] (./chapter-pi_1_pi_2/figure/high_pi_1.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_high_pi_1.eps Graphic file (ty
 pe eps)
 
@@ -779,7 +781,7 @@ pe eps)
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps Graphic file 
 (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps>) [28] [29]
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2.eps>) [29] [30]
 (./chapter-pi_1_pi_2/figure/time_histories.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_015.eps Graphic file (
 type eps)
@@ -819,15 +821,15 @@ ype eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps>)
 Underfull \vbox (badness 4168) has occurred while \output is active []
 
- [30]
+ [31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
+ [32]
 (./chapter-pi_1_pi_2/figure/low_pi_1.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps Graphic file (typ
 e eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps>) [32]
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps>) [33]
 (./chapter-pi_1_pi_2/figure/qss_fsi.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/fqss_fsi_displace.eps Graphic file (type 
 eps)
@@ -850,11 +852,11 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max.eps Graphic file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max.eps>)
 Underfull \vbox (badness 2073) has occurred while \output is active []
 
- [33]
-[34] (./chapter-pi_1_pi_2/figure/error.tex
+ [34]
+[35] (./chapter-pi_1_pi_2/figure/error.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/error.eps Graphic file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/error.eps>) [35]
+<./chapter-pi_1_pi_2/FnP/gnuplot/error.eps>) [36]
 (./chapter-pi_1_pi_2/figure/spectrum.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_20_sig.eps Graphic file (type eps)
 
@@ -886,7 +888,7 @@ LaTeX Warning: Float too large for page by 17.7279pt on input line 64.
 ) (./chapter-pi_1_pi_2/figure/spec_pow.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps Graphic file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps>) [36] [37]
+<./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps>) [37] [38]
 (./chapter-pi_1_pi_2/figure/flow_vis.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/10.eps Graphic file (type eps)
 
@@ -902,24 +904,24 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps Graphic file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps>)
 Underfull \vbox (badness 1320) has occurred while \output is active []
 
- [38]
+ [39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39])
-(./thesis-main.bbl [40] [41
+ [40])
+(./thesis-main.bbl [41] [42
 
-] [42]) [43] (./thesis-main.aux)
+] [43]) [44] (./thesis-main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13451 strings out of 493090
- 260239 string characters out of 6134868
- 299625 words of memory out of 5000000
- 16524 multiletter control sequences out of 15000+600000
+ 13457 strings out of 493090
+ 260451 string characters out of 6134868
+ 300637 words of memory out of 5000000
+ 16526 multiletter control sequences out of 15000+600000
  19529 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,54p,1477b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,14n,54p,1477b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (46 pages, 156384 bytes).
+Output written on thesis-main.dvi (47 pages, 158396 bytes).

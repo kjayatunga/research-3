@@ -21,7 +21,7 @@
 \contentsline {subsection}{\numberline {2.0.2}Formulation of the new dimensionless groups suitable to obtain optimum power output \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}}{23}
 \contentsline {subsection}{\numberline {2.0.3}Comparison of \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}\ with classical VIV parameters}{26}
 \contentsline {subsection}{\numberline {2.0.4}Comparison of power between high and low \ensuremath {Re}\ data}{26}
-\contentsline {subsection}{\numberline {2.0.5}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{28}
-\contentsline {subsection}{\numberline {2.0.6}Dependence on the mass ratio \ensuremath {m^{*}}}{32}
-\contentsline {subsection}{\numberline {2.0.7}Comparison with DNS data}{32}
-\contentsline {section}{\numberline {2.1}Summary of the governing parameters of fluid-elastic galloping}{40}
+\contentsline {subsection}{\numberline {2.0.5}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{29}
+\contentsline {subsection}{\numberline {2.0.6}Dependence on the mass ratio \ensuremath {m^{*}}}{33}
+\contentsline {subsection}{\numberline {2.0.7}Comparison with DNS data}{33}
+\contentsline {section}{\numberline {2.1}Summary of analysis of power transfer using the QSS model}{41}
