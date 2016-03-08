@@ -9,11 +9,11 @@
       \put(0.08,0.08){\includegraphics[width=0.75\unitlength]{./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200_col.eps}}
 
 
-      \put(0.46,0.04){$\displaystyle\frac{2\sqrt{\massstiff}}{\massdamp\mstar }\ustar$}
+      \put(0.46,0.04){$\massdamp$}
       
       
      
-       \put(0.022,0.28){$\displaystyle\frac{2\sqrt{\massstiff}}{\massdamp\mstar } \frac{A}{D}$}
+       \put(0.022,0.28){$\displaystyle\frac{2\sqrt{\massstiff}}{\massdamp} \frac{A}{D}$}
       
 
       %\put(0.095,0.218){\small(a)}
@@ -21,26 +21,26 @@
       
     \end{picture}
 
-  \caption{Displacement amplitude data as function of $\ustar$. obtained at $Re=200$ and $m^*=20$ at three different damping ratios: $\zeta=0.075$ ($\times$), $\zeta=0.1$ (\ding{117}) and $\zeta=0.15$ (+). Both the independent and dependent variables are scaled with $\frac{2\sqrt{\massstiff}}{\massdamp\mstar }$  which is equal to $\frac{1}{\mstar\zeta}$. This scaling is similar to \cite{Parkinson1964} and the deviation of data using this scaling at high \ustar could be observed in  \cite{Parkinson1964}}
+  \caption{Displacement amplitude data as function of \massdamp. obtained at $Re=200$ and $m^*=20$ at three different damping ratios: $\zeta=0.075$ ($\times$), $\zeta=0.1$ (\ding{117}) and $\zeta=0.15$ (+). Both the dependent variable is scaled with $\frac{2\sqrt{\massstiff}}{\massdamp }$  which is equal to $\frac{1}{\zeta}$. This scaling is similar to \cite{Parkinson1964} and the deviation of data using this scaling at high \ustar could be observed in  \cite{Parkinson1964}}
     \label{fig:amp-collapsed}
 \end{figure}
 
  %vspace{10cm}
 
 
-Invert parameter on the x-axis to keep \massdamp in the numerator.
-
-I don't like \mstar\ and \ustar\ appearing in the
-non-dimensionalisation. 
-
-I can get rid of it on the x-axis: currently
-$X = 2\sqrt(\massstiff)\ustar/(\massdamp\mstar)$. I think this can be
-re-written as $X = 4\pi/massdamp$. You could equally plot $1/X$, which
-is basically $\massdamp$! Are you sure this is right?
-
-On the y-axis: at least this only involves the independent variables
-we have defined: \masstiff, \massdamp, and \mstar.
-
-Does \masstiff\ vary for these runs? Yes, but \mstar\ doesn't. So a y-axis variable of $\sqrt(\massstiff)/\massdamp$ would collapse the data just as well. Can you remove the \mstar\ from the y-axis scaling? Do you have data at other \mstar\ that shows you need to include, or potentially shows you can always ignore it?
+%Invert parameter on the x-axis to keep \massdamp in the numerator.
+%
+%I don't like \mstar\ and \ustar\ appearing in the
+%non-dimensionalisation. 
+%
+%I can get rid of it on the x-axis: currently
+%$X = 2\sqrt(\massstiff)\ustar/(\massdamp\mstar)$. I think this can be
+%re-written as $X = 4\pi/massdamp$. You could equally plot $1/X$, which
+%is basically $\massdamp$! Are you sure this is right?
+%
+%On the y-axis: at least this only involves the independent variables
+%we have defined: \massstiff, \massdamp, and \mstar.
+%
+%Does \massstiff\ vary for these runs? Yes, but \mstar\ doesn't. So a y-axis variable of $\sqrt(\massstiff)/\massdamp$ would collapse the data just as well. Can you remove the \mstar\ from the y-axis scaling? Do you have data at other \mstar\ that shows you need to include, or potentially shows you can always ignore it?
 
 
