@@ -26,3 +26,21 @@
 \end{figure}
 
  %vspace{10cm}
+
+
+Invert parameter on the x-axis to keep \massdamp in the numerator.
+
+I don't like \mstar\ and \ustar\ appearing in the
+non-dimensionalisation. 
+
+I can get rid of it on the x-axis: currently
+$X = 2\sqrt(\massstiff)\ustar/(\massdamp\mstar)$. I think this can be
+re-written as $X = 4\pi/massdamp$. You could equally plot $1/X$, which
+is basically $\massdamp$! Are you sure this is right?
+
+On the y-axis: at least this only involves the independent variables
+we have defined: \masstiff, \massdamp, and \mstar.
+
+Does \masstiff\ vary for these runs? Yes, but \mstar\ doesn't. So a y-axis variable of $\sqrt(\massstiff)/\massdamp$ would collapse the data just as well. Can you remove the \mstar\ from the y-axis scaling? Do you have data at other \mstar\ that shows you need to include, or potentially shows you can always ignore it?
+
+
