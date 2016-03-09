@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  8 MAR 2016 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  9 MAR 2016 13:13
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -908,20 +908,33 @@ Underfull \vbox (badness 1320) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40])
-(./thesis-main.bbl [41] [42
+(./chapter-cross-sections/results-2.tex [41]
+Chapter 3.
 
-] [43]) [44] (./thesis-main.aux)
+LaTeX Warning: Reference `subsec:c_y and shear layers' on page 42 undefined on 
+input line 5.
+
+[42
+
+]
+
+LaTeX Warning: Reference `fig:hybrid_section' on page 43 undefined on input lin
+e 13.
+
+) (./thesis-main.bbl [43] [44
+
+] [45]) [46] (./thesis-main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13458 strings out of 493090
- 260467 string characters out of 6134868
- 300647 words of memory out of 5000000
- 16527 multiletter control sequences out of 15000+600000
+ 13466 strings out of 493090
+ 260662 string characters out of 6134868
+ 300704 words of memory out of 5000000
+ 16532 multiletter control sequences out of 15000+600000
  19529 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,14n,54p,1477b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (47 pages, 158176 bytes).
+Output written on thesis-main.dvi (49 pages, 163624 bytes).

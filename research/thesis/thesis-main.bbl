@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{34}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -95,6 +95,11 @@ Leontini, J.~S., Thompson, M.~C., Hourigan, K., Apr. 2007. {Three-dimensional
 Luo, S., Chew, Y., Ng, Y., Aug. 2003. {Hysteresis phenomenon in the galloping
   oscillation of a square cylinder}. Journal of Fluids and Structures 18~(1),
   103--118.
+
+\bibitem[{Luo et~al.(1994)Luo, Yazdani, Chew, and Lee}]{Luo1994}
+Luo, S.~C., Yazdani, M., Chew, Y.~T., Lee, T.~S., 1994. Effects of incidence
+  and afterbody shape on flow past bluff cylinders. Journal of Wind Engineering
+  53, 375--399.
 
 \bibitem[{Naudascher and Rockwell(1994)}]{Naudasher94}
 Naudascher, E., Rockwell, D., 1994. Flow-induced vibrations: An engineering

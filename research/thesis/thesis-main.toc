@@ -25,3 +25,5 @@
 \contentsline {subsection}{\numberline {2.0.6}Dependence on the mass ratio \ensuremath {m^{*}}}{33}
 \contentsline {subsection}{\numberline {2.0.7}Comparison with DNS data}{33}
 \contentsline {section}{\numberline {2.1}Summary of analysis of power transfer using the QSS model}{41}
+\contentsline {chapter}{\numberline {3}Influence of fluid dynamics of the system on the extracted power}{42}
+\contentsline {section}{\numberline {3.1}Introduction}{42}
