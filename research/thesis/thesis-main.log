@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  9 MAR 2016 13:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  14 MAR 2016 12:40
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -918,23 +918,27 @@ input line 5.
 
 ]
 
-LaTeX Warning: Reference `fig:hybrid_section' on page 43 undefined on input lin
-e 13.
+LaTeX Warning: Reference `subsec:c_y and shear layers' on page 43 undefined on 
+input line 21.
 
-) (./thesis-main.bbl [43] [44
+(./chapter-cross-sections/figures/sketch-1.tex
+File: ./chapter-cross-sections/fnp/hybrid_section.eps Graphic file (type eps)
 
-] [45]) [46] (./thesis-main.aux)
+<./chapter-cross-sections/fnp/hybrid_section.eps>) [43]) (./thesis-main.bbl
+[44] [45
+
+] [46]) [47] (./thesis-main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13466 strings out of 493090
- 260662 string characters out of 6134868
- 300704 words of memory out of 5000000
- 16532 multiletter control sequences out of 15000+600000
+ 13473 strings out of 493090
+ 260887 string characters out of 6134868
+ 300715 words of memory out of 5000000
+ 16533 multiletter control sequences out of 15000+600000
  19529 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,14n,54p,1477b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,14n,54p,1477b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (49 pages, 163624 bytes).
+Output written on thesis-main.dvi (50 pages, 166536 bytes).

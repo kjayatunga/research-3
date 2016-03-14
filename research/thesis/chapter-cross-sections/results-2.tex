@@ -2,11 +2,11 @@
 
 \section{Introduction}
 
-Galloping occurs as a result of the pressure difference created due to the relative distance between the shear layers and the respective walls of the cross section at the top and bottom sides of the body. As discussed in section \ref{subsec:c_y and shear layers}, the instantaneous induced angle makes one of the separated shear layers closer to the wall creating a low pressure region. This pressure difference results in a traverse forcing (normal to the direction of the flow) which becomes in phase with the transverse velocity and sustains galloping. 
+Galloping occurs as a result of the pressure difference created due to the relative distance between the shear layers and the respective walls of the cross section, at the top and bottom sides of the body. As discussed in section \ref{subsec:c_y and shear layers}, the instantaneous induced angle makes one of the separated shear layers closer to the wall creating a low pressure region. This pressure difference results in a traverse forcing (normal to the direction of the flow) which becomes in phase with the transverse velocity and sustains galloping. 
 
 From equation \ref{eqn:power_alt} discussed in section \ref{subsec:ave_pow} it is clear that the power transferred from fluid to the body is a function of the induced forcing $F_y$ and the transverse velocity $\dot{y}$. The sign of the average power represents the direction of power transfer where the $+$ ve sign represents the power transfer from fluid to the body and $-$ ve being power transferring from body to the fluid. 
 
-Thus, then  according to equation \ref{eqn:power_alt} it can be hypothesised that if there is a scenario where both high induced forcing and high transverse velocities are present, higher power output could be achieved. This brings to the analysis of the $C_y$ vs. $\theta$ curve. \citet{Luo1994}, showed that the afterbody of the cross section has a direct impact on $C_y$ vs. $\theta$ curve. One interesting observation of this study was that delaying the shear layer re-attachment results in higher peak induced force coefficient $C_y$ occurring at high induced angles (high transverse velocities).    
+Thus, then  according to equation \ref{eqn:power_alt} it can be deduced that if there is a scenario where both high induced forcing and high transverse velocities are present, higher power output could be achieved. This brings to the analysis of the $C_y$ vs. $\theta$ curve. \citet{Luo1994}, showed that the afterbody of the cross section has a direct impact on $C_y$ vs. $\theta$ curve. One interesting observation of this study was that delaying the shear layer re-attachment results in higher peak induced force coefficient $C_y$ occurring at high induced angles (high transverse velocities).    
 
 Therefore, it could be hypothesised that a higher power transfer could be obtained by delaying the shear layer re-attachment. 
 
@@ -18,7 +18,20 @@ A final summary is presented explaining the influence of the behaviour of the sh
 
 \section{Influence of the shear layers}
 
-In a typical cross section which sustains galloping, the induced lift \cy\ increases with increasing induced angle $\theta$ until it reaches a maximum value of \cy. The lift force is then  
+In a typical cross section which sustains galloping, the induced lift \cy\ increases with increasing induced angle $\theta$ until it reaches a maximum value of \cy where the shear layer re attachment occurs. The lift force then decreases as $\theta$ is further increased. The underlying mechanism for this behaviour is discussed in detail in section \ref{subsec:c_y and shear layers}.   
 
+\subsection*{Selection of the cross section}
+
+\input{./chapter-cross-sections/figures/sketch-1.tex}
+
+The cross section selected to test the shear layer influence on power was a hybrid cross section of a square and a triangle or in other words a pentagon which is illustrated in figure \ref{fig:hybrid_section}. This was produced by systematically tapering off the trailing edges of the top and bottom sides of the square cross section. The $\ratio$ was changed gradually from 1 to zero at increments of 0.25 where 1 being the square cross section and 0 being an isosceles triangle. This type of a cross section was selected because after analysing the shear layer behaviour of a galloping body it was found out that it is crucial to have the afterbody and the shear layer close to the body. And therefore the presence of the horizontal part of the top and bottom sides of the cross section. Rectangular cross sections are not very suitable as it may have a earlier shear layer re-attachment \citet{Paidoussis2010}. Another option was to use trapeziums as \citet{Luo1994}. However, the initial shear layers are quite far away and thus, maybe difficult to initialise galloping. The main focus was to study influence of shear layer behaviour on galloping, and thus the current hybrid cross section was used to study this behaviour by systematically delaying the shear layer reattachment of the initial square cross section. 
+
+\section{Static body results}
+\label{sec:cross-sec-Static body results}
+\input{./chapter-cross-sections/figures/coefficient-table.tex}
+
+Stationary $C_y$ results were obtained for cross sections where $\ratio=1,0.75,0.5,0.25$ and $0$ using DNS. Where $\ratio=1$ being the square and $\ratio=0$ being an isosceles  triangle. Table \ref{table:cy-coefficients-hybrid} shows the coefficients of the $7^{th}$ order interpolation polynomial for each cross section. In order to achieve a better fit, piecewise interpolation using multiple $7th$ order polynomials were incorporated for a single cross section. During the curve fitting process more importance was given for accurately fitting  the positive portion of the $C_{y}$ curve. This is because the power transfer from the fluid to the body occur in this region. 
+
+\input{./chapter-cross-sections/figures/lift_curves.tex} 
 
 

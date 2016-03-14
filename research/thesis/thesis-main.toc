@@ -27,3 +27,4 @@
 \contentsline {section}{\numberline {2.1}Summary of analysis of power transfer using the QSS model}{41}
 \contentsline {chapter}{\numberline {3}Influence of fluid dynamics of the system on the extracted power}{42}
 \contentsline {section}{\numberline {3.1}Introduction}{42}
+\contentsline {section}{\numberline {3.2}Influence of the shear layers}{43}
