@@ -23,45 +23,45 @@ Illegal end of database file---line 629 of file ./Paper.bib.bib
  : 
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You've used 34 entries,
+You've used 35 entries,
             2821 wiz_defined-function locations,
-            850 strings with 9859 characters,
-and the built_in function-call counts, 16496 in all, are:
-= -- 1714
-> -- 791
+            856 strings with 10047 characters,
+and the built_in function-call counts, 16940 in all, are:
+= -- 1755
+> -- 818
 < -- 24
-+ -- 296
-- -- 258
-* -- 1430
-:= -- 2966
-add.period$ -- 103
-call.type$ -- 34
-change.case$ -- 257
-chr.to.int$ -- 58
-cite$ -- 34
-duplicate$ -- 614
-empty$ -- 1137
-format.name$ -- 362
-if$ -- 3342
++ -- 306
+- -- 267
+* -- 1467
+:= -- 3048
+add.period$ -- 106
+call.type$ -- 35
+change.case$ -- 264
+chr.to.int$ -- 59
+cite$ -- 35
+duplicate$ -- 632
+empty$ -- 1169
+format.name$ -- 374
+if$ -- 3432
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 38
-newline$ -- 109
-num.names$ -- 136
-pop$ -- 250
+missing$ -- 40
+newline$ -- 112
+num.names$ -- 140
+pop$ -- 262
 preamble$ -- 1
-purify$ -- 222
+purify$ -- 229
 quote$ -- 0
-skip$ -- 466
+skip$ -- 479
 stack$ -- 0
-substring$ -- 949
-swap$ -- 96
+substring$ -- 960
+swap$ -- 98
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 285
+type$ -- 291
 warning$ -- 0
-while$ -- 143
+while$ -- 146
 width$ -- 0
-write$ -- 378
+write$ -- 388
 (There were 5 error messages)

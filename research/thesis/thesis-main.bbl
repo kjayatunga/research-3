@@ -1,4 +1,4 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{35}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -104,6 +104,11 @@ Luo, S.~C., Yazdani, M., Chew, Y.~T., Lee, T.~S., 1994. Effects of incidence
 \bibitem[{Naudascher and Rockwell(1994)}]{Naudasher94}
 Naudascher, E., Rockwell, D., 1994. Flow-induced vibrations: An engineering
   guide. A.A. Balkema, Rotterdam.
+
+\bibitem[{Pa\"{\i}doussis et~al.(2010)Pa\"{\i}doussis, Price, and
+  de~Langre}]{Paidoussis2010}
+Pa\"{\i}doussis, M., Price, S., de~Langre, E., 2010. {Fluid-Structure
+  Interactions : Cross-Flow-Induced Instabilities}. Cambridge University Press.
 
 \bibitem[{Parkinson and Smith(1964)}]{Parkinson1964}
 Parkinson, G.~V., Smith, J.~D., 1964. {The square prism as an aeroelastic

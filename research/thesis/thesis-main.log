@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  14 MAR 2016 12:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  16 MAR 2016 12:14
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -924,21 +924,51 @@ input line 21.
 (./chapter-cross-sections/figures/sketch-1.tex
 File: ./chapter-cross-sections/fnp/hybrid_section.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/hybrid_section.eps>) [43]) (./thesis-main.bbl
-[44] [45
+<./chapter-cross-sections/fnp/hybrid_section.eps>) [43]
+(./chapter-cross-sections/figures/coefficient-table.tex)
+Overfull \hbox (11.95819pt too wide) in paragraph at lines 33--34
+[]\OT1/cmr/m/n/10.95 Stationary time av-er-aged $\OML/cmm/m/it/10.95 C[]$ \OT1/
+cmr/m/n/10.95 re-sults were ob-tained for cross sec-tions where $[] = 1\OML/cmm
+/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 75\OM
+L/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 
+5\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10
+.95 25$
+ []
 
-] [46]) [47] (./thesis-main.aux)
+[44] (./chapter-cross-sections/figures/lift_curves.tex
+File: ./chapter-cross-sections/fnp/lift_curve_sq.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/lift_curve_sq.eps>
+File: ./chapter-cross-sections/fnp/lift_curve_075.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/lift_curve_075.eps>
+File: ./chapter-cross-sections/fnp/lift_curve_05.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/lift_curve_05.eps>
+File: ./chapter-cross-sections/fnp/lift_curve_025.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/lift_curve_025.eps>
+File: ./chapter-cross-sections/fnp/lift_curve_tri.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [45]
+(./chapter-cross-sections/figures/power_curves.tex
+File: ./chapter-cross-sections/fnp/mean_power_hyb.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/mean_power_hyb.eps>)) (./thesis-main.bbl [46]
+[47] [48
+
+] [49] [50]) [51] (./thesis-main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13473 strings out of 493090
- 260887 string characters out of 6134868
- 300715 words of memory out of 5000000
- 16533 multiletter control sequences out of 15000+600000
+ 13502 strings out of 493090
+ 261810 string characters out of 6134868
+ 300845 words of memory out of 5000000
+ 16548 multiletter control sequences out of 15000+600000
  19529 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,14n,54p,1477b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,14n,54p,1477b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (50 pages, 166536 bytes).
+Output written on thesis-main.dvi (54 pages, 177132 bytes).

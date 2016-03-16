@@ -30,8 +30,25 @@ The cross section selected to test the shear layer influence on power was a hybr
 \label{sec:cross-sec-Static body results}
 \input{./chapter-cross-sections/figures/coefficient-table.tex}
 
-Stationary $C_y$ results were obtained for cross sections where $\ratio=1,0.75,0.5,0.25$ and $0$ using DNS. Where $\ratio=1$ being the square and $\ratio=0$ being an isosceles  triangle. Table \ref{table:cy-coefficients-hybrid} shows the coefficients of the $7^{th}$ order interpolation polynomial for each cross section. In order to achieve a better fit, piecewise interpolation using multiple $7th$ order polynomials were incorporated for a single cross section. During the curve fitting process more importance was given for accurately fitting  the positive portion of the $C_{y}$ curve. This is because the power transfer from the fluid to the body occur in this region. 
+Stationary time averaged $C_y$ results were obtained for cross sections where $\ratio=1,0.75,0.5,0.25$ and $0$ using DNS at $\reynoldsnumber=200$. Where $\ratio=1$ being the square and $\ratio=0$ being an isosceles  triangle. Table \ref{table:cy-coefficients-hybrid} shows the coefficients of the $7^{th}$ order curve fitting for each cross section. In order to achieve a better fit, piecewise interpolation using multiple $7th$ order polynomials were incorporated for a single cross section. During the curve fitting process more importance was given for accurately fitting  the positive portion of the $C_{y}$ curve, as the power transfer from the fluid to the body occur in this region. 
 
 \input{./chapter-cross-sections/figures/lift_curves.tex} 
+
+The $C_y$ vs. $\theta$ curves in figure \ref{fig:lift_curves-hybrid} shows that the peak value of \cy\ shifts to the right as $\ratio$ is increased, hence, the peak \cy\ occurs at high induced angles.  These data agree with \citet{Luo1994} where the peak of the maximum \cy\ value was shifted to higher induced angles when reattachment was delayed. As $\theta$ is proportional to the transverse velocity of the body $\tan{\theta}=\frac{\dot{y}}{U}$, the peak value of \cy\ occurs at high induced velocities as \ratio\ is decreased. A negative region of $C_y$ vs. $\theta$ curves on cross sections where $\ratio\geq0.25$. Here, initially \cy\ decreases as $\theta$ is increased and the increases after reaching a minimum. The presence of this negative portion is an indication of unfavourable power transfer, .i.e. power transferred from body to the fluid as the direction of the force and velocity vectors are out of phase. This will be further discussed in the upcoming sections of this chapter.    
+
+ 
+ 
+ \section{QSS Mean power output}
+ \label{sec:cross-sec-qss-mean power}
+ 
+ \input{./chapter-cross-sections/figures/power_curves.tex}
+ 
+ Mean power output predictions could be obtained for these different cross sections using the QSS model and the stationary induced lift data obtained earlier using as inputs to the QSS model. Figure \ref{fig:power_curves} shows the mean power \massdamp\ vs. mean power for different cross sections namely $\ratio=1,0.75,0.5,0.25 \text{and} 0$. The maximum mean power increases until $\ratio=0.25$ 
+ 
+ 
+ 
+ 
+ 
+
 
 
