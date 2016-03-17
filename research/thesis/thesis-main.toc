@@ -30,3 +30,6 @@
 \contentsline {section}{\numberline {3.2}Influence of the shear layers}{43}
 \contentsline {section}{\numberline {3.3}Static body results}{44}
 \contentsline {section}{\numberline {3.4}QSS Mean power output}{46}
+\contentsline {section}{\numberline {3.5}Presence of the negative region of the $\ensuremath {C_{y}}$ vs. $\theta $ curves}{47}
+\contentsline {subsection}{\numberline {3.5.1}Surface pressure}{47}
+\contentsline {subsection}{\numberline {3.5.2}Velocity profiles at the points of flow separation}{48}

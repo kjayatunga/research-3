@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  16 MAR 2016 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  17 MAR 2016 19:09
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -954,21 +954,65 @@ File: ./chapter-cross-sections/fnp/lift_curve_tri.eps Graphic file (type eps)
 (./chapter-cross-sections/figures/power_curves.tex
 File: ./chapter-cross-sections/fnp/mean_power_hyb.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/mean_power_hyb.eps>)) (./thesis-main.bbl [46]
-[47] [48
+<./chapter-cross-sections/fnp/mean_power_hyb.eps>) [46]
+(./chapter-cross-sections/figures/surf-pres.tex
+File: ./chapter-cross-sections/fnp/surf-pres-tri-4.eps Graphic file (type eps)
 
-] [49] [50]) [51] (./thesis-main.aux)
+<./chapter-cross-sections/fnp/surf-pres-tri-4.eps>
+File: ./chapter-cross-sections/fnp/surf-pres-tri-16.eps Graphic file (type eps)
+
+
+<./chapter-cross-sections/fnp/surf-pres-tri-16.eps>
+File: ./chapter-cross-sections/fnp/surf-pres-tri-21.eps Graphic file (type eps)
+
+
+<./chapter-cross-sections/fnp/surf-pres-tri-21.eps> [47])
+
+LaTeX Warning: Reference `fig:induced_lift_sketch' on page 48 undefined on inpu
+t line 65.
+
+(./chapter-cross-sections/figures/tri-sketch.tex
+File: ./chapter-cross-sections/fnp/tri-sketch.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/tri-sketch.eps>)
+(./chapter-cross-sections/figures/vel-profile.tex
+File: ./chapter-cross-sections/fnp/vel_prof-tri-4.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/vel_prof-tri-4.eps>
+File: ./chapter-cross-sections/fnp/vel_prof-tri-16.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/vel_prof-tri-16.eps>
+File: ./chapter-cross-sections/fnp/vel_prof-tri-21.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/vel_prof-tri-21.eps>) [48] [49]
+(./chapter-cross-sections/figures/tri-stream-func.tex
+File: ./chapter-cross-sections/fnp/4.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/4.eps>
+File: ./chapter-cross-sections/fnp/16.eps Graphic file (type eps)
+ <./chapter-cross-sections/fnp/16.eps>
+File: ./chapter-cross-sections/fnp/21.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/21.eps>)
+
+LaTeX Warning: Reference `subsec:c_y and shear layers' on page 50 undefined on 
+input line 86.
+
+) (./thesis-main.bbl [50] [51] [52] [53] [54
+
+] [55] [56]) [57]
+(./thesis-main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13502 strings out of 493090
- 261810 string characters out of 6134868
- 300845 words of memory out of 5000000
- 16548 multiletter control sequences out of 15000+600000
- 19529 words of font info for 71 fonts, out of 8000000 for 9000
+ 13544 strings out of 493090
+ 263042 string characters out of 6134868
+ 303902 words of memory out of 5000000
+ 16570 multiletter control sequences out of 15000+600000
+ 21123 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,14n,54p,1477b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,14n,54p,1562b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (54 pages, 177132 bytes).
+Output written on thesis-main.dvi (60 pages, 195284 bytes).
