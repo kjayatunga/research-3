@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2014/dev)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis-main.aux
 The style file: elsarticle-harv.bst
@@ -7,21 +7,12 @@ opyright is an illegal style-file command---line 1 of file elsarticle-harv.bst
  :          2007, 2008, 2009 Elsevier Ltd
 Database file #1: ./Paper.bib.bib
 Repeated entry---line 519 of file ./Paper.bib.bib
- : @article{Vio2007
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 528 of file ./Paper.bib.bib
- : @article{sheard2009
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 537 of file ./Paper.bib.bib
- : @article{tong2008
+ : %@article{Vio2007
  :                  ,
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 629 of file ./Paper.bib.bib
- : 
- : 
-(Error may have been on previous line)
+Repeated entry---line 528 of file ./Paper.bib.bib
+ : %@article{sheard2009
+ :                     ,
 I'm skipping whatever remains of this entry
 You've used 35 entries,
             2821 wiz_defined-function locations,
@@ -64,4 +55,4 @@ warning$ -- 0
 while$ -- 146
 width$ -- 0
 write$ -- 388
-(There were 5 error messages)
+(There were 3 error messages)

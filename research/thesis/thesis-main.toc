@@ -17,19 +17,20 @@
 \contentsline {subsubsection}{Domain size}{17}
 \contentsline {subsubsection}{Convergence}{17}
 \contentsline {chapter}{\numberline {2}Introduction}{20}
-\contentsline {subsection}{\numberline {2.0.1}Static body results}{22}
-\contentsline {subsection}{\numberline {2.0.2}Formulation of the new dimensionless groups suitable to obtain optimum power output \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}}{23}
-\contentsline {subsection}{\numberline {2.0.3}Comparison of \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}\ with classical VIV parameters}{26}
-\contentsline {subsection}{\numberline {2.0.4}Comparison of power between high and low \ensuremath {Re}\ data}{26}
-\contentsline {subsection}{\numberline {2.0.5}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{29}
-\contentsline {subsection}{\numberline {2.0.6}Dependence on the mass ratio \ensuremath {m^{*}}}{33}
-\contentsline {subsection}{\numberline {2.0.7}Comparison with DNS data}{33}
+\contentsline {subsection}{\numberline {2.0.4}Static body results}{22}
+\contentsline {subsection}{\numberline {2.0.5}Formulation of the new dimensionless groups suitable to obtain optimum power output \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}}{23}
+\contentsline {subsection}{\numberline {2.0.6}Comparison of \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}\ with classical VIV parameters}{26}
+\contentsline {subsection}{\numberline {2.0.7}Comparison of power between high and low \ensuremath {Re}\ data}{26}
+\contentsline {subsection}{\numberline {2.0.8}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{29}
+\contentsline {subsection}{\numberline {2.0.9}Dependence on the mass ratio \ensuremath {m^{*}}}{33}
+\contentsline {subsection}{\numberline {2.0.10}Comparison with DNS data}{33}
 \contentsline {section}{\numberline {2.1}Summary of analysis of power transfer using the QSS model}{41}
-\contentsline {chapter}{\numberline {3}Influence of fluid dynamics of the system on the extracted power}{42}
+\contentsline {chapter}{\numberline {3}Influence of fluid dynamics of the system on the extracted power {\color {blue}\uwave {JL: title misleading. Perhaps ``Optimization of the cross section for power extraction''}}}{42}
 \contentsline {section}{\numberline {3.1}Introduction}{42}
-\contentsline {section}{\numberline {3.2}Influence of the shear layers}{43}
-\contentsline {section}{\numberline {3.3}Static body results}{44}
-\contentsline {section}{\numberline {3.4}QSS Mean power output}{46}
-\contentsline {section}{\numberline {3.5}Presence of the negative region of the $\ensuremath {C_{y}}$ vs. $\theta $ curves}{47}
-\contentsline {subsection}{\numberline {3.5.1}Surface pressure}{47}
-\contentsline {subsection}{\numberline {3.5.2}Velocity profiles at the points of flow separation}{48}
+\contentsline {section}{\numberline {3.2}Influence of the shear layers}{45}
+\contentsline {section}{\numberline {3.3}Static body results}{47}
+\contentsline {section}{\numberline {3.4}QSS Mean power output}{49}
+\contentsline {section}{\numberline {3.5}Presence of the negative region of the $\ensuremath {C_{y}}$ vs. $\theta $ curves}{51}
+\contentsline {subsection}{\numberline {3.5.1}Surface pressure}{51}
+\contentsline {subsection}{\numberline {3.5.2}Velocity profiles at the points of flow separation}{54}
+\contentsline {subsection}{\numberline {3.5.3}{\color {blue}\uwave {Mean streamlines}}}{57}

@@ -1,20 +1,83 @@
-\chapter{Influence of fluid dynamics of the system on the extracted power}
+\chapter{Influence of fluid dynamics of the system on the extracted power JL: title misleading. Perhaps ``Optimization of the cross section for power extraction''}
 
 \section{Introduction}
 
-Galloping occurs as a result of the pressure difference created due to the relative distance between the shear layers and the respective walls of the cross section, at the top and bottom sides of the body. As discussed in section \ref{subsec:c_y and shear layers}, the instantaneous induced angle makes one of the separated shear layers closer to the wall creating a low pressure region. This pressure difference results in a traverse forcing (normal to the direction of the flow) which becomes in phase with the transverse velocity and sustains galloping. 
+Galloping occurs as a result of the pressure difference created due to the relative distance between the shear layers and the respective walls of the cross section, at the top and bottom sides of the body. As discussed in section \ref{subsec:c_y and shear layers}, the instantaneous induced angle makes one of the separated shear layers closer to the wall creating a low pressure region. This pressure difference results in a transverse forcing (normal to the direction of the flow) which becomes in phase with the transverse velocity and sustains galloping.  JL: this needs to be re-written. Even I don't really know what you are trying to say here. I think you are mixing up a description of the flow, and the hypothesis that you are going to test.
 
-From equation \ref{eqn:power_alt} discussed in section \ref{subsec:ave_pow} it is clear that the power transferred from fluid to the body is a function of the induced forcing $F_y$ and the transverse velocity $\dot{y}$. The sign of the average power represents the direction of power transfer where the $+$ ve sign represents the power transfer from fluid to the body and $-$ ve being power transferring from body to the fluid. 
+First, give a description of the flow and galloping:
+\begin{itemize}
+\item Galloping is due to an increase in mean lift force with an
+  increase in the instantaneous angle of attack
+\item This instantaneous angle of attack is directly related to the
+  transverse velocity - an increase in angle of attack implies an
+  increase in velocity
+\item This increase in mean lift force is created by an increase in
+  the difference in mean pressure on the upper and lower sides of the
+  body
+\item The mean pressure on each side of the body is related to the
+  structure of the mean shear layer, in particular to the separation
+  and potential reattachment of this shear layer, and the size of any
+  resulting recirculation region
+\item An increase in angle of attack forces one shear layer (the upper
+  one?) closer to the wall, meaning a high speed region is placed
+  close to this wall
+\item A simple consideration of Bernoulli's equation shows that this
+  high speed region should result in a region of low pressure
+\item This low pressure on the upper side results in a positive
+  pressure difference between the lower and upper sides, and thus a
+  positive mean lift
+\item The fact that this mean lift occurs as a function of the angle
+  of attack, and therefore the transferse velocity, implies that this
+  transverse forcing should be in phase with the transverse velocity
+\end{itemize}
 
-Thus, then  according to equation \ref{eqn:power_alt} it can be deduced that if there is a scenario where both high induced forcing and high transverse velocities are present, higher power output could be achieved. This brings to the analysis of the $C_y$ vs. $\theta$ curve. \citet{Luo1994}, showed that the afterbody of the cross section has a direct impact on $C_y$ vs. $\theta$ curve. One interesting observation of this study was that delaying the shear layer re-attachment results in higher peak induced force coefficient $C_y$ occurring at high induced angles (high transverse velocities).    
+KASUN: you should really include a schematic here explaining the basic
+components (upper and lower sides, shear layer, points of separation
+and reattachment, regions of high speed/low pressure that change with
+a change in angle of attack).
+
+Also, you need to be clear that you are talking about changes in the
+\emph{mean} flow.
+
+Also, why does an increase in angle of attack result in the upper
+shear layer moving closer to the upper surface? Is this related to the
+change in direction forced on the flow by the bluff front face?
+
+From equation \ref{eqn:power_alt} discussed in section \ref{subsec:ave_pow} it is clear that the power transferred from fluid to the body is a function of the induced forcing $F_y$ and the transverse velocity $\dot{y}$. The sign of the average power represents the direction of power transfer; positive power represents the power transfer from fluid to the body, negative power represents power transferring from body to the fluid. Thus, according to equation \ref{eqn:power_alt} it can be deduced that if there is a scenario where both high induced forcing and high transverse velocities are present, higher power output can be achieved.
+
+JL: This can be related directly to the shape of the $C_y$
+vs. $\theta$ curve. To optimize power
+transfer this curve should
+\begin{itemize}
+\item have a high gradient $\partial C_y/\partial \theta$ at
+  $\theta = 0$
+\item a large maximum $C_y$
+\item this maximum $C_y$ should occur at a high value of $\theta$
+\end{itemize}
+All of these features can be influenced by the cross section of the
+body which is galloping. Therefore, if the geometric features of the
+cross section that influence these curve features can be identified,
+an informed search for an optimal cross section for power extraction
+can be undertaken. The major features of the body that influence these
+$C_y$ vs. $\theta$ curve parameters are discussed below.
+
+\citet{Luo1994}, showed that the afterbody of the cross section has a direct impact on $C_y$ vs. $\theta$ curve. One interesting observation of this study was that delaying the shear layer re-attachment results in higher peak induced force coefficient $C_y$ occurring at high induced angles (high transverse velocities). JL: which geometric features can delay the reattachment? Sloping back? Truncated (short) back? Long back? Does this allow you to comment on the results from Robertson that show transverse galloping doesn't occur for ``long'' bodies?
+
+JL: is this the only reference you have in this area? What about some discussion of what causes reattachment? There must be theory around related to the direction and strength of the pressure gradient along the surface?
 
 Therefore, it could be hypothesised that a higher power transfer could be obtained by delaying the shear layer re-attachment. 
 
-Here, the influence of shear layer and its reattachment on the mean power is studied by introducing a cross section which is a hybrid of a square and a triangle. The cross section is transformed gradually by manipulating the ratio of two length scales.
+Here, the influence of shear layer and its reattachment on the mean power is studied by introducing a cross section which is a hybrid of a square and a triangle. The cross section is transformed gradually by manipulating the ratio of two length scales. JL: why this family of geometries? How does this relate to what you know about shear layer structure, reattachment, and the influence of geometry on the shear layers?
 
-The stationary forcing data are presented for each cross section followed by the QSS power curves. Based on the QSS power data, an optimum cross section for power extraction is identified. As a negative region on some $C_y$ vs. $\theta$ curves were observed, the underpinning reason for this region was investigated through an analysis of the surface pressure and flow velocity data. The results and discussion of this analysis are presented. Following this, a comparison is made between QSS and DNS mean power at on the cross section which provides an optimum mean power.       
+The force data are presented for each stationary cross section. This is followed by presentation of extracted power curves, calculate from the QSS model using this force data for each new body. Based on the QSS power data, an optimum cross section for power extraction, from the family of cross sections that have been tested, is identified.
 
-A final summary is presented explaining the influence of the behaviour of the shear layer on mean power output and the preliminary design considerations to optimise the fluid mechanics to obtain an optimum power output. 
+The main features of the generated $C_y$ vs. $\theta$ curves for the
+new bodies are identified and linked to the flow structure present by
+analyzing the mean surface pressure and flow velocity data. Following
+this, a comparison is made between QSS and DNS mean power on the cross
+section which provides an optimum mean power.
+
+A final summary is presented outlining that the behaviour of the shear layers is a controlling factor for mean power output. The preliminary design considerations to obtain an optimum power output should therefore focus on the manipulation of these shear layers. 
 
 \section{Influence of the shear layers}
 
@@ -24,17 +87,25 @@ In a typical cross section which sustains galloping, the induced lift \cy\ incre
 
 \input{./chapter-cross-sections/figures/sketch-1.tex}
 
-The cross section selected to test the shear layer influence on power was a hybrid cross section of a square and a triangle or in other words a pentagon which is illustrated in figure \ref{fig:hybrid_section}. This was produced by systematically tapering off the trailing edges of the top and bottom sides of the square cross section. The $\ratio$ was changed gradually from 1 to zero at increments of 0.25 where 1 being the square cross section and 0 being an isosceles triangle. This type of a cross section was selected because after analysing the shear layer behaviour of a galloping body it was found out that it is crucial to have the afterbody and the shear layer close to the body. And therefore the presence of the horizontal part of the top and bottom sides of the cross section. Rectangular cross sections are not very suitable as it may have a earlier shear layer re-attachment \citet{Paidoussis2010}. Another option was to use trapeziums as \citet{Luo1994}. However, the initial shear layers are quite far away and thus, maybe difficult to initialise galloping. The main focus was to study influence of shear layer behaviour on galloping, and thus the current hybrid cross section was used to study this behaviour by systematically delaying the shear layer reattachment of the initial square cross section. 
+The cross section selected to test the shear layer influence on power was a hybrid cross section of a square and a triangle, i.e, a pentagon. This is illustrated in figure \ref{fig:hybrid_section}. This was produced by systematically tapering off the trailing edges of the top and bottom sides of the square cross section. The $\ratio$ was changed gradually from 1 to zero at increments of 0.25 where 1 being the square cross section and 0 being an isosceles triangle. This type of a cross section was selected because after analysing the shear layer behaviour of a galloping body it was found out that it is crucial to have the afterbody and the shear layer close to the body. JL: where is this analysis? Did you do it?If not, where are the references? This is a thesis, you need to build a case here. What does ``afterbody close to the body'' mean? And therefore the presence of the horizontal part of the top and bottom sides of the cross section. JL: Don't get this, I don't see the logical links. Rectangular cross sections are not very suitable as it may have an earlier shear layer re-attachment \citet{Paidoussis2010}. Another option was to use trapeziums as \citet{Luo1994}. However, the initial shear layers are quite far away and thus, maybe difficult to initialise galloping. JL: can you include figures of these two potential cases? Can you show these unwanted features? Can you give more detail than ``may have an earlier reattachment''? When, for which parameter values? Why? How is this related to your theory about the manipulation of the shear layers? The main focus here is the influence of shear layer behaviour on galloping, and thus the current hybrid cross section was used to study this behaviour by systematically delaying the shear layer reattachment of the initial square cross section.
+
+JL: Nowhere have you spoken about the bluff front face and the sharp
+upstream corners. I assume you feel you need them because of there
+impact on the shape of the mean shear layer and the location of the
+initial separation? If so, you should also discuss this when
+discussing your choice of body shape to study.
 
 \section{Static body results}
 \label{sec:cross-sec-Static body results}
 \input{./chapter-cross-sections/figures/coefficient-table.tex}
 
-Stationary time averaged $C_y$ results were obtained for cross sections where $\ratio=1,0.75,0.5,0.25$ and $0$ using DNS at $\reynoldsnumber=200$. Where $\ratio=1$ being the square and $\ratio=0$ being an isosceles  triangle. Table \ref{table:cy-coefficients-hybrid} shows the coefficients of the $7^{th}$ order curve fitting for each cross section. In order to achieve a better fit, piecewise interpolation using multiple $7th$ order polynomials were incorporated for a single cross section. During the curve fitting process more importance was given for accurately fitting  the positive portion of the $C_{y}$ curve, as the power transfer from the fluid to the body occur in this region. 
+Stationary time averaged $C_y$ results were obtained for cross sections where $\ratio=1,0.75,0.5,0.25$ and $0$ using DNS at $\reynoldsnumber=200$. Table \ref{table:cy-coefficients-hybrid} shows the coefficients of the $7^{th}$ order curve fitting for each cross section. JL: where is this table? In order to achieve a better fit, piecewise interpolation using multiple $7th$ order polynomials were incorporated for a single cross section. During the curve fitting process more importance was given to accurately fitting the positive portion of the $C_{y}$ curve, as the power transfer from the fluid to the body only occurs in this region. 
 
 \input{./chapter-cross-sections/figures/lift_curves.tex} 
 
-The $C_y$ vs. $\theta$ curves in figure \ref{fig:lift_curves-hybrid} shows that the peak value of \cy\ shifts to the right as $\ratio$ is increased, hence, the peak \cy\ occurs at high induced angles.  These data agree with \citet{Luo1994} where the peak of the maximum \cy\ value was shifted to higher induced angles when reattachment was delayed. As $\theta$ is proportional to the transverse velocity of the body $\tan{\theta}=\frac{\dot{y}}{U}$, the peak value of \cy\ occurs at high induced velocities as \ratio\ is decreased. A negative region of $C_y$ vs. $\theta$ curves on cross sections where $\ratio\geq0.25$. Here, initially \cy\ decreases as $\theta$ is increased and the increases after reaching a minimum. The presence of this negative portion is an indication of unfavourable power transfer, i.e. power transferred from body to the fluid as the direction of the force and velocity vectors are out of phase. This will be further discussed in the upcoming sections of this chapter.    
+The $C_y$ vs. $\theta$ curves in figure \ref{fig:lift_curves-hybrid} shows that the peak value of \cy\ shifts to the right as $\ratio$ is increased, hence, the peak \cy\ occurs at high induced angles.  These data agree with \citet{Luo1994} where the peak of the maximum \cy\ value was shifted to higher induced angles when reattachment was delayed. As $\theta$ is proportional to the transverse velocity of the body via $\tan{\theta}=\frac{\dot{y}}{U}$, the peak value of \cy\ occurs at high induced velocities as \ratio\ is decreased. Therefore, bodies with a short straight section, or small \ratio, satisfy one of the three conditions required to optimize the power transfer.
+
+However, a complicating factor is the appearance of a negative region on the $C_y$ vs. $\theta$ curves for cross sections where $\ratio\leq0.25$. Here, initially \cy\ decreases as $\theta$ is increased and only increases after reaching a minimum, nonzero value of $\theta$. The presence of this negative portion is an indication of unfavourable power transfer, i.e. power transferred from body to the fluid as the direction of the force and velocity vectors are out of phase. This implies that when the induced angle of attack is low (when the transverse velocity is low), power transfer is from the body to the fluid, but when the tansverse velocity is high, power transfer is from the fluid to the body. This means that the direction of power transfer can be different at different points in the oscillation cycle. This will be further discussed in the upcoming sections of this chapter. JL: provide a section number reference.
 
  
  
@@ -43,51 +114,116 @@ The $C_y$ vs. $\theta$ curves in figure \ref{fig:lift_curves-hybrid} shows that 
  
  \input{./chapter-cross-sections/figures/power_curves.tex}
  
- Mean power output predictions could be obtained for these different cross sections using the QSS model and the stationary induced lift data obtained earlier using as inputs to the QSS model. Figure \ref{fig:power_curves} shows the mean power \massdamp\ vs. mean power for different cross sections namely $\ratio=1,0.75,0.5,0.25 \text{and} 0$. The maximum mean power increases until $\ratio=0.25$. This agrees well with the formulated hypothesis. The shear layer re-attachment is delayed as \ratio\ is decreased and an increase in maximum power output could be observed. As \ratio\ is further decreased to $\ratio=0$ the peak mean power output is reduced. This result goes against the initial hypothesis. Thus, it was further investigated the cause of this reduction in mean power output. 
+ Mean power output predictions are obtained for these different cross sections using the QSS model and the stationary induced lift data JL: shown in figure BLAH used as inputs to the QSS model. Figure \ref{fig:power_curves} shows the mean power vs. \massdamp\ for different cross sections namely $\ratio=1,0.75,0.5,0.25$ and $0$. The maximum mean power increases until $\ratio=0.25$. This agrees well with the formulated hypothesis JL: what is this hypothesis?. The shear layer re-attachment is delayed as \ratio\ is decreased and an increase in maximum power output could be observed JL: you can't say anything about the shear layer from looking at this graph. As \ratio\ is further decreased to $\ratio=0$ the peak mean power output is reduced. This result goes against the initial hypothesis. Thus, it was further investigated the cause of this reduction in mean power output. 
+
+JL: re-organize this argument. First add some discussion of the features of the figure. Break the discussion into two parts, for data $\ratio > 0.25$, and for $\ratio \leq 0.25$. For the high \ratio\ cases, the trends are basically the same; power first increases with increasing \massdamp, then peaks, and then decreases. Generally, the amount of power increases with a decrease in \ratio. This is what is expected by looking at the curves in figure 2. For the low \ratio\ cases, the trend is different; power first increases with \massdamp, then peaks, and then drops dramatically. The power extracted also appears to decrease with a decrease in \ratio. So, the fact that there are two regimes - high and low \ratio\ - indicates there is a distinct change in the flow structure. Note that you have already seen evidence of a change in flow structure - the appearance of a negative region on the lift curve for these low \ratio\ cases. This fact is further investigated in section PUT IN REF.
  
-As the presented power data were obtained from the QSS model, the reason for the power reduction at $\ratio=0$ could be identified through the main energy input of this model, which is the induced forcing. It was identified in section \ref{sec:cross-sec-Static body results} the presence of a negative portion of the $C_y$ vs. $\theta$ curve at $\ratio\leq0.25$. It was established in that section that the presence of this negative portion of the $\cy$ vs. $\theta$ curve results in unfavourable power transfer i.e. power transfer from the body to the fluid. By further analysing the lift curves in figure \ref{fig:lift_curves-hybrid} (d) and (e), it could be clearly observed that the negative region of the curve increases as \ratio\ is decreased. An argument could be that when \cy\ becomes negative it will preclude galloping altogether. This argument is partially true. However, manipulating the initial condition (initial transverse velocity) will somewhat rectify this problem. If an initial velocity which would make a positive induced angle is given galloping would sustain. This is how the mean power data were obtained for $\ratio=0.25$ and $\ratio=0$. That being mentioned to sustain galling another crucial factor is damping \citet{Paidoussis2010}. This is the reason why even though a higher initial condition is given the bandwidth of \massdamp\ for power production is short for $\ratio=0.25\ \text{and}\ 0$ compared to other tested cross sections. 
+It was identified in section \ref{sec:cross-sec-Static body results} the presence of a negative portion of the $C_y$ vs. $\theta$ curve at $\ratio\leq0.25$. It was established in that section that the presence of this negative portion of the $\cy$ vs. $\theta$ curve results in unfavourable power transfer i.e. power transfer from the body to the fluid. Inspection of the lift curves in figure \ref{fig:lift_curves-hybrid} (d) and (e), shows that the negative region of the curve - the range of $\theta$ over which \cy\ is negative - increases as \ratio\ is decreased. An argument could be that when \cy\ becomes negative it will preclude galloping altogether. This argument is partially true. However, manipulating the initial condition (initial transverse velocity) will somewhat rectify this problem. If an initial velocity which would make a positive induced angle is given galloping would sustain. This is how the mean power data were obtained for $\ratio=0.25$ and $\ratio=0$. That being mentioned to sustain galling another crucial factor is damping \citet{Paidoussis2010}. This is the reason why even though a higher initial condition is given the range of \massdamp\ for power production is short for $\ratio=0.25\ \text{and}\ 0$ compared to other tested cross sections. 
+
+JL: KASUN, you need to look through the literature for discussions of ``hard'' and ``soft'' galloping. What you are describing is the fact that the transition to galloping can be hysteretic. It might not start naturally from amplitude of zero, but if you give the body a push (manipulate initial conditions), it will self-sustain galloping. Does this make a difference to the extracted power curves you've presented in figure 3.3? Is there a range of \massdamp\ where you can get either very high power, or close to zero, depending on the initial conditions you start with? You could show both values and give an indication of the size of the hysteresis loop.
 
 \section{Presence of the negative region of the $\cy$ vs. $\theta$ curves}
 
 As a reduction in power was observed in some cross sections due to the presence of a negative portion of the $\cy$ vs. $\theta$, further investigations were carried out in order to understand the underlying reasoning for this phenomenon.
 
+KASUN: This style of writing is too ``familiar''. First I think this section should be renamed something like ``Investigation of hysteretic response for low \ratio''. Then the intro paragraph can point out that there is a negative region in the lift curves, and an apparent hysteresis in the power curves pointing to a change in flow regime that you are going to investigate further here.
+
 \subsection{Surface pressure}
 \label{subsec:cross-sec-surface pressure}
 
-As the driving force of the galloping body is the pressure forces created from the relative distances of the shear layers, the primary investigation was carried out analysing surface pressure data on the time averaged stationary data of the cross section. The test cross section taken here out of the cross sections was the isosceles triangle ($\ratio=0$) as it produced the largest negative region out of the cross sections tested for mean power output. 
+As the driving force of the galloping body is the pressure forces created from the relative distances of the shear layers JL: distance between the shear layers? How about ``pressure on the upper and lower sides which is related to the behaviour of the shear layers''?, the primary investigation was carried out analysing surface pressure data on the time averaged stationary data of the cross section. The test cross section taken here out of the cross sections was the isosceles triangle ($\ratio=0$) as it produced the largest negative region out of the cross sections tested for mean power output. 
 
-Time averaged (to filter out the influence of vortex shedding) surface pressure data  on the top and bottom surfaces of the cross sections at $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$ were obtained for the isosceles triangle. By having a closer look at the \cy\ vs. $\theta$ curves it could be seen that these points correspond to a negative \cy\ that is further decreasing with increasing $\theta$, a negative \cy\ that is increasing with increasing $\theta$ and a significantly positive value of \cy.        
- 
+KASUN: you need to state what you are doing.
+\begin{itemize}
+\item Attempting to link the appearance of a negative region in the
+  lift curve to a change in flow structure
+\item Take the triangle case as representative of the low \ratio\
+  cases
+\item First thing to investigate is the distribution of pressure along
+  the two rear surfaces.
+\end{itemize}
+
+Time averaged (to filter out the influence of vortex shedding) surface pressure data  on the top and bottom surfaces of the cross sections at $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$ were obtained for the isosceles triangle. By having a closer look at the \cy\ vs. $\theta$ curves it could be seen that these points correspond to a negative \cy\ that is further decreasing with increasing $\theta$, a negative \cy\ that is increasing with increasing $\theta$ and a significantly positive value of \cy.
+
+KASUN: expand. What is the value of $\theta$ where the lift force becomes positive again? 
  
 \input{./chapter-cross-sections/figures/surf-pres.tex} 
+
+KASUN: in the figure, why do you plot as a function of X? Wouldn't it be better to plot as a function of the distance along the surface from the front edge (so all the plots would cover the same range)? Wouldn't it be even better to show an image of the triangle and the pressure as a contour relative to the surfaces? See image about halfway down this page: \url{http://www.heliciel.com/en/aerodynamique-hydrodynamique/profils\%20aile\%20profil\%20pale.htm} As it is I don't think these plot mean very much because the direction of force for each surface is different.
+
+KASUN: also, shift the pressure values up so that they are all positive (add 1.2 to everything) it will make everything easier to interpret that dealing with negative pressures, and makes absolutely no difference to your conclusions. Or find the pressure at the inlet of the domain, and subtract that as your reference pressure.
  
- 
-Figure \ref{fig:surf_pres} shows the surface pressure of the top and bottom surfaces of the body ($\ratio=0$) starting from  the leading edges. At $\theta=4^{\circ}$, the pressure of the bottom of the body is grater than the top. Therefore, a pressure difference is created and a force is generated in the upward direction which according to the sign convention presented in \ref{fig:induced_lift_sketch}, is against the velocity of the body, hence giving a negative $\cy$. As $\theta$ (figure \ref{fig:surf_pres} (b)) is increased, to $16^{\circ}$ the gap between the surface pressure at the leading edge between the top and the bottom reduces. This effect results in the increase in $\cy$ (although it is still in the negative region). As $\theta$ is further increased at $21^{\circ}$ (figure \ref{fig:surf_pres} (c)) the surface pressure on the top side becomes grater than the bottom. Therefore, the net effect of the pressure difference is a positive $\cy$ which the driving force $F_y$ in phase with the velocity of the body.
+Figure \ref{fig:surf_pres} shows the surface pressure of the top and bottom surfaces of the body ($\ratio=0$) starting from  the leading edges. At $\theta=4^{\circ}$, the pressure of the bottom of the body is greater than the top. Therefore, a pressure difference is created and a force is generated in the upward direction which according to the sign convention presented in \ref{fig:induced_lift_sketch}, is against the velocity of the body, hence giving a negative $\cy$. As $\theta$ (figure \ref{fig:surf_pres} (b)) is increased, to $16^{\circ}$ the gap between the surface pressure at the leading edge between the top and the bottom reduces. This effect results in a reduction of the magnitude of $\cy$ (although it is still negative). As $\theta$ is further increased at $21^{\circ}$ (figure \ref{fig:surf_pres} (c)) the surface pressure on the top side becomes greater than the bottom. Therefore, the net effect of the pressure difference is a positive $\cy$ which the driving force $F_y$ in phase with the velocity of the body.
+
+KASUN: are you sure you have the sign convention right here?
+
+KASUN: can you add a summarizing paragraph for this section? Why is this important? What have you shown here? That the direction of the force depends on the direction of the pressure gradient? We knew that already.
 
 \subsection{Velocity profiles at the points of flow separation}
 
-The most important points of a cross section under galloping are the two flow separation points of the leading edges of the cross section, where a significant pressure difference occur. A key variable which directly relates to the fluid dynamic pressure is the velocity of the fluid. Although not strictly true in all cases of viscous flows, one should expect that a higher flow speed correspond with a lower pressure from basic fluid dynamic theory. A clearer picture could be obtained by analysing the flow velocity behaviour at the separation points in order to identify the cause of the pressure differences occurred at the leading edges.
+The most important points of a cross section under galloping are the two flow separation points of the leading edges of the cross section, where a significant pressure difference occur JL: a pressure difference between the two separation points? What evidence do you have that these are the ``most important'' points? Considering all of the discussion so far in this chapter has focussed on reattachment, I would think that the reattachment points are the most important points. A key variable which directly relates to the fluid dynamic pressure is the velocity of the fluid. Although not strictly true in all cases of viscous flows, one should expect that a higher flow speed correspond with a lower pressure from basic fluid dynamic theory. By measuring the flow velocity behaviour at, or near, the separation points, the cause of the pressure differences that occur along the upper and lower surfaces shown in section (SEE ABOVE) can be found.
 
 \input{./chapter-cross-sections/figures/tri-sketch.tex}
    
-Velocity magnitude data of the flow were obtained along two lines parallel to the front wall of the cross section one stating at the top and the other stating at the bottom leading edges of the cross section spreading outward as illustrated in figure \ref{fig:tri-sketch}. The lengths of these lines were equal to the width of the cross section. Data were obtained for the same cases presented earlier i.e. isosceles triangle ($\ratio=0$) at $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$.
+Mean velocity magnitude data of the flow were obtained along two lines parallel to the front wall of the cross section one stating at the top and the other stating at the bottom leading edges of the cross section spreading outward as illustrated in figure \ref{fig:tri-sketch}. The lengths of these lines were equal to the width of the cross section. Data were obtained for the same cases presented earlier i.e. isosceles triangle ($\ratio=0$) at $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$.
        
 \input{./chapter-cross-sections/figures/vel-profile.tex}
 
-The velocity profiles at the chosen three incident angles are presented in figure \ref{fig:vel-profile}. A sudden rise of velocity magnitude could be observed at the flow separation points. The velocity magnitude at the top separation point  at $\theta= 4^{0}$ (figure \ref{fig:vel-profile} (a)) is higher than the bottom separation point, leading to a lower pressure at the top edge. However, the velocity magnitude at the bottom edge becomes grater than the top edge at $\theta=16^{\circ}$. The difference between the top and bottom velocity magnitude at the separation points tends to increase as $\theta$ is increased to $21^{\circ}$, where the velocity magnitude at the bottom being grater than the top (figure \ref{fig:vel-profile} (c)). This effectively creates the pressure difference created in figure \ref{fig:surf_pres} (c), which leads to a positive \cy\ and results in a forcing which is in phase with the velocity of the body. 
+KASUN: Does the velocity go back to zero at 0 distance? Why not show
+the whole range of $V_m$?
 
- 
+Also, pick a symbol for the distance rather than writing ``Distance
+from the trailing edge'', and show this symbol on the graph and the
+sketch.
+
+Also, you realise you have used $\alpha$ in the caption of angle of
+attack, but the rest of your thesis uses $\theta$?
+
+The velocity profiles at the chosen three incident angles are presented in figure \ref{fig:vel-profile}. A sudden rise of velocity magnitude could be observed at the flow separation points JL: at the separation points the velocity is, and must be, zero. I think what your profiles show is the formation of a wall jet. The maximum velocity magnitude in the top wall jet at $\theta= 4^{0}$ (figure \ref{fig:vel-profile} (a)) is higher than that in the corresponding bottom wall jet, leading to a lower pressure at the top edge. However, the velocity magnitude in the bottom wall jet becomes greater than that in the top wall jet at $\theta=16^{\circ}$. The difference between the top and bottom velocity magnitude in these wall jets tends to increase as $\theta$ is increased to $21^{\circ}$, where the velocity magnitude at the bottom is greater than at the top (figure \ref{fig:vel-profile} (c)). This effectively creates the pressure difference created in figure \ref{fig:surf_pres} (c), which leads to a positive \cy\ and results in a forcing which is in phase with the velocity of the body. 
+
+KASUN: I am not convinced by this. I can see that the magnitude of the upper jet increases with $\theta$, but the lower one seems almost unaffected. I can also see that the maximum of the upper jet first moves towards the surface, then away again. How does this fit with your basic Bernoulli argument?
+
+Why do you need profiles at all? Why can't you plot contours of velocity magnitude? In fact, you could also replace figure 3.4 with plots of pressure contours. Or keep what you have but add plots of contours. I think this whole section would also be stronger if you contrasted a low \ratio\ case (the triangle) with a high \ratio\ case (the square).
+
+Also, why does the dotted line change format between a and b?
+
+
+\subsection{Mean streamlines}
+
 \input{./chapter-cross-sections/figures/tri-stream-func.tex}
 
-The stream functions of the time averaged flow-filed of the stationary isosceles triangle at  $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$ are presented in figure \ref{fig:triangle-shear_layers}. Here, it could be observed that the proximity of the bottom shear layer increases as $\theta$ is increased from $4^{\circ}-21^{\circ}$.
+Why are the streamlines coloured? Does this add anything?
 
-By comparing the pressure and the velocity plots together with the stream function flow-field data, it could be seen \cy\ is governed by two mechanisms. Initially at $\theta= 4^{0}$ an un even distribution of the flow is created due to the profile and the positioning (angle of attack) of the geometry creating a forcing ($F_{y}$) similar to the generation of lift of an aerofoil. Comparing figure \ref{fig:triangle-shear_layers} (a) to (b) and (c) the proximity of the bottom shear layer low and hence, does not create a significant pressure force form the relative proximities of the top and bottom shear layers. Therefore, the aerofoil effect becomes more dominant.  
+Do you need the axes and the axis labels?
+
+Do you need the legend?
+
+Keep the field of view the same for each image. As it is the triangle
+is a different size in each image. Use this same field of fiew for any pressure and velocity contour plots you make for the sections above.
+
+Keep the streamlines you draw in the field of view. Currently b ``crops'' tne streamlines
+
+The stream functions of the time averaged flow-field of the stationary isosceles triangle at  $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$ are presented in figure \ref{fig:triangle-shear_layers}. Here, it can be observed that the proximity of the bottom shear layer increases as $\theta$ is increased from $4^{\circ}-21^{\circ}$. JL: proximity to what? How do I identify the ``shear layer'' from the streamlines? Would magnitude of the strain rate tensor be better as it shows shear strain rate (and therefore shear stress) directly
+
+\begin{equation}
+\epsilon = \frac{1}{2}
+\begin{bmatrix}
+  2\frac{\partial u}{\partial x} & \frac{\partial u}{\partial y} + \frac{\partial v}{\partial x} \\
+  \frac{\partial v}{\partial x} + \frac{\partial u}{\partial y} & 2\frac{\partial v}{\partial y} \\
+\end{bmatrix}
+\end{equation}
+
+so
+
+\begin{equation}
+  |\epsilon| = \frac{1}{2}\left(4\frac{\partial u}{\partial x}\frac{\partial v}{\partial y} + \left(\frac{\partial u}{\partial y} + \frac{\partial v}{\partial x}\right)^2\right)
+\end{equation}
+
+By comparing the pressure and the velocity plots together with the stream function flow-field data, it could be seen \cy\ is governed by two mechanisms. Initially at $\theta= 4^{\circ}$ an uneven distribution of the flow is created due to the profile and the positioning (angle of attack) of the geometry creating a forcing ($F_{y}$) similar to the generation of lift of an aerofoil. Comparing figure \ref{fig:triangle-shear_layers} (a) to (b) and (c) the proximity of the bottom shear layer low and hence, does not create a significant pressure force form the relative proximities of the top and bottom shear layers. Therefore, the aerofoil effect becomes more dominant.  
 
 As $\theta$ is increased from $\theta=16^{\circ}$ to $21^{\circ}$, the proximity of the bottom shear layer to the wall of the body increases (figure \ref{fig:triangle-shear_layers} (b) and (c)), and thus becoming the more dominant forcing of the system. This uneven flow distribution as discussed earlier and in \ref{subsec:c_y and shear layers}in detail, creates the positive region of the \cy\ vs. $\theta$ curve.
 
-
-
-    
+KASUN: I don't really follow any of this argument. Can you spell it all out in dot points before we go back to writing it? I'm sure there is a logical argument, but you haven't put that argument here.
  
  
  
