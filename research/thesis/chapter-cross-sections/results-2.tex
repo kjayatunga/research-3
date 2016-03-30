@@ -1,59 +1,24 @@
-\chapter{Influence of fluid dynamics of the system on the extracted power JL: title misleading. Perhaps ``Optimization of the cross section for power extraction''}
+\chapter{Optimization of the cross section for power extraction}
 
 \section{Introduction}
 
-Galloping occurs as a result of the pressure difference created due to the relative distance between the shear layers and the respective walls of the cross section, at the top and bottom sides of the body. As discussed in section \ref{subsec:c_y and shear layers}, the instantaneous induced angle makes one of the separated shear layers closer to the wall creating a low pressure region. This pressure difference results in a transverse forcing (normal to the direction of the flow) which becomes in phase with the transverse velocity and sustains galloping.  JL: this needs to be re-written. Even I don't really know what you are trying to say here. I think you are mixing up a description of the flow, and the hypothesis that you are going to test.
+%Galloping occurs as a result of the pressure difference created due to the relative distance between the shear layers and the respective walls of the cross section, at the top and bottom sides of the body. As discussed in section \ref{subsec:c_y and shear layers}, the instantaneous induced angle makes one of the separated shear layers closer to the wall creating a low pressure region. This pressure difference results in a transverse forcing (normal to the direction of the flow) which becomes in phase with the transverse velocity and sustains galloping.  JL: this needs to be re-written. Even I don't really know what you are trying to say here. I think you are mixing up a description of the flow, and the hypothesis that you are going to test.
 
-First, give a description of the flow and galloping:
-\begin{itemize}
-\item Galloping is due to an increase in mean lift force with an
-  increase in the instantaneous angle of attack
-\item This instantaneous angle of attack is directly related to the
-  transverse velocity - an increase in angle of attack implies an
-  increase in velocity
-\item This increase in mean lift force is created by an increase in
-  the difference in mean pressure on the upper and lower sides of the
-  body
-\item The mean pressure on each side of the body is related to the
-  structure of the mean shear layer, in particular to the separation
-  and potential reattachment of this shear layer, and the size of any
-  resulting recirculation region
-\item An increase in angle of attack forces one shear layer (the upper
-  one?) closer to the wall, meaning a high speed region is placed
-  close to this wall
-\item A simple consideration of Bernoulli's equation shows that this
-  high speed region should result in a region of low pressure
-\item This low pressure on the upper side results in a positive
-  pressure difference between the lower and upper sides, and thus a
-  positive mean lift
-\item The fact that this mean lift occurs as a function of the angle
-  of attack, and therefore the transferse velocity, implies that this
-  transverse forcing should be in phase with the transverse velocity
-\end{itemize}
 
-KASUN: you should really include a schematic here explaining the basic
-components (upper and lower sides, shear layer, points of separation
-and reattachment, regions of high speed/low pressure that change with
-a change in angle of attack).
-
-Also, you need to be clear that you are talking about changes in the
-\emph{mean} flow.
-
-Also, why does an increase in angle of attack result in the upper
-shear layer moving closer to the upper surface? Is this related to the
-change in direction forced on the flow by the bluff front face?
+ Galloping is due to an increase in mean induced lift force \cy\  with an increase in the instantaneous induced angle of attack. This instantaneous angle of attack is directly related to the transverse velocity - an increase in angle of attack implies an increase in velocity. This increase in mean lift force is created by an increase in the difference in mean pressure on the upper and lower sides of the body. The mean pressure on each side of the body is related to the structure of the mean shear layer, in particular to the separation and potential reattachment of this shear layer, and the size of any resulting recirculation region. An increase in angle of attack forces one shear layer (the lower one) closer to the wall, meaning a high speed region is placed close to this wall. A simple consideration of Bernoulli's equation shows that this high speed region should result in a region of low pressure. This low pressure on the upper side results in a positive pressure difference between the lower and upper sides, and thus a positive mean lift The fact that this mean lift occurs as a function of the angle of attack, and therefore the transferse velocity, implies that this transverse forcing should be in phase with the transverse velocity
 
 From equation \ref{eqn:power_alt} discussed in section \ref{subsec:ave_pow} it is clear that the power transferred from fluid to the body is a function of the induced forcing $F_y$ and the transverse velocity $\dot{y}$. The sign of the average power represents the direction of power transfer; positive power represents the power transfer from fluid to the body, negative power represents power transferring from body to the fluid. Thus, according to equation \ref{eqn:power_alt} it can be deduced that if there is a scenario where both high induced forcing and high transverse velocities are present, higher power output can be achieved.
 
-JL: This can be related directly to the shape of the $C_y$
-vs. $\theta$ curve. To optimize power
-transfer this curve should
+This can be related directly to the shape of the $C_y$ vs. $\theta$ curve. To optimize power
+transfer this curve should,
+
 \begin{itemize}
 \item have a high gradient $\partial C_y/\partial \theta$ at
   $\theta = 0$
 \item a large maximum $C_y$
 \item this maximum $C_y$ should occur at a high value of $\theta$
 \end{itemize}
+
 All of these features can be influenced by the cross section of the
 body which is galloping. Therefore, if the geometric features of the
 cross section that influence these curve features can be identified,
@@ -61,23 +26,25 @@ an informed search for an optimal cross section for power extraction
 can be undertaken. The major features of the body that influence these
 $C_y$ vs. $\theta$ curve parameters are discussed below.
 
-\citet{Luo1994}, showed that the afterbody of the cross section has a direct impact on $C_y$ vs. $\theta$ curve. One interesting observation of this study was that delaying the shear layer re-attachment results in higher peak induced force coefficient $C_y$ occurring at high induced angles (high transverse velocities). JL: which geometric features can delay the reattachment? Sloping back? Truncated (short) back? Long back? Does this allow you to comment on the results from Robertson that show transverse galloping doesn't occur for ``long'' bodies?
+\citet{Luo1994}, showed that the afterbody of the cross section has a direct impact on $C_y$ vs. $\theta$ curve. One interesting observation of this study was that inhibiting the shear layer re-attachment results in higher peak induced force coefficient $C_y$ occurring at high induced angles (high transverse velocities). The opposite of this result was discussed by \citet{Robertson2003} where long rectangular cross sections did not exhibit galloping due to shear layer reattachment at low $\theta$. Furthermore, \citet{Luo1994} have discussed the impact of the reattachment of the shear layer at the trailing edge. As $\theta$ is further increased beyond the angle of reattachment, the enclosed ``bubble'' region of the separated reattached shear layer shrinks in size reducing the difference in suction in the top and bottom sides of the body and results in a reduction in \cy (refer section \ref{subsec:c_y and shear layers}). 
 
-JL: is this the only reference you have in this area? What about some discussion of what causes reattachment? There must be theory around related to the direction and strength of the pressure gradient along the surface?
+Therefore, it could be hypothesised that a higher power transfer could be obtained by inhibiting the shear layer re-attachment. 
 
-Therefore, it could be hypothesised that a higher power transfer could be obtained by delaying the shear layer re-attachment. 
-
-Here, the influence of shear layer and its reattachment on the mean power is studied by introducing a cross section which is a hybrid of a square and a triangle. The cross section is transformed gradually by manipulating the ratio of two length scales. JL: why this family of geometries? How does this relate to what you know about shear layer structure, reattachment, and the influence of geometry on the shear layers?
+Here, the influence of shear layer and its reattachment on the mean power is discussed. It is crucial to keep the shear layer closer to the body for galloping. Thus, a cross section which has a straight initial section (which has initial streamlining) followed by a slanting section to inhibit the shear, layer had to be considered for analysis. Therefore, a cross section which is a hybrid of a square and a triangle was considered. The cross section was transformed gradually by manipulating the ratio of two length scales. This cross section provided the flexibility of gradually inhibiting the shear layer reattachment while having the initial streamlining of the shear layers to sustain galloping. 
 
 The force data are presented for each stationary cross section. This is followed by presentation of extracted power curves, calculate from the QSS model using this force data for each new body. Based on the QSS power data, an optimum cross section for power extraction, from the family of cross sections that have been tested, is identified.
 
 The main features of the generated $C_y$ vs. $\theta$ curves for the
 new bodies are identified and linked to the flow structure present by
-analyzing the mean surface pressure and flow velocity data. Following
+analysing the mean surface pressure and flow velocity data. Following
 this, a comparison is made between QSS and DNS mean power on the cross
 section which provides an optimum mean power.
 
 A final summary is presented outlining that the behaviour of the shear layers is a controlling factor for mean power output. The preliminary design considerations to obtain an optimum power output should therefore focus on the manipulation of these shear layers. 
+
+
+
+
 
 \section{Influence of the shear layers}
 
@@ -86,6 +53,10 @@ In a typical cross section which sustains galloping, the induced lift \cy\ incre
 \subsection*{Selection of the cross section}
 
 \input{./chapter-cross-sections/figures/sketch-1.tex}
+
+
+
+
 
 The cross section selected to test the shear layer influence on power was a hybrid cross section of a square and a triangle, i.e, a pentagon. This is illustrated in figure \ref{fig:hybrid_section}. This was produced by systematically tapering off the trailing edges of the top and bottom sides of the square cross section. The $\ratio$ was changed gradually from 1 to zero at increments of 0.25 where 1 being the square cross section and 0 being an isosceles triangle. This type of a cross section was selected because after analysing the shear layer behaviour of a galloping body it was found out that it is crucial to have the afterbody and the shear layer close to the body. JL: where is this analysis? Did you do it?If not, where are the references? This is a thesis, you need to build a case here. What does ``afterbody close to the body'' mean? And therefore the presence of the horizontal part of the top and bottom sides of the cross section. JL: Don't get this, I don't see the logical links. Rectangular cross sections are not very suitable as it may have an earlier shear layer re-attachment \citet{Paidoussis2010}. Another option was to use trapeziums as \citet{Luo1994}. However, the initial shear layers are quite far away and thus, maybe difficult to initialise galloping. JL: can you include figures of these two potential cases? Can you show these unwanted features? Can you give more detail than ``may have an earlier reattachment''? When, for which parameter values? Why? How is this related to your theory about the manipulation of the shear layers? The main focus here is the influence of shear layer behaviour on galloping, and thus the current hybrid cross section was used to study this behaviour by systematically delaying the shear layer reattachment of the initial square cross section.
 
@@ -97,6 +68,7 @@ discussing your choice of body shape to study.
 
 \section{Static body results}
 \label{sec:cross-sec-Static body results}
+
 \input{./chapter-cross-sections/figures/coefficient-table.tex}
 
 Stationary time averaged $C_y$ results were obtained for cross sections where $\ratio=1,0.75,0.5,0.25$ and $0$ using DNS at $\reynoldsnumber=200$. Table \ref{table:cy-coefficients-hybrid} shows the coefficients of the $7^{th}$ order curve fitting for each cross section. JL: where is this table? In order to achieve a better fit, piecewise interpolation using multiple $7th$ order polynomials were incorporated for a single cross section. During the curve fitting process more importance was given to accurately fitting the positive portion of the $C_{y}$ curve, as the power transfer from the fluid to the body only occurs in this region. 
@@ -105,7 +77,7 @@ Stationary time averaged $C_y$ results were obtained for cross sections where $\
 
 The $C_y$ vs. $\theta$ curves in figure \ref{fig:lift_curves-hybrid} shows that the peak value of \cy\ shifts to the right as $\ratio$ is increased, hence, the peak \cy\ occurs at high induced angles.  These data agree with \citet{Luo1994} where the peak of the maximum \cy\ value was shifted to higher induced angles when reattachment was delayed. As $\theta$ is proportional to the transverse velocity of the body via $\tan{\theta}=\frac{\dot{y}}{U}$, the peak value of \cy\ occurs at high induced velocities as \ratio\ is decreased. Therefore, bodies with a short straight section, or small \ratio, satisfy one of the three conditions required to optimize the power transfer.
 
-However, a complicating factor is the appearance of a negative region on the $C_y$ vs. $\theta$ curves for cross sections where $\ratio\leq0.25$. Here, initially \cy\ decreases as $\theta$ is increased and only increases after reaching a minimum, nonzero value of $\theta$. The presence of this negative portion is an indication of unfavourable power transfer, i.e. power transferred from body to the fluid as the direction of the force and velocity vectors are out of phase. This implies that when the induced angle of attack is low (when the transverse velocity is low), power transfer is from the body to the fluid, but when the tansverse velocity is high, power transfer is from the fluid to the body. This means that the direction of power transfer can be different at different points in the oscillation cycle. This will be further discussed in the upcoming sections of this chapter. JL: provide a section number reference.
+However, a complicating factor is the appearance of a negative region on the $C_y$ vs. $\theta$ curves for cross sections where $\ratio\leq0.25$. Here, initially \cy\ decreases as $\theta$ is increased and only increases after reaching a minimum, nonzero value of $\theta$. The presence of this negative portion is an indication of unfavourable power transfer, i.e. power transferred from body to the fluid as the direction of the force and velocity vectors are out of phase. This implies that when the induced angle of attack is low (when the transverse velocity is low), power transfer is from the body to the fluid, but when the transverse velocity is high, power transfer is from the fluid to the body. This means that the direction of power transfer can be different at different points in the oscillation cycle. This will be further discussed in the upcoming section \ref{sec:negative-region}.
 
  
  
@@ -123,6 +95,7 @@ It was identified in section \ref{sec:cross-sec-Static body results} the presenc
 JL: KASUN, you need to look through the literature for discussions of ``hard'' and ``soft'' galloping. What you are describing is the fact that the transition to galloping can be hysteretic. It might not start naturally from amplitude of zero, but if you give the body a push (manipulate initial conditions), it will self-sustain galloping. Does this make a difference to the extracted power curves you've presented in figure 3.3? Is there a range of \massdamp\ where you can get either very high power, or close to zero, depending on the initial conditions you start with? You could show both values and give an indication of the size of the hysteresis loop.
 
 \section{Presence of the negative region of the $\cy$ vs. $\theta$ curves}
+ \label{sec:negative-region}
 
 As a reduction in power was observed in some cross sections due to the presence of a negative portion of the $\cy$ vs. $\theta$, further investigations were carried out in order to understand the underlying reasoning for this phenomenon.
 

@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2014/dev)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis-main.aux
 The style file: elsarticle-harv.bst
@@ -14,45 +14,53 @@ Repeated entry---line 528 of file ./Paper.bib.bib
  : %@article{sheard2009
  :                     ,
 I'm skipping whatever remains of this entry
-You've used 35 entries,
+Repeated entry---line 632 of file ./Paper.bib.bib
+ : @article{Robertson2003
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 640 of file ./Paper.bib.bib
+ :  @article{Parkinson1989
+ :                        ,
+I'm skipping whatever remains of this entry
+You've used 54 entries,
             2821 wiz_defined-function locations,
-            856 strings with 10047 characters,
-and the built_in function-call counts, 16940 in all, are:
-= -- 1755
-> -- 818
-< -- 24
-+ -- 306
-- -- 267
-* -- 1467
-:= -- 3048
-add.period$ -- 106
-call.type$ -- 35
-change.case$ -- 264
-chr.to.int$ -- 59
-cite$ -- 35
-duplicate$ -- 632
-empty$ -- 1169
-format.name$ -- 374
-if$ -- 3432
+            977 strings with 13189 characters,
+and the built_in function-call counts, 25763 in all, are:
+= -- 2686
+> -- 1208
+< -- 38
++ -- 453
+- -- 393
+* -- 2189
+:= -- 4648
+add.period$ -- 164
+call.type$ -- 54
+change.case$ -- 403
+chr.to.int$ -- 87
+cite$ -- 54
+duplicate$ -- 968
+empty$ -- 1800
+format.name$ -- 555
+if$ -- 5250
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 40
-newline$ -- 112
-num.names$ -- 140
-pop$ -- 262
+missing$ -- 61
+newline$ -- 169
+num.names$ -- 216
+pop$ -- 384
 preamble$ -- 1
-purify$ -- 229
+purify$ -- 347
 quote$ -- 0
-skip$ -- 479
+skip$ -- 743
 stack$ -- 0
-substring$ -- 960
-swap$ -- 98
+substring$ -- 1475
+swap$ -- 141
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 291
+type$ -- 453
 warning$ -- 0
-while$ -- 146
+while$ -- 222
 width$ -- 0
-write$ -- 388
-(There were 3 error messages)
+write$ -- 598
+(There were 5 error messages)
