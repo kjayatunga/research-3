@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  30 MAR 2016 21:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  31 MAR 2016 13:14
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -599,11 +599,7 @@ Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 Package: ulem 2012/05/18
 \ULdepth=\dimen173
 )
-(./thesis-main.aux
-
-LaTeX Warning: Label `fig:induced_lift_sketch' multiply defined.
-
-)
+(./thesis-main.aux)
 \openout1 = `thesis-main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 182.
@@ -623,7 +619,8 @@ LaTeX Font Info:    ... okay on input line 182.
 ] [2
 
 
-] (./thesis-main.toc
+]
+(./thesis-main.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -688,16 +685,8 @@ File: ./chapter-literature-revirw/fnp/square-4.eps Graphic file (type eps)
 <./chapter-literature-revirw/fnp/square-4.eps>
 File: .//chapter-literature-revirw/fnp/square-6.eps Graphic file (type eps)
 
-<.//chapter-literature-revirw/fnp/square-6.eps>)
-
-LaTeX Warning: Reference `fig:shear-layer-sketch' on page 8 undefined on input 
-line 89.
-
-
-LaTeX Warning: Reference `fig:shear-layer-sketch' on page 8 undefined on input 
-line 89.
-
-[8] [9] (./chapter-literature-revirw/figures/per_diff_cross_sec.tex
+<.//chapter-literature-revirw/fnp/square-6.eps>) [8] [9]
+(./chapter-literature-revirw/figures/per_diff_cross_sec.tex
 File: ./chapter-literature-revirw/fnp/per_cross_sec.eps Graphic file (type eps)
 
 
@@ -954,20 +943,21 @@ Chapter 4.
 File: ./chapter-cross-sections/fnp/hybrid_section.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/hybrid_section.eps>) [57]
+(./chapter-cross-sections/figures/coefficient-table.tex)
+Overfull \hbox (11.95819pt too wide) in paragraph at lines 75--76
+[]\OT1/cmr/m/n/10.95 Stationary time av-er-aged $\OML/cmm/m/it/10.95 C[]$ \OT1/
+cmr/m/n/10.95 re-sults were ob-tained for cross sec-tions where $[] = 1\OML/cmm
+/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 75\OM
+L/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 
+5\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10
+.95 25$
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]
-(./chapter-cross-sections/figures/coefficient-table.tex)
-Overfull \hbox (28.95819pt too wide) in paragraph at lines 76--77
-[][]\OT1/cmr/m/n/10.95 Stationary time av-er-aged $\OML/cmm/m/it/10.95 C[]$ \OT
-1/cmr/m/n/10.95 re-sults were ob-tained for cross sec-tions where $[] = 1\OML/c
-mm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 75\
-OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.9
-5 5\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/
-10.95 25$
- []
-
-[59] (./chapter-cross-sections/figures/lift_curves.tex
+(./chapter-cross-sections/figures/lift_curves.tex
 File: ./chapter-cross-sections/fnp/lift_curve_sq.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/lift_curve_sq.eps>
@@ -982,15 +972,21 @@ File: ./chapter-cross-sections/fnp/lift_curve_025.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/lift_curve_025.eps>
 File: ./chapter-cross-sections/fnp/lift_curve_tri.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [60]
+<./chapter-cross-sections/fnp/lift_curve_tri.eps>)
+Underfull \vbox (badness 1418) has occurred while \output is active []
+
+ [59]
 (./chapter-cross-sections/figures/power_curves.tex
 File: ./chapter-cross-sections/fnp/mean_power_hyb.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/mean_power_hyb.eps>) [61]
+<./chapter-cross-sections/fnp/mean_power_hyb.eps>)
+Underfull \vbox (badness 1168) has occurred while \output is active []
+
+ [60]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]
-[63] (./chapter-cross-sections/figures/surf-pres.tex
+ [61]
+[62] (./chapter-cross-sections/figures/surf-pres.tex
 File: ./chapter-cross-sections/fnp/surf-pres-tri-4.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/surf-pres-tri-4.eps>
@@ -1002,15 +998,15 @@ File: ./chapter-cross-sections/fnp/surf-pres-tri-21.eps Graphic file (type eps)
 
 
 <./chapter-cross-sections/fnp/surf-pres-tri-21.eps>)
-Overfull \hbox (40.8924pt too wide) in paragraph at lines 127--128
+Overfull \hbox (40.8924pt too wide) in paragraph at lines 126--127
 \OT1/cmtt/m/n/10.95 http : / / www . heliciel . com / en / aerodynamique-[]hydr
 odynamique / profils \ %20aile \ %20profil \
  []
 
-[64] [65] (./chapter-cross-sections/figures/tri-sketch.tex
+[63] [64] (./chapter-cross-sections/figures/tri-sketch.tex
 File: ./chapter-cross-sections/fnp/tri-sketch.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/tri-sketch.eps>) [66]
+<./chapter-cross-sections/fnp/tri-sketch.eps>)
 (./chapter-cross-sections/figures/vel-profile.tex
 File: ./chapter-cross-sections/fnp/vel_prof-tri-4.eps Graphic file (type eps)
 
@@ -1020,8 +1016,11 @@ File: ./chapter-cross-sections/fnp/vel_prof-tri-16.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/vel_prof-tri-16.eps>
 File: ./chapter-cross-sections/fnp/vel_prof-tri-21.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/vel_prof-tri-21.eps>)
-(./chapter-cross-sections/figures/tri-stream-func.tex
+<./chapter-cross-sections/fnp/vel_prof-tri-21.eps>) [65]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
+[67] (./chapter-cross-sections/figures/tri-stream-func.tex
 File: ./chapter-cross-sections/fnp/4.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/4.eps>
@@ -1029,32 +1028,21 @@ File: ./chapter-cross-sections/fnp/16.eps Graphic file (type eps)
  <./chapter-cross-sections/fnp/16.eps>
 File: ./chapter-cross-sections/fnp/21.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/21.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [67]
-[68]) [69]) (./thesis-main.bbl [70] [71
+<./chapter-cross-sections/fnp/21.eps>) [68]) (./thesis-main.bbl [69] [70]
+[71
 
 ]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [72] [73] [74]) [75]
-(./thesis-main.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ [72] [73] [74]) [75] (./thesis-main.aux) ) 
 Here is how much of TeX's memory you used:
  13762 strings out of 493090
  267067 string characters out of 6134868
- 303009 words of memory out of 5000000
+ 304980 words of memory out of 5000000
  16750 multiletter control sequences out of 15000+600000
  21397 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,54p,1895b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,54p,1887b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (78 pages, 256680 bytes).
+Output written on thesis-main.dvi (78 pages, 255972 bytes).
