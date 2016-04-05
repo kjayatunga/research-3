@@ -4,7 +4,7 @@
 \contentsline {subsection}{\numberline {1.2.1}Excitation of galloping}{2}
 \contentsline {subsection}{\numberline {1.2.2}Quasi-steady state theory}{3}
 \contentsline {subsection}{\numberline {1.2.3}Induced force and the shear layers}{8}
-\contentsline {subsection}{\numberline {1.2.4}Frequency response}{9}
+\contentsline {subsection}{\numberline {1.2.4}Frequency response}{10}
 \contentsline {subsection}{\numberline {1.2.5}Fluid mechanics governing the galloping response}{10}
 \contentsline {subsection}{\numberline {1.2.6}Galloping as a mechanism of energy harvesting}{12}
 \contentsline {subsection}{\numberline {1.2.7}Review summery and Objectives}{13}

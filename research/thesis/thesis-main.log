@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  31 MAR 2016 13:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  4 APR 2016 10:48
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -670,12 +670,12 @@ File: ./chapter-literature-revirw/fnp/parkinson_data.eps Graphic file (type eps
 File: ./chapter-literature-revirw/fnp/luo-re-attachment.eps Graphic file (type 
 eps)
 
-<./chapter-literature-revirw/fnp/luo-re-attachment.eps>)
+<./chapter-literature-revirw/fnp/luo-re-attachment.eps>) [6] [7]
 (./chapter-literature-revirw/figures/shear-layer-sketch.tex
 File: ./chapter-literature-revirw/fnp/shear-layer-sketch.eps Graphic file (type
  eps)
 
-<./chapter-literature-revirw/fnp/shear-layer-sketch.eps>) [6] [7]
+<./chapter-literature-revirw/fnp/shear-layer-sketch.eps>)
 (./chapter-literature-revirw/figures/shear_layers.tex
 File: ./chapter-literature-revirw/fnp/square-2.eps Graphic file (type eps)
 
@@ -685,7 +685,10 @@ File: ./chapter-literature-revirw/fnp/square-4.eps Graphic file (type eps)
 <./chapter-literature-revirw/fnp/square-4.eps>
 File: .//chapter-literature-revirw/fnp/square-6.eps Graphic file (type eps)
 
-<.//chapter-literature-revirw/fnp/square-6.eps>) [8] [9]
+<.//chapter-literature-revirw/fnp/square-6.eps>) [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
 (./chapter-literature-revirw/figures/per_diff_cross_sec.tex
 File: ./chapter-literature-revirw/fnp/per_cross_sec.eps Graphic file (type eps)
 
@@ -1045,4 +1048,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1887b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (78 pages, 255972 bytes).
+Output written on thesis-main.dvi (78 pages, 256864 bytes).
