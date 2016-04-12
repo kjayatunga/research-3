@@ -42,5 +42,5 @@
 \contentsline {section}{\numberline {4.4}QSS Mean power output}{61}
 \contentsline {section}{\numberline {4.5}Investigation of flow characteristics at low \ensuremath {\frac {d}{l}}\ cases}{62}
 \contentsline {subsection}{\numberline {4.5.1}Surface pressure}{62}
-\contentsline {subsection}{\numberline {4.5.2}Velocity profiles at the points of flow separation}{65}
-\contentsline {subsection}{\numberline {4.5.3}Mean streamlines}{66}
+\contentsline {subsection}{\numberline {4.5.2}Velocity profiles at the points of flow separation}{64}
+\contentsline {subsection}{\numberline {4.5.3}Mean streamlines}{68}

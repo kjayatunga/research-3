@@ -101,35 +101,29 @@ The analysis of the mean power and the static body results showed that there is 
 \subsection{Surface pressure}
 \label{subsec:cross-sec-surface pressure}
 
-As the driving force of the galloping body is the pressure forces created from the relative distances of the shear layers JL: distance between the shear layers? How about ``pressure on the upper and lower sides which is related to the behaviour of the shear layers''?, the primary investigation was carried out analysing surface pressure data on the time averaged stationary data of the cross section. The test cross section taken here out of the cross sections was the isosceles triangle ($\ratio=0$) as it produced the largest negative region out of the cross sections tested for mean power output. 
+The driving force of galloping is the induced force $F_y$ created as a result of the freestream velocity of the fluid and the transverse velocity of the body. As discussed in section \ref{subsec:c_y and shear layers} the pressure difference of the upper and lower sides of the body (figure \ref{fig:shear-layer-sketch}) creates this induced force as a result of the relative proximities of the shear layers to the respective sides. Thus, the primary investigation was carried out analysing surface pressure data on the time averaged stationary data of the cross section. 
 
-KASUN: you need to state what you are doing.
-\begin{itemize}
-\item Attempting to link the appearance of a negative region in the
-  lift curve to a change in flow structure
-\item Take the triangle case as representative of the low \ratio\
-  cases
-\item First thing to investigate is the distribution of pressure along
-  the two rear surfaces.
-\end{itemize}
 
-Time averaged (to filter out the influence of vortex shedding) surface pressure data  on the top and bottom surfaces of the cross sections at $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$ were obtained for the isosceles triangle. By having a closer look at the \cy\ vs. $\theta$ curves it could be seen that these points correspond to a negative \cy\ that is further decreasing with increasing $\theta$, a negative \cy\ that is increasing with increasing $\theta$ and a significantly positive value of \cy.
+Time averaged (to filter out the influence of vortex shedding) surface pressure data  on the top and bottom surfaces of the cross sections at $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$ were obtained for the isosceles triangle. These angles corresponds to the regions of the \cy\ vs $\theta$ curve of the triangle where the negative \cy\ increases, negative \cy\ decreases and a significantly positive value of \cy.   
 
-KASUN: expand. What is the value of $\theta$ where the lift force becomes positive again? 
+
  
 \input{./chapter-cross-sections/figures/surf-pres.tex} 
 
-KASUN: in the figure, why do you plot as a function of X? Wouldn't it be better to plot as a function of the distance along the surface from the front edge (so all the plots would cover the same range)? Wouldn't it be even better to show an image of the triangle and the pressure as a contour relative to the surfaces? See image about halfway down this page: \url{http://www.heliciel.com/en/aerodynamique-hydrodynamique/profils\%20aile\%20profil\%20pale.htm} As it is I don't think these plot mean very much because the direction of force for each surface is different.
 
-KASUN: also, shift the pressure values up so that they are all positive (add 1.2 to everything) it will make everything easier to interpret that dealing with negative pressures, and makes absolutely no difference to your conclusions. Or find the pressure at the inlet of the domain, and subtract that as your reference pressure.
- 
-Figure \ref{fig:surf_pres} shows the surface pressure of the top and bottom surfaces of the body ($\ratio=0$) starting from  the leading edges. At $\theta=4^{\circ}$, the pressure of the bottom of the body is greater than the top. Therefore, a pressure difference is created and a force is generated in the upward direction which according to the sign convention presented in \ref{fig:induced_lift_sketch}, is against the velocity of the body, hence giving a negative $\cy$. As $\theta$ (figure \ref{fig:surf_pres} (b)) is increased, to $16^{\circ}$ the gap between the surface pressure at the leading edge between the top and the bottom reduces. This effect results in a reduction of the magnitude of $\cy$ (although it is still negative). As $\theta$ is further increased at $21^{\circ}$ (figure \ref{fig:surf_pres} (c)) the surface pressure on the top side becomes greater than the bottom. Therefore, the net effect of the pressure difference is a positive $\cy$ which the driving force $F_y$ in phase with the velocity of the body.
+ Figure \ref{fig:surf_pres} shows the surface pressure of the top and bottom surfaces of the body ($\ratio=0$) as function of the distance from the leading edge. At $\theta=4^{\circ}$, the pressure of the bottom of the body is greater than the top. As a result, a pressure difference is created and a force is generated in the upward direction which according to the sign convention in figure \ref{fig:induced_lift_sketch}, is against the velocity of the body, hence giving a negative $\cy$. As $\theta$ (figure \ref{fig:surf_pres} (b)) is increased, to $16^{\circ}$ the gap between the surface pressure at the leading edge between the top and the bottom reduces. This effect results in a reduction of the magnitude of $\cy$ (although it is still negative). As $\theta$ is further increased at $21^{\circ}$ (figure \ref{fig:surf_pres} (c)) the surface pressure on the top side becomes greater than the bottom. Therefore, the net effect of the pressure difference is a positive $\cy$ which the driving force $F_y$ in phase with the velocity of the body.
 
-KASUN: are you sure you have the sign convention right here?
+\KJ{Justin I want to write something like this pressure analysis is sort of the stepping stone to analyze the velocity priofiles at the separation points and the shear layer analysis. Because finally we say that there are two mechanisms. One is the bernulli's forcing and the other one is the proximity of the shear layer effect. the former dominates at the negative region because the shear layer which should be closer to the body is not close enough to provide the shear layer effect. I can't word this out can you give me some points ?}
 
-KASUN: can you add a summarizing paragraph for this section? Why is this important? What have you shown here? That the direction of the force depends on the direction of the pressure gradient? We knew that already.
+
+
 
 \subsection{Velocity profiles at the points of flow separation}
+
+Like the presence of the afterbody in a cross section, flow separation at the leading edge is vital for galloping as it creates the shear layers which sustains it.  
+
+
+
 
 The most important points of a cross section under galloping are the two flow separation points of the leading edges of the cross section, where a significant pressure difference occur JL: a pressure difference between the two separation points? What evidence do you have that these are the ``most important'' points? Considering all of the discussion so far in this chapter has focussed on reattachment, I would think that the reattachment points are the most important points. A key variable which directly relates to the fluid dynamic pressure is the velocity of the fluid. Although not strictly true in all cases of viscous flows, one should expect that a higher flow speed correspond with a lower pressure from basic fluid dynamic theory. By measuring the flow velocity behaviour at, or near, the separation points, the cause of the pressure differences that occur along the upper and lower surfaces shown in section (SEE ABOVE) can be found.
 
@@ -162,18 +156,9 @@ Also, why does the dotted line change format between a and b?
 
 \input{./chapter-cross-sections/figures/tri-stream-func.tex}
 
-Why are the streamlines coloured? Does this add anything?
 
-Do you need the axes and the axis labels?
 
-Do you need the legend?
-
-Keep the field of view the same for each image. As it is the triangle
-is a different size in each image. Use this same field of fiew for any pressure and velocity contour plots you make for the sections above.
-
-Keep the streamlines you draw in the field of view. Currently b ``crops'' tne streamlines
-
-The stream functions of the time averaged flow-field of the stationary isosceles triangle at  $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$ are presented in figure \ref{fig:triangle-shear_layers}. Here, it can be observed that the proximity of the bottom shear layer increases as $\theta$ is increased from $4^{\circ}-21^{\circ}$. JL: proximity to what? How do I identify the ``shear layer'' from the streamlines? Would magnitude of the strain rate tensor be better as it shows shear strain rate (and therefore shear stress) directly
+The magnitude of the strain rate tensor of the time averaged flow-field of the stationary isosceles triangle at  $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$ are presented in figure \ref{fig:triangle-shear_layers}. Here, it can be observed that the proximity of the bottom shear layer increases as $\theta$ is increased from $4^{\circ}-21^{\circ}$. JL: proximity to what? How do I identify the ``shear layer'' from the streamlines? Would magnitude of the strain rate tensor be better as it shows shear strain rate (and therefore shear stress) directly
 
 \begin{equation}
 \epsilon = \frac{1}{2}

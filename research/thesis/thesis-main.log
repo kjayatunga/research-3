@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  11 APR 2016 23:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  12 APR 2016 19:33
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -983,7 +983,7 @@ File: ./chapter-cross-sections/fnp/lift_curve_tri.eps Graphic file (type eps)
 (./chapter-cross-sections/figures/power_curves.tex
 File: ./chapter-cross-sections/fnp/mean_power_hyb.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/mean_power_hyb.eps>) [61] [62]
+<./chapter-cross-sections/fnp/mean_power_hyb.eps>) [61]
 (./chapter-cross-sections/figures/surf-pres.tex
 File: ./chapter-cross-sections/fnp/surf-pres-tri-4.eps Graphic file (type eps)
 
@@ -995,16 +995,11 @@ File: ./chapter-cross-sections/fnp/surf-pres-tri-16.eps Graphic file (type eps)
 File: ./chapter-cross-sections/fnp/surf-pres-tri-21.eps Graphic file (type eps)
 
 
-<./chapter-cross-sections/fnp/surf-pres-tri-21.eps>)
-Overfull \hbox (40.8924pt too wide) in paragraph at lines 122--123
-\OT1/cmtt/m/n/10.95 http : / / www . heliciel . com / en / aerodynamique-[]hydr
-odynamique / profils \ %20aile \ %20profil \
- []
-
-[63] [64] (./chapter-cross-sections/figures/tri-sketch.tex
+<./chapter-cross-sections/fnp/surf-pres-tri-21.eps>) [62] [63]
+(./chapter-cross-sections/figures/tri-sketch.tex
 File: ./chapter-cross-sections/fnp/tri-sketch.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/tri-sketch.eps>) [65]
+<./chapter-cross-sections/fnp/tri-sketch.eps> [64])
 (./chapter-cross-sections/figures/vel-profile.tex
 File: ./chapter-cross-sections/fnp/vel_prof-tri-4.eps Graphic file (type eps)
 
@@ -1014,7 +1009,7 @@ File: ./chapter-cross-sections/fnp/vel_prof-tri-16.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/vel_prof-tri-16.eps>
 File: ./chapter-cross-sections/fnp/vel_prof-tri-21.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/vel_prof-tri-21.eps>)
+<./chapter-cross-sections/fnp/vel_prof-tri-21.eps>) [65] [66]
 (./chapter-cross-sections/figures/tri-stream-func.tex
 File: ./chapter-cross-sections/fnp/4.eps Graphic file (type eps)
 
@@ -1023,21 +1018,24 @@ File: ./chapter-cross-sections/fnp/16.eps Graphic file (type eps)
  <./chapter-cross-sections/fnp/16.eps>
 File: ./chapter-cross-sections/fnp/21.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/21.eps>) [66] [67] [68]) (./thesis-main.bbl
-[69] [70
+<./chapter-cross-sections/fnp/21.eps>)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67])
+(./thesis-main.bbl [68] [69
 
 ]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [71] [72] [73]) [74] (./thesis-main.aux) ) 
+ [70] [71] [72]) [73] (./thesis-main.aux) ) 
 Here is how much of TeX's memory you used:
- 13762 strings out of 493090
- 267067 string characters out of 6134868
+ 13760 strings out of 493090
+ 267043 string characters out of 6134868
  302980 words of memory out of 5000000
- 16750 multiletter control sequences out of 15000+600000
- 21397 words of font info for 79 fonts, out of 8000000 for 9000
+ 16749 multiletter control sequences out of 15000+600000
+ 21229 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,54p,1887b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,54p,1887b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (77 pages, 253196 bytes).
+Output written on thesis-main.dvi (76 pages, 250296 bytes).
