@@ -64,7 +64,7 @@ Several key factors have been considered leading the selection of a suitable cro
 \item The cross section should consist of a geometric profile in the afterbody, to inhibit or delay the shear layer reattachment.   
 \end{itemize}
 
-The square cross section which is considered as the base cross section in this study satisfies the first two criteria of the selection process. Therefore, in order to inhibit the shear layer reattachment the top and bottom sides of the trailing edges of the square was tapered off and a hybrid cross section of a square and a triangle (illustrated in figure \ref{fig:hybrid_section}), i.e, a pentagon was produced. This cross section satisfies all criteria in the cross section selection process. Another advantage of this cross section is the inhibition of the shear layer can be varied systematically by varying one variable which is $\ratio$. The $\ratio$ was varied gradually from 1 to zero in increments of 0.25 where 1 is the square cross section and 0 is an isosceles triangle. 
+The square cross section which is considered as the base cross section in this study satisfies the first two criteria of the selection process. Therefore, in order to inhibit the shear layer reattachment the top and bottom sides of the trailing edges of the square was tapered off and a hybrid cross section of a rectangle and a triangle (illustrated in figure \ref{fig:hybrid_section}), i.e, a pentagon was produced. This cross section satisfies all criteria in the cross section selection process. Another advantage of this cross section is the inhibition of the shear layer can be varied systematically by varying one variable which is $\ratio$. The $\ratio$ was varied gradually from 1 to zero in increments of 0.25 where 1 is the square cross section and 0 is an isosceles triangle. 
 
 
 \section{Static body results}
@@ -120,36 +120,39 @@ Time averaged (to filter out the influence of vortex shedding) surface pressure 
 
 \subsection{Velocity profiles at the points of flow separation}
 
-Like the presence of the afterbody in a cross section, flow separation at the leading edge is vital for galloping as it creates the shear layers which sustains it.  
-
-
-
-
-The most important points of a cross section under galloping are the two flow separation points of the leading edges of the cross section, where a significant pressure difference occur JL: a pressure difference between the two separation points? What evidence do you have that these are the ``most important'' points? Considering all of the discussion so far in this chapter has focussed on reattachment, I would think that the reattachment points are the most important points. A key variable which directly relates to the fluid dynamic pressure is the velocity of the fluid. Although not strictly true in all cases of viscous flows, one should expect that a higher flow speed correspond with a lower pressure from basic fluid dynamic theory. By measuring the flow velocity behaviour at, or near, the separation points, the cause of the pressure differences that occur along the upper and lower surfaces shown in section (SEE ABOVE) can be found.
+ flow separation at the leading edge is equally vital as the afterbody of the cross section for galloping, as it creates the shear layers which sustains it. Two wall jets are created top and bottom leading edges. A clearer explanation of the behaviour of the pressures at the top and bottom edges could be gained from a comparison of velocity data of the top and bottom wall jets.
+ 
+ Thus, mean velocity magnitude data of the flow were obtained along two lines parallel to the front wall of the cross section one starting at the top and the other starting at the bottom leading edges of the cross section spreading outward as illustrated in figure \ref{fig:tri-sketch}. The lengths of these lines were equal to the width of the cross section. Data were obtained for the same cases presented earlier i.e. isosceles triangle ($\ratio=0$) at $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$.  
 
 \input{./chapter-cross-sections/figures/tri-sketch.tex}
-   
-Mean velocity magnitude data of the flow were obtained along two lines parallel to the front wall of the cross section one stating at the top and the other stating at the bottom leading edges of the cross section spreading outward as illustrated in figure \ref{fig:tri-sketch}. The lengths of these lines were equal to the width of the cross section. Data were obtained for the same cases presented earlier i.e. isosceles triangle ($\ratio=0$) at $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$.
-       
+
+
 \input{./chapter-cross-sections/figures/vel-profile.tex}
 
-KASUN: Does the velocity go back to zero at 0 distance? Why not show
-the whole range of $V_m$?
+The maximum velocity magnitude in the top wall jet at $\theta= 4^{0}$ (figure \ref{fig:vel-profile} (a)) is higher than that in the corresponding bottom wall jet, leading to a lower pressure at the top edge. However, the velocity magnitude in the bottom wall jet becomes greater than that in the top wall jet at $\theta=16^{\circ}$. The difference between the top and bottom velocity magnitude in these wall jets tends to increase as $\theta$ is increased to $21^{\circ}$, where the velocity magnitude at the bottom is greater than at the top (figure \ref{fig:vel-profile} (c)). This effectively creates the pressure difference created in figure \ref{fig:surf_pres} (c), which leads to a positive \cy\ and results in a forcing which is in phase with the velocity of the body. 
 
-Also, pick a symbol for the distance rather than writing ``Distance
-from the trailing edge'', and show this symbol on the graph and the
-sketch.
+\KJ{Justin I need some help in formulating the argument of this section}
 
-Also, you realise you have used $\alpha$ in the caption of angle of
-attack, but the rest of your thesis uses $\theta$?
 
-The velocity profiles at the chosen three incident angles are presented in figure \ref{fig:vel-profile}. A sudden rise of velocity magnitude could be observed at the flow separation points JL: at the separation points the velocity is, and must be, zero. I think what your profiles show is the formation of a wall jet. The maximum velocity magnitude in the top wall jet at $\theta= 4^{0}$ (figure \ref{fig:vel-profile} (a)) is higher than that in the corresponding bottom wall jet, leading to a lower pressure at the top edge. However, the velocity magnitude in the bottom wall jet becomes greater than that in the top wall jet at $\theta=16^{\circ}$. The difference between the top and bottom velocity magnitude in these wall jets tends to increase as $\theta$ is increased to $21^{\circ}$, where the velocity magnitude at the bottom is greater than at the top (figure \ref{fig:vel-profile} (c)). This effectively creates the pressure difference created in figure \ref{fig:surf_pres} (c), which leads to a positive \cy\ and results in a forcing which is in phase with the velocity of the body. 
 
-KASUN: I am not convinced by this. I can see that the magnitude of the upper jet increases with $\theta$, but the lower one seems almost unaffected. I can also see that the maximum of the upper jet first moves towards the surface, then away again. How does this fit with your basic Bernoulli argument?
 
-Why do you need profiles at all? Why can't you plot contours of velocity magnitude? In fact, you could also replace figure 3.4 with plots of pressure contours. Or keep what you have but add plots of contours. I think this whole section would also be stronger if you contrasted a low \ratio\ case (the triangle) with a high \ratio\ case (the square).
-
-Also, why does the dotted line change format between a and b?
+%KASUN: Does the velocity go back to zero at 0 distance? Why not show
+%the whole range of $V_m$?
+%
+%Also, pick a symbol for the distance rather than writing ``Distance
+%from the trailing edge'', and show this symbol on the graph and the
+%sketch.
+%
+%Also, you realise you have used $\alpha$ in the caption of angle of
+%attack, but the rest of your thesis uses $\theta$?
+%
+%
+%
+%KASUN: I am not convinced by this. I can see that the magnitude of the upper jet increases with $\theta$, but the lower one seems almost unaffected. I can also see that the maximum of the upper jet first moves towards the surface, then away again. How does this fit with your basic Bernoulli argument?
+%
+%Why do you need profiles at all? Why can't you plot contours of velocity magnitude? In fact, you could also replace figure 3.4 with plots of pressure contours. Or keep what you have but add plots of contours. I think this whole section would also be stronger if you contrasted a low \ratio\ case (the triangle) with a high \ratio\ case (the square).
+%
+%Also, why does the dotted line change format between a and b?
 
 
 \subsection{Mean streamlines}
@@ -157,30 +160,38 @@ Also, why does the dotted line change format between a and b?
 \input{./chapter-cross-sections/figures/tri-stream-func.tex}
 
 
+%\begin{equation}
+%\epsilon = \frac{1}{2}
+%\begin{bmatrix}
+%2\frac{\partial u}{\partial x} & \frac{\partial u}{\partial y} + \frac{\partial v}{\partial x} \\
+%\frac{\partial v}{\partial x} + \frac{\partial u}{\partial y} & 2\frac{\partial v}{\partial y} \\
+%\end{bmatrix}
+%\end{equation}
+%
+%so
+%
+%\begin{equation}
+%|\epsilon| = \frac{1}{2}\left(4\frac{\partial u}{\partial x}\frac{\partial v}{\partial y} + \left(\frac{\partial u}{\partial y} + \frac{\partial v}{\partial x}\right)^2\right)
+%\end{equation}
 
-The magnitude of the strain rate tensor of the time averaged flow-field of the stationary isosceles triangle at  $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$ are presented in figure \ref{fig:triangle-shear_layers}. Here, it can be observed that the proximity of the bottom shear layer increases as $\theta$ is increased from $4^{\circ}-21^{\circ}$. JL: proximity to what? How do I identify the ``shear layer'' from the streamlines? Would magnitude of the strain rate tensor be better as it shows shear strain rate (and therefore shear stress) directly
+\KJ{Justin can I use a different symbol for strain rate other than $\epsilon$ as it is used in a different section}
 
-\begin{equation}
-\epsilon = \frac{1}{2}
-\begin{bmatrix}
-  2\frac{\partial u}{\partial x} & \frac{\partial u}{\partial y} + \frac{\partial v}{\partial x} \\
-  \frac{\partial v}{\partial x} + \frac{\partial u}{\partial y} & 2\frac{\partial v}{\partial y} \\
-\end{bmatrix}
-\end{equation}
 
-so
+The shear layers of the body could be visualised using the magnitude of the strain rate tensor as a high strain rate could be observed in these regions. Instantaneous flow-filed data consists of vortex shedding on top of the shear layers. Hence, the flow-filed data are time averaged over a vortex shedding cycle to filter the vortex shedding (\KJ{Justin is there a way of writing this sentence better}) . 
 
-\begin{equation}
-  |\epsilon| = \frac{1}{2}\left(4\frac{\partial u}{\partial x}\frac{\partial v}{\partial y} + \left(\frac{\partial u}{\partial y} + \frac{\partial v}{\partial x}\right)^2\right)
-\end{equation}
+The magnitude of the strain rate tensor of the time averaged flow-field of the stationary isosceles triangle at  $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$ are presented in figure \ref{fig:triangle-shear_layers}. Here, it can be observed that the proximity of the bottom shear layer increases as $\theta$ is increased from $4^{\circ}-21^{\circ}$. 
 
-By comparing the pressure and the velocity plots together with the stream function flow-field data, it could be seen \cy\ is governed by two mechanisms. Initially at $\theta= 4^{\circ}$ an uneven distribution of the flow is created due to the profile and the positioning (angle of attack) of the geometry creating a forcing ($F_{y}$) similar to the generation of lift of an aerofoil. Comparing figure \ref{fig:triangle-shear_layers} (a) to (b) and (c) the proximity of the bottom shear layer low and hence, does not create a significant pressure force form the relative proximities of the top and bottom shear layers. Therefore, the aerofoil effect becomes more dominant.  
 
-As $\theta$ is increased from $\theta=16^{\circ}$ to $21^{\circ}$, the proximity of the bottom shear layer to the wall of the body increases (figure \ref{fig:triangle-shear_layers} (b) and (c)), and thus becoming the more dominant forcing of the system. This uneven flow distribution as discussed earlier and in \ref{subsec:c_y and shear layers}in detail, creates the positive region of the \cy\ vs. $\theta$ curve.
+By comparing the pressure and the velocity plots together with the flow-field data, it is evident that there are two mechanisms governing the transverse forcing. One of these forces is created as a result of the uneven distribution of the flow created due to the profile and  positioning (angle of attack) of the geometry, which results in a forcing similar to Bernoulli's theorem. For simplicity this force will be defined as force 1 .This forcing occur out of phase or in the opposite direction of the transverse velocity of the body. The other force is the force created as the result of the relative proximity of the top and bottom shear layers. This force will be referred as the shear layer forcing.
 
-KASUN: I don't really follow any of this argument. Can you spell it all out in dot points before we go back to writing it? I'm sure there is a logical argument, but you haven't put that argument here.
- 
- 
+\KJ{Justin I need some help in putting some nice names to these two forces so then the explanation is easier.}   
+
+
+
+Initially at $\theta= 4^{\circ}$ force 1 dominates over the shear layer force. This can be observed comparing figures \ref{fig:triangle-shear_layers} (a) to (b) and (c). the proximity of the bottom shear layer low at $\theta= 4^{\circ}$. Thus it does not create significant shear layer effect. Therefore, this results in the negative \cy.   
+
+As $\theta$ is increased from $\theta=16^{\circ}$ to $21^{\circ}$, the proximity of the bottom shear layer to the wall of the body increases (figure \ref{fig:triangle-shear_layers} (b) and (c)), and thus the shear layer force becomes the more dominant transverse force of the system, creating the positive region of the \cy\ vs. $\theta$ curve.
+
  
  
  
