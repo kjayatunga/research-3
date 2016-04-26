@@ -7,40 +7,40 @@
 \section{Fluid-elastic galloping}
 \label{fluid-elastic galloping}
 
-Fluid-elastic galloping is one of the common observable flow-induced vibration on a slender body. This is because this phenomenon is most common in civil structures, such as buildings and iced-transmission lines, the term ``aeroelastic galloping" is commonly used as the body is driven by wind. However, this mechanism can occur on a slender body immersed in any Newtonian fluid, provided that the conditions to sustain the galloping mechanism are satisfied. This work is based on a general Newtonian flow,thus the term `` fluid-elastic galloping" is used throughout this thesis.
+Fluid-elastic galloping is one of the common observable flow-induced vibration modes of a slender body. Because this phenomenon is most common in civil structures, such as buildings and iced-transmission lines, the term ``aeroelastic galloping" is commonly used as the body is driven by wind. However, this mechanism can occur on a slender body immersed in any Newtonian fluid, provided that the conditions to sustain the galloping mechanism are satisfied. This work is based on a general Newtonian flow, thus the term `` fluid-elastic galloping" is used throughout this thesis.
    
 
 \subsection{Excitation of galloping}
 \label{sec:exci-galloping}
 
-\citet{Paidoussis2010} describe galloping as a ``velocity dependent and damping controlled" phenomenon. Therefore, in order for a body to gallop, an initial excitation has to be given to that body. While this excitation is mainly caused by the force crated from vortex shedding, other fluid instabilities may contribute to this initial excitation.  When a bluff body moves along the transverse direction of the fluid flow, it generates a force along the transverse direction. This force, also known as the induced lift and is a resultant of the fluid flow and the motion of the body. When this body is attached to a flexible system (i.e. a system that can be modeled by a spring, mass and damper), the induced lift becomes the periodic forcing of the system. Galloping is sustained  if the induced lift is in phase with the motion of the body. This could be explained further by using a square cross section as an example.
+\citet{Paidoussis2010} describe galloping as a ``velocity dependent and damping controlled" phenomenon. Therefore, in order for a body to gallop, an initial excitation has to be given to that body. While this excitation is mainly caused by the force created from vortex shedding, other fluid instabilities may contribute to this initial excitation.  When a bluff body moves along the transverse direction of the fluid flow, it generates a force along the transverse direction. This force, also known as the induced lift, is a result of the fluid flow and the motion of the body. When this body is attached to a flexible system (i.e. a system that can be modeled by a spring, mass and damper), the induced lift becomes the forcing of the system. Galloping is sustained  if the induced lift is periodic and in phase with the motion of the body.
 
 \input{./chapter-literature-revirw/figures/sketch-1}
 
- Figure \ref{fig:induced_lift_sketch}  illustrates the motion of the body at a given instantaneous time.The induced angle of attack is formed on the square cross section as a result of the free stream velocity vector $U$ and the transverse velocity vector of the body $\dot{y}$. Thus, a force is formed in phase with the motion of the body for the case of a square cross section. This mechanism could also be observed on other bodies which are prone to galloping. The sign convention in this figure (and generally used in this scope of research) states that downward direction is positive. Hence, the force generated on a body under the influence of galloping, could be also identified as a ``negative lift".
- 
+KASUN: Figure 1.1 - Are you sure the arrow for the body motion is in the right direction? Shouldn't the body move up to induce a relative velocity down?
 
+A square cross section can be used as an example to further explain the galloping phenomenon. Figure \ref{fig:induced_lift_sketch}  illustrates the motion of the body at a given instant. The induced angle of attack is formed on the square cross section as a result of the free stream velocity vector $U$ and the transverse velocity vector of the body $\dot{y}$. An angle of attack implies that there will be a non-zero lift force on the body. Thus, a force is formed in phase with the velocity of the body. While illustated for the square, this mechanism can also be observed on any body that can have an angle of attack. The sign convention in this figure (and generally used in this scope of research) states that downward direction is positive. KASUN: as stated above, please check this carefully. 
 \subsection{Quasi-steady state theory}
 \label{sec:QSS theory}
 
+According \cite{Paidoussis2010}, the initial studies by \cite{Glauert1919} provided a criterion for galloping by considering the auto-rotation of a stalled aerofoil. As this phenomenon commonly occur in iced transmission lines, \cite{DenHartog1956} has provided a theoretical explanation for iced electric transmission lines. KASUN: rewrite, this is very clumsy. I know you are trying to introduce the previous literature, but this does not ``flow'' at all.
 
-According \cite{Paidoussis2010},the initial studies by \cite{Glauert1919} provided a criterion for galloping by considering the auto-rotation of a stalled aerofoil. As this phenomenon commonly occur in iced transmission lines, \cite{DenHartog1956} has provided a theoretical explanation for iced electric transmission lines. 
-
-The pioneering study that mathematically models galloping was conducted by \cite{Parkinson1964}. This model has been widely used in almost all subsequent studies on galloping. A weakly non-linear oscillator model was developed in that study to predict the response of the system. Essentially the quasi-steady assumption was made to develop this model. This assumes that the instantaneous induced lift force of the oscillating body is equal to that of the lift force generated by the same body at the same induced angle of attack. For the quasi-steady assumption to be valid, the conditions below have to be satisfied.
+The pioneering study that mathematically models galloping was conducted by \cite{Parkinson1964}. A non-linear oscillator model was developed in that study to predict the response of the system. This model has been widely used in almost all subsequent studies on galloping. Essentially, the model assumes the flow is quasi-steady. This means that the instantaneous induced lift force of the oscillating body is equal to that of the lift force generated by the same body when static at the same induced angle of attack. For the quasi-steady assumption to be valid, the conditions below have to be satisfied.
 
 \begin{itemize}
  \item The velocity of the body does not change rapidly
  \item There is no interaction between vortex shedding and galloping
 \end{itemize}
 
-The second condition is satisfied by ensuring the vortex shedding frequency is much higher than the galloping frequency.
-The oscillator equation was solved using the Krylov and Bogoliubov method \citep{Parkinson1964}. Details of this method is not included in this thesis because this study uses numerical intergration instead. The results obtained form experiments, carried out at $\reynoldsnumber=2200$ and a mass ratio (\mstar) around 1164 had a good agreement with the theoretical data which is shown in figure \ref{fig:parkinson_paper_data}.
+Both of these conditions imply that the vortex shedding frequency must be much higher than the galloping frequency.
+
+The oscillator equation was solved using the Krylov and Bogoliubov method \citep{Parkinson1964}. The results obtained from experiments, carried out at $\reynoldsnumber=2200$ and a mass ratio (\mstar) around 1164 had a good agreement with the theoretical data which is shown in figure \ref{fig:parkinson_paper_data}. The etails of this quasi-steady model are provided in the following section.
 
 \input{./chapter-literature-revirw/figures/parkinson_data}
 
 \subsubsection*{Quasi-steady state oscillator model}
 
-The equation of motion of transversely oscillating body is given by 
+The equation of motion of a transversely oscillating body, with linear springs and damping, is given by 
 \begin{equation}
 \label{equationofmotion}
 m\ddot{y}+c\dot{y}+ky=F_y,
@@ -51,36 +51,38 @@ where the forcing term $F_y$ is given by
 F_y=\frac{1}{2}\rho U^2\mathcal{A}C_y.
 \end{equation}
 
-As explained previously, the quasi-steady assumption uses the stationary $C_y$ data (which consists of both lift and drag components) for varying angles of attack as inputs to the oscillator equation.\citet{Parkinson1964} used a $7^th$ order odd interpolating polynomial to interpolate the $C_y$ data. The order of the polynomial can be chosen arbitrarily depending on the study. For example \citet{Barrero-Gil2009,Barrero-Gil2010a} have used a $3^{rd}$ order polynomial in order to simplify the analytical model. However, \citet{Ng2005} pointed out that a $7^{th}$ order polynomial is sufficient as higher order polynomials do not provide significantly better result.    
+KASUN: have all of these quantities been previously defined? If not they should be defined here.
+
+As explained previously KASUN provide the section number (use a label and a ref), the quasi-steady assumption uses the stationary $C_y$ data for varying angles of attack as inputs to the oscillator equation. \citet{Parkinson1964} used a $7^{th}$ order odd interpolating polynomial to interpolate the stationary $C_y$ data as a function of the angle of attack. The order of the polynomial can be chosen arbitrarily depending on the study. For example \citet{Barrero-Gil2009,Barrero-Gil2010a} used a $3^{rd}$ order polynomial in order to simplify the analytical model. However, \citet{Ng2005} pointed out that a $7^{th}$ order polynomial is sufficient as higher order polynomials do not provide a significantly better result. Using a $7^{th}$ order polynomial sees the lift coefficient as a function of the angle of attack $\theta$ modelled as
 
 \begin{equation}
 \label{cy ploynomial}
 C_y(\theta)=a_1\left(\frac{\dot{y}}{U}\right)-a_3\left(\frac{\dot{y}}{U}\right)^3+a_5\left(\frac{\dot{y}}{U}\right)^5-a_7\left(\frac{\dot{y}}{U}\right)^7.
 \end{equation}
 
-Therefore by substituting the forcing function to the oscillator equation (Eq:\ref{equationofmotion}) the Quasi-steady state (QSS) model could be obtained (Eq:\ref{final_equation_motion}). 
+By substituting this forcing function into the oscillator equation (Eq:\ref{equationofmotion}) the quasi-steady state (QSS) model can be obtained as
 
 \begin{equation}
 \label{final_equation_motion}
 m\ddot{y}{+}c\dot{y}{+}ky{=}\frac{1}{2}\rho U^2 \mathcal {A} \Bigg(a_1\left(\frac{\dot{y}}{U}\right){-}a_3\left(\frac{\dot{y}}{U}\right)^3{+}a_5\left(\frac{\dot{y}}{U}\right)^5{-}a_7\left(\frac{\dot{y}}{U}\right)^7 \Bigg).
 \end{equation}
 
-As the current study is focused on the low \reynoldsnumber\ region, it is a known fact that the vortex shedding will be correlated well and therefore provide a significant forcing. \citet{Joly2012} introduced an additional sinusoidal forcing function to the model in order to integrate the forcing by vortex shedding. By the addition of this forcing \citet{Joly2012} managed to obtain accurate predictions of the displacement amplitude even at low mass ratios, where the galloping is significantly suppressed by the vortex shedding to the point that it is no longer detectable. However, the strength or the amplitude of this sinusoidal forcing has to be tuned in an \emph{ad hoc} manner, and it was not clear the relationship between this forcing with the other system parameters. Thus in the current study this forcing was not used.
+As the current study is focused on the low \reynoldsnumber\ region, it is a known fact that the vortex shedding will be well-correlated along the span and therefore provide a significant forcing. \citet{Joly2012} introduced an additional sinusoidal forcing function to the model in order to integrate the forcing by vortex shedding. By the addition of this forcing \citet{Joly2012} managed to obtain accurate predictions of the displacement amplitude even at low mass ratios, where the galloping is significantly suppressed by the vortex shedding to the point that it is no longer detectable. However, the strength or the amplitude of this sinusoidal forcing needed to be tuned in an \emph{ad hoc} manner, and the relationship between this forcing and the other system parameters was not clear. Thus in the current study this forcing is not used.
 
 \subsubsection*{Presence of hysteresis}
 
-Hysteresis could be observed in the amplitude data of \cite{Parkinson1964}. In contrast, the studies carried out by \citet{Barrero-Gil2009} and \citet{Joly2012} at much lower Reynolds numbers ($159\leq \reynoldsnumber\leq 200$), did not show any hysteresis. \citet{Luo2003} concluded that hysteresis was present due to the presence of an inflection point in the $C_y$ curve at high Reynolds numbers (\citet{Parkinson1964} data) which was not present at lower Reynolds numbers. It was further explained and demonstrated by Luo that the inflection point occurs due to the intermittent reattachment of the shear layer in certain angles at high Reynolds numbers. 
+Hysteresis can be observed in the amplitude data of \cite{Parkinson1964}. In contrast, the studies carried out by \citet{Barrero-Gil2009} and \citet{Joly2012} at much lower Reynolds numbers ($159\leq \reynoldsnumber\leq 200$), did not show any hysteresis. \citet{Luo2003} concluded that hysteresis was present due to the presence of an inflection point in the $C_y$ curve at high Reynolds numbers (\citet{Parkinson1964} data) which was not present at lower Reynolds numbers. It was further explained and demonstrated by Luo that the inflection point occurs due to the intermittent reattachment of the shear layer at certain angles at high Reynolds numbers. 
 
 \input{./chapter-literature-revirw/figures/luo-re-attachment}
 
-Figure \ref{fig:lit-review-luo-reattachment} shows the vorticity contours of a square cross section obtained at various points of the vortex shedding cycle, at $\reynoldsnumber=1000$, $\theta=2^{\circ}$ obtained from \citet{Luo2003}. The points 7 and 11 show the intermittent shear layer reattachment which causes the hysteresis in the \cy\ vs. $\theta$ curve at high Reynolds numbers.
+Figure \ref{fig:lit-review-luo-reattachment} shows the vorticity contours of a square cross section obtained at various points of the vortex shedding cycle, at $\reynoldsnumber=1000$, $\theta=2^{\circ}$ obtained from \citet{Luo2003}. KASUN can yougive some details of this study? What is the numerical scheme? 2D or 3D DNS? LES? URANS? The points 7 and 11 show the intermittent shear layer reattachment which causes the hysteresis in the \cy\ vs. $\theta$ curve at high Reynolds numbers.
 
 \vspace{20mm}   
 
 \subsection{Induced force and the shear layers}
 \label{subsec:c_y and shear layers}
 
- The quasi-steady model has already been validated and re-validated by many studies \citep{Parkinson1964,Barrero-Gil2009,Luo2003} and proven to model galloping. Since this model essentially assumes that the system is quasi-steady, the mean flow-field data of static body simulations at various angles of incidences could be used to analyse the behaviour of the instantaneous flow filed of a galloping system at the same instantaneous induced angle. 
+ The quasi-steady model has already been validated and re-validated by many studies \citep{Parkinson1964,Barrero-Gil2009,Luo2003} and proven to model galloping. Since this model essentially assumes that the system is quasi-steady, the mean flow-field data of static body simulations at various angles of incidence can be used to analyse the behaviour of the instantaneous flow field of a galloping system at the same instantaneous induced angle. 
  
  
 \input{./chapter-literature-revirw/figures/shear-layer-sketch}
@@ -88,112 +90,67 @@ Figure \ref{fig:lit-review-luo-reattachment} shows the vorticity contours of a s
 \input{./chapter-literature-revirw/figures/shear_layers}
 
 
-\citet{Paidoussis2010,Parkinson1964,Barrero-Gil2010a} and many other published literature states that  a system which sustains galloping should satisfy the condition of being $\partial C_y/\partial \theta>0$. The mean positive induced lift (\cy\ ) occurs due to the unbalanced pressure distribution of the top and bottom sides of the afterbody of the cross section (refer figure \ref{fig:shear-layer-sketch}) when a small transverse velocity is given \citep{Parkinson1989}. This pressure difference of the afterbody is a result of the relative proximity of the top and bottom shear layers (illustrated in figure \ref{fig:shear-layer-sketch}) to the respective sides of the body. 
+\citet{Paidoussis2010,Parkinson1964,Barrero-Gil2010a} and many other published studies state that a system which sustains galloping should satisfy the condition that $\partial C_y/\partial \theta>0$, i.e, an upward motion from the equilibrium position should induce an upward lift force. The mean induced lift (\cy) occurs due to the unbalanced pressure distribution on the top and bottom sides of the afterbody of the cross section (refer figure \ref{fig:shear-layer-sketch}) when a small transverse velocity is given \citep{Parkinson1989}. This pressure difference of the afterbody is a result of the relative proximity of the top and bottom shear layers (illustrated in figure \ref{fig:shear-layer-sketch}) to the respective sides of the body. 
 
-Vorticity contour plots of a static square cross section at various incidence angles shown in figure \ref{fig:shear_layers} clearly shows the behaviour of the shear layers at either sides of the body. Data are presented for three key incidence angles $2^{\circ}, 4^{\circ} \text{and}\ 6^{\circ}$. In comparison with figure \ref{fig:lift_curves} it could be identified as the points which lies on regions where \cy\ initially increases, \cy\ maximises and \cy\ decreases. 
+Contour plots of the shear strain rate magnitude, which is directly proportional to shear stress, for a static square cross section at various incidence angles shown in figure \ref{fig:shear_layers} clearly shows the behaviour of the shear layers at either sides of the body. Data are presented for three key incidence angles $2^{\circ}, 4^{\circ} \text{and}\ 6^{\circ}$. In comparison with figure \ref{fig:lift_curves} these points can be identified as being in regions where \cy\ initially increases, \cy\ is maximum and \cy\ decreases. 
 
-As the angle of incidence ($\theta$)increases clockwise from $2^{\circ}-6^{\circ}$, it could be clearly observed in figure \ref{fig:shear_layers} that the bottom shear layer comes closer to the bottom wall of the body compared to the top shear layer. The shear layer nearer to the body creates higher suction compared to the shear layer at the opposite side. This pressure imbalance between the top and bottom sides of the body creates a downward force which with the sign convention introduced in figure \ref{fig:induced_lift_sketch} is positive. As the angle is further increased to $\theta=4^{\circ}$, the bottom shear layer becomes closer and therefore the pressure difference becomes greater leading to a higher $C_{y}$. The induced lift force \cy, becomes maximum when the shear layer near to the wall reattaches at the trailing edge. As $\theta$ is further increased at  $\theta=4^{\circ}$ (figure \ref{fig:shear_layers} (b)), the bubble in the bottom shear layer shrinks in size resulting the reduction of the pressure imbalance of the top and bottom surface leading to the reduction in $C_{y}$. This theory has been discussed in \citet{Parkinson1989}. The variation of \cy\ vs $\theta$ is presented in figure \ref{fig:lift_curves}. As the body is connected to an oscillatory system (discussed in section \ref{sec:exci-galloping}), this shear layer behaviour also harmonizes with the cyclic behaviour of the system providing the driving force to the system so that the motion of galloping is sustained for triangular cross section.
+As the angle of incidence ($\theta$) increases clockwise from $2^{\circ}-6^{\circ}$, it can be clearly observed in figure \ref{fig:shear_layers} that the bottom shear layer comes closer to the bottom wall of the body compared to the top shear layer. The shear layer nearer to the body creates higher suction compared to the shear layer at the opposite side, as the higher velocity in the shear layer implies a lower pressure, from a simple Bernoulli-type argument. This pressure imbalance between the top and bottom sides of the body creates a downward force which with the sign convention introduced in figure \ref{fig:induced_lift_sketch} is positive. As the angle is further increased to $\theta=4^{\circ}$, the bottom shear layer comes even closer and therefore the pressure difference becomes greater leading to a higher $C_{y}$. The induced lift force \cy, becomes maximum when the shear layer near to the wall just reattaches at the trailing edge. As $\theta$ is further increased at  $\theta=4^{\circ}$ (figure \ref{fig:shear_layers} (b)), the recirculation region formed by the reattachment of the bottom shear layer shrinks in size resulting in a reduction of the velocity near the wall, and therefore an increase in pressure. This implies a reduction of the pressure imbalance between the top and bottom surface leading to the reduction in $C_{y}$. This theory has been discussed in \citet{Parkinson1989}. The variation of \cy\ vs $\theta$ is presented in figure \ref{fig:lift_curves}. As the body is connected to an oscillatory system (discussed in section \ref{sec:exci-galloping}), this shear layer behaviour also harmonizes with the cyclic behaviour of the system providing the driving force to the system so that the motion of galloping is sustained.
 
 
 
 \subsection{Frequency response}
  
- It is clear that the cyclic motion of the shear layer harmonize with the mechanical system. Therefore, the frequency response should be then, the natural frequency of the system $\omega_{n}$ \citep{Paidoussis2010}. This is significantly different from the VIV mechanism, where the primary frequency comes from the periodic forcing of the vortex shedding. Hence, in the QSS model the natural frequency of the system could be identified as the frequency of oscillations. However, it should be  noted that this is valid on the regimes where the conditions discussed in section \ref{sec:QSS theory} are satisfied. 
+ It is clear that the cyclic motion of the shear layer will harmonize with the mechanical system. Therefore, the frequency response should be close to the natural frequency of the system $\omega_{n}$ \citep{Paidoussis2010}. This is significantly different from the VIV mechanism, where the primary frequency comes from the periodic forcing of the vortex shedding. Hence, in the QSS model the natural frequency of the system can be identified as the frequency of oscillation. However, it should be  noted that this is valid on the regimes where the conditions discussed in section \ref{sec:QSS theory} are satisfied. 
  
- The experimental studies carried by \citet{bouclin:77} concluded at high reduced velocities with large inertia, the motion of the cylinder controls the frequency of the system rather than the vortex shedding. The structural damping has no effect provided that it is small. He also concluded that as the inertia and the reduced velocity gets lower, there is some interaction between vortex shedding and galloping. And at this region the frequency is mainly governed by the vortex shedding. 
- 
+ The experimental studies carried by \citet{bouclin:77} concluded at high reduced velocities with large inertia (where the natural frequency is very low), the motion of the body controls the frequency of the system rather than the vortex shedding. The structural damping has no effect provided that it is small. This study also concluded that as the inertia and the reduced velocity gets lower, there is some interaction between vortex shedding and galloping. When this occurs the frequency is mainly governed by the vortex shedding. 
  
  \subsection{Fluid mechanics governing the galloping response}
  \label{subsec:fluid_mechanics_of_galloping}
  
- As discussed in subsection \ref{subsec:c_y and shear layers} the driving force of a galloping system is the asymmetrical placement of the shear layers at either sides of the body. In consequence, it is clear that a significant afterbody is needed for the shear layer interaction to sustain galloping. \citet{Parkinson1974,Parkinson1989} and \citet{Bearman1987} have discussed well the importance of the length and the shape for galling in their reviews. It is also highlighted in \citet{Parkinson1974} that the most important physical parameters for galloping are the size relative to the characteristic hight and the shape of the afterbody. Manipulating the shape of the afterbody and thereby, manipulating the shear layer interactions with the body, gives the ability to control the galloping response. Thus, due to this reason work has been carried out on the response of galloping of different cross sectional shapes. 
+ As discussed in subsection \ref{subsec:c_y and shear layers} the driving force of a galloping system is the asymmetrical placement of the shear layers at either sides of the body. As a consequence, it is clear that a significant afterbody is needed for the shear layer interaction to sustain galloping. \citet{Parkinson1974,Parkinson1989} and \citet{Bearman1987} have discussed well the importance of the length and the shape of the body for galloping in their reviews. It is also highlighted in \citet{Parkinson1974} that the most important physical parameters for galloping are the size relative to the characteristic height and the shape of the afterbody. Manipulating the shape of the afterbody and thereby manipulating the shear layer interactions with the body, gives the ability to control the galloping response.
  
- \citet{Blevins1990} provided a good comparison of the shapes which are prone to galloping based on the work by \citet{Parkinson1961}, \citet{Nakamura1975a} and \citet{Nakamura1977}. The reproduction of Blevins's data could be found in \citet{Paidoussis2010} presented in figure \ref{fig:par_diff_cross_sec}. 
+\citet{Blevins1990} provided a good comparison of the shapes which are prone to galloping based on the work by \citet{Parkinson1961}, \citet{Nakamura1975a} and \citet{Nakamura1977}. The reproduction of Blevins's data can be found in \citet{Paidoussis2010} and presented in figure \ref{fig:par_diff_cross_sec}. 
     
  \input{./chapter-literature-revirw/figures/per_diff_cross_sec}
   
   
-\citet{Naudascher1993}, \citet{Ruscheweyh1996}, \citet{Deniz1997} and \citet{Weaver2005} are some of the work done on different cross sectional shapes. \citet{Alonso2009} carried out wind tunnel tests on biconvex and rhomboidal cross sections. This study concluded that the galloping stability is dependent on the angle of attack. The aspect ratios where galloping is sustained in these cross sections were identified. Studies were further carried out by Alonso for elliptical cross sections \citep{Alonso2010} which concluded that galloping is Reynolds number dependent for elliptical cross sections. The study triangular cross sections carried out by \citep{Alonso2005} isolated the angle of attacks where galloping is stained. The regions of stability for galloping at different angles of attack and the static force coefficients are presented in these studies with regards to the cross section involved. \citet{Luo1994} carried out an interesting study where the influence of the afterbody on galloping was investigated. The sides of a square section was chamfered gradually delaying the shear layer re-attachment, and two trapezoidal cross sections and one isosceles triangle was obtained. The \cy\ vs. $\theta$ plots revealed that the maximum value of \cy\ increased as the chamfering angle increased (i.e when the cross section was transformed from a square to a isosceles triangle). Anther interesting observation was that the incident angle where maximum \cy\ occurred increased as the chamfering angle increased. Delaying shear layer reattachment leads to higher \cy\ at higher induced angles which leads to higher induced velocities. This fact is beneficial for energy harvesting because as shown in equation \ref{eqn:power_alt} power is a function of both $F_{y}$ and the velocity of the body.  
+\citet{Naudascher1993}, \citet{Ruscheweyh1996}, \citet{Deniz1997} and \citet{Weaver2005} also provide data on different cross sectional shapes. \citet{Alonso2009} carried out wind tunnel tests on biconvex and rhomboidal cross sections. This study concluded that the galloping stability is dependent on the angle of attack. The aspect ratios where galloping is sustained in these cross sections were identified. Studies were further carried out by Alonso for elliptical cross sections \citep{Alonso2010} which concluded that galloping is Reynolds number dependent for elliptical cross sections. The study of triangular cross sections carried out by \citep{Alonso2005} isolated the angles of attack where galloping is sustained. The regions of stability for galloping at different angles of attack and the static force coefficients are presented in these studies with regards to the cross section involved. \citet{Luo1994} carried out an interesting study where the influence of the afterbody on galloping was investigated. The sides of a square section was chamfered gradually delaying the shear layer re-attachment, and two trapezoidal cross sections and one isosceles triangle was obtained. The \cy\ vs. $\theta$ plots revealed that the maximum value of \cy\ increased as the chamfering angle increased (i.e when the cross section was transformed from a square to a isosceles triangle). Anther interesting observation was that the incident angle where maximum \cy\ occurred increased as the chamfering angle increased. Delaying shear layer reattachment leads to higher \cy\ at higher induced angles which leads to higher induced velocities. This fact is beneficial for energy harvesting because as shown in equation \ref{eqn:power_alt} power is a function of both $F_{y}$ and the velocity of the body.
+
+While many of these previous studies have investigated the influence of different body shapes on the galloping response, very few have systematically varied the shape of the body with the aim of deliberately amplifying the galloping. If galloping is to be used as an energy harvesting mechanism, finding an optimum body shape for large oscillations is desirable.
 
 
 \subsection{Galloping as a mechanism of energy harvesting}
 
-The focus on fluid-elastic galloping in the past was on understanding and developing methods to suppress it, due to the adverse effects on civil structures. However, recently, the focus of research has been redirected to develop mechanisms to excite galloping rather than suppressing it. This is due to the recent demand for alternative energy sources with minimal environmental impact. Thus, this demand for alternate energy has lead researchers to develop ways of extracting useful energy from flow induced vibrations.
+The focus of fluid-elastic galloping research in the past was on understanding and developing methods to suppress it, due to the adverse effects on civil structures. However, recently the focus of research has been redirected to develop mechanisms to excite galloping rather than suppressing it. This is due to the recent demand for alternative energy sources with minimal environmental impact. Thus, this demand for alternate energy has lead researchers to develop ways of extracting useful energy from flow induced vibrations.
 
-Bernitsas and his group in the University of Michigan have made significant progress on using VIV as potential candidate for energy extraction. \cite{Bernitsas2008a-concept} introduced the concept of using VIV as a mode of energy extraction.The group have developed a device called VIVACE converter based on this concept. The work has been further expanded to focus on various aspects (such as Reynolds number effects, damping effects etc.) in \citet{Bernitsas2009,Raghavan2009,Raghavan2010a,Lee2011a}. This group has studied extensively on the effect of the mechanical parameters, the Reynolds number effects and the bottom boundary conditions of the VIVACE converter, in order to obtain efficient energy output using VIV as an energy harvesting mechanism. 
+Bernitsas and his group in the University of Michigan have made significant progress on using VIV as potential candidate for energy extraction. \cite{Bernitsas2008a-concept} introduced the concept of using VIV as a mode of energy extraction. The group have developed a device called VIVACE converter based on this concept. The work has been further expanded to focus on various aspects (such as Reynolds number effects, damping effects etc.) in \citet{Bernitsas2009,Raghavan2009,Raghavan2010a,Lee2011a}. This group has studied extensively on the effect of the mechanical parameters, the Reynolds number effects and the bottom boundary conditions of the VIVACE converter, in order to obtain efficient energy output using VIV as an energy harvesting mechanism. 
 
-In contrast, the research carried out investigating the possibility of energy harvesting using fluid-elastic galloping is quite limited. \citet{Barrero-Gil2010a} conducted the pioneering study on energy harvesting using fluid-elastic galloping. The key consideration to investigate on galloping in this study was that unlike VIV fluid-elastic galloping is not dependent on a synchronisation or a ``lock-in" mechanism. Therefore, it could operate on a wide spectrum of frequencies giving fluid-elastic galloping an advantage over VIV as a mechanism of energy harvesting. \citet{vicente-Ludlam2014} showed that there is a link between the optimal electrical load resistance and the flow speed. However, it was identified that the understanding is primary and therefore step-by-step research has to be conducted in order to properly understand the link between energy transfer in the galloping mechanism.
+In contrast, the research carried out investigating the possibility of energy harvesting using fluid-elastic galloping is quite limited. \citet{Barrero-Gil2010a} conducted the pioneering study on energy harvesting using fluid-elastic galloping. The key consideration investigated in this study was that unlike VIV fluid-elastic galloping is not dependent on a synchronisation or a ``lock-in" mechanism. Therefore, it could operate on a wide spectrum of frequencies giving fluid-elastic galloping an advantage over VIV as a mechanism of energy harvesting. \citet{vicente-Ludlam2014} showed that there is a link between the optimal electrical load resistance and the flow speed. However, it was identified that the understanding is primary and therefore step-by-step research has to be conducted in order to properly understand the link between energy transfer in the galloping mechanism.
 
-\subsection{Review summery and Objectives}
+\subsection{Review summary and statement of objectives}
 
- It is clear that more investigations should be carried out on energy transfer of a galloping system, particularly to develop efficient energy harvesting system. More fundamental research is needed to explore the underpinning effects of mechanical and fluid dynamic parameters influencing the energy transfer of a galloping system to fill the gaps of the existing knowledge base. Thus, objectives of the current research were formulated in order to address these research gaps.
+ It is clear that more investigations should be carried out on energy transfer of a galloping system, particularly to develop efficient energy harvesting systems. More fundamental research is needed to explore the underpinning effects of mechanical and fluid dynamic parameters influencing the energy transfer of a galloping system to fill the gaps of the existing knowledge base. Thus, the objectives of the current research, spread over two phases, are defined as follows.
  
- Thus, this study was divided into two phases and objectives were defined as follows.
- 
- \subsection*{Phase 1: Understand the governing mechanical parameters of the system and isolate regions where a good power transfer could be obtained}
+ \subsection*{Phase 1: Understand the governing mechanical parameters of the system and isolate regions of parameter space where a good power transfer can be obtained}
  
  \citet{Paidoussis2010} describes galloping as a ``velocity dependent damping controlled phenomenon". Yet, so far the scaling parameters used in studies are the traditional VIV parameters which are the damping ratio $\zeta$ and the reduced velocity \ustar\ \citep{Barrero-Gil2010a} which has a embedded frequency component. Thus following objectives were defined for this phase 
  
  \begin{itemize}
-\item Formulate a new set of scaling parameters bates on the natural time-scales of the system.
+\item Formulate a new set of scaling parameters based on the natural time-scales of the system.
 \item Investigate the influence of these parameters on mean power transfer.
-\item Isolate the regions where high power transfer could be obtained.
+\item Isolate the regions where high power transfer can be obtained.
 \item Investigate the relationship between these new scaling parameters and the frequency response of the system. 
  \end{itemize}
  
     
   \subsection*{Phase 2: Understand the fluid mechanics of the system and optimise and control these mechanics to obtain a higher power transfer}
   
-  \citet{Luo1994} showed that delaying shear layer reattachment could lead to higher peak $F_{y}$ at higher induced angles and therefore higher transverse velocities. Thus, from equation \ref{eqn:power}, it could be hypothesised that a higher mean power could be obtained by delaying the shear layer reattachment. Hence, the following objectives were defined for phase 2. 
+  \citet{Luo1994} showed that delaying shear layer reattachment could lead to higher peak $F_{y}$ at higher induced angles and therefore higher transverse velocities. Thus, from equation \ref{eqn:power}, it can be hypothesised that a higher mean power can be obtained by delaying the shear layer reattachment. Hence, the following objectives were defined for phase 2. 
   
   \begin{itemize}
   	\item Obtain QSS power data by systematically delaying the shear layer and investigate the influence on power.
-  	\item Identify the relationship of involved fluid mechanics and the mean power output through analysis of the flow-filed.
-  	\item Provide design considerations for a galloping energy extraction system through control of the shear layers. 
+  	\item Identify the relationship between the flow structures and the mean power output through analysis of the flow-field.
+  	\item Provide design considerations for a galloping energy extraction system based on passive control of the shear layers. 
   \end{itemize}
  
- 
- 
- 
- 
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-    
-
-     
-
-
-
-
-
-
-
-
-
-
+KASUN: you should provide here a paragraph explaining how the following sections address these stated aims. Which aims are addressed by which section?

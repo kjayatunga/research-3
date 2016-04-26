@@ -3,44 +3,44 @@
 \contentsline {section}{\numberline {1.2}Fluid-elastic galloping}{2}
 \contentsline {subsection}{\numberline {1.2.1}Excitation of galloping}{2}
 \contentsline {subsection}{\numberline {1.2.2}Quasi-steady state theory}{3}
-\contentsline {subsection}{\numberline {1.2.3}Induced force and the shear layers}{8}
+\contentsline {subsection}{\numberline {1.2.3}Induced force and the shear layers}{7}
 \contentsline {subsection}{\numberline {1.2.4}Frequency response}{10}
-\contentsline {subsection}{\numberline {1.2.5}Fluid mechanics governing the galloping response}{10}
-\contentsline {subsection}{\numberline {1.2.6}Galloping as a mechanism of energy harvesting}{12}
-\contentsline {subsection}{\numberline {1.2.7}Review summery and Objectives}{13}
-\contentsline {chapter}{\numberline {2}Methodology and validation}{15}
-\contentsline {section}{\numberline {2.1}Introduction}{15}
-\contentsline {subsection}{\numberline {2.1.1}Parameters used}{15}
-\contentsline {section}{\numberline {2.2}Quasi-steady model}{16}
-\contentsline {subsubsection}{Solving the quasi-steady state equation}{17}
-\contentsline {section}{\numberline {2.3}Calculation of average power}{17}
-\contentsline {section}{\numberline {2.4}Direct numerical simulations (DNS)}{18}
-\contentsline {subsection}{\numberline {2.4.1}Governing equations}{18}
-\contentsline {subsection}{\numberline {2.4.2}Temporal discretisation: Time-splitting}{20}
-\contentsline {subsubsection}{Integration of the substep equations}{21}
-\contentsline {subsubsection}{The convection substep}{21}
-\contentsline {subsubsection}{The pressure substep}{24}
-\contentsline {subsubsection}{The diffusion substep}{24}
-\contentsline {subsubsection}{Spatial discretisation:Spectral element method}{25}
-\contentsline {subsubsection}{Boundary conditions}{29}
-\contentsline {subsection}{\numberline {2.4.3}Convergence and validation studies}{30}
-\contentsline {subsubsection}{Domain size}{30}
-\contentsline {subsubsection}{Convergence}{30}
-\contentsline {chapter}{\numberline {3}Introduction}{33}
-\contentsline {subsection}{\numberline {3.0.1}Static body results}{35}
-\contentsline {subsection}{\numberline {3.0.2}Formulation of the new dimensionless groups suitable to obtain optimum power output \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}}{36}
-\contentsline {subsection}{\numberline {3.0.3}Comparison of \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}\ with classical VIV parameters}{39}
-\contentsline {subsection}{\numberline {3.0.4}Comparison of power between high and low \ensuremath {Re}\ data}{39}
-\contentsline {subsection}{\numberline {3.0.5}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{42}
-\contentsline {subsection}{\numberline {3.0.6}Dependence on the mass ratio \ensuremath {m^{*}}}{46}
-\contentsline {subsection}{\numberline {3.0.7}Comparison with DNS data}{46}
-\contentsline {section}{\numberline {3.1}Summary of analysis of power transfer using the QSS model}{54}
-\contentsline {chapter}{\numberline {4}Optimization of the cross section for power extraction}{55}
-\contentsline {section}{\numberline {4.1}Introduction}{55}
-\contentsline {section}{\numberline {4.2}Influence of the shear layers}{57}
-\contentsline {section}{\numberline {4.3}Static body results}{59}
-\contentsline {section}{\numberline {4.4}QSS Mean power output}{61}
-\contentsline {section}{\numberline {4.5}Investigation of flow characteristics at low \ensuremath {\frac {d}{l}}\ cases}{62}
-\contentsline {subsection}{\numberline {4.5.1}Surface pressure}{62}
-\contentsline {subsection}{\numberline {4.5.2}Velocity profiles at the points of flow separation}{64}
-\contentsline {subsection}{\numberline {4.5.3}Mean streamlines}{68}
+\contentsline {subsection}{\numberline {1.2.5}Fluid mechanics governing the galloping response}{11}
+\contentsline {subsection}{\numberline {1.2.6}Galloping as a mechanism of energy harvesting}{13}
+\contentsline {subsection}{\numberline {1.2.7}Review {\color {red}\sout {summery }}{\color {blue}\uwave {summary }}and {\color {red}\sout {Objectives}}{\color {blue}\uwave {statement of objectives}}}{14}
+\contentsline {chapter}{\numberline {2}Methodology and validation}{17}
+\contentsline {section}{\numberline {2.1}Introduction}{17}
+\contentsline {subsection}{\numberline {2.1.1}Parameters used}{17}
+\contentsline {section}{\numberline {2.2}Quasi-steady model}{18}
+\contentsline {subsubsection}{Solving the quasi-steady state equation}{19}
+\contentsline {section}{\numberline {2.3}Calculation of average power}{19}
+\contentsline {section}{\numberline {2.4}Direct numerical simulations (DNS)}{20}
+\contentsline {subsection}{\numberline {2.4.1}Governing equations}{20}
+\contentsline {subsection}{\numberline {2.4.2}Temporal discretisation: Time-splitting}{22}
+\contentsline {subsubsection}{Integration of the substep equations}{23}
+\contentsline {subsubsection}{The convection substep}{23}
+\contentsline {subsubsection}{The pressure substep}{26}
+\contentsline {subsubsection}{The diffusion substep}{26}
+\contentsline {subsubsection}{Spatial discretisation:Spectral element method}{27}
+\contentsline {subsubsection}{Boundary conditions}{31}
+\contentsline {subsection}{\numberline {2.4.3}Convergence and validation studies}{32}
+\contentsline {subsubsection}{Domain size}{32}
+\contentsline {subsubsection}{Convergence}{32}
+\contentsline {chapter}{\numberline {3}Introduction}{35}
+\contentsline {subsection}{\numberline {3.0.4}Static body results}{37}
+\contentsline {subsection}{\numberline {3.0.5}Formulation of the new dimensionless groups suitable to obtain optimum power output \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}}{38}
+\contentsline {subsection}{\numberline {3.0.6}Comparison of \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}\ with classical VIV parameters}{41}
+\contentsline {subsection}{\numberline {3.0.7}Comparison of power between high and low \ensuremath {Re}\ data}{41}
+\contentsline {subsection}{\numberline {3.0.8}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{44}
+\contentsline {subsection}{\numberline {3.0.9}Dependence on the mass ratio \ensuremath {m^{*}}}{48}
+\contentsline {subsection}{\numberline {3.0.10}Comparison with DNS data}{48}
+\contentsline {section}{\numberline {3.1}Summary of analysis of power transfer using the QSS model}{56}
+\contentsline {chapter}{\numberline {4}Optimization of the cross section for power extraction}{57}
+\contentsline {section}{\numberline {4.1}Introduction}{57}
+\contentsline {section}{\numberline {4.2}Influence of the shear layers}{59}
+\contentsline {section}{\numberline {4.3}Static body results}{61}
+\contentsline {section}{\numberline {4.4}QSS Mean power output}{63}
+\contentsline {section}{\numberline {4.5}Investigation of flow characteristics at low \ensuremath {\frac {d}{l}}\ cases}{64}
+\contentsline {subsection}{\numberline {4.5.1}Surface pressure}{64}
+\contentsline {subsection}{\numberline {4.5.2}Velocity profiles at the points of flow separation}{66}
+\contentsline {subsection}{\numberline {4.5.3}Mean streamlines}{67}
