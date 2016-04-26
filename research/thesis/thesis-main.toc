@@ -26,21 +26,21 @@
 \contentsline {subsection}{\numberline {2.4.3}Convergence and validation studies}{32}
 \contentsline {subsubsection}{Domain size}{32}
 \contentsline {subsubsection}{Convergence}{32}
-\contentsline {chapter}{\numberline {3}Introduction}{35}
-\contentsline {subsection}{\numberline {3.0.4}Static body results}{37}
-\contentsline {subsection}{\numberline {3.0.5}Formulation of the new dimensionless groups suitable to obtain optimum power output \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}}{38}
-\contentsline {subsection}{\numberline {3.0.6}Comparison of \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}\ with classical VIV parameters}{41}
-\contentsline {subsection}{\numberline {3.0.7}Comparison of power between high and low \ensuremath {Re}\ data}{41}
+\contentsline {chapter}{\numberline {3}Introduction {\color {blue}\uwave {KASUN: update this title}}}{35}
+\contentsline {subsection}{\numberline {3.0.4}Static body results}{36}
+\contentsline {subsection}{\numberline {3.0.5}Formulation of the new dimensionless groups {\color {red}\sout {suitable to obtain optimum power output }}\ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}}{38}
+\contentsline {subsection}{\numberline {3.0.6}Comparison of \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}\ with classical VIV parameters}{40}
+\contentsline {subsection}{\numberline {3.0.7}Comparison of power between high and low \ensuremath {Re}\ data}{43}
 \contentsline {subsection}{\numberline {3.0.8}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{44}
 \contentsline {subsection}{\numberline {3.0.9}Dependence on the mass ratio \ensuremath {m^{*}}}{48}
 \contentsline {subsection}{\numberline {3.0.10}Comparison with DNS data}{48}
 \contentsline {section}{\numberline {3.1}Summary of analysis of power transfer using the QSS model}{56}
-\contentsline {chapter}{\numberline {4}Optimization of the cross section for power extraction}{57}
-\contentsline {section}{\numberline {4.1}Introduction}{57}
-\contentsline {section}{\numberline {4.2}Influence of the shear layers}{59}
-\contentsline {section}{\numberline {4.3}Static body results}{61}
-\contentsline {section}{\numberline {4.4}QSS Mean power output}{63}
-\contentsline {section}{\numberline {4.5}Investigation of flow characteristics at low \ensuremath {\frac {d}{l}}\ cases}{64}
-\contentsline {subsection}{\numberline {4.5.1}Surface pressure}{64}
-\contentsline {subsection}{\numberline {4.5.2}Velocity profiles at the points of flow separation}{66}
-\contentsline {subsection}{\numberline {4.5.3}Mean streamlines}{67}
+\contentsline {chapter}{\numberline {4}Optimization of the cross section for power extraction}{58}
+\contentsline {section}{\numberline {4.1}Introduction}{58}
+\contentsline {section}{\numberline {4.2}Influence of the shear layers}{60}
+\contentsline {section}{\numberline {4.3}Static body results}{62}
+\contentsline {section}{\numberline {4.4}QSS Mean power output}{64}
+\contentsline {section}{\numberline {4.5}Investigation of flow characteristics at low \ensuremath {\frac {d}{l}}\ cases}{65}
+\contentsline {subsection}{\numberline {4.5.1}Surface pressure}{66}
+\contentsline {subsection}{\numberline {4.5.2}Velocity profiles at the points of flow separation}{68}
+\contentsline {subsection}{\numberline {4.5.3}Mean streamlines}{69}

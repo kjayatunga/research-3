@@ -1,21 +1,18 @@
-\chapter{Introduction}
+\chapter{Introduction KASUN: update this title}
 
-The review of published literature reveals that fluid-elastic galloping has a potential to be used as a mechanism for energy extraction \citep{Barrero-Gil2010a}. Thus, the following questions emerged. What are the optimum parameters for energy transfer in a galloping system? How do they influence galloping?
+The review of published literature reveals that fluid-elastic galloping has a potential to be used as a mechanism for energy extraction \citep{Barrero-Gil2010a}. Thus, the following questions emerge. What are the optimum parameters for energy transfer in a galloping system? How do they influence galloping?
 
 Another fluid-structure interaction phenomenon, vortex-induced vibration (VIV), has also been investigated as a candidate for the power extraction from flows. The work from \citet{Bernitsas2008a-concept, Bernitsas2009, Raghavan2010a, Lee2011b} and others from the same group at the University of Michigan have made significant progress with this problem. Therefore it may seem, at least initially, reasonable to present data from the fluid-elastic problem in the same parameters as typically used in VIV studies, which could be observed in current literature on galloping \citep{Barrero-Gil2009,Barrero-Gil2010a,Parkinson1964}.
 
 
 
-However, the data presented in the pioneering study on energy harvesting from galloping  \citep{Barrero-Gil2010a} presented using classical VIV parameters (i.e. \ustar, $\mstar\zeta$), shows that the mean power data does not collapse well. The reason behind for this hypothesis to be the difference in time-scales of VIV and galloping. Thus the work presented in this chapter is focused on testing this hypothesis and obtain the optimum conditions for mean power output. 
+However, the data presented in the pioneering study on energy harvesting from galloping  \citep{Barrero-Gil2010a} presented using classical VIV parameters (i.e. \ustar, $\mstar\zeta$), shows that the mean power data does not collapse well. Here it is hypothesized that the reason behind this is the difference in time-scales of VIV and galloping. Thus the work presented in this chapter is focused on testing this hypothesis. First, new parameters considering this difference in timescale are obtained, and then the optimum conditions for mean power output in terms of these new parameters are found. 
 
-Since the the Quasi-steady state model is the primary mathematical model used to model galloping in this study, the fluid-dynamic characteristics of flow over a static body are presented and discussed first as it is the main input to the QSS model. Then, the natural time scales of the system are obtained using the linearised QSS model. Next, the new non-dimensional governing parameters  \massstiff\ and \massdamp, are formulated by non-dimensionalising the QSS model from these natural time scales. Following this a comparison of galloping data using the classical VIV parameters and  \massstiff\ and \massdamp. Then, the influence of \massstiff \ and \massdamp \ and the conditions for an optimum power output are discussed from QSS data. Finally, the QSS data are compared and discussed against FSI direct numerical simulations and final conclusions are presented.
-
-\clearpage
+Since the the Quasi-steady state model is the primary mathematical model used to model galloping in this study, the fluid-dynamic characteristics of flow over a static body are presented and discussed first as it is the main input to the QSS model. Then, the natural time scales of the system are obtained using the linearised QSS model. Next, the new non-dimensional governing parameters  \massstiff\ ( a type of combined mass-stiffness) and \massdamp (a combined mass-damping), are formulated by non-dimensionalising the QSS model from these natural time scales. Following this is a comparison of galloping data using the classical VIV parameters and the new parameters \massstiff\ and \massdamp. Then, the influence of \massstiff \ and \massdamp \ and the conditions for an optimum power output are discussed from QSS data. Finally, the QSS data are compared and discussed against FSI direct numerical simulations and final conclusions are presented.
 
 \subsection{Static body results}
 
-The main data acquisition tool for galloping is the QSS model. As discussed in chapter \ref{sec:QSS_model_methodology},the input to the QSS model is the lift force as a function of the induced angle of attack $\theta$. This function is obtained using lift and drag ($C_y$) data from static body simulations or experiments, to which a polynomial is fitted. These static body data and the polynomial data are presented here in \ref{fig:lift_curves} and \ref{table:cy-coefficients} respectively.  Figure \ref{fig:lift_curves} shows the plots of time averaged $C_y$ data  as a function of $\theta$, as well as the $7^{th}$ order polynomial fits . Data are acquired for high and low Reynolds numbers. For high Reynolds numbers, the static body polynomial data are obtained from \cite{Parkinson1964} while for low Reynolds numbers a $7^{th}$ order non-linear least square regression fit on static body DNS simulations was used. The coefficients of these  polynomials are presented in table \ref{table:cy-coefficients}.
-
+The main data acquisition tool for galloping is the QSS model. As discussed in chapter \ref{sec:QSS_model_methodology}, the input to the QSS model is the lift force as a function of the induced angle of attack $\theta$. This function is obtained using lift and drag ($C_y$) data from static body simulations or experiments, to which a polynomial is fitted. These static body data and the polynomial coefficients are presented here in figure \ref{fig:lift_curves} and table \ref{table:cy-coefficients} respectively.  Figure \ref{fig:lift_curves} shows the plots of time averaged $C_y$ data as a function of $\theta$, as well as the $7^{th}$ order polynomial fits. Data were acquired for high and low Reynolds numbers. For high Reynolds numbers, the static body polynomial data are obtained from \cite{Parkinson1964} while for low Reynolds numbers a $7^{th}$ order non-linear least square regression fit on static body DNS simulations was used.
 
 \input{./chapter-pi_1_pi_2/figure/cy_vs_theta.tex}
 
@@ -28,7 +25,7 @@ direction of velocity of the body, or in phase with, the oscillating body as dem
 
 
 
-\subsection{Formulation of the new dimensionless groups suitable to obtain optimum power output \massstiff \ and \massdamp}
+\subsection{Formulation of the new dimensionless groups \massstiff \ and \massdamp}
 \label{sec:newvar}
 
 
@@ -39,7 +36,7 @@ The natural time scales of the system can be found by solving for the eigenvalue
 \end{equation}
 which is a simplified version of the equation of motion presented in equation \ref{final_equation_motion} with the polynomial series for the lift force truncated at the linear term.
 
-Combining the $\dot{y}$ terms and solving for eigenvalues gives
+Combining the $\dot{y}$ terms and solving for eigenvalues $\lambda$ gives
 \begin{equation}
 	\label{eqn:eigs}
 	\lambda_{1,2}= -\frac{1}{2}\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{m}\pm\frac{1}{2}\sqrt{\left[\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{m}\right]^2-4\frac{k}{m}}.
@@ -103,10 +100,8 @@ Equation \ref{eqn:eom_nondim_regroup} can be re-written explicitly in terms of \
  
   \input{./chapter-pi_1_pi_2/figure/amp-collapsed}
  
-Figure \ref{fig:compare_data} shows the displacement ]amplitude data obtained in figure \ref{fig:compare_data} (a)   
- 
- 
- 
+While the velocity and power data collapse well, the amplitude data still shows some spread. Figure \ref{fig:amp-collapsed} shows the displacement amplitude data obtained in figure \ref{fig:compare_data} (a), but rescaled on a length scale that considers the stiffness by incorporating \massstiff. KASUN: you need to at least make an effort to describe this new figure.
+
  \subsection{Comparison of power between high and low \reynoldsnumber\ data}   
 
 \label{sec:low_vs_high_re}
@@ -165,7 +160,7 @@ The comparison between QSS and the DNS results is presented in figure \ref{fig:q
 
 \input{./chapter-pi_1_pi_2/figure/qss_fsi}
 
-Figure \ref{fig:max_power}(a) clearly shows the dependence of the mean extracted power on \massstiff. Here, the maximum power extracted for a given value of \massstiff, over all values of \massdamp (essentially the value of extracted power at the turning point), is plotted as a function of \massstiff. These values were obtained by fitting a quadratic to the data of figure \ref{fig:low_pi_1} and finding the value of mean extracted power at the turning point. The rapid decrease in the extracted power as $\massstiff \rightarrow 0$ is clear.
+Figure \ref{fig:max_power}(a) clearly shows the dependence of the mean extracted power on \massstiff. Here, the maximum power extracted for a given value of \massstiff, over all values of \massdamp\ (essentially the value of extracted power at the turning point), is plotted as a function of \massstiff. These values were obtained by fitting a quadratic to the data of figure \ref{fig:low_pi_1} and finding the value of mean extracted power at the turning point. The rapid decrease in the extracted power as $\massstiff \rightarrow 0$ is clear.
 
 \input{./chapter-pi_1_pi_2/figure/max_power}
 
@@ -178,7 +173,7 @@ In an effort to further quantify the performance of the QSS model, the percentag
 \% \ error=\left|{\frac{P_{m(QSS)} - P_{m(DNS)}}{P_{m(DNS)}}}\right| \times 100.
 \end{equation}
 
-The results of this calculation are plotted in figure \ref{fig:error}, along with a power-law best fit $138.697\massstiff^{-0.6}$. The figure clearly shows that as \massstiff \ increases, the error between the QSS and DNS models quickly decreases. However, at low values of \massstiff, the discrepancy between the two can be quite large, around $30\%$.
+The results of this calculation are plotted in figure \ref{fig:error}, along with a power-law best fit of $\% \ error = 138.697\massstiff^{-0.6}$. The figure clearly shows that as \massstiff \ increases, the error between the QSS and DNS models quickly decreases. However, at low values of \massstiff, the discrepancy between the two can be quite large, around $30\%$.
 
 \input{./chapter-pi_1_pi_2/figure/error}
 
@@ -205,7 +200,7 @@ Further information can be gained by observing the flow field. Non-dimensionalis
 \section{Summary of analysis of power transfer using the QSS model}
 \label{sec:summary-pi_1-pi_2}
 
-A need arose after the literature survey to obtain suitable scaling parameters for galloping. These parameters \massstiff\ and \massdamp, were formulated through the natural time-scales of the linearised Quasi-steady state model.   
+Suitable scaling parameters for galloping have been formulated. These parameters \massstiff, a combined mass-stiffness, and \massdamp, a combined mass-damping, were formulated through the natural time-scales found from the linearised quasi-steady state model.   
 
 The power transfer of a square body under fluid-elastic galloping was analysed by solving the quasi-steady state oscillator model equation using numerical  integration. Power data were presented in terms of both traditional VIV and the newly formulated scaling parameters. A good collapse for predicted output of power could be obtained using the newly formulated  dimensionless groups (\massstiff, \massdamp) in comparison with the classical VIV parameters ,i.e., $\zeta$ and \ustar. The collapsed data using the dimensionless groups strengthens the argument that the velocity amplitude and the power transfer of the system does not depend on the natural frequency of the system over a large range of natural frequencies.
 
