@@ -101,8 +101,14 @@ Equation \ref{eqn:eom_nondim_regroup} can be re-written explicitly in terms of \
  
  
   \input{./chapter-pi_1_pi_2/figure/amp-collapsed}
+  
  
-While the velocity and power data collapse well, the amplitude data still shows some spread. Figure \ref{fig:amp-collapsed} shows the displacement amplitude data obtained in figure \ref{fig:compare_data} (a), but rescaled on a length scale that considers the stiffness by incorporating \massstiff. KASUN: you need to at least make an effort to describe this new figure.
+While the velocity and power data collapse well, the amplitude data still shows some spread. Figure \ref{fig:amp-collapsed} shows the displacement amplitude data obtained in figure \ref{fig:compare_data} (a), but rescaled on a length scale that considers the stiffness by incorporating \massstiff. This is due to the fact that the amplitude of the system is fixed by the balance between the maximum induced lift force and the spring
+
+
+
+
+% The amplitude though is fixed by a balance between the maximum lift force and the spring; the lift can only elongate the spring so far; stiffer springs have less amplitude, and so the amplitude scales with 1/stiffness, or 1/Pi_1.
 
  \subsection{Comparison of power between high and low \reynoldsnumber\ data}   
 
@@ -183,7 +189,9 @@ A likely reason for this discrepancy at low \massstiff\ is the influence of the 
 
 \input{./chapter-pi_1_pi_2/figure/spectrum}
 
-This figure shows the  velocity signals at $\massstiff=0.8$ and $\massdamp= 10, 60, 250$ and $1000$ and the corresponding spectrum. The spectral data shows a significant frequency component around $fd/U=0.156$ which can be identified as the vortex shedding frequency. The magnitude of the frequency component at the vortex shedding frequency clearly reduces as \massstiff\ is increased. This indicates that the influence of vortex shedding is much more prominent at low \massstiff,  therefore resulting in larger deviations from quasi-steady state results. This builds on the work of \cite{Joly2012}, which was conducted at zero damping, that implied that mean extracted power would be influenced by vortex shedding at low mass.
+\input{./chapter-pi_1_pi_2/figure/cyspectrum}
+
+This figure shows the  velocity signals at $\massstiff=0.8$ and $\massdamp= 10, 60, 250$ and $1000$ and the corresponding spectrum. The spectral data shows a significant frequency component around $fd/U=0.156$ which can be identified as the vortex shedding frequency. The magnitude of the frequency component at the vortex shedding frequency clearly reduces as \massstiff\ is increased. This indicates that the influence of vortex shedding is much more prominent at low \massstiff,  therefore resulting in larger deviations from quasi-steady state results. This builds on the work of \cite{Joly2012}, which was conducted at zero damping, that implied that mean extracted power would be influenced by vortex shedding at low mass. The transverse forcing signal and the respective spectrum are presented for the same cases in figure \ref{fig:cy_spectrum}. The comparison of figures \ref{fig:spectrum} and \ref{fig:cy_spectrum} clearly shows that even though vortex shedding has a high significant relative forcing the system tend to select the galloping frequency as the frequency of oscillation.
 
 This influence is explicitly shown here. Figure \ref{fig:spec_pow} plots the relative intensity of the component at the vortex shedding frequency to the component at the galloping or oscillation frequency in the spectra of figure \ref{fig:spectrum}.
 

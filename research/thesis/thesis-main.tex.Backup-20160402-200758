@@ -1,0 +1,249 @@
+%This file will form the basis of my PhD LaTeX thesis document. I guess there should be only a series of include statements, to include each chapter, and global formatting stuff, like nomenclature shortcut commands. 
+
+\documentclass[11pt,titlepage,twoside,a4paper]{report}
+
+%%%%%%%%%%Packages%%%%%%%%%%
+\usepackage{thesis}
+
+%\usepackage{layout}    %For previewing page layout only
+\usepackage{fancyhdr}
+
+\usepackage{natbib}
+\usepackage{graphicx} 
+\usepackage{url}      
+\usepackage{amsmath}  
+\usepackage{subfigure}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{fancybox}
+\usepackage{color}
+\usepackage[figuresleft]{rotating}
+\usepackage{longtable}
+\usepackage{nextpage}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{pifont}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage {longtable} 
+\usepackage{tabularx}
+\usepackage{epstopdf}
+%\usepackage{setspace}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%Commands%%%%%%%%%%
+%General
+\newcommand{\Rey}{\ensuremath{\mathit{Re}}}       %Reynolds number
+\newcommand{\St}{\ensuremath{\mathit{St}}}        %Strouhal number
+\newcommand\solidrule[1][1cm]{\rule[0.5ex]{#1}{1pt}}
+\newcommand\dashedrule{\mbox{\solidrule[1mm]\hspace{1mm}\solidrule[1mm]\hspace{1mm}\solidrule[1mm]\hspace{1mm}}}
+
+
+% % % % % % Kj stuff % % % % % % % % % % %
+\newcommand{\KJ}[1]{{\textcolor{blue}{{\bf{\it{ **KJ: #1 **}}}}}}
+\newcommand{\BT}[1]{{\textcolor{green}{{\bf{\it{ **BT: #1 **}}}}}}
+\newcommand{\JL}[1]{{\textcolor{red}{{\bf{\it{ **JL: #1 **}}}}}}
+
+
+
+\newcommand{\ustar}{\ensuremath{U^{*}}}
+\newcommand{\mstar}{\ensuremath{m^{*}}}
+\newcommand{\cstar}{\ensuremath{c^{*}}}
+\newcommand{\reynoldsnumber}{\ensuremath{Re}}
+\newcommand{\massstiff}{\ensuremath{\Pi_1}}
+\newcommand{\massdamp}{\ensuremath{\Pi_2}}
+\newcommand{\ratio}{\ensuremath{\frac{d}{l}}}
+\newcommand{\cy}{\ensuremath{C_{y}}}
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
+\newcommand{\pderiv}[2]{\ensuremath{\frac{\partial#1}{\partial#2}}}
+\newcommand{\pderivsq}[2]{\ensuremath{\frac{\partial^2#1}{\partial#2^2}}}
+\newcommand{\divergence}[1]{\ensuremath{\nabla\cdot#1}}
+\newcommand{\grad}[1]{\ensuremath{\nabla #1}}
+\newcommand{\gradsq}[1]{\ensuremath{\nabla^{2}#1}}
+
+\newcommand{\vecu}{\ensuremath{\mathbf{u}}}
+\newcommand{\vecV}{\ensuremath{\mathbf{V}}}
+\newcommand{\pres}{\ensuremath{p_{f}}}
+\newcommand{\Pres}{\ensuremath{P}}
+
+\newcommand{\density}{\ensuremath{\rho}}
+\newcommand{\kinvis}{\ensuremath{\nu}}
+\newcommand{\dynvis}{\ensuremath{\mu_{v}}}
+\newcommand{\Ufree}{\ensuremath{U}}
+\newcommand{\diam}{\ensuremath{D}}
+\newcommand{\accframe}{\ensuremath{\frac{\mathrm{d}\Vcyl}{\mathrm{d}\tau}}}
+\newcommand{\damping}{\ensuremath{\zeta}}
+%\newcommand{\ystar}{\ensuremath{y^{*}}}
+\newcommand{\kstar}{\ensuremath{k^{*}}}
+\newcommand{\Vint}{\ensuremath{\vecV^{*}}}
+\newcommand{\Vintint}{\ensuremath{\vecV^{**}}}
+\newcommand{\Vn}{\ensuremath{\vecV^{(n)}}}
+\newcommand{\Vnext}{\ensuremath{\vecV^{(n+1)}}}
+\newcommand{\Vcyl}{\ensuremath{\mathbf{V}_{\mathit{cyl}}}}
+\newcommand{\perV}{\ensuremath{\mathbf{v}^{\prime}}}
+\newcommand{\period}{\ensuremath{T}}
+
+\newcommand{\mone}{\ensuremath{M1}}
+\newcommand{\mtwo}{\ensuremath{M2}}
+\newcommand{\mthree}{\ensuremath{M3}}
+\newcommand{\mfour}{\ensuremath{M4}}
+
+\newcommand{\upert}{\ensuremath{u^{\prime}}}
+\newcommand{\vpert}{\ensuremath{v^{\prime}}}
+\newcommand{\wpert}{\ensuremath{w^{\prime}}}
+\newcommand{\ppert}{\ensuremath{p^{\prime}}}
+
+\newcommand{\ubase}{\ensuremath{u}}
+\newcommand{\vbase}{\ensuremath{v}}
+
+\newcommand{\compone}{\ensuremath{\xi}}
+\newcommand{\comptwo}{\ensuremath{\eta}}
+\newcommand{\jacobian}{\ensuremath{\mathbf{J}}}
+
+\newcommand{\Vtrial}{\ensuremath{\mathbf{V}_{trial}}}
+\newcommand{\Ptrial}{\ensuremath{P_{trial}}}
+\newcommand{\residual}{\ensuremath{\mathbf{R}}}
+\newcommand{\normal}{\ensuremath{\mathbf{n}}}
+\newcommand{\ycyl}{\ensuremath{y_{cyl}}}
+\newcommand{\ltwo}{\ensuremath{\mathrm{L}_{2}}}
+%%%%New commands arising from driven oscillation chapter%%%%%%%%%%%%%%%%%%%
+\newcommand{\clifta}{\ensuremath{C_{L_{a}}}}
+\newcommand{\cliftv}{\ensuremath{C_{L_{v}}}}
+\newcommand{\phasev}{\ensuremath{\phi_{v}}}
+\newcommand{\phasep}{\ensuremath{\phi_{p}}}
+\newcommand{\liftf}{\ensuremath{F_{\mathit{lift}}}}
+\newcommand{\vcyl}{\ensuremath{\mathbf{v}_{cyl}}}
+\newcommand{\clift}{\ensuremath{C_{L}}}
+
+% % % % % % Chap- freq % % % % % % % %
+\newcommand{\freq}{\ensuremath{f}}
+\newcommand{\freqqss}{$f_{QSS}$}
+\newcommand{\freqdns}{$f_{DNS}$}
+\newcommand{\freqlin}{$f_{lin}$}
+
+%%%%%%%%%%%%Document formatting: Margins, spacing, etc%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\baselinestretch}{1.5}    %Spacing
+\renewcommand{\shadowsize}{3pt}         %Shadowbox shadow depth
+\setcounter{tocdepth}{4}                %Table of contents levels
+
+\setlength{\topmargin}{0pt}
+\setlength{\textheight}{634pt}
+\setlength{\textwidth}{431pt}
+\setlength{\marginparwidth}{60pt}
+\setlength{\evensidemargin}{0pt}
+
+\pagestyle{fancy}                       %To invoke fancy headers and footers
+\fancyfoot{}
+\fancyfoot[RO]{\hfill \thepage \hspace{0.05\textwidth}}
+\fancyfoot[LE]{\hspace{0.05\textwidth}\thepage \hfill}
+
+\fancyhead{}
+\fancyhead[LE]{\leftmark}
+\fancyhead[RO]{\rightmark}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\renewcommand\chaptermark[1]{\markboth{\thechapter. \MakeUppercase{#1}}{}}
+\renewcommand\subsectionmark[1]{\markright{\thesubsection. \MakeUppercase{#1}}{}}
+
+\newcommand{\myclearpage}{\thispagestyle{empty}\cleartoevenpage\thispagestyle{empty}\cleartooddpage}
+\newcommand{\hilight}[1]{\colorbox{yellow}{#1}}
+% % % % % % % % % % % %
+%\newenvironment{dedication}
+%
+%{\vspace{6ex}\begin{quotation}\begin{center}\begin{em}}
+%			{\par\end{em}\end{center}\end{quotation}}
+
+
+%%% Commands so that we can use latex-diff to see corrections
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+%%%%%%%%%%%%The document%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\pagenumbering{roman}
+\begin{titlepage}
+\noindent\rule{\textwidth}{1.5pt}
+\begin{flushright}
+\LARGE
+{\sc A Numerical Investigation of The Energy Transfer of A Body Under Fluidelastic Galloping} \\
+
+\noindent\rule{\textwidth}{1.5pt}
+
+\LARGE
+\vspace{30mm}
+{\sc By H.G.K.G Jayatunga}
+\vspace{30mm}
+
+\normalsize
+{\sc A thesis submitted to Monash University in fulfilment of the requirements for the Degree of}
+
+\vspace{5mm}
+\LARGE
+{\sc Doctor of Philosophy}
+
+\vspace{15mm}
+\normalsize
+Department of Mechanical Engineering\\
+Monash University\\
+October 2015
+\end{flushright}
+
+\end{titlepage}
+
+\myclearpage
+
+%%%%%%%%%%%%Dedications here%%%%%%%%%
+%\include{./initial-stuff/originality}
+%\myclearpage
+%\include{./initial-stuff/abstract}
+%\myclearpage
+%\include{./initial-stuff/acknowledgements}
+%\myclearpage
+%\begin{titlepage}
+%\chapter*{Dedication}
+%	
+%	\par\vspace*{.18\textheight}{\centering \large\emph{`` To Mrs. Malin Bamunuarachchi; whom without, this work would never have seen the light of day. Thank you madam; for your prayers, blessings, guidence, kind words of encourgaement and above all, believeing in me and giving me strength to get back up, when I myslef have given up hope...."}\par}
+%	%\vspace*{\stretch{2.0}}
+%%\end{titlepage}
+
+
+%\include{./initial-stuff/publications}
+%\myclearpage
+%\include{./initial-stuff/nomenclature-1}
+
+\tableofcontents
+\pagenumbering{arabic}
+%\input{./initial-stuff/preliminary-remarks}
+\input{./chapter-literature-revirw/literature}
+\input{./chapter-methodology/methodology}
+\input{./chapter-pi_1_pi_2/results-2}
+%\input{./chapter-frequnecy-response/results}
+\input{./chapter-cross-sections/results-2}
+%\input{./chapter-cross-sections/results-2-diffdc98aaffe6fda79195abe29b4873f8ba65789e78}
+%\input{./chapter-conclusions/conclusions}
+
+
+\bibliographystyle{elsarticle-harv}
+\bibliography{./Paper.bib}
+\end{document}
+

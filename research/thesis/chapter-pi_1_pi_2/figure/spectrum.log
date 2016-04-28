@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.10.28)  26 JUL 2015 13:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  28 APR 2016 16:03
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
  %&-line parsing enabled.
 **spectrum.tex
 (./spectrum.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 
 ! LaTeX Error: Environment figure undefined.
 
@@ -15,10 +15,31 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 \begin{figure}
-                  
+                  [!h]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{figure}[
+                   !h]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
+[][]
+ []
 
 ! Undefined control sequence.
 <argument> \includegraphics 
@@ -1373,14 +1394,27 @@ Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
 l.62 ... the DNS data at four values of \massstiff
                                                    \ at $\massdamp=0.47$. (a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+! Undefined control sequence.
+<recently read> \massdamp 
+                          
+l.62 ... four values of \massstiff \ at $\massdamp
+                                                  =0.47$. (a) and (b) $\mass...
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 10 strings out of 493118
- 185 string characters out of 6135458
- 54906 words of memory out of 5000000
- 3573 multiletter control sequences out of 15000+600000
+ 11 strings out of 493090
+ 193 string characters out of 6134868
+ 55196 words of memory out of 5000000
+ 3596 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 20i,18n,15p,468b,138s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 20i,18n,15p,551b,138s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 No pages of output.
