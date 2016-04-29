@@ -22,45 +22,45 @@ Repeated entry---line 640 of file ./Paper.bib.bib
  :  @article{Parkinson1989
  :                        ,
 I'm skipping whatever remains of this entry
-You've used 54 entries,
+You've used 55 entries,
             2821 wiz_defined-function locations,
-            977 strings with 13189 characters,
-and the built_in function-call counts, 25763 in all, are:
-= -- 2686
-> -- 1208
+            983 strings with 13328 characters,
+and the built_in function-call counts, 26294 in all, are:
+= -- 2741
+> -- 1235
 < -- 38
-+ -- 453
-- -- 393
-* -- 2189
-:= -- 4648
-add.period$ -- 164
-call.type$ -- 54
-change.case$ -- 403
-chr.to.int$ -- 87
-cite$ -- 54
-duplicate$ -- 968
-empty$ -- 1800
-format.name$ -- 555
-if$ -- 5250
++ -- 463
+- -- 402
+* -- 2237
+:= -- 4743
+add.period$ -- 167
+call.type$ -- 55
+change.case$ -- 411
+chr.to.int$ -- 88
+cite$ -- 55
+duplicate$ -- 986
+empty$ -- 1836
+format.name$ -- 567
+if$ -- 5358
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 61
-newline$ -- 169
-num.names$ -- 216
-pop$ -- 384
+missing$ -- 62
+newline$ -- 172
+num.names$ -- 220
+pop$ -- 391
 preamble$ -- 1
-purify$ -- 347
+purify$ -- 354
 quote$ -- 0
-skip$ -- 743
+skip$ -- 756
 stack$ -- 0
-substring$ -- 1475
-swap$ -- 141
+substring$ -- 1513
+swap$ -- 143
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 453
+type$ -- 462
 warning$ -- 0
-while$ -- 222
+while$ -- 226
 width$ -- 0
-write$ -- 598
+write$ -- 609
 (There were 5 error messages)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{54}
+\begin{thebibliography}{55}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -98,6 +98,11 @@ Joly, A., Etienne, S., Pelletier, D., Jan. 2012. {Galloping of square cylinders
 \bibitem[{Karniadakis and Sherwin(2005)}]{karniadakis2005}
 Karniadakis, G.~E., Sherwin, S., 2005. Spectral/hp element methods for
   computational fluid dynamics, ii Edition. Oxford University.
+
+\bibitem[{Kluger et~al.(2013)Kluger, Moon, and Rand}]{Kluger2013}
+Kluger, J., Moon, F., Rand, R., 2013. Shape optimization of a blunt body
+  vibro-wind galloping oscillator. Journal of Fluids and Structures 40, 185 --
+  200.
 
 \bibitem[{Kreyszig(2010)}]{kreyszig2010}
 Kreyszig, E., 2010. Advanced Engineering Mathematics, 10th Edition. John Wiley
