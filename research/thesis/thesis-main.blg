@@ -22,6 +22,10 @@ Repeated entry---line 640 of file ./Paper.bib.bib
  :  @article{Parkinson1989
  :                        ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 659 of file ./Paper.bib.bib
+ : @article{Leontini2013
+ :                      ,
+I'm skipping whatever remains of this entry
 You've used 55 entries,
             2821 wiz_defined-function locations,
             983 strings with 13328 characters,
@@ -63,4 +67,4 @@ warning$ -- 0
 while$ -- 226
 width$ -- 0
 write$ -- 609
-(There were 5 error messages)
+(There were 6 error messages)
