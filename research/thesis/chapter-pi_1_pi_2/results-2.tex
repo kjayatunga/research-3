@@ -202,6 +202,63 @@ The difference between the power predicted by the QSS and DNS models scales with
 
 Further information can be gained by observing the flow field. Non-dimensionalised flow field data at values of \massdamp\ close to where maximum power is produced at different \massstiff\ are presented in figure \ref{fig:flow_vis}. The figure shows a clear wavelength of the wake as \massstiff \ is increased. Qualitatively, this can be interpreted as showing that at high \massstiff, the vortex shedding is simply superimposed over the path of motion of the cylinder. It shows a decrease in amplitude of the path of the body at low \massstiff, which may be due to the higher levels of non-linear interaction between the vortex shedding and galloping. Such an argument is consistent with the data of figure \ref{fig:spec_pow} that show the increasing influence of vortex shedding on the velocity of the body as \massstiff\ decreases. Taken together, this also goes some way to explaining the discrepancy between the output power predicted by the QSS and DNS models at low \massstiff, highlighted in figure \ref{fig:error}.
 
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
+\section{Frequency response of the system}
+
+The new governing parameters (\massstiff\ and \massdamp) formulated in section\ref{sec:newvar}  using the linearised QSS equation in  provide a good representation of velocity amplitude and mean power output. The possibility of formulating an expression for the frequency of the system from these parameters was investigated.
+
+\subsection{Formulating the linear frequency of the system}
+
+The process was initiated by considering the eigenvalues of the linearised QSS model (Eq:\ref{eqn:eom_linear}), which can be found in equation \ref{eqn:eigs}. The term under the square root (equation \ref{eqn:liner_freq}) of this equation can be used to express the frequency of the system provided that the eigenvalues are complex. 
+
+If this condition (presence of complex eigenvalues)is satisfied, the imaginary component could be identified as the frequency of the system. 
+
+\begin{equation}
+\label{eqn:liner_freq}
+f = \sqrt{\left[\frac{c-\frac{1}{2}\rho U\mathcal{A}a_1}{(m)}\right]^2-4\frac{k}{(m)}}.
+\end{equation}
+
+
+
+% % % % % % % % %
+By substituting \cstar, \mstar\ and \ustar equation \ref{eqn:liner_freq} could be non-dimensionalised as follows:
+
+\begin{equation}
+f = \sqrt{\left[c^*\left(\frac{U}{D}\right) - \frac{1}{2}\frac{a_1}{m^*}\left(\frac{U}{D}\right)\right]^2 - 4\left(\frac{U}{D}\right)^2\frac{2\pi}{U^*}}.
+\end{equation}
+
+This can then be rewritten as
+\begin{equation}
+f = \sqrt{\left(\frac{U}{D}\right)^2\left(c^*-\frac{a_1}{2m^*}\right)^2 - 4\left(\frac{U}{D}\right)^2\left(\frac{2\pi}{U^*}\right)^2}.
+\end{equation}
+By taking the factor of $U/D$ to the left-hand side
+\begin{equation}
+\frac{fD}{U} = \sqrt{\left(c^*-\frac{a_1}{2m^*}\right)^2 - 4\left(\frac{2\pi}{U^*}\right)^2}.
+\end{equation}
+Expanding terms gives
+\begin{equation}
+\frac{fD}{U} = \sqrt{c^{*2} - \frac{2c^*a_1}{2m^*} + \frac{a_1^2}{4m^{*2}} - \frac{16\pi^2}{U*^2}}.
+\end{equation}
+Multiplying through by $m*^2$ gives
+\begin{equation}
+\frac{fD}{U} = \sqrt{c^{*2}m^{*2} - c^*m^*a_1 + \frac{a_1^2}{4} - \frac{16\pi^2m{*^2}}{U^{*2}}}.
+\end{equation}
+
+
+By substituting \massstiff\ and \massdamp\ appropriately the expression of the linear frequency is reduced to   
+\begin{equation}
+\label{eqn:linear_freq_final}
+\frac{fD}{U} = \sqrt{\Pi_2^2 - \Pi_2a_1 + \frac{a_1^2}{4} - 4\Pi_1}.
+\end{equation}
+
+
+Thus, an expression for the frequency of the system can be formulated from \massstiff\ and \massdamp, which is defined as the linear frequency  \freqlin\ of the system. This frequency is expressed by equation \ref{eqn:linear_freq_final}. 
+
+
+
+
+
 
 \section{Summary of analysis of power transfer using the QSS model}
 \label{sec:summary-pi_1-pi_2}
