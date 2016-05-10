@@ -48,6 +48,6 @@
 \contentsline {subsection}{\numberline {4.5.3}Mean streamlines}{72}
 \contentsline {section}{\numberline {4.6}Fluid-structure interaction (DNS) results}{74}
 \contentsline {subsection}{\numberline {4.6.1}Mean power data}{74}
-\contentsline {subsection}{\numberline {4.6.2}Flow-filed data}{75}
-\contentsline {section}{\numberline {4.7}Design considerations for a galloping energy extraction system through inhibition of shear layer reattachment.}{77}
-\contentsline {section}{\numberline {4.8}Summary}{78}
+\contentsline {subsection}{\numberline {4.6.2}{\color {red}\sout {Flow-filed }}{\color {blue}\uwave {Flow-field }}data}{75}
+\contentsline {section}{\numberline {4.7}Design considerations for a galloping energy extraction system through inhibition of shear layer reattachment.}{78}
+\contentsline {section}{\numberline {4.8}Summary}{79}

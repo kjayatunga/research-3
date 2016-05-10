@@ -1,12 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  27 APR 2016 15:10
+This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2016.1.21)  10 MAY 2016 12:18
 entering extended mode
  restricted \write18 enabled.
- Source specials enabled.
  %&-line parsing enabled.
-**results-2.tex
+**\input results-2.tex
 (./results-2.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 ! Undefined control sequence.
 l.1 \chapter
             {Optimization of the cross section for power extraction}
@@ -77,7 +74,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
-[][]
+[]
  []
 
 ! Undefined control sequence.
@@ -115,7 +112,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 3--4
-[][] 
+[] 
  []
 
 
@@ -1198,7 +1195,7 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 8--9
-[][]
+[]
  []
 
 
@@ -1737,7 +1734,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 10--11
-[][]
+[]
  []
 
 
@@ -1867,7 +1864,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no , in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 12--14
-[][]
+[]
  []
 
 
@@ -1894,7 +1891,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 15--15
-[][] 
+[] 
  []
 
 Missing character: There is no h in font nullfont!
@@ -2322,7 +2319,7 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 22--28
-[][]
+[]
  []
 
 
@@ -3105,7 +3102,7 @@ Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 29--30
-[][]
+[]
  []
 
 
@@ -3245,7 +3242,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 31--32
-[][]
+[]
  []
 
 Missing character: There is no H in font nullfont!
@@ -4260,7 +4257,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 33--34
-[][]
+[]
  []
 
 
@@ -4560,7 +4557,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 35--36
-[][]
+[]
  []
 
 Missing character: There is no T in font nullfont!
@@ -4823,7 +4820,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 37--42
-[][]
+[]
  []
 
 
@@ -5060,7 +5057,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 43--44
-[][]
+[]
  []
 
 ! Undefined control sequence.
@@ -5099,7 +5096,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 49--50
-[][]
+[]
  []
 
 Missing character: There is no I in font nullfont!
@@ -5410,7 +5407,7 @@ put line 51.
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 51--52
-[][]
+[]
  []
 
 
@@ -5466,7 +5463,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 53--54
-[][]
+[]
  []
 
 
@@ -5485,11 +5482,11 @@ l.55 ...apter-cross-sections/figures/sketch-1.tex}
 
  
 Here is how much of TeX's memory you used:
- 19 strings out of 493090
- 349 string characters out of 6134868
- 55196 words of memory out of 5000000
- 3601 multiletter control sequences out of 15000+600000
+ 19 strings out of 494999
+ 355 string characters out of 6180801
+ 47999 words of memory out of 5000000
+ 3329 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 19i,2n,19p,1335b,89s stack positions out of 5000i,500n,10000p,200000b,80000s
-No pages of output.
+ 34 hyphenation exceptions out of 8191
+ 19i,2n,19p,1342b,89s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
