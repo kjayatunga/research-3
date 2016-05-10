@@ -33,10 +33,10 @@
 \contentsline {subsection}{\numberline {3.1.2}Formulation of the new dimensionless groups \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}}{39}
 \contentsline {subsection}{\numberline {3.1.3}Comparison of \ensuremath {\Pi _1}\ and \ensuremath {\Pi _2}\ with classical VIV parameters}{41}
 \contentsline {subsection}{\numberline {3.1.4}Comparison of power between high and low \ensuremath {Re}\ data}{44}
-\contentsline {subsection}{\numberline {3.1.5}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{45}
-\contentsline {subsection}{\numberline {3.1.6}Dependence on the mass ratio \ensuremath {m^{*}}}{49}
+\contentsline {subsection}{\numberline {3.1.5}Dependence on mass-stiffness, \ensuremath {\Pi _1}}{44}
+\contentsline {subsection}{\numberline {3.1.6}Dependence on the mass ratio \ensuremath {m^{*}}}{48}
 \contentsline {subsection}{\numberline {3.1.7}Comparison with DNS data}{49}
-\contentsline {section}{\numberline {3.2}Summary of analysis of power transfer using the QSS model}{55}
+\contentsline {section}{\numberline {3.2}Summary of analysis of power transfer using the QSS model}{54}
 \contentsline {chapter}{\numberline {4}Optimization of the cross section for power extraction}{60}
 \contentsline {section}{\numberline {4.1}Introduction}{60}
 \contentsline {section}{\numberline {4.2}Influence of the shear layers}{62}

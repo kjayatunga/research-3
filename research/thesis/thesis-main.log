@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  6 MAY 2016 21:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  9 MAY 2016 11:52
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -801,10 +801,7 @@ le (type eps)
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson.eps Graphi
 c file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson.eps>)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44]
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson.eps>) [44]
 (./chapter-pi_1_pi_2/figure/high_pi_1.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_high_pi_1.eps Graphic file (ty
 pe eps)
@@ -850,11 +847,11 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_08.eps Graphic file (type eps
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps Graphic file (t
 ype eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps>) [45] [46] [47]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps>)
+Underfull \vbox (badness 1062) has occurred while \output is active []
 
- [48]
-(./chapter-pi_1_pi_2/figure/low_pi_1.tex
+ [45]
+[46] [47] [48] (./chapter-pi_1_pi_2/figure/low_pi_1.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps Graphic file (typ
 e eps)
 
@@ -885,7 +882,7 @@ Underfull \vbox (badness 2073) has occurred while \output is active []
 [51] (./chapter-pi_1_pi_2/figure/error.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/error.eps Graphic file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/error.eps>) [52]
+<./chapter-pi_1_pi_2/FnP/gnuplot/error.eps>)
 (./chapter-pi_1_pi_2/figure/spectrum.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_20_sig.eps Graphic file (type eps)
 
@@ -914,6 +911,7 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_200.eps Graphic file (type eps)
 
 LaTeX Warning: Float too large for page by 17.7279pt on input line 64.
 
+[52]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -952,14 +950,10 @@ LaTeX Warning: Float too large for page by 17.7279pt on input line 64.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)
-Underfull \vbox (badness 3138) has occurred while \output is active []
-
- [53]
-(./chapter-pi_1_pi_2/figure/spec_pow.tex
+) (./chapter-pi_1_pi_2/figure/spec_pow.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps Graphic file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps>)
+<./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps>) [53]
 (./chapter-pi_1_pi_2/figure/flow_vis.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/10.eps Graphic file (type eps)
 
@@ -972,10 +966,7 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/250.eps Graphic file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/250.eps>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps Graphic file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps>)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54])
+<./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps>) [54])
 (./chapter-cross-sections/results-2.tex [55] [56] [57] [58] [59]
 Chapter 4.
 [60
@@ -1151,6 +1142,6 @@ Here is how much of TeX's memory you used:
  16785 multiletter control sequences out of 15000+600000
  21229 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,14n,54p,2183b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,54p,2183b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (89 pages, 290660 bytes).
+Output written on thesis-main.dvi (89 pages, 290664 bytes).
