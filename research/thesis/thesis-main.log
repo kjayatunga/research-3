@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  13 MAY 2016 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  13 MAY 2016 23:20
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1023,15 +1023,6 @@ File: ./chapter-frequnecy-response/fnp/fdns-flinear.eps Graphic file (type eps)
 
 
 <./chapter-frequnecy-response/fnp/fdns-flinear.eps>) [60]
-(./chapter-frequnecy-response/figures/flin-qss.tex
-File: ./chapter-frequnecy-response/fnp/flin-fqss.eps Graphic file (type eps)
-
-<./chapter-frequnecy-response/fnp/flin-fqss.eps>)
-(./chapter-frequnecy-response/figures/fdns-flinear.tex
-File: ./chapter-frequnecy-response/fnp/fdns-flinear.eps Graphic file (type eps)
-
-
-<./chapter-frequnecy-response/fnp/fdns-flinear.eps>)
 (./chapter-pi_1_pi_2/figure/feq-spectrum.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-1-sig.eps Graphic file (type eps)
 
@@ -1067,19 +1058,19 @@ LaTeX Warning: Float too large for page by 21.1279pt on input line 66.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)) (./chapter-cross-sections/results-2.tex [61] [62] [63] [64] [65] [66]
-[67] [68] [69] [70] [71] [72] [73]
+) [61]) (./chapter-cross-sections/results-2.tex [62] [63] [64] [65] [66]
+[67] [68] [69] [70] [71]
 Chapter 5.
-[74
+[72
 
-] [75] (./chapter-cross-sections/figures/sketch-1.tex
+] [73] (./chapter-cross-sections/figures/sketch-1.tex
 File: ./chapter-cross-sections/fnp/hybrid_section.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/hybrid_section.eps>)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
-[77] (./chapter-cross-sections/figures/coefficient-table.tex) [78]
+ [74]
+[75] (./chapter-cross-sections/figures/coefficient-table.tex) [76]
 (./chapter-cross-sections/figures/lift_curves.tex
 File: ./chapter-cross-sections/fnp/lift_curve_sq.eps Graphic file (type eps)
 
@@ -1095,11 +1086,11 @@ File: ./chapter-cross-sections/fnp/lift_curve_025.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/lift_curve_025.eps>
 File: ./chapter-cross-sections/fnp/lift_curve_tri.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [79]
+<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [77]
 (./chapter-cross-sections/figures/power_curves.tex
 File: ./chapter-cross-sections/fnp/mean_power_hyb.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/mean_power_hyb.eps>) [80] [81]
+<./chapter-cross-sections/fnp/mean_power_hyb.eps>) [78] [79]
 (./chapter-cross-sections/figures/surf-pres.tex
 File: ./chapter-cross-sections/fnp/surf-pres-tri-4.eps Graphic file (type eps)
 
@@ -1111,7 +1102,7 @@ File: ./chapter-cross-sections/fnp/surf-pres-tri-16.eps Graphic file (type eps)
 File: ./chapter-cross-sections/fnp/surf-pres-tri-21.eps Graphic file (type eps)
 
 
-<./chapter-cross-sections/fnp/surf-pres-tri-21.eps>) [82] [83]
+<./chapter-cross-sections/fnp/surf-pres-tri-21.eps>) [80] [81]
 (./chapter-cross-sections/figures/tri-sketch.tex
 File: ./chapter-cross-sections/fnp/tri-sketch.eps Graphic file (type eps)
 
@@ -1129,10 +1120,10 @@ File: ./chapter-cross-sections/fnp/vel_prof-tri-21.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [84]
+) [82]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85]
+ [83]
 (./chapter-cross-sections/figures/tri-stream-func.tex
 File: ./chapter-cross-sections/fnp/4.eps Graphic file (type eps)
 
@@ -1141,21 +1132,21 @@ File: ./chapter-cross-sections/fnp/16.eps Graphic file (type eps)
  <./chapter-cross-sections/fnp/16.eps>
 File: ./chapter-cross-sections/fnp/21.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/21.eps>) [86]
+<./chapter-cross-sections/fnp/21.eps>) [84]
 
-LaTeX Warning: Reference `sec:chp-pi_1_pi2_dns' on page 87 undefined on input l
+LaTeX Warning: Reference `sec:chp-pi_1_pi2_dns' on page 85 undefined on input l
 ine 193.
 
 (./chapter-cross-sections/figures/cross-sec-dns-power.tex
 File: ./chapter-cross-sections/fnp/qss-dns-mean-power.eps Graphic file (type ep
 s)
 
-<./chapter-cross-sections/fnp/qss-dns-mean-power.eps>) [87]
+<./chapter-cross-sections/fnp/qss-dns-mean-power.eps>) [85]
 (./chapter-cross-sections/figures/qss-fsi-error-hyb.tex
 File: ./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps Graphic file (type eps
 )
 
-<./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps>) [88]
+<./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps>) [86]
 (./chapter-cross-sections/figures/fsi_time_sketch.tex
 File: ./chapter-cross-sections/fnp/fsi_flow_sketch.eps Graphic file (type eps)
 
@@ -1178,22 +1169,22 @@ File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/qss-0.25-3.eps>
 File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/qss-0.25-3.eps>) [89]
+<./chapter-cross-sections/fnp/qss-0.25-3.eps>) [87]
 
-LaTeX Warning: Reference `subsec:cross-sec-qss-mean power' on page 90 undefined
+LaTeX Warning: Reference `subsec:cross-sec-qss-mean power' on page 88 undefined
  on input line 231.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90]
-[91] [92] [93]) (./thesis-main.bbl [94] [95
+ [88]
+[89] [90] [91]) (./thesis-main.bbl [92] [93
 
 ]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [96] [97] [98]) [99]
+ [94] [95] [96]) [97]
 (./thesis-main.aux)
 
 LaTeX Warning: There were undefined references.
@@ -1203,12 +1194,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13885 strings out of 493090
- 271077 string characters out of 6134868
- 312285 words of memory out of 5000000
- 16804 multiletter control sequences out of 15000+600000
+ 13882 strings out of 493090
+ 270898 string characters out of 6134868
+ 312297 words of memory out of 5000000
+ 16805 multiletter control sequences out of 15000+600000
  21229 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,2183b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (103 pages, 325480 bytes).
+Output written on thesis-main.dvi (101 pages, 326764 bytes).

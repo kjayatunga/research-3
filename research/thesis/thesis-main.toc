@@ -42,17 +42,17 @@
 \contentsline {subsection}{\numberline {4.2.2}Comparison of predicted frequencies using different approaches}{59}
 \contentsline {subsubsection}{Comparison of $f_{lin}$\ and $f_{QSS}$in \ensuremath {\Pi _1}\ \ensuremath {\Pi _2}space}{60}
 \contentsline {section}{\numberline {4.3}Summary of analysis of power transfer using the QSS model}{61}
-\contentsline {chapter}{\numberline {5}Optimization of the cross section for power extraction}{74}
-\contentsline {section}{\numberline {5.1}Introduction}{74}
-\contentsline {section}{\numberline {5.2}Influence of the shear layers}{76}
-\contentsline {section}{\numberline {5.3}Static body results}{78}
-\contentsline {section}{\numberline {5.4}QSS Mean power output}{80}
-\contentsline {section}{\numberline {5.5}Investigation of flow characteristics at low \ensuremath {\frac {d}{l}}\ cases}{81}
-\contentsline {subsection}{\numberline {5.5.1}Surface pressure}{81}
-\contentsline {subsection}{\numberline {5.5.2}Velocity profiles at the points of flow separation}{82}
-\contentsline {subsection}{\numberline {5.5.3}Mean streamlines}{84}
-\contentsline {section}{\numberline {5.6}Fluid-structure interaction (DNS) results}{87}
-\contentsline {subsection}{\numberline {5.6.1}Mean power data}{87}
-\contentsline {subsection}{\numberline {5.6.2}Flow-field data}{88}
-\contentsline {section}{\numberline {5.7}Design considerations for a galloping energy extraction system through inhibition of shear layer reattachment.}{92}
-\contentsline {section}{\numberline {5.8}Summary}{92}
+\contentsline {chapter}{\numberline {5}Optimization of the cross section for power extraction}{72}
+\contentsline {section}{\numberline {5.1}Introduction}{72}
+\contentsline {section}{\numberline {5.2}Influence of the shear layers}{74}
+\contentsline {section}{\numberline {5.3}Static body results}{76}
+\contentsline {section}{\numberline {5.4}QSS Mean power output}{78}
+\contentsline {section}{\numberline {5.5}Investigation of flow characteristics at low \ensuremath {\frac {d}{l}}\ cases}{79}
+\contentsline {subsection}{\numberline {5.5.1}Surface pressure}{79}
+\contentsline {subsection}{\numberline {5.5.2}Velocity profiles at the points of flow separation}{80}
+\contentsline {subsection}{\numberline {5.5.3}Mean streamlines}{82}
+\contentsline {section}{\numberline {5.6}Fluid-structure interaction (DNS) results}{85}
+\contentsline {subsection}{\numberline {5.6.1}Mean power data}{85}
+\contentsline {subsection}{\numberline {5.6.2}Flow-field data}{86}
+\contentsline {section}{\numberline {5.7}Design considerations for a galloping energy extraction system through inhibition of shear layer reattachment.}{90}
+\contentsline {section}{\numberline {5.8}Summary}{90}
