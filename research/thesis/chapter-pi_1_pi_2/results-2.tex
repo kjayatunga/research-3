@@ -263,12 +263,12 @@ The limiting factor of equation \ref{eqn:linear_freq_final} is the instance wher
 
 \subsection{Comparison of predicted frequencies using different approaches}
 
-Reductions for the frequency of the system was obtained using three different techniques. These are  predictions from linearised QSS equation (\freqlin), QSS modelling (\freqqss) and DNS simulations (\freqdns).For a given values of \massstiff\ and \massdamp\, the linear frequency \freqlin\ was found by solving equation \ref{eqn:linear_freq_final}. \freqqss\ was obtained by performing a power spectrum analysis on the time trace of the velocity of the body  obtained by numerically solving the quasi-steady sate equation. \freqdns\ was obtained using a similar technique as \freqqss\ however, the velocity data was obtained through DNS simulations of fluid-structure interactions. Data were obtained at a constant undamped natural frequency of $f=0.025$.
+Predictions for the frequency of the system was obtained using three different techniques. These are  predictions from linearised QSS equation (\freqlin), QSS modelling (\freqqss) and DNS simulations (\freqdns). For a given values of \massstiff\ and \massdamp\, the linear frequency \freqlin\ was found by solving equation \ref{eqn:linear_freq_final}. \freqqss\ was obtained by performing a power spectrum analysis on the time trace of the velocity of the body  obtained by numerically solving the quasi-steady sate equation. \freqdns\ was obtained using a similar technique as \freqqss\ however, the velocity data was obtained through DNS simulations of fluid-structure interactions. Data were obtained at a constant undamped natural frequency of $f=0.025$.
 
 
 \input{./chapter-frequnecy-response/figures/freq-015.tex}
 
-The predictions of the frequency of the system obtained using the three different techniques normalised by the  undamped natural frequency $f$, is presented as a function of \massstiff\ in figure \ref{fig:pi2-015-freq}. Here the undamped natural frequency was kept constant at $f=0.025$. Thus, \massstiff\ was varied by varying \mstar. The DNS frequency deviates from the undamped natural around $\massstiff=10$. This is followed by \freqlin\ and then \freqqss. One noticeable fact is that the linear frequency reduced rapidly for values of \massstiff\ less than 1. One likely fact for this effect would be considering linearised QSS model to formulate the expression for \freqlin, and non-linearities of the QSS model i.e. the higher order terms in the forcing function of equation \ref{final_equation_motion} would start to have a significant effect. 
+The predictions of the frequency of the system obtained using the three different techniques normalised by the  undamped natural frequency $f$, is presented as a function of \massstiff\ in figure \ref{fig:pi2-015-freq}. Here the undamped natural frequency was kept constant at $f=0.025$. Thus, \massstiff\ was varied by varying \mstar. The DNS frequency deviates from the undamped natural around $\massstiff=10$. This is followed by \freqlin\ and then \freqqss. One noticeable fact is that the linear frequency reduces rapidly for values of \massstiff\ less than 1. One likely fact for this effect would be considering linearised QSS model to formulate the expression for \freqlin, and non-linearities of the QSS model i.e. the higher order terms in the forcing function of equation \ref{final_equation_motion} would start to have a significant effect. 
 
 
 \input{./chapter-frequnecy-response/figures/velocity-signal.tex}          
@@ -276,16 +276,16 @@ The predictions of the frequency of the system obtained using the three differen
 
 Figure \ref{fig:velocity-signal} shows the time traces of transverse velocity $\dot{y}$\ and the induced angle $\theta$\ obtained using the QSS model, at the two extreme cases of \massstiff. The time traces at $\massstiff=1000$ and $\massstiff=0.001$ are presented in figures  \ref{fig:velocity-signal} (a) and (c) and  figure \ref{fig:velocity-signal} (b) and (d) respectively; at $\massdamp=0.2$,and the reduced velocity is fixed at $\ustar=40$.
 
-Comparing figures \ref{fig:velocity-signal} (c) and (d), with the respective \cy\ vs. $\theta$ plot (figure \ref{fig:lift_curves}(a)) it is clearly seen that at $\massstiff=0.001$ (figure \ref{fig:velocity-signal} (d)) the body sustains induced angles which fall into the non linear region of the \cy\ vs. $\theta$ for longer period of time in a single oscillation. In contrast the same period of time is significantly less at $\massstiff=1000$. Thus, it is clear that the non-linearities of the forcing terms stats dominating as \massstiff\ reduces. 
+Comparing figures \ref{fig:velocity-signal} (c) and (d), with the respective \cy\ vs. $\theta$ plot (figure \ref{fig:lift_curves}(a)) it is clearly seen that at $\massstiff=0.001$ (figure \ref{fig:velocity-signal} (d)) the body sustains induced angles which fall into the non-linear region of the \cy\ vs. $\theta$ curve for longer period of time in a single oscillation cycle. In contrast the same period of time is significantly less at $\massstiff=1000$. Thus, it is clear that the non-linearities of the forcing terms starts dominating as \massstiff\ reduces. 
 
 The underpinning reason for this phenomenon is that as \massdamp\ is fixed, \mstar\ reduces as \massstiff\ reduces. Thus at $\massstiff=1000$ the system contains comparatively high inertia ($\mstar=201$) and therefore needing a grater force  to change the inertia of the body, which results the body oscillating majority portion of the galloping cycle in the range of $\theta$ which falls within the linear region of the \cy\ vs. $\theta$ curve.
 
  At $\massstiff=0.001$, as the inertia of the body is relatively low (\mstar= 0.2). As a result the body accelerates quickly to high velocities gaining higher induced angles quickly and sustains at high velocities for the majority of the time of a galloping period. These high velocities corresponds to induced angles which falls in the non-linear  region of the \cy\ vs. $\theta$ curve (figure \ref{fig:lift_curves}). 
 
-Thus, at high \massstiff\, the significant forcing of the oscillatory system is governed by the linear terms of the interpolation polynomial and as \massstiff\, drops to a significant low level, the non-linear terms of the polynomial start effecting the system. As the linear frequency model does not the account non-linear terms of the forcing function, a significant deviation of the linear frequency from the QSS frequency could be observed.   
+Thus, at high \massstiff\, the significant forcing of the oscillatory system is governed by the linear terms of the interpolation polynomial and as \massstiff\ drops to a significant low level, the non-linear terms of the polynomial start effecting the system. As the linear frequency model does not the account the non-linear terms of the forcing function, a significant deviation of the linear frequency from the QSS frequency could be observed.   
 
 % % % % % % % % % % % % % % % % % % % % % % % % % %
-\subsubsection{Comparison of \freqlin\ and \freqqss in \massstiff\ \massdamp space}
+\subsubsection{Comparison of \freqlin\ and \freqqss\ in \massstiff\ \massdamp\ space}
 
 Figure \ref{eqn:liner_freq} shows the frequency ratio between \freqlin\ and \freqqss\ in the \massstiff\ \massdamp space. The QSS frequency data tends to agree well between \freqlin\ and \freqqss\ for $\massstiff>10$. This agreement can be clearly observed for almost all values of \massdamp at $\massstiff>10$. As \massstiff\ reduced the frequency ratio tends to reduce implying a deviation between the frequencies. \KJ{There is something to do with \massdamp as well somehow at low \massdamp\ the deviation is larger but I can't figure out why ??}
 
@@ -295,16 +295,15 @@ The frequency ratio between \freqlin\ and \freqdns\ in the \massstiff\ \massdamp
 
 \input{./chapter-frequnecy-response/figures/fdns-flinear.tex}
 
-The lower boundary of \massstiff\ was limited $\massstiff=10$ as a clear deviation of \freqlin\ and \freqdns was observed $\massstiff<10$ (\ref{fig:pi2-015-freq}). Furthermore, galloping signal could only be detected for a very limited window of low \massdamp. Thus, comparison of data at $\massstiff<10$ was not carried out. Nevertheless, withing the given boundaries the two frequencies \freqlin\ and \freqdns\ tend to be in good agreement. Furthermore, as the lower limit of \massstiff\ considered in the main scope of this study is $\massstiff=10$, it can be concluded that expression formulated for the frequency of the system obtained using the newly formulated parameters \massstiff and \massdamp agrees well within the boundaries of consideration for energy harvesting.   
+The lower boundary of \massstiff\ was limited $\massstiff=10$ as a clear deviation of \freqlin\ and \freqdns was observed $\massstiff<10$ (\ref{fig:pi2-015-freq}). Furthermore, galloping signal could only be detected for a very limited window of low \massdamp. Thus, comparison of data at $\massstiff<10$ was not carried out. Nevertheless, within the given boundaries the two frequencies \freqlin\ and \freqdns\ tend to be in good agreement. Furthermore, as the lower limit of \massstiff\ considered in the main scope of this study is $\massstiff=10$, it can be concluded that expression formulated for the frequency of the system obtained using the newly formulated parameters \massstiff and \massdamp agrees well within the boundaries of consideration for energy harvesting.   
 	
 
 . % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
-
+\subsubsection{Spectral analysis of the DNS data at low \massstiff}
 
 \input{./chapter-pi_1_pi_2/figure/feq-spectrum}
 
-
-
+ The power spectral data of the velocity signals between $\massstiff=0.3$ and $\massstiff=1$ are presented in figure \ref{fig:freq-spectrum}, shows the galloping signal becoming weaker and the vortex shedding becoming more dominant as \massstiff\ decreases. One interesting fact which could be observed on the vortex shedding frequency is that in slightly increases as \massstiff\ reduced. This could be clearly observed by comparing the frequency values at the peaks which represents the vortex shedding of figures \ref{fig:freq-spectrum} and \ref{fig:spectrum}. The peak at the vortex shedding shifts to the right as \massstiff\ reduces indicating some interaction between vortex shedding and galloping. This phenomenon is very subtle however, the significant difference could be observed by comparing  figures \ref{fig:spectrum} (h) ($\massstiff=1000$) and  \ref{fig:freq-spectrum} (h) ($\massstiff=0.3$). 
 
 
 \section{Summary of analysis of power transfer using the QSS model}
