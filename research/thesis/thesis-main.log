@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  24 MAY 2016 10:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  30 MAY 2016 12:22
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -599,7 +599,9 @@ Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 Package: ulem 2012/05/18
 \ULdepth=\dimen173
 )
-(./thesis-main.aux)
+(./thesis-main.aux (./initial-stuff/originality.aux)
+(./initial-stuff/abstract.aux) (./initial-stuff/acknowledgements.aux)
+(./initial-stuff/publications.aux) (./initial-stuff/nomenclature-1.aux))
 \openout1 = `thesis-main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 182.
@@ -614,23 +616,38 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 182.
 LaTeX Font Info:    ... okay on input line 182.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 182.
 LaTeX Font Info:    ... okay on input line 182.
- ABD: EveryShipout initializing macros [1
+
+ABD: EveryShipout initializing macros [1
 
 ] [2
 
 
 ]
-(./thesis-main.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+\openout2 = `./initial-stuff/originality.aux'.
+
+ (./initial-stuff/originality.tex
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+) [3
+
+
+
+]
+\openout2 = `./initial-stuff/abstract.aux'.
+
+ (./initial-stuff/abstract.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 8.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 8.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
+) [4
+
 
 
 ]
@@ -640,11 +657,104 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4])
+[5]) [6]
+\openout2 = `./initial-stuff/acknowledgements.aux'.
+
+ (./initial-stuff/acknowledgements.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
+
+ []
+
+[7
+
+
+
+]) [8]
+\openout2 = `./initial-stuff/publications.aux'.
+
+ (./initial-stuff/publications.tex) [9
+
+
+
+]
+\openout2 = `./initial-stuff/nomenclature-1.aux'.
+
+
+(./initial-stuff/nomenclature-1.tex
+Overfull \hbox (24.0pt too wide) in alignment at lines 6--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 9--16
+ [] [] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 16--19
+ [] [] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 19--21
+ [] [] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 21--45
+ [] [] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 45--65
+ [] [] 
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 81--82
+[]|\OT1/cmr/m/n/10.95 Transverse dis-place-ment, ve-loc-ity and ac-cel-er-a-tio
+n of the
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 65--85
+ [] [] 
+ []
+
+[10
+
+
+
+]
+Underfull \hbox (badness 5771) in paragraph at lines 85--86
+[]|\OT1/cmr/m/n/10.95 Under-relaxation pa-ram-e-ter used dur-ing the elasticall
+y-
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 85--106
+ [] [] 
+ []
+
+[11]
+Overfull \hbox (24.0pt too wide) in alignment at lines 106--114
+ [] [] 
+ []
+
+[12]) [13] (./thesis-main.toc [14
+
+
+] [15])
 \tf@toc=\write5
 \openout5 = `thesis-main.toc'.
 
- (./initial-stuff/preliminary-remarks.tex [1]
+
+(./initial-stuff/preliminary-remarks.tex [1]
 Chapter 1.
 [2
 
@@ -660,14 +770,22 @@ File: ./chapter-literature-revirw/fnp/setup-1.eps Graphic file (type eps)
 <./chapter-literature-revirw/fnp/setup-1.eps> [5
 
 ])
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
+(./chapter-literature-revirw/figures/f-y-setup.tex
+File: ./chapter-literature-revirw/fnp/f_y-illustration.eps Graphic file (type e
+ps)
+
+<./chapter-literature-revirw/fnp/f_y-illustration.eps>)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
- [6]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+
 (./chapter-literature-revirw/figures/parkinson_data.tex
 File: ./chapter-literature-revirw/fnp/parkinson_data.eps Graphic file (type eps
 )
@@ -681,7 +799,7 @@ eps)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
-(./chapter-literature-revirw/figures/shear-layer-sketch.tex
+[11] (./chapter-literature-revirw/figures/shear-layer-sketch.tex
 File: ./chapter-literature-revirw/fnp/shear-layer-sketch.eps Graphic file (type
  eps)
 
@@ -695,17 +813,11 @@ File: ./chapter-literature-revirw/fnp/square-4.eps Graphic file (type eps)
 <./chapter-literature-revirw/fnp/square-4.eps>
 File: .//chapter-literature-revirw/fnp/square-6.eps Graphic file (type eps)
 
-<.//chapter-literature-revirw/fnp/square-6.eps>) [11]
-Underfull \vbox (badness 2443) has occurred while \output is active []
+<.//chapter-literature-revirw/fnp/square-6.eps>) [12]
+Underfull \vbox (badness 5802) has occurred while \output is active []
 
- [12]
-
-Package Fancyhdr Warning: \headheight is too small (13.59999pt): 
- Make it at least 25.89253pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13] (./chapter-literature-revirw/figures/per_diff_cross_sec.tex
+ [13]
+[14] (./chapter-literature-revirw/figures/per_diff_cross_sec.tex
 File: ./chapter-literature-revirw/fnp/per_cross_sec.eps Graphic file (type eps)
 
 
@@ -717,44 +829,27 @@ Overfull \hbox (14.09998pt too wide) in paragraph at lines 15--16
 
 LaTeX Warning: Float too large for page by 2.37473pt on input line 18.
 
-) [14] [15] [16]
+) [15] [16] [17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
-[18]) (./chapter-methodology/methodology.tex [19]
+ [18]
+[19]) (./chapter-methodology/methodology.tex [20]
 Chapter 3.
-[20
+[21
 
 ]
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ° in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ž in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no ¼ in font cmr10!
-
-Underfull \vbox (badness 2073) has occurred while \output is active []
-
- [21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4913) has occurred while \output is active []
 
  [22]
 [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33]
 
-LaTeX Warning: Command \L invalid in math mode on input line 375.
+LaTeX Warning: Command \L invalid in math mode on input line 359.
 
-[34]
-Underfull \vbox (badness 1603) has occurred while \output is active []
-
- [35]
-(./chapter-methodology/figures/square-mesh.tex
+[34] [35] [36] (./chapter-methodology/figures/square-mesh.tex
 File: ./chapter-methodology/fnp/square-mesh.eps Graphic file (type eps)
 
-<./chapter-methodology/fnp/square-mesh.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chapter-methodology/figures/zoom-mesh.tex
+<./chapter-methodology/fnp/square-mesh.eps>)
+(./chapter-methodology/figures/zoom-mesh.tex
 File: ./chapter-methodology/fnp/mesh.eps Graphic file (type eps)
 
 <./chapter-methodology/fnp/mesh.eps>
@@ -778,8 +873,8 @@ s)
 File: ./chapter-methodology/fnp/freq-response-convergencexs.eps Graphic file (t
 ype eps)
 
-<./chapter-methodology/fnp/freq-response-convergencexs.eps>) [36])
-(./chapter-pi_1_pi_2/results-2.tex [37] [38] [39]
+<./chapter-methodology/fnp/freq-response-convergencexs.eps>) [37] [38])
+(./chapter-pi_1_pi_2/results-2.tex [39]
 Chapter 4.
 [40
 
@@ -1034,8 +1129,14 @@ File: ./chapter-frequnecy-response/fnp/flin-fqss.eps Graphic file (type eps)
 File: ./chapter-frequnecy-response/fnp/fdns-flinear.eps Graphic file (type eps)
 
 
-<./chapter-frequnecy-response/fnp/fdns-flinear.eps>) [61]
-(./chapter-pi_1_pi_2/figure/feq-spectrum.tex
+<./chapter-frequnecy-response/fnp/fdns-flinear.eps>)
+
+Package Fancyhdr Warning: \headheight is too small (13.59999pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[61] (./chapter-pi_1_pi_2/figure/feq-spectrum.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-1-sig.eps Graphic file (type eps)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/freq-1-sig.eps>
@@ -1187,25 +1288,35 @@ LaTeX Warning: Reference `subsec:cross-sec-qss-mean power' on page 90 undefined
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [90]
-[91] [92] [93]) (./thesis-main.bbl [94] [95
+[91] [92] [93]) (./chapter-conclusions/conclusions.tex [94]
+Chapter 6.
+[95
+
+]
+Underfull \vbox (badness 1062) has occurred while \output is active []
+
+ [96]
+[97]) (./thesis-main.bbl [98] [99
 
 ]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [96] [97] [98]) [99]
-(./thesis-main.aux)
+ [100] [101] [102]) [103] (./thesis-main.aux
+(./initial-stuff/originality.aux) (./initial-stuff/abstract.aux)
+(./initial-stuff/acknowledgements.aux) (./initial-stuff/publications.aux)
+(./initial-stuff/nomenclature-1.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13883 strings out of 493090
- 270896 string characters out of 6134868
- 312260 words of memory out of 5000000
- 16806 multiletter control sequences out of 15000+600000
+ 13935 strings out of 493090
+ 272407 string characters out of 6134868
+ 315270 words of memory out of 5000000
+ 16816 multiletter control sequences out of 15000+600000
  21229 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,14n,54p,2183b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (103 pages, 331484 bytes).
+Output written on thesis-main.dvi (118 pages, 374752 bytes).
