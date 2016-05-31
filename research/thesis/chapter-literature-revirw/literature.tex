@@ -14,6 +14,7 @@ Fluid-elastic galloping is one of the common observable flow-induced vibration m
 
 \input{./chapter-literature-revirw/figures/sketch-1}
 
+\input{./chapter-literature-revirw/figures/f-y-setup}
 
 A square cross section can be used as an example to further explain the galloping phenomenon. Figure \ref{fig:induced_lift_sketch}  illustrates the motion of the body at a given instant. The induced angle of attack is formed on the square cross section as a result of the free stream velocity vector $U$ and the transverse velocity vector of the body $\dot{y}$. An angle of attack implies that there will be a non-zero lift force on the body. Thus, a force is formed in phase with the velocity of the body. While illustated for the square, this mechanism can also be observed on any body that can have an angle of attack. The sign convention in this figure (and generally used in this scope of research) states that downward direction is positive.  
 
@@ -166,7 +167,7 @@ In contrast, the research carried out investigating the possibility of energy ha
     
   \subsection*{Phase 2: Understand the fluid mechanics of the system and optimise and control these mechanics to obtain a higher power transfer}
   
-  \citet{Luo1994} showed that delaying shear layer reattachment could lead to higher peak $F_{y}$ at higher induced angles and therefore higher transverse velocities. Thus, from equation \ref{eqn:power}, it can be hypothesised that a higher mean power can be obtained by delaying the shear layer reattachment. Hence, the following objectives were defined for phase 2. 
+  \citet{Luo1994} showed that inhibition of shear layer reattachment could lead to higher peak $F_{y}$ at higher induced angles and therefore higher transverse velocities. Thus, from equation \ref{eqn:power}, it can be hypothesised that a higher mean power can be obtained by inhibition of the shear layer reattachment. Hence, the following objectives were defined for phase 2. 
   
   \begin{itemize}
   	\item Obtain QSS power data by systematically delaying the shear layer and investigate the influence on power.
@@ -174,4 +175,8 @@ In contrast, the research carried out investigating the possibility of energy ha
   	\item Provide design considerations for a galloping energy extraction system based on passive control of the shear layers. 
   \end{itemize}
  
-KASUN: you should provide here a paragraph explaining how the following sections address these stated aims. Which aims are addressed by which section?
+ 
+ The stated aims are addressed by the following sections. Objectives of phase 1 are addressed in chapter \ref{chap:pi_1_pi2}. A new set of scaling parameters namely the combined mass stiffness \massstiff\ and the combined mass damping \massdamp\ are formulated from the linearised QSS model. The power data of obtained from numerically solving the QSS model and direct numerical simulations are presented though the new parameters and compared against the classical VIV parameters. Furthermore, an expression for the frequency of the system is formulated in terms of \massstiff\ and \massdamp. The data obtained though this model are compared against data acquired though QSS model and DNS. 
+ 
+ 
+ Chapter \ref{chap:cross-sections} addresses the objectives of phase 2, where the possibility of achieving higher power transfer though the inhibition of shear layer reattachment is investigated. The inhibition of the shear layer reattachment is achieved by altering the afterbody of the square cross section. The mean power data of these cross sections obtained using the QSS model and DNS are analysed and compared. Key regions of the \cy\ vs. $\theta$ curve which significantly influences the power transfer are analysed and compared. Through this comparison, design considerations for an efficient galloping energy harvesting system are discussed.        

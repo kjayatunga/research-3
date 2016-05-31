@@ -24,7 +24,12 @@
 	
 $a_1,a_3,a_5,a_7$ & Coefficients of the polynomial to determine $C_y$ \\ 
 $A$ & Displacement amplitude\\
+$\mathcal{A}=DL$ & Frontal area of the body\\ 
 $c$ & Damping constant \\
+$\cstar=cD/mU$ & Non-dimensionalised damping factor \\
+$C_L=F_L/0.5\rho U^2DL$ & Lift force coefficient \\
+$C_D=F_D/0.5\rho U^2DL$ & Drag force coefficient \\
+$C_y=F_y/0.5\rho U^2DL$ & Transverse force coefficient \\
 $D$ & Characteristic length (side length) of the cross section of the body \\
 $El$       &  Subscript denoting integration over a single element        \\
 $f=\sqrt{k/m}/2\pi$ & Natural frequency of the system \\
@@ -33,7 +38,9 @@ $f_s$ & Frequency of vortex shedding \\
 \freqqss & Frequency predicted by the QSS model \\
 \freqlin & Linear frequency \\
 \freqdns & Frequency predicted by DNS simulations \\
-$F_y$ & Instantaneous force normal to the flow \\ 
+$F_L$ & Instantaneous lift force \\ 
+$F_D$ & Instantaneous drag force \\
+$F_y$ & Instantaneous transverse force \\
 $F_0$& Amplitude of the oscillatory force due to vortex shedding \\
 $\mathcal{F}$&  Fourier transform of velocity \\
 $g$         &  Index of the data points inside each element in the \compone-direction \\
@@ -44,6 +51,7 @@ $j$         &  Data point index in computational space in \comptwo-direction \\
 $k$ & Spring constant \\
 $m$ & Mass of the body \\
 $m_a$ & Added mass \\
+$\mstar=m/\rho D^2L$ & Mass ratio \\
 $n$         &  Timestep count to the current timestep                      \\
 \normal\    &  Unit vector in the normal direction to a boundary           \\
 $P_d$ & Power dissipated due to mechanical damping  \\
@@ -53,11 +61,16 @@ $P_t$   & Power transferred to the body by the fluid \\
 $P_s$ & Surface pressure \\
 \Ptrial\    &  Trial solution for pressure                                 \\
 $q$         &  Data point index in computational space in \compone-direction \\
-\residual\  &  Residual formed when substituting trial solution into governing equations                                                                   \\  
+\residual\  &  Residual formed when substituting trial solution into governing equations                                                                   \\ 
+$Re$ & Reynolds number  \\
+ 
 $s$         &  Data point index in computational space in \comptwo-direction \\
 $t$ & Time \\
 $U$ & Freestream velocity \\
 $U_i$ & Induced velocity \\
+$U^*=U/fD$ & Reduced velocity  \\
+\vbase\     &  Normalised component of velocity in the $y$-direction       \\
+\vcyl\      &  Instantaneous transverse cylinder velocity \\
 $V_m$ & velocity magnitude of the flow \\
 \vecV\      &  Non-dimensional velocity vector, $\vecu/U$                  \\
 \Vtrial\    &  Trial solution for velocity                                 \\
@@ -70,41 +83,32 @@ $\Vcyl^{(n+1)\prime}$& Approximation of \Vcyl\ at the end of the timestep after 
 \Vn\        &  Normalised velocity vector at timestep $n$                  \\
 \Vnext\     &  Normalised velocity vector at timestep $n+1$                \\
 $\widehat{\Vint}$&  Vector of \Vint\ at the node points                    \\
-\vbase\     &  Normalised component of velocity in the $y$-direction       \\
-\vcyl\      &  Instantaneous transverse cylinder velocity \\
+$\Delta\Vcyl$& Change in \Vcyl\ over one timestep                          \\
+$\Delta\Vcyl^{\dag}$& First approximation of change in \Vcyl\ over one timestep during the elastically-mounted cylinder convection substep                   \\
 $x$         &  Cartesian coordinate in the freestream flow direction, positive downstream \\                                                                       
 $y$         &  Cartesian coordinate transverse to the flow direction and span direction                                                                                                               \\
 \ycyl\      &  Transverse cylinder displacement                            \\
 $\ycyl^{(n+1)\dag}$&  A first approximation to \ycyl\ at the end of the timestep during the elastically-mounted cylinder convection substep                  \\
 $y,\dot{y},\ddot{y}$ & Transverse displacement, velocity and acceleration of the body/cylinder\\
-$\Delta\Vcyl$& Change in \Vcyl\ over one timestep                          \\
-$\Delta\Vcyl^{\dag}$& First approximation of change in \Vcyl\ over one timestep during the elastically-mounted cylinder convection substep                   \\
-$\Delta\tau$&  The non-dimensional timestep                                \\
-$\epsilon$  &  Under-relaxation parameter used during the elastically-mounted cylinder convection substep \\    
-\comptwo\   &  Coordinate axis in computational space                      \\
-\compone\   &  Coordinate axis in computational space       \\    
-                                           
-$\mathcal{A}=DL$ & Frontal area of the body\\ 
-$\lambda$ & Inverse time scale of a galloping dominated flow \\
-$\lambda_{1,2}$ & Eigenvalues of linearised equation of motion \\
-$\rho$ & Fluid density  \\
-$\omega_n= 2 \pi f$ & Natural angular frequency of the system  \\
-$\omega_s$ & Vortex shedding angular frequency \\
-$\\varphi$ & Strain rate tensor \\
-$\cstar=cD/mU$ & Non-dimensionalised damping factor \\
-$C_y=F_y/0.5\rho U^2DL$ & Normal (lift) force coefficient \\
-$\mstar=m/\rho D^2L$ & Mass ratio \\
-$Re$ & Reynolds number  \\
-$U^*=U/fD$ & Reduced velocity  \\
 $Y=y/D$ & Non-dimensional transverse displacement \\
 $\dot{Y}=m^*\dot{y}/a_1U$ & Non-dimensional transverse velocity \\
 $\ddot{Y}=m^{*2}D\ddot{y}/a_1^2U^2$ & Non-dimensional transverse acceleration \\
+$\Delta\tau$&  The non-dimensional timestep                                \\
+$\epsilon$  &  Under-relaxation parameter used during the elastically-mounted cylinder convection substep \\    
+\comptwo\   &  Coordinate axis in computational space                      \\
+\compone\   &  Coordinate axis in computational space       \\   
 $\Gamma_1 = 4\pi^2m^{*2}/U^{*2}a_1^2$ & First dimensionless group arising from linearised,\\ 
 & Non-dimensionalised equation of motion\\
 $\Gamma_2 = c^*m^*/a_1$ & Second dimensionless group arising from linearised,\\
-& Non-dimensionalised equation of motion \\
-$\zeta= c/2 m \omega_n$ & Damping ratio \\
-$\theta= \tan^{-1}{(\dot{y}/U)}$ & Instantaneous angle of incidence (angle of attack)\\
+& Non-dimensionalised equation of motion \\                                          
+$\lambda$ & Inverse time scale of a galloping dominated flow \\
+$\lambda_{1,2}$ & Eigenvalues of linearised equation of motion \\
+$\omega_n= 2 \pi f$ & Natural angular frequency of the system  \\
+$\omega_s$ & Vortex shedding angular frequency \\
 $\massstiff =  4\pi^2m^{*2}/U^{*2}$ & Combined mass-stiffness parameter\\
 $\massdamp = c^*m^*$ & Combined mass-damping parameter\\
+$\rho$ & Fluid density  \\
+$\varphi$ & Strain rate tensor \\
+$\theta= \tan^{-1}{(\dot{y}/U)}$ & Instantaneous angle of incidence (angle of attack)\\
+$\zeta= c/2 m \omega_n$ & Damping ratio \\
 \end{longtable} 
