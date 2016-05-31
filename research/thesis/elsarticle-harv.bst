@@ -1,4 +1,4 @@
-opyright 2007, 2008, 2009 Elsevier Ltd
+%%Copyright 2007, 2008, 2009 Elsevier Ltd
 %% 
 %% This file is part of the 'Elsarticle Bundle'.
 %% ---------------------------------------------
