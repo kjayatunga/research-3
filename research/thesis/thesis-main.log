@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  30 MAY 2016 12:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  31 MAY 2016 11:01
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -716,13 +716,7 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 45--65
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 81--82
-[]|\OT1/cmr/m/n/10.95 Transverse dis-place-ment, ve-loc-ity and ac-cel-er-a-tio
-n of the
- []
-
-
-Overfull \hbox (24.0pt too wide) in alignment at lines 65--85
+Overfull \hbox (24.0pt too wide) in alignment at lines 65--86
  [] [] 
  []
 
@@ -731,13 +725,19 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 65--85
 
 
 ]
-Underfull \hbox (badness 5771) in paragraph at lines 85--86
+Underfull \hbox (badness 1622) in paragraph at lines 92--93
+[]|\OT1/cmr/m/n/10.95 Transverse dis-place-ment, ve-loc-ity and ac-cel-er-a-tio
+n of the
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 97--98
 []|\OT1/cmr/m/n/10.95 Under-relaxation pa-ram-e-ter used dur-ing the elasticall
 y-
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 85--106
+Overfull \hbox (24.0pt too wide) in alignment at lines 86--106
  [] [] 
  []
 
@@ -1311,12 +1311,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13935 strings out of 493090
- 272407 string characters out of 6134868
- 315270 words of memory out of 5000000
- 16816 multiletter control sequences out of 15000+600000
+ 13936 strings out of 493090
+ 272428 string characters out of 6134868
+ 314279 words of memory out of 5000000
+ 16817 multiletter control sequences out of 15000+600000
  21229 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,14n,54p,2183b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (118 pages, 374752 bytes).
+Output written on thesis-main.dvi (118 pages, 376272 bytes).
