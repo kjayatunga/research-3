@@ -1,9 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2016.1.21)  31 MAY 2016 16:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  8 JUN 2016 09:51
 entering extended mode
  restricted \write18 enabled.
+ Source specials enabled.
  %&-line parsing enabled.
-**\input results-2.tex
+**results-2.tex
 (./results-2.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 ! Undefined control sequence.
 l.1 \chapter
             {Governing parameters of fluid-elastic galloping}
@@ -91,7 +94,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1--4
-[]
+[][]
  []
 
 
@@ -374,7 +377,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no ? in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 5--6
-[]
+[][]
  []
 
 
@@ -840,10 +843,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -942,7 +943,7 @@ Missing character: There is no 4 in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 7--8
-[]
+[][]
  []
 
 
@@ -1476,7 +1477,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 11--12
-[]
+[][]
  []
 
 
@@ -2298,7 +2299,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 13--14
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -2341,7 +2342,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 15--16
-[]
+[][]
  []
 
 
@@ -3075,7 +3076,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 17--18
-[]
+[][]
  []
 
 
@@ -3149,11 +3150,11 @@ l.19 .../chapter-pi_1_pi_2/figure/cy_vs_theta.tex}
 
  
 Here is how much of TeX's memory you used:
- 17 strings out of 494999
- 319 string characters out of 6180801
- 46999 words of memory out of 5000000
- 3327 multiletter control sequences out of 15000+600000
+ 17 strings out of 493090
+ 313 string characters out of 6134868
+ 54196 words of memory out of 5000000
+ 3599 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
- 34 hyphenation exceptions out of 8191
- 18i,2n,21p,993b,89s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 1141 hyphenation exceptions out of 8191
+ 18i,2n,21p,986b,89s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
