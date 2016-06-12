@@ -236,6 +236,7 @@ f_{lin} = \sqrt{\left(\frac{U}{D}\right)^2\left(c^*-\frac{a_1}{2m^*}\right)^2 - 
 \end{equation}
 By taking the factor of $U/D$ to the left-hand side
 \begin{equation}
+\label{eqn:f_lin}
 \frac{f_{lin}D}{U} = \sqrt{\left(c^*-\frac{a_1}{2m^*}\right)^2 - 4\left(\frac{2\pi}{U^*}\right)^2}.
 \end{equation}
 Expanding terms gives
@@ -260,17 +261,16 @@ Note that $f_{lin}$ is nondimensionalised using the same timescale as was used t
 
 \subsection{Comparison of predicted frequencies using different approaches}
 
-Predictions for the frequency of the system were obtained using three different techniques namely the predictions of the linearised QSS model, predictions from the full QSS model and DNS. All of these quantities are scaled using $\mstar(D/U)$ and thus the nondimensionalised frequencies are defined as  \freqlin, \freqqss\ and \freqdns which obtained from  linearised QSS equation, full QSS model and DNS respectively.  
-
-
- For given values of \massstiff\ and \massdamp\, the linear frequency \freqlin\ was found by solving equation \ref{eqn:linear_freq_final}. \freqqss\ was obtained by performing a power spectrum analysis on the time trace of the velocity of the body  obtained by numerically solving the quasi-steady state equation. \freqdns\ was obtained using a similar technique as \freqqss\ however, the velocity data was obtained through DNS simulations of fluid-structure interactions. Data were obtained at a constant undamped natural frequency of $f=0.025$ ($\ustar=40$).
+Predictions for the frequency of the system were obtained using three different techniques namely the predictions of the linearised QSS model, predictions from the full QSS model and DNS. For given values of \massstiff\ and \massdamp\, the linear frequency \freqlin\ was found by solving equation \ref{eqn:liner_freq}. \freqqss\ was obtained by performing a power spectrum analysis on the time trace of the velocity of the body  obtained by numerically solving the quasi-steady state equation. \freqdns\ was obtained using a similar technique as \freqqss\ however, the velocity data was obtained through DNS simulations of fluid-structure interactions. Data were obtained at a constant undamped natural frequency of $f=0.025$ ($\ustar=40$).
 
 \input{./chapter-frequnecy-response/figures/freq-015.tex}
 
-The three frequency predictions are presented as a function of  \massstiff\ in figure \ref{fig:pi2-015-freq} at a constant \massdamp of $0.15$. Here, the undamped natural frequency was kept constant at $f=0.025$ ($\ustar=40$). Thus, \massstiff\ was varied by varying \mstar. 
+The three frequency predictions are presented as a function of  \massstiff\ in figure \ref{fig:pi2-015-freq} at a constant \massdamp of $0.15$. Here, the undamped natural frequency was kept constant at $f=0.025$ ($\ustar=40$). Thus, \massstiff\ was varied by varying \mstar. Data in figure \ref{fig:pi2-015-freq} (a) is presented without the scaling of \mstar\ and \ref{fig:pi2-015-freq} (b) is presented with the scaling of \mstar. The dilation of different frequencies as \massstiff\ reduces, can clearly observed in figure \ref{fig:pi2-015-freq} (a) without the scaling of \mstar.
 
+The DNS frequency \freqdns, deviates from $f_in$ for low values of \massstiff. However, it converges to \freqinput\ around $\massstiff=10$. In comparison, both \freqlin\ and \freqqss\ converge to \freqinput\ much quicker, around $\massstiff = 1$, with \freqlin\ converging slightly quicker than \freqqss. One noticeable fact is that the linear frequency deviates from \freqinput\ and reduces rapidly for values of \massstiff\ less than 1 in comparison with \freqqss. One possible explanation for this effect is the contribution of the higher-order nonlinear terms present in the forcing in the QSS model presented in equation \ref{final_equation_motion}. For small values of \massstiff, these terms will start to have a significant effect. As these nonlinear terms by definition are not included in \freqlin, their relatively larger impact will make the linear frequency prediction less accurate. Furthermore, the ratio of $\frac{f_{lin}}{f_{qss}}$ (figure \ref{fig:freq-qss-linear}) shows the deviation becoming larger as the system approaches the region of high power transfer ($\massdamp\ 0.4-0.5$). This can be an indication of the non-linearities of the forcing becoming more prominent in the the region of higher power transfer.
 
-The DNS frequency \freqdns, deviates from $f_in$ for low values of \massstiff. However, it converges to \freqinput\ around $\massstiff=10$. In comparison, both \freqlin\ and \freqqss\ converge to \freqinput\ much quicker, around $\massstiff = 1$, with \freqlin\ converging slightly quicker than \freqqss. One noticeable fact is that the linear frequency deviates from \freqinput\ and reduces rapidly for values of \massstiff\ less than 1 in comparison with \freqqss. One possible explanation for this effect is the contribution of the higher-order nonlinear terms present in the forcing in the QSS model presented in equation \ref{final_equation_motion}. For small values of \massstiff, these terms will start to have a significant effect. As these nonlinear terms by definition are not included in \freqlin, their relatively larger impact will make the linear frequency prediction less accurate.
+\input{./chapter-frequnecy-response/figures/flin-qss.tex}
+
 
 \input{./chapter-frequnecy-response/figures/velocity-signal.tex}          
 
@@ -285,6 +285,7 @@ The underpinning reason for this phenomenon is that as \massdamp\ is fixed, \mst
  Thus, at high \massstiff\, the significant forcing of the oscillatory system is governed by the linear terms of the forcing. As \massstiff\ drops to a significantly low level, the non-linear terms of the forcing start affecting the system. As the linear frequency model does not account for the non-linear terms of the forcing function, a significant deviation of the linear frequency from the QSS frequency can be observed.
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 \subsubsection{Spectral analysis of the DNS data at low \massstiff}
+\label{subsec:freq-spectrum}
 
 \input{./chapter-pi_1_pi_2/figure/feq-spectrum}
 
@@ -303,20 +304,12 @@ The data of figure \ref{fig:pi2-015-freq} show how the various frequency measure
 
 \input{./chapter-frequnecy-response/figures/fdns-f.tex}
 
-Figure \ref{fig:flin-f} shows the frequency ratio between the \freqlin\ and \freqinput. The non-dimensional frequency \freqlin tends to converge to the input frequency for $\massstiff>10$. At $\massstiff<10$ \freqlin\ deviate from \freqinput across the region of \massdamp. A similar behavior could be observed for the ratio between the \freqqss\ and \freqinput in \massstiff\ and \massdamp\ space (\ref{fig:fqss-f}). The divination from the undamped natural frequency starts around $\massstiff=1$.  
+Figures \ref{fig:flin-f}, \ref{fig:fqss-f},  \ref{fig:fdns-f} the non dimemsionalised \freqlin\, \freqqss\ and \freqdns\ respectively. Essentially, both frequencies tend to be a function of \massstiff.   
 
-
-
-
-Figure \ref{eqn:liner_freq} shows the frequency ratio between \freqlin\ and \freqqss\ in the \massstiff, \massdamp\ space. The QSS frequency data tends to agree well between \freqlin\ and \freqqss\ for $\massstiff>10$. This agreement can be clearly observed for almost all values of \massdamp, at $\massstiff>10$. As \massstiff\ reduced the frequency ratio tends to reduce implying a deviation between the frequencies. \KJ{There is something to do with \massdamp as well somehow at low \massdamp\ the deviation is larger but I can't figure out why ??} KASUN: seriously, what is going on with the presentation of these frequencies? Figure has everything normalized by $f$, now everything is presented as ratios of the various frequencies. I'm supervising and I can barely make sense of what you are trying to present here, there is no way your reviewers will understand. You are not limited for space. Present contours of flin/f, fqss/f, fdns/f. THEN  if you want to compare, present flin/fdns - I don't see the point in comparing to fqss. Tie your explanation of the system behaviour back to these plots.
-
-
-
-The frequency ratio between \freqlin\ and \freqdns\ in the \massstiff, \massdamp\ space is presented in figure \ref{fig:feq-dns}. 
-
+  
 \input{./chapter-frequnecy-response/figures/fdns-flinear.tex}
 
-The lower boundary of \massstiff\ was limited $\massstiff=10$ as a clear deviation of \freqlin\ and \freqdns was observed $\massstiff<10$ (\ref{fig:pi2-015-freq}). KASUN: what is the point of making a comparison if you eliminate the cases where the two values deviate? Furthermore, the galloping can only be detected in the spectrum of the velocity signal for a very limited window of low \massdamp. Thus, comparison of data at $\massstiff<10$ was not carried out. Nevertheless, within the given boundaries the two frequencies \freqlin\ and \freqdns\ tend to be in good agreement. KASUN: tie this description into a description of the figures you have produced. How does figure 4.17 and figure 4.18 show this good agreement? What is the main feature of the plot that shows this? Furthermore, as the lower limit of \massstiff\ considered in the main scope of this study is $\massstiff=10$, it can be concluded that expression formulated for the frequency of the system obtained using the newly formulated parameters \massstiff\ and \massdamp\ agrees well within the boundaries of consideration for energy harvesting. KASUN: expand here. Why is this lower limit acceptable? It seems to me systems with very low restoring force would be great, because I wouldn't need to install any springs - but this will give $\massstiff \rightarrow 0$. Don't hide results you don't like. Now, the fact that you don't see any galloping as $\massstiff \rightarrow 0$ IS interesting. Why should galloping depend on the stiffness? Or is it just that the frequency becomes so low that we don't have enough time history to resolve it?
+The lower boundary of \massstiff\ for the DNS results was limited $\massstiff=10$. This was due to the difficulty of obtaining a galloping signal through DNS simulations as \massdamp\ increases. As discussed in section \ref{subsec:freq-spectrum}, vortex shedding becomes more dominant and galloping becomes weaker as \massstiff\ reduces. This as \massdamp\ increases the galloping signal further weakens. Thus, the lower boundary of \massstiff\  was set where DNS data could be obtained across the range of \massdamp\ considered for power transfer ($\massdamp\ 015-0.8$). The ratio between \freqlin\ and \freqdns\ a good agreement in the rage of \massstiff\ considered. Thus, the expression formulated for the frequency of the system obtained using the newly formulated parameters \massstiff\ and \massdamp\ can be used as a model for prediction of the frequency of an energy harvesting system.  
 	
 
 . % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
@@ -337,9 +330,8 @@ From the eigenvalues of the system from the linearised QSS model, an expression 
 
 Comparison of frequency data obtained using the QSS model, linear frequency and DNS simulations shows a deviation from the undamped natural frequency of the system at $\massstiff<10$. The linear frequency showed a rapid decrease with further decreases in \massstiff\ for $\massstiff<1$. It is concluded that when \massstiff\ drops to a significantly low level, the non-linear terms of the forcing function of the system start affecting the system. As these non-linearities are not accounted in the linearised QSS model which is used to formulate \freqlin\ a significant deviation of the linear frequency from the QSS frequency can be observed.
 
-The linear frequency agreed well with the DNS results within the boundaries of consideration. The lower boundary of \massstiff\ was limited to $\massstiff=10$ as a clear deviation of \freqlin\ and \freqdns was observed $\massstiff<10$. (\ref{fig:pi2-015-freq}). However, as \massstiff\ considered for energy transfer are $\massstiff>10$, it can be concluded that expression formulated for the frequency of the system obtained using the newly formulated parameters \massstiff\ and \massdamp\ can be used as a model for prediction of the frequency of an energy harvesting system.  
+The linear frequency agreed well with the DNS results within the boundaries of consideration. The lower boundary of \massstiff\ was limited to $\massstiff=10$ as it was the lower limit where DNS data can be obtained across the range of \massdamp\ considered for power transfer ($\massdamp\ 015-0.8$). However, as \massstiff\ considered for energy transfer are $\massstiff>10$, it can be concluded that expression formulated for the frequency of the system obtained using the newly formulated parameters \massstiff\ and \massdamp\ can be used as a model for prediction of the frequency of an energy harvesting system.  
  
-\KJ{Need to add a sentence saying this concludes the phase 1 of the study.}
  
 
 
