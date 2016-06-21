@@ -22,7 +22,7 @@
 \contentsline {subsubsection}{The convection substep}{27}
 \contentsline {subsubsection}{The pressure substep}{30}
 \contentsline {subsubsection}{The diffusion substep}{31}
-\contentsline {subsubsection}{Spatial discretisation:Spectral element method}{31}
+\contentsline {subsubsection}{Spatial discretisation: Spectral element method}{31}
 \contentsline {subsubsection}{Boundary conditions}{35}
 \contentsline {subsection}{\numberline {3.4.3}Convergence and validation studies}{36}
 \contentsline {subsubsection}{Domain size}{36}
@@ -39,7 +39,7 @@
 \contentsline {section}{\numberline {4.2}Frequency response of the system}{62}
 \contentsline {subsection}{\numberline {4.2.1}Formulating the linear frequency of the system}{62}
 \contentsline {subsection}{\numberline {4.2.2}Comparison of predicted frequencies using different approaches}{63}
-\contentsline {subsubsection}{Spectral analysis of the DNS data at low \ensuremath {\Pi _1}}{66}
+\contentsline {subsubsection}{Spectral analysis of the DNS data at low \ensuremath {\Pi _1}}{67}
 \contentsline {subsubsection}{Comparison of $f_{lin}$\ and $f_{QSS}$\ in \ensuremath {\Pi _1}\ \ensuremath {\Pi _2}\ space}{68}
 \contentsline {section}{\numberline {4.3}Summary of analysis of power transfer using the QSS model}{68}
 \contentsline {chapter}{\numberline {5}Optimization of the cross section for power extraction}{76}

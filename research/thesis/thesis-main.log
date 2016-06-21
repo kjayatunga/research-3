@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  19 JUN 2016 12:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  21 JUN 2016 10:44
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1110,30 +1110,14 @@ line 24.
 LaTeX Warning: Reference `eqn:linear_freq_final' on page 63 undefined on input 
 line 24.
 
+)
 
 Package Fancyhdr Warning: \headheight is too small (13.59999pt): 
  Make it at least 25.16252pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[63])
-
-LaTeX Warning: Reference `fig:pi2-015-freq' on page 64 undefined on input line 
-268.
-
-
-LaTeX Warning: Reference `fig:pi2-015-freq' on page 64 undefined on input line 
-268.
-
-
-LaTeX Warning: Reference `fig:pi2-015-freq' on page 64 undefined on input line 
-268.
-
-
-LaTeX Warning: Reference `fig:pi2-015-freq' on page 64 undefined on input line 
-268.
-
-[64] (./chapter-frequnecy-response/figures/flin-qss.tex
+[63] [64] (./chapter-frequnecy-response/figures/flin-qss.tex
 File: ./chapter-frequnecy-response/fnp/flin-fqss.eps Graphic file (type eps)
 
 <./chapter-frequnecy-response/fnp/flin-fqss.eps>)
@@ -1153,10 +1137,7 @@ File: ./chapter-frequnecy-response/fnp/theta_time_history_1000.eps Graphic file
 File: ./chapter-frequnecy-response/fnp/theta_time_history_0001.eps Graphic file
  (type eps)
 
-<./chapter-frequnecy-response/fnp/theta_time_history_0001.eps>)
-Underfull \vbox (badness 2073) has occurred while \output is active []
-
- [65]
+<./chapter-frequnecy-response/fnp/theta_time_history_0001.eps>) [65] [66]
 (./chapter-pi_1_pi_2/figure/feq-spectrum.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-1-sig.eps Graphic file (type eps)
 
@@ -1185,12 +1166,7 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-03.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [66] [67]
-
-LaTeX Warning: Reference `fig:pi2-015-freq' on page 68 undefined on input line 
-298.
-
-(./chapter-frequnecy-response/figures/flin-f.tex
+) [67] (./chapter-frequnecy-response/figures/flin-f.tex
 File: ./chapter-frequnecy-response/fnp/f_lin_f.eps Graphic file (type eps)
 
 <./chapter-frequnecy-response/fnp/f_lin_f.eps>)
@@ -1207,7 +1183,7 @@ File: ./chapter-frequnecy-response/fnp/fdns-flinear.eps Graphic file (type eps)
 
 
 <./chapter-frequnecy-response/fnp/fdns-flinear.eps>) [68]
-Underfull \vbox (badness 2073) has occurred while \output is active []
+Underfull \vbox (badness 1062) has occurred while \output is active []
 
  [69])
 (./chapter-cross-sections/results-2.tex [70] [71] [72] [73] [74] [75]
@@ -1334,11 +1310,6 @@ Chapter 6.
 [97
 
 ]
-
-LaTeX Warning: Reference `fig:pi2-015-freq' on page 98 undefined on input line 
-16.
-
-
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
  [98]
@@ -1359,10 +1330,10 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  13958 strings out of 493090
  272979 string characters out of 6134868
- 314326 words of memory out of 5000000
+ 314338 words of memory out of 5000000
  16826 multiletter control sequences out of 15000+600000
  21229 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,14n,54p,2183b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,14n,54p,2184b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (120 pages, 379180 bytes).
+Output written on thesis-main.dvi (120 pages, 379208 bytes).
