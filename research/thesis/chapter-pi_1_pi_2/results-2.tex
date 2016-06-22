@@ -304,16 +304,14 @@ The data of figure \ref{fig:pi2-015-freq} show how the various frequency measure
 
 \input{./chapter-frequnecy-response/figures/fdns-f.tex}
 
-Figures \ref{fig:flin-f}, \ref{fig:fqss-f},  \ref{fig:fdns-f} show the non dimemsionalised \freqlin\, \freqqss\ and \freqdns\ respectively. Essentially, both frequencies tend to be functions of \massstiff.   
+Figures \ref{fig:flin-f}, \ref{fig:fqss-f},  \ref{fig:fdns-f} show the non dimemsionalised \freqlin\, \freqqss\ and \freqdns\ respectively. Essentially, both frequencies tend to be functions of \massstiff, with very little dependence on \massdamp. This is shown by the essentially straight vertical contours in figures \ref{fig:flin-f}, \ref{fig:fqss-f},  \ref{fig:fdns-f}.
 
   
 \input{./chapter-frequnecy-response/figures/fdns-flinear.tex}
 
-The lower boundary of \massstiff\ for the DNS results was limited $\massstiff=10$. This was due to the difficulty of obtaining a galloping signal through DNS simulations as \massdamp\ increases. As discussed in section \ref{subsec:freq-spectrum}, vortex shedding becomes more dominant and galloping becomes weaker as \massstiff\ reduces. Thus as \massdamp\ increases the galloping signal further weakens. Thus, the lower boundary of \massstiff\  was set where DNS data can be obtained across the range of \massdamp\ considered for power transfer ($\massdamp\ 015-0.8$). The ratio between \freqlin\ and \freqdns\ shows a good agreement in the range of \massstiff\ considered. Thus, the expression formulated for the frequency of the system obtained using the newly formulated parameters \massstiff\ and \massdamp\ can be used as a model for prediction of the frequency of an energy harvesting system.  
-	
+The lower boundary of \massstiff\ for the DNS results was limited $\massstiff=10$. As discussed in section \ref{subsec:freq-spectrum}, vortex shedding becomes more dominant and galloping becomes weaker as \massstiff\ reduces.  Further, as \massdamp\ increases the galloping signal further weakens. Because of this, it was difficult or impossible to obtain a reliable galloping signal through DNS simulations as \massdamp\ increases.  Thus, the lower boundary of \massstiff\  was set where DNS data can be obtained across the range of \massdamp\ considered for power transfer ($\massdamp\ 015-0.8$). The ratio between \freqlin\ and \freqdns\ over this range is presented in figure \ref{fig:feq-dns}. The figure shows that over this range, the ratio is between 0.9 and 1,  showing a good agreement between the two frequencies. Thus, the expression formulated for the frequency presented in equation (\ref{eqn:linear_freq_final-1}), formed by linearising the equation of motion and using the newly formulated parameters \massstiff\ and \massdamp, can be used as a model for prediction of the frequency of an energy harvesting system.  
 
-. % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
-
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 
 \section{Summary of analysis of power transfer using the QSS model}
 \label{sec:summary-pi_1-pi_2}
