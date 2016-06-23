@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.1.23)  23 JUN 2016 09:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.1.23)  24 JUN 2016 08:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1023,19 +1023,27 @@ LaTeX Warning: Float too large for page by 2.37473pt on input line 18.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-[19]) (./chapter-methodology/methodology.tex [20]
+[19])
+(./chapter-methodology/methodology-diffa24c59567f6d81f127930b68bdfab2cbe57d32ba
+.tex [20]
 Chapter 3.
 [21
 
 ]
-Underfull \vbox (badness 4913) has occurred while \output is active []
+Overfull \hbox (41.00641pt too wide) in paragraph at lines 21--25
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
-[23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33]
+[23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
 
-LaTeX Warning: Command \L invalid in math mode on input line 359.
+LaTeX Warning: Command \L invalid in math mode on input line 382.
 
-[34] [35] [36] (./chapter-methodology/figures/square-mesh.tex
+[35] [36] (./chapter-methodology/figures/square-mesh.tex
 Package epstopdf Info: Source file: <./chapter-methodology/fnp/square-mesh.eps>
 
 (epstopdf)                    date: 2016-04-26 08:56:19
@@ -1049,7 +1057,7 @@ square-mesh-eps-converted-to.pdf ./chapter-methodology/fnp/square-mesh.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-methodology/fnp/square-mesh-eps-converted-to.pdf, id=266, 456.70625p
+<./chapter-methodology/fnp/square-mesh-eps-converted-to.pdf, id=267, 456.70625p
 t x 351.3125pt>
 File: ./chapter-methodology/fnp/square-mesh-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1058,8 +1066,11 @@ type pdf)
 Package pdftex.def Info: ./chapter-methodology/fnp/square-mesh-eps-converted-to
 .pdf used on input line 6.
 (pdftex.def)             Requested size: 344.80132pt x 265.24199pt.
-)
-(./chapter-methodology/figures/zoom-mesh.tex
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chapter-methodology/figures/zoom-mesh.tex
 Package epstopdf Info: Source file: <./chapter-methodology/fnp/mesh.eps>
 (epstopdf)                    date: 2016-04-26 08:56:19
 (epstopdf)                    size: 1074942 bytes
@@ -1072,7 +1083,7 @@ mesh-eps-converted-to.pdf ./chapter-methodology/fnp/mesh.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-methodology/fnp/mesh-eps-converted-to.pdf, id=267, 456.70625pt x 351
+<./chapter-methodology/fnp/mesh-eps-converted-to.pdf, id=268, 456.70625pt x 351
 .3125pt>
 File: ./chapter-methodology/fnp/mesh-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1093,7 +1104,7 @@ hyb0.75-mesh-eps-converted-to.pdf ./chapter-methodology/fnp/hyb0.75-mesh.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-methodology/fnp/hyb0.75-mesh-eps-converted-to.pdf, id=268, 456.70625
+<./chapter-methodology/fnp/hyb0.75-mesh-eps-converted-to.pdf, id=269, 456.70625
 pt x 351.3125pt>
 File: ./chapter-methodology/fnp/hyb0.75-mesh-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1115,7 +1126,7 @@ hyb0.5-mesh-eps-converted-to.pdf ./chapter-methodology/fnp/hyb0.5-mesh.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-methodology/fnp/hyb0.5-mesh-eps-converted-to.pdf, id=269, 456.70625p
+<./chapter-methodology/fnp/hyb0.5-mesh-eps-converted-to.pdf, id=270, 456.70625p
 t x 351.3125pt>
 File: ./chapter-methodology/fnp/hyb0.5-mesh-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1137,7 +1148,7 @@ hyb0.25-mesh-eps-converted-to.pdf ./chapter-methodology/fnp/hyb0.25-mesh.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-methodology/fnp/hyb0.25-mesh-eps-converted-to.pdf, id=270, 456.70625
+<./chapter-methodology/fnp/hyb0.25-mesh-eps-converted-to.pdf, id=271, 456.70625
 pt x 351.3125pt>
 File: ./chapter-methodology/fnp/hyb0.25-mesh-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1160,7 +1171,7 @@ triangle-mesh-eps-converted-to.pdf ./chapter-methodology/fnp/triangle-mesh.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-methodology/fnp/triangle-mesh-eps-converted-to.pdf, id=271, 456.7062
+<./chapter-methodology/fnp/triangle-mesh-eps-converted-to.pdf, id=272, 456.7062
 5pt x 351.3125pt>
 File: ./chapter-methodology/fnp/triangle-mesh-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1185,7 +1196,7 @@ nvergencexs.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-methodology/fnp/vel-amp-convergencexs-eps-converted-to.pdf, id=272, 
+<./chapter-methodology/fnp/vel-amp-convergencexs-eps-converted-to.pdf, id=273, 
 341.275pt x 170.6375pt>
 File: ./chapter-methodology/fnp/vel-amp-convergencexs-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1209,7 +1220,7 @@ freq-response-convergencexs-eps-converted-to.pdf ./chapter-methodology/fnp/freq
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-methodology/fnp/freq-response-convergencexs-eps-converted-to.pdf, id
-=273, 341.275pt x 170.6375pt>
+=274, 341.275pt x 170.6375pt>
 File: ./chapter-methodology/fnp/freq-response-convergencexs-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -1218,16 +1229,19 @@ f Graphic file (type pdf)
 Package pdftex.def Info: ./chapter-methodology/fnp/freq-response-convergencexs-
 eps-converted-to.pdf used on input line 8.
 (pdftex.def)             Requested size: 215.5pt x 107.75214pt.
-) [37 <./chapter-methodology/fnp/square-mesh-eps-converted-to.pdf>] [38 <./chap
-ter-methodology/fnp/mesh-eps-converted-to.pdf> <./chapter-methodology/fnp/hyb0.
-75-mesh-eps-converted-to.pdf> <./chapter-methodology/fnp/hyb0.5-mesh-eps-conver
-ted-to.pdf> <./chapter-methodology/fnp/hyb0.25-mesh-eps-converted-to.pdf> <./ch
-apter-methodology/fnp/triangle-mesh-eps-converted-to.pdf>])
-(./chapter-pi_1_pi_2/results-2.tex [39 <./chapter-methodology/fnp/vel-amp-conve
+) [37]
+Underfull \vbox (badness 2012) has occurred while \output is active []
+
+ [38 <./chapter-methodology/fnp/square-mesh-eps-converted-to.pdf>] [39 <./chapt
+er-methodology/fnp/mesh-eps-converted-to.pdf> <./chapter-methodology/fnp/hyb0.7
+5-mesh-eps-converted-to.pdf> <./chapter-methodology/fnp/hyb0.5-mesh-eps-convert
+ed-to.pdf> <./chapter-methodology/fnp/hyb0.25-mesh-eps-converted-to.pdf> <./cha
+pter-methodology/fnp/triangle-mesh-eps-converted-to.pdf>])
+(./chapter-pi_1_pi_2/results-2.tex [40 <./chapter-methodology/fnp/vel-amp-conve
 rgencexs-eps-converted-to.pdf> <./chapter-methodology/fnp/freq-response-converg
 encexs-eps-converted-to.pdf>]
 Chapter 4.
-[40
+[41
 
 ] (./chapter-pi_1_pi_2/figure/cy_vs_theta.tex
 Package epstopdf Info: Source file: <./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve
@@ -1244,7 +1258,7 @@ curve_200.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_200-eps-converted-to.pdf, id=322, 3
+<./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_200-eps-converted-to.pdf, id=326, 3
 41.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_200-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1267,7 +1281,7 @@ _curve_park.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_park-eps-converted-to.pdf, id=323, 
+<./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_park-eps-converted-to.pdf, id=327, 
 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_park-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1277,9 +1291,9 @@ Package pdftex.def Info: ./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_park-eps-co
 nverted-to.pdf used on input line 8.
 (pdftex.def)             Requested size: 215.5pt x 107.75214pt.
 )
-(./chapter-pi_1_pi_2/figure/coefficient-table.tex) [41] [42 <./chapter-pi_1_pi_
+(./chapter-pi_1_pi_2/figure/coefficient-table.tex) [42] [43 <./chapter-pi_1_pi_
 2/FnP/gnuplot/lift_curve_200-eps-converted-to.pdf> <./chapter-pi_1_pi_2/FnP/gnu
-plot/lift_curve_park-eps-converted-to.pdf>] [43] [44]
+plot/lift_curve_park-eps-converted-to.pdf>] [44] [45]
 (./chapter-pi_1_pi_2/figure/compare_data.tex
 Package epstopdf Info: Source file: <./chapter-pi_1_pi_2/FnP/gnuplot/displaceme
 nt_amp_re200.eps>
@@ -1296,7 +1310,7 @@ ot/displacement_amp_re200.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200-eps-converted-to.pdf, i
-d=346, 341.275pt x 170.6375pt>
+d=350, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -1319,8 +1333,8 @@ elocity_amp_re200.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/velocity_amp_re200-eps-converted-to.pdf, id=34
-7, 341.275pt x 170.6375pt>
+<./chapter-pi_1_pi_2/FnP/gnuplot/velocity_amp_re200-eps-converted-to.pdf, id=35
+1, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/velocity_amp_re200-eps-converted-to.pdf G
 raphic file (type pdf)
 
@@ -1342,7 +1356,7 @@ an_power_re_200.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_re_200-eps-converted-to.pdf, id=348
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_re_200-eps-converted-to.pdf, id=352
 , 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_re_200-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -1366,7 +1380,7 @@ uplot/velocity_amp_collapsed_re200-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/velocity_amp_collapsed_re200-eps-converted-to.
-pdf, id=349, 341.275pt x 170.6375pt>
+pdf, id=353, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/velocity_amp_collapsed_re200-eps-converte
 d-to.pdf Graphic file (type pdf)
 
@@ -1390,7 +1404,7 @@ gnuplot/mean_power_collapsed_re_200.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_re_200-eps-converted-to.p
-df, id=350, 341.275pt x 170.6375pt>
+df, id=354, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_re_200-eps-converted
 -to.pdf Graphic file (type pdf)
 
@@ -1414,7 +1428,7 @@ uplot/displacement_amp_collpased_re200-eps-converted-to.pdf ./chapter-pi_1_pi_2
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_collpased_re200-eps-converted
--to.pdf, id=351, 341.275pt x 170.6375pt>
+-to.pdf, id=355, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_collpased_re200-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
@@ -1443,7 +1457,7 @@ nuplot/displacement_amp_re200_col.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200_col-eps-converted-to.pd
-f, id=352, 341.275pt x 170.6375pt>
+f, id=356, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200_col-eps-converted-
 to.pdf Graphic file (type pdf)
 
@@ -1452,13 +1466,13 @@ o.pdf>
 Package pdftex.def Info: ./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200
 _col-eps-converted-to.pdf used on input line 9.
 (pdftex.def)             Requested size: 323.25pt x 161.63602pt.
-) [45] [46 <./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200-eps-converte
+) [46] [47 <./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200-eps-converte
 d-to.pdf> <./chapter-pi_1_pi_2/FnP/gnuplot/velocity_amp_re200-eps-converted-to.
 pdf> <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_re_200-eps-converted-to.pdf> <
 ./chapter-pi_1_pi_2/FnP/gnuplot/velocity_amp_collapsed_re200-eps-converted-to.p
 df> <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_re_200-eps-converted-
 to.pdf> <./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_collpased_re200-eps-c
-onverted-to.pdf>] [47 <./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200_c
+onverted-to.pdf>] [48 <./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200_c
 ol-eps-converted-to.pdf>] (./chapter-pi_1_pi_2/figure/collapsed_data.tex
 Package epstopdf Info: Source file: <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power
 _collapsed_parkinson.eps>
@@ -1475,7 +1489,7 @@ nP/gnuplot/mean_power_collapsed_parkinson.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson-eps-converted-t
-o.pdf, id=415, 341.275pt x 170.6375pt>
+o.pdf, id=419, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson-eps-conver
 ted-to.pdf Graphic file (type pdf)
 
@@ -1487,7 +1501,7 @@ arkinson-eps-converted-to.pdf used on input line 12.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48 <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson-eps-conver
+ [49 <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson-eps-conver
 ted-to.pdf>] (./chapter-pi_1_pi_2/figure/high_pi_1.tex
 Package epstopdf Info: Source file: <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power
 _high_pi_1.eps>
@@ -1504,7 +1518,7 @@ uplot/mean_power_high_pi_1-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_high_pi_1-eps-converted-to.pdf, id=
-428, 341.275pt x 170.6375pt>
+432, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_high_pi_1-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -1527,7 +1541,7 @@ lot/mean_power_low_pi_plot2.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2-eps-converted-to.pdf, 
-id=429, 341.275pt x 170.6375pt>
+id=433, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2-eps-converted-to.
 pdf Graphic file (type pdf)
 
@@ -1552,7 +1566,7 @@ ot/power_time_history_015.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_015-eps-converted-to.pdf, i
-d=430, 341.275pt x 170.6375pt>
+d=434, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_015-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -1575,7 +1589,7 @@ history_015.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_015-eps-converted-to.pdf, id=431, 
+<./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_015-eps-converted-to.pdf, id=435, 
 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_015-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1599,7 +1613,7 @@ ot/theta_time_history_015.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_015-eps-converted-to.pdf, i
-d=432, 341.275pt x 170.6375pt>
+d=436, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_015-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -1623,7 +1637,7 @@ t/power_time_history_54.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_54-eps-converted-to.pdf, id
-=433, 341.275pt x 170.6375pt>
+=437, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_54-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -1646,7 +1660,7 @@ istory_54.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_54-eps-converted-to.pdf, id=434, 3
+<./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_54-eps-converted-to.pdf, id=438, 3
 41.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_54-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1670,7 +1684,7 @@ t/theta_time_history_54.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_54-eps-converted-to.pdf, id
-=435, 341.275pt x 170.6375pt>
+=439, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_54-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -1694,7 +1708,7 @@ t/power_time_history_08.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_08-eps-converted-to.pdf, id
-=436, 341.275pt x 170.6375pt>
+=440, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_08-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -1717,7 +1731,7 @@ istory_08.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_08-eps-converted-to.pdf, id=437, 3
+<./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_08-eps-converted-to.pdf, id=441, 3
 41.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_08-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1741,7 +1755,7 @@ t/theta_time_history_08.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08-eps-converted-to.pdf, id
-=438, 341.275pt x 170.6375pt>
+=442, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -1750,9 +1764,9 @@ f Graphic file (type pdf)
 Package pdftex.def Info: ./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08-
 eps-converted-to.pdf used on input line 18.
 (pdftex.def)             Requested size: 150.85263pt x 75.42702pt.
-) [49] [50 <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_high_pi_1-eps-converted-
+) [50] [51 <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_high_pi_1-eps-converted-
 to.pdf> <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_plot2-eps-converted-
-to.pdf>] [51 <./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_015-eps-conver
+to.pdf>] [52 <./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_015-eps-conver
 ted-to.pdf> <./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_015-eps-converted-to.p
 df> <./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_015-eps-converted-to.pd
 f> <./chapter-pi_1_pi_2/FnP/gnuplot/power_time_history_54-eps-converted-to.pdf>
@@ -1763,7 +1777,7 @@ i_1_pi_2/FnP/gnuplot/f_y_history_08-eps-converted-to.pdf> <./chapter-pi_1_pi_2/
 FnP/gnuplot/theta_time_history_08-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
+ [53]
 (./chapter-pi_1_pi_2/figure/low_pi_1.tex
 Package epstopdf Info: Source file: <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power
 _low_pi_1.eps>
@@ -1780,7 +1794,7 @@ mean_power_low_pi_1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1-eps-converted-to.pdf, id=5
-15, 341.275pt x 170.6375pt>
+19, 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -1788,7 +1802,7 @@ Graphic file (type pdf)
 Package pdftex.def Info: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1-ep
 s-converted-to.pdf used on input line 9.
 (pdftex.def)             Requested size: 323.25pt x 161.63602pt.
-) [53 <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1-eps-converted-to.pdf
+) [54 <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1-eps-converted-to.pdf
 >] (./chapter-pi_1_pi_2/figure/qss_fsi.tex
 Package epstopdf Info: Source file: <./chapter-pi_1_pi_2/FnP/gnuplot/fqss_fsi_d
 isplace.eps>
@@ -1804,7 +1818,7 @@ ss_fsi_displace.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/fqss_fsi_displace-eps-converted-to.pdf, id=529
+<./chapter-pi_1_pi_2/FnP/gnuplot/fqss_fsi_displace-eps-converted-to.pdf, id=533
 , 341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/fqss_fsi_displace-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -1827,7 +1841,7 @@ _fsi_velocity.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/qss_fsi_velocity-eps-converted-to.pdf, id=530,
+<./chapter-pi_1_pi_2/FnP/gnuplot/qss_fsi_velocity-eps-converted-to.pdf, id=534,
  341.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/qss_fsi_velocity-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1850,7 +1864,7 @@ i_power.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/qss_fsi_power-eps-converted-to.pdf, id=531, 34
+<./chapter-pi_1_pi_2/FnP/gnuplot/qss_fsi_power-eps-converted-to.pdf, id=535, 34
 1.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/qss_fsi_power-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -1874,7 +1888,7 @@ uplot/p_max-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/p_max.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/p_max-eps-converted-to.pdf, id=532, 341.275pt 
+<./chapter-pi_1_pi_2/FnP/gnuplot/p_max-eps-converted-to.pdf, id=536, 341.275pt 
 x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/p_max-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1896,7 +1910,7 @@ eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max-eps-converted-to.pdf, id=533, 341.27
+<./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max-eps-converted-to.pdf, id=537, 341.27
 5pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1908,8 +1922,8 @@ d-to.pdf used on input line 7.
 )
 Underfull \vbox (badness 2073) has occurred while \output is active []
 
- [54]
-[55 <./chapter-pi_1_pi_2/FnP/gnuplot/fqss_fsi_displace-eps-converted-to.pdf> <.
+ [55]
+[56 <./chapter-pi_1_pi_2/FnP/gnuplot/fqss_fsi_displace-eps-converted-to.pdf> <.
 /chapter-pi_1_pi_2/FnP/gnuplot/qss_fsi_velocity-eps-converted-to.pdf> <./chapte
 r-pi_1_pi_2/FnP/gnuplot/qss_fsi_power-eps-converted-to.pdf>]
 (./chapter-pi_1_pi_2/figure/error.tex
@@ -1926,7 +1940,7 @@ uplot/error-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/error.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/error-eps-converted-to.pdf, id=563, 341.275pt 
+<./chapter-pi_1_pi_2/FnP/gnuplot/error-eps-converted-to.pdf, id=567, 341.275pt 
 x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/error-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1934,7 +1948,7 @@ type pdf)
 Package pdftex.def Info: ./chapter-pi_1_pi_2/FnP/gnuplot/error-eps-converted-to
 .pdf used on input line 6.
 (pdftex.def)             Requested size: 323.25pt x 161.63602pt.
-) [56 <./chapter-pi_1_pi_2/FnP/gnuplot/p_max-eps-converted-to.pdf> <./chapter-p
+) [57 <./chapter-pi_1_pi_2/FnP/gnuplot/p_max-eps-converted-to.pdf> <./chapter-p
 i_1_pi_2/FnP/gnuplot/p_2_p_max-eps-converted-to.pdf>]
 (./chapter-pi_1_pi_2/figure/spectrum.tex
 Package epstopdf Info: Source file: <./chapter-pi_1_pi_2/FnP/gnuplot/spec_20_si
@@ -1951,7 +1965,7 @@ sig.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/spec_20_sig-eps-converted-to.pdf, id=581, 341.
+<./chapter-pi_1_pi_2/FnP/gnuplot/spec_20_sig-eps-converted-to.pdf, id=585, 341.
 275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_20_sig-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1974,7 +1988,7 @@ sig.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/spec_50_sig-eps-converted-to.pdf, id=582, 341.
+<./chapter-pi_1_pi_2/FnP/gnuplot/spec_50_sig-eps-converted-to.pdf, id=586, 341.
 275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_50_sig-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1997,7 +2011,7 @@ uplot/spec_100_sig-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/spec_10
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/spec_100_sig-eps-converted-to.pdf, id=583, 341
+<./chapter-pi_1_pi_2/FnP/gnuplot/spec_100_sig-eps-converted-to.pdf, id=587, 341
 .275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_100_sig-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2020,7 +2034,7 @@ uplot/spec_200_sig-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/spec_20
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/spec_200_sig-eps-converted-to.pdf, id=584, 341
+<./chapter-pi_1_pi_2/FnP/gnuplot/spec_200_sig-eps-converted-to.pdf, id=588, 341
 .275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_200_sig-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2043,7 +2057,7 @@ uplot/spec_20-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/spec_20.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/spec_20-eps-converted-to.pdf, id=585, 341.275p
+<./chapter-pi_1_pi_2/FnP/gnuplot/spec_20-eps-converted-to.pdf, id=589, 341.275p
 t x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_20-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2066,7 +2080,7 @@ uplot/spec_50-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/spec_50.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/spec_50-eps-converted-to.pdf, id=586, 341.275p
+<./chapter-pi_1_pi_2/FnP/gnuplot/spec_50-eps-converted-to.pdf, id=590, 341.275p
 t x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_50-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2089,7 +2103,7 @@ s>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/spec_100-eps-converted-to.pdf, id=587, 341.275
+<./chapter-pi_1_pi_2/FnP/gnuplot/spec_100-eps-converted-to.pdf, id=591, 341.275
 pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_100-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2112,7 +2126,7 @@ s>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/spec_200-eps-converted-to.pdf, id=588, 341.275
+<./chapter-pi_1_pi_2/FnP/gnuplot/spec_200-eps-converted-to.pdf, id=592, 341.275
 pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_200-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2140,7 +2154,7 @@ _20_sig.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_20_sig-eps-converted-to.pdf, id=589, 34
+<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_20_sig-eps-converted-to.pdf, id=593, 34
 1.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_20_sig-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2163,7 +2177,7 @@ _50_sig.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_50_sig-eps-converted-to.pdf, id=590, 34
+<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_50_sig-eps-converted-to.pdf, id=594, 34
 1.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_50_sig-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2186,7 +2200,7 @@ c_100_sig.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_100_sig-eps-converted-to.pdf, id=591, 3
+<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_100_sig-eps-converted-to.pdf, id=595, 3
 41.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_100_sig-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -2209,7 +2223,7 @@ c_200_sig.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_200_sig-eps-converted-to.pdf, id=592, 3
+<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_200_sig-eps-converted-to.pdf, id=596, 3
 41.275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_200_sig-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -2232,7 +2246,7 @@ eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_20-eps-converted-to.pdf, id=593, 341.27
+<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_20-eps-converted-to.pdf, id=597, 341.27
 5pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_20-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2255,7 +2269,7 @@ eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_50-eps-converted-to.pdf, id=594, 341.27
+<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_50-eps-converted-to.pdf, id=598, 341.27
 5pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_50-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2278,7 +2292,7 @@ uplot/cyspec_100-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_10
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_100-eps-converted-to.pdf, id=595, 341.2
+<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_100-eps-converted-to.pdf, id=599, 341.2
 75pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_100-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2301,7 +2315,7 @@ uplot/cyspec_200-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_20
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_200-eps-converted-to.pdf, id=596, 341.2
+<./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_200-eps-converted-to.pdf, id=600, 341.2
 75pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_200-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2317,14 +2331,14 @@ LaTeX Warning: Float too large for page by 17.7279pt on input line 64.
 )
 Underfull \vbox (badness 3138) has occurred while \output is active []
 
- [57 <./chapter-pi_1_pi_2/FnP/gnuplot/error-eps-converted-to.pdf>] [58 <./chapt
+ [58 <./chapter-pi_1_pi_2/FnP/gnuplot/error-eps-converted-to.pdf>] [59 <./chapt
 er-pi_1_pi_2/FnP/gnuplot/spec_20_sig-eps-converted-to.pdf> <./chapter-pi_1_pi_2
 /FnP/gnuplot/spec_50_sig-eps-converted-to.pdf> <./chapter-pi_1_pi_2/FnP/gnuplot
 /spec_100_sig-eps-converted-to.pdf> <./chapter-pi_1_pi_2/FnP/gnuplot/spec_200_s
 ig-eps-converted-to.pdf> <./chapter-pi_1_pi_2/FnP/gnuplot/spec_20-eps-converted
 -to.pdf> <./chapter-pi_1_pi_2/FnP/gnuplot/spec_50-eps-converted-to.pdf> <./chap
 ter-pi_1_pi_2/FnP/gnuplot/spec_100-eps-converted-to.pdf> <./chapter-pi_1_pi_2/F
-nP/gnuplot/spec_200-eps-converted-to.pdf>] [59 <./chapter-pi_1_pi_2/FnP/gnuplot
+nP/gnuplot/spec_200-eps-converted-to.pdf>] [60 <./chapter-pi_1_pi_2/FnP/gnuplot
 /cyspec_20_sig-eps-converted-to.pdf> <./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_50
 _sig-eps-converted-to.pdf> <./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_100_sig-eps-
 converted-to.pdf> <./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_200_sig-eps-converted
@@ -2346,7 +2360,7 @@ s>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow-eps-converted-to.pdf, id=702, 341.275
+<./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow-eps-converted-to.pdf, id=706, 341.275
 pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2369,7 +2383,7 @@ uplot/10-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/10.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/10-eps-converted-to.pdf, id=703, 898.35625pt x
+<./chapter-pi_1_pi_2/FnP/gnuplot/10-eps-converted-to.pdf, id=707, 898.35625pt x
  224.84pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/10-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2389,7 +2403,7 @@ uplot/60-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/60.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/60-eps-converted-to.pdf, id=704, 898.35625pt x
+<./chapter-pi_1_pi_2/FnP/gnuplot/60-eps-converted-to.pdf, id=708, 898.35625pt x
  224.84pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/60-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2409,7 +2423,7 @@ uplot/250-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/250.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/250-eps-converted-to.pdf, id=705, 898.35625pt 
+<./chapter-pi_1_pi_2/FnP/gnuplot/250-eps-converted-to.pdf, id=709, 898.35625pt 
 x 224.84pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/250-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2429,7 +2443,7 @@ uplot/1000-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/1000-eps-converted-to.pdf, id=706, 898.35625pt
+<./chapter-pi_1_pi_2/FnP/gnuplot/1000-eps-converted-to.pdf, id=710, 898.35625pt
  x 224.84pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/1000-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2438,16 +2452,16 @@ Package pdftex.def Info: ./chapter-pi_1_pi_2/FnP/gnuplot/1000-eps-converted-to.
 pdf used on input line 8.
 (pdftex.def)             Requested size: 431.0pt x 107.8705pt.
 )
-[60 <./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow-eps-converted-to.pdf>]
+[61 <./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61 <./chapter-pi_1_pi_2/FnP/gnuplot/10-eps-converted-to.pdf> <./chapter-pi_1_
+ [62 <./chapter-pi_1_pi_2/FnP/gnuplot/10-eps-converted-to.pdf> <./chapter-pi_1_
 pi_2/FnP/gnuplot/60-eps-converted-to.pdf> <./chapter-pi_1_pi_2/FnP/gnuplot/250-
 eps-converted-to.pdf> <./chapter-pi_1_pi_2/FnP/gnuplot/1000-eps-converted-to.pd
 f>]
-[62]
+[63]
 
-LaTeX Warning: Reference `eqn:linear_freq_final' on page 63 undefined on input 
+LaTeX Warning: Reference `eqn:linear_freq_final' on page 64 undefined on input 
 line 260.
 
 (./chapter-frequnecy-response/figures/freq-015.tex
@@ -2465,7 +2479,7 @@ s>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-frequnecy-response/fnp/freq015-eps-converted-to.pdf, id=733, 341.275
+<./chapter-frequnecy-response/fnp/freq015-eps-converted-to.pdf, id=737, 341.275
 pt x 170.6375pt>
 File: ./chapter-frequnecy-response/fnp/freq015-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2488,7 +2502,7 @@ se/fnp/freq015_2-eps-converted-to.pdf ./chapter-frequnecy-response/fnp/freq015_
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-frequnecy-response/fnp/freq015_2-eps-converted-to.pdf, id=734, 341.2
+<./chapter-frequnecy-response/fnp/freq015_2-eps-converted-to.pdf, id=738, 341.2
 75pt x 170.6375pt>
 File: ./chapter-frequnecy-response/fnp/freq015_2-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2499,22 +2513,22 @@ ed-to.pdf used on input line 9.
 (pdftex.def)             Requested size: 344.80132pt x 172.4128pt.
 
 
-LaTeX Warning: Reference `eqn:linear_freq_final' on page 63 undefined on input 
+LaTeX Warning: Reference `eqn:linear_freq_final' on page 64 undefined on input 
 line 24.
 
 
-LaTeX Warning: Reference `eqn:linear_freq_final' on page 63 undefined on input 
+LaTeX Warning: Reference `eqn:linear_freq_final' on page 64 undefined on input 
 line 24.
 
-)
+) [64]
 
 Package Fancyhdr Warning: \headheight is too small (13.59999pt): 
  Make it at least 25.16252pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[63] [64 <./chapter-frequnecy-response/fnp/freq015-eps-converted-to.pdf> <./cha
-pter-frequnecy-response/fnp/freq015_2-eps-converted-to.pdf>]
+[65 <./chapter-frequnecy-response/fnp/freq015-eps-converted-to.pdf> <./chapter-
+frequnecy-response/fnp/freq015_2-eps-converted-to.pdf>]
 (./chapter-frequnecy-response/figures/flin-qss.tex
 Package epstopdf Info: Source file: <./chapter-frequnecy-response/fnp/flin-fqss
 .eps>
@@ -2530,7 +2544,7 @@ s.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-frequnecy-response/fnp/flin-fqss-eps-converted-to.pdf, id=756, 680.5
+<./chapter-frequnecy-response/fnp/flin-fqss-eps-converted-to.pdf, id=760, 680.5
 425pt x 605.26125pt>
 File: ./chapter-frequnecy-response/fnp/flin-fqss-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2556,7 +2570,7 @@ fnp/vel_time_history_1000.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-frequnecy-response/fnp/vel_time_history_1000-eps-converted-to.pdf, i
-d=757, 341.275pt x 170.6375pt>
+d=761, 341.275pt x 170.6375pt>
 File: ./chapter-frequnecy-response/fnp/vel_time_history_1000-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -2580,7 +2594,7 @@ fnp/vel_time_history_0001.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-frequnecy-response/fnp/vel_time_history_0001-eps-converted-to.pdf, i
-d=758, 341.275pt x 170.6375pt>
+d=762, 341.275pt x 170.6375pt>
 File: ./chapter-frequnecy-response/fnp/vel_time_history_0001-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -2604,7 +2618,7 @@ e/fnp/theta_time_history_1000.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-frequnecy-response/fnp/theta_time_history_1000-eps-converted-to.pdf,
- id=759, 341.275pt x 170.6375pt>
+ id=763, 341.275pt x 170.6375pt>
 File: ./chapter-frequnecy-response/fnp/theta_time_history_1000-eps-converted-to
 .pdf Graphic file (type pdf)
 
@@ -2628,7 +2642,7 @@ e/fnp/theta_time_history_0001.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./chapter-frequnecy-response/fnp/theta_time_history_0001-eps-converted-to.pdf,
- id=760, 341.275pt x 170.6375pt>
+ id=764, 341.275pt x 170.6375pt>
 File: ./chapter-frequnecy-response/fnp/theta_time_history_0001-eps-converted-to
 .pdf Graphic file (type pdf)
 
@@ -2637,8 +2651,8 @@ pdf>
 Package pdftex.def Info: ./chapter-frequnecy-response/fnp/theta_time_history_00
 01-eps-converted-to.pdf used on input line 12.
 (pdftex.def)             Requested size: 213.3429pt x 106.6716pt.
-) [65 <./chapter-frequnecy-response/fnp/flin-fqss-eps-converted-to.pdf>]
-[66 <./chapter-frequnecy-response/fnp/vel_time_history_1000-eps-converted-to.pd
+) [66 <./chapter-frequnecy-response/fnp/flin-fqss-eps-converted-to.pdf>]
+[67 <./chapter-frequnecy-response/fnp/vel_time_history_1000-eps-converted-to.pd
 f> <./chapter-frequnecy-response/fnp/vel_time_history_0001-eps-converted-to.pdf
 > <./chapter-frequnecy-response/fnp/theta_time_history_1000-eps-converted-to.pd
 f> <./chapter-frequnecy-response/fnp/theta_time_history_0001-eps-converted-to.p
@@ -2661,7 +2675,7 @@ g.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/freq-1-sig-eps-converted-to.pdf, id=796, 341.2
+<./chapter-pi_1_pi_2/FnP/gnuplot/freq-1-sig-eps-converted-to.pdf, id=800, 341.2
 75pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-1-sig-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2684,7 +2698,7 @@ sig.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/freq-05-sig-eps-converted-to.pdf, id=797, 341.
+<./chapter-pi_1_pi_2/FnP/gnuplot/freq-05-sig-eps-converted-to.pdf, id=801, 341.
 275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-05-sig-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2707,7 +2721,7 @@ sig.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/freq-04-sig-eps-converted-to.pdf, id=798, 341.
+<./chapter-pi_1_pi_2/FnP/gnuplot/freq-04-sig-eps-converted-to.pdf, id=802, 341.
 275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-04-sig-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2730,7 +2744,7 @@ sig.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/freq-03-sig-eps-converted-to.pdf, id=799, 341.
+<./chapter-pi_1_pi_2/FnP/gnuplot/freq-03-sig-eps-converted-to.pdf, id=803, 341.
 275pt x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-03-sig-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2752,7 +2766,7 @@ uplot/freq-1-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/freq-1.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/freq-1-eps-converted-to.pdf, id=800, 341.275pt
+<./chapter-pi_1_pi_2/FnP/gnuplot/freq-1-eps-converted-to.pdf, id=804, 341.275pt
  x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-1-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -2775,7 +2789,7 @@ uplot/freq-05-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/freq-05.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/freq-05-eps-converted-to.pdf, id=801, 341.275p
+<./chapter-pi_1_pi_2/FnP/gnuplot/freq-05-eps-converted-to.pdf, id=805, 341.275p
 t x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-05-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2798,7 +2812,7 @@ uplot/freq-04-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/freq-04.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/freq-04-eps-converted-to.pdf, id=802, 341.275p
+<./chapter-pi_1_pi_2/FnP/gnuplot/freq-04-eps-converted-to.pdf, id=806, 341.275p
 t x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-04-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2821,7 +2835,7 @@ uplot/freq-03-eps-converted-to.pdf ./chapter-pi_1_pi_2/FnP/gnuplot/freq-03.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/freq-03-eps-converted-to.pdf, id=803, 341.275p
+<./chapter-pi_1_pi_2/FnP/gnuplot/freq-03-eps-converted-to.pdf, id=807, 341.275p
 t x 170.6375pt>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-03-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2830,8 +2844,8 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-03-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-03-eps-converted-
 to.pdf used on input line 15.
 (pdftex.def)             Requested size: 215.5pt x 107.75214pt.
-) [67]
-[68 <./chapter-pi_1_pi_2/FnP/gnuplot/freq-1-sig-eps-converted-to.pdf> <./chapte
+) [68]
+[69 <./chapter-pi_1_pi_2/FnP/gnuplot/freq-1-sig-eps-converted-to.pdf> <./chapte
 r-pi_1_pi_2/FnP/gnuplot/freq-05-sig-eps-converted-to.pdf> <./chapter-pi_1_pi_2/
 FnP/gnuplot/freq-04-sig-eps-converted-to.pdf> <./chapter-pi_1_pi_2/FnP/gnuplot/
 freq-03-sig-eps-converted-to.pdf> <./chapter-pi_1_pi_2/FnP/gnuplot/freq-1-eps-c
@@ -2853,7 +2867,7 @@ s>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-frequnecy-response/fnp/f_lin_f-eps-converted-to.pdf, id=855, 680.542
+<./chapter-frequnecy-response/fnp/f_lin_f-eps-converted-to.pdf, id=859, 680.542
 5pt x 605.26125pt>
 File: ./chapter-frequnecy-response/fnp/f_lin_f-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2878,7 +2892,7 @@ s>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-frequnecy-response/fnp/f_qss_f-eps-converted-to.pdf, id=856, 680.542
+<./chapter-frequnecy-response/fnp/f_qss_f-eps-converted-to.pdf, id=860, 680.542
 5pt x 605.26125pt>
 File: ./chapter-frequnecy-response/fnp/f_qss_f-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2903,7 +2917,7 @@ s>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-frequnecy-response/fnp/f_dns_f-eps-converted-to.pdf, id=857, 680.542
+<./chapter-frequnecy-response/fnp/f_dns_f-eps-converted-to.pdf, id=861, 680.542
 5pt x 605.26125pt>
 File: ./chapter-frequnecy-response/fnp/f_dns_f-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2928,7 +2942,7 @@ flinear.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-frequnecy-response/fnp/fdns-flinear-eps-converted-to.pdf, id=858, 68
+<./chapter-frequnecy-response/fnp/fdns-flinear-eps-converted-to.pdf, id=862, 68
 0.5425pt x 621.32124pt>
 File: ./chapter-frequnecy-response/fnp/fdns-flinear-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2938,17 +2952,17 @@ Package pdftex.def Info: ./chapter-frequnecy-response/fnp/fdns-flinear-eps-conv
 erted-to.pdf used on input line 9.
 (pdftex.def)             Requested size: 323.25pt x 295.12117pt.
 )
-[69 <./chapter-frequnecy-response/fnp/f_lin_f-eps-converted-to.pdf>]
+[70 <./chapter-frequnecy-response/fnp/f_lin_f-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70 <./chapter-frequnecy-response/fnp/f_qss_f-eps-converted-to.pdf>] [71 <./ch
-apter-frequnecy-response/fnp/f_dns_f-eps-converted-to.pdf>] [72 <./chapter-freq
+ [71 <./chapter-frequnecy-response/fnp/f_qss_f-eps-converted-to.pdf>] [72 <./ch
+apter-frequnecy-response/fnp/f_dns_f-eps-converted-to.pdf>] [73 <./chapter-freq
 unecy-response/fnp/fdns-flinear-eps-converted-to.pdf>])
-(./chapter-cross-sections/results-2.tex [73]
+(./chapter-cross-sections/results-2.tex [74]
 Chapter 5.
-[74
+[75
 
-] [75] (./chapter-cross-sections/figures/sketch-1.tex
+] [76] (./chapter-cross-sections/figures/sketch-1.tex
 Package epstopdf Info: Source file: <./chapter-cross-sections/fnp/hybrid_sectio
 n.eps>
 (epstopdf)                    date: 2016-04-26 08:56:19
@@ -2963,7 +2977,7 @@ ion.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/hybrid_section-eps-converted-to.pdf, id=916, 145.
+<./chapter-cross-sections/fnp/hybrid_section-eps-converted-to.pdf, id=921, 145.
 54375pt x 198.7425pt>
 File: ./chapter-cross-sections/fnp/hybrid_section-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2975,9 +2989,9 @@ ted-to.pdf used on input line 6.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
-[77 <./chapter-cross-sections/fnp/hybrid_section-eps-converted-to.pdf>]
-(./chapter-cross-sections/figures/coefficient-table.tex) [78]
+ [77]
+[78 <./chapter-cross-sections/fnp/hybrid_section-eps-converted-to.pdf>]
+(./chapter-cross-sections/figures/coefficient-table.tex) [79]
 (./chapter-cross-sections/figures/lift_curves.tex
 Package epstopdf Info: Source file: <./chapter-cross-sections/fnp/lift_curve_sq
 .eps>
@@ -2993,7 +3007,7 @@ q.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/lift_curve_sq-eps-converted-to.pdf, id=931, 341.2
+<./chapter-cross-sections/fnp/lift_curve_sq-eps-converted-to.pdf, id=935, 341.2
 75pt x 170.6375pt>
 File: ./chapter-cross-sections/fnp/lift_curve_sq-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -3016,7 +3030,7 @@ np/lift_curve_075-eps-converted-to.pdf ./chapter-cross-sections/fnp/lift_curve_
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/lift_curve_075-eps-converted-to.pdf, id=932, 341.
+<./chapter-cross-sections/fnp/lift_curve_075-eps-converted-to.pdf, id=936, 341.
 275pt x 170.6375pt>
 File: ./chapter-cross-sections/fnp/lift_curve_075-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3039,7 +3053,7 @@ np/lift_curve_05-eps-converted-to.pdf ./chapter-cross-sections/fnp/lift_curve_0
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/lift_curve_05-eps-converted-to.pdf, id=933, 341.2
+<./chapter-cross-sections/fnp/lift_curve_05-eps-converted-to.pdf, id=937, 341.2
 75pt x 170.6375pt>
 File: ./chapter-cross-sections/fnp/lift_curve_05-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -3062,7 +3076,7 @@ np/lift_curve_025-eps-converted-to.pdf ./chapter-cross-sections/fnp/lift_curve_
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/lift_curve_025-eps-converted-to.pdf, id=934, 341.
+<./chapter-cross-sections/fnp/lift_curve_025-eps-converted-to.pdf, id=938, 341.
 275pt x 170.6375pt>
 File: ./chapter-cross-sections/fnp/lift_curve_025-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3085,7 +3099,7 @@ tri.eps>
 (epstopdf)             \includegraphics on input line 11.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/lift_curve_tri-eps-converted-to.pdf, id=935, 341.
+<./chapter-cross-sections/fnp/lift_curve_tri-eps-converted-to.pdf, id=939, 341.
 275pt x 170.6375pt>
 File: ./chapter-cross-sections/fnp/lift_curve_tri-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3095,7 +3109,7 @@ Package pdftex.def Info: ./chapter-cross-sections/fnp/lift_curve_tri-eps-conver
 ted-to.pdf used on input line 11.
 (pdftex.def)             Requested size: 215.5pt x 107.75214pt.
 )
-[79 <./chapter-cross-sections/fnp/lift_curve_sq-eps-converted-to.pdf> <./chapte
+[80 <./chapter-cross-sections/fnp/lift_curve_sq-eps-converted-to.pdf> <./chapte
 r-cross-sections/fnp/lift_curve_075-eps-converted-to.pdf> <./chapter-cross-sect
 ions/fnp/lift_curve_05-eps-converted-to.pdf> <./chapter-cross-sections/fnp/lift
 _curve_025-eps-converted-to.pdf> <./chapter-cross-sections/fnp/lift_curve_tri-e
@@ -3114,7 +3128,7 @@ hyb.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/mean_power_hyb-eps-converted-to.pdf, id=964, 341.
+<./chapter-cross-sections/fnp/mean_power_hyb-eps-converted-to.pdf, id=968, 341.
 275pt x 170.6375pt>
 File: ./chapter-cross-sections/fnp/mean_power_hyb-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3124,8 +3138,8 @@ Package pdftex.def Info: ./chapter-cross-sections/fnp/mean_power_hyb-eps-conver
 ted-to.pdf used on input line 9.
 (pdftex.def)             Requested size: 323.25pt x 161.63602pt.
 )
-[80 <./chapter-cross-sections/fnp/mean_power_hyb-eps-converted-to.pdf>]
-[81] (./chapter-cross-sections/figures/surf-pres.tex
+[81 <./chapter-cross-sections/fnp/mean_power_hyb-eps-converted-to.pdf>]
+[82] (./chapter-cross-sections/figures/surf-pres.tex
 Package epstopdf Info: Source file: <./chapter-cross-sections/fnp/surf-pres-tri
 -4.eps>
 (epstopdf)                    date: 2016-04-26 08:56:19
@@ -3140,7 +3154,7 @@ tri-4.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/surf-pres-tri-4-eps-converted-to.pdf, id=976, 341
+<./chapter-cross-sections/fnp/surf-pres-tri-4-eps-converted-to.pdf, id=981, 341
 .275pt x 170.6375pt>
 File: ./chapter-cross-sections/fnp/surf-pres-tri-4-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -3163,7 +3177,7 @@ np/surf-pres-tri-16-eps-converted-to.pdf ./chapter-cross-sections/fnp/surf-pres
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/surf-pres-tri-16-eps-converted-to.pdf, id=977, 34
+<./chapter-cross-sections/fnp/surf-pres-tri-16-eps-converted-to.pdf, id=982, 34
 1.275pt x 170.6375pt>
 File: ./chapter-cross-sections/fnp/surf-pres-tri-16-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -3186,7 +3200,7 @@ np/surf-pres-tri-21-eps-converted-to.pdf ./chapter-cross-sections/fnp/surf-pres
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/surf-pres-tri-21-eps-converted-to.pdf, id=978, 34
+<./chapter-cross-sections/fnp/surf-pres-tri-21-eps-converted-to.pdf, id=983, 34
 1.275pt x 170.6375pt>
 File: ./chapter-cross-sections/fnp/surf-pres-tri-21-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -3196,7 +3210,7 @@ Package pdftex.def Info: ./chapter-cross-sections/fnp/surf-pres-tri-21-eps-conv
 erted-to.pdf used on input line 9.
 (pdftex.def)             Requested size: 323.25pt x 161.63602pt.
 )
-[82] [83 <./chapter-cross-sections/fnp/surf-pres-tri-4-eps-converted-to.pdf> <.
+[83] [84 <./chapter-cross-sections/fnp/surf-pres-tri-4-eps-converted-to.pdf> <.
 /chapter-cross-sections/fnp/surf-pres-tri-16-eps-converted-to.pdf> <./chapter-c
 ross-sections/fnp/surf-pres-tri-21-eps-converted-to.pdf>]
 (./chapter-cross-sections/figures/tri-sketch.tex
@@ -3214,7 +3228,7 @@ np/tri-sketch-eps-converted-to.pdf ./chapter-cross-sections/fnp/tri-sketch.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/tri-sketch-eps-converted-to.pdf, id=1002, 193.723
+<./chapter-cross-sections/fnp/tri-sketch-eps-converted-to.pdf, id=1006, 193.723
 75pt x 276.03125pt>
 File: ./chapter-cross-sections/fnp/tri-sketch-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3239,7 +3253,7 @@ i-4.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/vel_prof-tri-4-eps-converted-to.pdf, id=1003, 341
+<./chapter-cross-sections/fnp/vel_prof-tri-4-eps-converted-to.pdf, id=1007, 341
 .275pt x 170.6375pt>
 File: ./chapter-cross-sections/fnp/vel_prof-tri-4-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3262,7 +3276,7 @@ ri-16.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/vel_prof-tri-16-eps-converted-to.pdf, id=1004, 34
+<./chapter-cross-sections/fnp/vel_prof-tri-16-eps-converted-to.pdf, id=1008, 34
 1.275pt x 170.6375pt>
 File: ./chapter-cross-sections/fnp/vel_prof-tri-16-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -3285,7 +3299,7 @@ ri-21.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/vel_prof-tri-21-eps-converted-to.pdf, id=1005, 34
+<./chapter-cross-sections/fnp/vel_prof-tri-21-eps-converted-to.pdf, id=1009, 34
 1.275pt x 170.6375pt>
 File: ./chapter-cross-sections/fnp/vel_prof-tri-21-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -3298,10 +3312,10 @@ rted-to.pdf used on input line 9.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [84 <./chapter-cross-sections/fnp/tri-sketch-eps-converted-to.pdf>]
+) [85 <./chapter-cross-sections/fnp/tri-sketch-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85 <./chapter-cross-sections/fnp/vel_prof-tri-4-eps-converted-to.pdf> <./chap
+ [86 <./chapter-cross-sections/fnp/vel_prof-tri-4-eps-converted-to.pdf> <./chap
 ter-cross-sections/fnp/vel_prof-tri-16-eps-converted-to.pdf> <./chapter-cross-s
 ections/fnp/vel_prof-tri-21-eps-converted-to.pdf>]
 (./chapter-cross-sections/figures/tri-stream-func.tex
@@ -3317,7 +3331,7 @@ np/4-eps-converted-to.pdf ./chapter-cross-sections/fnp/4.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/4-eps-converted-to.pdf, id=1031, 680.5425pt x 605
+<./chapter-cross-sections/fnp/4-eps-converted-to.pdf, id=1035, 680.5425pt x 605
 .26125pt>
 File: ./chapter-cross-sections/fnp/4-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -3337,7 +3351,7 @@ np/16-eps-converted-to.pdf ./chapter-cross-sections/fnp/16.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/16-eps-converted-to.pdf, id=1032, 680.5425pt x 60
+<./chapter-cross-sections/fnp/16-eps-converted-to.pdf, id=1036, 680.5425pt x 60
 5.26125pt>
 File: ./chapter-cross-sections/fnp/16-eps-converted-to.pdf Graphic file (type p
 df)
@@ -3357,7 +3371,7 @@ np/21-eps-converted-to.pdf ./chapter-cross-sections/fnp/21.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/21-eps-converted-to.pdf, id=1033, 680.5425pt x 60
+<./chapter-cross-sections/fnp/21-eps-converted-to.pdf, id=1037, 680.5425pt x 60
 5.26125pt>
 File: ./chapter-cross-sections/fnp/21-eps-converted-to.pdf Graphic file (type p
 df)
@@ -3365,11 +3379,11 @@ df)
 Package pdftex.def Info: ./chapter-cross-sections/fnp/21-eps-converted-to.pdf u
 sed on input line 9.
 (pdftex.def)             Requested size: 142.23079pt x 126.49905pt.
-) [86 <./chapter-cross-sections/fnp/4-eps-converted-to.pdf> <./chapter-cross-se
+) [87 <./chapter-cross-sections/fnp/4-eps-converted-to.pdf> <./chapter-cross-se
 ctions/fnp/16-eps-converted-to.pdf> <./chapter-cross-sections/fnp/21-eps-conver
 ted-to.pdf>]
 
-LaTeX Warning: Reference `sec:chp-pi_1_pi2_dns' on page 87 undefined on input l
+LaTeX Warning: Reference `sec:chp-pi_1_pi2_dns' on page 88 undefined on input l
 ine 193.
 
 (./chapter-cross-sections/figures/cross-sec-dns-power.tex
@@ -3387,7 +3401,7 @@ np/qss-dns-mean-power-eps-converted-to.pdf ./chapter-cross-sections/fnp/qss-dns
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/qss-dns-mean-power-eps-converted-to.pdf, id=1046,
+<./chapter-cross-sections/fnp/qss-dns-mean-power-eps-converted-to.pdf, id=1050,
  341.275pt x 170.6375pt>
 File: ./chapter-cross-sections/fnp/qss-dns-mean-power-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -3397,7 +3411,7 @@ Package pdftex.def Info: ./chapter-cross-sections/fnp/qss-dns-mean-power-eps-co
 nverted-to.pdf used on input line 6.
 (pdftex.def)             Requested size: 323.25pt x 161.63602pt.
 )
-[87] (./chapter-cross-sections/figures/qss-fsi-error-hyb.tex
+[88] (./chapter-cross-sections/figures/qss-fsi-error-hyb.tex
 Package epstopdf Info: Source file: <./chapter-cross-sections/fnp/qss-dns-pow-e
 rroe.eps>
 (epstopdf)                    date: 2016-04-26 08:56:19
@@ -3412,7 +3426,7 @@ pow-erroe.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/qss-dns-pow-erroe-eps-converted-to.pdf, id=1050, 
+<./chapter-cross-sections/fnp/qss-dns-pow-erroe-eps-converted-to.pdf, id=1055, 
 341.275pt x 170.6375pt>
 File: ./chapter-cross-sections/fnp/qss-dns-pow-erroe-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -3422,7 +3436,7 @@ Package pdftex.def Info: ./chapter-cross-sections/fnp/qss-dns-pow-erroe-eps-con
 verted-to.pdf used on input line 6.
 (pdftex.def)             Requested size: 323.25pt x 161.63602pt.
 )
-[88 <./chapter-cross-sections/fnp/qss-dns-mean-power-eps-converted-to.pdf>]
+[89 <./chapter-cross-sections/fnp/qss-dns-mean-power-eps-converted-to.pdf>]
 (./chapter-cross-sections/figures/fsi_time_sketch.tex
 Package epstopdf Info: Source file: <./chapter-cross-sections/fnp/fsi_flow_sket
 ch.eps>
@@ -3438,7 +3452,7 @@ ketch.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/fsi_flow_sketch-eps-converted-to.pdf, id=1064, 31
+<./chapter-cross-sections/fnp/fsi_flow_sketch-eps-converted-to.pdf, id=1068, 31
 3.17pt x 143.53625pt>
 File: ./chapter-cross-sections/fnp/fsi_flow_sketch-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -3463,7 +3477,7 @@ np/fsi-0.25-1-eps-converted-to.pdf ./chapter-cross-sections/fnp/fsi-0.25-1.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/fsi-0.25-1-eps-converted-to.pdf, id=1065, 522.953
+<./chapter-cross-sections/fnp/fsi-0.25-1-eps-converted-to.pdf, id=1069, 522.953
 75pt x 464.73625pt>
 File: ./chapter-cross-sections/fnp/fsi-0.25-1-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3486,7 +3500,7 @@ np/fsi-0.25-2-eps-converted-to.pdf ./chapter-cross-sections/fnp/fsi-0.25-2.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/fsi-0.25-2-eps-converted-to.pdf, id=1066, 522.953
+<./chapter-cross-sections/fnp/fsi-0.25-2-eps-converted-to.pdf, id=1070, 522.953
 75pt x 464.73625pt>
 File: ./chapter-cross-sections/fnp/fsi-0.25-2-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3509,7 +3523,7 @@ np/fsi-0.25-3-eps-converted-to.pdf ./chapter-cross-sections/fnp/fsi-0.25-3.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/fsi-0.25-3-eps-converted-to.pdf, id=1067, 522.953
+<./chapter-cross-sections/fnp/fsi-0.25-3-eps-converted-to.pdf, id=1071, 522.953
 75pt x 464.73625pt>
 File: ./chapter-cross-sections/fnp/fsi-0.25-3-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3532,7 +3546,7 @@ np/qss-0.25-1-eps-converted-to.pdf ./chapter-cross-sections/fnp/qss-0.25-1.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/qss-0.25-1-eps-converted-to.pdf, id=1068, 522.953
+<./chapter-cross-sections/fnp/qss-0.25-1-eps-converted-to.pdf, id=1072, 522.953
 75pt x 464.73625pt>
 File: ./chapter-cross-sections/fnp/qss-0.25-1-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3555,7 +3569,7 @@ np/qss-0.25-3-eps-converted-to.pdf ./chapter-cross-sections/fnp/qss-0.25-3.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 
-<./chapter-cross-sections/fnp/qss-0.25-3-eps-converted-to.pdf, id=1069, 522.953
+<./chapter-cross-sections/fnp/qss-0.25-3-eps-converted-to.pdf, id=1073, 522.953
 75pt x 464.73625pt>
 File: ./chapter-cross-sections/fnp/qss-0.25-3-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3584,36 +3598,36 @@ File: ./chapter-cross-sections/fnp/qss-0.25-3-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: ./chapter-cross-sections/fnp/qss-0.25-3-eps-converted-
 to.pdf used on input line 15.
 (pdftex.def)             Requested size: 172.39737pt x 153.20741pt.
-) [89 <./chapter-cross-sections/fnp/qss-dns-pow-erroe-eps-converted-to.pdf>]
+) [90 <./chapter-cross-sections/fnp/qss-dns-pow-erroe-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `subsec:cross-sec-qss-mean power' on page 90 undefined
+LaTeX Warning: Reference `subsec:cross-sec-qss-mean power' on page 91 undefined
  on input line 231.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90 <./chapter-cross-sections/fnp/fsi_flow_sketch-eps-converted-to.pdf>] [91 <
+ [91 <./chapter-cross-sections/fnp/fsi_flow_sketch-eps-converted-to.pdf>] [92 <
 ./chapter-cross-sections/fnp/fsi-0.25-1-eps-converted-to.pdf> <./chapter-cross-
 sections/fnp/fsi-0.25-2-eps-converted-to.pdf> <./chapter-cross-sections/fnp/fsi
 -0.25-3-eps-converted-to.pdf> <./chapter-cross-sections/fnp/qss-0.25-1-eps-conv
 erted-to.pdf> <./chapter-cross-sections/fnp/qss-0.25-3-eps-converted-to.pdf>] [
-92]
-[93]) (./chapter-conclusions/conclusions.tex [94]
+93]
+[94]) (./chapter-conclusions/conclusions.tex [95]
 Chapter 6.
-[95
+[96
 
 ]
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
- [96]
-[97]) (./thesis-main.bbl [98] [99
+ [97]
+[98]) (./thesis-main.bbl [99] [100
 
 ]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [100] [101] [102]) [103] (./thesis-main.aux
-(./initial-stuff/originality.aux) (./initial-stuff/abstract.aux)
+ [101] [102] [103]) [104] (./thesis-main.aux (./initial-stuff/originality.aux) 
+(./initial-stuff/abstract.aux)
 (./initial-stuff/acknowledgements.aux) (./initial-stuff/publications.aux)
 (./initial-stuff/nomenclature-1.aux))
 
@@ -3622,12 +3636,12 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  14665 strings out of 495025
- 302337 string characters out of 6181515
- 313519 words of memory out of 5000000
+ 302472 string characters out of 6181515
+ 316525 words of memory out of 5000000
  17254 multiletter control sequences out of 15000+600000
  21229 words of font info for 78 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,14n,54p,2191b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,54p,2564b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -3647,12 +3661,13 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf
 onts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfdi
-ng/uzdr.pfb>
-Output written on thesis-main.pdf (118 pages, 2284402 bytes).
+sfonts/latxfont/lasy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfdin
+g/uzdr.pfb>
+Output written on thesis-main.pdf (119 pages, 2294597 bytes).
 PDF statistics:
- 1223 PDF objects out of 1440 (max. 8388607)
- 793 compressed objects within 8 object streams
+ 1230 PDF objects out of 1440 (max. 8388607)
+ 798 compressed objects within 8 object streams
  0 named destinations out of 1000 (max. 500000)
  563 words of extra memory for PDF output out of 10000 (max. 10000000)
 
