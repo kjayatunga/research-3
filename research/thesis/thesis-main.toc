@@ -13,20 +13,20 @@
 \contentsline {section}{\numberline {3.1}Introduction}{21}
 \contentsline {subsection}{\numberline {3.1.1}Parameters used}{21}
 \contentsline {section}{\numberline {3.2}Quasi-steady model}{23}
-\contentsline {subsubsection}{Solving the quasi-steady state equation}{24}
+\contentsline {subsubsection}{Solving the quasi-steady state equation}{23}
 \contentsline {section}{\numberline {3.3}Calculation of average power}{24}
 \contentsline {section}{\numberline {3.4}Direct numerical simulations (DNS)}{25}
 \contentsline {subsection}{\numberline {3.4.1}Governing equations}{25}
 \contentsline {subsection}{\numberline {3.4.2}Temporal discretisation: Time-splitting}{27}
 \contentsline {subsubsection}{Integration of the substep equations}{28}
 \contentsline {subsubsection}{The convection substep}{28}
-\contentsline {subsubsection}{The pressure substep}{31}
-\contentsline {subsubsection}{The diffusion substep}{32}
-\contentsline {subsubsection}{Spatial discretisation: Spectral element method}{32}
-\contentsline {subsubsection}{Boundary conditions}{36}
-\contentsline {subsection}{\numberline {3.4.3}Convergence and validation studies}{37}
-\contentsline {subsubsection}{Domain size}{37}
-\contentsline {subsubsection}{Convergence}{38}
+\contentsline {subsubsection}{The pressure substep}{30}
+\contentsline {subsubsection}{The diffusion substep}{31}
+\contentsline {subsubsection}{Spatial discretisation: Spectral element method}{31}
+\contentsline {subsubsection}{Boundary conditions}{35}
+\contentsline {subsection}{\numberline {3.4.3}Convergence and validation studies}{36}
+\contentsline {subsubsection}{Domain size}{36}
+\contentsline {subsubsection}{Convergence}{37}
 \contentsline {chapter}{\numberline {4}Governing parameters of fluid-elastic galloping}{41}
 \contentsline {section}{\numberline {4.1}Introduction}{41}
 \contentsline {subsection}{\numberline {4.1.1}Static body results}{42}
