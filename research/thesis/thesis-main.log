@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  27 JUN 2016 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  28 JUN 2016 10:10
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1084,27 +1084,13 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps Graphic file (type eps)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [62]
-[63]
-
-LaTeX Warning: Reference `eqn:linear_freq_final' on page 64 undefined on input 
-line 260.
-
-(./chapter-frequnecy-response/figures/freq-015.tex
+[63] (./chapter-frequnecy-response/figures/freq-015.tex
 File: ./chapter-frequnecy-response/fnp/freq015.eps Graphic file (type eps)
 
 <./chapter-frequnecy-response/fnp/freq015.eps>
 File: ./chapter-frequnecy-response/fnp/freq015_2.eps Graphic file (type eps)
 
-<./chapter-frequnecy-response/fnp/freq015_2.eps>
-
-LaTeX Warning: Reference `eqn:linear_freq_final' on page 64 undefined on input 
-line 24.
-
-
-LaTeX Warning: Reference `eqn:linear_freq_final' on page 64 undefined on input 
-line 24.
-
-) [64]
+<./chapter-frequnecy-response/fnp/freq015_2.eps>) [64]
 
 Package Fancyhdr Warning: \headheight is too small (13.59999pt): 
  Make it at least 25.16252pt.
@@ -1254,10 +1240,6 @@ File: ./chapter-cross-sections/fnp/16.eps Graphic file (type eps)
 File: ./chapter-cross-sections/fnp/21.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/21.eps>) [87]
-
-LaTeX Warning: Reference `sec:chp-pi_1_pi2_dns' on page 88 undefined on input l
-ine 193.
-
 (./chapter-cross-sections/figures/cross-sec-dns-power.tex
 File: ./chapter-cross-sections/fnp/qss-dns-mean-power.eps Graphic file (type ep
 s)
@@ -1291,11 +1273,6 @@ File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/qss-0.25-3.eps>) [90]
-
-LaTeX Warning: Reference `subsec:cross-sec-qss-mean power' on page 91 undefined
- on input line 231.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [91]
@@ -1316,16 +1293,12 @@ Missing character: There is no “ in font cmr10!
  [102] [103]) [104] (./thesis-main.aux (./initial-stuff/originality.aux) (./ini
 tial-stuff/abstract.aux)
 (./initial-stuff/acknowledgements.aux) (./initial-stuff/publications.aux)
-(./initial-stuff/nomenclature-1.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(./initial-stuff/nomenclature-1.aux)) ) 
 Here is how much of TeX's memory you used:
- 13955 strings out of 493090
- 272842 string characters out of 6134868
- 314375 words of memory out of 5000000
- 16827 multiletter control sequences out of 15000+600000
+ 13953 strings out of 493090
+ 272787 string characters out of 6134868
+ 314387 words of memory out of 5000000
+ 16825 multiletter control sequences out of 15000+600000
  21229 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,2184b,417s stack positions out of 5000i,500n,10000p,200000b,80000s

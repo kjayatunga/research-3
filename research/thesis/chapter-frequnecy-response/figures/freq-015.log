@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  11 JUN 2016 08:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  28 JUN 2016 10:05
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -38,11 +38,16 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no ] in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--4
+[][]
+ []
+
 ! Undefined control sequence.
 <argument> \includegraphics 
                             [width=0.75\unitlength ]{{./chapter-frequnecy-re...
-l.22 }
-      
+l.8 ...apter-frequnecy-response/fnp/freq015}.eps}}
+                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -63,8 +68,8 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.22 }
-      
+l.8 ...apter-frequnecy-response/fnp/freq015}.eps}}
+                                                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -72,8 +77,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.22 }
-      
+l.8 ...apter-frequnecy-response/fnp/freq015}.eps}}
+                                                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -128,9 +133,9 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
 <argument> \includegraphics 
-                            [width=0.78\unitlength ]{{./chapter-frequnecy-re...
-l.22 }
-      
+                            [width=0.8\unitlength ]{{./chapter-frequnecy-res...
+l.9 ...ter-frequnecy-response/fnp/freq015_2}.eps}}
+                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -146,13 +151,12 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 7 in font nullfont!
 Missing character: There is no 8 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.22 }
-      
+l.9 ...ter-frequnecy-response/fnp/freq015_2}.eps}}
+                                                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -160,8 +164,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.22 }
-      
+l.9 ...ter-frequnecy-response/fnp/freq015_2}.eps}}
+                                                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -213,20 +217,20 @@ Missing character: There is no 5 in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.22 }
-      
+l.9 ...ter-frequnecy-response/fnp/freq015_2}.eps}}
+                                                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 22.
+(Font)              <7> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 22.
+(Font)              <5> on input line 9.
 ! Extra }, or forgotten $.
 <argument> ...er-frequnecy-response/fnp/freq015_2}
                                                   .eps}
-l.22 }
-      
+l.9 ...ter-frequnecy-response/fnp/freq015_2}.eps}}
+                                                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -236,8 +240,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <argument> ...equnecy-response/fnp/freq015_2}.eps}
                                                   
-l.22 }
-      
+l.9 ...ter-frequnecy-response/fnp/freq015_2}.eps}}
+                                                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -247,8 +251,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \put ... \hb@xt@ \z@ {\kern #1\unitlength #3\hss }
                                                   \ignorespaces 
-l.22 }
-      
+l.9 ...ter-frequnecy-response/fnp/freq015_2}.eps}}
+                                                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -258,27 +262,55 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.22 }
-      
+l.10 
+     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
 <argument> \massstiff 
                       
-l.22 }
-      
+l.11 	      \put(0.47,0.00){\massstiff}
+                                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+<argument> \small 
+                  (a)
+l.19 	      \put(0.17,0.47){\small(a)}
+                                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+<argument> \small 
+                  (b)
+l.20 	      \put(0.17,0.085){\small(b)}
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no ) in font nullfont!
 ! Missing } inserted.
 <inserted text> 
                 }
-l.22 }
-      
+l.22 	    \end{picture}
+                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -288,8 +320,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.22 }
-      
+l.22 	    \end{picture}
+                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -299,8 +331,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.22 }
-      
+l.22 	    \end{picture}
+                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -319,8 +351,21 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 	  \caption
-                {Frequency data as a function of \massstiff. Frequency obtai...
+l.24 	  \caption
+                {Frequency data as a function of \massstiff, (a) without and...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 	  \caption{F
+                  requency data as a function of \massstiff, (a) without and...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -352,7 +397,48 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.23 ...Frequency data as a function of \massstiff
+l.24 ...Frequency data as a function of \massstiff
+                                                  , (a) without and (b) with...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no , in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+! Undefined control sequence.
+l.24 ...) without and (b) with scaling with \mstar
                                                   . Frequency obtained using...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -448,7 +534,7 @@ Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
 <write> ...qn:linear_freq_final' on page \thepage 
                                                   \space undefined\on@line .
-l.23 ...y equation (Eq:\ref{eqn:linear_freq_final}
+l.24 ...y equation (Eq:\ref{eqn:linear_freq_final}
                                                   ). $f_{i}$ is the type of ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -458,7 +544,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `eqn:linear_freq_final' on page  undefined on input li
-ne 23.
+ne 24.
 
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -487,7 +573,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.23 ...i}$ is the type of frequency i.e. \freqdns
+l.24 ...i}$ is the type of frequency i.e. \freqdns
                                                   ,\freqqss ,\freqlin. Data ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -497,7 +583,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.23 ...e type of frequency i.e. \freqdns,\freqqss
+l.24 ...e type of frequency i.e. \freqdns,\freqqss
                                                    ,\freqlin. Data present $...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -507,7 +593,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.23 ...frequency i.e. \freqdns,\freqqss ,\freqlin
+l.24 ...frequency i.e. \freqdns,\freqqss ,\freqlin
                                                   . Data present $f_{lin}$ (...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -532,7 +618,7 @@ Missing character: There is no ) in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.23 ...nt $f_{lin}$ ($\bullet$), $f_{QSS}$ (\ding
+l.24 ...nt $f_{lin}$ ($\bullet$), $f_{QSS}$ (\ding
                                                   {115}) and $f_{DNS}$ ($\ti...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -554,7 +640,7 @@ Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
 <recently read> \massdamp 
                           
-l.23 ...5}) and $f_{DNS}$ ($\times$) at $\massdamp
+l.24 ...5}) and $f_{DNS}$ ($\times$) at $\massdamp
                                                   =0.15$, $\reynoldsnumber=2...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -566,7 +652,7 @@ Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
 <recently read> \reynoldsnumber 
                                 
-l.23 ...es$) at $\massdamp=0.15$, $\reynoldsnumber
+l.24 ...es$) at $\massdamp=0.15$, $\reynoldsnumber
                                                   =200$ and undamped natural...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -604,7 +690,7 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.23 ... natural frequency, $f=0.025$ (\dashedrule
+l.24 ... natural frequency, $f=0.025$ (\dashedrule
                                                   ). }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -621,84 +707,79 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 	\end{figure}
+l.26 	\end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 2--26
+Overfull \hbox (20.0pt too wide) in paragraph at lines 24--27
 [][]
  []
 
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 2--26
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 24--27
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 2--26
-[]
- []
-
-
-Overfull \hbox (8.22514pt too wide) in paragraph at lines 2--26
+Overfull \hbox (8.22514pt too wide) in paragraph at lines 24--27
 \OML/cmm/m/it/10 f[]$
  []
 
 
-Overfull \hbox (15.73793pt too wide) in paragraph at lines 2--26
+Overfull \hbox (15.73793pt too wide) in paragraph at lines 24--27
 \OML/cmm/m/it/10 f[]$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 2--26
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 24--27
 \OMS/cmsy/m/n/10 ^^O$
  []
 
 
-Overfull \hbox (22.27979pt too wide) in paragraph at lines 2--26
+Overfull \hbox (22.27979pt too wide) in paragraph at lines 24--27
 \OML/cmm/m/it/10 f[]$
  []
 
 
-Overfull \hbox (24.52744pt too wide) in paragraph at lines 2--26
+Overfull \hbox (24.52744pt too wide) in paragraph at lines 24--27
 \OML/cmm/m/it/10 f[]$
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 2--26
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 24--27
 \OMS/cmsy/m/n/10 ^^B$
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 2--26
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 24--27
 \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 2--26
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 24--27
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 15$
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 2--26
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 24--27
 \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (15.00005pt too wide) in paragraph at lines 2--26
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 24--27
 \OT1/cmr/m/n/10 200$
  []
 
 
-Overfull \hbox (16.52777pt too wide) in paragraph at lines 2--26
+Overfull \hbox (16.52777pt too wide) in paragraph at lines 24--27
 \OML/cmm/m/it/10 f \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (22.77785pt too wide) in paragraph at lines 2--26
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 24--27
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 025$
  []
 
@@ -710,11 +791,11 @@ Overfull \hbox (22.77785pt too wide) in paragraph at lines 2--26
 
  
 Here is how much of TeX's memory you used:
- 17 strings out of 493090
- 268 string characters out of 6134868
+ 18 strings out of 493090
+ 273 string characters out of 6134868
  53196 words of memory out of 5000000
- 3601 multiletter control sequences out of 15000+600000
+ 3602 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 22i,8n,16p,473b,108s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 20i,6n,15p,519b,101s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.
