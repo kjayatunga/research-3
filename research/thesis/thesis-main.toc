@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {2.1.5}Frequency response}{14}
 \contentsline {subsection}{\numberline {2.1.6}Fluid mechanics governing the galloping response}{14}
 \contentsline {subsection}{\numberline {2.1.7}Galloping as a mechanism of energy harvesting}{17}
-\contentsline {subsection}{\numberline {2.1.8}Review summary and statement of objectives}{18}
+\contentsline {subsection}{\numberline {2.1.8}Review summary and statement of objectives}{19}
 \contentsline {chapter}{\numberline {3}Methodology and validation}{21}
 \contentsline {section}{\numberline {3.1}Introduction}{21}
 \contentsline {subsection}{\numberline {3.1.1}Parameters used}{21}

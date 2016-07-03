@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  28 JUN 2016 10:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  3 JUL 2016 11:47
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -710,6 +710,9 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 21--45
  [] [] 
  []
 
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
 
 Overfull \hbox (24.0pt too wide) in alignment at lines 45--65
  [] [] 
@@ -725,13 +728,13 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 65--86
 
 
 ]
-Underfull \hbox (badness 1622) in paragraph at lines 92--93
+Underfull \hbox (badness 1622) in paragraph at lines 93--94
 []|\OT1/cmr/m/n/10.95 Transverse dis-place-ment, ve-loc-ity and ac-cel-er-a-tio
 n of the
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 97--98
+Underfull \hbox (badness 5771) in paragraph at lines 98--99
 []|\OT1/cmr/m/n/10.95 Under-relaxation pa-ram-e-ter used dur-ing the elasticall
 y-
  []
@@ -742,14 +745,14 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 86--106
  []
 
 [10]
-Overfull \hbox (24.0pt too wide) in alignment at lines 106--114
+Overfull \hbox (24.0pt too wide) in alignment at lines 106--115
  [] [] 
  []
 
-[11]) [12] (./thesis-main.toc [13
+[11] [12]) [13] (./thesis-main.toc [14
 
 
-] [14])
+] [15])
 \tf@toc=\write5
 \openout5 = `thesis-main.toc'.
 
@@ -802,7 +805,7 @@ File: ./chapter-literature-revirw/fnp/square-4.eps Graphic file (type eps)
 File: .//chapter-literature-revirw/fnp/square-6.eps Graphic file (type eps)
 
 <.//chapter-literature-revirw/fnp/square-6.eps>) [10] [11]
-Underfull \vbox (badness 2020) has occurred while \output is active []
+Underfull \vbox (badness 3942) has occurred while \output is active []
 
  [12]
 [13] [14] (./chapter-literature-revirw/figures/per_diff_cross_sec.tex
@@ -817,7 +820,11 @@ Overfull \hbox (14.09998pt too wide) in paragraph at lines 15--16
 
 LaTeX Warning: Float too large for page by 2.37473pt on input line 18.
 
-) [15] [16] [17] [18] [19]) (./chapter-methodology/methodology.tex
+) [15] [16] [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+[19]) (./chapter-methodology/methodology.tex
 Missing character: There is no Æ in font cmr10!
 Missing character: There is no ’ in font cmr10!
  [20]
@@ -1295,12 +1302,12 @@ tial-stuff/abstract.aux)
 (./initial-stuff/acknowledgements.aux) (./initial-stuff/publications.aux)
 (./initial-stuff/nomenclature-1.aux)) ) 
 Here is how much of TeX's memory you used:
- 13953 strings out of 493090
- 272787 string characters out of 6134868
- 314387 words of memory out of 5000000
- 16825 multiletter control sequences out of 15000+600000
+ 13954 strings out of 493090
+ 272804 string characters out of 6134868
+ 315398 words of memory out of 5000000
+ 16826 multiletter control sequences out of 15000+600000
  21229 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,54p,2184b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,54p,1862b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (118 pages, 375852 bytes).
+Output written on thesis-main.dvi (119 pages, 377432 bytes).
