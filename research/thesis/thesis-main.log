@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  3 JUL 2016 20:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  4 JUL 2016 13:27
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -835,15 +835,29 @@ Chapter 3.
 Underfull \vbox (badness 4913) has occurred while \output is active []
 
  [22]
-[23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
+[23] [24] [25] [26] (./chapter-methodology/figures/convection-sketch.tex
+File: ./chapter-methodology/fnp/convection.eps Graphic file (type eps)
 
-LaTeX Warning: Command \L invalid in math mode on input line 357.
+<./chapter-methodology/fnp/convection.eps>
 
-[35] [36] (./chapter-methodology/figures/square-mesh.tex
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+[29] [30] [31] [32] [33] [34] [35]
+
+LaTeX Warning: Command \L invalid in math mode on input line 363.
+
+[36] (./chapter-methodology/figures/square-mesh.tex
 File: ./chapter-methodology/fnp/square-mesh.eps Graphic file (type eps)
 
-<./chapter-methodology/fnp/square-mesh.eps>)
-(./chapter-methodology/figures/zoom-mesh.tex
+<./chapter-methodology/fnp/square-mesh.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chapter-methodology/figures/zoom-mesh.tex
 File: ./chapter-methodology/fnp/mesh.eps Graphic file (type eps)
 
 <./chapter-methodology/fnp/mesh.eps>
@@ -858,7 +872,7 @@ File: ./chapter-methodology/fnp/hyb0.25-mesh.eps Graphic file (type eps)
 <./chapter-methodology/fnp/hyb0.25-mesh.eps>
 File: ./chapter-methodology/fnp/triangle-mesh.eps Graphic file (type eps)
 
-<./chapter-methodology/fnp/triangle-mesh.eps>) [37] [38]
+<./chapter-methodology/fnp/triangle-mesh.eps>) [37]
 (./chapter-methodology/figures/FSI-convergence.tex
 File: ./chapter-methodology/fnp/vel-amp-convergencexs.eps Graphic file (type ep
 s)
@@ -867,10 +881,7 @@ s)
 File: ./chapter-methodology/fnp/freq-response-convergencexs.eps Graphic file (t
 ype eps)
 
-<./chapter-methodology/fnp/freq-response-convergencexs.eps>)
-Underfull \vbox (badness 1436) has occurred while \output is active []
-
- [39])
+<./chapter-methodology/fnp/freq-response-convergencexs.eps>) [38] [39])
 (./chapter-pi_1_pi_2/results-2.tex [40]
 Chapter 4.
 [41
@@ -1302,12 +1313,12 @@ tial-stuff/abstract.aux)
 (./initial-stuff/acknowledgements.aux) (./initial-stuff/publications.aux)
 (./initial-stuff/nomenclature-1.aux)) ) 
 Here is how much of TeX's memory you used:
- 13954 strings out of 493090
- 272804 string characters out of 6134868
- 315398 words of memory out of 5000000
- 16826 multiletter control sequences out of 15000+600000
+ 13960 strings out of 493090
+ 273000 string characters out of 6134868
+ 315409 words of memory out of 5000000
+ 16828 multiletter control sequences out of 15000+600000
  21229 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1862b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (119 pages, 377416 bytes).
+Output written on thesis-main.dvi (119 pages, 378360 bytes).
