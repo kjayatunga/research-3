@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  4 JUL 2016 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  4 JUL 2016 16:53
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1181,11 +1181,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) (./chapter-frequnecy-response/figures/fdns-f.tex
 File: ./chapter-frequnecy-response/fnp/f_dns_f.eps Graphic file (type eps)
 
-<./chapter-frequnecy-response/fnp/f_dns_f.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chapter-frequnecy-response/figures/fdns-flinear.tex
+<./chapter-frequnecy-response/fnp/f_dns_f.eps>)
+(./chapter-frequnecy-response/figures/fdns-flinear.tex
 File: ./chapter-frequnecy-response/fnp/fdns-flinear.eps Graphic file (type eps)
 
 
@@ -1193,18 +1190,22 @@ File: ./chapter-frequnecy-response/fnp/fdns-flinear.eps Graphic file (type eps)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [72]
-[73] [74]) (./chapter-cross-sections/results-2.tex [75]
-Chapter 5.
-[76
+[73] [74]
+Underfull \vbox (badness 1062) has occurred while \output is active []
 
-] [77] (./chapter-cross-sections/figures/sketch-1.tex
+ [75])
+(./chapter-cross-sections/results-2.tex [76]
+Chapter 5.
+[77
+
+] [78] (./chapter-cross-sections/figures/sketch-1.tex
 File: ./chapter-cross-sections/fnp/hybrid_section.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/hybrid_section.eps>)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78]
-[79] (./chapter-cross-sections/figures/coefficient-table.tex) [80]
+ [79]
+[80] (./chapter-cross-sections/figures/coefficient-table.tex) [81]
 (./chapter-cross-sections/figures/lift_curves.tex
 File: ./chapter-cross-sections/fnp/lift_curve_sq.eps Graphic file (type eps)
 
@@ -1220,11 +1221,11 @@ File: ./chapter-cross-sections/fnp/lift_curve_025.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/lift_curve_025.eps>
 File: ./chapter-cross-sections/fnp/lift_curve_tri.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [81]
+<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [82]
 (./chapter-cross-sections/figures/power_curves.tex
 File: ./chapter-cross-sections/fnp/mean_power_hyb.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/mean_power_hyb.eps>) [82] [83]
+<./chapter-cross-sections/fnp/mean_power_hyb.eps>) [83] [84]
 (./chapter-cross-sections/figures/surf-pres.tex
 File: ./chapter-cross-sections/fnp/surf-pres-tri-4.eps Graphic file (type eps)
 
@@ -1236,7 +1237,7 @@ File: ./chapter-cross-sections/fnp/surf-pres-tri-16.eps Graphic file (type eps)
 File: ./chapter-cross-sections/fnp/surf-pres-tri-21.eps Graphic file (type eps)
 
 
-<./chapter-cross-sections/fnp/surf-pres-tri-21.eps>) [84] [85]
+<./chapter-cross-sections/fnp/surf-pres-tri-21.eps>) [85] [86]
 (./chapter-cross-sections/figures/tri-sketch.tex
 File: ./chapter-cross-sections/fnp/tri-sketch.eps Graphic file (type eps)
 
@@ -1254,10 +1255,10 @@ File: ./chapter-cross-sections/fnp/vel_prof-tri-21.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [86]
+) [87]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87]
+ [88]
 (./chapter-cross-sections/figures/tri-stream-func.tex
 File: ./chapter-cross-sections/fnp/4.eps Graphic file (type eps)
 
@@ -1266,17 +1267,17 @@ File: ./chapter-cross-sections/fnp/16.eps Graphic file (type eps)
  <./chapter-cross-sections/fnp/16.eps>
 File: ./chapter-cross-sections/fnp/21.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/21.eps>) [88]
+<./chapter-cross-sections/fnp/21.eps>) [89]
 (./chapter-cross-sections/figures/cross-sec-dns-power.tex
 File: ./chapter-cross-sections/fnp/qss-dns-mean-power.eps Graphic file (type ep
 s)
 
-<./chapter-cross-sections/fnp/qss-dns-mean-power.eps>) [89]
+<./chapter-cross-sections/fnp/qss-dns-mean-power.eps>) [90]
 (./chapter-cross-sections/figures/qss-fsi-error-hyb.tex
 File: ./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps Graphic file (type eps
 )
 
-<./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps>) [90]
+<./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps>) [91]
 (./chapter-cross-sections/figures/fsi_time_sketch.tex
 File: ./chapter-cross-sections/fnp/fsi_flow_sketch.eps Graphic file (type eps)
 
@@ -1299,25 +1300,25 @@ File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/qss-0.25-3.eps>
 File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/qss-0.25-3.eps>) [91]
+<./chapter-cross-sections/fnp/qss-0.25-3.eps>) [92]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92]
-[93] [94] [95]) (./chapter-conclusions/conclusions.tex [96]
+ [93]
+[94] [95] [96]) (./chapter-conclusions/conclusions.tex [97]
 Chapter 6.
-[97
+[98
 
 ]
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
- [98]
-[99]) (./thesis-main.bbl [100] [101
+ [99]
+[100]) (./thesis-main.bbl [101] [102
 
-] [102]
+] [103]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [103] [104]) [105]
+ [104] [105]) [106]
 (./thesis-main.aux (./initial-stuff/originality.aux)
 (./initial-stuff/abstract.aux) (./initial-stuff/acknowledgements.aux)
 (./initial-stuff/publications.aux) (./initial-stuff/nomenclature-1.aux)) ) 
@@ -1328,6 +1329,6 @@ Here is how much of TeX's memory you used:
  16828 multiletter control sequences out of 15000+600000
  21229 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,14n,54p,2409b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,14n,54p,2409b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (120 pages, 379480 bytes).
+Output written on thesis-main.dvi (121 pages, 379952 bytes).
