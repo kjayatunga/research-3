@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  4 JUL 2016 16:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  4 JUL 2016 22:15
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1201,10 +1201,10 @@ Chapter 5.
 ] [78] (./chapter-cross-sections/figures/sketch-1.tex
 File: ./chapter-cross-sections/fnp/hybrid_section.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/hybrid_section.eps>)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<./chapter-cross-sections/fnp/hybrid_section.eps>
+Underfull \vbox (badness 4621) has occurred while \output is active []
 
- [79]
+ [79])
 [80] (./chapter-cross-sections/figures/coefficient-table.tex) [81]
 (./chapter-cross-sections/figures/lift_curves.tex
 File: ./chapter-cross-sections/fnp/lift_curve_sq.eps Graphic file (type eps)
@@ -1331,4 +1331,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,14n,54p,2409b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (121 pages, 379952 bytes).
+Output written on thesis-main.dvi (121 pages, 380120 bytes).
