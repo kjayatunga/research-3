@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  4 JUL 2016 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  4 JUL 2016 16:43
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -808,7 +808,10 @@ File: .//chapter-literature-revirw/fnp/square-6.eps Graphic file (type eps)
 Underfull \vbox (badness 3942) has occurred while \output is active []
 
  [12]
-[13] [14] (./chapter-literature-revirw/figures/per_diff_cross_sec.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+[14] (./chapter-literature-revirw/figures/per_diff_cross_sec.tex
 File: ./chapter-literature-revirw/fnp/per_cross_sec.eps Graphic file (type eps)
 
 
@@ -821,36 +824,36 @@ Overfull \hbox (14.09998pt too wide) in paragraph at lines 15--16
 LaTeX Warning: Float too large for page by 2.37473pt on input line 18.
 
 ) [15] [16] [17]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4913) has occurred while \output is active []
 
  [18]
 [19]) (./chapter-methodology/methodology.tex
 Missing character: There is no Æ in font cmr10!
 Missing character: There is no ’ in font cmr10!
- [20]
+ [20] [21]
 Chapter 3.
-[21
+[22
 
 ]
 Underfull \vbox (badness 4913) has occurred while \output is active []
 
- [22]
-[23] [24] [25] [26] (./chapter-methodology/figures/convection-sketch.tex
+ [23]
+[24] [25] [26] [27] (./chapter-methodology/figures/convection-sketch.tex
 File: ./chapter-methodology/fnp/convection.eps Graphic file (type eps)
 
 <./chapter-methodology/fnp/convection.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [27]
+) [28]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
-[29] [30] [31] [32] [33] [34] [35]
+ [29]
+[30] [31] [32] [33] [34] [35] [36]
 
 LaTeX Warning: Command \L invalid in math mode on input line 363.
 
-[36] (./chapter-methodology/figures/square-mesh.tex
+[37] (./chapter-methodology/figures/square-mesh.tex
 File: ./chapter-methodology/fnp/square-mesh.eps Graphic file (type eps)
 
 <./chapter-methodology/fnp/square-mesh.eps>
@@ -872,7 +875,7 @@ File: ./chapter-methodology/fnp/hyb0.25-mesh.eps Graphic file (type eps)
 <./chapter-methodology/fnp/hyb0.25-mesh.eps>
 File: ./chapter-methodology/fnp/triangle-mesh.eps Graphic file (type eps)
 
-<./chapter-methodology/fnp/triangle-mesh.eps>) [37]
+<./chapter-methodology/fnp/triangle-mesh.eps>) [38]
 (./chapter-methodology/figures/FSI-convergence.tex
 File: ./chapter-methodology/fnp/vel-amp-convergencexs.eps Graphic file (type ep
 s)
@@ -881,10 +884,10 @@ s)
 File: ./chapter-methodology/fnp/freq-response-convergencexs.eps Graphic file (t
 ype eps)
 
-<./chapter-methodology/fnp/freq-response-convergencexs.eps>) [38] [39])
-(./chapter-pi_1_pi_2/results-2.tex [40]
+<./chapter-methodology/fnp/freq-response-convergencexs.eps>) [39] [40])
+(./chapter-pi_1_pi_2/results-2.tex [41]
 Chapter 4.
-[41
+[42
 
 ] (./chapter-pi_1_pi_2/figure/cy_vs_theta.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_200.eps Graphic file (type eps
@@ -895,7 +898,7 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_park.eps Graphic file (type ep
 s)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/lift_curve_park.eps>)
-(./chapter-pi_1_pi_2/figure/coefficient-table.tex) [42] [43] [44] [45]
+(./chapter-pi_1_pi_2/figure/coefficient-table.tex) [43] [44] [45] [46]
 (./chapter-pi_1_pi_2/figure/compare_data.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200.eps Graphic file (
 type eps)
@@ -928,15 +931,15 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 24.
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200_col.eps Graphic fi
 le (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200_col.eps>) [46] [47]
-[48] (./chapter-pi_1_pi_2/figure/collapsed_data.tex
+<./chapter-pi_1_pi_2/FnP/gnuplot/displacement_amp_re200_col.eps>) [47] [48]
+[49] (./chapter-pi_1_pi_2/figure/collapsed_data.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson.eps Graphi
 c file (type eps)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_collapsed_parkinson.eps>)
 Underfull \vbox (badness 1158) has occurred while \output is active []
 
- [49]
+ [50]
 (./chapter-pi_1_pi_2/figure/high_pi_1.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_high_pi_1.eps Graphic file (ty
 pe eps)
@@ -982,15 +985,15 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/f_y_history_08.eps Graphic file (type eps
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps Graphic file (t
 ype eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps>) [50] [51] [52]
+<./chapter-pi_1_pi_2/FnP/gnuplot/theta_time_history_08.eps>) [51] [52] [53]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53]
+ [54]
 (./chapter-pi_1_pi_2/figure/low_pi_1.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps Graphic file (typ
 e eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps>) [54]
+<./chapter-pi_1_pi_2/FnP/gnuplot/mean_power_low_pi_1.eps>) [55]
 (./chapter-pi_1_pi_2/figure/qss_fsi.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/fqss_fsi_displace.eps Graphic file (type 
 eps)
@@ -1013,11 +1016,11 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max.eps Graphic file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/p_2_p_max.eps>)
 Underfull \vbox (badness 2073) has occurred while \output is active []
 
- [55]
-[56] (./chapter-pi_1_pi_2/figure/error.tex
+ [56]
+[57] (./chapter-pi_1_pi_2/figure/error.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/error.eps Graphic file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/error.eps>) [57]
+<./chapter-pi_1_pi_2/FnP/gnuplot/error.eps>) [58]
 (./chapter-pi_1_pi_2/figure/spectrum.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_20_sig.eps Graphic file (type eps)
 
@@ -1081,8 +1084,8 @@ LaTeX Warning: Float too large for page by 17.7279pt on input line 64.
 )
 Underfull \vbox (badness 3138) has occurred while \output is active []
 
- [58]
-[59] [60] (./chapter-pi_1_pi_2/figure/spec_pow.tex
+ [59]
+[60] [61] (./chapter-pi_1_pi_2/figure/spec_pow.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps Graphic file (type eps)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/spec_pow.eps>)
@@ -1098,24 +1101,24 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/250.eps Graphic file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/250.eps>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps Graphic file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps>) [61]
+<./chapter-pi_1_pi_2/FnP/gnuplot/1000.eps>) [62]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]
-[63] (./chapter-frequnecy-response/figures/freq-015.tex
+ [63]
+[64] (./chapter-frequnecy-response/figures/freq-015.tex
 File: ./chapter-frequnecy-response/fnp/freq015.eps Graphic file (type eps)
 
 <./chapter-frequnecy-response/fnp/freq015.eps>
 File: ./chapter-frequnecy-response/fnp/freq015_2.eps Graphic file (type eps)
 
-<./chapter-frequnecy-response/fnp/freq015_2.eps>) [64]
+<./chapter-frequnecy-response/fnp/freq015_2.eps>)
 
 Package Fancyhdr Warning: \headheight is too small (13.59999pt): 
  Make it at least 25.16252pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[65] (./chapter-frequnecy-response/figures/flin-qss.tex
+[65] [66] (./chapter-frequnecy-response/figures/flin-qss.tex
 File: ./chapter-frequnecy-response/fnp/flin-fqss.eps Graphic file (type eps)
 
 <./chapter-frequnecy-response/fnp/flin-fqss.eps>)
@@ -1135,7 +1138,7 @@ File: ./chapter-frequnecy-response/fnp/theta_time_history_1000.eps Graphic file
 File: ./chapter-frequnecy-response/fnp/theta_time_history_0001.eps Graphic file
  (type eps)
 
-<./chapter-frequnecy-response/fnp/theta_time_history_0001.eps>) [66] [67]
+<./chapter-frequnecy-response/fnp/theta_time_history_0001.eps>) [67] [68]
 (./chapter-pi_1_pi_2/figure/feq-spectrum.tex
 
 LaTeX Warning: No positions in optional float specifier.
@@ -1163,7 +1166,7 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-04.eps Graphic file (type eps)
 <./chapter-pi_1_pi_2/FnP/gnuplot/freq-04.eps>
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/freq-03.eps Graphic file (type eps)
 
-<./chapter-pi_1_pi_2/FnP/gnuplot/freq-03.eps>) [68] [69]
+<./chapter-pi_1_pi_2/FnP/gnuplot/freq-03.eps>) [69] [70]
 (./chapter-frequnecy-response/figures/flin-f.tex
 File: ./chapter-frequnecy-response/fnp/f_lin_f.eps Graphic file (type eps)
 
@@ -1171,31 +1174,37 @@ File: ./chapter-frequnecy-response/fnp/f_lin_f.eps Graphic file (type eps)
 (./chapter-frequnecy-response/figures/fqss-f.tex
 File: ./chapter-frequnecy-response/fnp/f_qss_f.eps Graphic file (type eps)
 
-<./chapter-frequnecy-response/fnp/f_qss_f.eps>)
-(./chapter-frequnecy-response/figures/fdns-f.tex
+<./chapter-frequnecy-response/fnp/f_qss_f.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chapter-frequnecy-response/figures/fdns-f.tex
 File: ./chapter-frequnecy-response/fnp/f_dns_f.eps Graphic file (type eps)
 
-<./chapter-frequnecy-response/fnp/f_dns_f.eps>)
-(./chapter-frequnecy-response/figures/fdns-flinear.tex
+<./chapter-frequnecy-response/fnp/f_dns_f.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chapter-frequnecy-response/figures/fdns-flinear.tex
 File: ./chapter-frequnecy-response/fnp/fdns-flinear.eps Graphic file (type eps)
 
 
-<./chapter-frequnecy-response/fnp/fdns-flinear.eps>) [70]
+<./chapter-frequnecy-response/fnp/fdns-flinear.eps>) [71]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
-[72] [73]) (./chapter-cross-sections/results-2.tex [74]
+ [72]
+[73] [74]) (./chapter-cross-sections/results-2.tex [75]
 Chapter 5.
-[75
+[76
 
-] [76] (./chapter-cross-sections/figures/sketch-1.tex
+] [77] (./chapter-cross-sections/figures/sketch-1.tex
 File: ./chapter-cross-sections/fnp/hybrid_section.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/hybrid_section.eps>)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77]
-[78] (./chapter-cross-sections/figures/coefficient-table.tex) [79]
+ [78]
+[79] (./chapter-cross-sections/figures/coefficient-table.tex) [80]
 (./chapter-cross-sections/figures/lift_curves.tex
 File: ./chapter-cross-sections/fnp/lift_curve_sq.eps Graphic file (type eps)
 
@@ -1211,11 +1220,11 @@ File: ./chapter-cross-sections/fnp/lift_curve_025.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/lift_curve_025.eps>
 File: ./chapter-cross-sections/fnp/lift_curve_tri.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [80]
+<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [81]
 (./chapter-cross-sections/figures/power_curves.tex
 File: ./chapter-cross-sections/fnp/mean_power_hyb.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/mean_power_hyb.eps>) [81] [82]
+<./chapter-cross-sections/fnp/mean_power_hyb.eps>) [82] [83]
 (./chapter-cross-sections/figures/surf-pres.tex
 File: ./chapter-cross-sections/fnp/surf-pres-tri-4.eps Graphic file (type eps)
 
@@ -1227,7 +1236,7 @@ File: ./chapter-cross-sections/fnp/surf-pres-tri-16.eps Graphic file (type eps)
 File: ./chapter-cross-sections/fnp/surf-pres-tri-21.eps Graphic file (type eps)
 
 
-<./chapter-cross-sections/fnp/surf-pres-tri-21.eps>) [83] [84]
+<./chapter-cross-sections/fnp/surf-pres-tri-21.eps>) [84] [85]
 (./chapter-cross-sections/figures/tri-sketch.tex
 File: ./chapter-cross-sections/fnp/tri-sketch.eps Graphic file (type eps)
 
@@ -1245,10 +1254,10 @@ File: ./chapter-cross-sections/fnp/vel_prof-tri-21.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [85]
+) [86]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [86]
+ [87]
 (./chapter-cross-sections/figures/tri-stream-func.tex
 File: ./chapter-cross-sections/fnp/4.eps Graphic file (type eps)
 
@@ -1257,17 +1266,17 @@ File: ./chapter-cross-sections/fnp/16.eps Graphic file (type eps)
  <./chapter-cross-sections/fnp/16.eps>
 File: ./chapter-cross-sections/fnp/21.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/21.eps>) [87]
+<./chapter-cross-sections/fnp/21.eps>) [88]
 (./chapter-cross-sections/figures/cross-sec-dns-power.tex
 File: ./chapter-cross-sections/fnp/qss-dns-mean-power.eps Graphic file (type ep
 s)
 
-<./chapter-cross-sections/fnp/qss-dns-mean-power.eps>) [88]
+<./chapter-cross-sections/fnp/qss-dns-mean-power.eps>) [89]
 (./chapter-cross-sections/figures/qss-fsi-error-hyb.tex
 File: ./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps Graphic file (type eps
 )
 
-<./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps>) [89]
+<./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps>) [90]
 (./chapter-cross-sections/figures/fsi_time_sketch.tex
 File: ./chapter-cross-sections/fnp/fsi_flow_sketch.eps Graphic file (type eps)
 
@@ -1290,28 +1299,28 @@ File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/qss-0.25-3.eps>
 File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/qss-0.25-3.eps>) [90]
+<./chapter-cross-sections/fnp/qss-0.25-3.eps>) [91]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91]
-[92] [93] [94]) (./chapter-conclusions/conclusions.tex [95]
+ [92]
+[93] [94] [95]) (./chapter-conclusions/conclusions.tex [96]
 Chapter 6.
-[96
+[97
 
 ]
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
- [97]
-[98]) (./thesis-main.bbl [99] [100
+ [98]
+[99]) (./thesis-main.bbl [100] [101
 
-] [101]
+] [102]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [102] [103]) [104] (./thesis-main.aux (./initial-stuff/originality.aux) (./ini
-tial-stuff/abstract.aux)
-(./initial-stuff/acknowledgements.aux) (./initial-stuff/publications.aux)
-(./initial-stuff/nomenclature-1.aux)) ) 
+ [103] [104]) [105]
+(./thesis-main.aux (./initial-stuff/originality.aux)
+(./initial-stuff/abstract.aux) (./initial-stuff/acknowledgements.aux)
+(./initial-stuff/publications.aux) (./initial-stuff/nomenclature-1.aux)) ) 
 Here is how much of TeX's memory you used:
  13960 strings out of 493090
  273000 string characters out of 6134868
@@ -1319,6 +1328,6 @@ Here is how much of TeX's memory you used:
  16828 multiletter control sequences out of 15000+600000
  21229 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,54p,1862b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,14n,54p,2409b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (119 pages, 378360 bytes).
+Output written on thesis-main.dvi (120 pages, 379480 bytes).
