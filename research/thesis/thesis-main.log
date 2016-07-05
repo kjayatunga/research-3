@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  5 JUL 2016 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  5 JUL 2016 11:27
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -829,10 +829,7 @@ LaTeX Warning: Float too large for page by 2.37473pt on input line 18.
 Underfull \vbox (badness 4913) has occurred while \output is active []
 
  [18]
-[19]) (./chapter-methodology/methodology.tex
-Missing character: There is no Æ in font cmr10!
-Missing character: There is no ’ in font cmr10!
- [20] [21]
+[19]) (./chapter-methodology/methodology.tex [20] [21]
 Chapter 3.
 [22
 
@@ -843,15 +840,8 @@ Underfull \vbox (badness 4913) has occurred while \output is active []
 [24] [25] [26] [27] (./chapter-methodology/figures/convection-sketch.tex
 File: ./chapter-methodology/fnp/convection.eps Graphic file (type eps)
 
-<./chapter-methodology/fnp/convection.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [28]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29]
-[30] [31] [32] [33] [34] [35] [36]
+<./chapter-methodology/fnp/convection.eps> [28]) [29] [30] [31] [32] [33]
+[34] [35] [36]
 
 LaTeX Warning: Command \L invalid in math mode on input line 363.
 
@@ -1333,4 +1323,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,14n,54p,2409b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (121 pages, 380560 bytes).
+Output written on thesis-main.dvi (121 pages, 380676 bytes).

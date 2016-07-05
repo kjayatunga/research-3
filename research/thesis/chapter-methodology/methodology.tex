@@ -1,4 +1,4 @@
-ƒ\textbf{}
+
 \chapter{Methodology and validation}
 
 \section{Introduction}
@@ -32,7 +32,7 @@ The quasi-steady state model discussed in section \ref{sec:QSS theory} was used 
 
 \subsubsection{Solving the quasi-steady state equation}
 
-The quasi-steady model being an ordinary differential equation can be solved using different solving methods. \citet{Vio2007} showed that numerical integration provides accurate data, and this technique is employed here. A fourth-order Runge-Kutta ODE solving scheme was used in solving the quasi-steady state oscillator equation. The built in `ode45' function in MATLAB was used primarily to solve the QSS equation while in some cases `ode15s' function was used when the equation became more stiff.
+The quasi-steady model being an ordinary differential equation can be solved using different solving methods. \citet{Vio2007} showed that numerical integration provides accurate data, and this technique is employed here. A fourth-order Runge-Kutta ODE solving scheme was used in solving the quasi-steady state oscillator equation. The built in `ode45' function in MATLAB was used primarily to solve the QSS equation while in some cases `ode15s' function was used when the equation became more stiff (restricted to a small time step).
 
 
 \section{Calculation of average power}
