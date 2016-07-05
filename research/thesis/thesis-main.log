@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  4 JUL 2016 23:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  5 JUL 2016 11:05
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -721,7 +721,7 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 45--65
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 65--86
+Overfull \hbox (24.0pt too wide) in alignment at lines 65--87
  [] [] 
  []
 
@@ -742,24 +742,24 @@ y-
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 86--106
+Overfull \hbox (24.0pt too wide) in alignment at lines 87--107
  [] [] 
  []
 
 [4]
-Overfull \hbox (24.0pt too wide) in alignment at lines 106--115
+Overfull \hbox (24.0pt too wide) in alignment at lines 107--115
  [] [] 
  []
 
-[5] [6]) [7] (./thesis-main.toc [8
+[5]) [6] (./thesis-main.toc [7
 
 
-] [9])
+] [8])
 \tf@toc=\write5
 \openout5 = `thesis-main.toc'.
 
-
-(./initial-stuff/preliminary-remarks.tex [1]
+ (./initial-stuff/preliminary-remarks.tex
+[1]
 Chapter 1.
 [2
 
@@ -1333,4 +1333,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,14n,54p,2409b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (122 pages, 381108 bytes).
+Output written on thesis-main.dvi (121 pages, 380560 bytes).
