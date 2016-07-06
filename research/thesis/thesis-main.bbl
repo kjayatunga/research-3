@@ -40,18 +40,17 @@
 
 \bibitem[Bernitsas {\em et~al.\/}(2009)Bernitsas, Ben-Simon, Raghavan \&
   Garcia]{Bernitsas2009}
-{\sc Bernitsas, Michael~M., Ben-Simon, Y., Raghavan, Kamaldev \& Garcia, E.
-  M.~H.} 2009 {The VIVACE Converter: Model Tests at High Damping and Reynolds
-  Number Around 10[sup 5]}. {\em Journal of Offshore Mechanics and Arctic
+{\sc Bernitsas, M.~M., Ben-Simon, Y., Raghavan, Kamaldev \& Garcia, E. M.~H.}
+  2009 {The VIVACE Converter: Model Tests at High Damping and Reynolds Number
+  Around 10[sup 5]}. {\em Journal of Offshore Mechanics and Arctic
   Engineering\/} {\bf 131}~(1), 011102.
 
 \bibitem[Bernitsas {\em et~al.\/}(2008)Bernitsas, Raghavan, Ben-Simon \&
   Garcia]{Bernitsas2008a-concept}
-{\sc Bernitsas, Michael~M., Raghavan, Kamaldev, Ben-Simon, Y. \& Garcia, E.
-  M.~H.} 2008 {VIVACE (Vortex Induced Vibration Aquatic Clean Energy): A new
-  concept in generation of clean and renewable energy from fluid flow}. {\em
-  Journal of Offshore Mechanics and Arctic Engineering\/} {\bf 130}~(4),
-  041101--15.
+{\sc Bernitsas, M.~M., Raghavan, K., Ben-Simon, Y. \& Garcia, E. M.~H.} 2008
+  {VIVACE (Vortex Induced Vibration Aquatic Clean Energy): A new concept in
+  generation of clean and renewable energy from fluid flow}. {\em Journal of
+  Offshore Mechanics and Arctic Engineering\/} {\bf 130}~(4), 041101--15.
 
 \bibitem[Blevins(1990)]{Blevins1990}
 {\sc Blevins, R.~D.} 1990 {\em {Flow-Induced Vibration}\/}, 2nd edn. New York:
@@ -133,9 +132,9 @@
 
 \bibitem[Leontini {\em et~al.\/}(2011)Leontini, {Lo Jacono} \&
   Thompson]{Leontini2011}
-{\sc Leontini, Justin~S., {Lo Jacono}, David \& Thompson, Mark~C.} 2011 {A
-  numerical study of an inline oscillating cylinder in a free stream}. {\em
-  Journal of Fluid Mechanics\/} {\bf 688}, 551--568.
+{\sc Leontini, J.~S., {Lo Jacono}, D. \& Thompson, Mark~C.} 2011 {A numerical
+  study of an inline oscillating cylinder in a free stream}. {\em Journal of
+  Fluid Mechanics\/} {\bf 688}, 551--568.
 
 \bibitem[Leontini \& Thompson(2013)]{Leontini2013}
 {\sc Leontini, J.~S. \& Thompson, M.~C.} 2013 Vortex-induced vibrations of a
@@ -184,7 +183,7 @@
 
 \bibitem[Pa\"{\i}doussis {\em et~al.\/}(2010)Pa\"{\i}doussis, Price \&
   de~Langre]{Paidoussis2010}
-{\sc Pa\"{\i}doussis, Michael, Price, Stuart \& de~Langre, Emmanuel} 2010 {\em
+{\sc Pa\"{\i}doussis, M., Price, S.t \& de~Langre, E.} 2010 {\em
   {Fluid-Structure Interactions : Cross-Flow-Induced Instabilities}\/}.
   Cambridge University Press.
 
@@ -217,10 +216,10 @@
 
 \bibitem[Raghavan {\em et~al.\/}(2009)Raghavan, Bernitsas \&
   Maroulis]{Raghavan2009}
-{\sc Raghavan, K., Bernitsas, Michael~M. \& Maroulis, D.~E.} 2009 {Effect of
-  Bottom Boundary on VIV for Energy Harnessing at {$ 8\times{10^3} <Re< 1.5
-  \times {10^5} $}}. {\em Journal of Offshore Mechanics and Arctic
-  Engineering\/} {\bf 131}~(3), 031102.
+{\sc Raghavan, K., Bernitsas, M.~M. \& Maroulis, D.~E.} 2009 {Effect of Bottom
+  Boundary on VIV for Energy Harnessing at {$ 8\times{10^3} <Re< 1.5 \times
+  {10^5} $}}. {\em Journal of Offshore Mechanics and Arctic Engineering\/} {\bf
+  131}~(3), 031102.
 
 \bibitem[Robertson {\em et~al.\/}(2003)Robertson, Li, Sherwin \&
   Bearman]{Robertson2003}
@@ -235,9 +234,9 @@
   and Industrial Aerodynamics\/} {\bf 65}, 347--352.
 
 \bibitem[Sheard {\em et~al.\/}(2009)Sheard, Fitzgerald \& Ryan]{sheard2009}
-{\sc Sheard, Gregory~J., Fitzgerald, Matthew~J. \& Ryan, Kris} 2009 {Cylinders
-  with square cross-section: wake instabilities with incidence angle
-  variation}. {\em Journal of Fluid Mechanics\/} {\bf 630}, 43.
+{\sc Sheard, G.~J., Fitzgerald, M.~J. \& Ryan, K.} 2009 {Cylinders with square
+  cross-section: wake instabilities with incidence angle variation}. {\em
+  Journal of Fluid Mechanics\/} {\bf 630}, 43.
 
 \bibitem[Shiels {\em et~al.\/}(2001)Shiels, Leonard \& Roshko]{shiels2001}
 {\sc Shiels, D., Leonard, A. \& Roshko, A.} 2001 Flow-induced vibration of a
@@ -246,13 +245,13 @@
 
 \bibitem[Thompson {\em et~al.\/}(1996)Thompson, Hourigan \&
   Sheridan]{Thompson1996a}
-{\sc Thompson, Mark, Hourigan, Kerry \& Sheridan, John} 1996 {Three-dimensional
+{\sc Thompson, M., Hourigan, K. \& Sheridan, J.} 1996 {Three-dimensional
   instabilities in the wake of a circular cylinder}. {\em Experimental Thermal
   and Fluid Science\/} {\bf 12}~(2), 190--196.
 
 \bibitem[Thompson {\em et~al.\/}(2006)Thompson, Hourigan, Cheung \&
   Leweke]{Thompson2006}
-{\sc Thompson, Mark~C., Hourigan, Kerry, Cheung, Alex \& Leweke, Thomas} 2006
+{\sc Thompson, M.~C., Hourigan, K., Cheung, A. \& Leweke, T.} 2006
   {Hydrodynamics of a particle impact on a wall}. {\em Applied Mathematical
   Modelling\/} {\bf 30}~(11), 1356--1369.
 
