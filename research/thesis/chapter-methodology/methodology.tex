@@ -107,7 +107,7 @@ These assumptions lead to the Navier-Stokes equations as the equations which gov
   
   \begin{equation} \centering
   \label{eq:cyl_eom}
-  \frac{\ddot{y}_{cyl}}{D} + 2\damping\sqrt{\kstar}\frac{\dot{y}_{cyl}}{D} + \kstar\frac{\ycyl}{D} = \frac{\pi}{2}\frac{\clift}{\mstar} ~,
+  \frac{\ddot{y}_{body}}{D} + 2\damping\sqrt{\kstar}\frac{\dot{y}_{body}}{D} + \kstar\frac{\ycyl}{D} = \frac{\pi}{2}\frac{\clift}{\mstar} ~,
   \end{equation}
 
 Where \damping \ is the damping ratio,  $\kstar=kD^{2}/m\Ufree^{2}$ and $\clift = \liftf/(0.5\density U^{2}D)$. The lift coefficient per unit length of the body is \clift, the transverse displacement of the body is given by \ycyl,  the characteristic length scale of the body is $D$, $k$ is the spring constant and the mass per unit length of the body is represented by $m$. The general form of this linear oscillator equation can be found in books such as  \citet{Naudasher94}. The final form of the coefficients were constructed by non-dimensionalising the general linear oscillator equation. 
@@ -167,7 +167,7 @@ The approximated position of the body at the next time step can be obtained by c
 
 \begin{equation} \centering
 	\label{eq:ycyl_start}
-	\frac{\ycyl^{(n+1)\dag} - \ycyl^{(n)}}{\Delta\tau} = \frac{1}{12}(5\Vcyl^{(n+1)\dag} + 8\Vcyl^{(n)} - \Vcyl^{(n-1)}.
+	\frac{\ycyl^{(n+1)\dag} - \ycyl^{(n)}}{\Delta\tau} = \frac{1}{12}(5\Vcyl^{(n+1)\dag} + 8\Vcyl^{(n)} - \Vcyl^{(n-1)}).
 \end{equation}
 
 The transverse displacement of the body is denoted by \ycyl.
@@ -189,7 +189,7 @@ The body velocity approximation $\Vcyl^{\dag}$, was updated commencing the ``cor
 
  \begin{equation} \centering
  \label{eq:vcyl_correct}
- \frac{\Vcyl^{(n+1)\dag} - \Vcyl^{(n)}}{\Delta\tau} = \frac{1}{24}(25\ddot{y}_{cyl}^{(n+1)} - 2\ddot{y}_{cyl}^{(n)} + \ddot{y}_{cyl}^{(n-1)}) ~.
+ \frac{\Vcyl^{(n+1)\dag} - \Vcyl^{(n)}}{\Delta\tau} = \frac{1}{24}(25\ddot{y}_{body}^{(n+1)} - 2\ddot{y}_{body}^{(n)} + \ddot{y}_{body}^{(n-1)}) ~.
  \end{equation}
  
  $\Delta\Vcyl^{\dag}$ was updated using the recalculated value of $\Vcyl^{(n+1)\dag}$. The velocity was integrated over a time step in order to obtain the position of the body. For the first correction cycle a third order Adams-Moulton method was used which completed the first iteration of the predictor-corrector method. 

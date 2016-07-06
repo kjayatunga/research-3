@@ -1,289 +1,292 @@
 \begin{thebibliography}{56}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 
-\bibitem[{Alonso et~al.(2005)Alonso, Meseguer, and
-  P{\'e}rez-Grande}]{Alonso2005}
-Alonso, G., Meseguer, J., P{\'e}rez-Grande, I., 2005. Galloping instabilities
-  of two-dimensional triangular cross-section bodies. Experiments in Fluids 38,
-  789--795.
+\bibitem[Alonso {\em et~al.\/}(2005)Alonso, Meseguer \&
+  P{\'e}rez-Grande]{Alonso2005}
+{\sc Alonso, G., Meseguer, J. \& P{\'e}rez-Grande, I.} 2005 Galloping
+  instabilities of two-dimensional triangular cross-section bodies. {\em
+  Experiments in Fluids\/} {\bf 38}, 789--795.
 
-\bibitem[{Alonso et~al.(2010)Alonso, Meseguer, Sanz-Andr{\'e}s, and
-  Valero}]{Alonso2010}
-Alonso, G., Meseguer, J., Sanz-Andr{\'e}s, A., Valero, E., 2010. On the
+\bibitem[Alonso {\em et~al.\/}(2010)Alonso, Meseguer, Sanz-Andr{\'e}s \&
+  Valero]{Alonso2010}
+{\sc Alonso, G., Meseguer, J., Sanz-Andr{\'e}s, A. \& Valero, E.} 2010 On the
   galloping instability of two-dimensional bodies having elliptical
-  cross-sections. Journal of Wind Engineering and Industrial Aerodynamics 38,
-  789--795.
+  cross-sections. {\em Journal of Wind Engineering and Industrial
+  Aerodynamics\/} {\bf 38}, 789--795.
 
-\bibitem[{Alonso et~al.(2009)Alonso, Valero, and Meseguer}]{Alonso2009}
-Alonso, G., Valero, E., Meseguer, J., 2009. An analysis on the dependence on
-  cross section geometry of galloping stability of two-dimensional bodies
-  having either biconvex or rhomboidal cross sections. European Journal of
-  Mechanics B/Fluids 28, 328--334.
+\bibitem[Alonso {\em et~al.\/}(2009)Alonso, Valero \& Meseguer]{Alonso2009}
+{\sc Alonso, G., Valero, E. \& Meseguer, J.} 2009 An analysis on the dependence
+  on cross section geometry of galloping stability of two-dimensional bodies
+  having either biconvex or rhomboidal cross sections. {\em European Journal of
+  Mechanics B/Fluids\/} {\bf 28}, 328--334.
 
-\bibitem[{Barrero-Gil et~al.(2010)Barrero-Gil, Alonso, and
-  Sanz-Andres}]{Barrero-Gil2010a}
-Barrero-Gil, A., Alonso, G., Sanz-Andres, A., Jul. 2010. {Energy harvesting
-  from transverse galloping}. Journal of Sound and Vibration 329~(14),
+\bibitem[Barrero-Gil {\em et~al.\/}(2010)Barrero-Gil, Alonso \&
+  Sanz-Andres]{Barrero-Gil2010a}
+{\sc Barrero-Gil, A, Alonso, G \& Sanz-Andres, A.} 2010 {Energy harvesting from
+  transverse galloping}. {\em Journal of Sound and Vibration\/} {\bf 329}~(14),
   2873--2883.
 
-\bibitem[{Barrero-Gil et~al.(2009)Barrero-Gil, Sanz-Andr\'{e}s, and
-  Roura}]{Barrero-Gil2009}
-Barrero-Gil, A., Sanz-Andr\'{e}s, A., Roura, M., Oct. 2009. {Transverse
-  galloping at low Reynolds numbers}. Journal of Fluids and Structures 25~(7),
-  1236--1242.
+\bibitem[Barrero-Gil {\em et~al.\/}(2009)Barrero-Gil, Sanz-Andr\'{e}s \&
+  Roura]{Barrero-Gil2009}
+{\sc Barrero-Gil, A., Sanz-Andr\'{e}s, A. \& Roura, M.} 2009 {Transverse
+  galloping at low Reynolds numbers}. {\em Journal of Fluids and Structures\/}
+  {\bf 25}~(7), 1236--1242.
 
-\bibitem[{Bearman et~al.(1987)Bearman, Gartshore, Maull, and
-  Parkinson}]{Bearman1987}
-Bearman, P.~W., Gartshore, I.~S., Maull, D.~J., Parkinson, G.~V., 1987.
-  Experiments on f low-induced vibration of a square-section cylinder. Journal
-  of Fluids and Structures 1, 19--34.
+\bibitem[Bearman {\em et~al.\/}(1987)Bearman, Gartshore, Maull \&
+  Parkinson]{Bearman1987}
+{\sc Bearman, P.~W., Gartshore, I.~S., Maull, D.~J. \& Parkinson, G.~V.} 1987
+  Experiments on f low-induced vibration of a square-section cylinder. {\em
+  Journal of Fluids and Structures\/} {\bf 1}, 19--34.
 
-\bibitem[{Bernitsas et~al.(2009)Bernitsas, Ben-Simon, Raghavan, and
-  Garcia}]{Bernitsas2009}
-Bernitsas, M.~M., Ben-Simon, Y., Raghavan, K., Garcia, E. M.~H., 2009. {The
-  VIVACE Converter: Model Tests at High Damping and Reynolds Number Around
-  10[sup 5]}. Journal of Offshore Mechanics and Arctic Engineering 131~(1),
-  011102.
+\bibitem[Bernitsas {\em et~al.\/}(2009)Bernitsas, Ben-Simon, Raghavan \&
+  Garcia]{Bernitsas2009}
+{\sc Bernitsas, Michael~M., Ben-Simon, Y., Raghavan, Kamaldev \& Garcia, E.
+  M.~H.} 2009 {The VIVACE Converter: Model Tests at High Damping and Reynolds
+  Number Around 10[sup 5]}. {\em Journal of Offshore Mechanics and Arctic
+  Engineering\/} {\bf 131}~(1), 011102.
 
-\bibitem[{Bernitsas et~al.(2008)Bernitsas, Raghavan, Ben-Simon, and
-  Garcia}]{Bernitsas2008a-concept}
-Bernitsas, M.~M., Raghavan, K., Ben-Simon, Y., Garcia, E. M.~H., 2008. {VIVACE
-  (Vortex Induced Vibration Aquatic Clean Energy): A new concept in generation
-  of clean and renewable energy from fluid flow}. Journal of Offshore Mechanics
-  and Arctic Engineering 130~(4), 041101--15.
+\bibitem[Bernitsas {\em et~al.\/}(2008)Bernitsas, Raghavan, Ben-Simon \&
+  Garcia]{Bernitsas2008a-concept}
+{\sc Bernitsas, Michael~M., Raghavan, Kamaldev, Ben-Simon, Y. \& Garcia, E.
+  M.~H.} 2008 {VIVACE (Vortex Induced Vibration Aquatic Clean Energy): A new
+  concept in generation of clean and renewable energy from fluid flow}. {\em
+  Journal of Offshore Mechanics and Arctic Engineering\/} {\bf 130}~(4),
+  041101--15.
 
-\bibitem[{Blevins(1990)}]{Blevins1990}
-Blevins, R.~D., 1990. {Flow-Induced Vibration}, 2nd Edition. New York: Van
-  Nostrand Reinhold.
+\bibitem[Blevins(1990)]{Blevins1990}
+{\sc Blevins, R.~D.} 1990 {\em {Flow-Induced Vibration}\/}, 2nd edn. New York:
+  Van Nostrand Reinhold.
 
-\bibitem[{Bouclin(1977)}]{bouclin:77}
-Bouclin, D.~N., 1977. Hydroelastic oscillations of square cylinders. Master's
-  thesis, University of British Columbia.
+\bibitem[Bouclin(1977)]{bouclin:77}
+{\sc Bouclin, D.~N.} 1977 Hydroelastic oscillations of square cylinders.
+  Master's thesis, University of British Columbia.
 
-\bibitem[{{Den Hartog}(1956)}]{DenHartog1956}
-{Den Hartog}, J.~P., 1956. {Mechanical Vibrations}. Dover Books on Engineering.
-  Dover Publications.
+\bibitem[{Den Hartog}(1956)]{DenHartog1956}
+{\sc {Den Hartog}, J~P} 1956 {\em {Mechanical Vibrations}\/}. Dover
+  Publications.
 
-\bibitem[{Deniz(1997)}]{Deniz1997}
-Deniz, S. amd~Staubli, T., 1997. Oscillating rectangular and octagonal
-  profiles: Interaction of leading-and trailing-edge vortex formation. Journal
-  of Fluids and Structures 11, 3--31.
+\bibitem[Deniz(1997)]{Deniz1997}
+{\sc Deniz, S. amd~Staubli, T} 1997 Oscillating rectangular and octagonal
+  profiles: Interaction of leading-and trailing-edge vortex formation. {\em
+  Journal of Fluids and Structures\/} {\bf 11}, 3--31.
 
-\bibitem[{Fletcher(1984)}]{Fletcher84}
-Fletcher, C. A.~J., 1984. Computational Galerkin methods. Springer-Verlag, New
-  York.
+\bibitem[Fletcher(1984)]{Fletcher84}
+{\sc Fletcher, C. A.~J.} 1984 {\em Computational Galerkin methods\/}.
+  Springer-Verlag, New York.
 
-\bibitem[{Fletcher(1991)}]{Fletcher91}
-Fletcher, C. A.~J., 1991. Computational techniques for fluid dynamics. Vol.~1.
-  Springer- Verlag, New York. Gabbai,.
+\bibitem[Fletcher(1991)]{Fletcher91}
+{\sc Fletcher, C. A.~J} 1991 {\em Computational techniques for fluid
+  dynamics\/}, , vol.~1. Springer- Verlag, New York. Gabbai,.
 
-\bibitem[{Glauert(1919)}]{Glauert1919}
-Glauert, H., 1919. {The rotation of an aerofoil about a fixed axis}. Tech.
-  rep., Advisory Committee on Aeronautics R and M 595. HMSO, London.
+\bibitem[Glauert(1919)]{Glauert1919}
+{\sc Glauert, H} 1919 {The rotation of an aerofoil about a fixed axis}. {\em
+  Tech. Rep.\/}. Advisory Committee on Aeronautics R and M 595. HMSO, London.
 
-\bibitem[{Gresho and Sani(1987)}]{gresho1987}
-Gresho, P.~M., Sani, R.~L., 1987. On pressure boundary conditions for the
-  incompressible {N}avier--{S}tokes equations. International journal for
-  numerical methods in fluids 7, 1111--1145.
+\bibitem[Gresho \& Sani(1987)]{gresho1987}
+{\sc Gresho, P.~M. \& Sani, R.~L.} 1987 On pressure boundary conditions for the
+  incompressible {N}avier--{S}tokes equations. {\em International journal for
+  numerical methods in fluids\/} {\bf 7}, 1111--1145.
 
-\bibitem[{Griffith et~al.(2011)Griffith, Leontini, Thompson, and
-  Hourigan}]{Griffith2011}
-Griffith, M.~D., Leontini, J.~S., Thompson, M.~C., Hourigan, K., 2011. Vortex
-  shedding and three-dimensional behaviour of flow past a cylinder confined in
-  a channel. Journal of Fluids and Structures 27~(5-6), 855--860.
+\bibitem[Griffith {\em et~al.\/}(2011)Griffith, Leontini, Thompson \&
+  Hourigan]{Griffith2011}
+{\sc Griffith, M.~D., Leontini, J.~S., Thompson, M.~C. \& Hourigan, K.} 2011
+  Vortex shedding and three-dimensional behaviour of flow past a cylinder
+  confined in a channel. {\em Journal of Fluids and Structures\/} {\bf
+  27}~(5-6), 855--860.
 
-\bibitem[{Joly et~al.(2012)Joly, Etienne, and Pelletier}]{Joly2012}
-Joly, A., Etienne, S., Pelletier, D., Jan. 2012. {Galloping of square cylinders
-  in cross-flow at low Reynolds numbers}. Journal of Fluids and Structures 28,
-  232--243.
+\bibitem[Joly {\em et~al.\/}(2012)Joly, Etienne \& Pelletier]{Joly2012}
+{\sc Joly, A., Etienne, S. \& Pelletier, D.} 2012 {Galloping of square
+  cylinders in cross-flow at low Reynolds numbers}. {\em Journal of Fluids and
+  Structures\/} {\bf 28}, 232--243.
 
-\bibitem[{Karniadakis and Sherwin(2005)}]{karniadakis2005}
-Karniadakis, G.~E., Sherwin, S., 2005. Spectral/hp element methods for
-  computational fluid dynamics, ii Edition. Oxford University.
+\bibitem[Karniadakis \& Sherwin(2005)]{karniadakis2005}
+{\sc Karniadakis, G.~E. \& Sherwin, S.} 2005 {\em Spectral/hp element methods
+  for computational fluid dynamics\/}, ii edn. Oxford University.
 
-\bibitem[{Kluger et~al.(2013)Kluger, Moon, and Rand}]{Kluger2013}
-Kluger, J., Moon, F., Rand, R., 2013. Shape optimization of a blunt body
-  vibro-wind galloping oscillator. Journal of Fluids and Structures 40, 185 --
-  200.
+\bibitem[Kluger {\em et~al.\/}(2013)Kluger, Moon \& Rand]{Kluger2013}
+{\sc Kluger, J.M., Moon, F.C. \& Rand, R.H.} 2013 Shape optimization of a blunt
+  body vibro-wind galloping oscillator. {\em Journal of Fluids and
+  Structures\/} {\bf 40}, 185 -- 200.
 
-\bibitem[{Kreyszig(2010)}]{kreyszig2010}
-Kreyszig, E., 2010. Advanced Engineering Mathematics, 10th Edition. John Wiley
-  \& Sons.
+\bibitem[Kreyszig(2010)]{kreyszig2010}
+{\sc Kreyszig, E.} 2010 {\em Advanced Engineering Mathematics\/}, 10th edn.
+  John Wiley \& Sons.
 
-\bibitem[{Lee and Bernitsas(2011)}]{Lee2011b}
-Lee, J., Bernitsas, M., Nov. 2011. {High-damping, high-Reynolds VIV tests for
-  energy harnessing using the VIVACE converter}. Ocean Engineering 38~(16),
-  1697--1712.
+\bibitem[Lee \& Bernitsas(2011)]{Lee2011b}
+{\sc Lee, J.H. \& Bernitsas, M.M.} 2011 {High-damping, high-Reynolds VIV tests
+  for energy harnessing using the VIVACE converter}. {\em Ocean Engineering\/}
+  {\bf 38}~(16), 1697--1712.
 
-\bibitem[{Lee et~al.(2011)Lee, Xiros, and Bernitsas}]{Lee2011a}
-Lee, J., Xiros, N., Bernitsas, M., Apr. 2011. {Virtual damper–spring system
-  for VIV experiments and hydrokinetic energy conversion}. Ocean Engineering
-  38~(5-6), 732--747.
+\bibitem[Lee {\em et~al.\/}(2011)Lee, Xiros \& Bernitsas]{Lee2011a}
+{\sc Lee, J.H., Xiros, N. \& Bernitsas, M.M.} 2011 {Virtual damper–spring
+  system for VIV experiments and hydrokinetic energy conversion}. {\em Ocean
+  Engineering\/} {\bf 38}~(5-6), 732--747.
 
-\bibitem[{Leonard and Roshko(2001)}]{leonard2001}
-Leonard, A., Roshko, A., 2001. Aspects of flow-induced vibrations. Journal of
-  Fluids and Structures 15, 415--425.
+\bibitem[Leonard \& Roshko(2001)]{leonard2001}
+{\sc Leonard, A. \& Roshko, A.} 2001 Aspects of flow-induced vibrations. {\em
+  Journal of Fluids and Structures\/} {\bf 15}, 415--425.
 
-\bibitem[{Leontini(2007)}]{Leontini:thesis}
-Leontini, J.~S., 2007. A numerical investigation of transversely-oscillating
-  cylinders in two-dimensional flow. Ph.D. thesis, Monash University.
+\bibitem[Leontini(2007)]{Leontini:thesis}
+{\sc Leontini, J.~S.} 2007 A numerical investigation of
+  transversely-oscillating cylinders in two-dimensional flow. PhD thesis,
+  Monash University.
 
-\bibitem[{Leontini et~al.(2011)Leontini, {Lo Jacono}, and
-  Thompson}]{Leontini2011}
-Leontini, J.~S., {Lo Jacono}, D., Thompson, M.~C., Nov. 2011. {A numerical
-  study of an inline oscillating cylinder in a free stream}. Journal of Fluid
-  Mechanics 688, 551--568.
+\bibitem[Leontini {\em et~al.\/}(2011)Leontini, {Lo Jacono} \&
+  Thompson]{Leontini2011}
+{\sc Leontini, Justin~S., {Lo Jacono}, David \& Thompson, Mark~C.} 2011 {A
+  numerical study of an inline oscillating cylinder in a free stream}. {\em
+  Journal of Fluid Mechanics\/} {\bf 688}, 551--568.
 
-\bibitem[{Leontini and Thompson(2013)}]{Leontini2013}
-Leontini, J.~S., Thompson, M.~C., 2013. Vortex-induced vibrations of a diamond
-  cross-section: Sensitivity to corner sharpness. Journal of Fluids and
-  Structures 39, 371--390.
+\bibitem[Leontini \& Thompson(2013)]{Leontini2013}
+{\sc Leontini, J.~S. \& Thompson, M.~C.} 2013 Vortex-induced vibrations of a
+  diamond cross-section: Sensitivity to corner sharpness. {\em Journal of
+  Fluids and Structures\/} {\bf 39}, 371--390.
 
-\bibitem[{Leontini et~al.(2007)Leontini, Thompson, and
-  Hourigan}]{Leontini2007a}
-Leontini, J.~S., Thompson, M.~C., Hourigan, K., Apr. 2007. {Three-dimensional
-  transition in the wake of a transversely oscillating cylinder}. Journal of
-  Fluid Mechanics 577, 79.
+\bibitem[Leontini {\em et~al.\/}(2007)Leontini, Thompson \&
+  Hourigan]{Leontini2007a}
+{\sc Leontini, J.~S., Thompson, M.~C. \& Hourigan, K.} 2007 {Three-dimensional
+  transition in the wake of a transversely oscillating cylinder}. {\em Journal
+  of Fluid Mechanics\/} {\bf 577}, 79.
 
-\bibitem[{Luo et~al.(2003)Luo, Chew, and Ng}]{Luo2003}
-Luo, S., Chew, Y., Ng, Y., Aug. 2003. {Hysteresis phenomenon in the galloping
-  oscillation of a square cylinder}. Journal of Fluids and Structures 18~(1),
-  103--118.
+\bibitem[Luo {\em et~al.\/}(2003)Luo, Chew \& Ng]{Luo2003}
+{\sc Luo, S.C., Chew, Y.T. \& Ng, Y.T.} 2003 {Hysteresis phenomenon in the
+  galloping oscillation of a square cylinder}. {\em Journal of Fluids and
+  Structures\/} {\bf 18}~(1), 103--118.
 
-\bibitem[{Luo et~al.(1994)Luo, Yazdani, Chew, and Lee}]{Luo1994}
-Luo, S.~C., Yazdani, M., Chew, Y.~T., Lee, T.~S., 1994. Effects of incidence
-  and afterbody shape on flow past bluff cylinders. Journal of Wind Engineering
-  53, 375--399.
+\bibitem[Luo {\em et~al.\/}(1994)Luo, Yazdani, Chew \& Lee]{Luo1994}
+{\sc Luo, S.~C., Yazdani, Md.G., Chew, Y.~T. \& Lee, T.~S.} 1994 Effects of
+  incidence and afterbody shape on flow past bluff cylinders. {\em Journal of
+  Wind Engineering\/} {\bf 53}, 375--399.
 
-\bibitem[{Nakamura and Mizota(1975)}]{Nakamura1975a}
-Nakamura, Y., Mizota, T., 1975. Unsteady lifts and wakes of oscillating
-  rectangular prisms. ASCE Journal of the Engineering Mechanics Division 101,
-  855--871.
+\bibitem[Nakamura \& Mizota(1975)]{Nakamura1975a}
+{\sc Nakamura, Y. \& Mizota, T.} 1975 Unsteady lifts and wakes of oscillating
+  rectangular prisms. {\em ASCE Journal of the Engineering Mechanics
+  Division\/} {\bf 101}, 855--871.
 
-\bibitem[{Nakamura and Tomonari(1977)}]{Nakamura1977}
-Nakamura, Y., Tomonari, Y., 1977. Galloping of rectangular prisms in a smooth
-  and in a turbulent flow. Journal of Sound and Vibration 52, 233--241.
+\bibitem[Nakamura \& Tomonari(1977)]{Nakamura1977}
+{\sc Nakamura, Y. \& Tomonari, Y.} 1977 Galloping of rectangular prisms in a
+  smooth and in a turbulent flow. {\em Journal of Sound and Vibration\/} {\bf
+  52}, 233--241.
 
-\bibitem[{Naudascher and Rockwell(1994)}]{Naudasher94}
-Naudascher, E., Rockwell, D., 1994. Flow-induced vibrations: An engineering
-  guide. A.A. Balkema, Rotterdam.
+\bibitem[Naudascher \& Rockwell(1994)]{Naudasher94}
+{\sc Naudascher, E. \& Rockwell, D.} 1994 {\em Flow-induced vibrations: An
+  engineering guide\/}. A.A. Balkema, Rotterdam.
 
-\bibitem[{Naudascher and Wang(1993)}]{Naudascher1993}
-Naudascher, E., Wang, Y., 1993. Flow induced vibrations of prismatic bodies and
-  grids of prisms. Journal of fluids and structures 7, 341--373.
+\bibitem[Naudascher \& Wang(1993)]{Naudascher1993}
+{\sc Naudascher, E. \& Wang, Y.} 1993 Flow induced vibrations of prismatic
+  bodies and grids of prisms. {\em Journal of fluids and structures\/} {\bf 7},
+  341--373.
 
-\bibitem[{Ng et~al.(2005)Ng, Luo, and Chew}]{Ng2005}
-Ng, Y., Luo, S., Chew, Y., Jan. 2005. {On using high-order polynomial curve
-  fits in the quasi-steady theory for square-cylinder galloping}. Journal of
-  Fluids and Structures 20~(1), 141--146.
+\bibitem[Ng {\em et~al.\/}(2005)Ng, Luo \& Chew]{Ng2005}
+{\sc Ng, Y.T., Luo, S.C. \& Chew, Y.T.} 2005 {On using high-order polynomial
+  curve fits in the quasi-steady theory for square-cylinder galloping}. {\em
+  Journal of Fluids and Structures\/} {\bf 20}~(1), 141--146.
 
-\bibitem[{Pa\"{\i}doussis et~al.(2010)Pa\"{\i}doussis, Price, and
-  de~Langre}]{Paidoussis2010}
-Pa\"{\i}doussis, M., Price, S., de~Langre, E., 2010. {Fluid-Structure
-  Interactions : Cross-Flow-Induced Instabilities}. Cambridge University Press.
+\bibitem[Pa\"{\i}doussis {\em et~al.\/}(2010)Pa\"{\i}doussis, Price \&
+  de~Langre]{Paidoussis2010}
+{\sc Pa\"{\i}doussis, Michael, Price, Stuart \& de~Langre, Emmanuel} 2010 {\em
+  {Fluid-Structure Interactions : Cross-Flow-Induced Instabilities}\/}.
+  Cambridge University Press.
 
-\bibitem[{Parkinson(1989)}]{Parkinson1989}
-Parkinson, G., 1989. Phenomena and modelling of flow-induced vibrations of
-  bluff bodies. Progress in Aerospace Sciences 26, 169--224.
+\bibitem[Parkinson(1989)]{Parkinson1989}
+{\sc Parkinson, G.V.} 1989 Phenomena and modelling of flow-induced vibrations
+  of bluff bodies. {\em Progress in Aerospace Sciences\/} {\bf 26}, 169--224.
 
-\bibitem[{Parkinson and Brooks(1961)}]{Parkinson1961}
-Parkinson, G., Brooks, N. P.~H., 1961. On the aeroelastic instability of bluff
-  cylinders. Journal of Applied Mechanics 28, 252--258.
+\bibitem[Parkinson \& Brooks(1961)]{Parkinson1961}
+{\sc Parkinson, G.V. \& Brooks, N. P.~H.} 1961 On the aeroelastic instability
+  of bluff cylinders. {\em Journal of Applied Mechanics\/} {\bf 28}, 252--258.
 
-\bibitem[{Parkinson(1974)}]{Parkinson1974}
-Parkinson, G.~V., 1974. { Mathematical models of flow-induced vibrations of
-  bluff bodies. In Flow-Induced Structural Vibrations}, e. naudascher Edition.
-  Berlin: SpringerVerlag.
+\bibitem[Parkinson(1974)]{Parkinson1974}
+{\sc Parkinson, G.~V.} 1974 {\em { Mathematical models of flow-induced
+  vibrations of bluff bodies. In Flow-Induced Structural Vibrations}\/}, e.
+  naudascher edn. Berlin: SpringerVerlag.
 
-\bibitem[{Parkinson and Smith(1964)}]{Parkinson1964}
-Parkinson, G.~V., Smith, J.~D., 1964. {The square prism as an aeroelastic
-  non-linear oscillator}. The Quarterly Journal of Mechanics and Applied
-  Mathematics 17~(2), 225--239.
+\bibitem[Parkinson \& Smith(1964)]{Parkinson1964}
+{\sc Parkinson, G.~V. \& Smith, J.~D.} 1964 {The square prism as an aeroelastic
+  non-linear oscillator}. {\em The Quarterly Journal of Mechanics and Applied
+  Mathematics\/} {\bf 17}~(2), 225--239.
 
-\bibitem[{Pregnalato(2003)}]{Pregnalato:thesis}
-Pregnalato, C., 2003. Flow-induced vibrations of a tethered sphere. Ph.D.
+\bibitem[Pregnalato(2003)]{Pregnalato:thesis}
+{\sc Pregnalato, C.} 2003 Flow-induced vibrations of a tethered sphere. PhD
   thesis, Monash University.
 
-\bibitem[{Raghavan and Bernitsas(2011)}]{Raghavan2010a}
-Raghavan, K., Bernitsas, M., Apr. 2011. {Experimental investigation of Reynolds
-  number effect on vortex induced vibration of rigid circular cylinder on
-  elastic supports}. Ocean Engineering 38~(5-6), 719--731.
+\bibitem[Raghavan \& Bernitsas(2011)]{Raghavan2010a}
+{\sc Raghavan, K. \& Bernitsas, M.M.} 2011 {Experimental investigation of
+  Reynolds number effect on vortex induced vibration of rigid circular cylinder
+  on elastic supports}. {\em Ocean Engineering\/} {\bf 38}~(5-6), 719--731.
 
-\bibitem[{Raghavan et~al.(2009)Raghavan, Bernitsas, and
-  Maroulis}]{Raghavan2009}
-Raghavan, K., Bernitsas, M.~M., Maroulis, D.~E., 2009. {Effect of Bottom
-  Boundary on VIV for Energy Harnessing at {$ 8\times{10^3} <Re< 1.5 \times
-  {10^5} $}}. Journal of Offshore Mechanics and Arctic Engineering 131~(3),
-  031102.
+\bibitem[Raghavan {\em et~al.\/}(2009)Raghavan, Bernitsas \&
+  Maroulis]{Raghavan2009}
+{\sc Raghavan, K., Bernitsas, Michael~M. \& Maroulis, D.~E.} 2009 {Effect of
+  Bottom Boundary on VIV for Energy Harnessing at {$ 8\times{10^3} <Re< 1.5
+  \times {10^5} $}}. {\em Journal of Offshore Mechanics and Arctic
+  Engineering\/} {\bf 131}~(3), 031102.
 
-\bibitem[{Robertson et~al.(2003)Robertson, Li, Sherwin, and
-  Bearman}]{Robertson2003}
-Robertson, I., Li, L., Sherwin, S.~J., Bearman, P.~W., 2003. A numerical study
-  of rotational and transverse galloping rectangular bodies. Journal of Fluids
-  and Structures 17, 681 -- 699.
+\bibitem[Robertson {\em et~al.\/}(2003)Robertson, Li, Sherwin \&
+  Bearman]{Robertson2003}
+{\sc Robertson, I., Li, L., Sherwin, S.~J. \& Bearman, P.~W.} 2003 A numerical
+  study of rotational and transverse galloping rectangular bodies. {\em Journal
+  of Fluids and Structures\/} {\bf 17}, 681 -- 699.
 
-\bibitem[{Ruscheweyh et~al.(1996)Ruscheweyh, Hortmanns, and
-  Schnakenberg}]{Ruscheweyh1996}
-Ruscheweyh, H., Hortmanns, M., Schnakenberg, C., 1996. Vortex-excited
-  vibrations and galloping of slender elements. Journal of Wind Egineering and
-  Industrial Aerodynamics 65, 347--352.
+\bibitem[Ruscheweyh {\em et~al.\/}(1996)Ruscheweyh, Hortmanns \&
+  Schnakenberg]{Ruscheweyh1996}
+{\sc Ruscheweyh, H., Hortmanns, M. \& Schnakenberg, C.} 1996 Vortex-excited
+  vibrations and galloping of slender elements. {\em Journal of Wind Egineering
+  and Industrial Aerodynamics\/} {\bf 65}, 347--352.
 
-\bibitem[{Sheard et~al.(2009)Sheard, Fitxgerald, and Ryan}]{sheard2009}
-Sheard, G.~J., Fitxgerald, M.~J., Ryan, K., Jun. 2009. {Cylinders with square
-  cross-section: wake instabilities with incidence angle variation}. Journal of
-  Fluid Mechanics 630, 43.
+\bibitem[Sheard {\em et~al.\/}(2009)Sheard, Fitzgerald \& Ryan]{sheard2009}
+{\sc Sheard, Gregory~J., Fitzgerald, Matthew~J. \& Ryan, Kris} 2009 {Cylinders
+  with square cross-section: wake instabilities with incidence angle
+  variation}. {\em Journal of Fluid Mechanics\/} {\bf 630}, 43.
 
-\bibitem[{Shiels et~al.(2001)Shiels, Leonard, and Roshko}]{shiels2001}
-Shiels, D., Leonard, A., Roshko, A., 2001. Flow-induced vibration of a circular
-  cylinder at limiting structural parameters. Journal of Fluids and Structures
-  15, 3--21.
+\bibitem[Shiels {\em et~al.\/}(2001)Shiels, Leonard \& Roshko]{shiels2001}
+{\sc Shiels, D., Leonard, A. \& Roshko, A.} 2001 Flow-induced vibration of a
+  circular cylinder at limiting structural parameters. {\em Journal of Fluids
+  and Structures\/} {\bf 15}, 3--21.
 
-\bibitem[{Thompson et~al.(1996)Thompson, Hourigan, and
-  Sheridan}]{Thompson1996a}
-Thompson, M., Hourigan, K., Sheridan, J., Feb. 1996. {Three-dimensional
-  instabilities in the wake of a circular cylinder}. Experimental Thermal and
-  Fluid Science 12~(2), 190--196.
+\bibitem[Thompson {\em et~al.\/}(1996)Thompson, Hourigan \&
+  Sheridan]{Thompson1996a}
+{\sc Thompson, Mark, Hourigan, Kerry \& Sheridan, John} 1996 {Three-dimensional
+  instabilities in the wake of a circular cylinder}. {\em Experimental Thermal
+  and Fluid Science\/} {\bf 12}~(2), 190--196.
 
-\bibitem[{Thompson et~al.(2006)Thompson, Hourigan, Cheung, and
-  Leweke}]{Thompson2006}
-Thompson, M.~C., Hourigan, K., Cheung, A., Leweke, T., Nov. 2006.
-  {Hydrodynamics of a particle impact on a wall}. Applied Mathematical
-  Modelling 30~(11), 1356--1369.
+\bibitem[Thompson {\em et~al.\/}(2006)Thompson, Hourigan, Cheung \&
+  Leweke]{Thompson2006}
+{\sc Thompson, Mark~C., Hourigan, Kerry, Cheung, Alex \& Leweke, Thomas} 2006
+  {Hydrodynamics of a particle impact on a wall}. {\em Applied Mathematical
+  Modelling\/} {\bf 30}~(11), 1356--1369.
 
-\bibitem[{Tong et~al.(2008)Tong, Luo, and Khoo}]{tong2008}
-Tong, X., Luo, S., Khoo, B., Oct. 2008. {Transition phenomena in the wake of an
-  inclined square cylinder}. Journal of Fluids and Structures 24~(7),
-  994--1005.
+\bibitem[Tong {\em et~al.\/}(2008)Tong, Luo \& Khoo]{tong2008}
+{\sc Tong, X.H., Luo, S.C. \& Khoo, B.C.} 2008 {Transition phenomena in the
+  wake of an inclined square cylinder}. {\em Journal of Fluids and
+  Structures\/} {\bf 24}~(7), 994--1005.
 
-\bibitem[{Tu et~al.(2008)Tu, Yeoh, and Liu}]{tu2007}
-Tu, J., Yeoh, G., Liu, C., 2008. Computational Fluid Dynamics: A Practical
-  Approach, 1st Edition. Butterworth-Heinemann.
+\bibitem[Tu {\em et~al.\/}(2008)Tu, Yeoh \& Liu]{tu2007}
+{\sc Tu, J., Yeoh, G.H. \& Liu, C.} 2008 {\em Computational Fluid Dynamics: A
+  Practical Approach\/}, 1st edn. Butterworth-Heinemann.
 
-\bibitem[{Vicente-Ludlam et~al.(2014)Vicente-Ludlam, Barrero-Gil, and
-  Velazquez}]{vicente-Ludlam2014}
-Vicente-Ludlam, D., Barrero-Gil, A., Velazquez, A., 2014. Optimal
-  electromagnetic energy extraction from transverse galloping. Journal of
-  Fluids and Structures 51, 281--291.
+\bibitem[Vicente-Ludlam {\em et~al.\/}(2014)Vicente-Ludlam, Barrero-Gil \&
+  Velazquez]{vicente-Ludlam2014}
+{\sc Vicente-Ludlam, D., Barrero-Gil, A. \& Velazquez, A.} 2014 Optimal
+  electromagnetic energy extraction from transverse galloping. {\em Journal of
+  Fluids and Structures\/} {\bf 51}, 281--291.
 
-\bibitem[{Vio et~al.(2007)Vio, Dimitriadis, and Cooper}]{Vio2007}
-Vio, G., Dimitriadis, G., Cooper, J., Oct. 2007. {Bifurcation analysis and
+\bibitem[Vio {\em et~al.\/}(2007)Vio, Dimitriadis \& Cooper]{Vio2007}
+{\sc Vio, G.A., Dimitriadis, G \& Cooper, J.E.} 2007 {Bifurcation analysis and
   limit cycle oscillation amplitude prediction methods applied to the
-  aeroelastic galloping problem}. Journal of Fluids and Structures 23~(7),
-  983--1011.
+  aeroelastic galloping problem}. {\em Journal of Fluids and Structures\/} {\bf
+  23}~(7), 983--1011.
 
-\bibitem[{Weaver and Veljkovic(2005)}]{Weaver2005}
-Weaver, D.~S., Veljkovic, I., 2005. Vortex shedding and galloping of open
-  semi-circular and parabolic cylinders in cross-flow. Journal of Fluids and
-  Structures 21, 65--74.
+\bibitem[Weaver \& Veljkovic(2005)]{Weaver2005}
+{\sc Weaver, D.~S. \& Veljkovic, I.} 2005 Vortex shedding and galloping of open
+  semi-circular and parabolic cylinders in cross-flow. {\em Journal of Fluids
+  and Structures\/} {\bf 21}, 65--74.
 
-\bibitem[{White(1999)}]{White99}
-White, F., 1999. Fluid mechanics, 4th Edition. McGraw-Hill, Boston.
+\bibitem[White(1999)]{White99}
+{\sc White, F.} 1999 {\em Fluid mechanics\/}, 4th edn. McGraw-Hill, Boston.
 
-\bibitem[{Williamson and Govardhan(2004)}]{williamson2004}
-Williamson, C.~H.~K., Govardhan, R., 2004. Vortex-induced vibrations. Annual
-  Review of Fluid Mechanics 36, 413--455.
+\bibitem[Williamson \& Govardhan(2004)]{williamson2004}
+{\sc Williamson, C.~H.~K. \& Govardhan, R.} 2004 Vortex-induced vibrations.
+  {\em Annual Review of Fluid Mechanics\/} {\bf 36}, 413--455.
 
 \end{thebibliography}
