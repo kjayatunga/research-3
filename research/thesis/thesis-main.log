@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  6 JUL 2016 21:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  7 JUL 2016 06:20
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1045,7 +1045,7 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/spec_200.eps Graphic file (type eps)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/spec_200.eps>
 
-LaTeX Warning: Float too large for page by 17.7279pt on input line 66.
+LaTeX Warning: Float too large for page by 0.4908pt on input line 66.
 
 ) (./chapter-pi_1_pi_2/figure/cyspectrum.tex
 File: ./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_20_sig.eps Graphic file (type eps)
@@ -1077,7 +1077,7 @@ File: ./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_200.eps Graphic file (type eps)
 
 <./chapter-pi_1_pi_2/FnP/gnuplot/cyspec_200.eps>
 
-LaTeX Warning: Float too large for page by 17.7279pt on input line 64.
+LaTeX Warning: Float too large for page by 0.4908pt on input line 64.
 
 )
 Underfull \vbox (badness 3138) has occurred while \output is active []
@@ -1323,7 +1323,7 @@ Missing character: There is no “ in font cmr10!
 Here is how much of TeX's memory you used:
  13959 strings out of 493090
  272979 string characters out of 6134868
- 314410 words of memory out of 5000000
+ 314409 words of memory out of 5000000
  16827 multiletter control sequences out of 15000+600000
  21229 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
