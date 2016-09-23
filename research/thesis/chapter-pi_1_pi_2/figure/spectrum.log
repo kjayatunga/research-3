@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  28 APR 2016 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  23 SEP 2016 12:02
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -15,7 +15,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 \begin{figure}
-                  [!h]
+                  [htbp]\centering
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -28,17 +28,19 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 \begin{figure}[
-                   !h]
+                   htbp]\centering
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
-[][]
+ [][] 
  []
 
 ! Undefined control sequence.
@@ -800,8 +802,8 @@ you left one out. Proceed, with fingers crossed.
 ! Undefined control sequence.
 <argument> \small 
                   (a)
-l.35       \put(0.095,0.995){\small(a)}
-                                       
+l.37     \put(0.434,1.03){\small(a)}
+                                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -814,8 +816,8 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <argument> \small 
                   (b)
-l.36       \put(0.625,0.995){\small(b)}
-                                       
+l.38     \put(0.935,1.03){\small(b)}
+                                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -828,8 +830,8 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <argument> \small 
                   (c)
-l.37       \put(0.095,0.725){\small(c)}
-                                       
+l.39     \put(0.434,0.760){\small(c)}
+                                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -842,8 +844,8 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <argument> \small 
                   (d)
-l.38       \put(0.625,0.725){\small(d)}
-                                       
+l.40     \put(0.935,0.760){\small(d)}
+                                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -856,8 +858,8 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <argument> \small 
                   (e)
-l.39       \put(0.095,0.465){\small(e)}
-                                       
+l.41     \put(0.434,0.500){\small(e)}
+                                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -870,8 +872,8 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <argument> \small 
                   (f)
-l.40       \put(0.625,0.465){\small(f)}
-                                       
+l.42     \put(0.935,0.5){\small(f)}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -884,8 +886,8 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <argument> \small 
                   (g)
-l.41       \put(0.095,0.185){\small(g)}
-                                       
+l.43     \put(0.434,0.220){\small(g)}
+                                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -898,8 +900,8 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <argument> \small 
                   (h)
-l.42       \put(0.625,0.185){\small(h)}
-                                       
+l.44     \put(0.935,0.220){\small(h)}
+                                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -912,7 +914,7 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <argument> \small 
                   $f_g$
-l.44       \put(0.65,0.82){\small$f_g$}
+l.46       \put(0.65,0.82){\small$f_g$}
                                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -923,7 +925,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \small 
                   $f_s$
-l.45       \put(0.881,0.82){\small$f_s$}
+l.47       \put(0.881,0.82){\small$f_s$}
                                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -934,7 +936,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \small 
                   $f_g$
-l.47         \put(0.65,0.545){\small$f_g$}
+l.49         \put(0.65,0.545){\small$f_g$}
                                           
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -945,7 +947,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \small 
                   $f_s$
-l.48         \put(0.881,0.545){\small$f_s$}
+l.50         \put(0.881,0.545){\small$f_s$}
                                            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -956,7 +958,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \small 
                   $f_g$
-l.51          \put(0.65,0.285){\small$f_g$}
+l.53          \put(0.65,0.285){\small$f_g$}
                                            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -967,7 +969,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \small 
                   $f_s$
-l.52          \put(0.881,0.285){\small$f_s$}
+l.54          \put(0.881,0.285){\small$f_s$}
                                             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -978,7 +980,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \small 
                   $f_g$
-l.54          \put(0.65,-0.03){\small$f_g$}
+l.56          \put(0.65,-0.03){\small$f_g$}
                                            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -989,7 +991,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \small 
                   $f_s$
-l.55          \put(0.881,-0.03){\small$f_s$}
+l.57          \put(0.881,-0.03){\small$f_s$}
                                             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1000,7 +1002,7 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1011,7 +1013,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1022,7 +1024,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1031,7 +1033,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (136.98216pt too wide) detected at line 60
+Overfull \hbox (136.98216pt too wide) detected at line 62
 $[][]\OML/cmm/m/it/10 i[]=FnP=gnuplot=spec[]\OT1/cmr/m/n/10 00\OML/cmm/m/it/10 
 :eps[][]$
  []
@@ -1039,7 +1041,7 @@ $[][]\OML/cmm/m/it/10 i[]=FnP=gnuplot=spec[]\OT1/cmr/m/n/10 00\OML/cmm/m/it/10
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1050,7 +1052,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1061,7 +1063,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1070,7 +1072,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (131.98215pt too wide) detected at line 60
+Overfull \hbox (131.98215pt too wide) detected at line 62
 $[][]\OML/cmm/m/it/10 i[]=FnP=gnuplot=spec[]\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :
 eps[]$
  []
@@ -1078,7 +1080,7 @@ eps[]$
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1089,7 +1091,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1100,7 +1102,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1109,7 +1111,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (131.98215pt too wide) detected at line 60
+Overfull \hbox (131.98215pt too wide) detected at line 62
 $[][]\OML/cmm/m/it/10 i[]=FnP=gnuplot=spec[]\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :
 eps[]$
  []
@@ -1117,7 +1119,7 @@ eps[]$
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1128,7 +1130,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1139,7 +1141,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1150,7 +1152,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1161,7 +1163,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1170,7 +1172,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (149.83008pt too wide) detected at line 60
+Overfull \hbox (149.83008pt too wide) detected at line 62
 $[][]\OML/cmm/m/it/10 i[]=FnP=gnuplot=spec[]\OT1/cmr/m/n/10 00[]\OML/cmm/m/it/1
 0 ig:eps[]$
  []
@@ -1178,7 +1180,7 @@ $[][]\OML/cmm/m/it/10 i[]=FnP=gnuplot=spec[]\OT1/cmr/m/n/10 00[]\OML/cmm/m/it/1
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1189,7 +1191,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1200,7 +1202,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1209,7 +1211,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (144.83006pt too wide) detected at line 60
+Overfull \hbox (144.83006pt too wide) detected at line 62
 $[][]\OML/cmm/m/it/10 i[]=FnP=gnuplot=spec[]\OT1/cmr/m/n/10 0[]\OML/cmm/m/it/10
  ig:eps[]$
  []
@@ -1217,7 +1219,7 @@ $[][]\OML/cmm/m/it/10 i[]=FnP=gnuplot=spec[]\OT1/cmr/m/n/10 0[]\OML/cmm/m/it/10
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1228,7 +1230,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1239,7 +1241,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1248,7 +1250,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (185.83005pt too wide) detected at line 60
+Overfull \hbox (185.83005pt too wide) detected at line 62
 $[][]\OML/cmm/m/it/10 i[]=FnP=gnuplot=spec[]\OT1/cmr/m/n/10 0[]\OML/cmm/m/it/10
  ig:eps[]$
  []
@@ -1256,7 +1258,7 @@ $[][]\OML/cmm/m/it/10 i[]=FnP=gnuplot=spec[]\OT1/cmr/m/n/10 0[]\OML/cmm/m/it/10
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1267,7 +1269,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60   \end{picture}
+l.62   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1276,7 +1278,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) detected at line 60
+Underfull \hbox (badness 10000) detected at line 62
  []
  []
 
@@ -1287,8 +1289,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62   \caption
-               {Velocity signal (right) and the corresponding power spectrum...
+l.64   \caption
+               {Velocity signal (left) and the corresponding power spectrum ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1300,8 +1302,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62   \caption{V
-                 elocity signal (right) and the corresponding power spectrum...
+l.64   \caption{V
+                 elocity signal (left) and the corresponding power spectrum ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1321,10 +1323,9 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no ( in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -1360,9 +1361,10 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no ( in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -1392,7 +1394,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.62 ... the DNS data at four values of \massstiff
+l.64 ... the DNS data at four values of \massstiff
                                                    \ at $\massdamp=0.47$. (a...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1405,7 +1407,7 @@ Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
 <recently read> \massdamp 
                           
-l.62 ... four values of \massstiff \ at $\massdamp
+l.64 ... four values of \massstiff \ at $\massdamp
                                                   =0.47$. (a) and (b) $\mass...
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
@@ -1415,6 +1417,6 @@ Here is how much of TeX's memory you used:
  3596 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 20i,18n,15p,551b,138s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 20i,18n,15p,551b,148s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 No pages of output.
