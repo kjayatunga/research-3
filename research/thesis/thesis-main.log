@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  27 SEP 2016 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  6 OCT 2016 09:48
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -617,20 +617,34 @@ LaTeX Font Info:    ... okay on input line 182.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 182.
 LaTeX Font Info:    ... okay on input line 182.
 
-ABD: EveryShipout initializing macros [1
+ABD: EveryShipout initializing macros
+File: logo.eps Graphic file (type eps)
+ <logo.eps> [1
 
 ] [2
 
 
 ]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 223.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 223.
+ [3
+
+
+]
 \openout2 = `./initial-stuff/originality.aux'.
 
- (./initial-stuff/originality.tex
+
+(./initial-stuff/originality.tex
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-) [3
-
+) [4
 
 
 ]
@@ -646,7 +660,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 8.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [4
+) [5
 
 
 
@@ -657,7 +671,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
+[6]
 \openout2 = `./initial-stuff/acknowledgements.aux'.
 
  (./initial-stuff/acknowledgements.tex
@@ -670,11 +684,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--16
 
  []
 
-[6
+[7
 
 
 
-]) [7] [1
+]) [8] [1
 
 
 ]
@@ -771,14 +785,6 @@ File: ./chapter-literature-revirw/fnp/setup-1.eps Graphic file (type eps)
 <./chapter-literature-revirw/fnp/setup-1.eps> [5
 
 ]) [6]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
-
 (./chapter-literature-revirw/figures/parkinson_data.tex
 File: ./chapter-literature-revirw/fnp/parkinson_data.eps Graphic file (type eps
 )
@@ -1321,12 +1327,12 @@ Missing character: There is no “ in font cmr10!
 (./initial-stuff/abstract.aux) (./initial-stuff/acknowledgements.aux)
 (./initial-stuff/publications.aux) (./initial-stuff/nomenclature-1.aux)) ) 
 Here is how much of TeX's memory you used:
- 13959 strings out of 493090
- 272979 string characters out of 6134868
+ 13963 strings out of 493090
+ 273027 string characters out of 6134868
  314410 words of memory out of 5000000
- 16827 multiletter control sequences out of 15000+600000
+ 16830 multiletter control sequences out of 15000+600000
  21229 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,2409b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (122 pages, 381944 bytes).
+Output written on thesis-main.dvi (123 pages, 382632 bytes).
