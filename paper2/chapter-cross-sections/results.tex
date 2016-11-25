@@ -1,0 +1,144 @@
+\chapter{Influence of fluid dynamics of the system on the extracted power}
+
+\section{Introduction}
+
+This chapter contains the results and discussion relating to the third objective of this thesis. As discussed in chapter \ref{chap:lit-review} the induced force $F_y$ of the system is mainly controlled by the behaviour of the top and bottom of the shear layer behaviour of the system. The current published work shows that the afterbody of the system has a significant influence on the galloping response \citep{Luo1994}. In this chapter, the influence of shear layer behaviour and hence, the influence of the afterbody on mean extracted power is explored.
+
+Here, the influence of shear layer and its reattachment on the mean power is studied by introducing a cross section which is a hybrid of a square and a triangle. The cross section is transformed gradually by manipulating the ratio of two length scales as shown in figure \ref{fig:hybrid_section}.
+
+The stationary forcing data is presented for each cross section followed by the QSS power curves. Based on the QSS power data, an optimum cross section for power extraction is identified. Next, the underpinning reason for the negative regions of certain $C_y$ curves is discussed through surface pressure and flow velocity data. Following this, a comparison is made between QSS and DNS mean power at the optimum power cross section.       
+
+A final summary is presented explaining the influence of the behaviour of the shear layer on mean power output and the preliminary design considerations to optimise the fluid mechanics to obtain an optimum power output. 
+
+
+\section{Influence of the shear layers}
+
+As highlighted in section \ref{subsec:fluid_mechanics_of_galloping} the afterbody of the cross section have a significant influence on galloping. This is because of the shear layer needs to interact with the afterbody after separation at the leading edge. 
+
+
+The $C_y$ vs $\theta$ curve increases till it reaches a maximum and then reduces as the induce angle is increased. The maximum of the induced lift occurs when the separated  shear layer (at the leading edge) closer to the surface of the body reattaches at the trailing edge \citep{Luo1994,Luo2003}. Therefore, by delaying the reattachment, the point where the maximum lift occurs can be shifted towards a higher induced angle which in the oscillatory case becomes a higher induced velocity. As shown in equation \ref{eqn:power_alt}, higher velocity is one factor that leads to higher power output. In order to test this hypothesis the shear layer reattachment was reduced by gradually tapering off the top and bottom sides of the square cross section trailing edges as shown in figure \ref{fig:hybrid_section}. The $\ratio$ was changed gradually from 1 to zero at increments of 0.25 where 1 being the square cross section and 0 being an isosceles triangle.    
+
+\input{./chapter-cross-sections/figures/sketch-1.tex}
+
+\section{Static body results}
+ \label{sec:cross-sec-Static body results}
+\input{./chapter-cross-sections/figures/coefficient-table.tex}
+
+Stationary $C_y$ results were obtained for cross sections where $\ratio=1,0.75,0.5,0.25$ and $0$ using DNS. Where $\ratio=1$ being the square and $\ratio=0$ being an isosceles  triangle. Table \ref{table:cy-coefficients-hybrid} shows the coefficients of the $7^{th}$ order interpolation polynomial for each cross section. In order to achieve a better fit, piecewise interpolation using multiple $7th$ order polynomials were incorporated for a single cross section. During the curve fitting process more importance was given for accurately fitting  the positive portion of the $C_{y}$ curve. This is because the power transfer from the fluid to the body occur in this region. 
+
+\input{./chapter-cross-sections/figures/lift_curves.tex}
+
+The $C_y$ vs. $\theta$ curves in figure \ref{fig:lift_curves-hybrid} shows that the peak value of \cy\ shifts to the right as $\ratio$ is increased. These data agree with \citet{Luo1994} where the peak of the maximum \cy\ value was shifted to higher induced angles when reattachment was delayed. As $\theta$ is proportional to the transverse velocity of the body $tan{\theta}=\frac{\dot{y}}{U}$, it is clear that the maximum \cy\ would occur at higher induced velocities as \ratio\ is decreased between $0.25\leq\ratio<0.5$. Another interesting observation is that the presence of a negative portion prior to the point of maximum \cy\ in the \cy\ vs. $\theta$ curves as \ratio\ is decreased. In this region, \cy\ decreases and reaches a minimum and then increases as $\theta$ is increased. The absolute value of the maximum is grater than the absolute value of the minimum. This negative portion starts to emerge at $\ratio=0.25$. However, the maximum value of \cy\ increases as \ratio\ is decreased providing an indication of a possibility of attaining a higher power output for cases with low \ratio.
+
+Yet, it is to be noted that the presence of the negative portion of the lift curve will oppose the motion of the body where the velocity of the body and the driving force will be out of phase. This will lead to an energy transfer from the body to the fluid and this power transfer which is in an unfavourable direction will result in  a reduction in mean power output.
+
+ \section{QSS predictions}
+  \label{sec:cross-sec-QSS}
+  
+ \subsection{Mean power output}
+ \label{subsec:cross-sec-qss-mean power}
+ 
+\input{./chapter-cross-sections/figures/power_curves.tex}
+ 
+Figure \ref{fig:power_curves} shows the mean power \massdamp\ vs. mean power for different cross sections namely $\ratio=1,0.75,0.5,0.25 \text{and} 0$. The maximum point of the \cy\ vs. $\theta$ represents the point of shear layer reattachment \citep{Luo1994}. It is discussed in \ref{sec:cross-sec-Static body results} that the maximum \cy\ occurs at higher induced angles as \ratio\ is decreased.Thus it can be concluded that the shear layer reattachment is delayed as \ratio\ is decreased. The mean power increases as \ratio\ is decrease where a significant increase in the maximum power could be observed. This meets the expectations where it was hypothesised that the mean power would increase as the shear layer re-attachment is delayed. A rapid increase in mean power could be observed below $\ratio\leq0.5$. This correspond with the large peak value of \cy\ which occur at a higher induced angle of attack. The large values of both peak \cy\ and induced angle of attack contribute to a grater instantaneous power transfer. 
+
+As $\ratio$  decreases beyond $\ratio\leq0.25$, as the mean power reaches the maximum a sudden drop could be observed as \massdamp\ is increased (eg. $\massdamp=0.39$ for $\ratio=0.25$). One interesting fact which could be observed is that the maximum power at $\ratio=0.25$ is larger than $\ratio=0$. This is against the expected outcome as the hypothesis was that by delaying the shear layer reattachment a higher mean power output could be gained.
+
+As discussed in section \ref{sec:cross-sec-Static body results} the negative portion of the $C_y$ curve causes a reduction in maximum power at $\ratio=0$ in comparison with $\ratio=0.25$. Comparing  the initial negative portion of the $\cy$ vs $\theta$ plot for $\ratio=0.25$ and $\ratio=0$ cross sections, it is clear that the area of the initial negative region is high in $\ratio=0$ which effectively transfers large amount of energy from the body to the fluid and therefore resulting a low power output.  
+
+
+\subsection{Surface pressure}
+  \label{subsec:cross-sec-surface pressure}
+  
+
+In order to investigate further the cause of this negative region, surface pressure data of static DNS simulations were analysed for the isosceles triangle ($\ratio=0$) at $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$. These points correspond to a negative \cy\ that is further decreasing with increasing $\theta$, a negative \cy\ that is increasing with increasing $\theta$ and a significantly positive value of \cy.   
+  
+\input{./chapter-cross-sections/figures/surf-pres.tex}
+
+Figure \ref{fig:surf_pres} shows the surface pressure of the top and bottom surfaces of the body ($\ratio=0$) starting from  the leading edges. At $\theta=4^{\circ}$, the pressure of the bottom of the body is grater than the top. Therefore, a pressure difference is created and a force is generated in the upward direction which according to the sign convention presented in \ref{fig:induced_lift_sketch}, is against the velocity of the body, hence giving a negative $\cy$. As $\theta$ (figure \ref{fig:surf_pres} (b)) is increased, to $16^{\circ}$ the gap between the surface pressure at the leading edge between the top and the bottom reduces. This effect results in the increase in $\cy$ (although it is still in the negative region). As $\theta$ is further increased at $21^{\circ}$ (figure \ref{fig:surf_pres} (c)) the surface pressure on the top side becomes grater than the bottom. Therefore, the net effect of the pressure difference is a positive $\cy$ which the driving force $F_y$ in phase with the velocity of the body. 
+
+\subsection{Velocity profiles at the points of flow separation}
+
+Having established that the cause of the initial negative region of the $\cy$ vs. $\theta$ plot was the pressure difference mainly at the leading edge of the top and bottom surfaces of the cross section, further investigation was carried out to study the case.
+\input{./chapter-cross-sections/figures/tri-sketch.tex}
+
+A key variable which directly relates to the fluid dynamic pressure is the velocity of the fluid. Although not strictly true in all cases of viscous flows, one should expect that a higher flow speed correspond with a lower pressure from basic fluid dynamic theory. Hence, analysis of the velocity at the edges of flow separation was performed to obtain a clear understanding about the cause of the pressure differences occurred.   
+
+
+In order to obtain a clear picture of the behaviour of the velocity, time averaged velocity magnitude data were obtained along lines spreading outwards starting from the top and bottom edges of flow separation. A clear illustration of these lines are depicted in figure \ref{fig:tri-sketch} .The lengths of these lines were equal to the width of the cross section. Data were obtained for the same cases presented earlier i.e. isosceles triangle ($\ratio=0$) at $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$.
+
+\input{./chapter-cross-sections/figures/vel-profile.tex}
+
+The velocity profiles at the chosen three incident angles are presented in figure \ref{fig:vel-profile}. A sudden rise of velocity magnitude could be observed at the flow separation points. The velocity magnitude at the top separation point  at $\theta= 4^{0}$ (figure \ref{fig:vel-profile} (a)) is higher than the bottom separation point, leading to a lower pressure at the top edge. However, the velocity magnitude at the bottom edge becomes grater than the top edge at $\theta=16^{\circ}$. The difference between the top and bottom velocity magnitude at the separation points tends to increase as $\theta$ is increased to $21^{\circ}$, where the velocity magnitude at the bottom being grater than the top (figure \ref{fig:vel-profile} (c)). This effectively creates the pressure difference created in figure \ref{fig:surf_pres} (c), which leads to a positive \cy\ and results in a forcing which is in phase with the velocity of the body. 
+
+\input{./chapter-cross-sections/figures/tri-stream-func.tex}
+
+It could be seen \cy\ is governed by two mechanisms. Initially at $\theta= 4^{0}$ an un even distribution of the flow is created due to the profile and the positioning (angle of attack) of the geometry creating a forcing ($F_{y}$) similar to the generation of lift of an aerofoil.
+As $\theta$ is increased from $\theta=16^{\circ}$ to $21^{\circ}$, the proximity of the shear layer to the wall of the body (explained in subsection \ref{subsec:c_y and shear layers}) starts to govern the behaviour of \cy\ suppressing the forcing created due to the uneven flow distribution hence, creating the positive region of the \cy\ vs. $\theta$ curve. This effect is clearly depicted in figure \ref{fig:triangle-shear_layers} the proximity of the bottom shear layer of the triangle comes closer to the bottom surface as the $\theta$ from $4^{\circ}$ to $21^{\circ}$.  
+
+
+\section{Fluid-structure interaction (DNS) results}
+\label{sec:cross-sec-FSI-results}
+
+\subsection{Mean power data}
+\label{subsec:cross-sec-dns-mean-power}
+
+As discussed in section \ref{sec:chp-pi_1_pi2_dns} the main limitation of the QSS model is the assumption that the only driving force of the system is $F_{y}$ which is generated by the fluid dynamic forces at the induced velocity . However, it was proven that this is not the case as vortex shedding have a significant influence with other non-linear disturbances on mean power as \massstiff\ decreases. Nevertheless, it was also concluded that a good agreement for power could be made at high \massstiff\ for the square cross section. Therefore, a comparison study between QSS and DNS mean power was carried out on the different cross section at high \massstiff\ (i.e.$\massstiff=1000$). As it was evident from figure \ref{fig:power_curves} that the maximum power occur between $1<\ratio<0.25$, DNS mean power data were obtained between $0.25\leq\ratio\leq1$.   
+
+Both  DNS and QSS mean power data (figure \ref{fig:DNS-power}) show that as \ratio\ decreases maximum mean extracted power increases following a similar trend. Thus these results reinforce the hypothesis proposed earlier; specifically a higher mean power can be achieved by delaying the flow re-attachment. 
+
+However, a significant error (calculated using equation \ref{eqn:error_calculation}) between QSS and DNS power could be observed as \ratio\ is increased. The quantified errors presented in \ref{fig:error-hybrid} clearly shows the exponential increase in the $\%$ error as $\ratio \rightarrow 0.25$. The likely cause of this significant error could be the non-linear interactions and the presence of non-linear forcing other than the induced force $F_{y}$.
+
+\input{./chapter-cross-sections/figures/cross-sec-dns-power.tex}
+\input{./chapter-cross-sections/figures/qss-fsi-error-hyb.tex}
+ 
+\subsection{Flow-filed data}
+ 
+ In order to investigate further on the error between QSS and DNS results, flow-filed data were analysed. The chosen cross section to perform this task was $\ratio=0.25$ at $\massdamp=0.26$ which is the case where the maximum mean power could be obtained in among all cases simulated using DNS. 
+ 
+\input{./chapter-cross-sections/figures/fsi_time_sketch.tex}
+
+The time averaged flow-fields were obtained at 3 selected points of the velocity signal. These points were point 1 where $\dot{y}$ is maximum, point 2 where $\dot{y}$ is close to zero and further decreasing and point 3 where $\dot{y}$ is close to zero but moving towards the positive direction. A depiction of these points are presented in figure \ref{fig:FSI_sketch}. The averaging was carried out over a vortex-shedding cycle, where the starting and end times were defined to evenly bracket the point in consideration to attain the average flow-filed at that point. Time averaged stationary flow-field data of the corresponding induced angles were also obtained for comparison.
+
+
+\input{./chapter-cross-sections/figures/flow_filed_025.tex}
+
+Figure \ref{fig:flow_field_FSI} shows the time averaged stream functions for points 1, 2 and 3 and the stationary time averaged flow-field data for the corresponding induced angles. Comparison between FSI and stationary data at point 1 (Figure \ref{fig:flow_field_FSI} (a) and (b)) shows a significant difference of the stream functions even at the leading edge.
+
+In contrast, at point 2 and 3 the stream functions at the leading edge of the FSI simulations are similar to those of the stationary simulations. At point 2 both the FSI (figure \ref{fig:flow_field_FSI} (b)) and stationary  case (figure \ref{fig:flow_field_FSI} (c)) show similar flow behaviour until separation. A single circulation bubble at the top is formed in the FSI case where a symmetrical formation of the circulation bubbles could be observed in the stationary case. A similar behaviour of the stream functions could be observed between point 3 for FSI (figure \ref{fig:flow_field_FSI} (d)) and stationary (figure \ref{fig:flow_field_FSI} (e)) cases. 
+
+According to the assumptions of the QSS theory the flow-fields between the stationary and FSI cases at points 2 and 3 should be approximately identical as the induced velocities are zero and therefore the induced angles are zero. However, the observations on the FSI case is significantly different. This indicates that there is significant non linear forcing present as \ratio decreases which could be a result of the higher induced angles and correspondingly larger transverse velocities involved. 
+
+Thus, one of the key conclusions that could be arrived at is that the QSS predictions deviates significantly for mean power predictions as \ratio\ decreases. This is due to the fact that the forcing driving the system is not solely based on the time averaged fluid forces in a stationary body with a corresponding induced angle of attack. Be that as it may the QSS model provides a reasonable predictions for power to obtain trends similar to that predicted by DNS. Therefore, QSS model could be used as a design and research tool to obtain preliminary data and conclusions to produce efficient galloping energy extraction systems. 
+
+\section{Design considerations for a galloping energy extraction system through control of the fluid dynamics.}
+\label{subsec:design-considerations-cross-section}
+  
+It is clear that delaying reattachment of the flow would lead to higher energy output. However, it is to be noted that even though a higher power output could be obtained by delaying separation, a region where the power is transferred from the body to the fluid will develop as \ratio\ is decreased. This can be observed through the negative region present in the $\cy$ curves beyond $\ratio\leq0.25$. As this negative region develops the maximum power which could be extracted reduces. This could be observed in the power curves (figure \ref{subsec:cross-sec-qss-mean power}) where the maximum power at $\ratio=0$ is less than $\ratio=0.25$.
+
+This fact leads to one important design consideration to determine the optimum cross section. The optimal design would be a trade of between large positive values of \cy\ occurring at high angles of attack where significant power could be generated and the negative regions of \cy\ where the power transfer occurs in the opposite direction. \citet{Barrero-Gil2010a} concluded that the first coefficient $a_1$ should satisfy  $a_1>0$ in order to obtain for good operation of an energy harvesting system. Here, it is explained more in detailed using the QSS model together with direct numerical simulations for FSI cases. 
+
+As further consideration for future research, DNS and QSS work at $0<\ratio<0.25$ could be carried out to find the optimum ratio of $\ratio$ to obtain a maximum power output. Moreover, further work could be carried out to find ways to reduce the negative portion of the $\cy$ curve by applying modifications to the cross section. This could include further optimisation of the geometry 
+
+\section{Summary} 
+\label{sec:summary-diff-cross-sec}
+
+The primary objective of the work presented in this chapter was to test the hypothesis whether higher power output could be obtained by delaying the flow reattachment. This was done by incrementally tapering off the top and bottom sides of the trailing edges of the square cross section. A negative region in the $\cy$ vs. $\theta$ curve could be observed beyond $\ratio<0.25$. This region resulted in a power loss in a certain portion of the cycle as the driving force $F_y$ and the velocity $\dot{y}$ were out of phase.
+
+The mean power versus \massdamp\ curves showed an increase in maximum power as $\ratio$ was decreased until $\ratio=0.25$. At $\ratio=0$,  ($\displaystyle\frac{P_{m}}{\rho \mathcal{A}U^3}=0.0304$ at $\massdamp=0.021$) the maximum power was less than $\ratio=0.25$ ($\displaystyle\frac{P_{m}}{\rho \mathcal{A}U^3}=0.04$ at $\massdamp=0.028$), although the peak value of both the induced angle and $F_{y}$ was grater in $\ratio=0$ compared to $\ratio=0.25$. Further analysis of the \cy\ curve revealed that the negative region of $\ratio=0$  grater than $\ratio=0.25$ hence, resulting in a lower maximum power output. 
+
+Further investigations was conducted to determine what causes this negative region. The surface pressure plots and the velocity magnitude profiles at the separation points revealed that this is due to the uneven distribution of the flow causing the top side to have a higher velocity and lower pressure much like an aerofoil. At higher angles of attack this forcing is suppressed by the forcing created due to the proximity of the shear layer to the wall of the cross section explained in  subsection\ref{subsec:c_y and shear layers}.
+
+Comparison of the QSS and DNS predictions of maximum power,  showed similar trends where the maximum power increased when \ratio\ was decreased supporting the hypothesis was. Be that as it may the error between the QSS and FSI simulation increased drastically as \ratio\ was reduced. Further investigations carried out using time averaged flow-filed data concluded that the mean flow of FSI simulations had significant deviations from the DNS stationary simulations carried out at corresponding induced angles. This was a result of the body moving at high velocities leading to higher induced angles as \ratio\ was decreased. Therefore the primary assumption of QSS which is considering $F_y$ as the sole driving force of the system was no longer valid as other significant non-linear forcing was present in the system. Yet, the QSS model could be used as a tool to obtain initial approximations to design galloping energy harvesting systems as QSS data produced similar trends as the FSI simulations.
+
+In order to obtain an efficient galloping, one key design consideration is to obtain a cross section which has the optimum balance of the negative and positive regions of the $\cy$ vs. $\theta$ curve. Delaying the reattachment throughtapering of the trailing edge leads to higher power. However, as it approaches a triangle, a negative region of $\cy$ emerges in the \cy\ curve and this leads to transfer of power from the body to the fluid. This region keeps on increasing between $0\leq\ratio\leq0.25$. Thus as a result an optimum \ratio should be obtained in order to get a balance between the negative and positive regions which leads to an optimal galloping energy harvesting system. 
+
+As for future research, more detailed investigation into the geometry and looking into reducing the negative region of the \cy\ would lead to further increase in power output. 
+
+ 
+
+      
+
+
+
+
