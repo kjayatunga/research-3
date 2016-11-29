@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  25 NOV 2016 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  29 NOV 2016 11:59
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -540,7 +540,11 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@cols=\count131
 \TX@ftn=\toks37
 )
-(./elsarticle-template-harv.aux)
+(./elsarticle-template-harv.aux
+
+LaTeX Warning: Label `fig:surf_pres' multiply defined.
+
+)
 \openout1 = `elsarticle-template-harv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
@@ -610,10 +614,34 @@ File: ./chapter-cross-sections/fnp/lift_curve_tri.eps Graphic file (type eps)
 Package natbib Warning: Citation `Luo1994' on page 2 undefined on input line 30
 .
 
-(./chapter-cross-sections/figures/power_curves.tex
+[2] [3] (./chapter-cross-sections/figures/power_curves.tex
 File: ./chapter-cross-sections/fnp/mean_power_hyb.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/mean_power_hyb.eps>)
+<./chapter-cross-sections/fnp/mean_power_hyb.eps>) [4] [5]
+
+LaTeX Warning: Reference `subsec:c_y and shear layers' on page 6 undefined on i
+nput line 58.
+
+
+LaTeX Warning: Reference `fig:shear-layer-sketch' on page 6 undefined on input 
+line 58.
+
+(./chapter-cross-sections/figures/surf-pres.tex
+File: ./chapter-cross-sections/fnp/surf-pres-tri-4.eps Graphic file (type eps)
+
+<./chapter-cross-sections/fnp/surf-pres-tri-4.eps>
+File: ./chapter-cross-sections/fnp/surf-pres-tri-16.eps Graphic file (type eps)
+
+
+<./chapter-cross-sections/fnp/surf-pres-tri-16.eps>
+File: ./chapter-cross-sections/fnp/surf-pres-tri-21.eps Graphic file (type eps)
+
+
+<./chapter-cross-sections/fnp/surf-pres-tri-21.eps>)
+
+LaTeX Warning: Reference `fig:induced_lift_sketch' on page 6 undefined on input
+ line 64.
+
 (./chapter-cross-sections/figures/surf-pres.tex
 File: ./chapter-cross-sections/fnp/surf-pres-tri-4.eps Graphic file (type eps)
 
@@ -681,19 +709,26 @@ File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 
 LaTeX Warning: Float too large for page by 2.43909pt on input line 38.
 
-)) [2] [3] [4] [5] [6] [7] [8] [9] [10]
+)) [6] [7] [8] [9] [10] [11] [12]
 No file elsarticle-template-harv.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-(./elsarticle-template-harv.aux) ) 
-Here is how much of TeX's memory you used:
- 12521 strings out of 493090
- 244823 string characters out of 6134868
- 299309 words of memory out of 5000000
- 15687 multiletter control sequences out of 15000+600000
- 12633 words of font info for 48 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 55i,10n,54p,972b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
+(./elsarticle-template-harv.aux)
 
-Output written on elsarticle-template-harv.dvi (10 pages, 23992 bytes).
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 12545 strings out of 493090
+ 245217 string characters out of 6134868
+ 293378 words of memory out of 5000000
+ 15701 multiletter control sequences out of 15000+600000
+ 15095 words of font info for 56 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,10n,54p,1321b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on elsarticle-template-harv.dvi (12 pages, 34376 bytes).
