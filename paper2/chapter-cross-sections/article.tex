@@ -84,16 +84,42 @@ The maximum velocity magnitude in the top wall jet at $\theta= 4^{\circ}$ (figur
 
 
 
+\subsection{Mean streamlines}
+\label{sec:streamlines}
+
+The magnitude of the strain rate tensor is an excellent way of the visualising the shear layers as the strain rate is directly proportional to the shear stress and hence, will be high in the shear layers. The instantaneous flow-field data consists of vortex shedding on top of the shear layers. Therefore, the flow-field data are time averaged over a vortex shedding cycle to filter out the vortex shedding . 
+
+The strain rate tensor of the flow can be expressed as,
+
+\begin{equation}
+\varphi = \frac{1}{2}
+\begin{bmatrix}
+2\frac{\partial u}{\partial x} & \frac{\partial u}{\partial y} + \frac{\partial v}{\partial x} \\
+\frac{\partial v}{\partial x} + \frac{\partial u}{\partial y} & 2\frac{\partial v}{\partial y} \\
+\end{bmatrix}
+\end{equation}
+
+thus the magnitude of the strain rate tensor becomes,
+%
+\begin{equation}
+|\varphi| = \frac{1}{2}\left(4\frac{\partial u}{\partial x}\frac{\partial v}{\partial y} + \left(\frac{\partial u}{\partial y} + \frac{\partial v}{\partial x}\right)^2\right)
+\end{equation}.
 
 
- 
- 
-\input{./chapter-cross-sections/figures/vel-profile.tex}
- 
- 
+\input{./chapter-cross-sections/figures/tri-stream-func.tex}
 
- 
- 
+Contours of the magnitude of the strain rate tensor of the time-averaged flow-fields of the stationary isosceles triangle are presented in figure \ref{fig:triangle-shear_layers}. Data present at $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$. It can be observed that the proximity of the bottom shear layer increases as $\theta$ is increased from $4^{\circ}-21^{\circ}$. 
+%
+
+Through a comparison of the pressure and velocity plot together with the flow-field data, it is clearly evident that two mechanisms govern the transverse forcing. 
+
+
+%By comparing the pressure and the velocity plots together with the flow-field data, it is evident that there are two mechanisms governing the transverse forcing. The first mechanism is the pressure difference in each shear layer, created as a result of the uneven distribution of the flow created due to the profile and  positioning (angle of attack) of the geometry. This uneven distribution creates a different speed wall jet on either side, and a simple consideration of Bernoulli's equation suggests the higher speed jet will have a lower pressure. This forcing occur out of phase or in the opposite direction of the transverse velocity of the body, as the lower speed (higher pressure) jet is formed on the lower side of the body (when the body is travelling down). The second mechanism is the relative proximity of the top and bottom shear layers. Regardless of the pressure in each shear layer, that pressure will have a larger influence on the force on the body the closer the shear layer is to the body. So, there are two ways to manipulate the force from the shear layers; increase the pressure difference between the shear layers by increasing the difference between the flow in each shear layer (a ``streaming effect''); move the shear layers closer or further from the body (the ``proximity effect'').
+%
+%Initially at $\theta= 4^{\circ}$ the streaming effect dominates. This can be observed comparing figures \ref{fig:triangle-shear_layers} (a) to (b) and (c). The  bottom shear layer is far from the body at $\theta= 4^{\circ}$, hence the proximity effect is low. This results in the negative \cy.   
+%
+%As $\theta$ is increased first to $\theta=16^{\circ}$ and then to $21^{\circ}$, the proximity of the bottom shear layer to the wall of the body increases (figure \ref{fig:triangle-shear_layers} (b) and (c)), and thus the proximity effect becomes more dominant. At least for the $\theta = 21^{\circ}$ case, this creates the positive region of the \cy\ vs. $\theta$ curve. 
+% 
  
  \input{./chapter-cross-sections/figures/tri-stream-func.tex}
  
