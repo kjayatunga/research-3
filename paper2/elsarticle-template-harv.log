@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  30 NOV 2016 09:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  30 NOV 2016 09:37
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -540,11 +540,7 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@cols=\count131
 \TX@ftn=\toks37
 )
-(./elsarticle-template-harv.aux
-
-LaTeX Warning: Label `fig:vel-profile' multiply defined.
-
-)
+(./elsarticle-template-harv.aux)
 \openout1 = `elsarticle-template-harv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
@@ -647,20 +643,7 @@ File: ./chapter-cross-sections/fnp/vel_prof-tri-21.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./chapter-cross-sections/figures/vel-profile.tex
-File: ./chapter-cross-sections/fnp/vel_prof-tri-4.eps Graphic file (type eps)
-
-<./chapter-cross-sections/fnp/vel_prof-tri-4.eps>
-File: ./chapter-cross-sections/fnp/vel_prof-tri-16.eps Graphic file (type eps)
-
-<./chapter-cross-sections/fnp/vel_prof-tri-16.eps>
-File: ./chapter-cross-sections/fnp/vel_prof-tri-21.eps Graphic file (type eps)
-
-<./chapter-cross-sections/fnp/vel_prof-tri-21.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chapter-cross-sections/figures/tri-stream-func.tex
+) [8] [9] (./chapter-cross-sections/figures/tri-stream-func.tex
 File: ./chapter-cross-sections/fnp/4.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/4.eps>
@@ -668,15 +651,25 @@ File: ./chapter-cross-sections/fnp/16.eps Graphic file (type eps)
  <./chapter-cross-sections/fnp/16.eps>
 File: ./chapter-cross-sections/fnp/21.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/21.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chapter-cross-sections/figures/fsi_time_sketch.tex
+<./chapter-cross-sections/fnp/21.eps>) [10]
+(./chapter-cross-sections/figures/fsi_time_sketch.tex
 File: ./chapter-cross-sections/fnp/fsi_flow_sketch.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/fsi_flow_sketch.eps>)
-(./chapter-cross-sections/figures/flow_filed_025.tex
+(./chapter-cross-sections/figures/qss-fsi-error-hyb.tex
+File: ./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps Graphic file (type eps
+)
+
+<./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps>
+
+LaTeX Warning: Reference `eqn:error_calculation' on page 11 undefined on input 
+line 16.
+
+
+LaTeX Warning: Reference `eqn:error_calculation' on page 11 undefined on input 
+line 16.
+
+) (./chapter-cross-sections/figures/flow_filed_025.tex
 File: ./chapter-cross-sections/fnp/fsi-0.25-1.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/fsi-0.25-1.eps>
@@ -698,7 +691,7 @@ File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 
 LaTeX Warning: Float too large for page by 2.43909pt on input line 38.
 
-)) [8] [9] [10] [11] [12] (./elsarticle-template-harv.bbl
+)) [11] [12] [13] (./elsarticle-template-harv.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 7.
 
@@ -706,20 +699,20 @@ Package natbib Warning: Empty `thebibliography' environment on input line 7.
 
 Package natbib Warning: There were undefined citations.
 
-[13
+[14
 
 ] (./elsarticle-template-harv.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12546 strings out of 493090
- 245213 string characters out of 6134868
- 292378 words of memory out of 5000000
- 15700 multiletter control sequences out of 15000+600000
- 15095 words of font info for 56 fonts, out of 8000000 for 9000
+ 12555 strings out of 493090
+ 245409 string characters out of 6134868
+ 292366 words of memory out of 5000000
+ 15706 multiletter control sequences out of 15000+600000
+ 15403 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,54p,1321b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,10n,54p,1387b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on elsarticle-template-harv.dvi (13 pages, 36112 bytes).
+Output written on elsarticle-template-harv.dvi (14 pages, 41228 bytes).

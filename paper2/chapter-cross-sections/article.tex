@@ -81,9 +81,6 @@ The maximum velocity magnitude in the top wall jet at $\theta= 4^{\circ}$ (figur
 
 
 
-
-
-
 \subsection{Mean streamlines}
 \label{sec:streamlines}
 
@@ -111,19 +108,36 @@ thus the magnitude of the strain rate tensor becomes,
 Contours of the magnitude of the strain rate tensor of the time-averaged flow-fields of the stationary isosceles triangle are presented in figure \ref{fig:triangle-shear_layers}. Data present at $\theta=4^{\circ}$, $\theta=16^{\circ}$ and $\theta=21^{\circ}$. It can be observed that the proximity of the bottom shear layer increases as $\theta$ is increased from $4^{\circ}-21^{\circ}$. 
 %
 
-Through a comparison of the pressure and velocity plot together with the flow-field data, it is clearly evident that two mechanisms govern the transverse forcing. 
+Through a comparison of the pressure and velocity plot together with the flow-field data, it is clearly evident that two mechanisms govern the transverse forcing. The first mechanism is the pressure difference in each shear layer, created as a result of the uneven distribution of the flow created due to the profile and  positioning (angle of attack) of the geometry. This uneven distribution creates a different speed wall jet on either side, and a simple consideration of Bernoulli's equation suggests the higher speed jet will have a lower pressure. This forcing occur out of phase or in the opposite direction of the transverse velocity of the body, as the lower speed (higher pressure) jet is formed on the lower side of the body (when the body is travelling down). The second mechanism is the relative proximity of the top and bottom shear layers. Regardless of the pressure in each shear layer, that pressure will have a larger influence on the force on the body the closer the shear layer is to the body. So, there are two ways to manipulate the force from the shear layers; increase the pressure difference between the shear layers by increasing the difference between the flow in each shear layer (a ``streaming effect''); move the shear layers closer or further from the body (the ``proximity effect'').
 
+In the initial stage at $\theta= 4^{\circ}$ the streaming effect dominates. This can be clearly observed though a comparison of figures \ref{fig:triangle-shear_layers} (a) to (b) and (c). As the bottom shear layer is far from the body as $\theta= 4^{\circ}$ the proximity effect low and hence, results in negative \cy. 
 
-%By comparing the pressure and the velocity plots together with the flow-field data, it is evident that there are two mechanisms governing the transverse forcing. The first mechanism is the pressure difference in each shear layer, created as a result of the uneven distribution of the flow created due to the profile and  positioning (angle of attack) of the geometry. This uneven distribution creates a different speed wall jet on either side, and a simple consideration of Bernoulli's equation suggests the higher speed jet will have a lower pressure. This forcing occur out of phase or in the opposite direction of the transverse velocity of the body, as the lower speed (higher pressure) jet is formed on the lower side of the body (when the body is travelling down). The second mechanism is the relative proximity of the top and bottom shear layers. Regardless of the pressure in each shear layer, that pressure will have a larger influence on the force on the body the closer the shear layer is to the body. So, there are two ways to manipulate the force from the shear layers; increase the pressure difference between the shear layers by increasing the difference between the flow in each shear layer (a ``streaming effect''); move the shear layers closer or further from the body (the ``proximity effect'').
-%
-%Initially at $\theta= 4^{\circ}$ the streaming effect dominates. This can be observed comparing figures \ref{fig:triangle-shear_layers} (a) to (b) and (c). The  bottom shear layer is far from the body at $\theta= 4^{\circ}$, hence the proximity effect is low. This results in the negative \cy.   
-%
-%As $\theta$ is increased first to $\theta=16^{\circ}$ and then to $21^{\circ}$, the proximity of the bottom shear layer to the wall of the body increases (figure \ref{fig:triangle-shear_layers} (b) and (c)), and thus the proximity effect becomes more dominant. At least for the $\theta = 21^{\circ}$ case, this creates the positive region of the \cy\ vs. $\theta$ curve. 
-% 
+   
+As $\theta$ is increased first to $\theta=16^{\circ}$ and then to $21^{\circ}$, the proximity effect becomes more dominant, as the proximity of the bottom shear layer to the wall of the body increases (figure \ref{fig:triangle-shear_layers} (b) and (c)). At least for the $\theta = 21^{\circ}$ case, this creates the positive region of the \cy\ vs. $\theta$ curve. 
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
  
- \input{./chapter-cross-sections/figures/tri-stream-func.tex}
+ \section{Fluid-structure interaction (DNS) results}
+ \label{sec:FSI-results}
  
  \input{./chapter-cross-sections/figures/fsi_time_sketch.tex}
+ 
+ 
+ 
+ 
+%  The main limitation of the QSS model as discussed in section \ref{sec:dns} is considering the induced transverse force $F_{y}$ as the sole driving force of the system, generated by the relative proximity of the shear layers (refer section \ref{subsec:c_y and shear layers}). However, it was concluded in chapter \ref{chap:pi_1_pi2} the QSS model provides good agreement between QSS and DNS for power at high \massstiff\ for the square cross section, even though the relative error increased as \massstiff\ decreased due to the significant influence of vortex shedding.
+%  
+%  
+%  A comparison study between QSS and DNS mean power was carried out on the different cross sections considered at high \massstiff\ (i.e.$\massstiff=1000$) and presented in figure \ref{fig:DNS-power}.
+%  \input{./chapter-cross-sections/figures/cross-sec-dns-power.tex}
+%  
+%  Both  DNS and QSS mean power data (figure \ref{fig:DNS-power}) show similar trends. The maximum mean extracted power increases as \ratio\ is decreased. These trends provide a reinforcement to the hypothesis of attaining a higher power output through inhibition of the shear layer reattachment.   
+%  
+%  However, a significant error (calculated using equation \ref{eqn:error_calculation}) between QSS and DNS power could be observed as \ratio\ decreases. The quantified errors presented in figure \ref{fig:error-hybrid} shows an almost linear increase in the $\%$ error as $\ratio \rightarrow 0.25$, with a maximum error of $35\%$.
+%  
+ \input{./chapter-cross-sections/figures/qss-fsi-error-hyb.tex}
+ 
+ 
  
  
  \input{./chapter-cross-sections/figures/flow_filed_025.tex}
