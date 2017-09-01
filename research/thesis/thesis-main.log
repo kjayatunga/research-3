@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  16 NOV 2016 22:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.3)  27 APR 2017 14:14
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1209,8 +1209,11 @@ File: ./chapter-cross-sections/fnp/hybrid_section.eps Graphic file (type eps)
 Underfull \vbox (badness 4621) has occurred while \output is active []
 
  [80])
-[81] (./chapter-cross-sections/figures/coefficient-table.tex) [82]
-(./chapter-cross-sections/figures/lift_curves.tex
+[81] (./chapter-cross-sections/figures/coefficient-table.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chapter-cross-sections/figures/lift_curves.tex
 File: ./chapter-cross-sections/fnp/lift_curve_sq.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/lift_curve_sq.eps>
@@ -1225,12 +1228,15 @@ File: ./chapter-cross-sections/fnp/lift_curve_025.eps Graphic file (type eps)
 <./chapter-cross-sections/fnp/lift_curve_025.eps>
 File: ./chapter-cross-sections/fnp/lift_curve_tri.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/lift_curve_tri.eps>) [83]
+<./chapter-cross-sections/fnp/lift_curve_tri.eps>)
 (./chapter-cross-sections/figures/power_curves.tex
 File: ./chapter-cross-sections/fnp/mean_power_hyb.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/mean_power_hyb.eps>) [84] [85]
-(./chapter-cross-sections/figures/surf-pres.tex
+<./chapter-cross-sections/fnp/mean_power_hyb.eps>)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82]
+[83] [84] [85] (./chapter-cross-sections/figures/surf-pres.tex
 File: ./chapter-cross-sections/fnp/surf-pres-tri-4.eps Graphic file (type eps)
 
 <./chapter-cross-sections/fnp/surf-pres-tri-4.eps>
@@ -1271,17 +1277,24 @@ File: ./chapter-cross-sections/fnp/16.eps Graphic file (type eps)
  <./chapter-cross-sections/fnp/16.eps>
 File: ./chapter-cross-sections/fnp/21.eps Graphic file (type eps)
 
-<./chapter-cross-sections/fnp/21.eps>) [90]
+<./chapter-cross-sections/fnp/21.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [90]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [91]
 (./chapter-cross-sections/figures/cross-sec-dns-power.tex
 File: ./chapter-cross-sections/fnp/qss-dns-mean-power.eps Graphic file (type ep
 s)
 
-<./chapter-cross-sections/fnp/qss-dns-mean-power.eps>) [91]
+<./chapter-cross-sections/fnp/qss-dns-mean-power.eps>) [92]
 (./chapter-cross-sections/figures/qss-fsi-error-hyb.tex
 File: ./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps Graphic file (type eps
 )
 
-<./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps>) [92]
+<./chapter-cross-sections/fnp/qss-dns-pow-erroe.eps>) [93]
 (./chapter-cross-sections/figures/fsi_time_sketch.tex
 File: ./chapter-cross-sections/fnp/fsi_flow_sketch.eps Graphic file (type eps)
 
@@ -1308,7 +1321,7 @@ File: ./chapter-cross-sections/fnp/qss-0.25-3.eps Graphic file (type eps)
 
 LaTeX Warning: Float too large for page by 14.0286pt on input line 38.
 
-) [93] [94] [95] [96] [97]) (./chapter-conclusions/conclusions.tex [98]
+) [94] [95] [96] [97]) (./chapter-conclusions/conclusions.tex [98]
 Chapter 6.
 [99
 
@@ -1335,4 +1348,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,2409b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-main.dvi (123 pages, 382632 bytes).
+Output written on thesis-main.dvi (123 pages, 382324 bytes).
